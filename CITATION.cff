@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the versioned release you used. Text is CC BY 4.0; code is MIT."
+title: "Digital Humanities Handbook / Priročnik za digitalno humanistiko"
+type: book
+authors:
+  - family-names: "Popič"
+    given-names: "Damjan"
+version: "0.1.0"
+date-released: "2026-07-20"
+url: "https://damjan-popic.github.io/digital-humanities-handbook/"
+repository-code: "https://github.com/damjan-popic/digital-humanities-handbook"
+license: CC-BY-4.0
+preferred-citation:
+  type: book
+  title: "Digital Humanities Handbook / Priročnik za digitalno humanistiko"
+  authors:
+    - family-names: "Popič"
+      given-names: "Damjan"
+  year: 2026
+  version: "0.1.0"
+  url: "https://damjan-popic.github.io/digital-humanities-handbook/"

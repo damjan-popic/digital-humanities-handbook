@@ -1,0 +1,4 @@
+id,title,year,text
+001,First text,2024,"This is a short text."
+002,Second text,2025,"This is another short text."
+003,Messy text,,"This row has a missing year."

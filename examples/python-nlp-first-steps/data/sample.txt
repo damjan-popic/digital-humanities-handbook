@@ -1,0 +1,4 @@
+Digital humanities starts with small, inspectable steps.
+Python can read this file.
+Python can also write a changed version.
+Č, Š, Ž, č, š, ž should survive the workflow.

@@ -1,0 +1,39 @@
+name: Propose or claim a workflow
+about: Add one bounded, reproducible humanities workflow.
+title: "Workflow: How do I ...? / Kako ...?"
+labels: [content, workflow]
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options: [English, Slovene, Paired English and Slovene]
+    validations:
+      required: true
+  - type: input
+    id: question
+    attributes:
+      label: Practical question
+      placeholder: How do I clean OCR errors in a historical Slovene corpus?
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Audience and research situation
+      description: Who needs this, with which material and why?
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: Minimal example and test plan
+      description: Name the input, expected output and validation step.
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: Rights, privacy, ethics and known limits
+    validations:
+      required: true

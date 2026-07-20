@@ -1,0 +1,33 @@
+name: Translate or review a page
+about: Claim a Slovene translation, revise terminology or report drift between languages.
+title: "Translation: "
+labels: [translation]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Source page path
+      placeholder: docs/en/workflows/text-analysis/...
+    validations:
+      required: true
+  - type: dropdown
+    id: task
+    attributes:
+      label: Task
+      options: [New Slovene version, Language review, Terminology review, Synchronize changed source]
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Terminology and disciplinary notes
+      description: Flag terms that should be discussed rather than translated mechanically.
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Contribution conditions
+      options:
+        - label: I will translate from the current source revision and record it in the page metadata or PR.
+          required: true
+        - label: I agree that accepted prose is published under CC BY 4.0.
+          required: true

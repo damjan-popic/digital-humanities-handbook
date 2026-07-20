@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Web text harvesting",
+    "slug": "text-harvester",
+    "repo": "https://github.com/damjan-popic/text_harvester",
+    "area": "corpus building",
+    "language": "Python",
+    "status": "worked example",
+    "page": "case-studies/text-harvester.md"
+  },
+  {
+    "name": "Corpus conversion and CLASSLA annotation",
+    "slug": "corpus-augmenter",
+    "repo": "https://github.com/damjan-popic/corpus_augmenter",
+    "area": "corpus annotation",
+    "language": "Python",
+    "status": "worked example",
+    "page": "case-studies/corpus-augmenter.md"
+  },
+  {
+    "name": "Slovene Wikisource corpus build pipeline",
+    "slug": "wikivir",
+    "repo": "https://github.com/damjan-popic/wikivir",
+    "area": "corpus construction",
+    "language": "Python",
+    "status": "reference architecture",
+    "page": "case-studies/wikivir.md"
+  },
+  {
+    "name": "Learner-corpus lexical analysis",
+    "slug": "korpus-solar-analysis",
+    "repo": "https://github.com/damjan-popic/korpus-solar-analysis",
+    "area": "corpus analysis",
+    "language": "Python",
+    "status": "project-specific pipeline",
+    "page": "case-studies/korpus-solar-analysis.md"
+  },
+  {
+    "name": "Dialogue corpus tabulation and lexical-diversity analysis",
+    "slug": "pracomul",
+    "repo": "https://github.com/damjan-popic/pracomul",
+    "area": "dialogue corpus analysis",
+    "language": "Python / notebook",
+    "status": "worked example",
+    "page": "case-studies/pracomul.md"
+  },
+  {
+    "name": "Medieval notarial NER workflow",
+    "slug": "medieval-ner",
+    "repo": "https://github.com/damjan-popic/medieval-ner",
+    "area": "historical NLP",
+    "language": "Python",
+    "status": "blueprint and pilot workflow",
+    "page": "case-studies/medieval-ner.md"
+  },
+  {
+    "name": "Static knowledge graph, map, and corpus index",
+    "slug": "ladakh-relations",
+    "repo": "https://github.com/damjan-popic/ladakh-relations",
+    "area": "knowledge graph and static DH site",
+    "language": "Python / JavaScript",
+    "status": "static-site pipeline",
+    "page": "case-studies/ladakh-relations.md"
+  },
+  {
+    "name": "Website crawler and chatbot corpus builder",
+    "slug": "fifi",
+    "repo": "https://github.com/damjan-popic/fifi",
+    "area": "crawler and RAG preparation",
+    "language": "Python",
+    "status": "worked example",
+    "page": "case-studies/fifi.md"
+  },
+  {
+    "name": "Source-grounded Slovenian language advisor",
+    "slug": "jezikovni-svetovalec",
+    "repo": "https://github.com/damjan-popic/jezikovni-svetovalec",
+    "area": "source-grounded language advisor",
+    "language": "Python / Markdown wiki",
+    "status": "rights-cautious architecture",
+    "page": "case-studies/jezikovni-svetovalec.md"
+  },
+  {
+    "name": "Slovenian comma-checking Word add-in",
+    "slug": "vejice-add-in",
+    "repo": "https://github.com/damjan-popic/Vejice_add_in",
+    "area": "writing assistant application",
+    "language": "JavaScript",
+    "status": "application code",
+    "page": "case-studies/vejice-add-in.md"
+  },
+  {
+    "name": "User/AI transcript analysis",
+    "slug": "createai",
+    "repo": "https://github.com/damjan-popic/createAI",
+    "area": "transcript analysis",
+    "language": "Python",
+    "status": "workflow repository",
+    "page": "case-studies/createai.md"
+  }
+]

@@ -1,0 +1,698 @@
+[
+  {
+    "n": 1,
+    "title": "How do I turn an Excel glossary into TBX?",
+    "category": "terminology",
+    "difficulty": "beginner",
+    "time": "15–25 min",
+    "tags": [
+      "terminology",
+      "TBX",
+      "glossary",
+      "Excel",
+      "beginner"
+    ],
+    "slug": "turn-an-excel-glossary-into-tbx",
+    "path": "workflows/terminology/turn-an-excel-glossary-into-tbx.md"
+  },
+  {
+    "n": 2,
+    "title": "How do I clean a glossary in Excel Power Query?",
+    "category": "terminology",
+    "difficulty": "beginner",
+    "time": "20–40 min",
+    "tags": [
+      "terminology",
+      "Excel",
+      "Power Query",
+      "data cleaning"
+    ],
+    "slug": "clean-a-glossary-in-excel-power-query",
+    "path": "workflows/terminology/clean-a-glossary-in-excel-power-query.md"
+  },
+  {
+    "n": 3,
+    "title": "How do I validate a TBX file before publishing it?",
+    "category": "terminology",
+    "difficulty": "beginner",
+    "time": "10–20 min",
+    "tags": [
+      "terminology",
+      "TBX",
+      "XML",
+      "validation"
+    ],
+    "slug": "validate-a-tbx-file-before-publishing-it",
+    "path": "workflows/terminology/validate-a-tbx-file-before-publishing-it.md"
+  },
+  {
+    "n": 4,
+    "title": "How do I convert TBX for SDL/RWS MultiTerm?",
+    "category": "terminology",
+    "difficulty": "intermediate",
+    "time": "20–45 min",
+    "tags": [
+      "terminology",
+      "TBX",
+      "MultiTerm",
+      "CAT tools"
+    ],
+    "slug": "convert-tbx-for-sdl-rws-multiterm",
+    "path": "workflows/terminology/convert-tbx-for-sdl-rws-multiterm.md"
+  },
+  {
+    "n": 5,
+    "title": "How do I version-control a termbase with Git?",
+    "category": "terminology",
+    "difficulty": "intermediate",
+    "time": "30–60 min",
+    "tags": [
+      "terminology",
+      "Git",
+      "version control",
+      "collaboration"
+    ],
+    "slug": "version-control-a-termbase-with-git",
+    "path": "workflows/terminology/version-control-a-termbase-with-git.md"
+  },
+  {
+    "n": 6,
+    "title": "How do I import a termbase into memoQ?",
+    "category": "cat-tools",
+    "difficulty": "beginner",
+    "time": "10–25 min",
+    "tags": [
+      "memoQ",
+      "terminology",
+      "CAT tools",
+      "TBX"
+    ],
+    "slug": "import-a-termbase-into-memoq",
+    "path": "workflows/cat-tools/import-a-termbase-into-memoq.md"
+  },
+  {
+    "n": 7,
+    "title": "How do I run forbidden-term QA in a CAT tool?",
+    "category": "terminology",
+    "difficulty": "intermediate",
+    "time": "20–40 min",
+    "tags": [
+      "terminology",
+      "QA",
+      "CAT tools",
+      "controlled language"
+    ],
+    "slug": "run-forbidden-term-qa-in-a-cat-tool",
+    "path": "workflows/terminology/run-forbidden-term-qa-in-a-cat-tool.md"
+  },
+  {
+    "n": 8,
+    "title": "How do I batch-convert subtitle formats?",
+    "category": "subtitling",
+    "difficulty": "beginner",
+    "time": "10–20 min",
+    "tags": [
+      "subtitles",
+      "SRT",
+      "VTT",
+      "Subtitle Edit",
+      "accessibility"
+    ],
+    "slug": "batch-convert-subtitle-formats",
+    "path": "workflows/subtitling/batch-convert-subtitle-formats.md"
+  },
+  {
+    "n": 9,
+    "title": "How do I auto-time subtitles with Whisper?",
+    "category": "subtitling",
+    "difficulty": "intermediate",
+    "time": "30–90 min",
+    "tags": [
+      "Whisper",
+      "subtitles",
+      "speech recognition",
+      "video"
+    ],
+    "slug": "auto-time-subtitles-with-whisper",
+    "path": "workflows/subtitling/auto-time-subtitles-with-whisper.md"
+  },
+  {
+    "n": 10,
+    "title": "How do I translate subtitles and package them with video?",
+    "category": "subtitling",
+    "difficulty": "intermediate",
+    "time": "45–90 min",
+    "tags": [
+      "subtitles",
+      "translation",
+      "DeepL",
+      "MKVToolNix",
+      "video"
+    ],
+    "slug": "translate-subtitles-and-package-them-with-video",
+    "path": "workflows/subtitling/translate-subtitles-and-package-them-with-video.md"
+  },
+  {
+    "n": 11,
+    "title": "How do I standardise project file names?",
+    "category": "automation",
+    "difficulty": "beginner",
+    "time": "15–30 min",
+    "tags": [
+      "file management",
+      "automation",
+      "reproducibility",
+      "naming"
+    ],
+    "slug": "standardise-project-file-names",
+    "path": "workflows/automation/standardise-project-file-names.md"
+  },
+  {
+    "n": 12,
+    "title": "How do I align bilingual documents with LF Aligner?",
+    "category": "cat-tools",
+    "difficulty": "intermediate",
+    "time": "30–60 min",
+    "tags": [
+      "alignment",
+      "translation memory",
+      "LF Aligner",
+      "parallel corpus"
+    ],
+    "slug": "align-bilingual-documents-with-lf-aligner",
+    "path": "workflows/cat-tools/align-bilingual-documents-with-lf-aligner.md"
+  },
+  {
+    "n": 13,
+    "title": "How do I build a translation memory with OmegaT?",
+    "category": "cat-tools",
+    "difficulty": "beginner",
+    "time": "30–60 min",
+    "tags": [
+      "OmegaT",
+      "translation memory",
+      "CAT tools"
+    ],
+    "slug": "build-a-translation-memory-with-omegat",
+    "path": "workflows/cat-tools/build-a-translation-memory-with-omegat.md"
+  },
+  {
+    "n": 14,
+    "title": "How do I extract term candidates with AntConc?",
+    "category": "terminology",
+    "difficulty": "beginner",
+    "time": "25–45 min",
+    "tags": [
+      "AntConc",
+      "terminology",
+      "corpus",
+      "keywords"
+    ],
+    "slug": "extract-term-candidates-with-antconc",
+    "path": "workflows/terminology/extract-term-candidates-with-antconc.md"
+  },
+  {
+    "n": 15,
+    "title": "How do I generate terminology with Termostat?",
+    "category": "terminology",
+    "difficulty": "intermediate",
+    "time": "30–60 min",
+    "tags": [
+      "Termostat",
+      "terminology",
+      "contrastive corpus",
+      "keywords"
+    ],
+    "slug": "generate-terminology-with-termostat",
+    "path": "workflows/terminology/generate-terminology-with-termostat.md"
+  },
+  {
+    "n": 16,
+    "title": "How do I make a custom stop-word list for spaCy?",
+    "category": "automation",
+    "difficulty": "intermediate",
+    "time": "25–50 min",
+    "tags": [
+      "spaCy",
+      "preprocessing",
+      "stop words",
+      "NLP"
+    ],
+    "slug": "make-a-custom-stop-word-list-for-spacy",
+    "path": "workflows/automation/make-a-custom-stop-word-list-for-spacy.md"
+  },
+  {
+    "n": 17,
+    "title": "How do I annotate a corpus with UDPipe?",
+    "category": "nlp",
+    "difficulty": "intermediate",
+    "time": "30–60 min",
+    "tags": [
+      "UDPipe",
+      "POS tagging",
+      "lemmatization",
+      "dependency parsing",
+      "CoNLL-U"
+    ],
+    "slug": "annotate-a-corpus-with-udpipe",
+    "path": "workflows/nlp/annotate-a-corpus-with-udpipe.md"
+  },
+  {
+    "n": 18,
+    "title": "How do I query a corpus with CQPweb?",
+    "category": "corpora",
+    "difficulty": "advanced",
+    "time": "45–90 min",
+    "tags": [
+      "CQPweb",
+      "corpus query",
+      "KWIC",
+      "CQP"
+    ],
+    "slug": "query-a-corpus-with-cqpweb",
+    "path": "workflows/corpora/query-a-corpus-with-cqpweb.md"
+  },
+  {
+    "n": 19,
+    "title": "How do I visualise a frequency list with Voyant?",
+    "category": "visualization",
+    "difficulty": "beginner",
+    "time": "15–30 min",
+    "tags": [
+      "Voyant",
+      "visualization",
+      "word frequency",
+      "corpus"
+    ],
+    "slug": "visualise-a-frequency-list-with-voyant",
+    "path": "workflows/visualization/visualise-a-frequency-list-with-voyant.md"
+  },
+  {
+    "n": 20,
+    "title": "How do I compare meanings across languages with fastText embeddings?",
+    "category": "nlp",
+    "difficulty": "advanced",
+    "time": "60–120 min",
+    "tags": [
+      "fastText",
+      "embeddings",
+      "cross-lingual",
+      "semantics"
+    ],
+    "slug": "compare-meanings-across-languages-with-fasttext-embeddings",
+    "path": "workflows/nlp/compare-meanings-across-languages-with-fasttext-embeddings.md"
+  },
+  {
+    "n": 21,
+    "title": "How do I scrape a single-topic website into a mini corpus?",
+    "category": "corpora",
+    "difficulty": "intermediate",
+    "time": "45–90 min",
+    "tags": [
+      "web scraping",
+      "corpus building",
+      "BeautifulSoup",
+      "ethics"
+    ],
+    "slug": "scrape-a-single-topic-website-into-a-mini-corpus",
+    "path": "workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md"
+  },
+  {
+    "n": 22,
+    "title": "How do I bulk-download PDFs and OCR them?",
+    "category": "pdf",
+    "difficulty": "intermediate",
+    "time": "60–120 min",
+    "tags": [
+      "PDF",
+      "OCR",
+      "Tesseract",
+      "archives",
+      "corpus"
+    ],
+    "slug": "bulk-download-pdfs-and-ocr-them",
+    "path": "workflows/pdf/bulk-download-pdfs-and-ocr-them.md"
+  },
+  {
+    "n": 23,
+    "title": "How do I filter Common Crawl with CC-Net?",
+    "category": "corpora",
+    "difficulty": "advanced",
+    "time": "half day+",
+    "tags": [
+      "Common Crawl",
+      "CC-Net",
+      "large corpora",
+      "web data"
+    ],
+    "slug": "filter-common-crawl-with-cc-net",
+    "path": "workflows/corpora/filter-common-crawl-with-cc-net.md"
+  },
+  {
+    "n": 24,
+    "title": "How do I deduplicate corpus text with MinHash?",
+    "category": "corpora",
+    "difficulty": "advanced",
+    "time": "45–120 min",
+    "tags": [
+      "deduplication",
+      "MinHash",
+      "corpus cleaning",
+      "Python"
+    ],
+    "slug": "deduplicate-corpus-text-with-minhash",
+    "path": "workflows/corpora/deduplicate-corpus-text-with-minhash.md"
+  },
+  {
+    "n": 25,
+    "title": "How do I filter a corpus by language with fastText?",
+    "category": "corpora",
+    "difficulty": "intermediate",
+    "time": "30–60 min",
+    "tags": [
+      "language identification",
+      "fastText",
+      "corpus cleaning",
+      "preprocessing"
+    ],
+    "slug": "filter-a-corpus-by-language-with-fasttext",
+    "path": "workflows/corpora/filter-a-corpus-by-language-with-fasttext.md"
+  },
+  {
+    "n": 26,
+    "title": "How do I build a collocation graph from AntConc to Cytoscape?",
+    "category": "visualization",
+    "difficulty": "intermediate",
+    "time": "45–90 min",
+    "tags": [
+      "collocation",
+      "network",
+      "AntConc",
+      "Cytoscape",
+      "visualization"
+    ],
+    "slug": "build-a-collocation-graph-from-antconc-to-cytoscape",
+    "path": "workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape.md"
+  },
+  {
+    "n": 27,
+    "title": "How do I make a dispersion plot in LancsBox?",
+    "category": "visualization",
+    "difficulty": "beginner",
+    "time": "20–40 min",
+    "tags": [
+      "LancsBox",
+      "dispersion plot",
+      "corpus",
+      "visualization"
+    ],
+    "slug": "make-a-dispersion-plot-in-lancsbox",
+    "path": "workflows/visualization/make-a-dispersion-plot-in-lancsbox.md"
+  },
+  {
+    "n": 28,
+    "title": "How do I extract named entities with spaCy?",
+    "category": "nlp",
+    "difficulty": "intermediate",
+    "time": "30–60 min",
+    "tags": [
+      "spaCy",
+      "NER",
+      "named entities",
+      "Python"
+    ],
+    "slug": "extract-named-entities-with-spacy",
+    "path": "workflows/nlp/extract-named-entities-with-spacy.md"
+  },
+  {
+    "n": 29,
+    "title": "How do I sentence-align EuroParl with hunalign?",
+    "category": "corpora",
+    "difficulty": "advanced",
+    "time": "60–120 min",
+    "tags": [
+      "alignment",
+      "EuroParl",
+      "hunalign",
+      "parallel corpus"
+    ],
+    "slug": "sentence-align-europarl-with-hunalign",
+    "path": "workflows/corpora/sentence-align-europarl-with-hunalign.md"
+  },
+  {
+    "n": 30,
+    "title": "How do I harvest bilingual subtitles responsibly?",
+    "category": "subtitling",
+    "difficulty": "advanced",
+    "time": "60–120 min",
+    "tags": [
+      "subtitles",
+      "parallel corpus",
+      "OpenSubtitles",
+      "ethics"
+    ],
+    "slug": "harvest-bilingual-subtitles-responsibly",
+    "path": "workflows/subtitling/harvest-bilingual-subtitles-responsibly.md"
+  },
+  {
+    "n": 31,
+    "title": "How do I create back-translated data with OPUS-MT?",
+    "category": "mt-eval",
+    "difficulty": "advanced",
+    "time": "60–180 min",
+    "tags": [
+      "machine translation",
+      "back-translation",
+      "OPUS-MT",
+      "data augmentation"
+    ],
+    "slug": "create-back-translated-data-with-opus-mt",
+    "path": "workflows/mt-eval/create-back-translated-data-with-opus-mt.md"
+  },
+  {
+    "n": 32,
+    "title": "How do I evaluate machine translation with COMET?",
+    "category": "mt-eval",
+    "difficulty": "advanced",
+    "time": "45–120 min",
+    "tags": [
+      "machine translation",
+      "COMET",
+      "evaluation",
+      "metrics"
+    ],
+    "slug": "evaluate-machine-translation-with-comet",
+    "path": "workflows/mt-eval/evaluate-machine-translation-with-comet.md"
+  },
+  {
+    "n": 33,
+    "title": "How do I separate speakers with pyannote?",
+    "category": "audio",
+    "difficulty": "advanced",
+    "time": "45–120 min",
+    "tags": [
+      "audio",
+      "speaker diarisation",
+      "pyannote",
+      "transcription"
+    ],
+    "slug": "separate-speakers-with-pyannote",
+    "path": "workflows/audio/separate-speakers-with-pyannote.md"
+  },
+  {
+    "n": 34,
+    "title": "How do I burn subtitles into a video with FFmpeg?",
+    "category": "subtitling",
+    "difficulty": "intermediate",
+    "time": "20–45 min",
+    "tags": [
+      "FFmpeg",
+      "subtitles",
+      "video",
+      "accessibility"
+    ],
+    "slug": "burn-subtitles-into-a-video-with-ffmpeg",
+    "path": "workflows/subtitling/burn-subtitles-into-a-video-with-ffmpeg.md"
+  },
+  {
+    "n": 35,
+    "title": "How do I make an interactive term-frequency dashboard?",
+    "category": "visualization",
+    "difficulty": "intermediate",
+    "time": "45–90 min",
+    "tags": [
+      "dashboard",
+      "terminology",
+      "Observable",
+      "visualization"
+    ],
+    "slug": "make-an-interactive-term-frequency-dashboard",
+    "path": "workflows/visualization/make-an-interactive-term-frequency-dashboard.md"
+  },
+  {
+    "n": 36,
+    "title": "How do I create a sentence-similarity heat map?",
+    "category": "visualization",
+    "difficulty": "advanced",
+    "time": "60–120 min",
+    "tags": [
+      "sentence-transformers",
+      "heat map",
+      "semantic similarity",
+      "Python"
+    ],
+    "slug": "create-a-sentence-similarity-heat-map",
+    "path": "workflows/visualization/create-a-sentence-similarity-heat-map.md"
+  },
+  {
+    "n": 37,
+    "title": "How do I package a corpus with FAIR metadata?",
+    "category": "publishing",
+    "difficulty": "intermediate",
+    "time": "60–120 min",
+    "tags": [
+      "FAIR",
+      "metadata",
+      "corpus",
+      "Zenodo",
+      "publishing"
+    ],
+    "slug": "package-a-corpus-with-fair-metadata",
+    "path": "workflows/publishing/package-a-corpus-with-fair-metadata.md"
+  },
+  {
+    "n": 38,
+    "title": "How do I automate a linguistic workflow with a Makefile?",
+    "category": "automation",
+    "difficulty": "intermediate",
+    "time": "45–90 min",
+    "tags": [
+      "Makefile",
+      "automation",
+      "reproducibility",
+      "workflow"
+    ],
+    "slug": "automate-a-linguistic-workflow-with-a-makefile",
+    "path": "workflows/automation/automate-a-linguistic-workflow-with-a-makefile.md"
+  },
+  {
+    "n": 39,
+    "title": "How do I turn messy humanities notes into a reusable dataset?",
+    "category": "data-wrangling",
+    "difficulty": "beginner",
+    "time": "45–90 min",
+    "tags": [
+      "data modeling",
+      "metadata",
+      "messy data",
+      "humanities"
+    ],
+    "slug": "turn-messy-humanities-notes-into-a-reusable-dataset",
+    "path": "workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md"
+  },
+  {
+    "n": 40,
+    "title": "How do I make a tiny digital edition of a historical text?",
+    "category": "editions",
+    "difficulty": "beginner",
+    "time": "60–120 min",
+    "tags": [
+      "digital edition",
+      "transcription",
+      "TEI",
+      "archives"
+    ],
+    "slug": "make-a-tiny-digital-edition-of-a-historical-text",
+    "path": "workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md"
+  },
+  {
+    "n": 41,
+    "title": "How do I map places mentioned in a text?",
+    "category": "mapping",
+    "difficulty": "beginner",
+    "time": "45–90 min",
+    "tags": [
+      "mapping",
+      "geocoding",
+      "literary geography",
+      "places"
+    ],
+    "slug": "map-places-mentioned-in-a-text",
+    "path": "workflows/mapping/map-places-mentioned-in-a-text.md"
+  },
+  {
+    "n": 42,
+    "title": "How do I audit AI output against source documents?",
+    "category": "ai",
+    "difficulty": "beginner",
+    "time": "30–60 min",
+    "tags": [
+      "AI",
+      "source criticism",
+      "evaluation",
+      "LLM"
+    ],
+    "slug": "audit-ai-output-against-source-documents",
+    "path": "workflows/ai/audit-ai-output-against-source-documents.md"
+  },
+  {
+    "n": 43,
+    "title": "How do I write a README for a humanities dataset?",
+    "category": "publishing",
+    "difficulty": "beginner",
+    "time": "30–60 min",
+    "tags": [
+      "README",
+      "dataset",
+      "documentation",
+      "FAIR"
+    ],
+    "slug": "write-a-readme-for-a-humanities-dataset",
+    "path": "workflows/publishing/write-a-readme-for-a-humanities-dataset.md"
+  },
+  {
+    "n": 44,
+    "title": "How do I visualise uncertainty in humanities data?",
+    "category": "visualization",
+    "difficulty": "intermediate",
+    "time": "45–90 min",
+    "tags": [
+      "uncertainty",
+      "visualization",
+      "metadata",
+      "humanities data"
+    ],
+    "slug": "visualise-uncertainty-in-humanities-data",
+    "path": "workflows/visualization/visualise-uncertainty-in-humanities-data.md"
+  },
+  {
+    "n": 45,
+    "title": "How do I decide whether a digitised source should be public?",
+    "category": "ethics",
+    "difficulty": "intermediate",
+    "time": "45–90 min",
+    "tags": [
+      "ethics",
+      "archives",
+      "privacy",
+      "digitisation"
+    ],
+    "slug": "decide-whether-a-digitised-source-should-be-public",
+    "path": "workflows/ethics/decide-whether-a-digitised-source-should-be-public.md"
+  },
+  {
+    "n": 46,
+    "title": "How do I build a simple cultural heritage map?",
+    "category": "mapping",
+    "difficulty": "beginner",
+    "time": "60–120 min",
+    "tags": [
+      "mapping",
+      "heritage",
+      "metadata",
+      "public history"
+    ],
+    "slug": "build-a-simple-cultural-heritage-map",
+    "path": "workflows/mapping/build-a-simple-cultural-heritage-map.md"
+  }
+]

@@ -1,0 +1,92 @@
+# Translation coverage
+
+- English Markdown pages: **123**
+- Slovene counterparts: **42**
+- Coverage: **34.1%**
+- English pages currently using fallback in Slovene: **81**
+
+The stable chapters and learning paths must remain fully paired. The inherited workflow library is translated incrementally; untranslated pages are served from the English default edition and are not counted as Slovene translations.
+
+## Missing Slovene counterparts
+
+- `case-studies/corpus-augmenter.md`
+- `case-studies/createai.md`
+- `case-studies/fifi.md`
+- `case-studies/jezikovni-svetovalec.md`
+- `case-studies/korpus-solar-analysis.md`
+- `case-studies/ladakh-relations.md`
+- `case-studies/medieval-ner.md`
+- `case-studies/pracomul.md`
+- `case-studies/text-harvester.md`
+- `case-studies/vejice-add-in.md`
+- `case-studies/wikivir.md`
+- `contribute/answer-template.md`
+- `contribute/data-model.md`
+- `contribute/project-template.md`
+- `contribute/style-guide.md`
+- `contribute/topic-template.md`
+- `howto/index.md`
+- `workflows/audio/index.md`
+- `workflows/audio/separate-speakers-with-pyannote.md`
+- `workflows/automation/automate-a-linguistic-workflow-with-a-makefile.md`
+- `workflows/automation/index.md`
+- `workflows/automation/make-a-custom-stop-word-list-for-spacy.md`
+- `workflows/automation/standardise-project-file-names.md`
+- `workflows/cat-tools/align-bilingual-documents-with-lf-aligner.md`
+- `workflows/cat-tools/build-a-translation-memory-with-omegat.md`
+- `workflows/cat-tools/import-a-termbase-into-memoq.md`
+- `workflows/cat-tools/index.md`
+- `workflows/corpora/deduplicate-corpus-text-with-minhash.md`
+- `workflows/corpora/filter-a-corpus-by-language-with-fasttext.md`
+- `workflows/corpora/filter-common-crawl-with-cc-net.md`
+- `workflows/corpora/index.md`
+- `workflows/corpora/query-a-corpus-with-cqpweb.md`
+- `workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md`
+- `workflows/corpora/sentence-align-europarl-with-hunalign.md`
+- `workflows/editions/index.md`
+- `workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md`
+- `workflows/ethics/decide-whether-a-digitised-source-should-be-public.md`
+- `workflows/ethics/index.md`
+- `workflows/mapping/build-a-simple-cultural-heritage-map.md`
+- `workflows/mt-eval/create-back-translated-data-with-opus-mt.md`
+- `workflows/mt-eval/evaluate-machine-translation-with-comet.md`
+- `workflows/mt-eval/index.md`
+- `workflows/nlp/annotate-a-corpus-with-udpipe.md`
+- `workflows/nlp/compare-meanings-across-languages-with-fasttext-embeddings.md`
+- `workflows/nlp/create-a-python-312-virtual-environment.md`
+- `workflows/nlp/extract-named-entities-with-spacy.md`
+- `workflows/nlp/install-python-312-for-nlp.md`
+- `workflows/nlp/install-python-packages-with-pip.md`
+- `workflows/nlp/read-and-write-csv-files-with-pandas.md`
+- `workflows/nlp/read-and-write-text-files-in-python.md`
+- `workflows/nlp/run-a-python-script-from-terminal.md`
+- `workflows/nlp/structure-a-small-python-nlp-project.md`
+- `workflows/nlp/troubleshoot-python-venv-and-pip.md`
+- `workflows/nlp/use-the-python-nlp-starter-project.md`
+- `workflows/pdf/bulk-download-pdfs-and-ocr-them.md`
+- `workflows/pdf/index.md`
+- `workflows/publishing/index.md`
+- `workflows/publishing/package-a-corpus-with-fair-metadata.md`
+- `workflows/publishing/write-a-readme-for-a-humanities-dataset.md`
+- `workflows/subtitling/auto-time-subtitles-with-whisper.md`
+- `workflows/subtitling/batch-convert-subtitle-formats.md`
+- `workflows/subtitling/burn-subtitles-into-a-video-with-ffmpeg.md`
+- `workflows/subtitling/harvest-bilingual-subtitles-responsibly.md`
+- `workflows/subtitling/index.md`
+- `workflows/subtitling/translate-subtitles-and-package-them-with-video.md`
+- `workflows/terminology/clean-a-glossary-in-excel-power-query.md`
+- `workflows/terminology/convert-tbx-for-sdl-rws-multiterm.md`
+- `workflows/terminology/extract-term-candidates-with-antconc.md`
+- `workflows/terminology/generate-terminology-with-termostat.md`
+- `workflows/terminology/index.md`
+- `workflows/terminology/run-forbidden-term-qa-in-a-cat-tool.md`
+- `workflows/terminology/turn-an-excel-glossary-into-tbx.md`
+- `workflows/terminology/validate-a-tbx-file-before-publishing-it.md`
+- `workflows/terminology/version-control-a-termbase-with-git.md`
+- `workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape.md`
+- `workflows/visualization/create-a-sentence-similarity-heat-map.md`
+- `workflows/visualization/index.md`
+- `workflows/visualization/make-a-dispersion-plot-in-lancsbox.md`
+- `workflows/visualization/make-an-interactive-term-frequency-dashboard.md`
+- `workflows/visualization/visualise-a-frequency-list-with-voyant.md`
+- `workflows/visualization/visualise-uncertainty-in-humanities-data.md`
