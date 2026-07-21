@@ -5,19 +5,20 @@ The handbook core is not a sequence of software tutorials. It is a method curric
 ## Recommended sequence
 
 1. [What is digital humanities?](what-is-digital-humanities.md)
-2. [From question to method](research-design.md)
-3. [Data, metadata and models](data-metadata-models.md)
-4. [Texts, corpora and OCR](texts-corpora-ocr.md)
-5. [Linguistic annotation and CLASSLA](linguistic-annotation-classla.md)
-6. [Text analysis](text-analysis.md)
-7. [Topics, sentiment and emotion](topics-emotions-classification.md)
-8. [Databases and SQL](databases-sql.md)
-9. [GIS and spatial humanities](gis-spatial-humanities.md)
-10. [Networks and visualization](networks-visualization.md)
-11. [AI, ethics and reproducibility](ai-ethics-reproducibility.md)
-12. [The living open handbook](open-living-handbook.md)
+2. [Histories and genealogies of digital humanities](history-of-digital-humanities.md)
+3. [From question to method](research-design.md)
+4. [Data, metadata and models](data-metadata-models.md)
+5. [Texts, corpora and OCR](texts-corpora-ocr.md)
+6. [Linguistic annotation and CLASSLA](linguistic-annotation-classla.md)
+7. [Text analysis](text-analysis.md)
+8. [Topics, sentiment and emotion](topics-emotions-classification.md)
+9. [Databases and SQL](databases-sql.md)
+10. [GIS and spatial humanities](gis-spatial-humanities.md)
+11. [Networks and visualization](networks-visualization.md)
+12. [AI, ethics and reproducibility](ai-ethics-reproducibility.md)
+13. [The living open handbook](open-living-handbook.md)
 
-The sequence can be shortened. A foundational course may stop after chapter 4 and select practical workflows. An advanced text-analysis course should use chapters 2–7 and 11. A project course can combine chapters 2–3 with any method chapter and chapter 11.
+The sequence can be shortened. A foundational course may stop after chapter 5 and select practical workflows. An advanced text-analysis course should use chapters 3–8 and 12. A project course can combine chapters 3–4 with any method chapter and chapter 12.
 
 ## Page anatomy
 
