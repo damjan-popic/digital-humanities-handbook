@@ -31,7 +31,7 @@
   --dhh-panel-start: color-mix(in srgb, var(--dhh-paper) 92%, transparent);
   --dhh-panel-end: color-mix(in srgb, var(--dhh-ochre-light) 26%, transparent);
   --dhh-chip-bg: color-mix(in srgb, var(--dhh-paper-deep) 72%, transparent);
-  --dhh-focus-ring: var(--dhh-oxblood);
+  --dhh-focus-ring: var(--dhh-sage);
   --dhh-heading-color: var(--dhh-ink);
   --dhh-shadow-color: color-mix(in srgb, var(--dhh-oxblood-dark) 18%, transparent);
 }
@@ -66,7 +66,7 @@
   font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
 }
 
-:where(.md-typeset, .md-header, .md-tabs) :where(a, button, input, summary, [tabindex]):focus-visible,
+:is(.md-typeset, .md-header, .md-tabs) :where(a, button, input, summary, [tabindex]):focus-visible,
 input:focus-visible + label {
   border-radius: .2rem;
   outline: .16rem solid var(--dhh-focus-ring);
