@@ -1,19 +1,94 @@
-:root {
-  --dlp-hot: #f59e0b;
-  --dlp-purple: #7c3aed;
-  --dlp-blue: #0ea5e9;
-  --dlp-ink: #111827;
+:root > * {
+  --dhh-oxblood: #6b2737;
+  --dhh-oxblood-light: #8d4a59;
+  --dhh-oxblood-dark: #431722;
+  --dhh-ochre: #a06f32;
+  --dhh-ochre-light: #c49a5b;
+  --dhh-sage: #536b5f;
+  --dhh-paper: #f7f1e5;
+  --dhh-paper-deep: #eadfcd;
+  --dhh-ink: #2a2522;
+  --dhh-rule: #c9b79c;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--dhh-oxblood);
+  --md-primary-fg-color--light: var(--dhh-oxblood-light);
+  --md-primary-fg-color--dark: var(--dhh-oxblood-dark);
+  --md-primary-bg-color: var(--dhh-paper);
+  --md-primary-bg-color--light: color-mix(in srgb, var(--dhh-paper) 75%, transparent);
+  --md-accent-fg-color: var(--dhh-sage);
+  --md-default-bg-color: color-mix(in srgb, var(--dhh-paper) 36%, white);
+  --md-default-fg-color: var(--dhh-ink);
+  --md-default-fg-color--light: color-mix(in srgb, var(--dhh-ink) 68%, transparent);
+  --md-default-fg-color--lighter: color-mix(in srgb, var(--dhh-ink) 42%, transparent);
+  --md-default-fg-color--lightest: color-mix(in srgb, var(--dhh-ink) 12%, transparent);
+  --md-typeset-a-color: var(--dhh-oxblood);
+  --md-code-bg-color: color-mix(in srgb, var(--dhh-paper-deep) 55%, transparent);
+  --md-code-fg-color: var(--dhh-ink);
+  --md-admonition-bg-color: color-mix(in srgb, var(--dhh-paper) 58%, white);
+  --dhh-border-color: color-mix(in srgb, var(--dhh-rule) 80%, transparent);
+  --dhh-panel-start: color-mix(in srgb, var(--dhh-paper) 92%, transparent);
+  --dhh-panel-end: color-mix(in srgb, var(--dhh-ochre-light) 26%, transparent);
+  --dhh-chip-bg: color-mix(in srgb, var(--dhh-paper-deep) 72%, transparent);
+  --dhh-focus-ring: var(--dhh-sage);
+  --dhh-heading-color: var(--dhh-ink);
+  --dhh-shadow-color: color-mix(in srgb, var(--dhh-oxblood-dark) 18%, transparent);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--dhh-oxblood-dark);
+  --md-primary-fg-color--light: var(--dhh-oxblood);
+  --md-primary-fg-color--dark: color-mix(in srgb, var(--dhh-oxblood-dark) 78%, black);
+  --md-primary-bg-color: var(--dhh-paper);
+  --md-primary-bg-color--light: color-mix(in srgb, var(--dhh-paper) 72%, transparent);
+  --md-accent-fg-color: var(--dhh-ochre-light);
+  --md-default-bg-color: color-mix(in srgb, var(--dhh-ink) 92%, black);
+  --md-default-fg-color: var(--dhh-paper);
+  --md-default-fg-color--light: color-mix(in srgb, var(--dhh-paper) 70%, transparent);
+  --md-default-fg-color--lighter: color-mix(in srgb, var(--dhh-paper) 45%, transparent);
+  --md-default-fg-color--lightest: color-mix(in srgb, var(--dhh-paper) 14%, transparent);
+  --md-typeset-a-color: var(--dhh-ochre-light);
+  --md-code-bg-color: color-mix(in srgb, var(--dhh-paper-deep) 8%, transparent);
+  --md-code-fg-color: var(--dhh-paper);
+  --md-admonition-bg-color: color-mix(in srgb, var(--dhh-paper-deep) 7%, transparent);
+  --dhh-border-color: color-mix(in srgb, var(--dhh-rule) 42%, transparent);
+  --dhh-panel-start: color-mix(in srgb, var(--dhh-oxblood) 13%, transparent);
+  --dhh-panel-end: color-mix(in srgb, var(--dhh-ochre-light) 10%, transparent);
+  --dhh-chip-bg: color-mix(in srgb, var(--dhh-ochre-light) 14%, transparent);
+  --dhh-focus-ring: var(--dhh-ochre-light);
+  --dhh-heading-color: var(--dhh-paper);
+  --dhh-shadow-color: color-mix(in srgb, black 34%, transparent);
+}
+
+.md-typeset :is(h1, h2, h3) {
+  color: var(--dhh-heading-color);
+  font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+}
+
+:is(.md-typeset, .md-header, .md-tabs) :where(a, button, input, summary, [tabindex]):focus-visible,
+input:focus-visible + label {
+  border-radius: .2rem;
+  outline: .16rem solid var(--dhh-focus-ring);
+  outline-offset: .16rem;
+}
+
+.md-header :where(a, button, input, label):focus-visible,
+.md-header input:focus-visible + label,
+.md-tabs a:focus-visible {
+  outline-color: var(--dhh-ochre-light);
 }
 
 .md-typeset .hero {
+  clear: both;
   border-radius: 1.2rem;
   padding: 2.2rem;
   margin: 1rem 0 1.5rem;
   color: white;
   background:
-    radial-gradient(circle at top right, rgba(245, 158, 11, .95), transparent 34%),
-    linear-gradient(135deg, #4c1d95 0%, #7c3aed 48%, #0f172a 100%);
-  box-shadow: 0 1.2rem 2.5rem rgba(17, 24, 39, .25);
+    radial-gradient(circle at top right, color-mix(in srgb, var(--dhh-ochre-light) 28%, transparent), transparent 38%),
+    linear-gradient(135deg, var(--dhh-oxblood-dark) 0%, var(--dhh-oxblood) 56%, color-mix(in srgb, var(--dhh-ochre) 66%, var(--dhh-oxblood-dark)) 100%);
+  box-shadow: 0 1rem 2rem var(--dhh-shadow-color);
 }
 
 .md-typeset .hero h1 {
@@ -59,19 +134,20 @@
 .md-typeset .answer-meta span {
   border-radius: 999px;
   padding: .2rem .65rem;
-  background: color-mix(in srgb, var(--md-primary-fg-color) 12%, transparent);
+  background: var(--dhh-chip-bg);
   font-size: .75rem;
   font-weight: 700;
 }
 
 .md-typeset .grid.cards > ul > li {
+  border-color: var(--dhh-border-color);
   border-radius: 1rem;
   transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
 }
 
 .md-typeset .grid.cards > ul > li:hover {
   transform: translateY(-2px);
-  box-shadow: 0 .8rem 1.7rem rgba(17, 24, 39, .13);
+  box-shadow: 0 .8rem 1.7rem var(--dhh-shadow-color);
 }
 
 .md-typeset .workflow-step {
@@ -103,14 +179,11 @@
 
 /* Streamlined discovery UI */
 .md-typeset .search-panel {
-  border: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 18%, transparent);
+  border: 1px solid var(--dhh-border-color);
   border-radius: 1.25rem;
   padding: 1rem;
   margin: 1.2rem 0 1.6rem;
-  background:
-    linear-gradient(135deg,
-      color-mix(in srgb, var(--md-primary-fg-color) 9%, transparent),
-      color-mix(in srgb, var(--md-accent-fg-color) 8%, transparent));
+  background: linear-gradient(135deg, var(--dhh-panel-start), var(--dhh-panel-end));
 }
 
 .md-typeset .big-search-button {
@@ -118,12 +191,12 @@
   width: 100%;
   align-items: center;
   gap: .75rem;
-  border: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 20%, transparent);
+  border: 1px solid var(--dhh-border-color);
   border-radius: 999px;
   padding: .9rem 1.1rem;
   background: var(--md-default-bg-color);
   color: var(--md-default-fg-color--light);
-  box-shadow: 0 .5rem 1.4rem rgba(17, 24, 39, .08);
+  box-shadow: 0 .5rem 1.4rem var(--dhh-shadow-color);
   cursor: pointer;
   font-size: .95rem;
   text-align: left;
@@ -146,7 +219,7 @@
   align-items: center;
   border-radius: 999px;
   padding: .28rem .7rem;
-  background: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent);
+  background: var(--dhh-chip-bg);
   color: var(--md-default-fg-color);
   font-size: .78rem;
   font-weight: 700;
@@ -161,7 +234,7 @@
 }
 
 .md-typeset .section-strip a {
-  border: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 16%, transparent);
+  border: 1px solid var(--dhh-border-color);
   border-radius: 999px;
   padding: .35rem .75rem;
   text-decoration: none;
@@ -211,4 +284,14 @@
 @media screen and (max-width: 44rem) {
   .md-typeset .hero { padding: 1.35rem; }
   .md-typeset .scenario-list { columns: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .grid.cards > ul > li {
+    transition: none;
+  }
+
+  .md-typeset .grid.cards > ul > li:hover {
+    transform: none;
+  }
 }
