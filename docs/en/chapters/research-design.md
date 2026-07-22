@@ -21,6 +21,8 @@ After this chapter, you should be able to:
 
 Write down a question you would ask even if no digital tool existed. Then underline the nouns and verbs. The nouns often point to objects and units; the verbs often reveal the kind of comparison or explanation the project requires.
 
+If the question concerns Slovenian material, use the ecosystem map in [Digital humanities in Slovenia](digital-humanities-in-slovenia.md) to distinguish discovery portals, research-data environments, repositories and language services before selecting a method.
+
 ## A question is not yet a method
 
 Questions such as “How is identity represented in literature?” or “What emotions appear in political discourse?” are intellectually meaningful but computationally underspecified. A computer cannot act on *identity*, *representation* or *emotion* until the project decides what observable evidence will stand for those concepts.

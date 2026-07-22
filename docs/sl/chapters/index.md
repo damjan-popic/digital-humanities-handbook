@@ -8,19 +8,20 @@ Jedro priročnika ni zaporedje navodil za programsko opremo, temveč kurikulum m
 2. [Zgodovine in genealogije digitalne humanistike](history-of-digital-humanities.md)
 3. [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md)
 4. [Infrastrukture digitalne humanistike: moč, dostop in vzdrževanje](critical-infrastructures.md)
-5. [Od vprašanja do metode](research-design.md)
-6. [Podatki, metapodatki in modeli](data-metadata-models.md)
-7. [Besedila, korpusi in OCR](texts-corpora-ocr.md)
-8. [Jezikoslovna anotacija in CLASSLA](linguistic-annotation-classla.md)
-9. [Analiza besedil](text-analysis.md)
-10. [Teme, sentiment in čustva](topics-emotions-classification.md)
-11. [Podatkovne zbirke in SQL](databases-sql.md)
-12. [GIS in prostorska humanistika](gis-spatial-humanities.md)
-13. [Omrežja in vizualizacija](networks-visualization.md)
-14. [UI, etika in ponovljivost](ai-ethics-reproducibility.md)
-15. [Živi odprti priročnik](open-living-handbook.md)
+5. [Digitalna humanistika v Sloveniji: infrastrukture, jeziki in skupnosti](digital-humanities-in-slovenia.md)
+6. [Od vprašanja do metode](research-design.md)
+7. [Podatki, metapodatki in modeli](data-metadata-models.md)
+8. [Besedila, korpusi in OCR](texts-corpora-ocr.md)
+9. [Jezikoslovna anotacija in CLASSLA](linguistic-annotation-classla.md)
+10. [Analiza besedil](text-analysis.md)
+11. [Teme, sentiment in čustva](topics-emotions-classification.md)
+12. [Podatkovne zbirke in SQL](databases-sql.md)
+13. [GIS in prostorska humanistika](gis-spatial-humanities.md)
+14. [Omrežja in vizualizacija](networks-visualization.md)
+15. [UI, etika in ponovljivost](ai-ethics-reproducibility.md)
+16. [Živi odprti priročnik](open-living-handbook.md)
 
-Zaporedje je mogoče skrajšati. Temeljni predmet se lahko ustavi po šestem poglavju in doda izbrane praktične postopke. Napredni predmet analize besedil naj uporabi poglavja 3–10 in 14. Projektni predmet lahko poglavji 5–6 poveže s poljubnim metodološkim poglavjem in poglavjem 14.
+Zaporedje je mogoče skrajšati. Temeljni predmet se lahko ustavi po sedmem poglavju in doda izbrane praktične postopke. Napredni predmet analize besedil naj uporabi poglavja 3–11 in 15. Projektni predmet lahko poglavji 6–7 poveže s poljubnim metodološkim poglavjem in poglavjem 15.
 
 ## Zgradba poglavja
 

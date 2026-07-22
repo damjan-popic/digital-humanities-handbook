@@ -89,6 +89,8 @@ Maintenance is scholarly work because it preserves the conditions under which ev
 
 For Slovene, a tool trained on contemporary standard-language prose may not transfer reliably to older typography, historical morphology or regionally mixed newspapers. A multilingual catalogue may display Slovene descriptions but rank queries through an English-centred index. These are testable infrastructure dependencies, not claims that Slovene lacks complexity or that every tool performs badly. Report performance for the actual period, genre and variety; preserve language tags and original wording; involve relevant expertise; and compare plausible baselines.
 
+[Digital humanities in Slovenia](digital-humanities-in-slovenia.md) maps how these relations appear in dLib.si, DARIAH-SI, SIstory, CLARIN.SI, CLASSLA and selected scholarly resources without treating them as one integrated system.
+
 Risam's postcolonial account warns that apparently global digital knowledge can reproduce colonial cultural records and institutional centres while presenting local practices as peripheral.[^risam] Geography enters through funding eligibility, network reliability, hosting, travel, publication language and whose standards count. A locally maintainable method may be more rigorous than a prestigious service whose training data, contractual future or language performance cannot be inspected.
 
 ## Race, gender, coloniality and disability are infrastructural

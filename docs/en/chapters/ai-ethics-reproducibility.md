@@ -23,6 +23,8 @@ A chatbot produces a fluent summary with three convincing quotations. One quotat
 
 This chapter addresses safeguards within a project. For the upstream collections, standards, interfaces, labour and maintenance that condition such a project, read [Infrastructures of digital humanities: power, access and maintenance](critical-infrastructures.md).
 
+The worked example in [Digital humanities in Slovenia](digital-humanities-in-slovenia.md) shows how rights, model validation, repository choice, versioning and maintenance apply across a plausible local research chain.
+
 ## Reproducibility is a design choice
 
 A result is **computationally reproducible** when another person can use the same data, code and environment to obtain the same or acceptably equivalent output. **Replicability** often refers to testing the claim with independently collected data or another implementation. **Transparency** means the relevant decisions, transformations and limitations are available for inspection.

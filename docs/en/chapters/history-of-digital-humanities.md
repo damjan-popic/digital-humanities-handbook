@@ -88,6 +88,8 @@ Artificial intelligence is part of this contested present, not the endpoint of a
 
 There is no settled final period. Future histories may organize the present around environmental cost, platform dependence, Indigenous data governance, multilingual infrastructure or forms of scholarship not currently recognized by dominant journals. A responsible contemporary account stays revisable.
 
+The situated chapter [Digital humanities in Slovenia](digital-humanities-in-slovenia.md) applies this caution to practices whose historical names, institutional forms and language conditions do not fit a single universal chronology.
+
 ## A checked timeline of selected milestones
 
 The timeline is selective, not a list of inventions. Each milestone has been checked against the cited institutional, primary or peer-reviewed source.

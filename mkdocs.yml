@@ -66,6 +66,7 @@ plugins:
                 - Zgodovine in genealogije digitalne humanistike: chapters/history-of-digital-humanities.md
                 - Modeli, dokazno gradivo in interpretacija: chapters/models-evidence-interpretation.md
                 - "Infrastrukture digitalne humanistike: moč, dostop in vzdrževanje": chapters/critical-infrastructures.md
+                - "Digitalna humanistika v Sloveniji: infrastrukture, jeziki in skupnosti": chapters/digital-humanities-in-slovenia.md
                 - Od vprašanja do metode: chapters/research-design.md
                 - Podatki, metapodatki in modeli: chapters/data-metadata-models.md
                 - Besedila, korpusi in OCR: chapters/texts-corpora-ocr.md
@@ -133,6 +134,7 @@ nav:
       - Histories and genealogies of digital humanities: chapters/history-of-digital-humanities.md
       - Models, evidence and interpretation: chapters/models-evidence-interpretation.md
       - "Infrastructures of digital humanities: power, access and maintenance": chapters/critical-infrastructures.md
+      - "Digital humanities in Slovenia: infrastructures, languages and communities": chapters/digital-humanities-in-slovenia.md
       - From question to method: chapters/research-design.md
       - Data, metadata and models: chapters/data-metadata-models.md
       - Texts, corpora and OCR: chapters/texts-corpora-ocr.md
