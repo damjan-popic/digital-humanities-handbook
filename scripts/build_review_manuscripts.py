@@ -10,6 +10,7 @@ CHAPTERS = [
     "what-is-digital-humanities.md",
     "history-of-digital-humanities.md",
     "models-evidence-interpretation.md",
+    "critical-infrastructures.md",
     "research-design.md",
     "data-metadata-models.md",
     "texts-corpora-ocr.md",
