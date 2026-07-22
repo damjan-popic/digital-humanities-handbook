@@ -8,6 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CHAPTERS = [
     "what-is-digital-humanities.md",
+    "history-of-digital-humanities.md",
     "research-design.md",
     "data-metadata-models.md",
     "texts-corpora-ocr.md",

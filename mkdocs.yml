@@ -63,6 +63,7 @@ plugins:
             - Priročnik:
                 - Kako uporabljati priročnik: chapters/index.md
                 - Kaj je digitalna humanistika?: chapters/what-is-digital-humanities.md
+                - Zgodovine in genealogije digitalne humanistike: chapters/history-of-digital-humanities.md
                 - Od vprašanja do metode: chapters/research-design.md
                 - Podatki, metapodatki in modeli: chapters/data-metadata-models.md
                 - Besedila, korpusi in OCR: chapters/texts-corpora-ocr.md
@@ -127,6 +128,7 @@ nav:
   - Handbook:
       - How to use the handbook: chapters/index.md
       - What is digital humanities?: chapters/what-is-digital-humanities.md
+      - Histories and genealogies of digital humanities: chapters/history-of-digital-humanities.md
       - From question to method: chapters/research-design.md
       - Data, metadata and models: chapters/data-metadata-models.md
       - Texts, corpora and OCR: chapters/texts-corpora-ocr.md
