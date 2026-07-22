@@ -21,6 +21,8 @@ After this chapter, you should be able to:
 
 Open a table you have used for research. Can you tell, without asking its creator, what one row represents, which columns are required, what blank cells mean, where the values came from and which version you are looking at? If not, the problem is not “messy data” alone; it is missing semantics.
 
+This chapter concentrates on practical data structures and documentation. For the broader epistemic account of how sources, models and outputs become evidence, see [Models, evidence and interpretation](models-evidence-interpretation.md).
+
 ## Data, metadata and documentation
 
 In humanities research, **data** are recorded observations or representations used as evidence. **Metadata** describe the objects, records or processes: title, date, creator, source, language, rights, collection, coordinates, transcription status or annotation version. **Documentation** explains how the data and metadata were produced and how they should be interpreted.

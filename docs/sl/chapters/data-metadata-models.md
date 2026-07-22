@@ -21,6 +21,8 @@ Po tem poglavju boste znali:
 
 Odprite tabelo, ki ste jo že uporabili pri raziskavi. Ali lahko brez vprašanja avtorju ugotovite, kaj predstavlja ena vrstica, kateri stolpci so obvezni, kaj pomenijo prazne celice, od kod izvirajo vrednosti in katero različico gledate? Če ne, težava ni samo v »neurejenih podatkih«, temveč v manjkajočem pomenu.
 
+To poglavje se posveča praktični zgradbi podatkov in dokumentaciji. Širšo spoznavno razlago prehoda od virov in modelov do dokaznega gradiva razvija poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md).
+
 ## Podatki, metapodatki in dokumentacija
 
 V humanistični raziskavi so **podatki** zabeležena opazovanja ali predstavitve, ki jih uporabljamo kot dokaz. **Metapodatki** opisujejo predmete, zapise ali postopke: naslov, datum, ustvarjalca, vir, jezik, pravice, zbirko, koordinate, stanje prepisa ali različico anotacije. **Dokumentacija** pojasni, kako so podatki in metapodatki nastali ter kako jih moramo razlagati.
