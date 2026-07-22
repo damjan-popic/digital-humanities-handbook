@@ -282,6 +282,8 @@ input:focus-visible + label {
 }
 
 @media screen and (max-width: 44rem) {
+  /* Prevent Material content-action floats from overlapping long top-level chapter headings. */
+  .md-content__inner > h1 { clear: both; }
   .md-typeset .hero { padding: 1.35rem; }
   .md-typeset .scenario-list { columns: 1; }
 }

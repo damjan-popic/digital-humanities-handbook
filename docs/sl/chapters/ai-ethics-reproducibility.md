@@ -21,6 +21,8 @@ Po tem poglavju boste znali:
 
 Klepetalnik pripravi tekoč povzetek s tremi prepričljivimi navedki. En je nekoliko spremenjen, en pripada drugemu avtorju, tretji pa ne obstaja. Težava ni samo v tem, da »UI halucinira«. Postopek je generativnemu sistemu dodelil vlogo vira dokazov, ne da bi ohranil preverljivo pot nazaj do dokumentov.
 
+To poglavje obravnava varovala znotraj projekta. Poglavje [Infrastrukture digitalne humanistike: moč, dostop in vzdrževanje](critical-infrastructures.md) pa širše obravnava zbirke, standarde, vmesnike, delo in vzdrževanje, ki projekt pogojujejo pred začetkom dela.
+
 ## Ponovljivost je oblikovalska odločitev
 
 Rezultat je **računalniško ponovljiv**, kadar druga oseba z istimi podatki, kodo in okoljem dobi isti ali sprejemljivo enakovreden izhod. **Replikacija** pogosto pomeni preverjanje trditve z neodvisno zbranimi podatki ali drugo izvedbo. **Preglednost** pomeni, da so pomembne odločitve, pretvorbe in omejitve dostopne za presojo.

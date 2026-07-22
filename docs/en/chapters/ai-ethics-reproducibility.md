@@ -21,6 +21,8 @@ After this chapter, you should be able to:
 
 A chatbot produces a fluent summary with three convincing quotations. One quotation is slightly altered, one belongs to another author and one does not exist. The problem is not merely that “AI can hallucinate.” The workflow asked a generative system to act as a source of evidence without preserving a verifiable path back to the documents.
 
+This chapter addresses safeguards within a project. For the upstream collections, standards, interfaces, labour and maintenance that condition such a project, read [Infrastructures of digital humanities: power, access and maintenance](critical-infrastructures.md).
+
 ## Reproducibility is a design choice
 
 A result is **computationally reproducible** when another person can use the same data, code and environment to obtain the same or acceptably equivalent output. **Replicability** often refers to testing the claim with independently collected data or another implementation. **Transparency** means the relevant decisions, transformations and limitations are available for inspection.
