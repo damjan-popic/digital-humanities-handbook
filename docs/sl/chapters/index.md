@@ -7,7 +7,7 @@ Jedro priročnika ni zaporedje navodil za programsko opremo, temveč kurikulum m
 1. [Kaj je digitalna humanistika?](what-is-digital-humanities.md)
 2. [Zgodovine in genealogije digitalne humanistike](history-of-digital-humanities.md)
 3. [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md)
-4. [Kritične infrastrukture: moč, dostop in vzdrževanje](critical-infrastructures.md)
+4. [Infrastrukture digitalne humanistike: moč, dostop in vzdrževanje](critical-infrastructures.md)
 5. [Od vprašanja do metode](research-design.md)
 6. [Podatki, metapodatki in modeli](data-metadata-models.md)
 7. [Besedila, korpusi in OCR](texts-corpora-ocr.md)

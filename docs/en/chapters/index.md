@@ -7,7 +7,7 @@ The handbook core is not a sequence of software tutorials. It is a method curric
 1. [What is digital humanities?](what-is-digital-humanities.md)
 2. [Histories and genealogies of digital humanities](history-of-digital-humanities.md)
 3. [Models, evidence and interpretation](models-evidence-interpretation.md)
-4. [Critical infrastructures: power, access and maintenance](critical-infrastructures.md)
+4. [Infrastructures of digital humanities: power, access and maintenance](critical-infrastructures.md)
 5. [From question to method](research-design.md)
 6. [Data, metadata and models](data-metadata-models.md)
 7. [Texts, corpora and OCR](texts-corpora-ocr.md)

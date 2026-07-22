@@ -528,7 +528,7 @@ An output becomes evidence only after checks of provenance, validity, comparison
 
 ---
 
-## Critical infrastructures: power, access and maintenance
+## Infrastructures of digital humanities: power, access and maintenance
 
 ## Learning outcomes
 
@@ -550,6 +550,8 @@ Enter a word in a historical corpus and results appear in seconds. The action se
 **Prerequisites:** read [Models, evidence and interpretation](models-evidence-interpretation.md), especially its account of selection, categories and uncertainty. No programming is required. **Practice input:** one publicly describable digital collection or research service and one proposed humanities claim. **Output:** an evidence-labelled infrastructure audit. **Check:** another reader should be able to distinguish what you observed, what the institution states, what you tested and what you inferred. **Limits:** do not bypass access controls, expose sensitive records or treat legal availability as ethical permission.
 
 The chapter's central claim is straightforward: **before an algorithm is chosen, infrastructures have already shaped what survives, what is digitized, how it is described, who can use it, which languages are supported, whose labour is visible and which claims can be sustained.**
+
+**Critical digital humanities** here means examining how technical and institutional arrangements constitute knowledge, distribute power and remain open to contestation. It does not refer to *critical infrastructure* in the security or legal sense of essential systems and services.
 
 ## Infrastructure becomes visible when it fails
 
@@ -588,7 +590,7 @@ Selection distributes power concretely. A colonial administration may have produ
 
 ## Standards and classifications govern interpretation
 
-Common structures enable exchange. A documented TEI customization can be validated, shared and transformed; a metadata schema aligns fields; identifiers connect versions; authority records gather name variants; a controlled vocabulary—an authorized set of preferred terms and relations—supports consistent retrieval. The TEI Guidelines themselves combine conformance with documented customization, acknowledging that a broad standard must be adapted to particular texts.[^tei]
+Common structures enable exchange. A documented TEI customization can be validated, shared and transformed; a metadata schema aligns fields; identifiers connect versions; authority records gather name variants; a controlled vocabulary—a managed vocabulary that may contain preferred and non-preferred or variant terms, equivalence relations, hierarchical or associative relations and rules for use—supports consistent retrieval. The TEI Guidelines themselves combine conformance with documented customization, acknowledging that a broad standard must be adapted to particular texts.[^tei]
 
 The same arrangements constrain. A required single date may not represent “spring 1898”; a person/place distinction may mishandle a sacred geography; an authority record may privilege a colonial name; a controlled term can stabilize a category that historical actors disputed. Posner argues that identity fields are not neutral containers: their structure participates in constructing the data they appear merely to hold.[^posner] Bowker and Star likewise show that standards and classifications coordinate work while making some viewpoints routine and others difficult to express.[^bowker-star]
 
@@ -639,9 +641,9 @@ FAIR asks mainly whether data and metadata can be found, accessed under clear co
 
 ## Maintenance and environmental cost
 
-Digital preservation is active. Storage media fail; backups and redundant copies require equipment, energy and checking; formats and dependencies need migration; certificates, domains and identifiers expire; models require computation; devices are manufactured, transported and replaced. Jackson's “broken world” perspective treats repair as a site of knowledge, care and power rather than a lesser activity after innovation.[^jackson] Pendergrass and colleagues similarly argue that appraisal, permanence and availability must be reconsidered within environmentally sustainable digital preservation.[^sustainability]
+Digital preservation is active. Storage media fail; backup and replicated storage require equipment, energy and integrity checks; data and formats may require migration; software dependencies require updating, pinning, replacement or retirement; certificates and domains may expire; persistent identifiers may cease to resolve when registries or target metadata are not maintained or responsible institutions cease stewardship. Models require computation, and devices are manufactured, transported and replaced. Jackson's “broken world” perspective treats repair as a site of knowledge, care and power rather than a lesser activity after innovation.[^jackson] Pendergrass and colleagues similarly argue that appraisal, permanence and availability must be reconsidered within environmentally sustainable digital preservation.[^sustainability]
 
-There is no single comparable carbon number for “a digital project.” Impacts depend on electricity, hardware, location, storage policy, traffic, model, reuse and system boundary. Sensational estimates obscure decisions. Ask instead: What storage, duplication and compute are justified by the scholarly and preservation purpose? Can scans, models or pipelines be reused? Would a smaller method answer the question? Which files merit which preservation level? Who budgets for migration, documentation, security, accessibility and eventual decommissioning after funding ends?
+There is no single comparable carbon number for “a digital project.” Impacts depend on electricity, hardware, location, storage policy, traffic, model, reuse and system boundary. Sensational estimates obscure decisions. Ask instead: What storage, duplication and compute are justified by the scholarly and preservation purpose? Can scans, models or pipelines be reused? Would a smaller method answer the question? Which files merit which preservation level? Who budgets for data and format migration, dependency maintenance, documentation, security, accessibility and eventual decommissioning after funding ends?
 
 Technical debt is the future work created when expedient design choices make change harder. Some debt is deliberate and documented; hidden debt transfers cost to maintainers or users. A sustainability plan should name owners, service levels, dependencies, export routes, preservation targets, funding assumptions and a responsible end-of-life path. Keeping everything online forever is not the only form of care, but silent disappearance is not a preservation policy.
 
@@ -1897,7 +1899,7 @@ After this chapter, you should be able to:
 
 A chatbot produces a fluent summary with three convincing quotations. One quotation is slightly altered, one belongs to another author and one does not exist. The problem is not merely that “AI can hallucinate.” The workflow asked a generative system to act as a source of evidence without preserving a verifiable path back to the documents.
 
-This chapter addresses safeguards within a project. For the upstream collections, standards, interfaces, labour and maintenance that condition such a project, read [Critical infrastructures: power, access and maintenance](critical-infrastructures.md).
+This chapter addresses safeguards within a project. For the upstream collections, standards, interfaces, labour and maintenance that condition such a project, read [Infrastructures of digital humanities: power, access and maintenance](critical-infrastructures.md).
 
 ## Reproducibility is a design choice
 
