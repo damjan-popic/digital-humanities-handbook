@@ -1,0 +1,115 @@
+name: Merged branch hygiene
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/branch-hygiene.yml
+  pull_request:
+    types: [closed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: merged-branch-hygiene
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remove stale branches from merged pull requests
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          default_branch=$(gh api "repos/${GITHUB_REPOSITORY}" --jq .default_branch)
+          deleted=()
+          skipped_active=()
+          failed=()
+
+          # Keep the newest merged PR head SHA recorded for each same-repository branch.
+          declare -A merged_sha=()
+          while IFS=$'\t' read -r branch sha; do
+            [[ -n "${branch}" && -n "${sha}" ]] || continue
+            if [[ -z "${merged_sha[${branch}]+x}" ]]; then
+              merged_sha["${branch}"]="${sha}"
+            fi
+          done < <(
+            gh api --paginate "repos/${GITHUB_REPOSITORY}/pulls?state=closed&sort=updated&direction=desc&per_page=100" \
+              --jq '.[] | select(.merged_at != null and .head.repo.full_name == .base.repo.full_name) | [.head.ref, .head.sha] | @tsv'
+          )
+
+          mapfile -t open_heads < <(
+            gh api --paginate "repos/${GITHUB_REPOSITORY}/pulls?state=open&per_page=100" \
+              --jq '.[] | select(.head.repo.full_name == .base.repo.full_name) | .head.ref' \
+              | sort -u
+          )
+          declare -A open_set=()
+          for branch in "${open_heads[@]}"; do
+            open_set["${branch}"]=1
+          done
+
+          mapfile -t branches < <(printf '%s\n' "${!merged_sha[@]}" | sort)
+          for branch in "${branches[@]}"; do
+            [[ -n "${branch}" && "${branch}" != "${default_branch}" ]] || continue
+            if [[ -n "${open_set[${branch}]+x}" ]]; then
+              skipped_active+=("${branch} (open pull request)")
+              continue
+            fi
+
+            encoded=$(python - "${branch}" <<'PY'
+          import sys
+          from urllib.parse import quote
+          print(quote(sys.argv[1], safe=""))
+          PY
+            )
+
+            if ! current_sha=$(
+              gh api "repos/${GITHUB_REPOSITORY}/git/ref/heads/${encoded}" --jq .object.sha 2>/dev/null
+            ); then
+              continue
+            fi
+
+            # Exact SHA comparison is safe for both squash and merge commits. A branch
+            # that has received later work is preserved even if it was used by an older PR.
+            if [[ "${current_sha}" != "${merged_sha[${branch}]}" ]]; then
+              skipped_active+=("${branch} (advanced after its latest merged PR)")
+              continue
+            fi
+
+            if gh api --method DELETE "repos/${GITHUB_REPOSITORY}/git/refs/heads/${encoded}"; then
+              deleted+=("${branch}")
+            else
+              failed+=("${branch} (deletion failed)")
+            fi
+          done
+
+          {
+            echo "## Merged branch hygiene"
+            echo
+            echo "Automatic post-merge cleanup workflow: **active**"
+            echo
+            if ((${#deleted[@]})); then
+              echo "Deleted branches:"
+              printf -- '- `%s`\n' "${deleted[@]}"
+            else
+              echo "No stale merged branches were present."
+            fi
+            if ((${#skipped_active[@]})); then
+              echo
+              echo "Preserved active or later-modified branches:"
+              printf -- '- `%s`\n' "${skipped_active[@]}"
+            fi
+            if ((${#failed[@]})); then
+              echo
+              echo "Branches that could not be deleted:"
+              printf -- '- `%s`\n' "${failed[@]}"
+            fi
+          } >> "${GITHUB_STEP_SUMMARY}"
+
+          ((${#failed[@]} == 0))

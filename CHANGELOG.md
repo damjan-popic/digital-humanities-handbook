@@ -7,6 +7,9 @@ All notable changes are documented here. The project follows semantic versioning
 ### Added
 
 - Added four paired chapters on digital-humanities histories, models and evidence, infrastructures, power and maintenance, and the Slovenian ecosystem.
+- Added one validated intertextuality map connecting every stable chapter, practical workflow and case study.
+- Added bilingual ecosystem pages and a whole-handbook release-readiness audit.
+- Added automatic cleanup of merged branches.
 
 ### Changed
 
@@ -14,6 +17,8 @@ All notable changes are documented here. The project follows semantic versioning
 - Organized the stable handbook core into four parts covering contexts, research design, analytical methods and responsible publication.
 - Revised both paired learning paths to integrate the expanded core while preserving their fourteen-module course designs.
 - Structured the bilingual review manuscripts by orientation and part, and strengthened checks for navigation parity, duplication and order drift.
+- Made conceptual-to-practical links visible on chapter, workflow and case-study pages, with explicit English fallback labels in the Slovene edition.
+- Updated the repository documentation to point to the live site and the ecosystem rather than treating the content layers as separate catalogues.
 
 ## [0.1.0] - 2026-07-20
 

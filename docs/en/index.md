@@ -25,6 +25,7 @@ A bilingual, open and versioned guide to turning cultural materials into inspect
 <div class="quick-row" markdown>
 
 [Read the handbook](chapters/index.md)
+[Explore the ecosystem](ecosystem.md)
 [Information Society Literacy](learning-paths/pismenost-za-informacijsko-druzbo.md)
 [Digital Slovenian Studies](learning-paths/digitalna-slovenistika.md)
 [Browse workflows](workflows/index.md)
@@ -34,7 +35,7 @@ A bilingual, open and versioned guide to turning cultural materials into inspect
 
 </div>
 
-## Four ways into the handbook
+## Five ways into the handbook
 
 <div class="grid cards" markdown>
 
@@ -43,6 +44,12 @@ A bilingual, open and versioned guide to turning cultural materials into inspect
     A stable conceptual and methodological core designed for teaching, formal review and numbered publication releases.
 
     [:octicons-arrow-right-24: Start with the orientation](chapters/index.md)
+
+-   :material-link-variant: **Handbook ecosystem**
+
+    A reciprocal map from concepts to workflows and case studies, with transparent Slovene fallback where practical material is not yet translated.
+
+    [:octicons-arrow-right-24: Follow the connections](ecosystem.md)
 
 -   :material-routes: **Learning paths**
 
