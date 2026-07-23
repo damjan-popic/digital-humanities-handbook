@@ -219,8 +219,8 @@ Močnejša zasnova vpraša:
 Računalniška metoda je samo ena sestavina. Argument je enako odvisen od kritike virov, zasnove korpusa, preverjanja in zgodovinske interpretacije.
 
 <!-- handbook-ecosystem:start -->
-!!! tip "Nadaljujte po ekosistemu"
-    **Preizkusite praktični postopek**
+!!! tip "Sprehodite se po ekosistemu"
+    **Preizkusite postopek v praksi**
 
     - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*
     - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
@@ -373,8 +373,8 @@ Vzemimo vprašanje: **Kako so slovenski časopisi opisovali migracije in kako se
 Primerjava ne opisuje enakomernega tehničnega napredka. Vsak zgodovinski okvir nekatera vprašanja odpre, druga pa potisne v ozadje. Zgodovinska analiza mora rezultat povezati z ustanovami, načini predstavitve in delom, zaradi katerih je sploh nastal.
 
 <!-- handbook-ecosystem:start -->
-!!! tip "Nadaljujte po ekosistemu"
-    **Preizkusite praktični postopek**
+!!! tip "Sprehodite se po ekosistemu"
+    **Preizkusite postopek v praksi**
 
     - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*
     - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*
@@ -688,8 +688,8 @@ Rezultat postane dokazno gradivo šele po preverjanju provenience, veljavnosti, 
 [^analiza-custev]: Štajner in Klinger, »Emotion Analysis from Texts«, 7–12, pregledata klasifikacijo, regresijo, označevanje udeleženskih vlog, jezikovne vire, družbene učinke in metodološke težave.
 
 <!-- handbook-ecosystem:start -->
-!!! tip "Nadaljujte po ekosistemu"
-    **Preizkusite praktični postopek**
+!!! tip "Sprehodite se po ekosistemu"
+    **Preizkusite postopek v praksi**
 
     - [How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)*
     - [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
@@ -919,8 +919,8 @@ Presoja infrastrukture je del interpretacije. Določi populacijo, preoblikovanja
 [^trajnost]: Pendergrass idr., »Toward Environmentally Sustainable Digital Preservation«, 165–206, o vključevanju okoljskih meril v vrednotenje, trajnost in razpoložljivost namesto zanašanja zgolj na tehnično učinkovitost.
 
 <!-- handbook-ecosystem:start -->
-!!! tip "Nadaljujte po ekosistemu"
-    **Preizkusite praktični postopek**
+!!! tip "Sprehodite se po ekosistemu"
+    **Preizkusite postopek v praksi**
 
     - [How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ethics/decide-whether-a-digitised-source-should-be-public/) *(angleška nadomestna stran)*
     - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*
@@ -1123,8 +1123,8 @@ Ta razmerja javno dostopnih objektov ne spremenijo samodejno v podatke, pripravl
 [^organizatorji-jtdh]: Na konferenčni strani SDJT so bili 22. julija 2026 kot organizatorji navedeni SDJT, CJVT UL, CLARIN.SI in DARIAH-SI. Te aktualne sestave ne prenašamo samodejno na vse pretekle izvedbe.
 
 <!-- handbook-ecosystem:start -->
-!!! tip "Nadaljujte po ekosistemu"
-    **Preizkusite praktični postopek**
+!!! tip "Sprehodite se po ekosistemu"
+    **Preizkusite postopek v praksi**
 
     - [Kako s CLASSLA anotiram majhno besedilo?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/annotate-a-small-text-with-classla/)
     - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*
@@ -1243,8 +1243,8 @@ Raziskovalna zasnova lahko določi:
 Zadnja razlika je ključna. Analiza besedil meri besedilne znake in oznake; ne bere misli.
 
 <!-- handbook-ecosystem:start -->
-!!! tip "Nadaljujte po ekosistemu"
-    **Preizkusite praktični postopek**
+!!! tip "Sprehodite se po ekosistemu"
+    **Preizkusite postopek v praksi**
 
     - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
     - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*
@@ -1404,8 +1404,8 @@ Projekt korespondence bi lahko uporabljal štiri tabele:
 Tabela udeležencev omogoča več pošiljateljev, prejemnikov, oseb v vednost ali negotovih vlog brez stolpcev `prejemnik_2` in `prejemnik_3`. Datum je predstavljen kot izvirni niz in kot računski interval, zato lahko ohranimo negotovost, na primer »pomlad 1898«.
 
 <!-- handbook-ecosystem:start -->
-!!! tip "Nadaljujte po ekosistemu"
-    **Preizkusite praktični postopek**
+!!! tip "Sprehodite se po ekosistemu"
+    **Preizkusite postopek v praksi**
 
     - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
     - [Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)
@@ -1550,8 +1550,8 @@ Utemeljen postopek bi lahko bil:
 9. vodimo register napak in navedemo uporabljeno izdajo korpusa.
 
 <!-- handbook-ecosystem:start -->
-!!! tip "Nadaljujte po ekosistemu"
-    **Preizkusite praktični postopek**
+!!! tip "Sprehodite se po ekosistemu"
+    **Preizkusite postopek v praksi**
 
     - [How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/bulk-download-pdfs-and-ocr-them/) *(angleška nadomestna stran)*
     - [How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/) *(angleška nadomestna stran)*
@@ -1689,8 +1689,8 @@ Predpostavimo, da želimo primerjati poročevalske glagole v dveh časopisnih ob
 Anotacija zoži iskalni prostor. Ne nadomesti interpretativnega razlikovanja med navedkom, poročanim govorom, metaforo in obrazcem.
 
 <!-- handbook-ecosystem:start -->
-!!! tip "Nadaljujte po ekosistemu"
-    **Preizkusite praktični postopek**
+!!! tip "Sprehodite se po ekosistemu"
+    **Preizkusite postopek v praksi**
 
     - [Kako namestim in preizkusim CLASSLA s Pythonom 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-and-test-classla/)
     - [Kako s CLASSLA anotiram majhno besedilo?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/annotate-a-small-text-with-classla/)
@@ -1841,8 +1841,8 @@ Projekt bi lahko primerjal časopisni jezik o migracijah v dveh obdobjih.
 Rezultat ni celoten »diskurz«. Je dokumentiran niz ponavljajočih se besedilnih razlik v določeni zbirki.
 
 <!-- handbook-ecosystem:start -->
-!!! tip "Nadaljujte po ekosistemu"
-    **Preizkusite praktični postopek**
+!!! tip "Sprehodite se po ekosistemu"
+    **Preizkusite postopek v praksi**
 
     - [How do I query a corpus with CQPweb?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/query-a-corpus-with-cqpweb/) *(angleška nadomestna stran)*
     - [Kako primerjam slog s funkcijskimi besedami?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-style-with-function-words/)
@@ -1979,8 +1979,8 @@ Predpostavimo, da raziskujemo čustveno okvirjanje podnebne politike.
 9. Rezultat predstavimo kot dokaz o jeziku korpusa, ne kot neposreden dostop do notranjih stanj govorcev.
 
 <!-- handbook-ecosystem:start -->
-!!! tip "Nadaljujte po ekosistemu"
-    **Preizkusite praktični postopek**
+!!! tip "Sprehodite se po ekosistemu"
+    **Preizkusite postopek v praksi**
 
     - [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
     - [Kako z NMF raziščem ponavljajoče se teme?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/explore-topics-with-nmf/)
@@ -2140,8 +2140,8 @@ Za raziskavo dopisovanja ustvarimo tabele za osebe, pisma, kraje in sodelovanje.
 Struktura podpira vprašanja o izmenjavi, mobilnosti in posredovanju, ne da bi vsa razmerja skrčila na eno samo povezavo. Jasno tudi loči razmerja iz metapodatkov dokumenta od tistih, ki so bila izluščena iz besedila pisma.
 
 <!-- handbook-ecosystem:start -->
-!!! tip "Nadaljujte po ekosistemu"
-    **Preizkusite praktični postopek**
+!!! tip "Sprehodite se po ekosistemu"
+    **Preizkusite postopek v praksi**
 
     - [Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)
     - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
@@ -2274,8 +2274,8 @@ Predpostavimo, da raziskujemo gibanje v romanu in njegovem zgodovinskem kontekst
 9. Odsotnosti razlagamo kot možne pripovedne izbire in ne samodejen dokaz nepomembnosti.
 
 <!-- handbook-ecosystem:start -->
-!!! tip "Nadaljujte po ekosistemu"
-    **Preizkusite praktični postopek**
+!!! tip "Sprehodite se po ekosistemu"
+    **Preizkusite postopek v praksi**
 
     - [Kako kartiram kraje, omenjene v besedilu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/map-places-mentioned-in-a-text/)
     - [How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/build-a-simple-cultural-heritage-map/) *(angleška nadomestna stran)*
@@ -2403,8 +2403,8 @@ Utemeljen postopek bi bil:
 Graf povzema en razmernostni vidik romana. Ne modelira globine lika, tematske pomembnosti ali bralske izkušnje, če tega nismo posebej operacionalizirali.
 
 <!-- handbook-ecosystem:start -->
-!!! tip "Nadaljujte po ekosistemu"
-    **Preizkusite praktični postopek**
+!!! tip "Sprehodite se po ekosistemu"
+    **Preizkusite postopek v praksi**
 
     - [Kako zgradim omrežje sopojavljanja, povezano z viri?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/build-a-cooccurrence-network/)
     - [How do I build a collocation graph from AntConc to Cytoscape?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape/) *(angleška nadomestna stran)*
@@ -2563,8 +2563,8 @@ Skupina z jezikovnim modelom pripravi osnutke opisov arhivskih map.
 Sistem pospeši pripravo osnutka; arhivisti ostanejo odgovorni za opis in odločitve o dostopu.
 
 <!-- handbook-ecosystem:start -->
-!!! tip "Nadaljujte po ekosistemu"
-    **Preizkusite praktični postopek**
+!!! tip "Sprehodite se po ekosistemu"
+    **Preizkusite postopek v praksi**
 
     - [Kako rezultat UI preverim ob izvornih dokumentih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ai/audit-ai-output-against-source-documents/)
     - [How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ethics/decide-whether-a-digitised-source-should-be-public/) *(angleška nadomestna stran)*
@@ -2735,8 +2735,8 @@ Tako ohranimo odgovornost in zagon.
 Študentsko delo postane resnično znanstveno komuniciranje in ne zavržena domača naloga, uredniški postopek pa ščiti bralce in udeležence.
 
 <!-- handbook-ecosystem:start -->
-!!! tip "Nadaljujte po ekosistemu"
-    **Preizkusite praktični postopek**
+!!! tip "Sprehodite se po ekosistemu"
+    **Preizkusite postopek v praksi**
 
     - [How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/) *(angleška nadomestna stran)*
     - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*
