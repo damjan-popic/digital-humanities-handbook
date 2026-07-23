@@ -21,6 +21,8 @@ After this chapter, you should be able to:
 
 A printed software tutorial can be obsolete before students open it. A constantly changing website can be impossible to cite or review. The solution is not to choose between permanence and change. It is to give each a defined layer.
 
+Publication is itself an infrastructure of repositories, standards, review roles and maintenance commitments. [Infrastructures of digital humanities](critical-infrastructures.md) provides the broader grounding for asking who sustains that system, who can access it and what happens when a dependency disappears.
+
 ## Two editions, one publication
 
 This handbook separates:

@@ -2,6 +2,8 @@
 
 Učne poti priročnik spremenijo v predmet, ne da bi vsebino priklenile na en sam urnik. Vsaka pot opredeli učne izide, predlagano zaporedje, praktično delo in končni projekt. Učitelj lahko za študijsko leto določi oštevilčeno izdajo, študenti pa v živi izdaji še vedno vidijo popravke.
 
+Poti štiridelno jedro priročnika uporabljata selektivno. Pismenost za informacijsko družbo iz zgodovinskega in pojmovnega uvoda izbere temeljne vsebine, nato pa nadaljuje z viri, vsakdanjimi metodami in odgovornim objavljanjem. Digitalna slovenistika uporabi celoten teoretski uvod ter mu doda tehnično zahtevnejše zaporedje raziskovalne zasnove, besedilnih metod, strukturiranih in prostorskih podatkov, omrežij ter izdaje.
+
 ## Trenutni poti
 
 - [Pismenost za informacijsko družbo](pismenost-za-informacijsko-druzbo.md) — temeljna informacijska, podatkovna, besedilna in UI-pismenost z nizkim tehničnim pragom.

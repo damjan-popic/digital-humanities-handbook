@@ -21,7 +21,7 @@ Po tem poglavju boste znali:
 
 Odprite tabelo, ki ste jo že uporabili pri raziskavi. Ali lahko brez vprašanja avtorju ugotovite, kaj predstavlja ena vrstica, kateri stolpci so obvezni, kaj pomenijo prazne celice, od kod izvirajo vrednosti in katero različico gledate? Če ne, težava ni samo v »neurejenih podatkih«, temveč v manjkajočem pomenu.
 
-To poglavje se posveča praktični zgradbi podatkov in dokumentaciji. Širšo spoznavno razlago prehoda od virov in modelov do dokaznega gradiva razvija poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md).
+To poglavje se posveča praktični zgradbi podatkov in dokumentaciji. Širšo spoznavno razlago prehoda od virov in modelov do dokaznega gradiva razvija poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md). Kadar vmesnik zbirke, standard ali izvozno pravilo omejuje razpoložljive zapise, s poglavjem [Infrastrukture digitalne humanistike](critical-infrastructures.md) dokumentirajte tudi ta predhodni izbor.
 
 ## Podatki, metapodatki in dokumentacija
 

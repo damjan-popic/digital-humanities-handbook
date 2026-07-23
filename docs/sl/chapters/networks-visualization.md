@@ -21,6 +21,8 @@ Po tem poglavju boste znali:
 
 Dve osebi se pojavita v istem časopisnem članku. Sta povezani? Morda sodelujeta, si nasprotujeta, sta zgolj navedeni ali se pojavita v nepovezanih odstavkih. Omrežna povezava ni samodejno najdena v viru. Ustvari jo pravilo, katerega pomen moramo utemeljiti.
 
+Pravila za vozlišča in povezave so modelske odločitve, ki oblikujejo vsako mero in prikaz. S poglavjem [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) ločite konstrukcijo, rezultat in interpretacijo, s poglavjem [Infrastrukture digitalne humanistike](critical-infrastructures.md) pa presodite primere, ko izvorni API-ji ali vizualizacijske platforme določajo vidnost in možnosti ponovne uporabe.
+
 ## Omrežje je podatkovni model
 
 Graf vsebuje **vozlišča** in **povezave**. Vozlišča lahko predstavljajo osebe, besedila, kraje, ustanove ali pojme. Povezave lahko predstavljajo dopisovanje, citiranje, sorodstvo, soavtorstvo, potovanje, sopojavljanje ali drugo razmerje.

@@ -2,15 +2,98 @@
 
 **Stabilno jedro in učni poti — razvojni recenzijski posnetek**
 
-**Version:** 0.1.0-dev  
-**Date:** 2026-07-20  
+**Version:** 0.1.0-dev<br>
+**Date:** 2026-07-23<br>
 **Author/editor:** Damjan Popič
 
 > Datoteka je samodejno sestavljena iz verzioniranega izvornega besedila. Za navigacijo in interaktivno gradivo je merodajna spletna izdaja.
 
 ---
 
-# I. del: Poglavja priročnika
+# Uvod
+
+## Kako uporabljati priročnik
+
+## Kakšen priročnik je pred vami
+
+Priročnik povezuje stabilno pojmovno in metodološko jedro z živo zbirko [praktičnih postopkov](../workflows/index.md) in [študij primerov](../case-studies/index.md). Poglavja pojasnjujejo, zakaj so raziskovalne odločitve pomembne in kako dokazno gradivo podpira interpretacijo. Postopki ponujajo navodila za omejene izvedbene naloge, študije primerov pa kažejo, kako obsežnejši projekti povezujejo metode, ustanove in znanstvene trditve.
+
+Jedro zato ni zaporedje navodil za programsko opremo. Razvija argument o raziskovanju: razumeti moramo zgodovine in infrastrukture, ki oblikujejo digitalno delo, premišljeno zasnovati dokazno gradivo, izbrati in preveriti metode ter rezultate odgovorno objaviti.
+
+## Kako štirje deli oblikujejo celoto
+
+| Del | Namen in osrednje vprašanje | Poglavja |
+| --- | --- | --- |
+| **I. del — Zgodovine, teorije in konteksti** | Umesti področje in njegove predstavitve. Kako zgodovine, modeli, infrastrukture, jeziki in skupnosti oblikujejo meje spoznanja? | 1–5 |
+| **II. del — Raziskovalna zasnova in viri** | Vprašanja in vire pretvori v pregledno zasnovo. Kaj moramo predstaviti, dokumentirati in preveriti pred analizo? | 6–8 |
+| **III. del — Analitične metode** | Zgradi in preveri rezultate posameznih metod. Kaj vsak postopek meri, izpusti ali preoblikuje? | 9–14 |
+| **IV. del — Odgovorno raziskovanje in objavljanje** | Celotno raziskovalno verigo naredi preverljivo in vzdržno. Kako naj projekt obravnava tveganja, ponovljivost, navajanje, vzdrževanje in spremembe? | 15–16 |
+
+## Priporočeno zaporedje
+
+### I. del — Zgodovine, teorije in konteksti
+
+1. [Kaj je digitalna humanistika?](what-is-digital-humanities.md)
+2. [Zgodovine in genealogije digitalne humanistike](history-of-digital-humanities.md)
+3. [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md)
+4. [Infrastrukture digitalne humanistike: moč, dostop in vzdrževanje](critical-infrastructures.md)
+5. [Digitalna humanistika v Sloveniji: infrastrukture, jeziki in skupnosti](digital-humanities-in-slovenia.md)
+
+### II. del — Raziskovalna zasnova in viri
+
+6. [Od vprašanja do metode](research-design.md)
+7. [Podatki, metapodatki in modeli](data-metadata-models.md)
+8. [Besedila, korpusi in OCR](texts-corpora-ocr.md)
+
+### III. del — Analitične metode
+
+9. [Jezikoslovna anotacija in CLASSLA](linguistic-annotation-classla.md)
+10. [Analiza besedil](text-analysis.md)
+11. [Teme, sentiment in čustva](topics-emotions-classification.md)
+12. [Podatkovne zbirke in SQL](databases-sql.md)
+13. [GIS in prostorska humanistika](gis-spatial-humanities.md)
+14. [Omrežja in vizualizacija](networks-visualization.md)
+
+### IV. del — Odgovorno raziskovanje in objavljanje
+
+15. [UI, etika in ponovljivost](ai-ethics-reproducibility.md)
+16. [Živi odprti priročnik](open-living-handbook.md)
+
+## Krajše poti
+
+### Temeljna digitalna in informacijska pismenost
+
+Pot je namenjena razumevanju, kako digitalni viri postanejo dokazno gradivo, ne pa tehnični specializaciji. Preberite poglavja [1](what-is-digital-humanities.md), izbrane dele poglavja [2](history-of-digital-humanities.md), nato poglavja [3](models-evidence-interpretation.md), [4](critical-infrastructures.md), [6](research-design.md), [7](data-metadata-models.md), [8](texts-corpora-ocr.md) in [15](ai-ethics-reproducibility.md). Iz petega poglavja lahko izberete profil ustreznega slovenskega vira, analitična poglavja pa uporabite kot razširitev. Povezana predmetna zasnova je [Pismenost za informacijsko družbo](../learning-paths/pismenost-za-informacijsko-druzbo.md).
+
+### Analiza besedil in digitalna slovenistika
+
+Celotni prvi del predstavi področje, njegove modelske predpostavke in slovenski ekosistem virov. Nadaljujte s poglavji [6](research-design.md), [8](texts-corpora-ocr.md), [9](linguistic-annotation-classla.md), [10](text-analysis.md), [11](topics-emotions-classification.md) in [15](ai-ethics-reproducibility.md). Podatkovne zbirke, GIS in omrežja dodajte glede na projekt. Nadaljevalno zaporedje štirinajstih modulov ponuja [Digitalna slovenistika](../learning-paths/digitalna-slovenistika.md).
+
+### Projektno delo
+
+Začnite s poglavji [3](models-evidence-interpretation.md), [4](critical-infrastructures.md) in [5](digital-humanities-in-slovenia.md), nato projekt zasnujte s poglavjema [6](research-design.md) in [7](data-metadata-models.md). Iz tretjega dela izberite eno glavno metodo, raziskovalno verigo pa sklenite s poglavjema [15](ai-ethics-reproducibility.md) in [16](open-living-handbook.md). Druga metodološka poglavja preberite le, če podpirajo raziskovalno vprašanje ali strategijo preverjanja.
+
+## Teorija ni vstopna zapora
+
+Prvi del ponuja skupni jezik za ponavljajoče se probleme, vendar ga ni treba v celoti prebrati pred uporabo metodološkega poglavja. Vsako poznejše poglavje je uporabno samostojno in vsebuje kratke povezave do ustreznih pojmov. Sledite jim, ko postanejo pomembna vprašanja modeliranja, dokaznega gradiva, infrastrukture ali lokalnih virov; k celotnemu teoretskemu uvodu pa se vrnite ob primerjavi metod ali načrtovanju predmeta.
+
+## Zgradba poglavja
+
+Vsako poglavje vsebuje:
+
+- **Učne cilje** — kaj naj bralec zna pojasniti ali narediti.
+- **Pred začetkom** — potrebno znanje in praktično pripravo.
+- **Osrednjo razlago** — stabilno metodološko jedro.
+- **Razdelan primer** — majhen in pregleden primer namesto črne skrinjice.
+- **Vajo** — izvedljivo nalogo ali načrt raziskave.
+- **Refleksijo** — interpretativna vprašanja, ki preprečujejo golo pritiskanje gumbov.
+- **Povzetek** — trditve, ki jih potrebujemo v naslednjem poglavju.
+
+Poglavje uporabite za stabilni argument, nato pa izberite ustrezen [praktični postopek](../workflows/index.md) za izvedbo ali [študijo primera](../case-studies/index.md) za umeščen zgled. Ti živi zbirki se lahko spreminjata hitreje kot recenzijsko jedro.
+
+---
+
+# I. del — Zgodovine, teorije in konteksti
 
 ## Kaj je digitalna humanistika?
 
@@ -943,6 +1026,8 @@ Ta razmerja javno dostopnih objektov ne spremenijo samodejno v podatke, pripravl
 
 ---
 
+# II. del — Raziskovalna zasnova in viri
+
 ## Od vprašanja do metode
 
 ## Učni cilji
@@ -959,7 +1044,7 @@ Po tem poglavju boste znali:
 
 Zapišite vprašanje, ki bi ga postavili tudi brez digitalnega orodja. Nato podčrtajte samostalnike in glagole. Samostalniki pogosto kažejo na predmete in enote, glagoli pa razkrivajo vrsto primerjave ali pojasnila, ki ga projekt zahteva.
 
-Če se vprašanje nanaša na gradivo iz Slovenije, z zemljevidom v poglavju [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md) pred izbiro metode razlikujte med portali za odkrivanje, okolji za raziskovalne podatke, repozitoriji in jezikovnimi storitvami.
+Raziskovalna zasnova razkrije modelske in infrastrukturne odločitve. S poglavjem [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) ločite vire, predstavitve, rezultate in dokazno gradivo, s poglavjem [Infrastrukture digitalne humanistike](critical-infrastructures.md) pa presodite, kako dostop in vzdrževanje pogojujeta projekt. Pri gradivu iz Slovenije zemljevid v poglavju [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md) pred izbiro metode pomaga razlikovati med portali za odkrivanje, okolji za raziskovalne podatke, repozitoriji in jezikovnimi storitvami.
 
 ## Vprašanje še ni metoda
 
@@ -1087,7 +1172,7 @@ Po tem poglavju boste znali:
 
 Odprite tabelo, ki ste jo že uporabili pri raziskavi. Ali lahko brez vprašanja avtorju ugotovite, kaj predstavlja ena vrstica, kateri stolpci so obvezni, kaj pomenijo prazne celice, od kod izvirajo vrednosti in katero različico gledate? Če ne, težava ni samo v »neurejenih podatkih«, temveč v manjkajočem pomenu.
 
-To poglavje se posveča praktični zgradbi podatkov in dokumentaciji. Širšo spoznavno razlago prehoda od virov in modelov do dokaznega gradiva razvija poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md).
+To poglavje se posveča praktični zgradbi podatkov in dokumentaciji. Širšo spoznavno razlago prehoda od virov in modelov do dokaznega gradiva razvija poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md). Kadar vmesnik zbirke, standard ali izvozno pravilo omejuje razpoložljive zapise, s poglavjem [Infrastrukture digitalne humanistike](critical-infrastructures.md) dokumentirajte tudi ta predhodni izbor.
 
 ## Podatki, metapodatki in dokumentacija
 
@@ -1228,7 +1313,7 @@ Po tem poglavju boste znali:
 
 Odprite skenirano zgodovinsko stran in njen prepis OCR. Poiščite pet razlik. Katere napake bi preprečile iskanje? Katere bi spremenile frekvenco besede? Katere bi zavedle razpoznavalnik imenskih entitet? Vse napake nimajo enake raziskovalne cene.
 
-Institucionalne in ročne korake med knjižničnim posnetkom in objavljenim korpusom v slovenskem okolju predstavi poglavje [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md).
+Digitalizacija, OCR in posredovanje korpusa so poleg programske opreme odvisni tudi od institucionalnih odločitev. Izbor, dostop in vzdrževanje presodite s poglavjem [Infrastrukture digitalne humanistike](critical-infrastructures.md), lokalni primer korakov med knjižničnim posnetkom in objavljenim korpusom pa ponuja poglavje [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md).
 
 ## Digitalno besedilo ima več plasti
 
@@ -1338,6 +1423,8 @@ Besedilni korpus je dokumentiran raziskovalni instrument. Sestavljajo ga povezan
 
 ---
 
+# III. del — Analitične metode
+
 ## Jezikoslovna anotacija in CLASSLA
 
 ## Učni cilji
@@ -1353,6 +1440,8 @@ Po tem poglavju boste znali:
 ## Pred začetkom
 
 Vzemite poved *Zala je v Novi Gorici predstavila novo Zalo.* Je *Zala* oseba, izdelek, kraj ali kaj drugega? Katere dokaze bi uporabil človek? Označevalnik mora sorodne odločitve sprejeti iz oblike, konteksta in vzorcev, naučenih iz podatkov.
+
+Anotacijske plasti obravnavajte kot modele, ne kot odkrita dejstva. Poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) ponuja pojmovno podlago za ločevanje rezultata anotacije od dokaznega gradiva, ki ga upravičuje preverjanje za konkretno nalogo.
 
 ## Anotacija ustvari analizne plasti
 
@@ -1472,6 +1561,8 @@ Po tem poglavju boste znali:
 ## Pred začetkom
 
 Beseda se v korpusu A pojavi 300-krat, v korpusu B pa 180-krat. Je značilnejša za A? Tega ne morete vedeti brez velikosti korpusov, porazdelitve po dokumentih, žanrske sestave in načina štetja. Število postane dokaz šele, ko določimo imenovalec in primerjavo.
+
+Za razlikovanje med računalniškim rezultatom in dokaznim gradivom za humanistično trditev ter za modelske odločitve, skrite v enotah in kategorijah, uporabite pojmovno podlago poglavja [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md).
 
 ## Štetje je model pomembnosti
 
@@ -1608,6 +1699,8 @@ Po tem poglavju boste znali:
 
 Poved *Sijajno – spet čudovita zamuda* vsebuje pozitivne besede, vendar verjetno izraža negativno vrednotenje. Model, ki besedišče ocenjuje brez konteksta, lahko odpove. Pred izbiro orodja določite, kaj kategorija pomeni in kateri besedilni dokaz upraviči oznako.
 
+Klasifikacija pojem operacionalizira, ne pa odkrije samoumevne kategorije. S poglavjem [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) ohranite razliko med kodirnim priročnikom, rezultatom modela, dokaznim gradivom preverjanja in interpretativno trditvijo.
+
 ## Klasifikacija se začne z operacionalizacijo
 
 Klasifikator besedila ali odlomke razporedi v vnaprej določene kategorije. To so lahko žanr, obdobje, avtor, stališče, sentiment, čustvo ali relevantnost. Osrednje raziskovalno dejanje ni izbira algoritma, temveč prevod pojma v opazljiva anotacijska pravila.
@@ -1728,6 +1821,8 @@ Po tem poglavju boste znali:
 ## Pred začetkom
 
 Predstavljajte si tabelo s stolpci `avtor_1`, `avtor_2`, `avtor_3`, `kraj_1`, `kraj_2` in več celicami, v katerih so imena ločena z vejicami. Morda je videti priročno, toda kako bi zanesljivo vprašali, kateri avtorji so objavljali v istem kraju, ali eno ime popravili povsod? Struktura določa, katera vprašanja ostanejo mogoča.
+
+Shema je model izbranih entitet in razmerij, ne nevtralna posoda. Poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) pomaga razkriti te odločitve, poglavje [Infrastrukture digitalne humanistike](critical-infrastructures.md) pa je pomembno, kadar so dostop do zbirke, identifikatorji ali vzdrževanje odvisni od zunanje storitve.
 
 ## Podatkovna zbirka je trditev o svetu
 
@@ -1873,6 +1968,8 @@ Po tem poglavju boste znali:
 
 Dnevnik iz 19. stoletja pravi, da je avtor potoval v *Sveti Peter*. Kateri kraj je mišljen? Odgovor je lahko odvisen od jezika, obdobja, poti, upravnih meja in pisčevih navad. Dodelitev koordinat ni pisarniško opravilo, temveč interpretacija, ki potrebuje dokaze.
 
+Geokodiranje zgodovinske opise pretvori v modelirane prostorske entitete. S poglavjem [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) dokumentirajte to preoblikovanje, s poglavjem [Infrastrukture digitalne humanistike](critical-infrastructures.md) pa presodite imenike krajev, kartografske storitve in pogoje dostopa, od katerih je odvisno.
+
 ## Prostor je več kot zemljepisna širina in dolžina
 
 Humanistični viri kraje omenjajo z imeni, opisi, ustanovami, pokrajinami, potmi in zamišljenimi geografijami. Kraj lahko spremeni ime, meje, funkcijo in politično pripadnost. Eno ime lahko označuje več lokacij, ena lokacija pa ima več imen.
@@ -1992,6 +2089,8 @@ Po tem poglavju boste znali:
 
 Dve osebi se pojavita v istem časopisnem članku. Sta povezani? Morda sodelujeta, si nasprotujeta, sta zgolj navedeni ali se pojavita v nepovezanih odstavkih. Omrežna povezava ni samodejno najdena v viru. Ustvari jo pravilo, katerega pomen moramo utemeljiti.
 
+Pravila za vozlišča in povezave so modelske odločitve, ki oblikujejo vsako mero in prikaz. S poglavjem [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) ločite konstrukcijo, rezultat in interpretacijo, s poglavjem [Infrastrukture digitalne humanistike](critical-infrastructures.md) pa presodite primere, ko izvorni API-ji ali vizualizacijske platforme določajo vidnost in možnosti ponovne uporabe.
+
 ## Omrežje je podatkovni model
 
 Graf vsebuje **vozlišča** in **povezave**. Vozlišča lahko predstavljajo osebe, besedila, kraje, ustanove ali pojme. Povezave lahko predstavljajo dopisovanje, citiranje, sorodstvo, soavtorstvo, potovanje, sopojavljanje ali drugo razmerje.
@@ -2088,6 +2187,8 @@ Iz vsaj desetih izvornih zapisov zgradite majhno omrežje. Pravilo povezave napi
 Omrežja so izrecni modeli razmerij, ne prosojne slike družbe ali književnosti. Definicije vozlišč in povezav, projekcija, čas, manjkajoči podatki in algoritmi oblikujejo vsak rezultat. Centralnost ni splošna pomembnost, skupnosti niso samorazlagalne skupine, postavitve pa niso dokaz. Sledljiva konstrukcijska pravila in z viri povezane povezave omrežno analizo naredijo primerno za humanistično interpretacijo.
 
 ---
+
+# IV. del — Odgovorno raziskovanje in objavljanje
 
 ## UI, etika in ponovljivost
 
@@ -2249,6 +2350,8 @@ Po tem poglavju boste znali:
 
 Natisnjeno navodilo za programsko opremo je lahko zastarelo, še preden ga študenti odprejo. Spletno mesto, ki se nenehno spreminja, pa je težko navesti ali recenzirati. Rešitev ni izbira med trajnostjo in spremembo. Vsaki je treba dodeliti jasno plast.
 
+Objavljanje je tudi infrastruktura repozitorijev, standardov, recenzijskih vlog in obveznosti vzdrževanja. Poglavje [Infrastrukture digitalne humanistike](critical-infrastructures.md) ponuja širšo podlago za vprašanja, kdo ta sistem vzdržuje, komu je dostopen in kaj se zgodi, ko katera od odvisnosti izgine.
+
 ## Dve izdaji, ena publikacija
 
 Priročnik loči:
@@ -2386,7 +2489,7 @@ Za en digitalni učni vir pripravite založniško arhitekturo. Določite živi i
 
 ---
 
-# II. del: Učni poti
+# Učne poti
 
 ## Pismenost za informacijsko družbo
 
@@ -2414,61 +2517,61 @@ Po končani poti bodo študenti znali:
 
 ## Predlagano zaporedje 14 modulov
 
-### 1. Digitalna pismenost kot kritična praksa
+### 1. Digitalna pismenost v zgodovinskem in družbenem kontekstu
 
-Preberite [Kaj je digitalna humanistika?](../chapters/what-is-digital-humanities.md). Narišite pot znane študijske naloge od odkritja vira do oddaje ter označite vse točke, kjer platforma ali format oblikuje rezultat.
+Preberite [Kaj je digitalna humanistika?](../chapters/what-is-digital-humanities.md) ter razdelke o spreminjanju poimenovanj in infrastruktur v poglavju [Zgodovine in genealogije digitalne humanistike](../chapters/history-of-digital-humanities.md). Narišite pot znane študijske naloge od odkritja vira do oddaje ter označite, kje rezultat oblikujejo platforma, format, ustanova ali podedovana praksa.
 
-### 2. Vprašanja, viri in dokazi
+### 2. Vprašanja, modeli, dokazno gradivo in infrastrukture
 
-Preberite [Od vprašanja do metode](../chapters/research-design.md). Široko temo spremenite v eno raziskovalno vprašanje in navedite dokaze, potrebne za odgovor.
+Uporabite izbrane razdelke poglavij [Modeli, dokazno gradivo in interpretacija](../chapters/models-evidence-interpretation.md), [Infrastrukture digitalne humanistike](../chapters/critical-infrastructures.md) ter [Od vprašanja do metode](../chapters/research-design.md). Široko temo spremenite v eno raziskovalno vprašanje, orišite, kaj bo veljalo za dokazno gradivo, in določite eno infrastrukturno odločitev, ki lahko vpliva na dostop ali interpretacijo.
 
-### 3. Datoteke, formati in trajna ureditev
+### 3. Datoteke, formati, podatki in metapodatki
 
-Ustvarite projektno mapo z imeniki `data`, `sources`, `notes`, `outputs` in datoteko README. Primerjajte `.docx`, `.pdf`, `.txt`, `.csv` in slikovne datoteke. Vadite smiselno poimenovanje ter določite pravilo varnostnega kopiranja.
+Ustvarite projektno mapo z imeniki `data`, `sources`, `notes`, `outputs` in datoteko README. Primerjajte `.docx`, `.pdf`, `.txt`, `.csv` in slikovne datoteke, nato pa z osnovnimi pojmi iz poglavja [Podatki, metapodatki in modeli](../chapters/data-metadata-models.md) dokumentirajte manjšo tabelo. Vadite smiselno poimenovanje, pripravite podatkovni slovar in določite pravilo varnostnega kopiranja.
 
-### 4. Iskanje in vrednotenje virov
+### 4. Iskanje, vrednotenje virov in slovenski ekosistem
 
-Pripravite strategijo iskanja s ključnimi besedami, sopomenkami, Boolovimi povezavami in filtri. Primerjajte knjižnični katalog, bibliografsko zbirko, institucionalni repozitorij in splošni iskalnik. Shranite postopek iskanja, ne le končnih povezav.
+Pripravite strategijo iskanja s ključnimi besedami, sopomenkami, Boolovimi povezavami in filtri. Primerjajte knjižnični katalog, bibliografsko zbirko, institucionalni repozitorij in splošni iskalnik, nato pa predstavite en ustrezen vir iz poglavja [Digitalna humanistika v Sloveniji](../chapters/digital-humanities-in-slovenia.md). Zabeležite odločitve pri iskanju in izboru, ne le končnih povezav.
 
 ### 5. Citiranje, bibliografski metapodatki in upravljanje referenc
 
 Ustvarite manjšo knjižnico virov. Popravite nepopolne metapodatke, razlikujte trajni identifikator od spletnega naslova ter bibliografijo izvozite v dogovorjenem slogu.
 
-### 6. Podatki in metapodatki
+### 6. Preglednice in manjši strukturirani podatkovni nabori
 
-Preberite [Podatki, metapodatki in modeli](../chapters/data-metadata-models.md). Neurejene zapiske pretvorite v urejeno tabelo. Pripravite podatkovni slovar in različno označite manjkajočo, neznano ter neuporabljivo vrednost.
+Neurejene zapiske pretvorite v urejen kulturni podatkovni nabor, nato pa uporabite razvrščanje, filtriranje, formule in vrtilne tabele. Preverite mešane tipe podatkov, spojene celice, dvojnike, dvoumne manjkajoče vrednosti in formule, ki potiho izpustijo vrstice.
 
-### 7. Preglednice brez pregledničnega kaosa
-
-Na manjši kulturni zbirki uporabite razvrščanje, filtriranje, formule in vrtilne tabele. Preverite mešane tipe podatkov, spojene celice, dvojnike in formule, ki potiho izpustijo vrstice.
-
-### 8. Dokumenti, OCR in osnove korpusov
+### 7. Dokumenti, OCR in osnove korpusov
 
 Preberite [Besedila, korpusi in OCR](../chapters/texts-corpora-ocr.md). Primerjajte sken in OCR, prepoznajte napake z velikim vplivom ter napišite pravila vključevanja za mini korpus petih dokumentov.
 
-### 9. Iskanje, konkordance in frekvence
+### 8. Iskanje, konkordance in frekvence
 
 Preberite začetne dele poglavja [Analiza besedil](../chapters/text-analysis.md). V korpusnem vmesniku ali namiznem orodju poiščite besedo, preglejte konkordance ter primerjajte frekvenco pojavnic z dokumentno frekvenco.
 
-### 10. Vizualno sporočanje
+### 9. Vizualno sporočanje
 
 Iz istih podatkov pripravite eno tabelo in en graf. Navedite enoto, imenovalec, vir in manjkajoče vrednosti. Preoblikujte eno zavajajočo vizualizacijo in pojasnite popravek.
 
-### 11. Kraji in zemljevidi
+### 10. Kraji in zemljevidi
 
 Preberite uvodne dele poglavja [GIS in prostorska humanistika](../chapters/gis-spatial-humanities.md). Ustvarite majhno tabelo krajev z izvornimi oblikami, normaliziranimi imeni, koordinatami in negotovostjo ter pripravite osnovni zemljevid.
 
-### 12. Generativna UI z dokazi
+### 11. Generativna UI z dokaznim gradivom
 
 Preberite [UI, etika in ponovljivost](../chapters/ai-ethics-reproducibility.md). Model naj povzame podane vire in navede identifikatorje odlomkov; preverite vsako dejansko trditev in navedek. Zabeležite model, datum, poziv in popravke.
 
-### 13. Pravice, zasebnost in odgovorna objava
+### 12. Pravice, zasebnost, dostop, dostopnost in odgovorna objava
 
-Pri končnem projektu uporabite [etični kontrolni seznam](../resources/ethics-checklist.md). Določite, kaj je lahko javno, omejeno, anonimizirano ali izpuščeno, ter utemeljite licenco za vsako sestavino.
+Pri končnem projektu uporabite [etični kontrolni seznam](../resources/ethics-checklist.md). Določite, kaj je lahko javno, omejeno, anonimizirano ali izpuščeno, utemeljite licenco za vsako sestavino ter preverite, ali je glavni rezultat razumljiv ob uporabi tipkovnice, smiselnih oznak in besedilne alternative.
 
-### 14. Ponovljivi digitalni dosje
+### 13. Projektni paket, dokumentacija in stabilna izdaja
 
-Projekte si izmenjajte. Drug študent mora brez ustne razlage avtorja najti vire, razumeti podatke, ponoviti eno operacijo in prepoznati najpomembnejšo omejitev.
+V predvidljivi strukturi združite vire ali navodila za njihovo rekonstrukcijo, podatke, rezultate, informacije o pravicah in datoteko README. Zabeležite različico priročnika, ustvarite stabilni commit ali izdajo ter preverite, ali vsaka objavljena trditev vodi do preglednega dokaznega gradiva.
+
+### 14. Ponovljivi digitalni dosje in medvrstniški pregled
+
+Dokončane dosjeje si izmenjajte. Drug študent mora brez ustne razlage avtorja najti vire, razumeti podatke, ponoviti eno operacijo in prepoznati najpomembnejšo omejitev. Dosje nato popravite in zabeležite spremembe.
 
 ## Model ocenjevanja
 
@@ -2529,21 +2632,21 @@ Po končani poti bodo študenti znali:
 
 ## Predlagano zaporedje 14 modulov
 
-### 1. Digitalna slovenistika kot področje
+### 1. Zgodovine področja in slovenski ekosistem
 
-Preberite [Kaj je digitalna humanistika?](../chapters/what-is-digital-humanities.md) in [Od vprašanja do metode](../chapters/research-design.md). Eno tradicionalno slovenistično vprašanje preoblikujte tako, da bodo podatki, enota analize, primerjava in omejitve izrecni.
+Preberite [Kaj je digitalna humanistika?](../chapters/what-is-digital-humanities.md), [Zgodovine in genealogije digitalne humanistike](../chapters/history-of-digital-humanities.md) ter [Digitalna humanistika v Sloveniji](../chapters/digital-humanities-in-slovenia.md). Raziščite, kako je izbrana slovenistična praksa odvisna od spreminjajočih se poimenovanj, ustanov, jezikovnih virov in sodelovalnega dela, nato pa ločite dokumentirano zgodovino od genealogije, ki jo iz nje izpeljete.
 
-### 2. Ponovljivo delovno okolje Python
+### 2. Modeli, dokazno gradivo, infrastrukture in raziskovalna zasnova
 
-Ustvarite virtualno okolje Python 3.12, namestite pakete, zaženite skripto in inicializirajte repozitorij. Izvedite ustrezne [postopke za Python in NLP](../workflows/nlp/index.md). Oddajte README in specifikacijo okolja.
+Preberite [Modeli, dokazno gradivo in interpretacija](../chapters/models-evidence-interpretation.md), [Infrastrukture digitalne humanistike](../chapters/critical-infrastructures.md) ter [Od vprašanja do metode](../chapters/research-design.md). Eno slovenistično vprašanje preoblikujte tako, da bodo vir, model, enota analize, primerjava, odvisnost od infrastrukture, dokazno gradivo in omejitve izrecni.
 
-### 3. Besedilni formati, kodiranje in zasnova korpusa
+### 3. Ponovljivo delovno okolje Python
 
-Preberite [Besedila, korpusi in OCR](../chapters/texts-corpora-ocr.md). Preglejte primere navadnega besedila, CSV, JSON ter TEI/XML. Pripravite kartico korpusa s pravili vzorčenja, identifikatorji dokumentov, metapodatki in pravicami.
+Ustvarite virtualno okolje Python 3.12, namestite pakete, zaženite skripto in inicializirajte repozitorij. Izvedite ustrezne [postopke za Python in NLP](../workflows/nlp/index.md). Oddajte README in specifikacijo okolja, da bo tehnično okolje podpiralo zasnovo iz drugega modula.
 
-### 4. Zajem, OCR, čiščenje in dvojniki
+### 4. Besedilni formati, zasnova korpusa, zajem, OCR, čiščenje in dvojniki
 
-Pridobite ali pripravite manjši dovoljeni korpus. Ohranite surovo in obdelano plast, izmerite vzorec OCR ali zajema, odstranite ponavljajoče se dele ter označite popolne in skorajšnje dvojnike, ne da bi izgubili provenienco.
+Preberite [Besedila, korpusi in OCR](../chapters/texts-corpora-ocr.md) ter preglejte primere navadnega besedila, CSV, JSON in TEI/XML. Pripravite kartico korpusa s pravili vzorčenja, identifikatorji dokumentov, metapodatki in pravicami; pridobite ali pripravite manjši dovoljeni korpus; ohranite surovo in obdelano plast; izmerite vzorec OCR ali zajema; ter označite ponavljajoče se dele in dvojnike, ne da bi izgubili provenienco.
 
 ### 5. Anotacija s CLASSLA
 

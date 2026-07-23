@@ -21,6 +21,8 @@ Po tem poglavju boste znali:
 
 Natisnjeno navodilo za programsko opremo je lahko zastarelo, še preden ga študenti odprejo. Spletno mesto, ki se nenehno spreminja, pa je težko navesti ali recenzirati. Rešitev ni izbira med trajnostjo in spremembo. Vsaki je treba dodeliti jasno plast.
 
+Objavljanje je tudi infrastruktura repozitorijev, standardov, recenzijskih vlog in obveznosti vzdrževanja. Poglavje [Infrastrukture digitalne humanistike](critical-infrastructures.md) ponuja širšo podlago za vprašanja, kdo ta sistem vzdržuje, komu je dostopen in kaj se zgodi, ko katera od odvisnosti izgine.
+
 ## Dve izdaji, ena publikacija
 
 Priročnik loči:

@@ -21,6 +21,8 @@ After this chapter, you should be able to:
 
 A nineteenth-century diary says that its author travelled to *St. Peter*. Which place is meant? The answer may depend on language, period, route, administrative boundaries and the writer's habits. Assigning coordinates is not clerical work; it is an interpretation that needs evidence.
 
+Geocoding turns historical descriptions into modelled spatial entities. Use [Models, evidence and interpretation](models-evidence-interpretation.md) to document that transformation and [Infrastructures of digital humanities](critical-infrastructures.md) to assess the gazetteers, map services and access conditions on which it depends.
+
 ## Space is more than latitude and longitude
 
 Humanities sources refer to places through names, descriptions, institutions, regions, routes and imagined geographies. A place can change name, boundary, function and political affiliation. One name may denote several locations; one location may have many names.

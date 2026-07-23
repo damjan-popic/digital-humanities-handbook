@@ -21,7 +21,7 @@ After this chapter, you should be able to:
 
 Open a scanned historical page and its OCR transcription. Find five differences. Which errors would prevent search? Which would change a word frequency? Which would mislead a named-entity recognizer? Not every error has the same research cost.
 
-For a Slovenian example of the institutional and manual steps between a library scan and a deposited corpus, see [Digital humanities in Slovenia](digital-humanities-in-slovenia.md).
+Digitization, OCR and corpus delivery depend on institutional choices as well as software. Use [Infrastructures of digital humanities](critical-infrastructures.md) to examine selection, access and maintenance, and [Digital humanities in Slovenia](digital-humanities-in-slovenia.md) for a local example of the steps between a library scan and a deposited corpus.
 
 ## A digital text has layers
 

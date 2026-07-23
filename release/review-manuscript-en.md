@@ -2,15 +2,98 @@
 
 **Stable core and course pathways — development review snapshot**
 
-**Version:** 0.1.0-dev  
-**Date:** 2026-07-20  
+**Version:** 0.1.0-dev<br>
+**Date:** 2026-07-23<br>
 **Author/editor:** Damjan Popič
 
 > This file is generated from the version-controlled source. The public web edition is canonical for navigation and interactive material.
 
 ---
 
-# Part I: Handbook chapters
+# Orientation
+
+## How to use the handbook
+
+## What kind of handbook this is
+
+The handbook combines a stable conceptual and methodological core with a living library of [workflows](../workflows/index.md) and [case studies](../case-studies/index.md). The chapters explain why research choices matter and how evidence supports interpretation. Workflows provide bounded implementation steps, while case studies show how larger projects connect methods, institutions and scholarly claims.
+
+The core is therefore not a sequence of software tutorials. It is an argument about research: understand the histories and infrastructures that shape digital work, design evidence deliberately, select and validate methods, and publish results responsibly.
+
+## How the four parts form an argument
+
+| Part | Purpose and central question | Chapters |
+| --- | --- | --- |
+| **Part I — Histories, theories and contexts** | Situate the field and its representations. How do histories, models, infrastructures, languages and communities shape what can be known? | 1–5 |
+| **Part II — Research design and sources** | Turn questions and sources into an auditable design. What must be represented, documented and checked before analysis? | 6–8 |
+| **Part III — Analytical methods** | Construct and test method-specific outputs. What does each operation measure, omit or transform? | 9–14 |
+| **Part IV — Responsible research and publication** | Make the full research chain reviewable and sustainable. How should projects manage risk, reproducibility, citation, maintenance and change? | 15–16 |
+
+## Recommended sequence
+
+### Part I — Histories, theories and contexts
+
+1. [What is digital humanities?](what-is-digital-humanities.md)
+2. [Histories and genealogies of digital humanities](history-of-digital-humanities.md)
+3. [Models, evidence and interpretation](models-evidence-interpretation.md)
+4. [Infrastructures of digital humanities: power, access and maintenance](critical-infrastructures.md)
+5. [Digital humanities in Slovenia: infrastructures, languages and communities](digital-humanities-in-slovenia.md)
+
+### Part II — Research design and sources
+
+6. [From question to method](research-design.md)
+7. [Data, metadata and models](data-metadata-models.md)
+8. [Texts, corpora and OCR](texts-corpora-ocr.md)
+
+### Part III — Analytical methods
+
+9. [Linguistic annotation and CLASSLA](linguistic-annotation-classla.md)
+10. [Text analysis](text-analysis.md)
+11. [Topics, sentiment and emotion](topics-emotions-classification.md)
+12. [Databases and SQL](databases-sql.md)
+13. [GIS and spatial humanities](gis-spatial-humanities.md)
+14. [Networks and visualization](networks-visualization.md)
+
+### Part IV — Responsible research and publication
+
+15. [AI, ethics and reproducibility](ai-ethics-reproducibility.md)
+16. [The living open handbook](open-living-handbook.md)
+
+## Shorter routes
+
+### Foundational digital and information literacy
+
+Use this route to learn how digital sources become evidence without making technical specialization the goal. Read chapters [1](what-is-digital-humanities.md), selected sections of [2](history-of-digital-humanities.md), [3](models-evidence-interpretation.md), [4](critical-infrastructures.md), [6](research-design.md), [7](data-metadata-models.md), [8](texts-corpora-ocr.md) and [15](ai-ethics-reproducibility.md). Chapter 5 can be read through one relevant Slovenian resource profile; analytical chapters are optional extensions. The paired course design is [Information Society Literacy](../learning-paths/pismenost-za-informacijsko-druzbo.md).
+
+### Text analysis and Digital Slovenian Studies
+
+Use the full Part I to establish the field, its modelling assumptions and the Slovenian resource ecosystem. Continue with chapters [6](research-design.md), [8](texts-corpora-ocr.md), [9](linguistic-annotation-classla.md), [10](text-analysis.md), [11](topics-emotions-classification.md) and [15](ai-ethics-reproducibility.md). Databases, GIS and networks are project-dependent extensions. The advanced fourteen-module sequence is [Digital Slovenian Studies](../learning-paths/digitalna-slovenistika.md).
+
+### Project-based study
+
+Begin with chapters [3](models-evidence-interpretation.md), [4](critical-infrastructures.md) and [5](digital-humanities-in-slovenia.md), then design the project with chapters [6](research-design.md) and [7](data-metadata-models.md). Select one primary method from Part III and complete the chain with chapters [15](ai-ethics-reproducibility.md) and [16](open-living-handbook.md). Read other method chapters only when they support the question or a validation strategy.
+
+## Theory is not a prerequisite wall
+
+Part I provides shared language for recurring problems, but readers do not have to complete it before using a method chapter. Each later chapter remains independently usable and offers concise links back to the relevant concepts. Follow those links when a question about modelling, evidence, infrastructure or local resources becomes consequential; return to the full theoretical opening when comparing methods or designing a course.
+
+## Page anatomy
+
+Every chapter includes:
+
+- **Learning outcomes** — what the reader should be able to explain or do.
+- **Before you begin** — concepts or practical preparation.
+- **Core argument** — the stable methodological explanation.
+- **Worked example** — a small, inspectable case rather than a black box.
+- **Practice** — an executable or design task.
+- **Reflection** — interpretive questions that prevent method from becoming button-pushing.
+- **Summary** — the claims worth carrying into the next chapter.
+
+Use the chapter for the stable argument, then move to a relevant [workflow](../workflows/index.md) for implementation or a [case study](../case-studies/index.md) for a situated example. Those living collections can change more quickly than the peer-reviewable core.
+
+---
+
+# Part I — Histories, theories and contexts
 
 ## What is digital humanities?
 
@@ -937,6 +1020,8 @@ These relations do not turn public objects automatically into research-ready dat
 
 ---
 
+# Part II — Research design and sources
+
 ## From question to method
 
 ## Learning outcomes
@@ -953,7 +1038,7 @@ After this chapter, you should be able to:
 
 Write down a question you would ask even if no digital tool existed. Then underline the nouns and verbs. The nouns often point to objects and units; the verbs often reveal the kind of comparison or explanation the project requires.
 
-If the question concerns Slovenian material, use the ecosystem map in [Digital humanities in Slovenia](digital-humanities-in-slovenia.md) to distinguish discovery portals, research-data environments, repositories and language services before selecting a method.
+Research design makes modelling and infrastructural choices explicit. Use [Models, evidence and interpretation](models-evidence-interpretation.md) to distinguish sources, representations, outputs and evidence, and [Infrastructures of digital humanities](critical-infrastructures.md) to audit how access and maintenance condition the project. If the question concerns Slovenian material, the ecosystem map in [Digital humanities in Slovenia](digital-humanities-in-slovenia.md) helps distinguish discovery portals, research-data environments, repositories and language services before method selection.
 
 ## A question is not yet a method
 
@@ -1081,7 +1166,7 @@ After this chapter, you should be able to:
 
 Open a table you have used for research. Can you tell, without asking its creator, what one row represents, which columns are required, what blank cells mean, where the values came from and which version you are looking at? If not, the problem is not “messy data” alone; it is missing semantics.
 
-This chapter concentrates on practical data structures and documentation. For the broader epistemic account of how sources, models and outputs become evidence, see [Models, evidence and interpretation](models-evidence-interpretation.md).
+This chapter concentrates on practical data structures and documentation. For the broader epistemic account of how sources, models and outputs become evidence, see [Models, evidence and interpretation](models-evidence-interpretation.md). When a collection interface, standard or export rule constrains the records available to you, use [Infrastructures of digital humanities](critical-infrastructures.md) to document that upstream selection as well.
 
 ## Data, metadata and documentation
 
@@ -1222,7 +1307,7 @@ After this chapter, you should be able to:
 
 Open a scanned historical page and its OCR transcription. Find five differences. Which errors would prevent search? Which would change a word frequency? Which would mislead a named-entity recognizer? Not every error has the same research cost.
 
-For a Slovenian example of the institutional and manual steps between a library scan and a deposited corpus, see [Digital humanities in Slovenia](digital-humanities-in-slovenia.md).
+Digitization, OCR and corpus delivery depend on institutional choices as well as software. Use [Infrastructures of digital humanities](critical-infrastructures.md) to examine selection, access and maintenance, and [Digital humanities in Slovenia](digital-humanities-in-slovenia.md) for a local example of the steps between a library scan and a deposited corpus.
 
 ## A digital text has layers
 
@@ -1332,6 +1417,8 @@ A text corpus is a documented research instrument. It consists of linked layers,
 
 ---
 
+# Part III — Analytical methods
+
 ## Linguistic annotation and CLASSLA
 
 ## Learning outcomes
@@ -1347,6 +1434,8 @@ After this chapter, you should be able to:
 ## Before you begin
 
 Take the sentence *Zala je v Novi Gorici predstavila novo Zalo.* Is *Zala* a person, a product, a place or something else? What evidence would a human use? An annotator has to make related decisions from form, context and patterns learned from data.
+
+Treat annotation layers as models rather than recovered facts. [Models, evidence and interpretation](models-evidence-interpretation.md) provides the conceptual grounding for separating an annotation output from evidence warranted by task-specific validation.
 
 ## Annotation creates analytical layers
 
@@ -1466,6 +1555,8 @@ After this chapter, you should be able to:
 ## Before you begin
 
 A word occurs 300 times in corpus A and 180 times in corpus B. Is it more characteristic of A? You cannot know until you know corpus sizes, document distribution, genre composition and how the word was counted. Numbers become evidence only after the denominator and comparison are defined.
+
+For the distinction between a computational output and evidence for a humanities claim, and for the modelling choices hidden in units and categories, use [Models, evidence and interpretation](models-evidence-interpretation.md) as conceptual grounding.
 
 ## Counting is a model of relevance
 
@@ -1602,6 +1693,8 @@ After this chapter, you should be able to:
 
 The sentence *Brilliant—another glorious delay* contains positive words but probably expresses negative evaluation. A model that scores vocabulary without context may fail. Before selecting a tool, decide what exactly the category means and which textual evidence licenses the label.
 
+Classification operationalizes a concept rather than discovering a self-evident category. Use [Models, evidence and interpretation](models-evidence-interpretation.md) to keep the codebook, model output, validation evidence and interpretive claim distinct.
+
 ## Classification starts with an operational definition
 
 A classifier assigns texts or passages to predefined categories. Examples include genre, period, author, stance, sentiment, emotion or relevance. The central research act is not choosing an algorithm; it is translating a concept into observable annotation rules.
@@ -1722,6 +1815,8 @@ After this chapter, you should be able to:
 ## Before you begin
 
 Imagine a table with columns `author_1`, `author_2`, `author_3`, `place_1`, `place_2` and several cells containing comma-separated names. It may look convenient, but how would you reliably ask which authors published in the same place, or correct one person's name everywhere? The structure determines which questions remain possible.
+
+A schema is a model of selected entities and relationships, not a neutral container. [Models, evidence and interpretation](models-evidence-interpretation.md) helps expose those choices; [Infrastructures of digital humanities](critical-infrastructures.md) helps when database access, identifiers or maintenance depend on an external service.
 
 ## A database is an argument about the world
 
@@ -1867,6 +1962,8 @@ After this chapter, you should be able to:
 
 A nineteenth-century diary says that its author travelled to *St. Peter*. Which place is meant? The answer may depend on language, period, route, administrative boundaries and the writer's habits. Assigning coordinates is not clerical work; it is an interpretation that needs evidence.
 
+Geocoding turns historical descriptions into modelled spatial entities. Use [Models, evidence and interpretation](models-evidence-interpretation.md) to document that transformation and [Infrastructures of digital humanities](critical-infrastructures.md) to assess the gazetteers, map services and access conditions on which it depends.
+
 ## Space is more than latitude and longitude
 
 Humanities sources refer to places through names, descriptions, institutions, regions, routes and imagined geographies. A place can change name, boundary, function and political affiliation. One name may denote several locations; one location may have many names.
@@ -1986,6 +2083,8 @@ After this chapter, you should be able to:
 
 Two people occur in the same newspaper article. Are they connected? Perhaps they collaborated, opposed one another, were merely listed, or appear in unrelated paragraphs. A network edge is not found automatically in the source. It is created by a rule whose meaning must be defended.
 
+Node and edge rules are modelling choices that shape every metric and image. Use [Models, evidence and interpretation](models-evidence-interpretation.md) to keep construction, output and interpretation distinct, and [Infrastructures of digital humanities](critical-infrastructures.md) when source APIs or visualization platforms determine visibility and reuse.
+
 ## A network is a data model
 
 A graph contains **nodes** and **edges**. Nodes may represent people, texts, places, institutions or concepts. Edges may represent correspondence, citation, kinship, co-authorship, travel, co-occurrence or another relationship.
@@ -2082,6 +2181,8 @@ Construct a small network from at least ten source records. Write the edge rule 
 Networks are explicit models of relationships, not transparent pictures of society or literature. Node and edge definitions, projection, time, missing data and algorithms shape every result. Centrality is not generic importance, communities are not self-interpreting groups and layouts are not evidence. Traceable construction rules and source-linked edges make network analysis suitable for humanistic interpretation.
 
 ---
+
+# Part IV — Responsible research and publication
 
 ## AI, ethics and reproducibility
 
@@ -2243,6 +2344,8 @@ After this chapter, you should be able to:
 
 A printed software tutorial can be obsolete before students open it. A constantly changing website can be impossible to cite or review. The solution is not to choose between permanence and change. It is to give each a defined layer.
 
+Publication is itself an infrastructure of repositories, standards, review roles and maintenance commitments. [Infrastructures of digital humanities](critical-infrastructures.md) provides the broader grounding for asking who sustains that system, who can access it and what happens when a dependency disappears.
+
 ## Two editions, one publication
 
 This handbook separates:
@@ -2380,7 +2483,7 @@ A living handbook can be open and academically citable when development and publ
 
 ---
 
-# Part II: Course pathways
+# Course pathways
 
 ## Information Society Literacy
 
@@ -2408,61 +2511,61 @@ By the end of the path, students should be able to:
 
 ## Suggested 14-module sequence
 
-### 1. Digital literacy as critical practice
+### 1. Digital literacy in historical and social context
 
-Read [What is digital humanities?](../chapters/what-is-digital-humanities.md). Map a familiar academic task from source discovery to final submission and identify every point where a platform or format shapes the result.
+Read [What is digital humanities?](../chapters/what-is-digital-humanities.md) and the sections on changing names and infrastructures in [Histories and genealogies of digital humanities](../chapters/history-of-digital-humanities.md). Map a familiar academic task from source discovery to final submission and identify where a platform, format, institution or inherited practice shapes the result.
 
-### 2. Questions, sources and evidence
+### 2. Questions, models, evidence and infrastructures
 
-Read [From question to method](../chapters/research-design.md). Turn a broad topic into one researchable question and list the evidence needed to answer it.
+Use selected sections of [Models, evidence and interpretation](../chapters/models-evidence-interpretation.md), [Infrastructures of digital humanities](../chapters/critical-infrastructures.md) and [From question to method](../chapters/research-design.md). Turn a broad topic into one researchable question, sketch what will count as evidence and identify one infrastructural choice that could shape access or interpretation.
 
-### 3. Files, formats and durable organization
+### 3. Files, formats, data and metadata
 
-Create a project folder with `data`, `sources`, `notes`, `outputs` and a README. Compare `.docx`, `.pdf`, `.txt`, `.csv` and image files. Practise meaningful file names and a backup rule.
+Create a project folder with `data`, `sources`, `notes`, `outputs` and a README. Compare `.docx`, `.pdf`, `.txt`, `.csv` and image files, then use the conceptual basics of [Data, metadata and models](../chapters/data-metadata-models.md) to document a small table. Practise meaningful file names, a data dictionary and a backup rule.
 
-### 4. Search and source evaluation
+### 4. Search, source evaluation and the Slovenian resource ecosystem
 
-Build a search strategy using keywords, synonyms, Boolean combinations and source filters. Compare a library catalogue, bibliographic database, institutional repository and general search engine. Record the search rather than only the final links.
+Build a search strategy using keywords, synonyms, Boolean combinations and source filters. Compare a library catalogue, bibliographic database, institutional repository and general search engine, then profile one relevant resource from [Digital humanities in Slovenia](../chapters/digital-humanities-in-slovenia.md). Record search and selection decisions rather than only the final links.
 
 ### 5. Citations, bibliographic metadata and reference management
 
 Create a small reference library. Correct incomplete metadata, distinguish a stable identifier from a URL and export the bibliography in one agreed style.
 
-### 6. Data and metadata
+### 6. Spreadsheets and small structured datasets
 
-Read [Data, metadata and models](../chapters/data-metadata-models.md). Convert messy notes into a tidy table. Prepare a data dictionary and mark missing, unknown and not-applicable values differently.
+Convert messy notes into a tidy cultural dataset, then use sorting, filtering, formulas and pivot tables. Check for mixed data types, merged cells, duplicate records, ambiguous missing values and formulas that silently exclude rows.
 
-### 7. Spreadsheets without spreadsheet chaos
-
-Use sorting, filtering, formulas and pivot tables on a small cultural dataset. Check for mixed data types, merged cells, duplicate records and formulas that silently exclude rows.
-
-### 8. Documents, OCR and corpus basics
+### 7. Documents, OCR and corpus basics
 
 Read [Texts, corpora and OCR](../chapters/texts-corpora-ocr.md). Compare a scan and OCR text, identify high-impact errors and write inclusion rules for a five-document mini-corpus.
 
-### 9. Search, concordance and frequency
+### 8. Search, concordance and frequency
 
 Read the opening sections of [Text analysis](../chapters/text-analysis.md). Use a corpus interface or desktop tool to search a word, inspect concordances and compare token frequency with document frequency.
 
-### 10. Visual communication
+### 9. Visual communication
 
 Create one table and one chart from the same data. State the unit, denominator, source and missing values. Redesign one misleading visualization and explain the correction.
 
-### 11. Places and maps
+### 10. Places and maps
 
 Read the introductory sections of [GIS and spatial humanities](../chapters/gis-spatial-humanities.md). Build a small place table with source forms, normalized names, coordinates and uncertainty, then produce a basic map.
 
-### 12. Generative AI with evidence
+### 11. Generative AI with evidence
 
 Read [AI, ethics and reproducibility](../chapters/ai-ethics-reproducibility.md). Ask a model to summarize supplied sources, require passage identifiers and verify every factual claim and quotation. Record the model, date, prompt and corrections.
 
-### 13. Rights, privacy and responsible publication
+### 12. Rights, privacy, access, accessibility and responsible publication
 
-Apply the [ethics checklist](../resources/ethics-checklist.md) to the final project. Decide what may be public, restricted, anonymized or omitted and justify the licence for each component.
+Apply the [ethics checklist](../resources/ethics-checklist.md) to the final project. Decide what may be public, restricted, anonymized or omitted; justify the licence for each component; and test whether the main output remains understandable through keyboard navigation, meaningful labels and a non-visual alternative.
 
-### 14. Reproducible digital dossier
+### 13. Project packaging, documentation and a stable release
 
-Exchange projects. Another student must locate the sources, understand the data, repeat one operation and identify the strongest limitation without oral explanation from the author.
+Package sources or reconstruction instructions, data, outputs, rights information and a README in a predictable structure. Record the handbook version, create a stable commit or release and confirm that every published claim points back to inspectable evidence.
+
+### 14. Reproducible digital dossier and peer review
+
+Exchange completed dossiers. Another student must locate the sources, understand the data, repeat one operation and identify the strongest limitation without oral explanation from the author. Revise the dossier in response and record what changed.
 
 ## Assessment model
 
@@ -2523,21 +2626,21 @@ By the end of the path, students should be able to:
 
 ## Suggested 14-module sequence
 
-### 1. Digital Slovenian studies as a field
+### 1. Histories of the field and the Slovenian ecosystem
 
-Read [What is digital humanities?](../chapters/what-is-digital-humanities.md) and [From question to method](../chapters/research-design.md). Reformulate one traditional Slovenian-studies question so that data, unit of analysis, comparison and limits are explicit.
+Read [What is digital humanities?](../chapters/what-is-digital-humanities.md), [Histories and genealogies of digital humanities](../chapters/history-of-digital-humanities.md) and [Digital humanities in Slovenia](../chapters/digital-humanities-in-slovenia.md). Trace how one Slovenian-studies practice depends on changing terms, institutions, language resources and collaborative labour, then distinguish the history you can document from the genealogy you infer.
 
-### 2. Reproducible Python workspace
+### 2. Models, evidence, infrastructures and research design
 
-Create a Python 3.12 virtual environment, install packages, run a script and initialize a repository. Complete the relevant [Python and NLP workflows](../workflows/nlp/index.md). Commit a README and environment specification.
+Read [Models, evidence and interpretation](../chapters/models-evidence-interpretation.md), [Infrastructures of digital humanities](../chapters/critical-infrastructures.md) and [From question to method](../chapters/research-design.md). Reformulate one Slovenian-studies question so that the source, model, unit of analysis, comparison, infrastructure dependency, evidence and limits are explicit.
 
-### 3. Text formats, encoding and corpus design
+### 3. Reproducible Python workspace
 
-Read [Texts, corpora and OCR](../chapters/texts-corpora-ocr.md). Inspect plain text, CSV, JSON and TEI/XML examples. Design a corpus card with sampling rules, document IDs, metadata and rights.
+Create a Python 3.12 virtual environment, install packages, run a script and initialize a repository. Complete the relevant [Python and NLP workflows](../workflows/nlp/index.md). Commit a README and environment specification so that the technical workspace supports the design from module 2.
 
-### 4. Collection, OCR, cleaning and deduplication
+### 4. Text formats, corpus design, collection, OCR, cleaning and deduplication
 
-Acquire or prepare a small authorized corpus. Preserve raw and processed layers, measure an OCR or extraction sample, remove boilerplate and flag exact or near duplicates without losing provenance.
+Read [Texts, corpora and OCR](../chapters/texts-corpora-ocr.md) and inspect plain text, CSV, JSON and TEI/XML examples. Design a corpus card with sampling rules, document IDs, metadata and rights; acquire or prepare a small authorized corpus; preserve raw and processed layers; measure an OCR or extraction sample; and flag boilerplate and duplicates without losing provenance.
 
 ### 5. CLASSLA annotation
 

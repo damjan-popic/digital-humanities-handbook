@@ -2,6 +2,8 @@
 
 Learning paths turn the handbook into a course without locking the content to a single timetable. Each path identifies outcomes, a suggested sequence, practical work and a final project. Teachers can pin a numbered release for one academic year while students continue to see corrections in the living edition.
 
+The paths draw selectively on the handbook's four-part core. Information Society Literacy samples the historical and conceptual opening before moving through sources, everyday methods and responsible publication. Digital Slovenian Studies uses the full theoretical opening, then follows a technically advanced sequence through research design, text methods, structured and spatial data, networks and release.
+
 ## Current paths
 
 - [Information Society Literacy](pismenost-za-informacijsko-druzbo.md) — foundational information, data, text and AI literacy with a low technical threshold.

@@ -32,21 +32,21 @@ By the end of the path, students should be able to:
 
 ## Suggested 14-module sequence
 
-### 1. Digital Slovenian studies as a field
+### 1. Histories of the field and the Slovenian ecosystem
 
-Read [What is digital humanities?](../chapters/what-is-digital-humanities.md) and [From question to method](../chapters/research-design.md). Reformulate one traditional Slovenian-studies question so that data, unit of analysis, comparison and limits are explicit.
+Read [What is digital humanities?](../chapters/what-is-digital-humanities.md), [Histories and genealogies of digital humanities](../chapters/history-of-digital-humanities.md) and [Digital humanities in Slovenia](../chapters/digital-humanities-in-slovenia.md). Trace how one Slovenian-studies practice depends on changing terms, institutions, language resources and collaborative labour, then distinguish the history you can document from the genealogy you infer.
 
-### 2. Reproducible Python workspace
+### 2. Models, evidence, infrastructures and research design
 
-Create a Python 3.12 virtual environment, install packages, run a script and initialize a repository. Complete the relevant [Python and NLP workflows](../workflows/nlp/index.md). Commit a README and environment specification.
+Read [Models, evidence and interpretation](../chapters/models-evidence-interpretation.md), [Infrastructures of digital humanities](../chapters/critical-infrastructures.md) and [From question to method](../chapters/research-design.md). Reformulate one Slovenian-studies question so that the source, model, unit of analysis, comparison, infrastructure dependency, evidence and limits are explicit.
 
-### 3. Text formats, encoding and corpus design
+### 3. Reproducible Python workspace
 
-Read [Texts, corpora and OCR](../chapters/texts-corpora-ocr.md). Inspect plain text, CSV, JSON and TEI/XML examples. Design a corpus card with sampling rules, document IDs, metadata and rights.
+Create a Python 3.12 virtual environment, install packages, run a script and initialize a repository. Complete the relevant [Python and NLP workflows](../workflows/nlp/index.md). Commit a README and environment specification so that the technical workspace supports the design from module 2.
 
-### 4. Collection, OCR, cleaning and deduplication
+### 4. Text formats, corpus design, collection, OCR, cleaning and deduplication
 
-Acquire or prepare a small authorized corpus. Preserve raw and processed layers, measure an OCR or extraction sample, remove boilerplate and flag exact or near duplicates without losing provenance.
+Read [Texts, corpora and OCR](../chapters/texts-corpora-ocr.md) and inspect plain text, CSV, JSON and TEI/XML examples. Design a corpus card with sampling rules, document IDs, metadata and rights; acquire or prepare a small authorized corpus; preserve raw and processed layers; measure an OCR or extraction sample; and flag boilerplate and duplicates without losing provenance.
 
 ### 5. CLASSLA annotation
 
