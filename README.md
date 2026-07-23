@@ -1,14 +1,15 @@
 # Digital Humanities Handbook / Priročnik za digitalno humanistiko
 
-An open, bilingual and versioned handbook for digital humanities methods. The repository combines a stable, reviewable handbook core with a living collection of practical workflows, examples and course pathways.
+An open, bilingual and versioned handbook for digital humanities methods. The repository combines a stable, reviewable handbook core with a living collection of practical workflows, case studies and course pathways.
 
-**Planned public site:** `https://damjan-popic.github.io/digital-humanities-handbook/`
+**Public site:** `https://damjan-popic.github.io/digital-humanities-handbook/`
 
 ## What changed from the Digital Linguistics Playbook
 
 - The scope is now digital humanities, with text analysis as the main spine and databases, GIS, networks, digital editions, AI and research publishing as connected methods.
 - English and Slovene are built from one repository, with a language switch that keeps readers on the corresponding page when a translation exists.
 - Narrative chapters provide the stable, peer-reviewable publication core.
+- A validated ecosystem map connects chapters, workflows and case studies in both directions instead of presenting them as separate collections.
 - Practical workflows remain modular and can be expanded by students and external contributors.
 - Learning paths connect the handbook to *Pismenost za informacijsko družbo* and *Digitalna slovenistika*.
 - Tagged releases provide citable snapshots; `main` remains the living edition.
@@ -25,10 +26,10 @@ mkdocs serve
 ## Validate and build
 
 ```bash
-python scripts/check_handbook.py
-python scripts/check_translation_coverage.py
-mkdocs build --strict
+make check
 ```
+
+The validation suite checks the bilingual stable core, course-path order, workflow and case-study structure, translation coverage, and the reciprocal ecosystem map before running a strict MkDocs build.
 
 ## Language structure
 
@@ -39,7 +40,7 @@ docs/
 └── sl/       # Slovene edition (/sl/)
 ```
 
-The English edition currently also preserves the broader workflow library inherited from the original playbook. The Slovene edition begins with a complete handbook core and selected teaching workflows. Translation coverage is measured automatically and is designed to grow through reviewed contributions.
+The English edition currently also preserves the broader workflow library inherited from the original playbook. The Slovene edition begins with a complete handbook core and selected teaching workflows. Translation coverage is measured automatically and is designed to grow through reviewed contributions. Clearly marked English fallback pages keep the wider ecosystem usable without pretending that untranslated pages are finished Slovene translations.
 
 ## Publication model
 
