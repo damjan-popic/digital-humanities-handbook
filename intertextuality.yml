@@ -1,0 +1,341 @@
+version: 1
+
+# Every practical workflow inherits conceptual links from its front-matter category.
+workflow_categories:
+  AI:
+    chapters:
+      - chapters/models-evidence-interpretation.md
+      - chapters/ai-ethics-reproducibility.md
+  Audio:
+    chapters:
+      - chapters/texts-corpora-ocr.md
+      - chapters/ai-ethics-reproducibility.md
+  Automation:
+    chapters:
+      - chapters/open-living-handbook.md
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/data-metadata-models.md
+  CAT tools:
+    chapters:
+      - chapters/texts-corpora-ocr.md
+      - chapters/data-metadata-models.md
+      - chapters/ai-ethics-reproducibility.md
+  Corpora:
+    chapters:
+      - chapters/texts-corpora-ocr.md
+      - chapters/research-design.md
+      - chapters/text-analysis.md
+  Data:
+    chapters:
+      - chapters/databases-sql.md
+      - chapters/data-metadata-models.md
+  Data wrangling:
+    chapters:
+      - chapters/data-metadata-models.md
+      - chapters/research-design.md
+  Digital editions:
+    chapters:
+      - chapters/texts-corpora-ocr.md
+      - chapters/digital-humanities-in-slovenia.md
+      - chapters/open-living-handbook.md
+  Ethics:
+    chapters:
+      - chapters/critical-infrastructures.md
+      - chapters/ai-ethics-reproducibility.md
+  Mapping:
+    chapters:
+      - chapters/gis-spatial-humanities.md
+      - chapters/models-evidence-interpretation.md
+  MT evaluation:
+    chapters:
+      - chapters/topics-emotions-classification.md
+      - chapters/ai-ethics-reproducibility.md
+  Networks:
+    chapters:
+      - chapters/networks-visualization.md
+      - chapters/models-evidence-interpretation.md
+  NLP:
+    chapters:
+      - chapters/linguistic-annotation-classla.md
+      - chapters/texts-corpora-ocr.md
+      - chapters/ai-ethics-reproducibility.md
+  PDF & OCR:
+    chapters:
+      - chapters/texts-corpora-ocr.md
+      - chapters/critical-infrastructures.md
+  Publishing & FAIR data:
+    chapters:
+      - chapters/critical-infrastructures.md
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
+  Subtitling:
+    chapters:
+      - chapters/texts-corpora-ocr.md
+      - chapters/ai-ethics-reproducibility.md
+  Terminology:
+    chapters:
+      - chapters/data-metadata-models.md
+      - chapters/databases-sql.md
+      - chapters/open-living-handbook.md
+  Text analysis:
+    chapters:
+      - chapters/text-analysis.md
+      - chapters/topics-emotions-classification.md
+      - chapters/models-evidence-interpretation.md
+  Visualization:
+    chapters:
+      - chapters/text-analysis.md
+      - chapters/gis-spatial-humanities.md
+      - chapters/networks-visualization.md
+      - chapters/models-evidence-interpretation.md
+
+# A short, curated practical trail for each stable chapter.
+chapters:
+  chapters/what-is-digital-humanities.md:
+    workflows:
+      - workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md
+      - workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md
+      - workflows/mapping/build-a-simple-cultural-heritage-map.md
+    case_studies:
+      - case-studies/ladakh-relations.md
+      - case-studies/wikivir.md
+  chapters/history-of-digital-humanities.md:
+    workflows:
+      - workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md
+      - workflows/publishing/package-a-corpus-with-fair-metadata.md
+    case_studies:
+      - case-studies/wikivir.md
+      - case-studies/corpus-augmenter.md
+  chapters/models-evidence-interpretation.md:
+    workflows:
+      - workflows/visualization/visualise-uncertainty-in-humanities-data.md
+      - workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md
+      - workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md
+    case_studies:
+      - case-studies/medieval-ner.md
+      - case-studies/pracomul.md
+  chapters/critical-infrastructures.md:
+    workflows:
+      - workflows/ethics/decide-whether-a-digitised-source-should-be-public.md
+      - workflows/publishing/package-a-corpus-with-fair-metadata.md
+      - workflows/publishing/write-a-readme-for-a-humanities-dataset.md
+    case_studies:
+      - case-studies/ladakh-relations.md
+      - case-studies/fifi.md
+  chapters/digital-humanities-in-slovenia.md:
+    workflows:
+      - workflows/nlp/annotate-a-small-text-with-classla.md
+      - workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md
+      - workflows/mapping/map-places-mentioned-in-a-text.md
+    case_studies:
+      - case-studies/wikivir.md
+      - case-studies/corpus-augmenter.md
+      - case-studies/jezikovni-svetovalec.md
+  chapters/research-design.md:
+    workflows:
+      - workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md
+      - workflows/publishing/write-a-readme-for-a-humanities-dataset.md
+      - workflows/ai/audit-ai-output-against-source-documents.md
+    case_studies:
+      - case-studies/fifi.md
+      - case-studies/medieval-ner.md
+  chapters/data-metadata-models.md:
+    workflows:
+      - workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md
+      - workflows/data/build-a-humanities-database-with-sqlite.md
+      - workflows/publishing/package-a-corpus-with-fair-metadata.md
+      - workflows/publishing/write-a-readme-for-a-humanities-dataset.md
+    case_studies:
+      - case-studies/pracomul.md
+      - case-studies/korpus-solar-analysis.md
+  chapters/texts-corpora-ocr.md:
+    workflows:
+      - workflows/pdf/bulk-download-pdfs-and-ocr-them.md
+      - workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md
+      - workflows/corpora/deduplicate-corpus-text-with-minhash.md
+      - workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md
+    case_studies:
+      - case-studies/text-harvester.md
+      - case-studies/wikivir.md
+      - case-studies/medieval-ner.md
+  chapters/linguistic-annotation-classla.md:
+    workflows:
+      - workflows/nlp/install-and-test-classla.md
+      - workflows/nlp/annotate-a-small-text-with-classla.md
+      - workflows/nlp/export-classla-results-to-csv.md
+    case_studies:
+      - case-studies/corpus-augmenter.md
+      - case-studies/wikivir.md
+      - case-studies/korpus-solar-analysis.md
+  chapters/text-analysis.md:
+    workflows:
+      - workflows/corpora/query-a-corpus-with-cqpweb.md
+      - workflows/text-analysis/compare-style-with-function-words.md
+      - workflows/visualization/make-a-dispersion-plot-in-lancsbox.md
+      - workflows/visualization/visualise-a-frequency-list-with-voyant.md
+    case_studies:
+      - case-studies/korpus-solar-analysis.md
+      - case-studies/pracomul.md
+  chapters/topics-emotions-classification.md:
+    workflows:
+      - workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md
+      - workflows/text-analysis/explore-topics-with-nmf.md
+      - workflows/visualization/create-a-sentence-similarity-heat-map.md
+    case_studies:
+      - case-studies/createai.md
+      - case-studies/pracomul.md
+      - case-studies/medieval-ner.md
+  chapters/databases-sql.md:
+    workflows:
+      - workflows/data/build-a-humanities-database-with-sqlite.md
+      - workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md
+    case_studies:
+      - case-studies/ladakh-relations.md
+      - case-studies/pracomul.md
+  chapters/gis-spatial-humanities.md:
+    workflows:
+      - workflows/mapping/map-places-mentioned-in-a-text.md
+      - workflows/mapping/build-a-simple-cultural-heritage-map.md
+      - workflows/visualization/visualise-uncertainty-in-humanities-data.md
+    case_studies:
+      - case-studies/ladakh-relations.md
+      - case-studies/medieval-ner.md
+  chapters/networks-visualization.md:
+    workflows:
+      - workflows/networks/build-a-cooccurrence-network.md
+      - workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape.md
+      - workflows/visualization/visualise-uncertainty-in-humanities-data.md
+    case_studies:
+      - case-studies/ladakh-relations.md
+      - case-studies/pracomul.md
+  chapters/ai-ethics-reproducibility.md:
+    workflows:
+      - workflows/ai/audit-ai-output-against-source-documents.md
+      - workflows/ethics/decide-whether-a-digitised-source-should-be-public.md
+      - workflows/publishing/package-a-corpus-with-fair-metadata.md
+      - workflows/automation/automate-a-linguistic-workflow-with-a-makefile.md
+    case_studies:
+      - case-studies/jezikovni-svetovalec.md
+      - case-studies/fifi.md
+      - case-studies/createai.md
+      - case-studies/vejice-add-in.md
+  chapters/open-living-handbook.md:
+    workflows:
+      - workflows/automation/automate-a-linguistic-workflow-with-a-makefile.md
+      - workflows/publishing/write-a-readme-for-a-humanities-dataset.md
+      - workflows/publishing/package-a-corpus-with-fair-metadata.md
+      - workflows/terminology/version-control-a-termbase-with-git.md
+    case_studies:
+      - case-studies/jezikovni-svetovalec.md
+      - case-studies/ladakh-relations.md
+
+# Case studies are not dead ends: each points back to concepts and executable steps.
+case_studies:
+  case-studies/text-harvester.md:
+    chapters:
+      - chapters/research-design.md
+      - chapters/texts-corpora-ocr.md
+    workflows:
+      - workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md
+      - workflows/corpora/deduplicate-corpus-text-with-minhash.md
+      - workflows/corpora/filter-a-corpus-by-language-with-fasttext.md
+      - workflows/publishing/write-a-readme-for-a-humanities-dataset.md
+  case-studies/corpus-augmenter.md:
+    chapters:
+      - chapters/linguistic-annotation-classla.md
+      - chapters/texts-corpora-ocr.md
+      - chapters/ai-ethics-reproducibility.md
+    workflows:
+      - workflows/nlp/install-and-test-classla.md
+      - workflows/nlp/annotate-a-small-text-with-classla.md
+      - workflows/nlp/export-classla-results-to-csv.md
+      - workflows/publishing/package-a-corpus-with-fair-metadata.md
+  case-studies/wikivir.md:
+    chapters:
+      - chapters/digital-humanities-in-slovenia.md
+      - chapters/texts-corpora-ocr.md
+      - chapters/linguistic-annotation-classla.md
+      - chapters/open-living-handbook.md
+    workflows:
+      - workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md
+      - workflows/nlp/annotate-a-small-text-with-classla.md
+      - workflows/publishing/package-a-corpus-with-fair-metadata.md
+  case-studies/korpus-solar-analysis.md:
+    chapters:
+      - chapters/data-metadata-models.md
+      - chapters/linguistic-annotation-classla.md
+      - chapters/text-analysis.md
+    workflows:
+      - workflows/corpora/query-a-corpus-with-cqpweb.md
+      - workflows/text-analysis/compare-style-with-function-words.md
+      - workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md
+  case-studies/pracomul.md:
+    chapters:
+      - chapters/data-metadata-models.md
+      - chapters/text-analysis.md
+      - chapters/databases-sql.md
+      - chapters/networks-visualization.md
+    workflows:
+      - workflows/data/build-a-humanities-database-with-sqlite.md
+      - workflows/text-analysis/compare-style-with-function-words.md
+      - workflows/networks/build-a-cooccurrence-network.md
+      - workflows/visualization/visualise-a-frequency-list-with-voyant.md
+  case-studies/medieval-ner.md:
+    chapters:
+      - chapters/models-evidence-interpretation.md
+      - chapters/texts-corpora-ocr.md
+      - chapters/linguistic-annotation-classla.md
+      - chapters/gis-spatial-humanities.md
+    workflows:
+      - workflows/nlp/extract-named-entities-with-spacy.md
+      - workflows/nlp/annotate-a-small-text-with-classla.md
+      - workflows/mapping/map-places-mentioned-in-a-text.md
+      - workflows/visualization/visualise-uncertainty-in-humanities-data.md
+  case-studies/ladakh-relations.md:
+    chapters:
+      - chapters/critical-infrastructures.md
+      - chapters/databases-sql.md
+      - chapters/gis-spatial-humanities.md
+      - chapters/networks-visualization.md
+      - chapters/open-living-handbook.md
+    workflows:
+      - workflows/data/build-a-humanities-database-with-sqlite.md
+      - workflows/mapping/build-a-simple-cultural-heritage-map.md
+      - workflows/networks/build-a-cooccurrence-network.md
+      - workflows/publishing/package-a-corpus-with-fair-metadata.md
+  case-studies/fifi.md:
+    chapters:
+      - chapters/critical-infrastructures.md
+      - chapters/research-design.md
+      - chapters/texts-corpora-ocr.md
+      - chapters/ai-ethics-reproducibility.md
+    workflows:
+      - workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md
+      - workflows/ai/audit-ai-output-against-source-documents.md
+      - workflows/publishing/write-a-readme-for-a-humanities-dataset.md
+  case-studies/jezikovni-svetovalec.md:
+    chapters:
+      - chapters/digital-humanities-in-slovenia.md
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
+    workflows:
+      - workflows/ai/audit-ai-output-against-source-documents.md
+      - workflows/publishing/write-a-readme-for-a-humanities-dataset.md
+      - workflows/publishing/package-a-corpus-with-fair-metadata.md
+  case-studies/vejice-add-in.md:
+    chapters:
+      - chapters/critical-infrastructures.md
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
+    workflows:
+      - workflows/ai/audit-ai-output-against-source-documents.md
+      - workflows/ethics/decide-whether-a-digitised-source-should-be-public.md
+  case-studies/createai.md:
+    chapters:
+      - chapters/text-analysis.md
+      - chapters/topics-emotions-classification.md
+      - chapters/ai-ethics-reproducibility.md
+    workflows:
+      - workflows/ai/audit-ai-output-against-source-documents.md
+      - workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md
+      - workflows/text-analysis/compare-style-with-function-words.md
