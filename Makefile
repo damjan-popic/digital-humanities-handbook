@@ -20,6 +20,7 @@ check: indexes manuscripts
 	python scripts/check_answers.py
 	python scripts/check_projects.py
 	mkdocs build --strict
+	python scripts/check_rendered_ecosystem.py
 
 build: check
 
