@@ -37,11 +37,14 @@ jobs:
       - name: Regenerate catalogues and translation report
         run: make indexes
 
-      - name: Verify generated files are committed
+      - name: Verify generated indexes are committed
         run: git diff --exit-code
 
       - name: Validate and build
         run: make check
+
+      - name: Verify all generated publication artefacts are committed
+        run: git diff --exit-code
 
       - name: Upload Pages artifact
         if: github.event_name != 'pull_request'
