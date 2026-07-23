@@ -15,6 +15,7 @@ manuscripts:
 
 check: indexes manuscripts
 	python scripts/check_handbook.py
+	python scripts/check_intertextuality.py
 	python scripts/check_answers.py
 	python scripts/check_projects.py
 	mkdocs build --strict
