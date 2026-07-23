@@ -12,19 +12,20 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: merged-branch-hygiene
+  cancel-in-progress: false
+
 jobs:
   cleanup:
     runs-on: ubuntu-latest
     steps:
-      - name: Enable automatic cleanup and remove stale merged branches
+      - name: Remove stale branches from merged pull requests
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
-
-          gh api --method PATCH "repos/${GITHUB_REPOSITORY}" \
-            -F delete_branch_on_merge=true >/dev/null
 
           default_branch=$(gh api "repos/${GITHUB_REPOSITORY}" --jq .default_branch)
           deleted=()
@@ -60,7 +61,7 @@ jobs:
           {
             echo "## Merged branch hygiene"
             echo
-            echo "Automatic deletion of merged branches: **enabled**"
+            echo "Automatic post-merge cleanup workflow: **active**"
             echo
             if ((${#deleted[@]})); then
               echo "Deleted branches:"
