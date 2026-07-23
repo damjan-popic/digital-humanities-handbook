@@ -32,11 +32,18 @@ jobs:
           skipped_active=()
           failed=()
 
-          mapfile -t merged_heads < <(
-            gh api --paginate "repos/${GITHUB_REPOSITORY}/pulls?state=closed&per_page=100" \
-              --jq '.[] | select(.merged_at != null and .head.repo.full_name == .base.repo.full_name) | .head.ref' \
-              | sort -u
+          # Keep the newest merged PR head SHA recorded for each same-repository branch.
+          declare -A merged_sha=()
+          while IFS=$'\t' read -r branch sha; do
+            [[ -n "${branch}" && -n "${sha}" ]] || continue
+            if [[ -z "${merged_sha[${branch}]+x}" ]]; then
+              merged_sha["${branch}"]="${sha}"
+            fi
+          done < <(
+            gh api --paginate "repos/${GITHUB_REPOSITORY}/pulls?state=closed&sort=updated&direction=desc&per_page=100" \
+              --jq '.[] | select(.merged_at != null and .head.repo.full_name == .base.repo.full_name) | [.head.ref, .head.sha] | @tsv'
           )
+
           mapfile -t open_heads < <(
             gh api --paginate "repos/${GITHUB_REPOSITORY}/pulls?state=open&per_page=100" \
               --jq '.[] | select(.head.repo.full_name == .base.repo.full_name) | .head.ref' \
@@ -47,7 +54,8 @@ jobs:
             open_set["${branch}"]=1
           done
 
-          for branch in "${merged_heads[@]}"; do
+          mapfile -t branches < <(printf '%s\n' "${!merged_sha[@]}" | sort)
+          for branch in "${branches[@]}"; do
             [[ -n "${branch}" && "${branch}" != "${default_branch}" ]] || continue
             if [[ -n "${open_set[${branch}]+x}" ]]; then
               skipped_active+=("${branch} (open pull request)")
@@ -61,16 +69,16 @@ jobs:
           PY
             )
 
-            if ! gh api "repos/${GITHUB_REPOSITORY}/git/ref/heads/${encoded}" >/dev/null 2>&1; then
+            if ! current_sha=$(
+              gh api "repos/${GITHUB_REPOSITORY}/git/ref/heads/${encoded}" --jq .object.sha 2>/dev/null
+            ); then
               continue
             fi
 
-            if ! ahead_by=$(gh api "repos/${GITHUB_REPOSITORY}/compare/${default_branch}...${encoded}" --jq .ahead_by); then
-              failed+=("${branch} (comparison failed)")
-              continue
-            fi
-            if [[ "${ahead_by}" != "0" ]]; then
-              skipped_active+=("${branch} (${ahead_by} unmerged commit(s))")
+            # Exact SHA comparison is safe for both squash and merge commits. A branch
+            # that has received later work is preserved even if it was used by an older PR.
+            if [[ "${current_sha}" != "${merged_sha[${branch}]}" ]]; then
+              skipped_active+=("${branch} (advanced after its latest merged PR)")
               continue
             fi
 
@@ -94,12 +102,12 @@ jobs:
             fi
             if ((${#skipped_active[@]})); then
               echo
-              echo "Preserved active or unmerged branches:"
+              echo "Preserved active or later-modified branches:"
               printf -- '- `%s`\n' "${skipped_active[@]}"
             fi
             if ((${#failed[@]})); then
               echo
-              echo "Branches that could not be checked or deleted:"
+              echo "Branches that could not be deleted:"
               printf -- '- `%s`\n' "${failed[@]}"
             fi
           } >> "${GITHUB_STEP_SUMMARY}"
