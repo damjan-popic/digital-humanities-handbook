@@ -21,6 +21,8 @@ After this chapter, you should be able to:
 
 Two people occur in the same newspaper article. Are they connected? Perhaps they collaborated, opposed one another, were merely listed, or appear in unrelated paragraphs. A network edge is not found automatically in the source. It is created by a rule whose meaning must be defended.
 
+Node and edge rules are modelling choices that shape every metric and image. Use [Models, evidence and interpretation](models-evidence-interpretation.md) to keep construction, output and interpretation distinct, and [Infrastructures of digital humanities](critical-infrastructures.md) when source APIs or visualization platforms determine visibility and reuse.
+
 ## A network is a data model
 
 A graph contains **nodes** and **edges**. Nodes may represent people, texts, places, institutions or concepts. Edges may represent correspondence, citation, kinship, co-authorship, travel, co-occurrence or another relationship.

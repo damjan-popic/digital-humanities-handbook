@@ -21,6 +21,8 @@ After this chapter, you should be able to:
 
 The sentence *Brilliant—another glorious delay* contains positive words but probably expresses negative evaluation. A model that scores vocabulary without context may fail. Before selecting a tool, decide what exactly the category means and which textual evidence licenses the label.
 
+Classification operationalizes a concept rather than discovering a self-evident category. Use [Models, evidence and interpretation](models-evidence-interpretation.md) to keep the codebook, model output, validation evidence and interpretive claim distinct.
+
 ## Classification starts with an operational definition
 
 A classifier assigns texts or passages to predefined categories. Examples include genre, period, author, stance, sentiment, emotion or relevance. The central research act is not choosing an algorithm; it is translating a concept into observable annotation rules.

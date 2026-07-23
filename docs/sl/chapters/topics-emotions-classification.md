@@ -21,6 +21,8 @@ Po tem poglavju boste znali:
 
 Poved *Sijajno – spet čudovita zamuda* vsebuje pozitivne besede, vendar verjetno izraža negativno vrednotenje. Model, ki besedišče ocenjuje brez konteksta, lahko odpove. Pred izbiro orodja določite, kaj kategorija pomeni in kateri besedilni dokaz upraviči oznako.
 
+Klasifikacija pojem operacionalizira, ne pa odkrije samoumevne kategorije. S poglavjem [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) ohranite razliko med kodirnim priročnikom, rezultatom modela, dokaznim gradivom preverjanja in interpretativno trditvijo.
+
 ## Klasifikacija se začne z operacionalizacijo
 
 Klasifikator besedila ali odlomke razporedi v vnaprej določene kategorije. To so lahko žanr, obdobje, avtor, stališče, sentiment, čustvo ali relevantnost. Osrednje raziskovalno dejanje ni izbira algoritma, temveč prevod pojma v opazljiva anotacijska pravila.

@@ -21,6 +21,8 @@ Po tem poglavju boste znali:
 
 Vzemite poved *Zala je v Novi Gorici predstavila novo Zalo.* Je *Zala* oseba, izdelek, kraj ali kaj drugega? Katere dokaze bi uporabil človek? Označevalnik mora sorodne odločitve sprejeti iz oblike, konteksta in vzorcev, naučenih iz podatkov.
 
+Anotacijske plasti obravnavajte kot modele, ne kot odkrita dejstva. Poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) ponuja pojmovno podlago za ločevanje rezultata anotacije od dokaznega gradiva, ki ga upravičuje preverjanje za konkretno nalogo.
+
 ## Anotacija ustvari analizne plasti
 
 Neobdelano besedilo sestavljajo znaki in presledki. Večina računalniških metod najprej ustvari izrecnejše enote:

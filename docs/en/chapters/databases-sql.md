@@ -21,6 +21,8 @@ After this chapter, you should be able to:
 
 Imagine a table with columns `author_1`, `author_2`, `author_3`, `place_1`, `place_2` and several cells containing comma-separated names. It may look convenient, but how would you reliably ask which authors published in the same place, or correct one person's name everywhere? The structure determines which questions remain possible.
 
+A schema is a model of selected entities and relationships, not a neutral container. [Models, evidence and interpretation](models-evidence-interpretation.md) helps expose those choices; [Infrastructures of digital humanities](critical-infrastructures.md) helps when database access, identifiers or maintenance depend on an external service.
+
 ## A database is an argument about the world
 
 A database does more than store facts. Its schema states what kinds of things exist in the project and how they relate. For a literary history project, we might model people, works, editions, publishers, places and events. Choosing *work* and *edition* as separate entities is already an interpretive decision.

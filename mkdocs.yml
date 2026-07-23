@@ -61,23 +61,28 @@ plugins:
           nav:
             - Domov: index.md
             - Priročnik:
-                - Kako uporabljati priročnik: chapters/index.md
-                - Kaj je digitalna humanistika?: chapters/what-is-digital-humanities.md
-                - Zgodovine in genealogije digitalne humanistike: chapters/history-of-digital-humanities.md
-                - Modeli, dokazno gradivo in interpretacija: chapters/models-evidence-interpretation.md
-                - "Infrastrukture digitalne humanistike: moč, dostop in vzdrževanje": chapters/critical-infrastructures.md
-                - "Digitalna humanistika v Sloveniji: infrastrukture, jeziki in skupnosti": chapters/digital-humanities-in-slovenia.md
-                - Od vprašanja do metode: chapters/research-design.md
-                - Podatki, metapodatki in modeli: chapters/data-metadata-models.md
-                - Besedila, korpusi in OCR: chapters/texts-corpora-ocr.md
-                - Jezikoslovna anotacija in CLASSLA: chapters/linguistic-annotation-classla.md
-                - Analiza besedil: chapters/text-analysis.md
-                - Teme, sentiment in čustva: chapters/topics-emotions-classification.md
-                - Podatkovne zbirke in SQL: chapters/databases-sql.md
-                - GIS in prostorska humanistika: chapters/gis-spatial-humanities.md
-                - Omrežja in vizualizacija: chapters/networks-visualization.md
-                - UI, etika in ponovljivost: chapters/ai-ethics-reproducibility.md
-                - Živi odprti priročnik: chapters/open-living-handbook.md
+                - Uvod:
+                    - Kako uporabljati priročnik: chapters/index.md
+                - I. del — Zgodovine, teorije in konteksti:
+                    - Kaj je digitalna humanistika?: chapters/what-is-digital-humanities.md
+                    - Zgodovine in genealogije digitalne humanistike: chapters/history-of-digital-humanities.md
+                    - Modeli, dokazno gradivo in interpretacija: chapters/models-evidence-interpretation.md
+                    - "Infrastrukture digitalne humanistike: moč, dostop in vzdrževanje": chapters/critical-infrastructures.md
+                    - "Digitalna humanistika v Sloveniji: infrastrukture, jeziki in skupnosti": chapters/digital-humanities-in-slovenia.md
+                - II. del — Raziskovalna zasnova in viri:
+                    - Od vprašanja do metode: chapters/research-design.md
+                    - Podatki, metapodatki in modeli: chapters/data-metadata-models.md
+                    - Besedila, korpusi in OCR: chapters/texts-corpora-ocr.md
+                - III. del — Analitične metode:
+                    - Jezikoslovna anotacija in CLASSLA: chapters/linguistic-annotation-classla.md
+                    - Analiza besedil: chapters/text-analysis.md
+                    - Teme, sentiment in čustva: chapters/topics-emotions-classification.md
+                    - Podatkovne zbirke in SQL: chapters/databases-sql.md
+                    - GIS in prostorska humanistika: chapters/gis-spatial-humanities.md
+                    - Omrežja in vizualizacija: chapters/networks-visualization.md
+                - IV. del — Odgovorno raziskovanje in objavljanje:
+                    - UI, etika in ponovljivost: chapters/ai-ethics-reproducibility.md
+                    - Živi odprti priročnik: chapters/open-living-handbook.md
             - Učne poti:
                 - Pregled: learning-paths/index.md
                 - Pismenost za informacijsko družbo: learning-paths/pismenost-za-informacijsko-druzbo.md
@@ -129,23 +134,28 @@ validation:
 nav:
   - Home: index.md
   - Handbook:
-      - How to use the handbook: chapters/index.md
-      - What is digital humanities?: chapters/what-is-digital-humanities.md
-      - Histories and genealogies of digital humanities: chapters/history-of-digital-humanities.md
-      - Models, evidence and interpretation: chapters/models-evidence-interpretation.md
-      - "Infrastructures of digital humanities: power, access and maintenance": chapters/critical-infrastructures.md
-      - "Digital humanities in Slovenia: infrastructures, languages and communities": chapters/digital-humanities-in-slovenia.md
-      - From question to method: chapters/research-design.md
-      - Data, metadata and models: chapters/data-metadata-models.md
-      - Texts, corpora and OCR: chapters/texts-corpora-ocr.md
-      - Linguistic annotation and CLASSLA: chapters/linguistic-annotation-classla.md
-      - Text analysis: chapters/text-analysis.md
-      - Topics, sentiment and emotion: chapters/topics-emotions-classification.md
-      - Databases and SQL: chapters/databases-sql.md
-      - GIS and spatial humanities: chapters/gis-spatial-humanities.md
-      - Networks and visualization: chapters/networks-visualization.md
-      - AI, ethics and reproducibility: chapters/ai-ethics-reproducibility.md
-      - The living open handbook: chapters/open-living-handbook.md
+      - Orientation:
+          - How to use the handbook: chapters/index.md
+      - Part I — Histories, theories and contexts:
+          - What is digital humanities?: chapters/what-is-digital-humanities.md
+          - Histories and genealogies of digital humanities: chapters/history-of-digital-humanities.md
+          - Models, evidence and interpretation: chapters/models-evidence-interpretation.md
+          - "Infrastructures of digital humanities: power, access and maintenance": chapters/critical-infrastructures.md
+          - "Digital humanities in Slovenia: infrastructures, languages and communities": chapters/digital-humanities-in-slovenia.md
+      - Part II — Research design and sources:
+          - From question to method: chapters/research-design.md
+          - Data, metadata and models: chapters/data-metadata-models.md
+          - Texts, corpora and OCR: chapters/texts-corpora-ocr.md
+      - Part III — Analytical methods:
+          - Linguistic annotation and CLASSLA: chapters/linguistic-annotation-classla.md
+          - Text analysis: chapters/text-analysis.md
+          - Topics, sentiment and emotion: chapters/topics-emotions-classification.md
+          - Databases and SQL: chapters/databases-sql.md
+          - GIS and spatial humanities: chapters/gis-spatial-humanities.md
+          - Networks and visualization: chapters/networks-visualization.md
+      - Part IV — Responsible research and publication:
+          - AI, ethics and reproducibility: chapters/ai-ethics-reproducibility.md
+          - The living open handbook: chapters/open-living-handbook.md
   - Learning paths:
       - Overview: learning-paths/index.md
       - Information Society Literacy: learning-paths/pismenost-za-informacijsko-druzbo.md

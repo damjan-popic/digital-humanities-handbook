@@ -21,6 +21,8 @@ After this chapter, you should be able to:
 
 A word occurs 300 times in corpus A and 180 times in corpus B. Is it more characteristic of A? You cannot know until you know corpus sizes, document distribution, genre composition and how the word was counted. Numbers become evidence only after the denominator and comparison are defined.
 
+For the distinction between a computational output and evidence for a humanities claim, and for the modelling choices hidden in units and categories, use [Models, evidence and interpretation](models-evidence-interpretation.md) as conceptual grounding.
+
 ## Counting is a model of relevance
 
 Text analysis often begins with a count, but several counts answer different questions:

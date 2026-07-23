@@ -21,6 +21,8 @@ Po tem poglavju boste znali:
 
 Beseda se v korpusu A pojavi 300-krat, v korpusu B pa 180-krat. Je značilnejša za A? Tega ne morete vedeti brez velikosti korpusov, porazdelitve po dokumentih, žanrske sestave in načina štetja. Število postane dokaz šele, ko določimo imenovalec in primerjavo.
 
+Za razlikovanje med računalniškim rezultatom in dokaznim gradivom za humanistično trditev ter za modelske odločitve, skrite v enotah in kategorijah, uporabite pojmovno podlago poglavja [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md).
+
 ## Štetje je model pomembnosti
 
 Analiza besedil se pogosto začne s štetjem, vendar različna štetja odgovarjajo na različna vprašanja:

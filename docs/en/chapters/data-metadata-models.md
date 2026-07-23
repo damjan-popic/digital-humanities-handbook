@@ -21,7 +21,7 @@ After this chapter, you should be able to:
 
 Open a table you have used for research. Can you tell, without asking its creator, what one row represents, which columns are required, what blank cells mean, where the values came from and which version you are looking at? If not, the problem is not “messy data” alone; it is missing semantics.
 
-This chapter concentrates on practical data structures and documentation. For the broader epistemic account of how sources, models and outputs become evidence, see [Models, evidence and interpretation](models-evidence-interpretation.md).
+This chapter concentrates on practical data structures and documentation. For the broader epistemic account of how sources, models and outputs become evidence, see [Models, evidence and interpretation](models-evidence-interpretation.md). When a collection interface, standard or export rule constrains the records available to you, use [Infrastructures of digital humanities](critical-infrastructures.md) to document that upstream selection as well.
 
 ## Data, metadata and documentation
 

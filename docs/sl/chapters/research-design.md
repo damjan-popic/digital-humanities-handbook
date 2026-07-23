@@ -21,7 +21,7 @@ Po tem poglavju boste znali:
 
 Zapišite vprašanje, ki bi ga postavili tudi brez digitalnega orodja. Nato podčrtajte samostalnike in glagole. Samostalniki pogosto kažejo na predmete in enote, glagoli pa razkrivajo vrsto primerjave ali pojasnila, ki ga projekt zahteva.
 
-Če se vprašanje nanaša na gradivo iz Slovenije, z zemljevidom v poglavju [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md) pred izbiro metode razlikujte med portali za odkrivanje, okolji za raziskovalne podatke, repozitoriji in jezikovnimi storitvami.
+Raziskovalna zasnova razkrije modelske in infrastrukturne odločitve. S poglavjem [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) ločite vire, predstavitve, rezultate in dokazno gradivo, s poglavjem [Infrastrukture digitalne humanistike](critical-infrastructures.md) pa presodite, kako dostop in vzdrževanje pogojujeta projekt. Pri gradivu iz Slovenije zemljevid v poglavju [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md) pred izbiro metode pomaga razlikovati med portali za odkrivanje, okolji za raziskovalne podatke, repozitoriji in jezikovnimi storitvami.
 
 ## Vprašanje še ni metoda
 

@@ -32,21 +32,21 @@ Po končani poti bodo študenti znali:
 
 ## Predlagano zaporedje 14 modulov
 
-### 1. Digitalna slovenistika kot področje
+### 1. Zgodovine področja in slovenski ekosistem
 
-Preberite [Kaj je digitalna humanistika?](../chapters/what-is-digital-humanities.md) in [Od vprašanja do metode](../chapters/research-design.md). Eno tradicionalno slovenistično vprašanje preoblikujte tako, da bodo podatki, enota analize, primerjava in omejitve izrecni.
+Preberite [Kaj je digitalna humanistika?](../chapters/what-is-digital-humanities.md), [Zgodovine in genealogije digitalne humanistike](../chapters/history-of-digital-humanities.md) ter [Digitalna humanistika v Sloveniji](../chapters/digital-humanities-in-slovenia.md). Raziščite, kako je izbrana slovenistična praksa odvisna od spreminjajočih se poimenovanj, ustanov, jezikovnih virov in sodelovalnega dela, nato pa ločite dokumentirano zgodovino od genealogije, ki jo iz nje izpeljete.
 
-### 2. Ponovljivo delovno okolje Python
+### 2. Modeli, dokazno gradivo, infrastrukture in raziskovalna zasnova
 
-Ustvarite virtualno okolje Python 3.12, namestite pakete, zaženite skripto in inicializirajte repozitorij. Izvedite ustrezne [postopke za Python in NLP](../workflows/nlp/index.md). Oddajte README in specifikacijo okolja.
+Preberite [Modeli, dokazno gradivo in interpretacija](../chapters/models-evidence-interpretation.md), [Infrastrukture digitalne humanistike](../chapters/critical-infrastructures.md) ter [Od vprašanja do metode](../chapters/research-design.md). Eno slovenistično vprašanje preoblikujte tako, da bodo vir, model, enota analize, primerjava, odvisnost od infrastrukture, dokazno gradivo in omejitve izrecni.
 
-### 3. Besedilni formati, kodiranje in zasnova korpusa
+### 3. Ponovljivo delovno okolje Python
 
-Preberite [Besedila, korpusi in OCR](../chapters/texts-corpora-ocr.md). Preglejte primere navadnega besedila, CSV, JSON ter TEI/XML. Pripravite kartico korpusa s pravili vzorčenja, identifikatorji dokumentov, metapodatki in pravicami.
+Ustvarite virtualno okolje Python 3.12, namestite pakete, zaženite skripto in inicializirajte repozitorij. Izvedite ustrezne [postopke za Python in NLP](../workflows/nlp/index.md). Oddajte README in specifikacijo okolja, da bo tehnično okolje podpiralo zasnovo iz drugega modula.
 
-### 4. Zajem, OCR, čiščenje in dvojniki
+### 4. Besedilni formati, zasnova korpusa, zajem, OCR, čiščenje in dvojniki
 
-Pridobite ali pripravite manjši dovoljeni korpus. Ohranite surovo in obdelano plast, izmerite vzorec OCR ali zajema, odstranite ponavljajoče se dele ter označite popolne in skorajšnje dvojnike, ne da bi izgubili provenienco.
+Preberite [Besedila, korpusi in OCR](../chapters/texts-corpora-ocr.md) ter preglejte primere navadnega besedila, CSV, JSON in TEI/XML. Pripravite kartico korpusa s pravili vzorčenja, identifikatorji dokumentov, metapodatki in pravicami; pridobite ali pripravite manjši dovoljeni korpus; ohranite surovo in obdelano plast; izmerite vzorec OCR ali zajema; ter označite ponavljajoče se dele in dvojnike, ne da bi izgubili provenienco.
 
 ### 5. Anotacija s CLASSLA
 

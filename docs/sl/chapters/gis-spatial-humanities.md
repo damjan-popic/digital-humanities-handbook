@@ -21,6 +21,8 @@ Po tem poglavju boste znali:
 
 Dnevnik iz 19. stoletja pravi, da je avtor potoval v *Sveti Peter*. Kateri kraj je mišljen? Odgovor je lahko odvisen od jezika, obdobja, poti, upravnih meja in pisčevih navad. Dodelitev koordinat ni pisarniško opravilo, temveč interpretacija, ki potrebuje dokaze.
 
+Geokodiranje zgodovinske opise pretvori v modelirane prostorske entitete. S poglavjem [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) dokumentirajte to preoblikovanje, s poglavjem [Infrastrukture digitalne humanistike](critical-infrastructures.md) pa presodite imenike krajev, kartografske storitve in pogoje dostopa, od katerih je odvisno.
+
 ## Prostor je več kot zemljepisna širina in dolžina
 
 Humanistični viri kraje omenjajo z imeni, opisi, ustanovami, pokrajinami, potmi in zamišljenimi geografijami. Kraj lahko spremeni ime, meje, funkcijo in politično pripadnost. Eno ime lahko označuje več lokacij, ena lokacija pa ima več imen.

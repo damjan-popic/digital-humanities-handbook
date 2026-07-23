@@ -21,6 +21,8 @@ Po tem poglavju boste znali:
 
 Predstavljajte si tabelo s stolpci `avtor_1`, `avtor_2`, `avtor_3`, `kraj_1`, `kraj_2` in več celicami, v katerih so imena ločena z vejicami. Morda je videti priročno, toda kako bi zanesljivo vprašali, kateri avtorji so objavljali v istem kraju, ali eno ime popravili povsod? Struktura določa, katera vprašanja ostanejo mogoča.
 
+Shema je model izbranih entitet in razmerij, ne nevtralna posoda. Poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) pomaga razkriti te odločitve, poglavje [Infrastrukture digitalne humanistike](critical-infrastructures.md) pa je pomembno, kadar so dostop do zbirke, identifikatorji ali vzdrževanje odvisni od zunanje storitve.
+
 ## Podatkovna zbirka je trditev o svetu
 
 Podatkovna zbirka ne hrani samo dejstev. Njena shema določi, katere vrste stvari v projektu obstajajo in kako so povezane. Pri projektu literarne zgodovine lahko modeliramo osebe, dela, izdaje, založnike, kraje in dogodke. Že ločitev *dela* od *izdaje* je interpretativna odločitev.

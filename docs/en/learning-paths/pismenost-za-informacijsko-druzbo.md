@@ -31,61 +31,61 @@ By the end of the path, students should be able to:
 
 ## Suggested 14-module sequence
 
-### 1. Digital literacy as critical practice
+### 1. Digital literacy in historical and social context
 
-Read [What is digital humanities?](../chapters/what-is-digital-humanities.md). Map a familiar academic task from source discovery to final submission and identify every point where a platform or format shapes the result.
+Read [What is digital humanities?](../chapters/what-is-digital-humanities.md) and the sections on changing names and infrastructures in [Histories and genealogies of digital humanities](../chapters/history-of-digital-humanities.md). Map a familiar academic task from source discovery to final submission and identify where a platform, format, institution or inherited practice shapes the result.
 
-### 2. Questions, sources and evidence
+### 2. Questions, models, evidence and infrastructures
 
-Read [From question to method](../chapters/research-design.md). Turn a broad topic into one researchable question and list the evidence needed to answer it.
+Use selected sections of [Models, evidence and interpretation](../chapters/models-evidence-interpretation.md), [Infrastructures of digital humanities](../chapters/critical-infrastructures.md) and [From question to method](../chapters/research-design.md). Turn a broad topic into one researchable question, sketch what will count as evidence and identify one infrastructural choice that could shape access or interpretation.
 
-### 3. Files, formats and durable organization
+### 3. Files, formats, data and metadata
 
-Create a project folder with `data`, `sources`, `notes`, `outputs` and a README. Compare `.docx`, `.pdf`, `.txt`, `.csv` and image files. Practise meaningful file names and a backup rule.
+Create a project folder with `data`, `sources`, `notes`, `outputs` and a README. Compare `.docx`, `.pdf`, `.txt`, `.csv` and image files, then use the conceptual basics of [Data, metadata and models](../chapters/data-metadata-models.md) to document a small table. Practise meaningful file names, a data dictionary and a backup rule.
 
-### 4. Search and source evaluation
+### 4. Search, source evaluation and the Slovenian resource ecosystem
 
-Build a search strategy using keywords, synonyms, Boolean combinations and source filters. Compare a library catalogue, bibliographic database, institutional repository and general search engine. Record the search rather than only the final links.
+Build a search strategy using keywords, synonyms, Boolean combinations and source filters. Compare a library catalogue, bibliographic database, institutional repository and general search engine, then profile one relevant resource from [Digital humanities in Slovenia](../chapters/digital-humanities-in-slovenia.md). Record search and selection decisions rather than only the final links.
 
 ### 5. Citations, bibliographic metadata and reference management
 
 Create a small reference library. Correct incomplete metadata, distinguish a stable identifier from a URL and export the bibliography in one agreed style.
 
-### 6. Data and metadata
+### 6. Spreadsheets and small structured datasets
 
-Read [Data, metadata and models](../chapters/data-metadata-models.md). Convert messy notes into a tidy table. Prepare a data dictionary and mark missing, unknown and not-applicable values differently.
+Convert messy notes into a tidy cultural dataset, then use sorting, filtering, formulas and pivot tables. Check for mixed data types, merged cells, duplicate records, ambiguous missing values and formulas that silently exclude rows.
 
-### 7. Spreadsheets without spreadsheet chaos
-
-Use sorting, filtering, formulas and pivot tables on a small cultural dataset. Check for mixed data types, merged cells, duplicate records and formulas that silently exclude rows.
-
-### 8. Documents, OCR and corpus basics
+### 7. Documents, OCR and corpus basics
 
 Read [Texts, corpora and OCR](../chapters/texts-corpora-ocr.md). Compare a scan and OCR text, identify high-impact errors and write inclusion rules for a five-document mini-corpus.
 
-### 9. Search, concordance and frequency
+### 8. Search, concordance and frequency
 
 Read the opening sections of [Text analysis](../chapters/text-analysis.md). Use a corpus interface or desktop tool to search a word, inspect concordances and compare token frequency with document frequency.
 
-### 10. Visual communication
+### 9. Visual communication
 
 Create one table and one chart from the same data. State the unit, denominator, source and missing values. Redesign one misleading visualization and explain the correction.
 
-### 11. Places and maps
+### 10. Places and maps
 
 Read the introductory sections of [GIS and spatial humanities](../chapters/gis-spatial-humanities.md). Build a small place table with source forms, normalized names, coordinates and uncertainty, then produce a basic map.
 
-### 12. Generative AI with evidence
+### 11. Generative AI with evidence
 
 Read [AI, ethics and reproducibility](../chapters/ai-ethics-reproducibility.md). Ask a model to summarize supplied sources, require passage identifiers and verify every factual claim and quotation. Record the model, date, prompt and corrections.
 
-### 13. Rights, privacy and responsible publication
+### 12. Rights, privacy, access, accessibility and responsible publication
 
-Apply the [ethics checklist](../resources/ethics-checklist.md) to the final project. Decide what may be public, restricted, anonymized or omitted and justify the licence for each component.
+Apply the [ethics checklist](../resources/ethics-checklist.md) to the final project. Decide what may be public, restricted, anonymized or omitted; justify the licence for each component; and test whether the main output remains understandable through keyboard navigation, meaningful labels and a non-visual alternative.
 
-### 14. Reproducible digital dossier
+### 13. Project packaging, documentation and a stable release
 
-Exchange projects. Another student must locate the sources, understand the data, repeat one operation and identify the strongest limitation without oral explanation from the author.
+Package sources or reconstruction instructions, data, outputs, rights information and a README in a predictable structure. Record the handbook version, create a stable snapshot, commit or release and confirm that every published claim points back to inspectable evidence.
+
+### 14. Reproducible digital dossier and peer review
+
+Exchange completed dossiers. Another student must locate the sources, understand the data, repeat one operation and identify the strongest limitation without oral explanation from the author. Revise the dossier in response and record what changed.
 
 ## Assessment model
 

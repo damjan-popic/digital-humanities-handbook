@@ -21,6 +21,8 @@ After this chapter, you should be able to:
 
 Take the sentence *Zala je v Novi Gorici predstavila novo Zalo.* Is *Zala* a person, a product, a place or something else? What evidence would a human use? An annotator has to make related decisions from form, context and patterns learned from data.
 
+Treat annotation layers as models rather than recovered facts. [Models, evidence and interpretation](models-evidence-interpretation.md) provides the conceptual grounding for separating an annotation output from evidence warranted by task-specific validation.
+
 ## Annotation creates analytical layers
 
 Raw text contains characters and spacing. Most computational methods first create more explicit units:

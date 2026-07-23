@@ -21,7 +21,7 @@ After this chapter, you should be able to:
 
 Write down a question you would ask even if no digital tool existed. Then underline the nouns and verbs. The nouns often point to objects and units; the verbs often reveal the kind of comparison or explanation the project requires.
 
-If the question concerns Slovenian material, use the ecosystem map in [Digital humanities in Slovenia](digital-humanities-in-slovenia.md) to distinguish discovery portals, research-data environments, repositories and language services before selecting a method.
+Research design makes modelling and infrastructural choices explicit. Use [Models, evidence and interpretation](models-evidence-interpretation.md) to distinguish sources, representations, outputs and evidence, and [Infrastructures of digital humanities](critical-infrastructures.md) to audit how access and maintenance condition the project. If the question concerns Slovenian material, the ecosystem map in [Digital humanities in Slovenia](digital-humanities-in-slovenia.md) helps distinguish discovery portals, research-data environments, repositories and language services before method selection.
 
 ## A question is not yet a method
 
