@@ -83,6 +83,7 @@ plugins:
                 - IV. del — Odgovorno raziskovanje in objavljanje:
                     - UI, etika in ponovljivost: chapters/ai-ethics-reproducibility.md
                     - Živi odprti priročnik: chapters/open-living-handbook.md
+            - Ekosistem: ecosystem.md
             - Učne poti:
                 - Pregled: learning-paths/index.md
                 - Pismenost za informacijsko družbo: learning-paths/pismenost-za-informacijsko-druzbo.md
@@ -121,6 +122,9 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+hooks:
+  - scripts/intertextuality_hook.py
+
 extra_css:
   - assets/stylesheets/extra.css
 
@@ -156,6 +160,7 @@ nav:
       - Part IV — Responsible research and publication:
           - AI, ethics and reproducibility: chapters/ai-ethics-reproducibility.md
           - The living open handbook: chapters/open-living-handbook.md
+  - Ecosystem: ecosystem.md
   - Learning paths:
       - Overview: learning-paths/index.md
       - Information Society Literacy: learning-paths/pismenost-za-informacijsko-druzbo.md
