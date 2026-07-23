@@ -15,6 +15,7 @@ manuscripts:
 
 check: indexes manuscripts
 	python scripts/check_handbook.py
+	python scripts/check_technical_foundations.py
 	python scripts/check_intertextuality.py
 	python scripts/check_review_ecosystem.py
 	python scripts/check_answers.py

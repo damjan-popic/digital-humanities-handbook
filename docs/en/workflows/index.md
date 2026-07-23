@@ -20,6 +20,7 @@ The Slovene edition contains the stable core and a growing curated set of transl
 - **Data wrangling** — 1
 - **Digital editions** — 1
 - **Ethics** — 1
+- **Foundations** — 6
 - **Mapping** — 2
 - **MT evaluation** — 2
 - **Networks** — 1
@@ -77,6 +78,15 @@ The Slovene edition contains the stable core and a growing curated set of transl
 ### Ethics
 
 - [How do I decide whether a digitised source should be public?](ethics/decide-whether-a-digitised-source-should-be-public.md) <span class="tiny">— intermediate</span>
+
+### Foundations
+
+- [How do I clone, run, change and commit a handbook project?](foundations/clone-run-change-and-commit-a-handbook-project.md) <span class="tiny">— beginner</span>
+- [How do I install and configure Git?](foundations/install-and-configure-git.md) <span class="tiny">— beginner</span>
+- [How do I install WSL and Ubuntu on Windows?](foundations/install-wsl-and-ubuntu-on-windows.md) <span class="tiny">— beginner</span>
+- [How do I navigate files and directories with Bash?](foundations/navigate-files-and-directories-with-bash.md) <span class="tiny">— beginner</span>
+- [How do I track a small project with Git?](foundations/track-a-small-project-with-git.md) <span class="tiny">— beginner</span>
+- [How do I use pipes, redirection and grep in Bash?](foundations/use-pipes-redirection-and-grep-in-bash.md) <span class="tiny">— beginner</span>
 
 ### Mapping
 

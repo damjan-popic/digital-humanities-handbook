@@ -97,13 +97,13 @@ python -m pip install -r requirements.txt
 
 ### Step 6: Record exact installed versions when needed
 
-For a finished or shared project, create a frozen dependency list:
+For diagnosis or an exact snapshot of the current environment, you can write:
 
 ```bash
 python -m pip freeze > requirements.txt
 ```
 
-Use this with care. A frozen file may contain many indirect dependencies, not just the packages you consciously chose.
+Use this with care. A frozen file may contain many indirect dependencies, platform-specific packages and unrelated experiments. Review it before committing. A raw freeze is evidence about one environment, not automatically an ideal cross-platform publication lockfile.
 
 ## Output
 
@@ -128,7 +128,7 @@ An installed package and a `requirements.txt` file that documents what the proje
 
 Create a virtual environment, install `pandas`, test the import, and create a `requirements.txt` file.
 
-Then delete the environment, recreate it, and reinstall from the file:
+Then, only in this disposable practice project, deactivate and recreate the environment before reinstalling from the file. Follow the platform-specific creation and activation commands in the [virtual-environment workflow](create-a-python-312-virtual-environment.md), then run:
 
 ```bash
 python -m pip install -r requirements.txt
@@ -156,5 +156,15 @@ For Windows, replace the first two commands with:
 
 ```powershell
 py -3.12 -m venv .venv
-.venv\Scripts\Activate.ps1
+.\.venv\Scripts\Activate.ps1
 ```
+
+## Sources checked
+
+Accessed **23 July 2026**:
+
+- [Python Packaging User Guide: Installing Packages](https://packaging.python.org/en/latest/tutorials/installing-packages/)
+- [pip documentation: Requirements File Format](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
+- [pip documentation: `pip freeze`](https://pip.pypa.io/en/stable/cli/pip_freeze/)
+
+Package installation, import checking and installation from `requirements.txt` were tested in a disposable Python 3.12 virtual environment under Ubuntu 24.04/WSL 2. No global or `sudo pip` installation was used.

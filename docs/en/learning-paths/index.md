@@ -9,4 +9,6 @@ The paths draw selectively on the handbook's four-part core. Information Society
 - [Information Society Literacy](pismenost-za-informacijsko-druzbo.md) — foundational information, data, text and AI literacy with a low technical threshold.
 - [Digital Slovenian Studies](digitalna-slovenistika.md) — a technically stronger path through corpora, CLASSLA, text analysis, databases, GIS, networks and reproducible publication.
 
+Students who are new to terminals, version control or Python should complete the [technical workspace foundations route](../foundations/technical-workspace.md) before starting Digital Slovenian Studies.
+
 A path is not a second copy of the material. It links to the canonical chapter or workflow, adds sequencing and assessment, and records the version used in a course.

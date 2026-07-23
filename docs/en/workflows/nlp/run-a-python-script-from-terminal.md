@@ -151,3 +151,14 @@ Add this diagnostic line when you are unsure where Python is running:
 from pathlib import Path
 print("Current folder:", Path.cwd())
 ```
+
+Keep source text in UTF-8 and preserve a separate copy of irreplaceable input. A successful script run shows that instructions executed; it does not validate the interpretation or grant rights to redistribute its input or output.
+
+## Sources checked
+
+Accessed **23 July 2026**:
+
+- [Python 3.12 tutorial: using the interpreter](https://docs.python.org/3.12/tutorial/interpreter.html)
+- [Python 3.12 `pathlib` documentation](https://docs.python.org/3.12/library/pathlib.html)
+
+The script and output recreation were tested from a disposable project root with Python 3.12.3 under Ubuntu 24.04/WSL 2.

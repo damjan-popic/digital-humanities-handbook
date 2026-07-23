@@ -84,6 +84,8 @@ plugins:
                     - UI, etika in ponovljivost: chapters/ai-ethics-reproducibility.md
                     - Živi odprti priročnik: chapters/open-living-handbook.md
             - Ekosistem: ecosystem.md
+            - Osnove:
+                - "Tehnično delovno okolje: terminal, WSL, Bash, Git in Python": foundations/technical-workspace.md
             - Učne poti:
                 - Pregled: learning-paths/index.md
                 - Pismenost za informacijsko družbo: learning-paths/pismenost-za-informacijsko-druzbo.md
@@ -161,6 +163,8 @@ nav:
           - AI, ethics and reproducibility: chapters/ai-ethics-reproducibility.md
           - The living open handbook: chapters/open-living-handbook.md
   - Ecosystem: ecosystem.md
+  - Foundations:
+      - "Technical workspace: terminal, WSL, Bash, Git, and Python": foundations/technical-workspace.md
   - Learning paths:
       - Overview: learning-paths/index.md
       - Information Society Literacy: learning-paths/pismenost-za-informacijsko-druzbo.md

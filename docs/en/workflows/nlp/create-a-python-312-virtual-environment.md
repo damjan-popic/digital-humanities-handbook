@@ -19,7 +19,7 @@ tags: [Python, venv, virtual environment, setup, beginner]
 
 A virtual environment is a small isolated Python space for one project. It keeps package installs separate, so one project does not break another.
 
-For this handbook path, create virtual environments with **Python 3.12**. After the environment is active, use the plain command `python`, because it will point to the Python inside `.venv/`.
+For this handbook path, create virtual environments with **Python 3.12**. This is the course-tested baseline, not a judgement that later Python releases cannot work. After activation, use `python` because it should point to the interpreter inside `.venv/`.
 
 !!! quote "One-sentence version"
     One project gets one `.venv/`; activate it before installing packages or running scripts.
@@ -73,15 +73,23 @@ This creates a folder called `.venv/`. Do not edit files inside it manually.
 === "Windows PowerShell"
 
     ```powershell
-    .venv\Scripts\Activate.ps1
+    .\.venv\Scripts\Activate.ps1
     ```
 
-    If PowerShell blocks activation, use this only for the current terminal session:
+    If PowerShell blocks activation, first inspect the policy:
+
+    ```powershell
+    Get-ExecutionPolicy -List
+    ```
+
+    On a computer you administer, the least persistent course workaround is scoped only to the current PowerShell process:
 
     ```powershell
     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-    .venv\Scripts\Activate.ps1
+    .\.venv\Scripts\Activate.ps1
     ```
+
+    It expires when that PowerShell process closes. On an institution-managed computer, stop and ask IT instead of changing a permanent policy.
 
 === "Windows Command Prompt"
 
@@ -110,11 +118,13 @@ Python 3.12.x
 
 The `pip` path should include `.venv`.
 
-### Step 5: Upgrade packaging tools inside the environment
+### Step 5: Check or update pip inside the environment
 
 ```bash
-python -m pip install --upgrade pip setuptools wheel
+python -m pip install --upgrade pip
 ```
+
+Python 3.12 no longer installs `setuptools` as a core venv dependency. Install build tools only when the reviewed project requirements call for them.
 
 ### Step 6: Deactivate when finished
 
@@ -142,6 +152,7 @@ A `.venv/` folder inside your project and an activated environment where `python
 - Running `pip install` instead of `python -m pip install` and accidentally using the wrong pip.
 - Committing `.venv/` to Git.
 - Deleting or moving `.venv/` and then wondering why commands stopped working.
+- Treating `.venv/` as the environment specification. It is disposable and machine-specific; keep `requirements.txt` and setup instructions instead.
 
 ## Practice task
 
@@ -160,3 +171,12 @@ __pycache__/
 ```
 
 This prevents local Python clutter from entering Git.
+
+## Sources checked
+
+Accessed **23 July 2026**:
+
+- [Python 3.12 documentation: `venv`](https://docs.python.org/3.12/library/venv.html)
+- [Python Packaging User Guide: installing packages and creating environments](https://packaging.python.org/en/latest/tutorials/installing-packages/)
+
+Creation, Bash activation, deactivation, interpreter checks and recreation were tested with Python 3.12.3 under Ubuntu 24.04/WSL 2. The PowerShell activation command is taken from the Python 3.12 documentation and was syntax-checked on Windows PowerShell; the native Windows interpreter was not reinstalled.

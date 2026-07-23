@@ -85,6 +85,9 @@ def page_title(locale: str, relative_path: str) -> tuple[str, bool]:
 def workflow_category(relative_path: str) -> str:
     path = ROOT / "docs" / "en" / relative_path
     metadata, _ = _read_front_matter(path)
+    category_id = metadata.get("category_id")
+    if category_id:
+        return str(category_id)
     category = metadata.get("category")
     if not category:
         raise ValueError(f"{path.relative_to(ROOT)} has no workflow category")
@@ -110,13 +113,15 @@ def connections_for(relative_path: str, category: str | None = None) -> dict[str
     if relative_path.startswith("workflows/") and not relative_path.endswith("/index.md"):
         category = category or workflow_category(relative_path)
         category_entry = data["workflow_categories"].get(category, {})
+        workflow_entry = data.get("workflows", {}).get(relative_path)
+        chapter_entry = workflow_entry if workflow_entry is not None else category_entry
         related_cases = [
             case_path
             for case_path, entry in data["case_studies"].items()
             if relative_path in entry.get("workflows", [])
         ]
         return {
-            "chapters": list(category_entry.get("chapters", [])),
+            "chapters": list(chapter_entry.get("chapters", [])),
             "case_studies": related_cases,
         }
 

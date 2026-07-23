@@ -87,6 +87,8 @@ Use this rule:
 | `requirements.txt` | Python packages needed to run the project. |
 | `.gitignore` | Local files excluded from Git. |
 
+The `.venv/` directory is deliberately absent from the diagram: create it locally and ignore it. It is a disposable interpreter environment, not the environment specification. `requirements.txt` plus the README record how to recreate it.
+
 ### Step 3: Add a basic `.gitignore`
 
 ```text
@@ -133,7 +135,7 @@ python scripts/name-of-script.py
 - `output/`: generated results
 ````
 
-For Windows, replace the environment commands with `py -3.12 -m venv .venv` and `.venv\Scripts\Activate.ps1`.
+For Windows PowerShell, replace the environment commands with `py -3.12 -m venv .venv` and `.\.venv\Scripts\Activate.ps1`.
 
 ### Step 5: Add package names to `requirements.txt`
 
@@ -143,6 +145,8 @@ Example:
 pandas
 classla
 ```
+
+Prefer a short reviewed list of direct requirements while developing. `python -m pip freeze` can capture the complete current environment for diagnosis or a tested snapshot, but review the result before treating it as a publication dependency file.
 
 ## Output
 
@@ -176,3 +180,13 @@ Create this structure for a tiny corpus of three texts. Add a README that explai
 ## Useful extension
 
 Once the workflow has more than one repeated command, add a `Makefile` or a small runner script. Do not add automation before you understand the manual steps.
+
+## Sources checked
+
+Accessed **23 July 2026**:
+
+- [Python 3.12 documentation: `venv`](https://docs.python.org/3.12/library/venv.html)
+- [Python Packaging User Guide: Installing Packages](https://packaging.python.org/en/latest/tutorials/installing-packages/)
+- [Git documentation: `.gitignore`](https://git-scm.com/docs/gitignore)
+
+The directory creation commands and `.gitignore` behavior were tested in disposable PowerShell and Bash folders; the Python structure was rerun with Python 3.12.3 under Ubuntu 24.04/WSL 2.

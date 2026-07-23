@@ -4,9 +4,9 @@ Small, reproducible workflows for text processing, linguistic annotation, named 
 
 ## Python/NLP first steps
 
-This path starts from zero: installing Python, creating a virtual environment, running a script, reading files, writing tables, and using CLASSLA on a small Slovene text.
+This path starts with the Python layer: installing the course baseline, creating a virtual environment, running a script, reading files, writing tables, and using CLASSLA on a small Slovene text. If terminals, Bash or Git are new to you, begin with the [technical workspace foundations route](../../foundations/technical-workspace.md).
 
-Use **Python 3.12.x** for this path. Do not use Python 3.13 or higher for these exercises unless a specific project explicitly says it has been tested with that version.
+Use **Python 3.12.x** as the course-tested baseline for this path. Later versions may work, but use 3.12 when reproducing the documented teaching environment unless a project records another tested version.
 
 <div class="grid cards" markdown>
 
