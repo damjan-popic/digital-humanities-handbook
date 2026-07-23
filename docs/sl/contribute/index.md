@@ -12,11 +12,11 @@ Priročnik je zasnovan tako, da raste z majhnimi, avtorsko priznanimi in pregled
 - kritična študija javnega projekta;
 - predlog spremembe temeljnega poglavja za naslednjo recenzirano izdajo.
 
-## Predloge
+## Predloga
 
-- [Predloga za študentski prispevek: praktični postopek](student-workflow-template.md) — dvojezična in dostopnejša struktura za študijske naloge, diferencialne izpite in prve prispevke;
-- [Kratka angleška predloga](../contribute/answer-template.md) — zgoščena struktura strani, dokler ne pripravimo samostojne slovenske različice;
-- [Podrobna angleška predloga](../contribute/topic-template.md) — obsežnejša navodila za pisanje in oddajo praktičnega postopka.
+- [Predloga za študentski prispevek: praktični postopek](student-workflow-template.md) — dvojezična in dostopnejša struktura za študijske naloge, diferencialne izpite in prve prispevke.
+
+Predloga vsebuje obliko strani, strukturo oddajnega paketa, merila preverjanja, izjavo o uporabi UI, pravila glede občutljivih podatkov ter ločeno odločitev o morebitni javni objavi.
 
 ## Minimalni standard
 
