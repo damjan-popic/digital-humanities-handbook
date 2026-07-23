@@ -81,7 +81,7 @@ Apply the [ethics checklist](../resources/ethics-checklist.md) to the final proj
 
 ### 13. Project packaging, documentation and a stable release
 
-Package sources or reconstruction instructions, data, outputs, rights information and a README in a predictable structure. Record the handbook version, create a stable commit or release and confirm that every published claim points back to inspectable evidence.
+Package sources or reconstruction instructions, data, outputs, rights information and a README in a predictable structure. Record the handbook version, create a stable snapshot, commit or release and confirm that every published claim points back to inspectable evidence.
 
 ### 14. Reproducible digital dossier and peer review
 

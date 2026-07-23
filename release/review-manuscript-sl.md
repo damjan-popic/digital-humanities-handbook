@@ -2,9 +2,9 @@
 
 **Stabilno jedro in učni poti — razvojni recenzijski posnetek**
 
-**Version:** 0.1.0-dev<br>
-**Date:** 2026-07-23<br>
-**Author/editor:** Damjan Popič
+**Različica:** 0.1.0-dev<br>
+**Datum:** 2026-07-23<br>
+**Avtor/urednik:** Damjan Popič
 
 > Datoteka je samodejno sestavljena iz verzioniranega izvornega besedila. Za navigacijo in interaktivno gradivo je merodajna spletna izdaja.
 
@@ -73,7 +73,7 @@ Celotni prvi del predstavi področje, njegove modelske predpostavke in slovenski
 
 Začnite s poglavji [3](models-evidence-interpretation.md), [4](critical-infrastructures.md) in [5](digital-humanities-in-slovenia.md), nato projekt zasnujte s poglavjema [6](research-design.md) in [7](data-metadata-models.md). Iz tretjega dela izberite eno glavno metodo, raziskovalno verigo pa sklenite s poglavjema [15](ai-ethics-reproducibility.md) in [16](open-living-handbook.md). Druga metodološka poglavja preberite le, če podpirajo raziskovalno vprašanje ali strategijo preverjanja.
 
-## Teorija ni vstopna zapora
+## Teoretični del ni obvezni predpogoj
 
 Prvi del ponuja skupni jezik za ponavljajoče se probleme, vendar ga ni treba v celoti prebrati pred uporabo metodološkega poglavja. Vsako poznejše poglavje je uporabno samostojno in vsebuje kratke povezave do ustreznih pojmov. Sledite jim, ko postanejo pomembna vprašanja modeliranja, dokaznega gradiva, infrastrukture ali lokalnih virov; k celotnemu teoretskemu uvodu pa se vrnite ob primerjavi metod ali načrtovanju predmeta.
 
@@ -89,7 +89,7 @@ Vsako poglavje vsebuje:
 - **Refleksijo** — interpretativna vprašanja, ki preprečujejo golo pritiskanje gumbov.
 - **Povzetek** — trditve, ki jih potrebujemo v naslednjem poglavju.
 
-Poglavje uporabite za stabilni argument, nato pa izberite ustrezen [praktični postopek](../workflows/index.md) za izvedbo ali [študijo primera](../case-studies/index.md) za umeščen zgled. Ti živi zbirki se lahko spreminjata hitreje kot recenzijsko jedro.
+Poglavje uporabite za stabilni argument, nato pa izberite ustrezen [praktični postopek](../workflows/index.md) za izvedbo ali [študijo primera](../case-studies/index.md) za umeščen zgled. Ti živi zbirki se lahko spreminjata hitreje kot jedro, namenjeno recenziji.
 
 ---
 
@@ -2567,7 +2567,7 @@ Pri končnem projektu uporabite [etični kontrolni seznam](../resources/ethics-c
 
 ### 13. Projektni paket, dokumentacija in stabilna izdaja
 
-V predvidljivi strukturi združite vire ali navodila za njihovo rekonstrukcijo, podatke, rezultate, informacije o pravicah in datoteko README. Zabeležite različico priročnika, ustvarite stabilni commit ali izdajo ter preverite, ali vsaka objavljena trditev vodi do preglednega dokaznega gradiva.
+V predvidljivi strukturi združite vire ali navodila za njihovo rekonstrukcijo, podatke, rezultate, informacije o pravicah in datoteko README. Zabeležite različico priročnika, ustvarite stabilni posnetek, commit ali izdajo ter preverite, ali vsaka objavljena trditev vodi do preglednega dokaznega gradiva.
 
 ### 14. Ponovljivi digitalni dosje in medvrstniški pregled
 

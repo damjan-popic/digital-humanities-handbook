@@ -81,7 +81,7 @@ Pri končnem projektu uporabite [etični kontrolni seznam](../resources/ethics-c
 
 ### 13. Projektni paket, dokumentacija in stabilna izdaja
 
-V predvidljivi strukturi združite vire ali navodila za njihovo rekonstrukcijo, podatke, rezultate, informacije o pravicah in datoteko README. Zabeležite različico priročnika, ustvarite stabilni commit ali izdajo ter preverite, ali vsaka objavljena trditev vodi do preglednega dokaznega gradiva.
+V predvidljivi strukturi združite vire ali navodila za njihovo rekonstrukcijo, podatke, rezultate, informacije o pravicah in datoteko README. Zabeležite različico priročnika, ustvarite stabilni posnetek, commit ali izdajo ter preverite, ali vsaka objavljena trditev vodi do preglednega dokaznega gradiva.
 
 ### 14. Ponovljivi digitalni dosje in medvrstniški pregled
 

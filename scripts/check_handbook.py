@@ -85,6 +85,32 @@ def check_navigation(config: dict, locale: str, failures: list[str]) -> None:
             f"mkdocs.yml ({locale}): handbook groups are {actual_groups}; expected {expected_groups}"
         )
 
+    expected_group_paths = [
+        (labels["orientation"], ["chapters/index.md"]),
+        *(
+            (label, [f"chapters/{name}" for name in filenames])
+            for label, filenames in zip(labels["parts"], PARTS, strict=True)
+        ),
+    ]
+    for group_label, expected in expected_group_paths:
+        matches = [
+            entry[group_label]
+            for entry in handbook
+            if isinstance(entry, dict) and group_label in entry
+        ]
+        valid_group = len(matches) == 1 and isinstance(matches[0], list)
+        actual: list[str] = []
+        for match in matches:
+            if isinstance(match, list):
+                actual.extend(path for _, path in flatten_pages(match))
+            elif isinstance(match, str):
+                actual.append(match)
+        if not valid_group or actual != expected:
+            failures.append(
+                f"mkdocs.yml ({locale}): navigation group '{group_label}' has "
+                f"actual paths {actual}; expected paths {expected}"
+            )
+
     pages = flatten_pages(handbook)
     actual_paths = [path for _, path in pages]
     counts = Counter(actual_paths)

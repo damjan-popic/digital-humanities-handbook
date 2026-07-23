@@ -6,7 +6,7 @@ All notable changes are documented here. The project follows semantic versioning
 
 ### Added
 
-- Added four paired chapters on digital-humanities histories, models and evidence, critical infrastructures, and the Slovenian ecosystem.
+- Added four paired chapters on digital-humanities histories, models and evidence, infrastructures, power and maintenance, and the Slovenian ecosystem.
 
 ### Changed
 
