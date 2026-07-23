@@ -29,6 +29,7 @@ jobs:
 
           default_branch=$(gh api "repos/${GITHUB_REPOSITORY}" --jq .default_branch)
           deleted=()
+          skipped_active=()
           failed=()
 
           mapfile -t merged_heads < <(
@@ -36,9 +37,22 @@ jobs:
               --jq '.[] | select(.merged_at != null and .head.repo.full_name == .base.repo.full_name) | .head.ref' \
               | sort -u
           )
+          mapfile -t open_heads < <(
+            gh api --paginate "repos/${GITHUB_REPOSITORY}/pulls?state=open&per_page=100" \
+              --jq '.[] | select(.head.repo.full_name == .base.repo.full_name) | .head.ref' \
+              | sort -u
+          )
+          declare -A open_set=()
+          for branch in "${open_heads[@]}"; do
+            open_set["${branch}"]=1
+          done
 
           for branch in "${merged_heads[@]}"; do
             [[ -n "${branch}" && "${branch}" != "${default_branch}" ]] || continue
+            if [[ -n "${open_set[${branch}]+x}" ]]; then
+              skipped_active+=("${branch} (open pull request)")
+              continue
+            fi
 
             encoded=$(python - "${branch}" <<'PY'
           import sys
@@ -51,10 +65,19 @@ jobs:
               continue
             fi
 
+            if ! ahead_by=$(gh api "repos/${GITHUB_REPOSITORY}/compare/${default_branch}...${encoded}" --jq .ahead_by); then
+              failed+=("${branch} (comparison failed)")
+              continue
+            fi
+            if [[ "${ahead_by}" != "0" ]]; then
+              skipped_active+=("${branch} (${ahead_by} unmerged commit(s))")
+              continue
+            fi
+
             if gh api --method DELETE "repos/${GITHUB_REPOSITORY}/git/refs/heads/${encoded}"; then
               deleted+=("${branch}")
             else
-              failed+=("${branch}")
+              failed+=("${branch} (deletion failed)")
             fi
           done
 
@@ -69,9 +92,14 @@ jobs:
             else
               echo "No stale merged branches were present."
             fi
+            if ((${#skipped_active[@]})); then
+              echo
+              echo "Preserved active or unmerged branches:"
+              printf -- '- `%s`\n' "${skipped_active[@]}"
+            fi
             if ((${#failed[@]})); then
               echo
-              echo "Branches that could not be deleted:"
+              echo "Branches that could not be checked or deleted:"
               printf -- '- `%s`\n' "${failed[@]}"
             fi
           } >> "${GITHUB_STEP_SUMMARY}"
