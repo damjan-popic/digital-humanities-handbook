@@ -12,12 +12,12 @@ This audit treats the public web edition, version-controlled source, generated r
 | --- | --- | --- |
 | Stable core | Sixteen English–Slovene chapter pairs exist in one canonical four-part order. | [`scripts/handbook_structure.py`](../scripts/handbook_structure.py), [`scripts/check_handbook.py`](../scripts/check_handbook.py) |
 | Course use | Two paired fourteen-module learning paths connect the core to *Pismenost za informacijsko družbo* and *Digitalna slovenistika*. | [`docs/en/learning-paths/`](../docs/en/learning-paths/), [`docs/sl/learning-paths/`](../docs/sl/learning-paths/) |
-| Build reproducibility | Dependencies are pinned or bounded, CI uses Python 3.12, generated catalogues are checked, and the site is built with strict MkDocs validation. | [`requirements.txt`](../requirements.txt), [`Makefile`](../Makefile), [Pages workflow](../.github/workflows/pages.yml) |
+| Build reproducibility | Dependencies are pinned or bounded, CI uses Python 3.12, generated catalogues and manuscripts are checked, and the site is built with strict MkDocs validation. | [`requirements.txt`](../requirements.txt), [`Makefile`](../Makefile), [Pages workflow](../.github/workflows/pages.yml) |
 | Bilingual architecture | The stable chapters and course paths are paired; language switching and English fallback are explicit. | [`release/translation-coverage.md`](translation-coverage.md), [`TRANSLATION_POLICY.md`](../TRANSLATION_POLICY.md) |
 | Rights and reuse | Original prose is CC BY 4.0, code is MIT, and contributors must identify third-party material. | [`LICENSE.md`](../LICENSE.md), [`CONTRIBUTING.md`](../CONTRIBUTING.md) |
 | Citation and editions | Citation metadata, semantic versioning rules, a changelog and deterministic review manuscripts are present. | [`CITATION.cff`](../CITATION.cff), [`VERSIONING.md`](../VERSIONING.md), [`CHANGELOG.md`](../CHANGELOG.md) |
 | Intertextuality | One validated map connects chapters, workflows and case studies; the web edition and review manuscripts render the same conceptual-to-practical trails. | [`intertextuality.yml`](../intertextuality.yml), [`scripts/check_intertextuality.py`](../scripts/check_intertextuality.py), [ecosystem page](../docs/en/ecosystem.md) |
-| Repository hygiene | Merged-branch cleanup is automated and future merged branches are configured for deletion. | [branch-hygiene workflow](../.github/workflows/branch-hygiene.yml) |
+| Repository hygiene | A same-repository post-merge workflow removes stale branches from merged pull requests while preserving the default and unmerged branches. | [branch-hygiene workflow](../.github/workflows/branch-hygiene.yml) |
 
 ## Blockers before a formal `v1.0`
 
@@ -73,7 +73,7 @@ Strict MkDocs validation protects internal links and navigation, not the continu
 
 ### 8. The practical library needs an explicit translation decision
 
-The stable core is bilingual, but the repository-wide report currently records **46 Slovene counterparts among 127 English Markdown pages (36.2%)**, with 81 English fallback pages. This is acceptable for a transparently bilingual core with a growing practical library only if the release statement says so clearly. Otherwise, define a smaller required Slovene subset for `v1.0` and complete it before release.
+The stable core is bilingual, but the repository-wide report currently records **47 Slovene counterparts among 128 English Markdown pages (36.7%)**, with 81 English fallback pages. This is acceptable for a transparently bilingual core with a growing practical library only if the release statement says so clearly. Otherwise, define a smaller required Slovene subset for `v1.0` and complete it before release.
 
 ## Ready after editorial review, but not release blockers by themselves
 
@@ -97,7 +97,7 @@ Before this audit, two stale branches from already merged pull requests were sti
 - `chore/codex-editorial-workflow`;
 - `codex/issue-3-dh-histories`.
 
-The merged-branch hygiene workflow introduced by this audit enables GitHub's automatic branch deletion and removes remaining same-repository branches whose pull requests are already merged. Its workflow summary is the authoritative deletion record. It never deletes the default branch, a protected branch or an unmerged branch.
+The merged-branch hygiene workflow introduced by this audit removes remaining same-repository branch heads whose pull requests are already merged. Its workflow summary is the authoritative deletion record. It never deletes the default branch or an unmerged branch; protected branches remain subject to GitHub's own protection rules.
 
 ## Recommendation
 
