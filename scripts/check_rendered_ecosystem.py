@@ -99,6 +99,19 @@ def main() -> int:
         failures,
     )
     inspect_page(
+        "sl/chapters/what-is-digital-humanities/index.html",
+        (
+            "Sprehodite se po ekosistemu",
+            "Preizkusite postopek v praksi",
+            "Oglejte si študijo primera",
+        ),
+        (
+            "make-a-tiny-digital-edition-of-a-historical-text/",
+            "ladakh-relations/",
+        ),
+        failures,
+    )
+    inspect_page(
         "workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/index.html",
         (
             "Where this workflow fits",

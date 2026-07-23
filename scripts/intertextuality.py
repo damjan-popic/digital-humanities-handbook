@@ -182,9 +182,9 @@ def render_connections(
         return ""
 
     if current_path.startswith("chapters/"):
-        heading = "Nadaljujte po ekosistemu" if locale == "sl" else "Continue through the ecosystem"
+        heading = "Sprehodite se po ekosistemu" if locale == "sl" else "Continue through the ecosystem"
         sections = (
-            ("workflows", "Preizkusite praktični postopek" if locale == "sl" else "Try a workflow"),
+            ("workflows", "Preizkusite postopek v praksi" if locale == "sl" else "Try a workflow"),
             ("case_studies", "Oglejte si študijo primera" if locale == "sl" else "Inspect a case study"),
         )
         admonition = "tip"
