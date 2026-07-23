@@ -10,11 +10,14 @@ from typing import Any
 
 import yaml
 
+from handbook_structure import CHAPTERS
+
 ROOT = Path(__file__).resolve().parents[1]
 MAP_PATH = ROOT / "intertextuality.yml"
 SITE_URL = "https://damjan-popic.github.io/digital-humanities-handbook/"
 START_MARKER = "<!-- handbook-ecosystem:start -->"
 END_MARKER = "<!-- handbook-ecosystem:end -->"
+ECOSYSTEM_MARKER = "<!-- handbook-ecosystem-map -->"
 
 
 @lru_cache(maxsize=1)
@@ -136,7 +139,7 @@ def _absolute_url(locale: str, target_path: str) -> str:
     return f"{SITE_URL}{prefix}{clean}"
 
 
-def _link_item(
+def _link_text(
     current_path: str,
     target_path: str,
     locale: str,
@@ -155,7 +158,16 @@ def _link_item(
             if locale == "sl"
             else " *(English fallback)*"
         )
-    return f"    - [{title}]({url}){suffix}"
+    return f"[{title}]({url}){suffix}"
+
+
+def _link_item(
+    current_path: str,
+    target_path: str,
+    locale: str,
+    link_mode: str,
+) -> str:
+    return f"    - {_link_text(current_path, target_path, locale, link_mode)}"
 
 
 def render_connections(
@@ -250,3 +262,95 @@ def inject_connections(
         if match:
             return markdown[: match.start()].rstrip() + "\n\n" + block + "\n\n" + markdown[match.start() :]
     return markdown.rstrip() + "\n\n" + block + "\n"
+
+
+def render_ecosystem(locale: str, *, link_mode: str = "relative") -> str:
+    data = load_map()
+    current_path = "ecosystem.md"
+    sl = locale == "sl"
+    lines = [
+        "## Kako se premikate po ekosistemu" if sl else "## How to move through the ecosystem",
+        "",
+    ]
+    if sl:
+        lines.extend(
+            [
+                "1. Začnite z omejenim humanističnim vprašanjem v [jedru priročnika](chapters/index.md).",
+                "2. Izberite praktični postopek, ki izdela pregleden rezultat.",
+                "3. Primerjajte ga s študijo primera, v kateri je metoda del večjega projekta.",
+                "4. Vrnite se k poglavju ter preverite, kaj rezultat lahko pomeni in česa ne more dokazati.",
+                "5. Za poučevanje uporabite [Pismenost za informacijsko družbo](learning-paths/pismenost-za-informacijsko-druzbo.md) ali [Digitalno slovenistiko](learning-paths/digitalna-slovenistika.md).",
+                "",
+                "## Od poglavij k praksi",
+                "",
+                "| Poglavje | Izbrani praktični postopki | Študije primerov |",
+                "| --- | --- | --- |",
+            ]
+        )
+    else:
+        lines.extend(
+            [
+                "1. Begin with a bounded humanities question in the [handbook core](chapters/index.md).",
+                "2. Choose a workflow that produces an inspectable output.",
+                "3. Compare it with a case study where the method participates in a larger project.",
+                "4. Return to the chapter to ask what the output can mean and what it cannot establish.",
+                "5. For teaching, use [Information Society Literacy](learning-paths/pismenost-za-informacijsko-druzbo.md) or [Digital Slovenian Studies](learning-paths/digitalna-slovenistika.md).",
+                "",
+                "## From chapters to practice",
+                "",
+                "| Chapter | Selected workflows | Case studies |",
+                "| --- | --- | --- |",
+            ]
+        )
+
+    for filename in CHAPTERS:
+        chapter_path = f"chapters/{filename}"
+        entry = data["chapters"][chapter_path]
+        workflows = "<br>".join(
+            _link_text(current_path, path, locale, link_mode)
+            for path in entry["workflows"]
+        )
+        cases = "<br>".join(
+            _link_text(current_path, path, locale, link_mode)
+            for path in entry["case_studies"]
+        )
+        chapter = _link_text(current_path, chapter_path, locale, link_mode)
+        lines.append(f"| {chapter} | {workflows} | {cases} |")
+
+    if sl:
+        lines.extend(
+            [
+                "",
+                "## Povezave delujejo v obe smeri",
+                "",
+                "Vsak praktični postopek se poveže s poglavji, ki pojasnijo njegove predpostavke, in s študijami primerov, kjer je povezava dejansko smiselna. Vsaka študija primera se poveže nazaj s pojmovnimi poglavji in izvedljivimi postopki. Tako praktična stran ni golo navodilo, študija primera pa ni slepa ulica.",
+                "",
+                "## Jeziki in nadomestne strani",
+                "",
+                "Stabilno jedro in učni poti so v celoti dvojezični. Kadar slovenski prevod praktičnega postopka ali študije primera še ne obstaja, povezava vodi na angleško nadomestno stran in je kot taka označena. Tako ostane celoten ekosistem uporaben, ne da bi neprevedeno stran prikazali kot dokončan slovenski prevod.",
+            ]
+        )
+    else:
+        lines.extend(
+            [
+                "",
+                "## Connections work in both directions",
+                "",
+                "Every workflow points back to chapters that explain its assumptions and, where genuinely relevant, to case studies that use related operations. Every case study points to conceptual chapters and executable workflows. A practical page is therefore more than an instruction sheet, and a case study is not a dead end.",
+                "",
+                "## Languages and fallback pages",
+                "",
+                "The stable core and learning paths are fully bilingual. When a Slovene workflow or case-study translation does not yet exist, the Slovene edition links to a clearly marked English fallback page. This keeps the whole ecosystem usable without presenting untranslated material as a completed Slovene translation.",
+            ]
+        )
+    return "\n".join(lines)
+
+
+def inject_ecosystem(markdown: str, locale: str, *, link_mode: str = "relative") -> str:
+    if ECOSYSTEM_MARKER not in markdown:
+        raise ValueError("ecosystem page is missing its generated-map marker")
+    return markdown.replace(
+        ECOSYSTEM_MARKER,
+        render_ecosystem(locale, link_mode=link_mode),
+        1,
+    )
