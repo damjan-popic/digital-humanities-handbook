@@ -89,6 +89,8 @@ Izraz **jezik z manj viri** naj opisuje razmerje, ne pomanjkljivosti jezika ali 
 
 Orodje, naučeno na sodobni knjižni slovenščini, se morda ne bo zanesljivo preneslo na starejšo tipografijo, zgodovinsko oblikoslovje ali časopisje z regionalno mešanico jezikov. Večjezični katalog lahko prikazuje slovenske opise, zadetke pa razvršča z indeksom, osredinjenim na angleščino. To so preverljive infrastrukturne odvisnosti, ne trditve, da slovenščina ni dovolj razvita ali da vsa orodja delujejo slabo. Uspešnost merimo za dejansko obdobje, žanr in jezikovno različico, ohranimo jezikovne oznake in izvirno izrazje, vključimo ustrezno strokovno znanje ter primerjamo smiselna izhodišča.
 
+Poglavje [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md) pokaže ta razmerja na primerih dLib.si, DARIAH-SI, SIstory, CLARIN.SI, CLASSLA in izbranih znanstvenih virov, ne da bi jih prikazalo kot en tehnično povezan sistem.
+
 Risam opozarja, da lahko na videz globalna digitalna vednost reproducira kolonialne kulturne zapise in osrednje ustanove, krajevne prakse pa prikaže kot obrobne.[^risam] Geografija učinkuje skozi pogoje financiranja, zanesljivost omrežja, gostovanje, potovanja, jezik objavljanja in avtoriteto standardov. Metoda, ki jo je mogoče dolgoročno vzdrževati v lokalnem okolju, je lahko znanstveno trdnejša od prestižne storitve, pri kateri ne moremo pregledati učnih podatkov, dolgoročnih pogodbenih pogojev ali kakovosti za izbrani jezik.
 
 ## Rasa, spol, kolonialnost in invalidnost so del infrastrukture

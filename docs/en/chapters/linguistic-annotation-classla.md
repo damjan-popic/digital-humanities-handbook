@@ -52,6 +52,8 @@ CLASSLA provides linguistic processing pipelines and resources for Slovene and s
 
 The practical advantage is not merely convenience. Using a documented regional infrastructure makes it easier to cite models, compare languages and understand tag sets. The methodological obligation remains the same: record the language, model or package version, processors used, input preparation and date of processing.
 
+CLASSLA is also a knowledge centre for documentation, support, training and resource publication. Its institutional role and relation to CLARIN.SI are explained in [Digital humanities in Slovenia](digital-humanities-in-slovenia.md).
+
 ## Choose only the layers you need
 
 More annotation is not automatically better. Each layer introduces computation, storage and possible error.

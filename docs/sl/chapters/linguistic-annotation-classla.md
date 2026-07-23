@@ -52,6 +52,8 @@ CLASSLA ponuja jezikoslovne procesne verige in vire za slovenščino ter več dr
 
 Prednost ni samo priročnost. Dokumentirana regionalna infrastruktura olajša navajanje modelov, primerjanje jezikov in razumevanje označevalnih shem. Metodološka obveznost ostane: zabeležimo jezik, različico modela ali paketa, uporabljene procesorje, pripravo vhodnih podatkov in datum obdelave.
 
+CLASSLA je tudi središče znanja za dokumentacijo, svetovanje, izobraževanje in objavo virov. Njeno institucionalno vlogo in razmerje s CLARIN.SI pojasnjuje poglavje [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md).
+
 ## Izberite samo plasti, ki jih potrebujete
 
 Več anotacije ni samodejno bolje. Vsaka plast prinaša računanje, shranjevanje in možne napake.

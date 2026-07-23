@@ -88,6 +88,8 @@ Umetna inteligenca je del te sporne sedanjosti, ne cilj zgodbe o napredku. Stroj
 
 Sedanjega obdobja zato še ni mogoče skleniti z nesporno periodizacijo. Prihodnji zgodovinski pregledi bodo morda kot njegove osrednje teme izbrali okoljske stroške, odvisnost od platform, upravljanje podatkov domorodnih skupnosti, večjezične infrastrukture ali oblike znanja, ki jih današnje vodilne revije ne priznavajo. Odgovorna sodobna pripoved mora ostati odprta za popravke.
 
+Poglavje [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md) isto previdnost uporabi pri praksah, katerih zgodovinska imena, institucionalne oblike in jezikovni pogoji ne sodijo v eno univerzalno kronologijo.
+
 ## Preverjena časovnica izbranih mejnikov
 
 Časovnica je izbor, ne seznam izumov. Vsak mejnik je preverjen v navedenem institucionalnem, primarnem ali recenziranem viru.

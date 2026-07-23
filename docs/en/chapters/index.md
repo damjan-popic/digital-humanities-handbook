@@ -8,19 +8,20 @@ The handbook core is not a sequence of software tutorials. It is a method curric
 2. [Histories and genealogies of digital humanities](history-of-digital-humanities.md)
 3. [Models, evidence and interpretation](models-evidence-interpretation.md)
 4. [Infrastructures of digital humanities: power, access and maintenance](critical-infrastructures.md)
-5. [From question to method](research-design.md)
-6. [Data, metadata and models](data-metadata-models.md)
-7. [Texts, corpora and OCR](texts-corpora-ocr.md)
-8. [Linguistic annotation and CLASSLA](linguistic-annotation-classla.md)
-9. [Text analysis](text-analysis.md)
-10. [Topics, sentiment and emotion](topics-emotions-classification.md)
-11. [Databases and SQL](databases-sql.md)
-12. [GIS and spatial humanities](gis-spatial-humanities.md)
-13. [Networks and visualization](networks-visualization.md)
-14. [AI, ethics and reproducibility](ai-ethics-reproducibility.md)
-15. [The living open handbook](open-living-handbook.md)
+5. [Digital humanities in Slovenia: infrastructures, languages and communities](digital-humanities-in-slovenia.md)
+6. [From question to method](research-design.md)
+7. [Data, metadata and models](data-metadata-models.md)
+8. [Texts, corpora and OCR](texts-corpora-ocr.md)
+9. [Linguistic annotation and CLASSLA](linguistic-annotation-classla.md)
+10. [Text analysis](text-analysis.md)
+11. [Topics, sentiment and emotion](topics-emotions-classification.md)
+12. [Databases and SQL](databases-sql.md)
+13. [GIS and spatial humanities](gis-spatial-humanities.md)
+14. [Networks and visualization](networks-visualization.md)
+15. [AI, ethics and reproducibility](ai-ethics-reproducibility.md)
+16. [The living open handbook](open-living-handbook.md)
 
-The sequence can be shortened. A foundational course may stop after chapter 6 and select practical workflows. An advanced text-analysis course should use chapters 3–10 and 14. A project course can combine chapters 5–6 with any method chapter and chapter 14.
+The sequence can be shortened. A foundational course may stop after chapter 7 and select practical workflows. An advanced text-analysis course should use chapters 3–11 and 15. A project course can combine chapters 6–7 with any method chapter and chapter 15.
 
 ## Page anatomy
 

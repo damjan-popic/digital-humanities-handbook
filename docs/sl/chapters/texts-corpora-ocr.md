@@ -21,6 +21,8 @@ Po tem poglavju boste znali:
 
 Odprite skenirano zgodovinsko stran in njen prepis OCR. Poiščite pet razlik. Katere napake bi preprečile iskanje? Katere bi spremenile frekvenco besede? Katere bi zavedle razpoznavalnik imenskih entitet? Vse napake nimajo enake raziskovalne cene.
 
+Institucionalne in ročne korake med knjižničnim posnetkom in objavljenim korpusom v slovenskem okolju predstavi poglavje [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md).
+
 ## Digitalno besedilo ima več plasti
 
 En dokument ima lahko več povezanih predstavitev:

@@ -21,6 +21,8 @@ Po tem poglavju boste znali:
 
 Zapišite vprašanje, ki bi ga postavili tudi brez digitalnega orodja. Nato podčrtajte samostalnike in glagole. Samostalniki pogosto kažejo na predmete in enote, glagoli pa razkrivajo vrsto primerjave ali pojasnila, ki ga projekt zahteva.
 
+Če se vprašanje nanaša na gradivo iz Slovenije, z zemljevidom v poglavju [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md) pred izbiro metode razlikujte med portali za odkrivanje, okolji za raziskovalne podatke, repozitoriji in jezikovnimi storitvami.
+
 ## Vprašanje še ni metoda
 
 Vprašanja, kot sta »Kako je identiteta predstavljena v književnosti?« ali »Katera čustva se pojavljajo v političnem diskurzu?«, so intelektualno pomembna, vendar računalniško nedoločena. Računalnik ne more delovati z *identiteto*, *predstavitvijo* ali *čustvom*, dokler projekt ne določi, kateri opazni dokazi bodo te pojme zastopali.
