@@ -12,14 +12,18 @@ Priročnik je zasnovan tako, da raste z majhnimi, avtorsko priznanimi in pregled
 - kritična študija javnega projekta;
 - predlog spremembe temeljnega poglavja za naslednjo recenzirano izdajo.
 
+## Predloge
+
+- [Predloga za študentski prispevek: praktični postopek](student-workflow-template.md) — dvojezična in dostopnejša struktura za študijske naloge, diferencialne izpite in prve prispevke;
+- [Kratka angleška predloga](../contribute/answer-template.md) — zgoščena struktura strani, dokler ne pripravimo samostojne slovenske različice;
+- [Podrobna angleška predloga](../contribute/topic-template.md) — obsežnejša navodila za pisanje in oddajo praktičnega postopka.
+
 ## Minimalni standard
 
 Pred zahtevkom za vključitev zaženite:
 
 ```bash
-python scripts/check_handbook.py
-python scripts/check_translation_coverage.py
-mkdocs build --strict
+make check
 ```
 
 V zahtevku pojasnite, kaj se je spremenilo, kako je bilo preverjeno, na kateri jezik in izdajo se nanaša ter katere podatkovne, avtorske, zasebnostne ali etične omejitve veljajo.
