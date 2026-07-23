@@ -6,6 +6,7 @@ import re
 from pathlib import Path
 
 from handbook_structure import COURSE_PATHS, PARTS, SECTION_LABELS
+from intertextuality import inject_connections, inject_ecosystem
 
 ROOT = Path(__file__).resolve().parents[1]
 META = {
@@ -40,9 +41,23 @@ def demote_title(text: str) -> str:
     return re.sub(r"(?m)^# ", "## ", text, count=1)
 
 
-def append_page(out: list[str], path: Path) -> None:
-    text = demote_title(strip_front_matter(path.read_text(encoding="utf-8"))).rstrip()
-    out.extend([text, "", "---", ""])
+def append_page(
+    out: list[str],
+    path: Path,
+    locale: str,
+    relative_path: str,
+) -> None:
+    text = strip_front_matter(path.read_text(encoding="utf-8"))
+    if relative_path == "ecosystem.md":
+        text = inject_ecosystem(text, locale, link_mode="absolute")
+    elif relative_path.startswith("chapters/") and relative_path != "chapters/index.md":
+        text = inject_connections(
+            text,
+            relative_path,
+            locale,
+            link_mode="absolute",
+        )
+    out.extend([demote_title(text).rstrip(), "", "---", ""])
 
 
 def build(locale: str) -> None:
@@ -64,14 +79,35 @@ def build(locale: str) -> None:
         f"# {labels['orientation']}",
         "",
     ]
-    append_page(out, ROOT / "docs" / locale / "chapters" / "index.md")
+    append_page(
+        out,
+        ROOT / "docs" / locale / "chapters" / "index.md",
+        locale,
+        "chapters/index.md",
+    )
+    append_page(
+        out,
+        ROOT / "docs" / locale / "ecosystem.md",
+        locale,
+        "ecosystem.md",
+    )
     for heading, filenames in zip(labels["parts"], PARTS, strict=True):
         out.extend([f"# {heading}", ""])
         for filename in filenames:
-            append_page(out, ROOT / "docs" / locale / "chapters" / filename)
+            append_page(
+                out,
+                ROOT / "docs" / locale / "chapters" / filename,
+                locale,
+                f"chapters/{filename}",
+            )
     out.extend([f"# {labels['course_pathways']}", ""])
     for filename in COURSE_PATHS:
-        append_page(out, ROOT / "docs" / locale / "learning-paths" / filename)
+        append_page(
+            out,
+            ROOT / "docs" / locale / "learning-paths" / filename,
+            locale,
+            f"learning-paths/{filename}",
+        )
     target = ROOT / "release" / f"review-manuscript-{locale}.md"
     target.write_text("\n".join(out).rstrip() + "\n", encoding="utf-8")
     print(f"Wrote {target.relative_to(ROOT)}")
