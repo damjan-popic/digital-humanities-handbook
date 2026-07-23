@@ -12,14 +12,18 @@ Priročnik je zasnovan tako, da raste z majhnimi, avtorsko priznanimi in pregled
 - kritična študija javnega projekta;
 - predlog spremembe temeljnega poglavja za naslednjo recenzirano izdajo.
 
+## Predloga
+
+- [Predloga za študentski prispevek: praktični postopek](student-workflow-template.md) — dvojezična in dostopnejša struktura za študijske naloge, diferencialne izpite in prve prispevke.
+
+Predloga vsebuje obliko strani, strukturo oddajnega paketa, merila preverjanja, izjavo o uporabi UI, pravila glede občutljivih podatkov ter ločeno odločitev o morebitni javni objavi.
+
 ## Minimalni standard
 
 Pred zahtevkom za vključitev zaženite:
 
 ```bash
-python scripts/check_handbook.py
-python scripts/check_translation_coverage.py
-mkdocs build --strict
+make check
 ```
 
 V zahtevku pojasnite, kaj se je spremenilo, kako je bilo preverjeno, na kateri jezik in izdajo se nanaša ter katere podatkovne, avtorske, zasebnostne ali etične omejitve veljajo.
