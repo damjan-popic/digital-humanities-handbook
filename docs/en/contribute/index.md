@@ -12,14 +12,18 @@ This handbook is designed to grow through small, credited and reviewable contrib
 - add a critical case study of a public project;
 - propose a revision to a handbook chapter for the next reviewed release.
 
+## Templates
+
+- [Student workflow contribution template](student-workflow-template.md) — a bilingual, lower-barrier structure for coursework, differential examinations and first contributions;
+- [Answer template](answer-template.md) — a compact copy-paste page skeleton;
+- [Topic template](topic-template.md) — the detailed workflow-writing and submission guide.
+
 ## Minimum standard
 
 Before opening a pull request, run:
 
 ```bash
-python scripts/check_handbook.py
-python scripts/check_translation_coverage.py
-mkdocs build --strict
+make check
 ```
 
 The pull request should explain what changed, how it was tested, which language and release it affects, and whether any data, copyright, privacy or ethical conditions apply.
