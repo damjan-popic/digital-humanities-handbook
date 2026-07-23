@@ -93,6 +93,49 @@ Use the chapter for the stable argument, then move to a relevant [workflow](../w
 
 ---
 
+## Handbook ecosystem
+
+The handbook is not four separate shelves. Chapters provide concepts and arguments, workflows turn them into inspectable tasks, case studies show larger research assemblies, and learning paths organize all three layers into courses. The connections below are generated from one versioned relation map, so the ecosystem remains auditable as it grows.
+
+## How to move through the ecosystem
+
+1. Begin with a bounded humanities question in the [handbook core](chapters/index.md).
+2. Choose a workflow that produces an inspectable output.
+3. Compare it with a case study where the method participates in a larger project.
+4. Return to the chapter to ask what the output can mean and what it cannot establish.
+5. For teaching, use [Information Society Literacy](learning-paths/pismenost-za-informacijsko-druzbo.md) or [Digital Slovenian Studies](learning-paths/digitalna-slovenistika.md).
+
+## From chapters to practice
+
+| Chapter | Selected workflows | Case studies |
+| --- | --- | --- |
+| [What is digital humanities?](https://damjan-popic.github.io/digital-humanities-handbook/chapters/what-is-digital-humanities/) | [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/build-a-simple-cultural-heritage-map/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/) |
+| [Histories and genealogies of digital humanities](https://damjan-popic.github.io/digital-humanities-handbook/chapters/history-of-digital-humanities/) | [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/) | [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/) |
+| [Models, evidence and interpretation](https://damjan-popic.github.io/digital-humanities-handbook/chapters/models-evidence-interpretation/) | [How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/)<br>[How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
+| [Infrastructures of digital humanities: power, access and maintenance](https://damjan-popic.github.io/digital-humanities-handbook/chapters/critical-infrastructures/) | [How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ethics/decide-whether-a-digitised-source-should-be-public/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/) |
+| [Digital humanities in Slovenia: infrastructures, languages and communities](https://damjan-popic.github.io/digital-humanities-handbook/chapters/digital-humanities-in-slovenia/) | [How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)<br>[How do I map places mentioned in a text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/map-places-mentioned-in-a-text/) | [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)<br>[Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/) |
+| [From question to method](https://damjan-popic.github.io/digital-humanities-handbook/chapters/research-design/) | [How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)<br>[How do I audit AI output against source documents?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ai/audit-ai-output-against-source-documents/) | [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
+| [Data, metadata and models](https://damjan-popic.github.io/digital-humanities-handbook/chapters/data-metadata-models/) | [How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/) | [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/) |
+| [Texts, corpora and OCR](https://damjan-popic.github.io/digital-humanities-handbook/chapters/texts-corpora-ocr/) | [How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/bulk-download-pdfs-and-ocr-them/)<br>[How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/)<br>[How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/deduplicate-corpus-text-with-minhash/)<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) | [Web text harvesting](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/text-harvester/)<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
+| [Linguistic annotation and CLASSLA](https://damjan-popic.github.io/digital-humanities-handbook/chapters/linguistic-annotation-classla/) | [How do I install and test CLASSLA with Python 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-and-test-classla/)<br>[How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)<br>[How do I export CLASSLA results to CSV?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/export-classla-results-to-csv/) | [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/) |
+| [Text analysis](https://damjan-popic.github.io/digital-humanities-handbook/chapters/text-analysis/) | [How do I query a corpus with CQPweb?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/query-a-corpus-with-cqpweb/)<br>[How do I compare style with function words?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-style-with-function-words/)<br>[How do I make a dispersion plot in LancsBox?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/make-a-dispersion-plot-in-lancsbox/)<br>[How do I visualise a frequency list with Voyant?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-a-frequency-list-with-voyant/) | [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
+| [Topics, sentiment and emotion](https://damjan-popic.github.io/digital-humanities-handbook/chapters/topics-emotions-classification/) | [How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[How do I explore recurring themes with NMF?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/explore-topics-with-nmf/)<br>[How do I create a sentence-similarity heat map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/create-a-sentence-similarity-heat-map/) | [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/createai/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
+| [Databases and SQL](https://damjan-popic.github.io/digital-humanities-handbook/chapters/databases-sql/) | [How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
+| [GIS and spatial humanities](https://damjan-popic.github.io/digital-humanities-handbook/chapters/gis-spatial-humanities/) | [How do I map places mentioned in a text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/map-places-mentioned-in-a-text/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/build-a-simple-cultural-heritage-map/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
+| [Networks and visualization](https://damjan-popic.github.io/digital-humanities-handbook/chapters/networks-visualization/) | [How do I build a source-linked co-occurrence network?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/build-a-cooccurrence-network/)<br>[How do I build a collocation graph from AntConc to Cytoscape?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
+| [AI, ethics and reproducibility](https://damjan-popic.github.io/digital-humanities-handbook/chapters/ai-ethics-reproducibility/) | [How do I audit AI output against source documents?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ai/audit-ai-output-against-source-documents/)<br>[How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ethics/decide-whether-a-digitised-source-should-be-public/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/)<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/)<br>[User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/createai/)<br>[Slovenian comma-checking Word add-in](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/vejice-add-in/) |
+| [The living open handbook](https://damjan-popic.github.io/digital-humanities-handbook/chapters/open-living-handbook/) | [How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I version-control a termbase with Git?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/terminology/version-control-a-termbase-with-git/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/)<br>[Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/) |
+
+## Connections work in both directions
+
+Every workflow points back to chapters that explain its assumptions and, where genuinely relevant, to case studies that use related operations. Every case study points to conceptual chapters and executable workflows. A practical page is therefore more than an instruction sheet, and a case study is not a dead end.
+
+## Languages and fallback pages
+
+The stable core and learning paths are fully bilingual. When a Slovene workflow or case-study translation does not yet exist, the Slovene edition links to a clearly marked English fallback page. This keeps the whole ecosystem usable without presenting untranslated material as a completed Slovene translation.
+
+---
+
 # Part I — Histories, theories and contexts
 
 ## What is digital humanities?
@@ -174,6 +217,20 @@ A stronger design asks:
 - Which political and media changes must be considered when interpreting the result?
 
 The computational method is only one component. The argument depends equally on source criticism, corpus design, validation and historical interpretation.
+
+<!-- handbook-ecosystem:start -->
+!!! tip "Continue through the ecosystem"
+    **Try a workflow**
+
+    - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)
+    - [How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
+    - [How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/build-a-simple-cultural-heritage-map/)
+
+    **Inspect a case study**
+
+    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)
+    - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)
+<!-- handbook-ecosystem:end -->
 
 ## Practice
 
@@ -314,6 +371,19 @@ Consider the question: **How did Slovene newspapers describe migration, and how 
 **A digital-humanities project today.** Researchers might assemble a much larger licensed corpus, measure OCR quality by period, record missing newspapers, and combine close reading with collocations, classification, named-entity recognition, maps or networks. Machine learning or a language model could propose labels, but a stratified human-coded sample would be needed to test error across dates, genres and social groups. The team would publish provenance, code, evaluation results and permitted data, while documenting privacy, copyright and representational harms. It would also ask whose archives were digitized, whether Slovene tools perform consistently on historical language, who maintains the corpus and whether computational expense is justified.
 
 The comparison does not show steady technical improvement. Each formation enables some questions and suppresses others. The historian's task is to connect an output to the institutions, representations and labour that made it possible.
+
+<!-- handbook-ecosystem:start -->
+!!! tip "Continue through the ecosystem"
+    **Try a workflow**
+
+    - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)
+    - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)
+
+    **Inspect a case study**
+
+    - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)
+    - [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)
+<!-- handbook-ecosystem:end -->
 
 ## Practice
 
@@ -611,6 +681,20 @@ An output becomes evidence only after checks of provenance, validity, comparison
 [^lexicon]: Mohammad and Turney, “Crowdsourcing,” 436–465. Their experiments distinguish asking whether a term is associated with an emotion from asking whether it evokes an emotion; a word–emotion association lexicon does not identify a speaker's psychological state.
 [^emotion-analysis]: Štajner and Klinger, “Emotion Analysis from Texts,” 7–12, surveys classification, regression, emotion-role labelling, resources, social impact and methodological challenges.
 
+<!-- handbook-ecosystem:start -->
+!!! tip "Continue through the ecosystem"
+    **Try a workflow**
+
+    - [How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/)
+    - [How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
+    - [How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
+
+    **Inspect a case study**
+
+    - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/)
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)
+<!-- handbook-ecosystem:end -->
+
 ---
 
 ## Infrastructures of digital humanities: power, access and maintenance
@@ -828,6 +912,20 @@ An infrastructure audit does not stand outside interpretation. It establishes th
 [^jackson]: Jackson, “Rethinking Repair,” 221–240, on breakdown, maintenance and repair as sites of creativity, knowledge, power and care.
 [^sustainability]: Pendergrass et al., “Toward Environmentally Sustainable Digital Preservation,” 165–206, on integrating environmental criteria into appraisal, permanence and availability rather than relying on technological efficiency alone.
 
+<!-- handbook-ecosystem:start -->
+!!! tip "Continue through the ecosystem"
+    **Try a workflow**
+
+    - [How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ethics/decide-whether-a-digitised-source-should-be-public/)
+    - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)
+    - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)
+
+    **Inspect a case study**
+
+    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)
+    - [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/)
+<!-- handbook-ecosystem:end -->
+
 ---
 
 ## Digital humanities in Slovenia: infrastructures, languages and communities
@@ -1018,6 +1116,21 @@ These relations do not turn public objects automatically into research-ready dat
 [^jtdh]: Slovensko društvo za jezikovne tehnologije, “Konference” and “Zborniki,” *SDJT* website, accessed July 22, 2026. The event list begins in 1998; the conference page dates the thematic expansion to 2016 and describes the conference as biennial.
 [^jtdh-organizers]: The SDJT conference page named SDJT, CJVT UL, CLARIN.SI and DARIAH-SI as the organizers when observed on July 22, 2026. This current configuration is not projected onto every historical edition.
 
+<!-- handbook-ecosystem:start -->
+!!! tip "Continue through the ecosystem"
+    **Try a workflow**
+
+    - [How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)
+    - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)
+    - [How do I map places mentioned in a text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/map-places-mentioned-in-a-text/)
+
+    **Inspect a case study**
+
+    - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)
+    - [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)
+    - [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/)
+<!-- handbook-ecosystem:end -->
+
 ---
 
 # Part II — Research design and sources
@@ -1122,6 +1235,20 @@ A research design might specify:
 - **claim limit:** language in the transcript, not the private emotional state of speakers.
 
 The last distinction is crucial. Text analysis can measure textual cues and labels; it does not directly read minds.
+
+<!-- handbook-ecosystem:start -->
+!!! tip "Continue through the ecosystem"
+    **Try a workflow**
+
+    - [How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
+    - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)
+    - [How do I audit AI output against source documents?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ai/audit-ai-output-against-source-documents/)
+
+    **Inspect a case study**
+
+    - [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/)
+    - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/)
+<!-- handbook-ecosystem:end -->
 
 ## Practice
 
@@ -1270,6 +1397,21 @@ A correspondence project might use four tables:
 
 The participant table allows several senders, recipients, copied persons or uncertain roles without adding columns such as `recipient_2` and `recipient_3`. The date is represented both as the original string and as a computable interval, preserving uncertainty such as “spring 1898.”
 
+<!-- handbook-ecosystem:start -->
+!!! tip "Continue through the ecosystem"
+    **Try a workflow**
+
+    - [How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
+    - [How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)
+    - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)
+    - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)
+
+    **Inspect a case study**
+
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)
+    - [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/)
+<!-- handbook-ecosystem:end -->
+
 ## Practice
 
 Take a small humanities collection and create:
@@ -1401,6 +1543,22 @@ A defensible workflow might be:
 8. compare word and document distributions before analysis;
 9. keep an error register and cite the corpus release.
 
+<!-- handbook-ecosystem:start -->
+!!! tip "Continue through the ecosystem"
+    **Try a workflow**
+
+    - [How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/bulk-download-pdfs-and-ocr-them/)
+    - [How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/)
+    - [How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/deduplicate-corpus-text-with-minhash/)
+    - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)
+
+    **Inspect a case study**
+
+    - [Web text harvesting](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/text-harvester/)
+    - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)
+    - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/)
+<!-- handbook-ecosystem:end -->
+
 ## Practice
 
 Create a corpus card for a collection you could realistically build. Include target population, sampling frame, inclusion rules, exclusion rules, metadata fields, expected OCR or extraction errors, duplicate policy and the strongest comparison the corpus can support.
@@ -1523,6 +1681,21 @@ Suppose we want to compare reporting verbs across two newspaper periods.
 8. interpret differences alongside editorial and historical context.
 
 The annotation reduces the search space. It does not replace the interpretive distinction between quotation, reported speech, metaphor and formulaic language.
+
+<!-- handbook-ecosystem:start -->
+!!! tip "Continue through the ecosystem"
+    **Try a workflow**
+
+    - [How do I install and test CLASSLA with Python 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-and-test-classla/)
+    - [How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)
+    - [How do I export CLASSLA results to CSV?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/export-classla-results-to-csv/)
+
+    **Inspect a case study**
+
+    - [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)
+    - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)
+    - [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/)
+<!-- handbook-ecosystem:end -->
 
 ## Practice
 
@@ -1661,6 +1834,21 @@ A project might compare newspaper language around migration in two periods.
 
 The output is not “the discourse” in full. It is a documented set of recurring textual contrasts in a defined collection.
 
+<!-- handbook-ecosystem:start -->
+!!! tip "Continue through the ecosystem"
+    **Try a workflow**
+
+    - [How do I query a corpus with CQPweb?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/query-a-corpus-with-cqpweb/)
+    - [How do I compare style with function words?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-style-with-function-words/)
+    - [How do I make a dispersion plot in LancsBox?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/make-a-dispersion-plot-in-lancsbox/)
+    - [How do I visualise a frequency list with Voyant?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-a-frequency-list-with-voyant/)
+
+    **Inspect a case study**
+
+    - [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/)
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)
+<!-- handbook-ecosystem:end -->
+
 ## Practice
 
 Select two small text groups. Define a defensible denominator, calculate frequency and document frequency for five items, inspect every occurrence in context, and write one claim that the data support plus one claim they do not support.
@@ -1783,6 +1971,21 @@ Suppose we study emotional framing around climate policy.
 7. Read false positives, false negatives and high-confidence cases.
 8. Use topic or cluster analysis only as a complementary exploratory view.
 9. Present model output as evidence about language in the corpus, not direct access to speakers' inner states.
+
+<!-- handbook-ecosystem:start -->
+!!! tip "Continue through the ecosystem"
+    **Try a workflow**
+
+    - [How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
+    - [How do I explore recurring themes with NMF?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/explore-topics-with-nmf/)
+    - [How do I create a sentence-similarity heat map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/create-a-sentence-similarity-heat-map/)
+
+    **Inspect a case study**
+
+    - [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/createai/)
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)
+    - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/)
+<!-- handbook-ecosystem:end -->
 
 ## Practice
 
@@ -1930,6 +2133,19 @@ To study correspondence, create tables for persons, letters, places and particip
 
 This structure supports questions about exchange, mobility and mediation without collapsing every relationship into a single edge. It also makes explicit which relationships come from document metadata and which are extracted from letter text.
 
+<!-- handbook-ecosystem:start -->
+!!! tip "Continue through the ecosystem"
+    **Try a workflow**
+
+    - [How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)
+    - [How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
+
+    **Inspect a case study**
+
+    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)
+<!-- handbook-ecosystem:end -->
+
 ## Practice
 
 Design a schema for one project: a bibliography, oral-history archive, literary corpus, cultural-heritage inventory or correspondence collection. Draw entities and relationships, assign keys, identify one many-to-many relationship and show how uncertainty and provenance will be recorded.
@@ -2051,6 +2267,20 @@ Suppose we study movement in a novel and its historical context.
 8. publish a map with filters, source passages and an uncertainty legend;
 9. interpret absences as possible narrative choices, not automatic evidence of irrelevance.
 
+<!-- handbook-ecosystem:start -->
+!!! tip "Continue through the ecosystem"
+    **Try a workflow**
+
+    - [How do I map places mentioned in a text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/map-places-mentioned-in-a-text/)
+    - [How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/build-a-simple-cultural-heritage-map/)
+    - [How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/)
+
+    **Inspect a case study**
+
+    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)
+    - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/)
+<!-- handbook-ecosystem:end -->
+
 ## Practice
 
 Create a ten-row place table from a text or heritage list. Preserve source form, normalized name, identifier, coordinates or geometry, date, certainty, evidence and notes. Map it, then identify three ways in which the map could mislead a reader.
@@ -2165,6 +2395,20 @@ A defensible workflow might be:
 9. publish both the visualization and construction data.
 
 The graph summarizes one relational aspect of the novel. It does not model character depth, thematic importance or reader experience unless those have been operationalized separately.
+
+<!-- handbook-ecosystem:start -->
+!!! tip "Continue through the ecosystem"
+    **Try a workflow**
+
+    - [How do I build a source-linked co-occurrence network?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/build-a-cooccurrence-network/)
+    - [How do I build a collocation graph from AntConc to Cytoscape?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape/)
+    - [How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/)
+
+    **Inspect a case study**
+
+    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)
+<!-- handbook-ecosystem:end -->
 
 ## Practice
 
@@ -2311,6 +2555,23 @@ A team uses a language model to draft descriptions of archival folders.
 9. publish the model-use statement and correction channel.
 
 The system accelerates drafting; archivists remain responsible for description and access decisions.
+
+<!-- handbook-ecosystem:start -->
+!!! tip "Continue through the ecosystem"
+    **Try a workflow**
+
+    - [How do I audit AI output against source documents?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ai/audit-ai-output-against-source-documents/)
+    - [How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ethics/decide-whether-a-digitised-source-should-be-public/)
+    - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)
+    - [How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/)
+
+    **Inspect a case study**
+
+    - [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/)
+    - [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/)
+    - [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/createai/)
+    - [Slovenian comma-checking Word add-in](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/vejice-add-in/)
+<!-- handbook-ecosystem:end -->
 
 ## Practice
 
@@ -2466,6 +2727,21 @@ A student proposes a workflow for mapping places in oral-history transcripts.
 - At the next minor release it becomes part of a stable archived edition.
 
 The student's work is real scholarly communication, not disposable homework, while the editorial process protects readers and participants.
+
+<!-- handbook-ecosystem:start -->
+!!! tip "Continue through the ecosystem"
+    **Try a workflow**
+
+    - [How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/)
+    - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)
+    - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)
+    - [How do I version-control a termbase with Git?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/terminology/version-control-a-termbase-with-git/)
+
+    **Inspect a case study**
+
+    - [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/)
+    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)
+<!-- handbook-ecosystem:end -->
 
 ## Practice
 
