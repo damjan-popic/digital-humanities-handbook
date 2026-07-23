@@ -25,6 +25,7 @@ Dvojezični, odprti in verzionirani vodnik po postopkih, s katerimi kulturno gra
 <div class="quick-row" markdown>
 
 [Začnite s priročnikom](chapters/index.md)
+[Raziščite ekosistem](ecosystem.md)
 [Pismenost za informacijsko družbo](learning-paths/pismenost-za-informacijsko-druzbo.md)
 [Digitalna slovenistika](learning-paths/digitalna-slovenistika.md)
 [Praktični postopki](workflows/index.md)
@@ -34,7 +35,7 @@ Dvojezični, odprti in verzionirani vodnik po postopkih, s katerimi kulturno gra
 
 </div>
 
-## Štirje vstopi v priročnik
+## Pet vstopov v priročnik
 
 <div class="grid cards" markdown>
 
@@ -43,6 +44,12 @@ Dvojezični, odprti in verzionirani vodnik po postopkih, s katerimi kulturno gra
     Stabilno konceptualno in metodološko jedro, zasnovano za poučevanje, formalno recenzijo in oštevilčene izdaje.
 
     [:octicons-arrow-right-24: Začnite z usmeritvijo](chapters/index.md)
+
+-   :material-link-variant: **Ekosistem priročnika**
+
+    Vzajemni zemljevid od pojmov do praktičnih postopkov in študij primerov, z jasno označenimi angleškimi nadomestnimi stranmi, kjer prevod še ne obstaja.
+
+    [:octicons-arrow-right-24: Sledite povezavam](ecosystem.md)
 
 -   :material-routes: **Učne poti**
 
