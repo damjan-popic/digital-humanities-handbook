@@ -94,6 +94,19 @@ def main() -> int:
             f"intertextuality.yml: unused workflow categories {sorted(unused_categories)}"
         )
 
+    workflow_overrides = data.get("workflows", {})
+    unexpected_overrides = set(workflow_overrides) - workflow_paths
+    if unexpected_overrides:
+        failures.append(
+            "intertextuality.yml: workflow overrides reference missing workflows "
+            f"{sorted(unexpected_overrides)}"
+        )
+    for path, entry in workflow_overrides.items():
+        chapters = list(entry.get("chapters", []))
+        if not chapters:
+            failures.append(f"{path}: workflow override has no chapter connection")
+        check_targets(path, "chapter", chapters, "chapters/", failures)
+
     actual_cases = set(data.get("case_studies", {}))
     if actual_cases != case_paths:
         failures.append(

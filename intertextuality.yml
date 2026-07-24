@@ -42,6 +42,11 @@ workflow_categories:
     chapters:
       - chapters/critical-infrastructures.md
       - chapters/ai-ethics-reproducibility.md
+  foundations:
+    chapters:
+      - chapters/data-metadata-models.md
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
   Mapping:
     chapters:
       - chapters/gis-spatial-humanities.md
@@ -88,6 +93,66 @@ workflow_categories:
       - chapters/gis-spatial-humanities.md
       - chapters/networks-visualization.md
       - chapters/models-evidence-interpretation.md
+
+# Stable category IDs and per-workflow overrides keep localized display labels
+# separate from the canonical ecosystem mapping.
+workflows:
+  workflows/foundations/install-wsl-and-ubuntu-on-windows.md:
+    chapters:
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
+  workflows/foundations/navigate-files-and-directories-with-bash.md:
+    chapters:
+      - chapters/data-metadata-models.md
+      - chapters/ai-ethics-reproducibility.md
+  workflows/foundations/use-pipes-redirection-and-grep-in-bash.md:
+    chapters:
+      - chapters/data-metadata-models.md
+      - chapters/research-design.md
+      - chapters/ai-ethics-reproducibility.md
+  workflows/foundations/install-and-configure-git.md:
+    chapters:
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
+  workflows/foundations/track-a-small-project-with-git.md:
+    chapters:
+      - chapters/research-design.md
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
+  workflows/foundations/clone-run-change-and-commit-a-handbook-project.md:
+    chapters:
+      - chapters/data-metadata-models.md
+      - chapters/research-design.md
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
+  workflows/nlp/install-python-312-for-nlp.md:
+    chapters:
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
+  workflows/nlp/create-a-python-312-virtual-environment.md:
+    chapters:
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
+  workflows/nlp/install-python-packages-with-pip.md:
+    chapters:
+      - chapters/data-metadata-models.md
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
+  workflows/nlp/run-a-python-script-from-terminal.md:
+    chapters:
+      - chapters/research-design.md
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
+  workflows/nlp/structure-a-small-python-nlp-project.md:
+    chapters:
+      - chapters/data-metadata-models.md
+      - chapters/research-design.md
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
+  workflows/nlp/troubleshoot-python-venv-and-pip.md:
+    chapters:
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
 
 # A short, curated practical trail for each stable chapter.
 chapters:
@@ -136,6 +201,7 @@ chapters:
       - workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md
       - workflows/publishing/write-a-readme-for-a-humanities-dataset.md
       - workflows/ai/audit-ai-output-against-source-documents.md
+      - workflows/foundations/clone-run-change-and-commit-a-handbook-project.md
     case_studies:
       - case-studies/fifi.md
       - case-studies/medieval-ner.md
@@ -145,6 +211,7 @@ chapters:
       - workflows/data/build-a-humanities-database-with-sqlite.md
       - workflows/publishing/package-a-corpus-with-fair-metadata.md
       - workflows/publishing/write-a-readme-for-a-humanities-dataset.md
+      - workflows/nlp/structure-a-small-python-nlp-project.md
     case_studies:
       - case-studies/pracomul.md
       - case-studies/korpus-solar-analysis.md
@@ -214,6 +281,7 @@ chapters:
       - workflows/ethics/decide-whether-a-digitised-source-should-be-public.md
       - workflows/publishing/package-a-corpus-with-fair-metadata.md
       - workflows/automation/automate-a-linguistic-workflow-with-a-makefile.md
+      - workflows/nlp/install-python-packages-with-pip.md
     case_studies:
       - case-studies/jezikovni-svetovalec.md
       - case-studies/fifi.md
@@ -225,6 +293,7 @@ chapters:
       - workflows/publishing/write-a-readme-for-a-humanities-dataset.md
       - workflows/publishing/package-a-corpus-with-fair-metadata.md
       - workflows/terminology/version-control-a-termbase-with-git.md
+      - workflows/foundations/track-a-small-project-with-git.md
     case_studies:
       - case-studies/jezikovni-svetovalec.md
       - case-studies/ladakh-relations.md

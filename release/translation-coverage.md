@@ -1,9 +1,9 @@
 # Translation coverage
 
-- English Markdown pages: **129**
-- Slovene counterparts: **48**
-- Coverage: **37.2%**
-- English pages currently using fallback in Slovene: **81**
+- English Markdown pages: **136**
+- Slovene counterparts: **61**
+- Coverage: **44.9%**
+- English pages currently using fallback in Slovene: **75**
 
 The stable chapters and learning paths must remain fully paired. The inherited workflow library is translated incrementally; untranslated pages are served from the English default edition and are not counted as Slovene translations.
 
@@ -53,15 +53,9 @@ The stable chapters and learning paths must remain fully paired. The inherited w
 - `workflows/mt-eval/index.md`
 - `workflows/nlp/annotate-a-corpus-with-udpipe.md`
 - `workflows/nlp/compare-meanings-across-languages-with-fasttext-embeddings.md`
-- `workflows/nlp/create-a-python-312-virtual-environment.md`
 - `workflows/nlp/extract-named-entities-with-spacy.md`
-- `workflows/nlp/install-python-312-for-nlp.md`
-- `workflows/nlp/install-python-packages-with-pip.md`
 - `workflows/nlp/read-and-write-csv-files-with-pandas.md`
 - `workflows/nlp/read-and-write-text-files-in-python.md`
-- `workflows/nlp/run-a-python-script-from-terminal.md`
-- `workflows/nlp/structure-a-small-python-nlp-project.md`
-- `workflows/nlp/troubleshoot-python-venv-and-pip.md`
 - `workflows/nlp/use-the-python-nlp-starter-project.md`
 - `workflows/pdf/bulk-download-pdfs-and-ocr-them.md`
 - `workflows/pdf/index.md`

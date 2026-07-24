@@ -30,6 +30,45 @@ By the end of the path, students should be able to:
 - construct and critique a source-linked network;
 - release data, code and interpretation as a citable, reproducible project.
 
+## Technical-readiness clinic
+
+Complete this unnumbered clinic **before module 1**. It establishes the shared technical baseline; it does not count as a fifteenth module. Begin with the [technical workspace hub](../foundations/technical-workspace.md), where terminal, shell, WSL, Bash, Git, Python and virtual-environment concepts are distinguished.
+
+| Stage | Activity and evidence |
+| --- | --- |
+| Windows only | [Install and verify WSL 2 with Ubuntu](../workflows/foundations/install-wsl-and-ubuntu-on-windows.md); record `wsl --list --verbose`. macOS/Linux students record why they skipped WSL. |
+| Everyone | Identify the terminal and shell, then [navigate a disposable folder with Bash](../workflows/foundations/navigate-files-and-directories-with-bash.md). |
+| Everyone | [Install and configure Git](../workflows/foundations/install-and-configure-git.md), including the privacy choice for the commit email. |
+| Everyone | [Clone the instructor’s small starter repository](../workflows/foundations/clone-run-change-and-commit-a-handbook-project.md). A public GitHub repository is not required. |
+| Everyone | [Create and activate a Python 3.12 virtual environment](../workflows/nlp/create-a-python-312-virtual-environment.md). |
+| Everyone | [Install the reviewed requirements](../workflows/nlp/install-python-packages-with-pip.md) with `python -m pip install -r requirements.txt`. |
+| Everyone | [Run the small script](../workflows/nlp/run-a-python-script-from-terminal.md), inspect its output, change one harmless label on a branch, inspect the diff and make one local commit. |
+
+Submit or demonstrate this readiness artefact:
+
+```text
+technical-readiness/
+├── README.md
+├── environment-check.md
+├── hello.py
+├── requirements.txt
+└── output/
+```
+
+The repository may also contain `.gitignore`, a licence and Git’s hidden metadata. `.venv/` must remain untracked.
+
+`environment-check.md` must record:
+
+- operating system and, for Windows, the Ubuntu/WSL version;
+- shell;
+- Git version;
+- Python version;
+- exact activation command;
+- exact successful script command;
+- confirmation that the output and one commit were inspected.
+
+Do not include passwords, tokens, private email addresses or sensitive absolute paths. The instructor may inspect the local repository or accept it through an approved institutional system; no public remote or pull request is required for readiness assessment. If a step fails, submit the full non-sensitive error and diagnosis rather than bypassing permissions or security controls.
+
 ## Suggested 14-module sequence
 
 ### 1. Histories of the field and the Slovenian ecosystem
@@ -42,7 +81,7 @@ Read [Models, evidence and interpretation](../chapters/models-evidence-interpret
 
 ### 3. Reproducible Python workspace
 
-Create a Python 3.12 virtual environment, install packages, run a script and initialize a repository. Complete the relevant [Python and NLP workflows](../workflows/nlp/index.md). Commit a README and environment specification so that the technical workspace supports the design from module 2.
+Build on the successful clinic repository rather than repeating installation. Restructure it for a bounded corpus task with the [small Python NLP project workflow](../workflows/nlp/structure-a-small-python-nlp-project.md); revise the README, direct requirements and `.gitignore`; and use the [diagnostic workflow](../workflows/nlp/troubleshoot-python-venv-and-pip.md) to verify that a peer can recreate the environment. Commit an environment specification—not `.venv/`—that supports the research design from module 2.
 
 ### 4. Text formats, corpus design, collection, OCR, cleaning and deduplication
 

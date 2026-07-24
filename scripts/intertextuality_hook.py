@@ -27,7 +27,10 @@ def on_page_markdown(markdown: str, page: Any, config: Any, files: Any) -> str:
     if relative_path.endswith("/index.md") or relative_path == "chapters/index.md":
         return markdown
 
-    category = page.meta.get("category") if hasattr(page, "meta") else None
+    # Localized display labels (for example Foundations/Osnove) are not
+    # canonical identifiers. New categories expose a stable category_id;
+    # legacy pages fall back to the English source metadata by path.
+    category = page.meta.get("category_id") if hasattr(page, "meta") else None
     return inject_connections(
         markdown,
         relative_path,

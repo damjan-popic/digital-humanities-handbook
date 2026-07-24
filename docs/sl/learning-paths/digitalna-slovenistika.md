@@ -30,6 +30,45 @@ Po končani poti bodo študenti znali:
 - zgraditi in kritično presoditi z viri povezano omrežje;
 - podatke, kodo in interpretacijo objaviti kot navedljiv in ponovljiv projekt.
 
+## Preverjanje tehnične pripravljenosti
+
+To neoštevilčeno preverjanje opravite **pred prvim modulom**. Z njim vzpostavite skupno tehnično izhodišče; ne šteje kot petnajsti modul. Začnite na vozlišču [Tehnično delovno okolje](../foundations/technical-workspace.md), kjer so razločeni terminal, lupina, WSL, Bash, Git, Python in virtualno okolje.
+
+| Stopnja | Dejavnost in dokaz |
+| --- | --- |
+| Samo Windows | [Namestite in preverite WSL 2 z Ubuntujem](../workflows/foundations/install-wsl-and-ubuntu-on-windows.md) ter zabeležite `wsl --list --verbose`. Če uporabljate macOS ali Linux, zapišite, zakaj ste WSL preskočili. |
+| Vsi | Določite terminal in lupino, nato pa se [z lupino Bash premikajte po zavržljivi mapi](../workflows/foundations/navigate-files-and-directories-with-bash.md). |
+| Vsi | [Namestite in nastavite Git](../workflows/foundations/install-and-configure-git.md), vključno z odločitvijo o zasebnosti e-poštnega naslova v potrditvah. |
+| Vsi | [Klonirajte manjši začetni repozitorij, ki ga zagotovi izvajalec](../workflows/foundations/clone-run-change-and-commit-a-handbook-project.md). Javni repozitorij GitHub ni potreben. |
+| Vsi | [Ustvarite in aktivirajte virtualno okolje Python 3.12](../workflows/nlp/create-a-python-312-virtual-environment.md). |
+| Vsi | Z `python -m pip install -r requirements.txt` [namestite pregledane zahteve](../workflows/nlp/install-python-packages-with-pip.md). |
+| Vsi | [Zaženite kratko skripto](../workflows/nlp/run-a-python-script-from-terminal.md), preglejte rezultat, v veji spremenite eno neškodljivo oznako, preglejte razliko in ustvarite eno krajevno potrditev. |
+
+Oddajte ali pokažite naslednji izdelek pripravljenosti:
+
+```text
+technical-readiness/
+├── README.md
+├── environment-check.md
+├── hello.py
+├── requirements.txt
+└── output/
+```
+
+Repozitorij lahko vsebuje tudi `.gitignore`, licenco in skrite metapodatke Gita. `.venv/` mora ostati nesledena.
+
+V `environment-check.md` zabeležite:
+
+- operacijski sistem, pri sistemu Windows pa tudi različico Ubuntuja in WSL;
+- lupino;
+- različico Gita;
+- različico Pythona;
+- natančni ukaz za aktiviranje;
+- natančni uspešni ukaz za skripto;
+- potrditev, da ste pregledali rezultat in eno potrditev.
+
+Ne vključite gesel, žetonov, zasebnih e-poštnih naslovov ali občutljivih absolutnih poti. Izvajalka ali izvajalec lahko pregleda krajevni repozitorij oziroma sprejme izdelek po odobrenem sistemu ustanove; za oceno pripravljenosti ne potrebujete javnega oddaljenega repozitorija ali zahtevka za vključitev. Če korak ne uspe, oddajte celotno neobčutljivo napako in diagnozo, namesto da bi obšli dovoljenja ali varnostne nadzore.
+
 ## Predlagano zaporedje 14 modulov
 
 ### 1. Zgodovine področja in slovenski ekosistem
@@ -42,7 +81,7 @@ Preberite [Modeli, dokazno gradivo in interpretacija](../chapters/models-evidenc
 
 ### 3. Ponovljivo delovno okolje Python
 
-Ustvarite virtualno okolje Python 3.12, namestite pakete, zaženite skripto in inicializirajte repozitorij. Izvedite ustrezne [postopke za Python in NLP](../workflows/nlp/index.md). Oddajte README in specifikacijo okolja, da bo tehnično okolje podpiralo zasnovo iz drugega modula.
+Nadaljujte iz uspešnega repozitorija pripravljenosti in namestitve ne ponavljajte. Z [navodili za manjši projekt Python za NLP](../workflows/nlp/structure-a-small-python-nlp-project.md) ga preuredite za omejeno korpusno nalogo; popravite README, neposredne zahteve in `.gitignore`; nato pa z [diagnostičnim postopkom](../workflows/nlp/troubleshoot-python-venv-and-pip.md) preverite, ali lahko kolegica ali kolega okolje znova ustvari. Potrdite specifikacijo okolja, ne `.venv/`, tako da bo podpirala raziskovalno zasnovo iz drugega modula.
 
 ### 4. Besedilni formati, zasnova korpusa, zajem, OCR, čiščenje in dvojniki
 

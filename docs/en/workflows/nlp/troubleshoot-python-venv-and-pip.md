@@ -53,7 +53,7 @@ Expected inside the virtual environment:
 Python 3.12.x
 ```
 
-If you see Python 3.13 or higher, stop and recreate the environment with Python 3.12.
+If the version is not 3.12, you are outside the course-tested baseline. That does not mean the installed version is inherently unusable; recreate the environment with 3.12 when you need to reproduce this course route.
 
 ### Step 2: Check whether the environment is active
 
@@ -69,11 +69,11 @@ The path should contain `.venv`.
 
 ### Step 3: Check the current folder
 
-=== "Windows"
+=== "Windows PowerShell"
 
-    ```cmd
-    cd
-    dir
+    ```powershell
+    Get-Location
+    Get-ChildItem
     ```
 
 === "macOS/Linux"
@@ -87,10 +87,10 @@ You should be in the project root, where folders such as `data/`, `scripts/`, an
 
 ### Step 4: Check whether the script exists
 
-=== "Windows"
+=== "Windows PowerShell"
 
-    ```cmd
-    dir scripts
+    ```powershell
+    Get-ChildItem scripts
     ```
 
 === "macOS/Linux"
@@ -154,31 +154,29 @@ python scripts/check_environment.py
 
 This tells you which Python is running and from where.
 
-### Step 7: Recreate the environment if necessary
+### Step 7: Recreate alongside the old environment if necessary
 
-If the environment is confused, delete `.venv/` and recreate it.
+If the environment is confused, leave `.venv/` in place initially and create a second disposable environment. This avoids teaching recursive deletion as a casual fix and preserves evidence while you test the diagnosis.
 
 === "Windows PowerShell"
 
     ```powershell
-    deactivate
-    Remove-Item -Recurse -Force .venv
-    py -3.12 -m venv .venv
-    .venv\Scripts\Activate.ps1
-    python -m pip install --upgrade pip setuptools wheel
+    py -3.12 -m venv .venv-rebuilt
+    .\.venv-rebuilt\Scripts\Activate.ps1
+    python -m pip install --upgrade pip
     python -m pip install -r requirements.txt
     ```
 
 === "macOS/Linux"
 
     ```bash
-    deactivate
-    rm -rf .venv
-    python3.12 -m venv .venv
-    source .venv/bin/activate
-    python -m pip install --upgrade pip setuptools wheel
+    python3.12 -m venv .venv-rebuilt
+    source .venv-rebuilt/bin/activate
+    python -m pip install --upgrade pip
     python -m pip install -r requirements.txt
     ```
+
+Add `.venv*/` to `.gitignore` while diagnosing. If the rebuilt environment works, deactivate it and remove the old environment only after verifying its exact project path and confirming that it contains no project code. Virtual environments should be disposable, but deletion is still destructive. On managed computers, ask for help when permissions are unclear.
 
 ## Output
 
@@ -229,7 +227,16 @@ Keep this quick checklist in your README:
 |---|---|---|
 | `ModuleNotFoundError: No module named 'pandas'` | Package not installed in active environment | `python -m pip install pandas` |
 | `ModuleNotFoundError: No module named 'classla'` | CLASSLA not installed in active environment | `python -m pip install classla` |
-| `Python 3.13.x` appears | Wrong Python version | Recreate `.venv/` with Python 3.12 |
+| A version other than Python 3.12 appears | Outside the course-tested baseline | Recreate an environment with Python 3.12 for this route |
 | `No such file or directory` | Wrong folder or wrong path | Check `pwd`/`cd` and `ls`/`dir` |
 | Output goes missing | Script writes to a different folder | Print `Path.cwd()` |
 | PowerShell blocks activation | Execution policy for current session | `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process` |
+
+## Sources checked
+
+Accessed **23 July 2026**:
+
+- [Python 3.12 documentation: `venv`](https://docs.python.org/3.12/library/venv.html)
+- [Python Packaging User Guide: Installing Packages](https://packaging.python.org/en/latest/tutorials/installing-packages/)
+
+The diagnostic and side-by-side recreation sequence was tested in a disposable Python 3.12 project under Ubuntu 24.04/WSL 2. PowerShell commands were syntax-checked in a disposable Windows folder; no permanent execution-policy change or recursive environment deletion was performed.
