@@ -1,0 +1,5 @@
+decision_id,record_id,field,raw_value,clean_value,action,evidence
+AF-SYN-001,AF-P1-001,label_transcribed,Triumf dr. Korošca v slovenski LJubljani.,Triumf dr. Korošca v slovenski Ljubljani.,restore_from_facsimile_or_leave_unresolved,source/source-records.csv and the cited PDF locator
+AF-SYN-002,AF-P2-003,person_as_printed,Mr. Meeker,Mr. Meker,restore_from_facsimile_or_leave_unresolved,source/source-records.csv and the cited PDF locator
+AF-SYN-003,AF-P2-003,authority_candidate,Ezra Meeker,,restore_from_facsimile_or_leave_unresolved,source/source-records.csv and the cited PDF locator
+AF-SYN-004,AF-P1-002-DUP,record_id,AF-P1-002-DUP,AF-P1-002,exclude_declared_synthetic_duplicate,source/synthetic-perturbations.csv

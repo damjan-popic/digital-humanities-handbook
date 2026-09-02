@@ -1,0 +1,2 @@
+sample_id,normalization,tokenization,gold_characters,character_edits,cer,gold_words,word_edits,wer
+AF-OCR-P1-INTRO,Unicode NFC; surrounding whitespace stripped,Unicode whitespace,591,15,0.025381,93,9,0.096774
