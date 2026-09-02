@@ -77,7 +77,7 @@ Keep four scopes distinct:
 
 | Scope | Practical question | Typical limitation |
 | --- | --- | --- |
-| **Historical source population** | What records would be relevant if all had survived and were accessible? | It is often unknowable and partly hypothetical. |
+| **Target population of sources** | What records would be relevant if all had survived and were accessible? | It is often unknowable and partly hypothetical. |
 | **Repository or collection** | What did an institution acquire, preserve and describe? | Appraisal, transfer, resources and institutional purpose shape survival. |
 | **Sampling frame** | Which records could this project actually discover and obtain? | Catalogue quality, digitization, language, access rules and cost intervene. |
 | **Analytical corpus** | Which accessible records pass the declared inclusion rules? | The researcher's exclusions create another boundary. |

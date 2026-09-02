@@ -51,6 +51,8 @@ Read [What is digital humanities?](../chapters/what-is-digital-humanities.md) an
 
 Use [Models, evidence and interpretation](../chapters/models-evidence-interpretation.md), [Infrastructures of digital humanities](../chapters/critical-infrastructures.md), and [From question to method](../chapters/research-design.md). Turn a broad topic into one bounded research question. Define the object, scope, possible evidence, provisional model, alternative explanation, and one infrastructural limit.
 
+Use the [Archival Friction teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) to test a plausible question against the actual sampling frame, source rights, dates and record units. Narrow or reformulate the claim when the two-page source cannot support it.
+
 **Output:** a question-and-evidence brief that distinguishes description, evidence, interpretation, and recommendation.
 
 ### 3. Scholarly writing and structured documents
@@ -83,7 +85,7 @@ A stable ZIP or dated snapshot is sufficient for assessment. If you choose the o
 
 ### 7. Excel data structure and cleaning
 
-Define one row and one variable before editing. Use the conceptual [messy-notes workflow](../workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md), then [import and clean the small dataset in Excel](../workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md). Inspect delimiter, encoding, decimal/date locale, and types; protect leading-zero identifiers as text; define missingness; use an Excel table, filters, frozen headings, formulas where appropriate, and a validation list. Preserve the raw source and document every cleaning rule.
+Define one row and one variable before editing. Use the [messy-notes workflow](../workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md) and [reconcile conflicting metadata without erasing uncertainty](../workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md), then [import and clean the small dataset in Excel](../workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md). Inspect delimiter, encoding, decimal/date locale, and types; protect leading-zero identifiers as text; define missingness; use an Excel table, filters, frozen headings, formulas where appropriate, and a validation list. Preserve source, raw, interim, modelled, decision and unresolved layers.
 
 **Output:** raw and cleaned files, data dictionary, validation list, transformation log, and five-row manual check.
 
@@ -97,9 +99,9 @@ Then [summarize the cleaned data with a PivotTable and one transparent chart](..
 
 ### 9. Documents, OCR and corpus basics
 
-Read [Texts, corpora and OCR](../chapters/texts-corpora-ocr.md). Compare a scan and OCR text, mark errors that change names, dates, negation, or word boundaries, and write inclusion rules for a five-document mini-corpus. Keep the image, OCR layer, corrected text, and annotation distinct.
+Read [Texts, corpora and OCR](../chapters/texts-corpora-ocr.md), then [evaluate OCR or HTR against a reference sample](../workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md). Compare a scan and machine text, declare transcription and sampling rules, calculate CER and WER, classify errors that change names, dates, negation or word boundaries, and test one search or count on both versions. Keep the image, layout, provider, reference, normalized and annotation layers distinct.
 
-**Output:** an OCR validation sample and corpus inclusion note.
+**Output:** an OCR/HTR validation sample, error audit, downstream comparison and corpus inclusion note.
 
 ### 10. Search, concordance and frequency
 

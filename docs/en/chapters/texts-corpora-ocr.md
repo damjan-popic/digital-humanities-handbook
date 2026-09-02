@@ -9,7 +9,7 @@ status: draft
 
 A searchable transcription can make an archive feel complete. It is not the archive. It is one representation produced from selected objects, page images, layout decisions, a recognition system and editorial rules. What can you responsibly infer when every one of those stages can omit or alter evidence?
 
-This chapter treats a corpus as a research instrument rather than a folder of text. It connects [research design](research-design.md), [data, metadata and models](data-metadata-models.md), and [critical infrastructures](critical-infrastructures.md). Its worked example uses the open [Archival Friction teaching packet](../../../teaching-data/archival-friction/README.md), so you can inspect the scan, provider text, reference transcription, metadata decisions and validation results together.
+This chapter treats a corpus as a research instrument rather than a folder of text. It connects [research design](research-design.md), [data, metadata and models](data-metadata-models.md), and [critical infrastructures](critical-infrastructures.md). Its worked example uses the open [Archival Friction teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction), so you can inspect the scan, provider text, reference transcription, metadata decisions and validation results together.
 
 ## Learning outcomes
 
@@ -207,7 +207,7 @@ A script may automate these checks, but automation is an optional extension. A s
 
 ## Practice: make one defensible claim
 
-Download or open the [Archival Friction teaching packet](../../../teaching-data/archival-friction/README.md).
+Download or open the [Archival Friction teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
 1. Read the rights record and source citation. State whether you may redistribute the included PDF and why.
 2. Inspect both source pages before reading the transcriptions. Identify two layout features likely to affect reading order.

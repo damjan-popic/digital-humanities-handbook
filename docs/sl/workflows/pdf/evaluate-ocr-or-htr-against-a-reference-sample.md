@@ -1,5 +1,5 @@
 ---
-title: "Kako ovrednotim OCR ali HTR z referenčnim vzorcem?"
+title: "Kako ovrednotim OCR ali HTR na referenčnem vzorcu?"
 description: "Pripravite preverjeni vzorec, izračunajte CER in WER, razvrstite napake ter preverite, ali spremenijo humanistično trditev."
 category: "PDF in OCR"
 category_id: "pdf"
@@ -8,7 +8,7 @@ time: "60–90 min"
 tags: [OCR, HTR, CER, WER, prepisovanje, vrednotenje]
 ---
 
-# Kako ovrednotim OCR ali HTR z referenčnim vzorcem?
+# Kako ovrednotim OCR ali HTR na referenčnem vzorcu?
 
 <div class="answer-meta" markdown>
 <span>PDF in OCR</span><span>začetno</span><span>60–90 min</span>
@@ -25,10 +25,10 @@ Programiranje ni potrebno. Učno gradivo vsebuje manjši par kandidatnega in ref
 - posnetke strani in nespremenjen izvoz razpoznavanja;
 - napisana pravila prepisovanja;
 - človeško preverjeni referenčni prepis vnaprej določenega vzorca;
-- preglednico ali orodje za razdaljo urejanja, ki navede zamenjave, izpuste in vrivanja; ter
+- preglednico ali orodje za urejevalno razdaljo, ki navede zamenjave, izpuste in vrivanja; ter
 - po želji odprto [učno gradivo Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction): `raw/provider-ocr.txt`, `cleaned/gold-transcription.txt`, `source/transcription-note.md` in `output/ocr-evaluation.csv`.
 
-Pred kopiranjem slik ali besedila preverite zapis o viru in pravicah. Kandidatni in referenčni prepis hranite v ločenih datotekah.
+Pred kopiranjem slik ali besedila preverite zapis o viru, pravicah in provenienci. Kandidatni in referenčni prepis hranite v ločenih datotekah.
 
 ## Postopek
 
@@ -63,13 +63,13 @@ Zabeležite prepisovalca, pregledovalca, datume in različico pravil. Nesoglasje
 
 ### 5. Normalizirajte samo tisto, kar preskus izključuje
 
-Na kandidatu in referenci uporabite povsem enako napovedano predobdelavo. Če velikost črk ni pomembna, jo poenotite v obeh; če so ločila pomembna, jih v obeh ohranite. Učno gradivo odstrani začetne in končne presledke ter uporabi obliko Unicode NFC, druge znakovne razlike pa ohrani. Za WER besede razmeji s presledki.
+Na kandidatu in referenci uporabite povsem enako, vnaprej določeno predobdelavo. Če velikost črk ni pomembna, jo poenotite v obeh; če so ločila pomembna, jih v obeh ohranite. Učno gradivo odstrani začetne in končne presledke ter uporabi obliko Unicode NFC, druge znakovne razlike pa ohrani. Za WER besede razmeji s presledki.
 
 Pravila normalizacije in razmejevanja pojavnic shranite ob rezultatu. CER brez njih je dvoumen.
 
 ### 6. Samodejno poravnajte in izračunajte
 
-Z najmanjšo razdaljo urejanja preštejte zamenjave \(S\), izpuste \(D\) in vrivanja \(I\) glede na \(N\) referenčnih enot:
+Z najmanjšo urejevalno razdaljo preštejte zamenjave \(S\), izpuste \(D\) in vrivanja \(I\) glede na \(N\) referenčnih enot:
 
 \[
 \mathrm{stopnja\ napak}=\frac{S+D+I}{N}
@@ -108,7 +108,7 @@ Sliko, kandidatni in referenčni prepis, pravila, metrike, revizijsko tabelo ter
 
 Oddajte manifest vzorca, zamrznjeni kandidatni prepis, preverjeno referenco, pravila prepisovanja, tabelo CER/WER, revizijo napak, primerjavo nadaljnje naloge in odločitev o nadaljevanju, popravku ali ustavitvi.
 
-Postopek je uspešen, če lahko druga oseba pridobi isti vzorec, uporabi navedeno normalizacijo, ponovi števce in imenovalce, na sliki poišče vsaj pet napak ter razume omejenost sklepa. Ujemanje s številkami iz učnega gradiva brez razlage njihovega obsega ne zadošča.
+Postopek je uspešen, če lahko druga oseba poišče isti vzorec, uporabi navedeno normalizacijo, ponovi števce in imenovalce, na sliki poišče vsaj pet napak ter razume omejenost sklepa. Ujemanje s številkami iz učnega gradiva brez razlage njihovega obsega ne zadošča.
 
 ## Preverite se
 

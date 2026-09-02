@@ -109,18 +109,18 @@ Priročnik ni sestavljen iz štirih ločenih polic. Poglavja podajajo pojme in a
 
 | Poglavje | Izbrani praktični postopki | Študije primerov |
 | --- | --- | --- |
-| [Kaj je digitalna humanistika?](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/what-is-digital-humanities/) | [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/build-a-simple-cultural-heritage-map/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)* |
+| [Kaj je digitalna humanistika?](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/what-is-digital-humanities/) | [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/build-a-simple-cultural-heritage-map/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)* |
 | [Zgodovine in genealogije digitalne humanistike](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/history-of-digital-humanities/) | [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)* | [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/corpus-augmenter/) *(angleška nadomestna stran)* |
-| [Modeli, dokazno gradivo in interpretacija](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/models-evidence-interpretation/) | [Kako raziskovalno vprašanje pretvorim v načrt znanstvenega besedila?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)*<br>[Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
+| [Modeli, dokazno gradivo in interpretacija](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/models-evidence-interpretation/) | [Kako raziskovalno vprašanje pretvorim v načrt znanstvenega besedila?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)*<br>[Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
 | [Infrastrukture digitalne humanistike: moč, dostop in vzdrževanje](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/critical-infrastructures/) | [How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ethics/decide-whether-a-digitised-source-should-be-public/) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/fifi/) *(angleška nadomestna stran)* |
 | [Digitalna humanistika v Sloveniji: infrastrukture, jeziki in skupnosti](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/digital-humanities-in-slovenia/) | [Kako s CLASSLA anotiram majhno besedilo?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/annotate-a-small-text-with-classla/)<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*<br>[Kako kartiram kraje, omenjene v besedilu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/map-places-mentioned-in-a-text/) | [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/corpus-augmenter/) *(angleška nadomestna stran)*<br>[Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/jezikovni-svetovalec/) *(angleška nadomestna stran)* |
-| [Od vprašanja do metode](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/research-design/) | [Kako ustvarim in očistim knjižnico Zotero?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/reference-management/build-and-clean-a-zotero-library/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*<br>[Kako rezultat UI preverim ob izvornih dokumentih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ai/audit-ai-output-against-source-documents/)<br>[Kako kloniram, zaženem, spremenim in potrdim projekt priročnika?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/foundations/clone-run-change-and-commit-a-handbook-project/) | [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/fifi/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
-| [Podatki, metapodatki in modeli](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/data-metadata-models/) | [Kako manjši podatkovni nabor uvozim in očistim v Excelu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*<br>[Kako uredim manjši projekt Python za NLP?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/structure-a-small-python-nlp-project/) | [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)*<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)* |
-| [Besedila, korpusi in OCR](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/texts-corpora-ocr/) | [How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/bulk-download-pdfs-and-ocr-them/) *(angleška nadomestna stran)*<br>[How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/) *(angleška nadomestna stran)*<br>[How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/deduplicate-corpus-text-with-minhash/) *(angleška nadomestna stran)*<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)* | [Web text harvesting](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/text-harvester/) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
-| [Jezikoslovna anotacija in CLASSLA](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/linguistic-annotation-classla/) | [Kako namestim in preizkusim CLASSLA s Pythonom 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-and-test-classla/)<br>[Kako s CLASSLA anotiram majhno besedilo?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/annotate-a-small-text-with-classla/)<br>[Kako rezultate CLASSLA izvozim v CSV?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/export-classla-results-to-csv/) | [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/corpus-augmenter/) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)* |
+| [Od vprašanja do metode](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/research-design/) | [Kako ustvarim in očistim knjižnico Zotero?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/reference-management/build-and-clean-a-zotero-library/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*<br>[Kako rezultat UI preverim ob izvornih dokumentih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ai/audit-ai-output-against-source-documents/)<br>[Kako kloniram, zaženem, spremenim in potrdim projekt priročnika?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/foundations/clone-run-change-and-commit-a-handbook-project/) | [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/fifi/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
+| [Podatki, metapodatki in modeli](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/data-metadata-models/) | [Kako manjši podatkovni nabor uvozim in očistim v Excelu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[Kako uskladim nasprotujoče si metapodatke in ohranim negotovost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty/)<br>[Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*<br>[Kako uredim manjši projekt Python za NLP?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/structure-a-small-python-nlp-project/) | [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)*<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)* |
+| [Besedila, korpusi in OCR](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/texts-corpora-ocr/) | [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/bulk-download-pdfs-and-ocr-them/) *(angleška nadomestna stran)*<br>[How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/) *(angleška nadomestna stran)*<br>[How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/deduplicate-corpus-text-with-minhash/) *(angleška nadomestna stran)*<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)* | [Web text harvesting](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/text-harvester/) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
+| [Jezikoslovna anotacija in CLASSLA](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/linguistic-annotation-classla/) | [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[Kako namestim in preizkusim CLASSLA s Pythonom 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-and-test-classla/)<br>[Kako s CLASSLA anotiram majhno besedilo?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/annotate-a-small-text-with-classla/)<br>[Kako rezultate CLASSLA izvozim v CSV?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/export-classla-results-to-csv/) | [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/corpus-augmenter/) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)* |
 | [Analiza besedil](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/text-analysis/) | [How do I query a corpus with CQPweb?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/query-a-corpus-with-cqpweb/) *(angleška nadomestna stran)*<br>[Kako primerjam slog s funkcijskimi besedami?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-style-with-function-words/)<br>[How do I make a dispersion plot in LancsBox?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/make-a-dispersion-plot-in-lancsbox/) *(angleška nadomestna stran)*<br>[How do I visualise a frequency list with Voyant?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-a-frequency-list-with-voyant/) *(angleška nadomestna stran)* | [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
 | [Teme, sentiment in čustva](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/topics-emotions-classification/) | [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[Kako z NMF raziščem ponavljajoče se teme?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/explore-topics-with-nmf/)<br>[How do I create a sentence-similarity heat map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/create-a-sentence-similarity-heat-map/) *(angleška nadomestna stran)* | [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/createai/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
-| [Podatkovne zbirke in SQL](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/databases-sql/) | [Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
+| [Podatkovne zbirke in SQL](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/databases-sql/) | [Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
 | [GIS in prostorska humanistika](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/gis-spatial-humanities/) | [Kako kartiram kraje, omenjene v besedilu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/map-places-mentioned-in-a-text/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/build-a-simple-cultural-heritage-map/) *(angleška nadomestna stran)*<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
 | [Omrežja in vizualizacija](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/networks-visualization/) | [Kako podatke povzamem z vrtilnimi tabelami in preglednimi grafikoni?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts/)<br>[Kako zgradim omrežje sopojavljanja, povezano z viri?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/build-a-cooccurrence-network/)<br>[How do I build a collocation graph from AntConc to Cytoscape?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape/) *(angleška nadomestna stran)*<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
 | [UI, etika in ponovljivost](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/ai-ethics-reproducibility/) | [Kako revidiram trditve, dokazno gradivo in odstavke?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs/)<br>[Kako rezultat UI preverim ob izvornih dokumentih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ai/audit-ai-output-against-source-documents/)<br>[How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ethics/decide-whether-a-digitised-source-should-be-public/) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*<br>[How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/) *(angleška nadomestna stran)*<br>[Kako namestim pakete Python s pipom?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-python-packages-with-pip/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/jezikovni-svetovalec/) *(angleška nadomestna stran)*<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/fifi/) *(angleška nadomestna stran)*<br>[User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/createai/) *(angleška nadomestna stran)*<br>[Slovenian comma-checking Word add-in](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/vejice-add-in/) *(angleška nadomestna stran)* |
@@ -223,7 +223,7 @@ Računalniška metoda je samo ena sestavina. Argument je enako odvisen od kritik
     **Preizkusite postopek v praksi**
 
     - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*
-    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
+    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
     - [How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/build-a-simple-cultural-heritage-map/) *(angleška nadomestna stran)*
 
     **Oglejte si študijo primera**
@@ -694,7 +694,7 @@ Rezultat postane dokazno gradivo šele po preverjanju provenience, veljavnosti, 
     - [Kako raziskovalno vprašanje pretvorim v načrt znanstvenega besedila?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan/)
     - [How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)*
     - [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
-    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
+    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
 
     **Oglejte si študijo primera**
 
@@ -1148,107 +1148,390 @@ Ta razmerja javno dostopnih objektov ne spremenijo samodejno v podatke, pripravl
 
 Po tem poglavju boste znali:
 
-- široko humanistično zanimanje pretvoriti v raziskovalno vprašanje, na katero je mogoče odgovoriti;
-- določiti enote analize, spremenljivke, primerjave in izhodišča;
-- metode povezati s trditvami in ne zgolj z razpoložljivo programsko opremo;
-- načrtovati ročno preverjanje in analizo napak;
-- razlikovati med raziskovalnimi ugotovitvami in potrjevalnimi dokazi.
+- široko humanistično zanimanje preoblikovati v omejeno raziskovalno vprašanje, na katero je mogoče odgovoriti;
+- razlikovati med arhivom, zbirko, vzorčnim okvirom in analitičnim korpusom;
+- določiti enote opazovanja in analize, pojme, kazalnike ter primerjave;
+- previdno sklepati na podlagi odsotnosti, ne da bi kataloško vrzel razglasili za dokaz, da se nekaj ni zgodilo;
+- pred obsežnim zbiranjem določiti merila za preverjanje virov, pravic, izvedljivosti in kakovosti;
+- vnaprej načrtovati sledenje izvoru podatkov, ročno preverjanje, analizo napak in pravila za ustavitev dela;
+- navesti najmočnejšo trditev, ki jo gradivo dopušča, in dokaz, zaradi katerega bi jo spremenili.
 
 ## Pred začetkom
 
-Zapišite vprašanje, ki bi ga postavili tudi brez digitalnega orodja. Nato podčrtajte samostalnike in glagole. Samostalniki pogosto kažejo na predmete in enote, glagoli pa razkrivajo vrsto primerjave ali pojasnila, ki ga projekt zahteva.
+Zapišite vprašanje, ki bi ga postavili tudi brez digitalnega orodja.
+Podčrtajte samostalnike in glagole. Samostalniki pogosto kažejo na osebe,
+besedila, dogodke, kraje ali ustanove, glagoli pa na razmerja, kot so
+sprememba, primerjava, kroženje ali predstavljanje. Zdaj dopišite: **na
+podlagi katerih ohranjenih virov, za katero obdobje in v primerjavi s čim?**
 
-Raziskovalna zasnova razkrije modelske in infrastrukturne odločitve. S poglavjem [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) ločite vire, predstavitve, rezultate in dokazno gradivo, s poglavjem [Infrastrukture digitalne humanistike](critical-infrastructures.md) pa presodite, kako dostop in vzdrževanje pogojujeta projekt. Pri gradivu iz Slovenije zemljevid v poglavju [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md) pred izbiro metode pomaga razlikovati med portali za odkrivanje, okolji za raziskovalne podatke, repozitoriji in jezikovnimi storitvami.
+Programiranje in statistično znanje nista potrebna. Potrebujete raziskovalno
+vprašanje in dostop do majhnega nabora virov, ki jih smete zakonito uporabiti.
+Pripravili boste kartico raziskovalne zasnove, odločitev o viru in pravicah ter
+načrt preverjanja. Dobra zasnova drugemu bralcu omogoči, da prepozna vsak
+korak sklepanja. Pogoste napake so izhajanje iz orodja, enačenje priročno
+dostopnega gradiva s celoto in nedokumentirano čiščenje, ki neopazno spremeni
+vprašanje.
 
-## Vprašanje še ni metoda
+Poglavje argument iz [Modelov, dokaznega gradiva in
+interpretacije](models-evidence-interpretation.md) prevede v izvedljiv
+raziskovalni načrt. [Podatki, metapodatki in
+modeli](data-metadata-models.md) obravnavajo zgradbo zapisov, [Besedila,
+korpusi ter optična in rokopisna razpoznava](texts-corpora-ocr.md) pa slike
+dokumentov, OCR/HTR in vzorčenje korpusa. Vsem trem poglavjem je namenjen
+majhen učni paket [*Arhivsko
+trenje*](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
-Vprašanja, kot sta »Kako je identiteta predstavljena v književnosti?« ali »Katera čustva se pojavljajo v političnem diskurzu?«, so intelektualno pomembna, vendar računalniško nedoločena. Računalnik ne more delovati z *identiteto*, *predstavitvijo* ali *čustvom*, dokler projekt ne določi, kateri opazni dokazi bodo te pojme zastopali.
+## Raziskovalna zasnova je vnaprej pripravljen argument
 
-**Operacionalizacija** je proces povezovanja pojma z opaznimi, zapisljivimi in izpodbojnimi kazalniki. Ne smemo je skriti kot tehnično podrobnost. Je del argumenta.
+Raziskovalna zasnova poveže vprašanje z dokaznim gradivom, še preden poznate
+rezultate. Določi, kaj bo veljalo za vir, primer, opazovanje in primerjavo;
+kako boste zapise izbirali in preoblikovali; kaj bi lahko šlo narobe ter kako
+boste omejili sklepe. Ni zgolj časovnica ali seznam programske opreme.
 
-»Vidnost žensk v časopisu« bi lahko na primer predstavili z:
+Koristno jo je brati kot verigo:
 
-- deležem poimenovanih oseb, prepoznanih kot ženske;
-- številom navedkov, pripisanih ženskam;
-- vlogami, v katerih so ženske omenjene;
-- temami člankov, v katerih se pojavljajo;
-- izpostavljenostjo v naslovih ali uvodnih odstavkih.
+> vprašanje → predvidena celota virov → dostopni vzorčni okvir → izbrani
+> primeri → predstavitev in kazalniki → metoda → preverjanje → omejena trditev
 
-Vsak kazalnik odgovarja na drugo vprašanje. Nobeden ni popolna mera vidnosti.
+Vsako puščico je mogoče preizprašati. Portal lahko pokaže samo katalogizirane
+predmete. Na posnetku lahko manjka hrbtna stran lista. Sistem OCR morda
+napačno prepozna imena in ločevalna znamenja. Kategorija »politični dogodek«
+je lahko posledica današnjega šifranta, ne jezika publikacije. Raziskovalna
+zasnova te prehode odpre presoji, namesto da bi jih skrila v končni
+preglednici.
 
-## Določite enoto analize
+## Začnite pri arhivu, ne pri zamišljeni celoti
 
-Projekt potrebuje jasno enoto: dokument, stran, članek, odstavek, poved, pojavnico, osebo, kraj, dogodek, podobo ali razmerje. Izbira vpliva na statistiko in interpretacijo.
+Arhiv ni prozorno skladišče vsega, kar se je zgodilo. Zapisi so nastali zaradi
+določenih upravnih, trgovskih, družinskih ali političnih potreb. Nekateri niso
+nikoli obstajali, drugi so bili zavrženi ali zadržani, samo del ohranjenega pa
+je morda katalogiziran ali digitaliziran. Michel-Rolph Trouillot pojasnjuje,
+da molk v zgodovinopisje vstopa na več mestih, od nastanka virov do nastanka
+pripovedi.[^trouillot] Rodney Carter arhivski molk prav tako obravnava kot
+razmerje moči, vendar opozori, da je lahko molk tudi strategija ljudi, ki se
+ne želijo pustiti zapisati.[^carter] Nobeden od teh pogledov raziskovalcu ne
+dovoljuje, da bi vrzel zapolnil z všečno zgodbo.
 
-Če sentiment izračunamo za vsako poved, lahko en članek prispeva več deset opazovanj. Obravnava teh povedi kot neodvisnih lahko napihne gotovost. Če kraj preštejemo ob vsaki omembi, lahko en potopis prevlada nad korpusom. Če avtorje primerjamo po dokumentih, lahko neenake dolžine dokumentov izkrivijo frekvence.
+Razlikujte štiri obsege:
 
-Enoto po možnosti zapišite kar v raziskovalno vprašanje:
+| Obseg | Praktično vprašanje | Značilna omejitev |
+| --- | --- | --- |
+| **Ciljna populacija virov** | Kateri zapisi bi bili relevantni, če bi se vsi ohranili in bili dostopni? | Pogosto je ne moremo poznati in ostaja deloma hipotetična. |
+| **Repozitorij ali zbirka** | Kaj je ustanova pridobila, ohranila in opisala? | Ohranjenost oblikujejo vrednotenje, prevzem, sredstva in namen ustanove. |
+| **Vzorčni okvir** | Katere zapise je projekt dejansko lahko odkril in pridobil? | Vmes posežejo kakovost kataloga, digitalizacija, jezik, dostopna pravila in stroški. |
+| **Analitični korpus** | Kateri dostopni zapisi ustrezajo objavljenim pravilom za vključitev? | Raziskovalčeve izključitve ustvarijo novo mejo. |
 
-> Kako se pogostnost in kontekst izrazov, povezanih z migracijami, razlikujeta **med uvodniki** v dveh časopisnih obdobjih?
+Če zadnji nabor poimenujete »arhiv«, štiri izbore združite v enega. Kjer je
+mogoče, navedite velikost posameznega nabora; vrzeli, ki jih ni mogoče
+prešteti, opišite z besedami.
 
-## Primerjave in izhodišča
+### Odločitve o izboru so podatek o projektu
 
-Vzorec dobi pomen s primerjavo. Pred uporabo metode vprašajte: »V primerjavi s čim?«
+Od prvega iskanja vodite dnevnik izbora. Za vsako poizvedbo, repozitorij ali
+arhivsko enoto zapišite datum, iskalne izraze ali signature, filtre, število
+zadetkov, izid dostopa in svojo odločitev. Podrobnosti, vezane na vmesnik,
+opremite z datumom dostopa, saj se katalogi spreminjajo. Hranite trajne
+identifikatorje, ne naslovov začasnih uporabniških sej. Če si vir lahko
+ogledate, ne smete pa ga razširjati, to zapišite, preden nanj oprete pouk ali
+trditev o ponovljivosti.
 
-Koristna izhodišča so:
+Dnevnik vam pomaga razlikovati med trditvama »predmeta ni v preiskanem
+vzorčnem okviru« in »predmet ni obstajal«. Razkrije tudi, kdaj je iskalni
+slovar izločil zgodovinske zapisne različice, manjšinske jezike ali opise,
+nastale po starejših katalogizacijskih pravilih.
 
-- drugo obdobje, žanr, avtor, institucija ali regija;
-- preostanek korpusa;
-- naključna napoved ali napoved večinskega razreda;
-- preprosta frekvenčna metoda pred zapletenim modelom;
-- človeško soglasje pred ocenjevanjem stroja;
-- premešani podatki za preverjanje, ali struktura presega naključje.
+## Najprej preverite vir in pravice
 
-Zapleten model, ki komaj preseže preprosto izhodišče, ni močan rezultat. Pregledna preprosta metoda je lahko boljša, če odgovori na vprašanje.
+Pred obsežnim zbiranjem spremljajte en reprezentativen predmet od najdbe do
+ponovne uporabe. Preverjanje naj odgovori na naslednja vprašanja:
 
-## Raziskovalno in potrjevalno delo
+1. **Identiteta:** ali gre za pravo izdajo, številko, stran ali arhivsko
+   enoto?
+2. **Provenienca:** katera ustanova hrani predmet ter katera storitev ponuja
+   digitalno predstavitev in metapodatke?
+3. **Celovitost:** ali so navzoče vse potrebne strani, priloge, stolpci in
+   različice?
+4. **Pravice in pooblastila:** ali smete vir in metapodatke prenesti,
+   analizirati, citirati ter razširjati skupaj z izpeljanimi datotekami? Ali
+   skupnost oziroma darovalec postavlja dodatne pogoje?
+5. **Tehnični dostop:** ali obstaja trajni identifikator, prenos ali posnetek
+   stanja? Ali je dostop odvisen od spremenljivega vmesnika ali uporabniškega
+   računa?
+6. **Ustreznost za raziskavo:** ali predmet vsebuje opazovanja, ki jih zahteva
+   vprašanje, vključno z znanimi zahtevnimi primeri?
 
-Raziskovalna analiza išče vzorce in ustvarja hipoteze. Primerna je, kadar kategorije ali razmerja še niso znani. Potrjevalna analiza preverja vnaprej določeno pričakovanje s podatki in merili vrednotenja, izbranimi pred analizo.
+Sprejmite eno od treh odločitev: **nadaljujte**, **popravite zasnovo** ali
+**ustavite delo**. Ustavite se, če ključne pravice niso znane, provenience ni
+mogoče ugotoviti, je potrebna celota gradiva sistematično nedostopna ali
+vzorec ne more preizkusiti načrtovane trditve. Zasnovo zožite, če je ožje
+vprašanje še mogoče utemeljiti. Majhen zakonit projekt je trdnejši od velike
+zbirke, ki je nihče ne more pregledati ali deliti.
 
-Digitalnohumanistični projekti pogosto prehajajo med obema. Nevarno je preizkusiti veliko možnosti in nato najprivlačnejši vzorec predstaviti, kakor da smo ga napovedali. Vodite dnevnik analize. Zabeležite, kdaj in zakaj ste spremenili kategorijo, prag, mejo korpusa ali vizualizacijo.
+»Odprto« ne pomeni samodejno etično neproblematično. Načela FAIR poudarjajo
+najdljivost, dostopnost, povezljivost in ponovno uporabljivost raziskovalnih
+predmetov, vključno s provenienco in licencami.[^fair] Načela CARE k temu pri
+upravljanju podatkov domorodnih ljudstev dodajajo skupno korist, pristojnost
+za nadzor, odgovornost in etiko.[^care] Upoštevajte merila skupnosti, ki jih
+raziskava zadeva; največja mogoča razširjenost podatkov ni vedno pravi cilj.
 
-## Preverjanje načrtujemo, ne dodamo na koncu
+## Vprašanje prevedite v izrecne odločitve
 
-Preverjanje moramo zasnovati pred celotno analizo. Glede na metodo lahko vključuje:
+### Omejite vprašanje
 
-- ročni pregled naključnega vzorca;
-- povečan vzorec redkih ali tveganih primerov;
-- izračun natančnosti, priklica ali soglasja;
-- primerjavo dveh anotatorjev in razreševanje nesoglasij;
-- preverjanje rezultatov ob drugačni predobdelavi;
-- branje primerov iz središča in z robov porazdelitve;
-- preizkus, ali rezultat povzroča en sam vir, obdobje ali avtor.
+Vprašanja, kot je »Kako je narodna identiteta predstavljena v časopisih?«, so
+intelektualno tehtna, vendar premalo določena. V zasnovi poimenujte celoto
+virov, obdobje, enoto, razmerje in primerjavo. Na primer:
 
-Sama točnost redko zadošča. Model z 90-odstotno točnostjo lahko skoraj povsem odpove pri kategoriji, ki je za raziskavo najpomembnejša. Analiza napak sprašuje, katere napake nastajajo, pri kom, v katerih žanrih in s kakšnimi interpretativnimi posledicami.
+> Kako slikovni napisi v ohranjenih številkah dveh izbranih slovenskih
+> ilustriranih prilog med letoma 1924 in 1926 pripisujejo politično delovanje
+> imenovanim in neimenovanim skupinam ter kako se porazdelitev razlikuje med
+> publikacijama?
 
-## Triangulacija
+Tudi to vprašanje zahteva kritiko virov, vendar jasno pokaže, kaj boste
+primerjali. Ne zatrjuje, da lahko merite prepričanje vseh bralcev ali pomen
+»naroda«.
 
-Dober projekt pogosto združi metode, ki odpovedujejo na različne načine. Frekvence pokažejo obseg, ne pa pomena. Konkordance vrnejo kontekst, vendar zahtevajo veliko časa. Tematski model združuje sopojavljajoče se izraze, a potrebuje interpretacijo. Intervjuji lahko pojasnijo institucionalno prakso, ne pa zgodovinske razširjenosti.
+### Določite enote opazovanja, vzorčenja in analize
 
-Triangulacija ne pomeni, da se morajo vse metode strinjati. Nesoglasje je lahko analitično dragoceno, saj razkrije različne ravni predmeta.
+**Enota opazovanja** je tisto, kar opisuje en zapis: stran, napis, pismo,
+oseba, dogodek ali razmerje. **Enota vzorčenja** je tisto, kar izberete:
+denimo časopisna številka, čeprav analizirate posamezne napise. **Enota
+analize** je tisto, kar prispeva vrednost k primerjavi. Enote se lahko
+razlikujejo, vendar morate razlike navesti.
 
-## Razdelan primer: čustva v parlamentarni razpravi
+Če povedi iz istega članka obravnavate kot neodvisna opazovanja, lahko dolg
+članek prevlada v rezultatu, negotovost pa se navidezno zmanjša. Če osebo
+preštejete ob vsaki omembi, lahko en sam pogosto omenjeni javni delavec
+oblikuje rezultat za celotno publikacijo. Odločite se, ali boste upoštevali
+povezanost zapisov po številki, avtorju ali viru.
 
-Široko vprašanje: *Kako se je čustveni jezik spremenil med politično krizo?*
+### Operacionalizirajte, vendar kazalnika ne enačite s pojmom
 
-Raziskovalna zasnova lahko določi:
+**Operacionalizacija** poveže pojem z opaznimi, zapisljivimi in izpodbojnimi
+kazalniki. Adcock in Collier poudarjata, da je veljavnost merjenja odvisna od
+razmerja med splošnim pojmom, njegovo kontekstualno opredelitvijo, kazalniki
+in vrednostmi.[^validity] V humanistični raziskavi lahko postopek združuje
+strukturirano označevanje in pozorno branje.
 
-- **vire:** uradne prepise šest mesecev pred določenim dogodkom in po njem;
-- **enoto:** vsak govorčev nastop z ohranjenimi metapodatki o govorcu in stranki;
-- **pojem:** čustvo, predstavljeno z ročno večoznačno shemo in slovarskim izhodiščem;
-- **primerjavo:** pred dogodkom in po njem, po stranki in vlogi govorca;
-- **preverjanje:** dva anotatorja na stratificiranem vzorcu in analiza zamenjav pri samodejnih oznakah;
-- **interpretacijo:** natančno branje kategorij z največjo spremembo ter pozornost na citiranje, ironijo in proceduralni jezik;
-- **mejo trditve:** jezik v prepisu, ne zasebno čustveno stanje govorcev.
+»Vidnost žensk« bi lahko merili z deležem poimenovanih oseb, navedki,
+površino slik, izpostavljenostjo v naslovu ali vlogami v slikovnih napisih.
+Vsak kazalnik ohrani drug vidik. Tudi pripisovanje spola zahteva dokumentirano
+in etično utemeljeno pravilo; ime ni nedvoumna meritev. Ob vsakem kazalniku
+zapišite **mejo sklepa**:
 
-Zadnja razlika je ključna. Analiza besedil meri besedilne znake in oznake; ne bere misli.
+| Pojem | Kazalnik | Česa ne dokazuje |
+| --- | --- | --- |
+| Izpostavljenost | položaj napisa in površina slike na strani | pozornosti bralcev ali političnega vpliva |
+| Pripisovanje delovanja | dejavna slovnična vloga v napisu | dejanske odgovornosti osebe |
+| Razširjenost | število najdenih repozitorijskih izvodov ali ponatisov | skupnega zgodovinskega bralstva |
+| Odsotnost | ni zadetka v dokumentiranem vzorčnem okviru | da dogodek, oseba ali izraz ni obstajal |
+
+### Določite vključevanje, izključevanje in dvoumnost
+
+Pravila napišite pred glavnim pregledom. Dodajte pritrdilne primere,
+protiprimere in mejne primere. Povejte, kaj boste storili z anonimnim napisom,
+negotovim datumom, predmetom na dveh straneh, ponatisom ali dvojezičnim
+zapisom. Če gradivo ne zadošča, ohranite oznako »negotovo«. Vsiljena gotovost
+ne izboljša ne primerljivosti ne resničnosti.
+
+Kadar med raziskovanjem spremenite kategorije, različico šifranta označite in
+zapišite, katere vrstice ste ponovno ovrednotili. Starih odločitev ne
+popravljajte neopazno samo zato, da bi bil nastajajoči vzorec lepši.
+
+## Primerjave, izhodišča in negativno dokazno gradivo
+
+Vzorec dobi pomen s primerjavo. Vedno vprašajte **v primerjavi s čim?**
+Koristna izhodišča so drugo obdobje, žanr, ustanova ali regija; preostanek
+korpusa; soglasje med ocenjevalci; preprosto pravilo pred zapletenim modelom;
+naključno premešani podatki ali napoved večinskega razreda. Zahtevna metoda,
+ki za konkretno vprašanje ne izboljša dokazov preglednega izhodišča, svoje
+zapletenosti še ni upravičila.
+
+Negativno dokazno gradivo zahteva poseben pregled. Preden sklepate iz
+manjkajočega imena ali teme, vprašajte:
+
+- Ali so tovrstni zapisi praviloma sploh nastali in se ohranili?
+- Ali katalog indeksira lastnost, ki jo iščete?
+- Ali ste preizkusili zapisne različice, jezike, napake OCR in omejitve
+  dostopa?
+- Ali poznate imenovalec?
+- Ali z istim postopkom najdete kontrolni primer, ki bi moral biti navzoč?
+
+Najmočnejša utemeljena trditev je morda: »V 312 iskalnih napisih ob navedenih
+poizvedbah in ročnem preverjanju nismo našli primera.« To je uporaben izid,
+vendar ožji od trditve »publikacija osebe ni nikoli omenila«.
+
+## Ločite raziskovanje od potrjevanja
+
+Z raziskovalno analizo odkrivate vzorce, popravljate kategorije in oblikujete
+hipoteze. S potrjevalno analizo pa vnaprej določeno pričakovanje vrednotite na
+podlagi podatkov in meril, ki niso bila izbrana v prid že opaženemu rezultatu.
+Humanistični projekti pogosto prehajajo med obema načinoma. Težava nastane,
+ko zgodovino sprememb prikrijejo.
+
+Vodite datiran raziskovalni dnevnik o spremembah meja korpusa, kategorij,
+pragov, izključitev in grafičnih odločitev. Raziskovalne grafikone tako tudi
+označite. Pred potrjevalnim korakom zamrznite vprašanje, šifrant, glavno
+primerjavo in merila uspeha ali, če je mogoče, uporabite nov vzorec. Če nič od
+tega ni izvedljivo, rezultat predstavite kot raziskovalen in omejitev
+vključite v argument.
+
+## Provenienco in preverjanje načrtujte skupaj
+
+Preverjanje ni zadnji klik na gumb. Z njim načrtujete, kako boste odkrili
+odpoved raziskovalne zasnove. Glede na vrsto trditve vključite:
+
+- naključni vzorec za oceno splošne napake in stratificirani vzorec za redke
+  ali tvegane primere;
+- neodvisno dvojno označevanje, nato pa dnevnik nesoglasij, ne samo mere
+  soglasja;
+- preverjanje lokatorjev virov, ohranjenih identifikatorjev, števila vrstic in
+  odločitev o dvojnikih;
+- občutljivostno analizo z drugačnimi pravili vključitve, časovnimi mejami ali
+  postopki normalizacije;
+- pozorno branje osrednjih, mejnih, napačnih in izstopajočih primerov;
+- primerjavo s preprostejšim izhodiščem;
+- načrten lov na dokaz, ki bi lahko nasprotoval želeni razlagi.
+
+Prage in odzive določite vnaprej. Zbiranje na primer prekinite, če več kot pet
+odstotkov pregledanih zapisov nima preverljivega lokatorja. Polje za datum
+preoblikujte, če dva ocenjevalca ne moreta dosledno razlikovati med natančnim,
+izpeljanim, približnim in neznanim datumom. Podskupine ne združujte, če ne
+dosega vnaprej določenega števila neodvisnih dokumentov.
+
+**Pravilo za ustavitev** prepreči neskončno čiščenje ali priročno prekinitev
+po ugodnem rezultatu. Določa lahko mejo korpusa, vsebinsko zasičenost, časovni
+proračun, ciljno natančnost, največji dopustni delež nerazrešenih zapisov ali
+pogoj dostopa do virov. Zapišite pravilo in podatek, ali je bilo izpolnjeno.
+
+## Razdelan primer: *Arhivsko trenje*
+
+Učni paket se začne z dvostransko številko *Ilustriranega Slovenca* iz leta
+1925. Slikovni napisi vsebujejo relativne datume, zgodovinska imena,
+politično opredeljene opise in vabljivo, vendar nerazrešeno identiteto
+»Meker/Meeker«. OCR ponudnika napačno prepozna več besed in ločevalnih
+znamenj. Štiri dodatne motnje — dvojnik in nasprotujoče si vrednosti — so
+sintetične ter navedene ločeno.
+
+Zastavite si vprašanje: **Katere negotovosti vira in obdelave bi spremenile
+primerjavo poimenovanih političnih akterjev v slikovnih napisih?** Strnjena
+zasnova je lahko takšna:
+
+- **Celota virov:** obe strani navedene številke, ne vse slovensko
+  ilustrirano časopisje.
+- **Vzorčni okvir in korpus:** vse enote s slikovnimi napisi na teh straneh;
+  učna tabela jih za pilotno delo izbere osem, zato brez dopolnjenega popisa
+  ne morete ocenjevati porazdelitve v celotni številki.
+- **Enota opazovanja:** številka, portret, skupinski portret ali druga enota z
+  napisom; razlike ohranja polje `record_kind`.
+- **Kazalniki:** ali je oseba poimenovana, kot je natisnjeno; ali je povezava
+  z normativno zbirko imen sprejeta; ali je datum natančen, izpeljan,
+  približen ali neznan.
+- **Preverjanje:** vsako vrstico primerjajte z označenim mestom v PDF-ju;
+  ponudnikov OCR primerjajte z ročno preverjenim izsekom; potrdite osem
+  očiščenih identifikatorjev in izločite samo deklarirani sintetični dvojnik.
+- **Pravilo za ustavitev:** identifikatorja iz normativne zbirke ne dodajte,
+  dokler povezave ne potrdi neodvisen vir; nerazrešeni primeri ostanejo
+  nerazrešeni.
+- **Meja sklepa:** rezultat ocenjuje izdelavo zapisov v tem pilotnem naboru.
+  Ne dokazuje zgodovinske veljave ali javnega mnenja.
+
+Nerazrešena vrstica ni neuspeh vaje. Pokaže, da dobra raziskovalna zasnova
+včasih prinese izrecen sklep »gradivo ne zadošča«.
+
+## Vaja: zasnova in odločitev o nadaljevanju
+
+Uporabite učni paket ali majhen nabor virov s svojega področja. Pripravite
+enostranski zapis, ki vsebuje:
+
+1. omejeno raziskovalno vprašanje;
+2. zgodovinsko celoto virov, repozitorijsko zbirko, vzorčni okvir in
+   analitični korpus;
+3. preverjanje vira in pravic z odločitvijo nadaljujte, popravite zasnovo ali
+   ustavite delo;
+4. enoto vzorčenja, opazovanja in analize;
+5. dva kazalnika in meji pripadajočih sklepov;
+6. pravila za vključitev, izključitev, dvojnike in negotovost;
+7. eno izhodišče in eno preverjanje negativnega dokaznega gradiva;
+8. vzorec za preverjanje, analizo napak in pravilo za ustavitev;
+9. najmočnejšo utemeljeno trditev in ugotovitev, zaradi katere bi jo
+   spremenili.
+
+**Preverjanje:** zapisa si izmenjajte. Bralec naj iz vaše zasnove napove en
+zapis, ki bi ga vključili, enega, ki bi ga izključili, in enega, ki bi ga
+ohranili kot negotovega. **Pogosta napaka:** če zapis poimenuje platformo,
+ne pa celote virov ali enote, metodo še vedno vodi orodje.
+
+## Refleksija
+
+- Katera odsotnost v vašem projektu je nastala pred arhivom, v arhivu, med
+  digitalizacijo, pri iskanju ali zaradi vašega pravila?
+- Kateri operacionalni kazalnik je najpriročnejši, vendar najmanj zvest
+  pojmu?
+- Katera pravica ali korist skupnosti bi lahko prevladala nad tehnično
+  možnostjo zbiranja ali objave?
+- Katera napaka bi najbolj ogrozila humanistično razlago?
+- Kateri dokaz bi vas zares pripravil do spremembe sklepa?
+
+## Povzetek
+
+Utemeljena digitalnohumanistična metoda se začne z omejenim vprašanjem in
+zasnovo, ki upošteva značaj virov. Arhiv, katalog, vmesnik in analitični
+korpus so različni izbori. Preden začnete obsežno delo, preverite identiteto,
+provenienco, celovitost, pogoje ponovne uporabe, dostop in primernost vira.
+Enote, kazalniki, primerjave in pravila za manjkajoče vrednosti spremenijo
+pojme v pregledne postopke, ne da bi jih izenačili z meritvami.
+
+Dnevnik izbora, preverjanje negativnega dokaznega gradiva in izrecno
+zapisovanje negotovosti preprečijo, da bi kataloška vrzel postala zgodovinsko
+dejstvo. Raziskovanje lahko zasnovo spremeni, vendar mora sled sprememb
+ostati vidna. Provenienca, preverjanje, analiza napak in pravila za ustavitev
+so del argumenta, ne tehnična priloga. Rezultat ni gotovost, ampak sledljiv
+prikaz tega, kaj izbrano gradivo podpira in česa ne.
+
+## Nadaljnje branje in viri
+
+- Adcock, Robert, in David Collier. »[Measurement Validity: A Shared Standard
+  for Qualitative and Quantitative
+  Research](https://doi.org/10.1017/S0003055401003100).« *American Political
+  Science Review* 95, št. 3 (2001): 529–546. DOI:
+  `10.1017/S0003055401003100`.
+- Carter, Rodney G. S. »[Of Things Said and Unsaid: Power, Archival Silences,
+  and Power in
+  Silence](https://archivaria.ca/index.php/archivaria/article/view/12541).«
+  *Archivaria* 61 (2006): 215–233. Dostop 2. septembra 2026.
+- Global Indigenous Data Alliance. »[CARE Principles for Indigenous Data
+  Governance](https://www.gida-global.org/careprinciples).« Dostop 2.
+  septembra 2026.
+- Trouillot, Michel-Rolph. [*Silencing the Past: Power and the Production of
+  History*](https://www.beacon.org/Silencing-the-Past-P1109.aspx). Boston:
+  Beacon Press, 1995. Spletna stran založnika, dostop 2. septembra 2026.
+- Wilkinson, Mark D., idr. »[The FAIR Guiding Principles for Scientific Data
+  Management and Stewardship](https://doi.org/10.1038/sdata.2016.18).«
+  *Scientific Data* 3 (2016): 160018. DOI:
+  `10.1038/sdata.2016.18`.
+
+[^trouillot]: Trouillot, *Silencing the Past*, zlasti razlaga molka pri
+    nastajanju virov, arhivov, pripovedi in poznejšega zgodovinskega pomena.
+[^carter]: Carter, »Of Things Said and Unsaid«, 215–233. Članek obravnava
+    arhivski molk kot posledico moči, pa tudi kot možno dejanje ljudi, ki se
+    uprejo vključitvi v arhiv.
+[^fair]: Wilkinson idr., »FAIR Guiding Principles«. FAIR opisuje lastnosti in
+    skrbništvo raziskovalnih predmetov; samo po sebi ne odloči, ali sta dostop
+    in ponovna uporaba etično primerna.
+[^care]: Global Indigenous Data Alliance, »CARE Principles«. Načela
+    preprečujejo domnevo, da morajo tehnično odprti podatki krožiti brez
+    pristojnosti skupnosti in odgovornega ravnanja.
+[^validity]: Adcock in Collier, »Measurement Validity«, 529–546. Njun okvir
+    povezuje kvalitativno in kvantitativno raziskovanje ter poudarja
+    kontekstualnost trditev o veljavnosti merjenja.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
     - [Kako ustvarim in očistim knjižnico Zotero?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/reference-management/build-and-clean-a-zotero-library/)
-    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
+    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
     - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*
     - [Kako rezultat UI preverim ob izvornih dokumentih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ai/audit-ai-output-against-source-documents/)
     - [Kako kloniram, zaženem, spremenim in potrdim projekt priročnika?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/foundations/clone-run-change-and-commit-a-handbook-project/)
@@ -1259,31 +1542,6 @@ Zadnja razlika je ključna. Analiza besedil meri besedilne znake in oznake; ne b
     - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
-## Vaja
-
-Vzemite široko vprašanje iz svojega področja in izpolnite kartico:
-
-| Sestavina | Odločitev |
-|---|---|
-| Raziskovalno vprašanje | |
-| Korpus ali zbirka | |
-| Enota analize | |
-| Operacionalni kazalnik(i) | |
-| Primerjava/izhodišče | |
-| Vzorec za preverjanje | |
-| Glavni moteči dejavnik | |
-| Najmočnejša utemeljena trditev | |
-
-## Refleksija
-
-- Kaj vaša operacionalizacija naredi vidno in kaj izbriše?
-- Katero preprostejše izhodišče mora zapletena metoda preseči?
-- Katera napaka bi najresneje ogrozila humanistično interpretacijo?
-
-## Povzetek
-
-Digitalna metoda je primerna samo v razmerju do raziskovalnega vprašanja, modela dokazov in trditve. Operacionalizacija, enote, primerjave in preverjanje so intelektualne odločitve. Dobra zasnova določi najmočnejšo trditev, ki jo dokazi še podpirajo, in načrtuje analizo napak, preden obseg podraži popravke.
-
 ---
 
 ## Podatki, metapodatki in modeli
@@ -1292,126 +1550,439 @@ Digitalna metoda je primerna samo v razmerju do raziskovalnega vprašanja, model
 
 Po tem poglavju boste znali:
 
-- razlikovati med podatki, metapodatki in dokumentacijo;
-- oblikovati stabilne identifikatorje in preprost tabelarni podatkovni model;
-- izrecno predstaviti izvor, negotovost in manjkajoče vrednosti;
-- prepoznati, kdaj mora preglednica postati relacijska podatkovna zbirka;
-- presoditi, ali shema odraža raziskovalno vprašanje ali zgolj obliko razpoložljivega vira.
+- razlikovati med izvornimi predmeti, metapodatki ponudnika, raziskovalnimi podatki, metapodatki in dokumentacijo;
+- pojasniti, zakaj je podatkovni model interpretacija in ne nevtralno skladišče;
+- oblikovati stabilne identifikatorje, natančne navedbe mesta v viru in preprosto relacijsko zgradbo;
+- poleg normaliziranih datumov, imen in nadzorovanih izrazov ohraniti zapis iz vira;
+- izrecno predstaviti negotovost, manjkajoče vrednosti, dvojnike, ponatise in različice;
+- izdelati preverljivo sled provenience in popravkov;
+- izbrati metapodatkovni standard ali slovar za jasno določen namen in preizkusiti njegovo ustreznost.
 
 ## Pred začetkom
 
-Odprite tabelo, ki ste jo že uporabili pri raziskavi. Ali lahko brez vprašanja avtorju ugotovite, kaj predstavlja ena vrstica, kateri stolpci so obvezni, kaj pomenijo prazne celice, od kod izvirajo vrednosti in katero različico gledate? Če ne, težava ni samo v »neurejenih podatkih«, temveč v manjkajočem pomenu.
+Odprite tabelo, ki ste jo že uporabili pri raziskavi. Ali lahko brez vprašanja
+avtorju ugotovite, kaj predstavlja ena vrstica, kateri stolpci so obvezni, kaj
+pomeni prazna celica, od kod prihaja posamezna vrednost ter ali je ime
+prepisano ali normalizirano? Se lahko iz vrstice vrnete k strani, vrstici,
+delu slike ali kataloškemu zapisu? Če ne, tabeli ne manjka samo urejenost,
+temveč tudi pomen in provenienca.
 
-To poglavje se posveča praktični zgradbi podatkov in dokumentaciji. Širšo spoznavno razlago prehoda od virov in modelov do dokaznega gradiva razvija poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md). Kadar vmesnik zbirke, standard ali izvozno pravilo omejuje razpoložljive zapise, s poglavjem [Infrastrukture digitalne humanistike](critical-infrastructures.md) dokumentirajte tudi ta predhodni izbor.
+Poznavanje podatkovnih zbirk ali programiranja ni potrebno. Potrebujete majhno
+zbirko ali učni paket [*Arhivsko
+trenje*](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+Pripravili boste model zapisov, podatkovni slovar, dnevnik popravkov in
+poročilo o kakovosti. Dober rezultat ohrani dokazno gradivo tudi tedaj, ko
+vrednost normalizirate ali pustite nerazrešeno. Osrednja napaka je tiho
+nadomeščanje: tabela postane navidezno dosledna, vendar izbriše, kaj so
+dejansko navedli vir, ponudnik ali raziskovalec.
 
-## Podatki, metapodatki in dokumentacija
+Vprašanje in vzorčni okvir najprej opredelite v poglavju [Od vprašanja do
+metode](research-design.md). Širšo razmejitev virov, predstavitev, rezultatov
+in dokaznega gradiva pojasnjujejo [Modeli, dokazno gradivo in
+interpretacija](models-evidence-interpretation.md). Preglednični postopki v
+[Temeljih znanstvenega dela](../foundations/scholarly-work.md)
+prikazujejo, kako brez programiranja ločite izvorno, očiščeno, odločevalsko in
+izhodno raven.
 
-V humanistični raziskavi so **podatki** zabeležena opazovanja ali predstavitve, ki jih uporabljamo kot dokaz. **Metapodatki** opisujejo predmete, zapise ali postopke: naslov, datum, ustvarjalca, vir, jezik, pravice, zbirko, koordinate, stanje prepisa ali različico anotacije. **Dokumentacija** pojasni, kako so podatki in metapodatki nastali ter kako jih moramo razlagati.
+## Podatki nastanejo za določen namen
 
-Razlika je odvisna od vprašanja. Datum izdaje je lahko pri iskanju po korpusu metapodatek, v raziskavi zgodovine založništva pa postane analizirani podatek.
+V humanistični raziskavi so **podatki** zabeležena opazovanja ali predstavitve,
+ki jih uporabljamo pri raziskovanju. **Metapodatki** opisujejo predmete,
+zapise ali postopke: naslov, datum, ustvarjalca, jezik, pravice, zbirko, mesto
+v viru, stanje prepisa ali preoblikovanje. **Dokumentacija** razloži model,
+pravila, zgodovino in omejitve, ki jih iz samih celic ni mogoče razbrati.
 
-Trden projekt ohranja vse tri ravni:
+Vloge so odvisne od vprašanja. Datum objave je pri iskanju besedila
+metapodatek, v zgodovini založništva pa analizirani podatek. Kataloški opis je
+metapodatek o predmetu in hkrati zgodovinski vir o ustanovi, ki ga je
+izdelala.
 
-- vir ali stabilno sklicevanje nanj;
-- strukturirane zapise, uporabljene pri analizi;
-- dokumentacijo preoblikovanj in odločitev.
+Johanna Drucker z izrazom *capta* — kar je bilo zajeto — poudari, da
+humanistični podatki nastajajo z izbiranjem in določanjem parametrov, namesto
+da bi jih našli že pripravljene.[^drucker] Izraz je koristno vprašanje in ne
+zahteva, da preimenujete vsako datoteko. Vprašajte: kdo je izbral enoto, po
+katerem modelu, iz katerega ohranjenega gradiva in s katero izgubo?
 
-## Kaj pomeni ena vrstica?
+## Model je skupek odločitev
 
-Najpomembnejše vprašanje pri oblikovanju tabele je **enota opazovanja**. Ena vrstica naj predstavlja eno jasno določeno stvar: dokument, osebo, kraj, dogodek, poved, anotacijo ali razmerje.
+**Podatkovni model** določa, katere vrste stvari v projektu obstajajo, katere
+lastnosti jih opisujejo, kako so povezane in katere omejitve veljajo.
+Preglednica z eno vrstico za vsak slikovni napis je že model. Napis obravnava
+kot samostojno enoto, izbere polja in odloči, katere podrobnosti bodo ostale v
+opombah.
 
-Mešanje ravni povzroča napake. Tabela z eno vrstico na avtorja in več naslovi knjig v isti celici ne more zanesljivo odgovarjati na vprašanja o knjigah. Tabele z eno vrstico na časopisno številko in temami člankov v seznamih, ločenih z vejicami, ni mogoče nedvoumno filtrirati ali šteti.
+Razlikujte tri ravni:
 
-Koristen preizkus je dopolnitev povedi:
+1. **Konceptualni model** v jeziku stroke poimenuje entitete in razmerja:
+   številko, stran, sliko, napis, osebo, dogodek, različico in vir.
+2. **Logični model** jih prevede v tabele, polja, identifikatorje, nadzorovane
+   vrednosti in omejitve.
+3. **Fizična predstavitev** jih shrani v CSV, preglednico, XML, JSON,
+   relacijsko podatkovno zbirko ali drugo obliko.
+
+Menjava programske opreme ne bo popravila slabega modela, če prvih dveh ravni
+ne premislite znova. Po drugi strani lahko premišljena majhna datoteka CSV
+uresniči povsem utemeljen model.
+
+Geoffrey Bowker in Susan Leigh Star pokažeta, da klasifikacije organizirajo
+delo in razporejajo posledice, pri tem pa kot infrastruktura postanejo komaj
+opazne.[^bowker-star] Zato ločite kategorije vira, kategorije ponudnika in
+svoje analitične kategorije. Zgodovinska polemična oznaka je dokaz o stališču
+publikacije, ne samodejno sprejemljiva sodobna predmetna oznaka.
+
+## Najprej določite pomen zapisa, nato polja
+
+Dopolnite poved:
 
 > Vsaka vrstica predstavlja natanko en/eno ________.
 
-Če je možnih več odgovorov, podatke razdelite v povezane tabele.
+Če je možnih več odgovorov, tabela meša ravni. Ena vrstica ne more varno
+predstavljati tako časopisne številke kot vseh oseb na slikah. Ponavljanje
+metapodatkov o številki v vsaki vrstici za osebo je pri majhnem izvozu lahko
+sprejemljivo, vendar so v osnovnem modelu to še vedno ločene entitete.
 
-## Identifikatorji pred imeni
+Za ilustrirano periodiko bi lahko izdelali skromen relacijski model:
 
-Imena so oznake, ne stabilni identifikatorji. Ljudje spreminjajo imena; kraji imajo zgodovinske in večjezične različice; naslovi se ponavljajo; zapis je nedosleden. Vsaki entiteti dodelite stabilen notranji identifikator, na primer `oseba_0042` ali `kraj_0187`, imena pa shranite kot lastnosti ali različice.
+- `stevilke(stevilka_id, naslov_iz_vira, datum_stevilke, vir_id, pravni_status)`;
+- `strani(stran_id, stevilka_id, oznaka_strani, datoteka_id)`;
+- `enote(enota_id, stran_id, vrsta_enote, napis_iz_vira, obmocje)`;
+- `osebe(oseba_id, prednostna_oznaka, normativni_uri, stanje_povezave)`;
+- `osebe_enot(enota_id, oseba_id, vloga, gotovost)`;
+- `odlocitve(odlocitev_id, zapis_id, polje, stara_vrednost, nova_vrednost, dokaz)`.
 
-Identifikator naj bo:
+Obe zasnovi sta utemeljeni, vendar nista enakovredni:
 
-- enkraten znotraj projekta;
-- obstojen med različicami;
-- po možnosti brez občutljivega pomena;
-- nikoli tiho ponovno uporabljen;
-- povezan z zunanjimi identifikatorji, kot so Wikidata, VIAF ali GeoNames, kadar je to primerno, vendar brez domneve, da je zunanje razreševanje vedno pravilno.
+| Shema | Kaj omogoča | Kaj zabriše ali podraži |
+| --- | --- | --- |
+| Ravna tabela enot | Hitro primerjavo z virom in nizko vstopno oviro pri učenju s CSV | Ponavlja podatke o številki; oteži skupinske portrete, različice in konkurenčne identifikacije |
+| Zgornje relacijske tabele | Poizvedbe po osebah, enotah in različicah ter zapisano negotovost | Zahteva povezovanje tabel in oteži neposredno branje po straneh vira |
 
-## Manjka, ni znano ali ni relevantno
+## Identifikatorji pred oznakami
 
-Prazna celica je nevarno dvoumna. Lahko pomeni:
+Imena in naslovi so oznake, ne zanesljivi identifikatorji. Spreminjajo se,
+ponavljajo, uporabljajo različne pisave in vsebujejo zgodovinske zapisne
+različice. Vsakemu zapisu dodelite stabilen, vsebinsko nevtralen projektni
+identifikator, denimo `AF-P2-003`. Nikoli ga ne uporabite za drug predmet.
+Identifikatorje ponudnika in URI-je zunanjih normativnih zbirk hranite v
+ločenih poljih.
 
-- vrednost ni znana;
-- vrednost ni bila zabeležena;
-- polje ni relevantno;
-- vir ni čitljiv;
-- vrednost je namenoma prikrita;
-- delo še ni končano.
+Dober identifikator ne trdi, da dva zapisa označujeta isto osebo. Zagotavlja
+samo stabilnost vaših zapisov. Identiteta je dokazna odločitev, ki jo izrazite
+z razmerjem `same_as`, `possible_match`, `duplicate_of`, `reprint_of` ali
+`version_of` ter ji dodate stanje in utemeljitev.
 
-Določite izrecno pravilo. V analitični tabeli je lahko primerna strojno berljiva manjkajoča vrednost, vendar ohranite ločen status ali opombo, kadar so različne vrste negotovosti zgodovinsko pomembne.
+Vsak vsebinski zapis potrebuje tudi **natančno mesto v viru**: stran, stolpec,
+slikovno območje, folij, časovno oznako ali arhivsko signaturo, na podlagi
+katere lahko drugi bralec preveri trditev. Splošna povezava na domačo stran
+zbirke ni zadosten lokator.
 
-Neznanih vrednosti ne nadomeščajte z ničlo, razen če je nič dejansko opažena vrednost. »Ni evidentiranih pisem« ni isto kot »napisanih je bilo nič pisem«.
+## Plasti ohranite, ne prepisujte
 
-## Nadzorovani slovarji in odprto besedilo
+Utemeljeno se lahko razlikujejo vsaj štiri vrednosti:
 
-Nadzorovani slovarji omogočajo primerjavo: `roman`, `poezija`, `esej` namesto številnih zapisnih različic. Fiksne kategorije pa lahko izbrišejo dvoumnost in vsilijo sodobne razlike.
+1. **oblika v viru** — vidna v zgodovinskem predmetu;
+2. **vrednost ponudnika** — kataloški metapodatek ali strojni OCR;
+3. **raziskovalčev prepis ali normalizacija** — dokumentiran popravek;
+4. **analitična kategorija** — vrednost, ustvarjena za določeno primerjavo.
 
-Praktična rešitev ohrani:
+Hranite jih v različnih poljih ali tabelah. Če v napisu piše »Mr. Meker«, se
+lahko besedilo OCR z njim ujema, iskanje po normativnih zbirkah pa predlaga
+»Ezra Meeker«. Pregledano stanje je lahko še vedno `unresolved`. Če natisnjeno
+obliko nadomestite s kandidatom, je vir videti gotovejši, kot je v resnici,
+in poznejše preverjanje ni več mogoče.
 
-- nadzorovano polje za analizo;
-- izvirno poimenovanje iz vira;
-- opombo ali stopnjo zaupanja;
-- dokument slovarja z definicijami kategorij in zgodovino sprememb.
+Tudi kadar vrednosti ločite po poljih, ohranite štiri datotečne ali
+podatkovne plasti: nespremenljivo **izvorno oziroma surovo plast**;
+**vmesno plast** s kandidati in ponovljivimi pretvorbami; **obdelano oziroma
+modelirano plast** s sprejeto razlago za določen namen; ter **odločitveno
+plast**, v kateri beležite posege, zavrnitve in nerešene primere. Vmesna plast
+ni dokaz že zato, ker jo je izdelalo orodje, obdelana plast pa ne nadomesti
+vira.
 
-Kategorij naj bo dovolj malo za dosledno uporabo in dovolj veliko za raziskovalno vprašanje. Kategorija »drugo« je pogosto potrebna, vendar jo je treba pregledovati, ne pa uporabljati kot koš za nelagodje.
+Dnevnik popravkov naj vsebuje vsaj identifikator odločitve, zapis in polje,
+prejšnjo in novo vrednost, dejanje, dokaz, odgovorno osebo ali postopek, datum
+ter različico pravila. Sistematične težave odpravite s ponovljivim
+preoblikovanjem, odločitve o posameznih virih pa vpišite v dnevnik. Nikoli ne
+»čistite« edinega izvoda.
 
-## Izvor in preoblikovanje
+## Provenienca je veriga odgovornosti
 
-Vsako izpeljano vrednost mora biti mogoče izslediti. Zabeležite vsaj:
+**Provenienca** zapisuje, od kod je predstavitev prišla in kako se je
+spreminjala. Skupina standardov W3C PROV razlikuje entitete, dejavnosti in
+akterje, vendar majhnemu projektu za koristno uporabo te razlike ni treba
+vzpostaviti celotnega sistema RDF.[^prov] Razumljiv dnevnik lahko vsebuje:
 
-- identifikator in lokacijo vira;
-- datum pridobitve;
-- uporabljeno metodo ali skripto;
-- različico programske opreme ali modela, kadar je pomembna;
-- osebo ali proces, odgovoren za spremembo;
-- ročne popravke;
-- razmerje med surovimi, očiščenimi in analiziranimi datotekami.
+| Nastala entiteta | Dejavnost | Uporabljena entiteta | Odgovorni akter | Čas/različica |
+| --- | --- | --- | --- | --- |
+| shranjeni PDF | prenos brez spremembe bajtov | spletni naslov datoteke ponudnika | skrbnik učnega paketa | datum dostopa in kontrolna vsota |
+| izvorni zapis | ročni izbor in prepis | stran in območje v PDF-ju | raziskovalec | šifrant v1 |
+| očiščeni zapis | dokumentiran popravek | surovi zapis in odločitev | raziskovalec ali program | datum/različica izvedbe |
+| grafikon | združevanje | očiščena objava podatkov | poimenovani postopek | programska oprema in nastavitve |
 
-Pogosta struktura map loči `data/raw`, `data/interim`, `data/processed` in `output`. Surovi podatki naj bodo po možnosti samo za branje. Popravki sodijo v dokumentirano preoblikovanje ali tabelo popravkov, ne v tiho prepisovanje.
+Kontrolne vsote dokazujejo enakost bajtov, ne pristnosti ali pravilnosti.
+Ujemajoči se zgoščeni vrednosti potrjujeta, da sta datoteki enaki. Ne
+potrjujeta, da je ponudnik predmet pravilno opisal ali da je vaš prepis zvest.
 
-## Kdaj preglednica ne zadošča več
+## Datum potrebuje obliko, vrednost in stopnjo gotovosti
 
-Preglednica je odlična za pregled in majhne ploščate zbirke. O relacijski podatkovni zbirki razmislite, kadar:
+Datumi v humanističnem gradivu so pogosto relativni, približni, sporni ali
+nepopolni. Ohranite vsaj:
 
-- ima ena oseba več del in eno delo več oseb;
-- zapisi potrebujejo stabilna razmerja med tabelami;
-- ponavljajoče se besedilne vrednosti povzročajo nedoslednost;
-- podatke ureja ali poizveduje več ljudi;
-- so pomembna pravila celovitosti;
-- projekt potrebuje ponovno uporabne poizvedbe.
+- zapis v viru, na primer `dne 1. t. m.`;
+- normalizirano vrednost, na primer `1925-02-01`;
+- stanje, kot je `exact`, `derived_from_relative_date`, `approximate`,
+  `uncertain` ali `unknown`;
+- pravilo in kontekstualni dokaz, uporabljena pri normalizaciji.
 
-Odločitev ni stvar prestiža. Podatkovna zbirka je koristna, kadar so razmerja in omejitve del dokazov.
+Specifikacija Extended Date/Time Format (EDTF) Kongresne knjižnice ponuja
+zapis za negotove (`1984?`), približne (`2004-06~`), nedoločene datume in
+intervale.[^edtf] Uporabite jo samo, če programska oprema podpira navedeno
+raven specifikacije in lahko bralci obnovijo izvirno obliko. Pri majhnem
+projektu je lahko preprost interval z ločenim poljem gotovosti bolj
+povezljiv. Zapisa »verjetno 1925« nikoli ne spreminjajte v natančni datum
+`1925-01-01` zgolj zato, ker preglednica zahteva dan.
 
-## Razdelan primer: podatki o korespondenci
+## Imena in povezovanje z normativnimi zbirkami
 
-Projekt korespondence bi lahko uporabljal štiri tabele:
+Normativne zbirke lahko povežejo zapisne različice in ponudijo trajne
+identifikatorje, vendar je vsaka povezava raziskovalna trditev. Ohranite:
 
-- `osebe(oseba_id, prednostno_ime, leto_rojstva, ...)`
-- `pisma(pismo_id, datum_besedilo, datum_od, datum_do, vir_id, ...)`
-- `udelezenci_pisem(pismo_id, oseba_id, vloga)`
-- `kraji(kraj_id, prednostno_ime, sirina, dolzina, ...)`
+- `ime_iz_vira`;
+- normalizirano prikazno ime, če ga potrebujete;
+- ime normativne zbirke in URI kandidata;
+- stanje povezave (`accepted`, `possible`, `rejected`, `unresolved`);
+- dokaz in ime pregledovalca;
+- datum dostopa, saj se vmesniki in zapisi spreminjajo.
 
-Tabela udeležencev omogoča več pošiljateljev, prejemnikov, oseb v vednost ali negotovih vlog brez stolpcev `prejemnik_2` in `prejemnik_3`. Datum je predstavljen kot izvirni niz in kot računski interval, zato lahko ohranimo negotovost, na primer »pomlad 1898«.
+Ne sprejmite prvega iskalnega zadetka samo zato, ker se ime ujema. Preverite
+datume, vloge, kraje, povezane osebe in kontekst vira. Zgodovinski časopis je
+lahko ime zapisal narobe; dve osebi v istem času sta ga lahko delili;
+normativni zapis je lahko nepopoln. Gettyjevi slovarji na primer ponujajo
+trajne identifikatorje in zapisne različice, vendar sami sebe opisujejo kot
+spreminjajoč se in področno omejen vir, ne kot univerzalni seznam oseb in
+krajev.[^getty]
+
+Povezovanje razumite kot **dodajanje povezave z dokazom**, ne kot
+nadomeščanje lokalnega zapisa. Če noben kandidat ni dovolj dobro podprt, je
+`unresolved` veljaven rezultat.
+
+## Manjkajoče vrednosti imajo različne pomene
+
+Prazna celica lahko pomeni: ni znano, ni zapisano, ni relevantno, ni čitljivo,
+je zadržano, še ni pregledano ali se je izgubilo med obdelavo. Ta stanja imajo
+različne zgodovinske in etične posledice. Dovoljene oznake manjkajočih
+vrednosti določite v podatkovnem slovarju in po potrebi dodajte ločeno opombo.
+
+Neznanih vrednosti ne nadomeščajte z ničlo. »Nismo našli ohranjenega zapisa«
+ni isto kot »dogodkov je bilo nič«. Zadržane vrednosti ne objavite kot
+`unknown`, če s tem izbrišete odločitev skupnosti ali pravilo varovanja
+zasebnosti. Na primerni ravni zapišite vrsto omejitve, ne da bi razkrili
+varovano vsebino.
+
+## Dvojniki, ponatisi in različice so razmerja
+
+Povsem enake datoteke lahko odkrijete s kontrolnimi vsotami, toda identiteta
+dokumenta ni zgolj enakost bajtov. Ponatisnjen članek, popravljena izdaja,
+izvoz OCR in nov posnetek iste strani imajo lahko skupno vsebino, vendar v
+raziskavi opravljajo različne naloge.
+
+Namesto enega preobremenjenega polja `duplicate` uporabite razmerja z
+določenim pomenom:
+
+- `duplicate_of`: isti zapis je bil vnesen dvakrat;
+- `copy_of`: drug nosilec v bistvenem istega predmeta;
+- `reprint_of`: ponovna objava v novi številki ali publikaciji;
+- `version_of`: povezano stanje s pomembno spremembo;
+- `derived_from`: OCR, normalizacija, izrez ali analiza, izdelani na podlagi
+  druge predstavitve.
+
+Nato določite analitično pravilo. Raziskava širjenja besedila lahko šteje
+ponatise; besedna analiza morda ohrani samo eno besedilno različico;
+raziskava OCR lahko primerja več posnetkov iste strani. Ne brišite razmerij,
+ki jih bodo drugi raziskovalci potrebovali za rekonstrukcijo vaše odločitve.
+
+## Standard je orodje, ne samodejno jamstvo kakovosti
+
+Standard ponudi skupne izraze ali strukture, ne more pa odločiti, kaj mora vaš
+projekt opazovati. Izhajajte iz zahtev, nato pa izberite majhen **aplikacijski
+profil**: polja, obveznosti, slovarje in lokalna pravila, ki jih boste dejansko
+uporabljali.
+
+- [DCMI Metadata Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
+  ponujajo splošne medpodročne lastnosti in trajne URI-je izrazov.
+- [TEI P5](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/) predstavlja
+  zgradbo besedil in uredniške alternative; element `<choice>` lahko združi
+  izvirno in popravljeno obliko, ne da bi eno izbrisal.[^tei]
+- [CIDOC CRM](https://cidoc-crm.org/get-last-official-release) ponuja
+  konceptualni model za kulturnodediščinske entitete in razmerja, osredinjena
+  na dogodke. Zadnja uradna različica, navedena 2. septembra 2026, je bila
+  7.1.3; novejše različice na seznamu so bile osnutki.[^cidoc]
+
+Spletne strani vmesnikov in specifikacij so spremenljive, zato zapišite datum
+dostopa in ob zahtevi po natančni skladnosti določite različico. Majhna
+lokalna shema z jasnimi preslikavami je lahko boljša od trditve o popolni
+skladnosti z obsežnim standardom, ki ga uporabljate le površno.
+
+Ustreznost preizkusite s konkretnimi vprašanji. Ali profil ohrani zapis iz
+vira in normalizirano vrednost? Ali loči negotovo identiteto od potrjene? Ali
+lahko zapiše pravice za vir in za vaše anotacije? Ali izvoz in ponovni uvoz
+ohranita jezik, ločevalna znamenja, identifikatorje in razmerja?
+
+## Preverjanje kakovosti majhnega raziskovalnega nabora
+
+Združite strukturno in interpretativno preverjanje:
+
+- identifikatorji so enkratni, neprazni in stabilni;
+- tuji ključi kažejo na obstoječe zapise;
+- obvezna mesta v viru in podatki o pravicah so navzoči;
+- nadzorovane vrednosti so vključene v ustrezno različico slovarja;
+- normalizirani datumi ustrezajo navedeni natančnosti in gotovosti;
+- izvirni nizi ostanejo nespremenjeni;
+- sprejete povezave z normativnimi zbirkami imajo zabeležen dokaz;
+- razmerja med dvojniki in različicami so določena ter ne tvorijo kroga;
+- število vrstic in ohranjeni identifikatorji se ujemajo z dnevnikom
+  odločitev;
+- stratificirani vzorec pravilno vodi nazaj k faksimilu;
+- izvozi ohranijo besedilo UTF-8 in začetne znake identifikatorjev.
+
+Samodejno preverjanje najde strukturna protislovja. Ne more odločiti, ali je
+slikovni napis politično nevtralen, povezava osebe zgodovinsko prepričljiva
+ali kategorija primerna. Združite ga s pregledom virov.
+
+## Razdelan primer: osem zapisov z motnjami
+
+Učni paket vsebuje osem enot iz dvostranske časopisne številke. Izvorna
+tabela hrani prepisane oznake, OCR ponudnika, natisnjene in normalizirane
+datume, stopnjo gotovosti, imena, kandidate iz normativnih zbirk, mesta v viru
+ter dokazne opombe. Ločena tabela motenj uvede štiri jasno označene učne
+težave. Izdelana surova tabela ima zato devet vrstic: tri spremenjena polja in
+eno podvojeno vrstico.
+
+Pregled opravite tako:
+
+1. Shranjeni PDF preverite pri ponudniku in s kontrolno vsoto SHA-256.
+2. Potrdite, da vseh osem izvornih identifikatorjev vodi do strani in območja.
+3. Vsako spremenjeno surovo polje primerjajte s faksimilom, ne samo s tabelo
+   pravilnih odgovorov.
+4. Velikost začetnice v slikovnem napisu popravite, kadar je podoba jasna.
+5. Izločite samo vrstico, ki je izrecno označena kot sintetični dvojnik;
+   izvorno enoto ohranite.
+6. Zavrnite tiho spremembo »Meker« v »Meeker« in pustite kandidata normativne
+   zbirke praznega, ker paket ne vsebuje neodvisnega dokaza.
+7. Izpeljane in približne datume ohranite z njihovimi stanji, namesto da bi jih
+   spremenili v neoznačene natančne datume.
+8. Preverite osem očiščenih identifikatorjev, štiri zapisane odločitve in
+   nespremenjene bajte izvorne datoteke.
+
+Očiščeni rezultat ne trdi, da je vseh osem zapisov popolnih. Trdi, da ima
+vsaka ohranjena vrednost določeno dokazno stanje in da jo je mogoče
+preveriti.
+
+## Vaja: izdelajte in preverite model zapisov
+
+Z učnim paketom ali petimi do desetimi zapisi s svojega področja pripravite:
+
+1. konceptualno skico entitet in razmerij;
+2. eno ali več tabel, v katerih ima vsaka vrstica en sam pomen;
+3. stabilne notranje identifikatorje in natančna mesta v viru;
+4. ločene izvorne, ponudnikove, normalizirane in analitične vrednosti, kadar
+   se razlikujejo;
+5. podatkovni slovar, ki za vsako polje določa vrsto, dovoljene vrednosti,
+   manjkajočnost in obveznost;
+6. en negotov datum, enega nerazrešenega kandidata iz normativne zbirke in eno
+   opredeljeno razmerje dvojnika ali različice;
+7. dnevnik popravkov in provenience;
+8. poročilo o kakovosti s številom vrstic, preverjanjem identifikatorjev in
+   dvema ročnima primerjavama z virom.
+
+**Preverjanje:** drug bralec naj brez dodatnih vprašanj rekonstruira eno
+normalizirano vrednost in pojasni eno nerazrešeno vrednost. **Pogosta
+napaka:** če je očiščena tabela gotovejša od vira, dnevnik odločitev pa ne
+pojasni, zakaj, pred analizo znova vzpostavite ločene ravni.
+
+## Refleksija
+
+- Katera polja opisujejo zgodovinski predmet in katera vaše srečanje z njim?
+- Katera kategorija prihaja iz vira, od ponudnika, iz standarda ali iz
+  raziskovalnega vprašanja?
+- Ali lahko povezava z zunanjo normativno zbirko v zgodovinsko dvoumen zapis
+  vnese sodobno ali področno omejeno identiteto?
+- Katere prazne vrednosti kažejo na arhivski molk in katere na nedokončano
+  delo?
+- Kaj bi izgubili, če bi vse ponatise ali različice združili v en »glavni«
+  zapis?
+
+## Povzetek
+
+Humanistični podatki so strukturirane predstavitve, izdelane za določen
+namen. Model opredeli entitete, lastnosti, razmerja in omejitve, preden jih
+datotečna oblika uresniči. Stabilni identifikatorji ohranijo kontinuiteto
+zapisov; natančna mesta v viru vrnejo trditve k dokaznemu gradivu. Izvorne,
+ponudnikove, normalizirane in analitične vrednosti morajo ostati ločljive.
+
+Datum zahteva zapis iz vira, normalizirano vrednost in stopnjo gotovosti. Ime
+zahteva z dokazom podprto povezovanje, ne samodejnega nadomeščanja.
+Manjkajoče vrednosti, dvojniki, ponatisi in različice nosijo pomen, zato jih
+modelirajte, namesto da bi jih izbrisali. Dnevniki provenience in popravkov
+določijo odgovornost za vsako preoblikovanje. Standard lahko izboljša
+izmenjavo, če ga uporabite v jasno opredeljenem in različico označenem
+aplikacijskem profilu, vendar skladnost ne nadomesti kritike virov. Dobri
+podatki niso dejstva brez trenja, temveč zapisi, katerih nastanek, negotovost
+in omejitve lahko vedno pregledate.
+
+## Nadaljnje branje in viri
+
+- Bowker, Geoffrey C., in Susan Leigh Star. [*Sorting Things Out:
+  Classification and Its
+  Consequences*](https://mitpress.mit.edu/9780262024617/sorting-things-out/).
+  MIT Press, 1999. Spletna stran založnika, dostop 2. septembra 2026.
+- CIDOC CRM Special Interest Group. [*Definition of the CIDOC Conceptual
+  Reference Model*, različica
+  7.1.3](https://cidoc-crm.org/get-last-official-release). Februar 2024.
+  Dostop 2. septembra 2026.
+- Dublin Core Metadata Initiative. »[DCMI Metadata
+  Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/).«
+  Priporočilo DCMI, objavljeno 20. januarja 2020. Dostop 2. septembra 2026.
+- Drucker, Johanna. »[Humanities Approaches to Graphical
+  Display](https://dhq.digitalhumanities.org/vol/5/1/000091/000091.html).«
+  *Digital Humanities Quarterly* 5, št. 1 (2011). Dostop 2. septembra 2026.
+- Library of Congress. »[Extended Date/Time Format (EDTF)
+  Specification](https://www.loc.gov/standards/datetime/).« 4. februar 2019.
+  Dostop 2. septembra 2026.
+- Moreau, Luc, in Paolo Missier, ur. »[PROV-DM: The PROV Data
+  Model](https://www.w3.org/TR/prov-dm/).« Priporočilo W3C, 30. april 2013.
+  Dostop 2. septembra 2026.
+- TEI Consortium. [*TEI P5: Guidelines for Electronic Text Encoding and
+  Interchange*](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/),
+  različica 4.11.0, 18. februar 2026. Dostop 2. septembra 2026.
+
+[^drucker]: Drucker, »Humanities Approaches to Graphical Display«, o podatkih
+    kot *capta* in interpretativnem značaju določanja parametrov.
+[^bowker-star]: Bowker in Star, *Sorting Things Out*, zlasti njuna analiza
+    klasifikacijskih sistemov kot infrastrukture s konkretnimi posledicami.
+[^prov]: W3C, »PROV-DM«. Formalni model tu ni obvezen; pomembna minimalna
+    zahteva je praktično razlikovanje med entiteto, dejavnostjo in odgovornim
+    akterjem.
+[^edtf]: Library of Congress, »EDTF Specification«. Specifikacija iz leta
+    2019 določa ravni skladnosti ter zapis za zmanjšano natančnost, negotovost,
+    približnost in intervale.
+[^getty]: Getty Research Institute, »[Obtain the Getty
+    Vocabularies](https://www.getty.edu/research/tools/vocabularies/obtain/).«
+    Stran dokumentira identifikatorje, pogoje odprtih podatkov in spreminjajoče
+    se načine dostopa. Dostop 2. septembra 2026.
+[^tei]: TEI Consortium, »[`<choice>`](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-choice.html)«,
+    P5, različica 4.11.0. Dostop 2. septembra 2026.
+[^cidoc]: CIDOC CRM Special Interest Group, »[Versions of the
+    CIDOC-CRM](https://cidoc-crm.org/versions-of-the-cidoc-crm).« Dostop 2.
+    septembra 2026.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
     - [Kako manjši podatkovni nabor uvozim in očistim v Excelu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel/)
-    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
+    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
+    - [Kako uskladim nasprotujoče si metapodatke in ohranim negotovost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty/)
     - [Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)
     - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*
     - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*
@@ -1423,141 +1994,263 @@ Tabela udeležencev omogoča več pošiljateljev, prejemnikov, oseb v vednost al
     - [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
-## Vaja
-
-Za majhno humanistično zbirko pripravite:
-
-1. podatkovni slovar z imenom polja, definicijo, tipom, dovoljenimi vrednostmi in pravilom za manjkajoče vrednosti;
-2. pet vzorčnih zapisov;
-3. opombo o izvoru, ki pojasni eno preoblikovanje;
-4. seznam entitet, ki potrebujejo stabilne identifikatorje.
-
-## Refleksija
-
-- Katere kategorije izvirajo iz zgodovinskega vira in katere iz vaše raziskovalne zasnove?
-- Bi drug raziskovalec lahko rekonstruiral izpeljano vrednost iz vaših zapisov?
-- Kaj prazna celica pomeni v posameznem polju?
-
-## Povzetek
-
-Podatkovna struktura je operacionalizirana interpretacija. Jasne enote opazovanja, stabilni identifikatorji, izrecna manjkajočnost, dokumentirani slovarji in izvor omogočajo analizo, ne da bi se pretvarjali, da so kulturni dokazi čistejši ali zanesljivejši, kot so. Podatkovno zbirko uporabimo, ko so pomembna razmerja in omejitve, ne zgolj zato, ker so podatki »resni«.
-
 ---
 
 ## Besedila, korpusi in OCR
+
+Zaradi iskalnega prepisa se lahko zdi, da je arhiv popoln. Toda prepis ni arhiv. Je ena od predstavitev, ki nastane iz izbranih predmetov, posnetkov strani, odločitev o postavitvi, sistema za razpoznavanje in uredniških pravil. Kaj lahko utemeljeno sklepate, če lahko vsaka od teh stopenj izpusti ali spremeni dokaz?
+
+V tem poglavju boste korpus obravnavali kot raziskovalni instrument, ne kot mapo z besedilnimi datotekami. Poglavje se navezuje na [načrtovanje raziskave](research-design.md), [podatke, metapodatke in modele](data-metadata-models.md) ter [kritične infrastrukture](critical-infrastructures.md). Razdelani primer uporablja odprto [učno gradivo Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction), zato lahko skupaj pregledate posnetek, ponudnikov prepis, referenčni prepis, metapodatkovne odločitve in rezultate preverjanja.
 
 ## Učni cilji
 
 Po tem poglavju boste znali:
 
-- razlikovati med sliko dokumenta, besedilom OCR, popravljenim besedilom, jezikoslovno anotacijo in metapodatki;
-- korpus zasnovati glede na vprašanje in ne glede na priročnost;
-- presoditi reprezentativnost, uravnoteženost in primerljivost;
-- izbrati normalizacijsko politiko, primerno zgodovinskemu ali nestandardnemu jeziku;
-- izmeriti kakovost OCR in pojasniti njen vpliv na nadaljnjo analizo.
+- razlikovati med OCR in HTR ter med sliko strani, postavitvijo, prepisom, normaliziranim besedilom, anotacijo in metapodatki;
+- napisati pravila za prepis zgodovinskega tiska ali rokopisa;
+- opredeliti ciljno populacijo, vzorčni okvir in utemeljen korpusni vzorec;
+- izračunati in razložiti stopnjo napak na znakih (CER) in besedah (WER) glede na referenčni prepis;
+- preveriti, ali napake razpoznavanja ogrožajo določeno iskanje, štetje ali interpretacijo;
+- ohraniti podatke o viru, pravicah, obdelavi in popravkih skozi ves besedilni postopek; ter
+- opisati razmerja med dvojniki, ponatisi in različicami, ne da bi izbrisali zgodovinsko pomembno širjenje besedil.
 
 ## Pred začetkom
 
-Odprite skenirano zgodovinsko stran in njen prepis OCR. Poiščite pet razlik. Katere napake bi preprečile iskanje? Katere bi spremenile frekvenco besede? Katere bi zavedle razpoznavalnik imenskih entitet? Vse napake nimajo enake raziskovalne cene.
+Ne potrebujete ukazne vrstice ali programiranja. Potrebujete pa raziskovalno vprašanje, dovoljenje za uporabo gradiva, manjši nabor posnetkov dokumentov in preglednico ali urejevalnik besedila. Za vrednotenje potrebujete tudi skrbno preverjen referenčni prepis vzorca.
 
-Digitalizacija, OCR in posredovanje korpusa so poleg programske opreme odvisni tudi od institucionalnih odločitev. Izbor, dostop in vzdrževanje presodite s poglavjem [Infrastrukture digitalne humanistike](critical-infrastructures.md), lokalni primer korakov med knjižničnim posnetkom in objavljenim korpusom pa ponuja poglavje [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md).
+Pripravili boste kartico korpusa, zapis o pravicah, pravila prepisovanja, povezane plasti, dnevnik vzorčenja, poročilo o kakovosti, dnevnik popravkov ter seznam znanih težav. Druga oseba mora ugotoviti, od kod izvira odlomek, skozi katere spremembe je šel in katere trditve dopuščajo preostale napake.
 
-## Digitalno besedilo ima več plasti
+## Začnite pri raziskovalni trditvi
 
-En dokument ima lahko več povezanih predstavitev:
+Recimo, da želite raziskati, kako je ilustrirani časopis iz leta 1925 predstavljal javne ustanove. Navodilo »prenesite ves razpoložljivi OCR« še ni raziskovalna metoda. Vprašajte se:
 
-1. **sliko** — sken ali fotografijo;
-2. **opis postavitve** — območja, stolpce, vrstice in marginalije;
-3. **diplomatični prepis** — natančen zapis vidnih znakov in strukture;
-4. **normalizirano besedilo** — poenoten zapis, ločila ali kodiranje;
-5. **jezikoslovno anotacijo** — pojavnice, leme, besedne vrste, entitete ali skladnjo;
-6. **metapodatke** — vir, datum, avtorja, žanr, pravice in zgodovino obdelave.
+- Kaj je ciljna populacija: en časopis v letu 1925, ilustrirani časopisi v regiji ali vse ohranjene periodične publikacije na enem portalu?
+- Kaj je enota vzorčenja: številka, stran, članek, napis pod sliko ali oglas?
+- Kaj je enota analize: beseda, imenovana oseba, par slike in napisa, članek ali številka?
+- Katere primerjave so pomembne: meseci, žanri, založniki, jeziki ali položaji na strani?
+- Kateri dokaz bi vašo interpretacijo ovrgel?
 
-Plasti se ne smejo tiho prepisovati. Slika ostane dokaz, kadar je OCR negotov. Diplomatično besedilo ohrani zgodovinsko obliko. Normalizirana različica lahko olajša iskanje, vendar je interpretacija in mora ostati povezana z izvirnikom.
+Tako boste prepoznali tudi vprašanje, na katero razpoložljiva zbirka ne more odgovoriti. Douglas Biber pri zasnovi korpusa pokaže, da se reprezentativnost začne z opredeljeno populacijo in teoretično pomembnimi sloji, ne z velikim številom besed.
 
-## Zasnova korpusa se začne s pravili vključevanja
+## Pred razpoznavanjem preverite vir in pravice
 
-Korpus je namensko oblikovana zbirka besedil, ne zgolj mapa z veliko datotekami. Njegove meje moramo utemeljiti.
+Za vsak izvorni predmet najprej ustvarite zapis. Vključite vsaj:
 
-Določite:
+- repozitorij in zbirko;
+- stalni spletni naslov ali kataložni identifikator;
+- naslov, ustvarjalca ali izdajatelja, datum in obseg, kot jih navaja ponudnik;
+- izjavo o pravicah ali licenco in osebo oziroma ustanovo, ki jo je določila;
+- datum dostopa in datum prenosa;
+- ime, format, velikost in kriptografsko zgoščeno vrednost datoteke;
+- podatek, ali gre za izvirno datoteko repozitorija, izpeljanko ali vaš zajem; ter
+- znane manjkajoče strani, omejitve dostopa ali občutljivo vsebino.
 
-- ciljno populacijo: katero širše množico besedil naj korpus predstavlja;
-- vzorčni okvir: katero gradivo je bilo dejansko na voljo za izbor;
-- merila vključevanja in izločanja;
-- pokritost časa, žanrov, regij, jezikov in avtorstva;
-- enoto vzorčenja in enoto analize;
-- znane vrzeli, podvajanje in omejitve pravic.
+Ustavite se, če ne morete ugotoviti izvora, pridobiti ali dokumentirati dovoljenja oziroma pojasniti možnosti ponovne objave. Načrt prilagodite, če je raziskovalna uporaba dovoljena, objava posnetkov pa ne. Nadaljujte šele, ko so pridobitev, obdelava in načrtovana objava skladne z zapisom o pravicah. Beseda »spletno« ne pomeni »v javni domeni«.
 
-Milijon spletnih strani je lahko manj uporaben od tisoč dobro dokumentiranih besedil, kadar raziskava primerja obdobja, žanre ali avtorje.
+Učno gradivo pregled ponazori z zapisom o pravicah, izvoru in zgoščenih vrednostih. PDF je nespremenjena kopija časopisa *Ilustrirani Slovenec* z dne 7. februarja 1925 iz Wikimedijine zbirke. Dodani so kataložni zapis Digitalne knjižnice Slovenije, status javne domene, datum dostopa in prstni odtis datoteke. Majhen vzorec je primeren za preskus postopka, ne za predstavljanje celotnega časopisa.
 
-## Reprezentativnost je trditev
+## OCR in HTR rešujeta sorodna, vendar različna problema
 
-Noben korpus ne predstavlja »jezika« ali »kulture« na splošno. Predstavlja določeno populacijo pod določenimi pogoji. Spletni korpusi premočno zastopajo javno, strojno dosegljivo in iskalnikom vidno gradivo. Časopisni arhivi odražajo ohranjenost, licence in prednostne naloge digitalizacije. Literarni korpusi pogosto premočno zastopajo kanonična dela v javni domeni.
+**Optično razpoznavanje znakov (OCR)** navadno pomeni samodejno razpoznavanje tiskanih znakov na posnetku strani. **Razpoznavanje rokopisa (HTR)** napoveduje zaporedja iz rokopisa, pogosto z modeli, ki so naučeni ali prilagojeni na slikah vrstic in prepisih. Meja ni vedno ostra: zgodovinski tisk, mešanica tiska in rokopisa, robni pripisi ter okrasni naslovi jo zabrišejo. Zato zapišite uporabljeni model in postopek, ne le oznake OCR ali HTR.
 
-Uravnoteženost preglejte z metapodatkovnimi tabelami in porazdelitvami. Preštejte dokumente in besede po letu, žanru, viru, avtorju in drugih pomembnih slojih. Veliko število besed ne nadomesti manjkajoče kategorije.
+Če gradivo vsebuje več pisav oziroma rokopisnih rok, boste morda potrebovali ločene modele ali sloje vrednotenja. Ocena zaupanja je rezultat modela po njegovih predpostavkah, ne izmerjena stopnja napak; pred uporabo za filtriranje jo umerite s preverjenim besedilom.
 
-## OCR kot merjenje
+Razpoznavanje je samo ena stopnja. Segmentacija določi območja, stolpce, vrstni red branja in vrstice; prepisovanje napove znake ali besede; popravljanje spremeni napoved; izvoz pa lahko izgubi podatke o postavitvi. Navidez smiselno golo besedilo ima zato lahko pravilne besede v napačnem vrstnem redu ali pa izpusti napis pod sliko.
 
-Optično razpoznavanje znakov napoveduje besedilo iz slike. Ni nevtralen prepis. Kakovost je odvisna od tiska, pisave, jezikovnega modela, ločljivosti posnetka, postavitve, deljenja besed, poškodb strani in zgodovinskega zapisa.
+Uporabniški vmesniki, katalogi modelov in izvozni meniji se spreminjajo. Zabeležite storitev, različico ali datum dostopa, identifikator modela, nastavitve in izvozni format. Ohranite vhod ter preneseni rezultat. Če gostovana storitev nima stabilne različice, to izrecno navedite.
 
-Pogosti meri sta:
+## Ohranite povezave med plastmi dokumenta
 
-- **stopnja napak na znakih (CER):** zamenjave, vrivanja in izpusti glede na referenčne znake;
-- **stopnja napak na besedah (WER):** enaka logika na ravni besed.
+Dobro zasnovan besedilni predmet ima več nezamenljivih plasti:
 
-Skupna ocena lahko prikrije neenakomerne težave. Lastna imena, diakritika, drobni tisk, tabele ali manjšinski jezikovni odlomki so lahko veliko slabši od navadnega proznega besedila. Ocenjujte stratificiran vzorec, ki vsebuje zahtevne strani in značilnosti, bistvene za raziskavo.
+1. **izvorni predmet** — fizični ali izvorno digitalni predmet, ki ga opisuje repozitorij;
+2. **sliko strani** — posnetek ali fotografijo s stalnim identifikatorjem strani;
+3. **postavitev** — območja, stolpce, vrstice, vrstni red branja in koordinate;
+4. **ponudnikov prepis** — besedilo arhiva ali storitve za razpoznavanje;
+5. **referenčni ali popravljeni prepis** — človeško preverjeno besedilo po določenih pravilih;
+6. **normalizirano besedilo** — za določen namen poenotene zapise, presledke ali znake;
+7. **anotacijo** — pojavnice, entitete, teme, uredniške opombe ali jezikoslovne oznake; in
+8. **metapodatke ter provenienco** — identiteto, pravice, razmerja in zgodovino obdelave.
 
-## Nadaljnja cena napak OCR
+Ene plasti nikoli ne prepišite z drugo. Popravek naj kaže na prejšnjo vrednost, mesto v viru, odgovorno osebo ali postopek, datum in pravilo. Element `<choice>` v smernicah TEI lahko na primer poveže izvorno in popravljeno obliko. ALTO XML lahko ohrani razpoznane nize in postavitev strani. Manifest IIIF Presentation lahko poveže urejene poglede strani, slike, pravice in anotacije. Teh standardov vam v razredni preglednici ni treba uporabiti, vendar je njihovo ločevanje predmeta, površine, besedila in opisa uporaben preskus zasnove.
 
-Napake OCR različno vplivajo na metode:
+## Pravila prepisovanja napišite pred referenčnim prepisom
 
-- iskanje po polnem besedilu izgubi priklic, ko je ciljna beseda napačno prepoznana;
-- frekvenčni seznami eno besedo razcepijo v več napačnih oblik;
-- lematizatorji in označevalniki odpovejo pri poškodovanih pojavnicah;
-- razpoznavanje imenskih entitet je posebno občutljivo na nenavadna imena;
-- tematski modeli lahko okoli ponavljajočih se artefaktov ustvarijo šumne teme;
-- navedki in znanstvene izdaje zahtevajo veliko večjo natančnost kot zbirni trendi.
+**Referenčni prepis**, ki ga pri vrednotenju razpoznavanja pogosto imenujejo *ground truth*, ni neposredna resnica brez posredovanja. Je človeško pripravljen referenčni zapis po izrecnih dogovorih. Dve osebi se lahko ne strinjata, ker ena beleži vidne znake in prelome vrstic, druga pa besede za branje. Pravila napišite vnaprej, preizkusite jih na zahtevnih primerih in jih popravite pred prepisom celotnega vzorca.
 
-Potrebna količina popravljanja je zato odvisna od trditve. Groba analiza trendov lahko prenese napake, ki jih znanstvena izdaja ne sme.
+Določite vsaj:
 
-## Normalizacija in zgodovinska variacija
+- **obseg:** samo tekoče besedilo ali tudi glave, napise pod slikami, oglase, številke strani in marginalije;
+- **vrstni red branja:** zaporedje stolpcev, okvirjev, opomb in prekinjenih člankov;
+- **prelome vrstic in deljenje besed:** ali ohranite prelome; ali beseda, deljena na koncu vrstice, ostane deljena, se združi ali se zapišeta obe obliki;
+- **znake in ligature:** ali vidne ligature in zgodovinske znake zapišete dobesedno, razvežete ali povežete izvorno in normalizirano obliko;
+- **pravopis in ločila:** ali ohranite zgodovinski zapis, velike začetnice, okrajšave in ločila;
+- **Unicode:** katere sestavljene znake, narekovaje, pomišljaje, presledke in nadomestne znake dovolite;
+- **nečitljivo ali manjkajoče besedilo:** kako označite neberljive, poškodovane ali odrezane odlomke;
+- **popravke:** kako zapišete tiskarske napake, ročne popravke in uredniške posege; ter
+- **postavitev:** ali odstavke, naslove, tabele in napise predstavite v golem besedilu, označevalnem jeziku ali ločeni datoteki.
 
-Normalizacija izboljša primerljivost, vendar lahko izbriše dokaze. Izvirno in normalizirano obliko hranite ločeno. Dokumentirajte pravila za:
+Te odločitve vplivajo na CER in WER. Če referenčni prepis združi besedo, deljeno na koncu vrstice, OCR pa ohrani vezaj in prelom, rezultat meri tudi razliko med praviloma. Normalizirajte samo značilnosti, ki za preskus niso pomembne, enako pravilo uporabite na obeh besedilih in ga objavite.
 
-- Unicode in kodiranje znakov;
-- deljenje besed ob koncu vrstice;
-- zgodovinske znake in diakritiko;
-- zapisne različice;
-- ločila in narekovaje;
-- ponavljajoče se glave, noge in številke strani;
-- jezikovno mešanje in preklapljanje kodov.
+## Korpus je zasnovan vzorec
 
-Samodejna normalizacija naj bo povratna ali vsaj pregledna. Seznam popravkov z izvorno obliko, zamenjavo, kontekstom in razlogom je boljši od nedokumentiranega iskanja in zamenjave.
+**Ciljna populacija** je širša množica, o kateri želite nekaj trditi. **Vzorčni okvir** je seznam ali mehanizem, iz katerega lahko dejansko izbirate. Med njima so ohranjenost, katalogizacija, digitalizacija, licence, razvrščanje rezultatov in omejitve prenosa. Vsako vrzel opišite.
 
-## Odstranjevanje dvojnikov in identiteta dokumenta
+Razlikujte tri povezane lastnosti:
 
-Digitalne zbirke pogosto vsebujejo dvojnike: zrcaljene spletne strani, agencijske novice, popravljene izdaje, več izvozov OCR istega skena ali dokumente, navedene znotraj drugih dokumentov. Dvojniki lahko prevladajo nad frekvencami in lažno povečajo gotovost.
+- **pokritost** pove, ali so pomembne kategorije in obdobja prisotni;
+- **uravnoteženost** opisuje njihova razmerja v korpusu;
+- **primerljivost** pove, ali so skupine nastale in bile obdelane dovolj podobno za načrtovano primerjavo.
 
-Dodelite identifikatorje dokumentov, za popolnoma enake datoteke izračunajte zgoščene vrednosti, za skorajšnje dvojnike pa uporabite mere podobnosti. Ne brišite na slepo: ponavljanje in razširjanje sta lahko zgodovinsko pomembna. Označite razmerja, kot so `dvojnik`, `ponatis` ali `razlicica`, in določite raven, ki jo potrebuje analiza.
+Uravnotežen korpus ni samodejno reprezentativen: enako število enot po desetletjih se lahko razlikuje od zgodovinske populacije. Primerljivost odpove, če ima eno desetletje ponudnikov OCR, drugo pa na novo popravljeni HTR.
 
-## Razdelan primer: zgodovinski časopisni korpus
+Pripravite vzorčno tabelo z eno vrstico na kandidatni predmet ter polji za sloj, ustreznost, izbor, pravice, kakovost posnetka, način razpoznavanja in razlog za izločitev. Dokumente in besede preštejte po pomembnih slojih. Naključni izbor znotraj vnaprej določenih slojev lahko omeji pristranskost priročnosti. Za redke formate ali analizo napak boste morda potrebovali namenski izbor; tako ga tudi poimenujte.
 
-Utemeljen postopek bi lahko bil:
+## Vzorec za vrednotenje mora razkriti napake
 
-1. glede na vprašanje izberemo časopisne naslove in leta;
-2. zabeležimo metapodatke o številkah in člankih;
-3. ločeno ohranimo slike strani in OCR;
-4. čez naslove, leta in tipe postavitev vzorčimo strani za oceno OCR;
-5. popravimo sistematične napake z velikim vplivom;
-6. razdelimo članke in ohranimo povezave do koordinat na strani;
-7. dokumentiramo manjkajoče številke in spremembe pogostosti izhajanja;
-8. pred analizo primerjamo porazdelitve besed in dokumentov;
-9. vodimo register napak in navedemo uporabljeno izdajo korpusa.
+Ne vrednotite samo najčistejše strani. V vzorec vključite lastnosti, ki lahko vplivajo na trditev: leto, naslov, tisk ali roko, kakovost posnetka, število stolpcev, jezik, žanr, napise, tabele, poškodbe in osebna imena. Del vzorca izberite naključno ali sistematično, da celotne ocene ne določijo samo nepozabne napake. Namenski nabor posebej zahtevnih primerov poročajte ločeno.
+
+En preverjeni odlomek zadošča za učenje postopka. Pri raziskavi zabeležite velikost vzorca, izbor, sloje, prepisovalce, način preverjanja, reševanje nesoglasij in različico pravil. Ocena, ki izključi oglase ali rokopis, o teh delih ne pove ničesar.
+
+## Razdelani primer: arhivsko trenje
+
+### Kje prvi postopek odpove
+
+Učno gradivo se začne z dvostranskim ilustriranim časopisom in ponudnikovim OCR. Če izvoz obravnavate kot članek, potiho sprejmete nestabilni vrstni red stolpcev, izpuščene napise in poškodovana imena. Če vsak napis obravnavate kot članek, zamešate dokumentarno in analitično enoto. Vzorec je premajhen za sklep o celotnem časopisu.
+
+### Ročni poseg
+
+Referenčni prepis sledi določenemu vrstnemu redu, ohrani zgodovinski zapis in ločila ter združi prelome, ki so samo posledica postavitve. Ponudnikov izvoz ostane nespremenjen v `raw/`, preverjeni odlomek pa je ločen predmet v `cleaned/`. Človek primerja sliko in besedilo, razvrsti napake, preveri sporna imena ter izračuna CER in WER po enem pravilu normalizacije.
+
+### Kaj ostane negotovo
+
+Identiteta osebe »Mr. Meker« ni razrešena, datum ene fotografije je samo približen, neprepisana območja pa niso ovrednotena. Vaja ne ocenjuje razlik med številkami, postavitvami ali modeli.
+
+### Vpliv na nadaljnjo trditev
+
+Preverjeni odlomek ima CER 0,025381 in WER 0,096774, vendar poškodovano osebno ime še vedno spremeni natančno iskanje. Utemeljeno lahko trdite, da je pri tem odlomku treba preverjati imena. Ne smete pa sklepati o stopnji napak celotne publikacije ali odsotnosti v zgodovini zgolj na podlagi neuspešnega iskanja.
+
+## Izračunajte CER in WER
+
+Rezultat razpoznavanja poravnajte z referenčnim prepisom ter preštejte najmanjše število zamenjav \(S\), izpustov \(D\) in vrivanj \(I\). Če ima referenca \(N\) enot, velja:
+
+\[
+\mathrm{stopnja\ napak}=\frac{S+D+I}{N}
+\]
+
+Za **stopnjo napak na znakih (CER)** so enote znaki, za **stopnjo napak na besedah (WER)** pa vnaprej določene besedne pojavnice. Navedite, ali med znake štejete presledke, ločila in razliko med velikimi ter malimi črkami, kako poenotite Unicode in kako razdelite besedilo na besede. Zaradi vrivanj je lahko stopnja napak večja od 1. Rezultata ne preimenujte v »odstotek natančnosti«, ne da bi to razmerje natančno opredelili.
+
+Učno gradivo vsebuje 591 referenčnih znakov in 15 posegov, zato je CER \(15/591=0{,}025381\). Pri 93 besedah, ločenih s presledki, in 9 posegih je WER \(9/93=0{,}096774\). Ponovljivi vrednosti opisujeta en odlomek, ne številke, časopisa, portala ali modela.
+
+## Eno število razčlenite v profil napak
+
+CER in WER združita različne težave. Dodajte tabelo s položajem v viru, referenčno in razpoznano obliko, vrsto posega, kategorijo ter verjetno posledico. Koristne kategorije so:
+
+- zamenjava znakov, zlasti diakritike in podobnih zgodovinskih črk;
+- napačno združene ali razdeljene besede;
+- deljenje ob koncu vrstice;
+- izpuščena vrstica, območje, stolpec ali napis;
+- ponovljeno besedilo ali napačen vrstni red branja;
+- razlika v ločilu ali veliki začetnici;
+- napaka v osebnem imenu, datumu ali številu; ter
+- razlika v uredniškem pravilu, ne napaka razpoznavanja.
+
+Kadar vzorec to dopušča, poročajte rezultate po pomembnih slojih. Nizek skupni CER se lahko pojavi hkrati s popolnim izpustom napisov ali s slabim priklicem imen. Zgodovinski zapis pa ni napaka OCR, če je tako zapisano na sliki.
+
+## Preverite raziskovalno nalogo, ne splošnega praga
+
+Splošni prag za »dovolj dober« CER ne obstaja. Sprejemljiva napaka je odvisna od naloge in porazdelitve napak. Iskanje po celotnem besedilu izgubi priklic, če so ciljni nizi poškodovani. Frekvenčni seznam eno besedo razdrobi v različice. Razpoznavanje imen je občutljivo na redka imena. Tematske in razvrščevalne metode lahko uredijo ponavljajoči se šum. Točno navajanje, kolacioniranje in znanstveno izdajanje zahtevajo neposredno preverjanje slike.
+
+Preverite samo načrtovano nalogo:
+
+1. Zapišite trditev in besedilne lastnosti, od katerih je odvisna.
+2. Manjšo analizo izvedite na ponudnikovem in preverjenem besedilu.
+3. Primerjajte najdene enote, števila, vrstni red ali razvrstitve.
+4. Po slojih preglejte lažno negativne in lažno pozitivne rezultate.
+5. Odločite se, ali boste besedilo popravili, zamenjali metodo, zožili trditev ali se ustavili.
+
+Raziskavi Traub, van Ossenbruggen in Hardman ter Hill in Hengchen pokažeta, da je vpliv napak OCR odvisen od raziskovalne naloge. Zato poročilo združite z osnovnimi metrikami, kategorijami napak in preskusom nadaljnje analize.
+
+## Dvojnike, ponatise in različice ohranite kot razmerja
+
+Ista intelektualna vsebina se lahko pojavi kot popolnoma enaka datoteka, drugi posnetek, agencijsko besedilo, spremenjeni ponatis, nova izdaja ali nov izvoz OCR iste strani. To niso enake vrste dvojnikov.
+
+Uporabljajte stabilne identifikatorje. Zgoščene vrednosti odkrijejo bitno enake datoteke, ne pa intelektualne istovetnosti. Preglejte metapodatke in besedilo ter zabeležite razmerja, kot so `duplicate_of`, `reprint_of` in `version_of`. Določite, ali analiza šteje primerke, članke ali dela. Ponavljanja ne odstranjujte, če raziskujete širjenje.
+
+Če mora več pojavitev zastopati en zapis, ohranite tabelo razmerij in izrecno pravilo izbire, nato preverite identifikatorje in število skupin. Podobnost je podatek za presojo, ne zgodovinska razlaga.
+
+## Postopek zasnujte kot sled dokazov
+
+Uporabite naslednje mape ali enakovredne plasti shranjevanja:
+
+```text
+source/          datoteka repozitorija in izvorni metapodatki
+raw/             nespremenjeni ponudnikov izvoz OCR ali HTR
+cleaned/         preverjene ali normalizirane izpeljanke
+output/          metrike, korpusne tabele in analitični rezultati
+validation/      pričakovane vrednosti, zgoščene vrednosti in poročila
+known-problems/  nerešene napake in omejitve obsega
+```
+
+Za vsako spremembo zapišite vhod, izhod, postopek, različico ali datum dostopa, parametre, izvajalca, datum in rezultat. Manifest naj poveže identifikatorje, poti, zgoščene vrednosti, medijske tipe in vloge plasti. Po popravkih preverite obstoj datotek, enoličnost identifikatorjev, povezave do strani, pričakovana števila, nespremenjenost surove plasti, kodiranje in ponovni izračun metrik.
+
+Preverjanje lahko avtomatizirate, vendar je to izbirna razširitev. Enako sled lahko vzpostavite s preglednico in orodjem operacijskega sistema za zgoščene vrednosti. Za uspešno opravljeno poglavje morate prikazati sled dokazov, ne uporabiti določene platforme.
+
+## Vaja: oblikujte eno utemeljeno trditev
+
+Odprite [učno gradivo Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+
+1. Preberite zapis o pravicah in navedbo vira. Pojasnite, ali smete priloženi PDF razširjati naprej.
+2. Pred branjem prepisov preglejte obe strani. Poiščite dve postavitveni lastnosti, ki lahko vplivata na vrstni red branja.
+3. Primerjajte `raw/provider-ocr.txt` in `cleaned/gold-transcription.txt`. Razvrstite vsaj pet razlik.
+4. Preberite `source/transcription-note.md`. Presodite, ali je vsaka razlika napaka razpoznavanja, razlika v pravilu ali nerešeno branje.
+5. Potrdite navedeno število znakov in besed ter pojasnite razliko med stopnjama.
+6. Izberite eno nalogo — iskanje imena, štetje oblike ali navajanje povedi — in jo preizkusite na obeh prepisih.
+7. Napišite trditev, ki velja samo za ta vzorec, nato pa dodajte poved o tem, česa ne morete posplošiti.
+
+Vajo uspešno opravite, če lahko druga oseba vsako število in navedek poveže z datoteko in stranjo, po vaših pravilih ponovi razvrščanje ter razume, zakaj sklep ni širši od vzorca.
+
+## Napake, ustavitev in popravki
+
+Ustavite se, kadar pravice niso skladne z načrtovanim rezultatom, izvor ni ugotovljen, manjkajoče strani onemogočijo primerjavo ali referenčnega prepisa ni mogoče preveriti. Načrt popravite, če manjkajo pomembni sloji, identifikatorji niso stabilni, so se pravila med delom spremenila, je bila postavitev napačno izravnana ali se rezultat po popravku bistveno spremeni. Z dokumentirano omejitvijo nadaljujte le, kadar ste napako izmerili, omejili njen možni vpliv in ohranili utemeljenost trditve.
+
+Surove datoteke ne prepišite. Neuspeli rezultat ohranite, popravke zabeležite in ustvarite novo izpeljanko. Ponovitev po spremembi modela ali vmesnika zapišite kot novo različico.
+
+## Etične in licenčne omejitve
+
+Razpoznavanje lahko razkrije imena ali občutljiva dejstva, ki jih je bilo na slikah težko iskati. Javna domena ne odpravi zasebnosti, avtoritete skupnosti ali škode zaradi novega konteksta. Upoštevajte omejitve repozitorija in veljavno pravo, zmanjšajte količino nepotrebnih osebnih podatkov ter dokumentirajte odločitve o dostopu.
+
+Skeniranje, katalogizacijo, prepisovanje, popravljanje in znanje skupnosti priznajte kot delo. Ponudnikovega OCR ne predstavljajte kot svoj prepis. Pri študentskem ali prostovoljskem delu določite usposabljanje, pregled, priznanje prispevka in reševanje nesoglasij.
+
+## Refleksija
+
+- Katera besedila manjkajo, še preden se razpoznavanje začne?
+- Katero pravilo prepisovanja najbolj spremeni vašo načrtovano meritev?
+- Ali vzorec kakovosti predstavlja običajno gradivo, zahtevno gradivo ali oboje?
+- Bi isti profil napak dopuščal iskanje, ne pa tudi točnega navajanja?
+- Kdaj je ponatis šum in kdaj dokaz o širjenju besedila?
+
+## Povzetek
+
+Korpus je utemeljeno razmerje med vprašanjem, populacijo, razpoložljivim vzorčnim okvirom in povezanimi predstavitvami. OCR in HTR ustvarjata uporabne napovedi, ne prosojnega besedila. Ohranite sliko, postavitev, ponudnikov, popravljeni, normalizirani in anotirani prepis; pravila določite pred vrednotenjem; CER in WER poročajte skupaj s pravili ter sloji; nato preverite načrtovano raziskovalno nalogo. Pravice, provenienca in znane napake so sestavni del postopka. Več besedila ne popravi nepremišljenega vzorca.
+
+## Nadaljnje branje in veljavni tehnični viri
+
+- Biber, Douglas. 1993. [»Representativeness in Corpus Design.«](https://doi.org/10.1093/llc/8.4.243) *Literary and Linguistic Computing* 8 (4): 243–257.
+- Hill, Mark J., in Simon Hengchen. 2019. [»Quantifying the Impact of Dirty OCR on Historical Text Analysis.«](https://doi.org/10.1093/llc/fqz024) *Digital Scholarship in the Humanities* 34 (4): 825–843.
+- Traub, Myriam C., Jacco van Ossenbruggen in Lynda Hardman. 2015. [»Impact Analysis of OCR Quality on Research Tasks in Digital Archives.«](https://doi.org/10.1007/978-3-319-24592-8_19) V *Research and Advanced Technology for Digital Libraries*, 252–263.
+- OCR-D. [Smernice za pripravo referenčnega prepisa](https://ocr-d.de/en/gt-guidelines/trans/) in [opredelitev CER pri zagotavljanju kakovosti](https://ocr-d.de/en/spec/ocrd_eval.html) (sprotno posodobljena tehnična dokumentacija; dostop 2. septembra 2026).
+- Text Encoding Initiative. [Smernice TEI P5, `<choice>`](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-choice.html), različica 4.11.0 z dne 18. februarja 2026 (dostop 2. septembra 2026).
+- Library of Congress. [ALTO: Technical Metadata for Layout and Text Objects](https://www.loc.gov/standards/alto/) (trenutna uradna shema 4.4; dostop 2. septembra 2026).
+- Konzorcij IIIF. [Presentation API 3.0](https://iiif.io/api/presentation/3.0/) (ob dostopu stabilna različica 3.0.0; dostop 2. septembra 2026). Hkrati je bil objavljen kandidat za izdajo 4.0, zato pri izvedbi zabeležite uporabljeno različico.
+
+Tehnične strani in vmesniki se spreminjajo. Zabeležite različice in datume dostopa.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
+    - [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)
     - [How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/bulk-download-pdfs-and-ocr-them/) *(angleška nadomestna stran)*
     - [How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/) *(angleška nadomestna stran)*
     - [How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/deduplicate-corpus-text-with-minhash/) *(angleška nadomestna stran)*
@@ -1569,20 +2262,6 @@ Utemeljen postopek bi lahko bil:
     - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*
     - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
-
-## Vaja
-
-Za zbirko, ki bi jo lahko dejansko zgradili, pripravite kartico korpusa. Vključite ciljno populacijo, vzorčni okvir, pravila vključevanja in izločanja, metapodatkovna polja, pričakovane napake OCR ali zajema, pravilo za dvojnike ter najmočnejšo primerjavo, ki jo korpus podpira.
-
-## Refleksija
-
-- Katera manjkajoča besedila so nevidna zato, ker nikoli niso bila digitalizirana?
-- Bi normalizacija odstranila značilnost, ki jo bo interpretacija morda potrebovala?
-- Katere napake OCR so najpomembnejše za načrtovano metodo?
-
-## Povzetek
-
-Besedilni korpus je dokumentiran raziskovalni instrument. Sestavljajo ga povezane plasti, izrecne meje, metapodatki in izmerjena preoblikovanja. OCR in normalizacija ustvarita uporabno besedilo, pa tudi novo negotovost. Kakovost korpusa ni število pojavnic, temveč ujemanje med izborom, predstavitvijo, profilom napak in raziskovalno trditvijo.
 
 ---
 
@@ -1697,6 +2376,7 @@ Anotacija zoži iskalni prostor. Ne nadomesti interpretativnega razlikovanja med
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
+    - [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)
     - [Kako namestim in preizkusim CLASSLA s Pythonom 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-and-test-classla/)
     - [Kako s CLASSLA anotiram majhno besedilo?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/annotate-a-small-text-with-classla/)
     - [Kako rezultate CLASSLA izvozim v CSV?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/export-classla-results-to-csv/)
@@ -2149,7 +2829,7 @@ Struktura podpira vprašanja o izmenjavi, mobilnosti in posredovanju, ne da bi v
     **Preizkusite postopek v praksi**
 
     - [Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)
-    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
+    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
 
     **Oglejte si študijo primera**
 
@@ -2823,6 +3503,8 @@ Preberite [Kaj je digitalna humanistika?](../chapters/what-is-digital-humanities
 
 Uporabite poglavja [Modeli, dokazno gradivo in interpretacija](../chapters/models-evidence-interpretation.md), [Infrastrukture digitalne humanistike](../chapters/critical-infrastructures.md) ter [Od vprašanja do metode](../chapters/research-design.md). Široko temo spremenite v omejeno raziskovalno vprašanje ter določite predmet, obseg, možno dokazno gradivo, začasni model, drugačno razlago in eno infrastrukturno omejitev.
 
+Z [učnim gradivom Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) na videz smiselno vprašanje preizkusite ob dejanskem vzorčnem okviru, pravicah, datumih in enotah zapisa. Trditev zožite ali preoblikujte, kadar je dvostranski vir ne more podpreti.
+
 **Izhod:** oris vprašanja in dokaznega gradiva, ki loči opis, dokaz, interpretacijo in priporočilo.
 
 ### 3. Znanstveno pisanje in strukturirani dokumenti
@@ -2855,7 +3537,7 @@ Za ocenjevanje zadostuje stabilni ZIP ali datirani posnetek. Če izberete neobve
 
 ### 7. Struktura in čiščenje podatkov v Excelu
 
-Pred urejanjem določite pomen vrstice in spremenljivke. Uporabite pojmovni postopek za [pretvorbo neurejenih zapiskov v podatkovni nabor](../workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md), nato pa [manjši nabor uvozite in očistite v Excelu](../workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md). Preglejte ločilo, kodiranje, podatkovne tipe in območne nastavitve (angl. *locale*), ki določajo razlago decimalnih znamenj in datumov. Identifikatorje z začetnimi ničlami zaščitite kot besedilo; opredelite manjkajoče vrednosti; uporabite Excelovo tabelo, filtre, zamrznjene glave, smiselne formule in validacijski seznam. Surovi vir ohranite in zabeležite vsako pravilo čiščenja.
+Pred urejanjem določite pomen vrstice in spremenljivke. Uporabite postopek za [pretvorbo neurejenih zapiskov v podatkovni nabor](../workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md), [uskladite nasprotujoče si metapodatke in ohranite negotovost](../workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md), nato pa [manjši nabor uvozite in očistite v Excelu](../workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md). Preglejte ločilo, kodiranje, podatkovne tipe in območne nastavitve (angl. *locale*), ki določajo razlago decimalnih znamenj in datumov. Identifikatorje z začetnimi ničlami zaščitite kot besedilo; opredelite manjkajoče vrednosti; uporabite Excelovo tabelo, filtre, zamrznjene glave, smiselne formule in validacijski seznam. Ohranite izvorno, surovo, vmesno, modelirano in odločitveno plast ter register nerešenih primerov.
 
 **Izhod:** surova in očiščena datoteka, podatkovni slovar, validacijski seznam, dnevnik pretvorb in ročni pregled petih vrstic.
 
@@ -2869,9 +3551,9 @@ Nato [očiščene podatke povzemite z vrtilno tabelo in preglednim grafikonom](.
 
 ### 9. Dokumenti, OCR in osnove korpusov
 
-Preberite [Besedila, korpusi in OCR](../chapters/texts-corpora-ocr.md). Primerjajte sken z OCR, označite napake, ki spreminjajo imena, datume, zanikanje ali meje besed, in napišite vključitvena pravila za mini korpus petih dokumentov. Sliko, plast OCR, popravljeno besedilo in anotacijo hranite ločeno.
+Preberite [Besedila, korpusi in OCR](../chapters/texts-corpora-ocr.md), nato [ovrednotite OCR ali HTR na referenčnem vzorcu](../workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md). Posnetek primerjajte s strojnim besedilom, določite pravila prepisovanja in vzorčenja, izračunajte CER in WER, razvrstite napake, ki spreminjajo imena, datume, zanikanje ali meje besed, ter na obeh prepisih preizkusite eno iskanje ali štetje. Sliko, postavitev, ponudnikov prepis, referenčni prepis, normalizirano besedilo in anotacijo hranite ločeno.
 
-**Izhod:** vzorec preverjanja OCR in opomba o vključevanju v korpus.
+**Izhod:** vzorec vrednotenja OCR/HTR, pregled napak, primerjava nadaljnje naloge in opomba o vključevanju v korpus.
 
 ### 10. Iskanje, konkordance in frekvence
 

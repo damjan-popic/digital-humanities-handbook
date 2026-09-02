@@ -41,7 +41,7 @@ For the question and sampling frame, begin with [From question to
 method](research-design.md). For the wider distinction among sources,
 representations, outputs and evidence, see [Models, evidence and
 interpretation](models-evidence-interpretation.md). The spreadsheet workflows
-in [Scholarly-work foundations](../foundations/scholarly-work-foundations.md)
+in [Scholarly-work foundations](../foundations/scholarly-work.md)
 show how to keep raw, cleaned, decision and output layers separate without a
 programming requirement.
 
@@ -111,10 +111,12 @@ For an illustrated periodical, a modest relational design might use:
 - `feature_agents(feature_id, person_id, role, certainty)`;
 - `decisions(decision_id, record_id, field, old_value, new_value, evidence)`.
 
-The join table `feature_agents` supports a group portrait, uncertain identity
-and several roles without columns called `person_2` or `person_3`. A flat
-teaching table can combine these for ease of inspection, provided its data
-dictionary explains the compromise.
+Both designs are defensible:
+
+| Schema | Enables | Suppresses or makes expensive |
+| --- | --- | --- |
+| Flat table | Rapid audit | Repeats data; obscures group portraits, versions and conflicting identities |
+| Relational | Cross-entity queries; typed uncertainty | Requires joins; distances inspection from the page |
 
 ## Identifiers before labels
 
@@ -148,6 +150,14 @@ Meker”, an OCR layer might agree, an authority-search layer might propose
 “Ezra Meeker”, and the audited status may remain `unresolved`. Replacing the
 printed form with the candidate makes the source appear more certain than it
 is and prevents later review.
+
+Keep four file or database layers even when you also separate values by
+field: a **source/raw layer** that is never silently changed; an **interim
+layer** for candidates and repeatable transformations; a
+**processed/modelled layer** containing the accepted interpretation for a
+stated purpose; and a **decision layer** recording interventions, rejections
+and unresolved cases. The interim layer is not evidence merely because a
+tool produced it, and the processed layer never replaces the source.
 
 A correction log should contain at least a decision identifier, record and
 field, previous and new value, action, evidence, responsible person or

@@ -104,7 +104,7 @@ After treating duplicates, verify the exact identifiers retained and row counts 
 
 Produce an evidence matrix, reconciled record table, relation table where needed, decision log and known-problems note. Include the rule version and access date for mutable catalogues and authority services.
 
-The workflow passes when another reader can recover every competing value, see why one was accepted or why none was, follow the source locator, and reproduce the final record count. A useful unresolved result is better than a confident false match.
+Validation passes when another reader can recover every competing value, see why one was accepted or why none was, follow the source locator, and reproduce the final record count. A useful unresolved result is better than a confident false match.
 
 ## Check yourself
 

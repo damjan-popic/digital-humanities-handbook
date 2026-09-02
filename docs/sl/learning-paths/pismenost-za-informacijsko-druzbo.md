@@ -51,6 +51,8 @@ Preberite [Kaj je digitalna humanistika?](../chapters/what-is-digital-humanities
 
 Uporabite poglavja [Modeli, dokazno gradivo in interpretacija](../chapters/models-evidence-interpretation.md), [Infrastrukture digitalne humanistike](../chapters/critical-infrastructures.md) ter [Od vprašanja do metode](../chapters/research-design.md). Široko temo spremenite v omejeno raziskovalno vprašanje ter določite predmet, obseg, možno dokazno gradivo, začasni model, drugačno razlago in eno infrastrukturno omejitev.
 
+Z [učnim gradivom Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) na videz smiselno vprašanje preizkusite ob dejanskem vzorčnem okviru, pravicah, datumih in enotah zapisa. Trditev zožite ali preoblikujte, kadar je dvostranski vir ne more podpreti.
+
 **Izhod:** oris vprašanja in dokaznega gradiva, ki loči opis, dokaz, interpretacijo in priporočilo.
 
 ### 3. Znanstveno pisanje in strukturirani dokumenti
@@ -83,7 +85,7 @@ Za ocenjevanje zadostuje stabilni ZIP ali datirani posnetek. Če izberete neobve
 
 ### 7. Struktura in čiščenje podatkov v Excelu
 
-Pred urejanjem določite pomen vrstice in spremenljivke. Uporabite pojmovni postopek za [pretvorbo neurejenih zapiskov v podatkovni nabor](../workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md), nato pa [manjši nabor uvozite in očistite v Excelu](../workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md). Preglejte ločilo, kodiranje, podatkovne tipe in območne nastavitve (angl. *locale*), ki določajo razlago decimalnih znamenj in datumov. Identifikatorje z začetnimi ničlami zaščitite kot besedilo; opredelite manjkajoče vrednosti; uporabite Excelovo tabelo, filtre, zamrznjene glave, smiselne formule in validacijski seznam. Surovi vir ohranite in zabeležite vsako pravilo čiščenja.
+Pred urejanjem določite pomen vrstice in spremenljivke. Uporabite postopek za [pretvorbo neurejenih zapiskov v podatkovni nabor](../workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md), [uskladite nasprotujoče si metapodatke in ohranite negotovost](../workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md), nato pa [manjši nabor uvozite in očistite v Excelu](../workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md). Preglejte ločilo, kodiranje, podatkovne tipe in območne nastavitve (angl. *locale*), ki določajo razlago decimalnih znamenj in datumov. Identifikatorje z začetnimi ničlami zaščitite kot besedilo; opredelite manjkajoče vrednosti; uporabite Excelovo tabelo, filtre, zamrznjene glave, smiselne formule in validacijski seznam. Ohranite izvorno, surovo, vmesno, modelirano in odločitveno plast ter register nerešenih primerov.
 
 **Izhod:** surova in očiščena datoteka, podatkovni slovar, validacijski seznam, dnevnik pretvorb in ročni pregled petih vrstic.
 
@@ -97,9 +99,9 @@ Nato [očiščene podatke povzemite z vrtilno tabelo in preglednim grafikonom](.
 
 ### 9. Dokumenti, OCR in osnove korpusov
 
-Preberite [Besedila, korpusi in OCR](../chapters/texts-corpora-ocr.md). Primerjajte sken z OCR, označite napake, ki spreminjajo imena, datume, zanikanje ali meje besed, in napišite vključitvena pravila za mini korpus petih dokumentov. Sliko, plast OCR, popravljeno besedilo in anotacijo hranite ločeno.
+Preberite [Besedila, korpusi in OCR](../chapters/texts-corpora-ocr.md), nato [ovrednotite OCR ali HTR na referenčnem vzorcu](../workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md). Posnetek primerjajte s strojnim besedilom, določite pravila prepisovanja in vzorčenja, izračunajte CER in WER, razvrstite napake, ki spreminjajo imena, datume, zanikanje ali meje besed, ter na obeh prepisih preizkusite eno iskanje ali štetje. Sliko, postavitev, ponudnikov prepis, referenčni prepis, normalizirano besedilo in anotacijo hranite ločeno.
 
-**Izhod:** vzorec preverjanja OCR in opomba o vključevanju v korpus.
+**Izhod:** vzorec vrednotenja OCR/HTR, pregled napak, primerjava nadaljnje naloge in opomba o vključevanju v korpus.
 
 ### 10. Iskanje, konkordance in frekvence
 

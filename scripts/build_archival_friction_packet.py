@@ -15,8 +15,13 @@ from pathlib import Path
 
 
 GENERATED = (
+    "metadata-raw.csv",
+    "metadata-clean.csv",
+    "correction-log.csv",
+    "unresolved-cases.csv",
     "raw/messy-records.csv",
     "raw/provider-ocr.txt",
+    "interim/reconciliation-candidates.csv",
     "cleaned/records.csv",
     "cleaned/gold-transcription.txt",
     "cleaned/decisions.csv",
@@ -72,6 +77,8 @@ def expected_outputs(packet: Path) -> dict[str, bytes]:
     fields = list(source_rows[0])
     messy_rows = [dict(row) for row in source_rows]
     decisions: list[dict[str, str]] = []
+    intervention_log: list[dict[str, str]] = []
+    candidates: list[dict[str, str]] = []
 
     for item in read_csv(packet / "source/synthetic-perturbations.csv"):
         operation = item["operation"]
@@ -92,6 +99,17 @@ def expected_outputs(packet: Path) -> dict[str, bytes]:
                     "evidence": "source/source-records.csv and the cited PDF locator",
                 }
             )
+            candidates.append(
+                {
+                    "candidate_id": item["perturbation_id"],
+                    "record_id": target_id,
+                    "field": item["field"],
+                    "candidate_value": item["synthetic_value"],
+                    "source_value": previous,
+                    "review_status": "requires_source_review",
+                    "synthetic": "true",
+                }
+            )
         elif operation == "duplicate":
             target = next(row for row in messy_rows if row["record_id"] == target_id)
             duplicate = dict(target)
@@ -110,8 +128,38 @@ def expected_outputs(packet: Path) -> dict[str, bytes]:
                     "evidence": "source/synthetic-perturbations.csv",
                 }
             )
+            candidates.append(
+                {
+                    "candidate_id": item["perturbation_id"],
+                    "record_id": item["new_record_id"],
+                    "field": "record_id",
+                    "candidate_value": item["new_record_id"],
+                    "source_value": target_id,
+                    "review_status": "requires_duplicate_review",
+                    "synthetic": "true",
+                }
+            )
         else:
             raise ValueError(f"Unsupported perturbation operation: {operation}")
+
+        latest = decisions[-1]
+        intervention_log.append(
+            {
+                "decision_id": latest["decision_id"],
+                "record_id": latest["record_id"],
+                "field": latest["field"],
+                "source_value": latest["raw_value"],
+                "transformed_value": latest["clean_value"],
+                "action": latest["action"],
+                "responsible": "packet builder following declared teaching perturbation",
+                "decision_date": "2026-09-02",
+                "reason": item["teaching_reason"],
+                "confidence": "high_for_reversal_of_declared_synthetic_change",
+                "reversible": "true",
+                "source_provenance": latest["evidence"],
+                "synthetic": "true",
+            }
+        )
 
     decision_fields = [
         "decision_id",
@@ -121,6 +169,68 @@ def expected_outputs(packet: Path) -> dict[str, bytes]:
         "clean_value",
         "action",
         "evidence",
+    ]
+    intervention_fields = [
+        "decision_id",
+        "record_id",
+        "field",
+        "source_value",
+        "transformed_value",
+        "action",
+        "responsible",
+        "decision_date",
+        "reason",
+        "confidence",
+        "reversible",
+        "source_provenance",
+        "synthetic",
+    ]
+    candidate_fields = [
+        "candidate_id",
+        "record_id",
+        "field",
+        "candidate_value",
+        "source_value",
+        "review_status",
+        "synthetic",
+    ]
+    unresolved = []
+    unresolved_number = 0
+    for row in source_rows:
+        if row["identity_status"] in {"unresolved", "multiple_people"}:
+            unresolved_number += 1
+            unresolved.append(
+                {
+                    "case_id": f"AF-U-{unresolved_number:03d}",
+                    "record_id": row["record_id"],
+                    "field": "person_identity",
+                    "status": row["identity_status"],
+                    "current_value": row["person_as_printed"],
+                    "reason": row["evidence_note"],
+                    "evidence_needed": "Independent evidence connecting the printed reference to an authority identity.",
+                }
+            )
+        if row["date_certainty"] == "approximate":
+            unresolved_number += 1
+            unresolved.append(
+                {
+                    "case_id": f"AF-U-{unresolved_number:03d}",
+                    "record_id": row["record_id"],
+                    "field": "date",
+                    "status": "approximate",
+                    "current_value": row["date_normalized"],
+                    "reason": row["evidence_note"],
+                    "evidence_needed": "Item-level dating evidence independent of the issue date.",
+                }
+            )
+    unresolved_fields = [
+        "case_id",
+        "record_id",
+        "field",
+        "status",
+        "current_value",
+        "reason",
+        "evidence_needed",
     ]
     provider = normalized_text(packet / "source/provider-ocr.txt")
     gold = normalized_text(packet / "source/gold-transcription.txt")
@@ -179,11 +289,17 @@ def expected_outputs(packet: Path) -> dict[str, bytes]:
         "source_pdf_sha256": "e7b4b9f27f2043f2a3861b6cf05e1b4d8e1053e16eb81bf05f96d21385b5ad79",
         "source_record_count": len(source_rows),
         "synthetic_perturbation_count": len(decisions),
+        "unresolved_case_count": len(unresolved),
     }
 
     return {
+        "metadata-raw.csv": csv_bytes(messy_rows, fields),
+        "metadata-clean.csv": csv_bytes(source_rows, fields),
+        "correction-log.csv": csv_bytes(intervention_log, intervention_fields),
+        "unresolved-cases.csv": csv_bytes(unresolved, unresolved_fields),
         "raw/messy-records.csv": csv_bytes(messy_rows, fields),
         "raw/provider-ocr.txt": (provider + "\n").encode("utf-8"),
+        "interim/reconciliation-candidates.csv": csv_bytes(candidates, candidate_fields),
         "cleaned/records.csv": csv_bytes(source_rows, fields),
         "cleaned/gold-transcription.txt": (gold + "\n").encode("utf-8"),
         "cleaned/decisions.csv": csv_bytes(decisions, decision_fields),

@@ -13,5 +13,6 @@
   "raw_record_count": 9,
   "source_pdf_sha256": "e7b4b9f27f2043f2a3861b6cf05e1b4d8e1053e16eb81bf05f96d21385b5ad79",
   "source_record_count": 8,
-  "synthetic_perturbation_count": 4
+  "synthetic_perturbation_count": 4,
+  "unresolved_case_count": 6
 }

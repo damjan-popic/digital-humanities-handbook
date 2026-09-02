@@ -1,5 +1,5 @@
 ---
-title: "Kako uskladim nasprotujoče si metapodatke, ne da bi izbrisal/-a negotovost?"
+title: "Kako uskladim nasprotujoče si metapodatke in ohranim negotovost?"
 description: "Primerjajte navedbe vira, ponudnikove zapise in kandidate v normativnih zbirkah ter ohranite dokaze in dokumentirano odločitev."
 category: "Urejanje podatkov"
 category_id: "data-wrangling"
@@ -8,7 +8,7 @@ time: "60–90 min"
 tags: [metapodatki, provenienca, normativna-kontrola, negotovost, usklajevanje]
 ---
 
-# Kako uskladim nasprotujoče si metapodatke, ne da bi izbrisal/-a negotovost?
+# Kako uskladim nasprotujoče si metapodatke in ohranim negotovost?
 
 <div class="answer-meta" markdown>
 <span>Urejanje podatkov</span><span>začetno</span><span>60–90 min</span>
@@ -43,7 +43,7 @@ Zapisu in polju dodelite stabilna identifikatorja. Vsako vrednost prekopirajte d
 - kandidatni zapis zunanje normativne zbirke; ali
 - namerno dodano sintetično učno motnjo.
 
-Vseh ne združite v eno polje za »ime« ali »datum«. Isti niz je lahko v enem viru prepis, v drugem pa domnevna identiteta.
+Teh vrednosti ne združite v eno polje za »ime« ali »datum«. Isti niz je lahko v enem viru prepis, v drugem pa domnevna identiteta.
 
 ### 2. Sestavite preglednico dokazov
 

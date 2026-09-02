@@ -9,7 +9,7 @@ status: draft
 
 Zaradi iskalnega prepisa se lahko zdi, da je arhiv popoln. Toda prepis ni arhiv. Je ena od predstavitev, ki nastane iz izbranih predmetov, posnetkov strani, odločitev o postavitvi, sistema za razpoznavanje in uredniških pravil. Kaj lahko utemeljeno sklepate, če lahko vsaka od teh stopenj izpusti ali spremeni dokaz?
 
-V tem poglavju boste korpus obravnavali kot raziskovalni instrument, ne kot mapo z besedilnimi datotekami. Poglavje se navezuje na [načrtovanje raziskave](research-design.md), [podatke, metapodatke in modele](data-metadata-models.md) ter [kritične infrastrukture](critical-infrastructures.md). Razdelani primer uporablja odprto [učno gradivo Arhivsko trenje](../../../teaching-data/archival-friction/README.md), zato lahko skupaj pregledate posnetek, ponudnikov prepis, referenčni prepis, metapodatkovne odločitve in rezultate preverjanja.
+V tem poglavju boste korpus obravnavali kot raziskovalni instrument, ne kot mapo z besedilnimi datotekami. Poglavje se navezuje na [načrtovanje raziskave](research-design.md), [podatke, metapodatke in modele](data-metadata-models.md) ter [kritične infrastrukture](critical-infrastructures.md). Razdelani primer uporablja odprto [učno gradivo Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction), zato lahko skupaj pregledate posnetek, ponudnikov prepis, referenčni prepis, metapodatkovne odločitve in rezultate preverjanja.
 
 ## Učni cilji
 
@@ -27,7 +27,7 @@ Po tem poglavju boste znali:
 
 Ne potrebujete ukazne vrstice ali programiranja. Potrebujete pa raziskovalno vprašanje, dovoljenje za uporabo gradiva, manjši nabor posnetkov dokumentov in preglednico ali urejevalnik besedila. Za vrednotenje potrebujete tudi skrbno preverjen referenčni prepis vzorca.
 
-Pripravili boste kartico korpusa, zapis o viru in pravicah, pravila prepisovanja, povezane slikovne in besedilne plasti, dnevnik vzorčenja, poročilo o kakovosti razpoznavanja, dnevnik popravkov ter seznam znanih težav. Korpus ni pripravljen že zato, ker lahko odprete datoteke. Druga oseba mora ugotoviti, od kod izvira odlomek, skozi katere spremembe je šel in katere trditve dopuščajo preostale napake.
+Pripravili boste kartico korpusa, zapis o pravicah, pravila prepisovanja, povezane plasti, dnevnik vzorčenja, poročilo o kakovosti, dnevnik popravkov ter seznam znanih težav. Druga oseba mora ugotoviti, od kod izvira odlomek, skozi katere spremembe je šel in katere trditve dopuščajo preostale napake.
 
 ## Začnite pri raziskovalni trditvi
 
@@ -62,9 +62,9 @@ Učno gradivo pregled ponazori z zapisom o pravicah, izvoru in zgoščenih vredn
 
 **Optično razpoznavanje znakov (OCR)** navadno pomeni samodejno razpoznavanje tiskanih znakov na posnetku strani. **Razpoznavanje rokopisa (HTR)** napoveduje zaporedja iz rokopisa, pogosto z modeli, ki so naučeni ali prilagojeni na slikah vrstic in prepisih. Meja ni vedno ostra: zgodovinski tisk, mešanica tiska in rokopisa, robni pripisi ter okrasni naslovi jo zabrišejo. Zato zapišite uporabljeni model in postopek, ne le oznake OCR ali HTR.
 
-Pri več pisavah oziroma rokah boste morda potrebovali ločene modele ali sloje vrednotenja. Ocena zaupanja je rezultat modela po njegovih predpostavkah, ne izmerjena stopnja napak; pred uporabo za filtriranje jo umerite s preverjenim besedilom.
+Če gradivo vsebuje več pisav oziroma rokopisnih rok, boste morda potrebovali ločene modele ali sloje vrednotenja. Ocena zaupanja je rezultat modela po njegovih predpostavkah, ne izmerjena stopnja napak; pred uporabo za filtriranje jo umerite s preverjenim besedilom.
 
-Razpoznavanje je samo ena stopnja. Segmentacija določi območja, stolpce, vrstni red branja in vrstice; prepisovanje napove znake ali besede; popravljanje spremeni napoved; izvoz pa lahko izravna postavitev. Navidez smiselno golo besedilo ima zato lahko pravilne besede v napačnem vrstnem redu ali pa izpusti napis pod sliko.
+Razpoznavanje je samo ena stopnja. Segmentacija določi območja, stolpce, vrstni red branja in vrstice; prepisovanje napove znake ali besede; popravljanje spremeni napoved; izvoz pa lahko izgubi podatke o postavitvi. Navidez smiselno golo besedilo ima zato lahko pravilne besede v napačnem vrstnem redu ali pa izpusti napis pod sliko.
 
 Uporabniški vmesniki, katalogi modelov in izvozni meniji se spreminjajo. Zabeležite storitev, različico ali datum dostopa, identifikator modela, nastavitve in izvozni format. Ohranite vhod ter preneseni rezultat. Če gostovana storitev nima stabilne različice, to izrecno navedite.
 
@@ -207,7 +207,7 @@ Preverjanje lahko avtomatizirate, vendar je to izbirna razširitev. Enako sled l
 
 ## Vaja: oblikujte eno utemeljeno trditev
 
-Odprite [učno gradivo Arhivsko trenje](../../../teaching-data/archival-friction/README.md).
+Odprite [učno gradivo Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
 1. Preberite zapis o pravicah in navedbo vira. Pojasnite, ali smete priloženi PDF razširjati naprej.
 2. Pred branjem prepisov preglejte obe strani. Poiščite dve postavitveni lastnosti, ki lahko vplivata na vrstni red branja.

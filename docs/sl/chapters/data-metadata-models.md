@@ -41,7 +41,7 @@ Vprašanje in vzorčni okvir najprej opredelite v poglavju [Od vprašanja do
 metode](research-design.md). Širšo razmejitev virov, predstavitev, rezultatov
 in dokaznega gradiva pojasnjujejo [Modeli, dokazno gradivo in
 interpretacija](models-evidence-interpretation.md). Preglednični postopki v
-[Temeljih strokovnega dela](../foundations/scholarly-work-foundations.md)
+[Temeljih znanstvenega dela](../foundations/scholarly-work.md)
 prikazujejo, kako brez programiranja ločite izvorno, očiščeno, odločevalsko in
 izhodno raven.
 
@@ -111,10 +111,12 @@ Za ilustrirano periodiko bi lahko izdelali skromen relacijski model:
 - `osebe_enot(enota_id, oseba_id, vloga, gotovost)`;
 - `odlocitve(odlocitev_id, zapis_id, polje, stara_vrednost, nova_vrednost, dokaz)`.
 
-Povezovalna tabela `osebe_enot` podpira skupinski portret, negotovo identiteto
-in več vlog brez stolpcev `oseba_2` ali `oseba_3`. Za lažji pregled lahko učna
-tabela razmerja združi v eno ravno strukturo, če podatkovni slovar pojasni ta
-kompromis.
+Obe zasnovi sta utemeljeni, vendar nista enakovredni:
+
+| Shema | Kaj omogoča | Kaj zabriše ali podraži |
+| --- | --- | --- |
+| Ravna tabela enot | Hitro primerjavo z virom in nizko vstopno oviro pri učenju s CSV | Ponavlja podatke o številki; oteži skupinske portrete, različice in konkurenčne identifikacije |
+| Zgornje relacijske tabele | Poizvedbe po osebah, enotah in različicah ter zapisano negotovost | Zahteva povezovanje tabel in oteži neposredno branje po straneh vira |
 
 ## Identifikatorji pred oznakami
 
@@ -149,6 +151,14 @@ lahko besedilo OCR z njim ujema, iskanje po normativnih zbirkah pa predlaga
 »Ezra Meeker«. Pregledano stanje je lahko še vedno `unresolved`. Če natisnjeno
 obliko nadomestite s kandidatom, je vir videti gotovejši, kot je v resnici,
 in poznejše preverjanje ni več mogoče.
+
+Tudi kadar vrednosti ločite po poljih, ohranite štiri datotečne ali
+podatkovne plasti: nespremenljivo **izvorno oziroma surovo plast**;
+**vmesno plast** s kandidati in ponovljivimi pretvorbami; **obdelano oziroma
+modelirano plast** s sprejeto razlago za določen namen; ter **odločitveno
+plast**, v kateri beležite posege, zavrnitve in nerešene primere. Vmesna plast
+ni dokaz že zato, ker jo je izdelalo orodje, obdelana plast pa ne nadomesti
+vira.
 
 Dnevnik popravkov naj vsebuje vsaj identifikator odločitve, zapis in polje,
 prejšnjo in novo vrednost, dejanje, dokaz, odgovorno osebo ali postopek, datum

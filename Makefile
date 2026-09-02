@@ -1,4 +1,4 @@
-.PHONY: install install-authoring serve indexes manuscripts scholarly-work-samples check build preview clean
+.PHONY: install install-authoring serve indexes manuscripts scholarly-work-samples archival-friction-packet check build preview clean
 
 install:
 	python -m pip install -r requirements.txt
@@ -21,11 +21,16 @@ scholarly-work-samples:
 	python scripts/build_scholarly_work_workbook.py --repo-root .
 	python scripts/build_scholarly_work_snapshot.py --repo-root .
 
+archival-friction-packet:
+	python scripts/build_archival_friction_packet.py --repo-root .
+
 check: indexes manuscripts
 	python scripts/check_handbook.py
 	python scripts/check_technical_foundations.py
 	python scripts/check_scholarly_work_foundations.py
 	python scripts/check_scholarly_work_samples.py
+	python scripts/build_archival_friction_packet.py --repo-root . --check
+	python scripts/check_archival_friction.py
 	python scripts/check_intertextuality.py
 	python scripts/check_review_ecosystem.py
 	python scripts/check_answers.py

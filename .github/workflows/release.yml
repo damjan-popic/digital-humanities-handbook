@@ -18,6 +18,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt -r requirements-authoring.txt
       - run: make scholarly-work-samples
+      - run: make archival-friction-packet
       - run: git diff --exit-code
       - run: make check
       - name: Build release archives

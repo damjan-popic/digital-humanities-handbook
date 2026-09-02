@@ -1,0 +1,7 @@
+case_id,record_id,field,status,current_value,reason,evidence_needed
+AF-U-001,AF-P1-001,person_identity,unresolved,dr. Korošec,"The normalized date is derived from the issue date and the printed relative date, not supplied by the provider.",Independent evidence connecting the printed reference to an authority identity.
+AF-U-002,AF-P1-002,date,approximate,1925,The photograph date is not printed; 1925 is only an issue-context approximation.,Item-level dating evidence independent of the issue date.
+AF-U-003,AF-P1-003,person_identity,unresolved,Dr. Ante Trumbić,The record preserves the diacritic visible in the printed caption and does not add an authority identifier.,Independent evidence connecting the printed reference to an authority identity.
+AF-U-004,AF-P1-004,person_identity,unresolved,Frane Poljanec,The normalized date is derived from the issue year and printed relative date.,Independent evidence connecting the printed reference to an authority identity.
+AF-U-005,AF-P2-001,person_identity,multiple_people,,The caption names eight deputies; a single-person authority field would misrepresent the unit.,Independent evidence connecting the printed reference to an authority identity.
+AF-U-006,AF-P2-003,person_identity,unresolved,Mr. Meker,The caption calls the speaker a 94-year-old historian. A tempting modern authority match is not accepted without external evidence.,Independent evidence connecting the printed reference to an authority identity.

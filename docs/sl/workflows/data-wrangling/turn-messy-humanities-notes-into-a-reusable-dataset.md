@@ -87,7 +87,7 @@ Izberite ukrep, kot je `correct_from_facsimile`, `normalize_with_rule`, `retain_
 
 Datoteko `cleaned/records.csv` sestavite iz surove tabele in dnevnika odločitev. Surovih vrednosti ne prepisujte. Izvorno besedilo ohranite, kadar je samo predmet raziskave, analitične kategorije pa zapišite v ločena polja. Če več vrstic opisuje isto entiteto, namesto brisanja različnih mest v viru izdelajte tabelo razmerij.
 
-Popolnoma enako dodatno vrstico odstranite šele, ko lahko navedete, zakaj je enaka. Če se kandidati razlikujejo, pred izborom napišite določljivo pravilo prednosti oziroma vključitve in izločitve. Vidni vrstni red razvrščanja ni tako pravilo. Kadar je ponavljanje zgodovinsko pomembno, ohranite razmerja `duplicate_of`, `reprint_of` ali `version_of`.
+Popolnoma enako dodatno vrstico odstranite šele, ko lahko navedete, zakaj je enaka. Če se kandidati razlikujejo, pred izborom napišite ponovljivo in nedvoumno pravilo prednosti oziroma vključitve in izločitve. Vidni vrstni red razvrščanja ni tako pravilo. Kadar je ponavljanje zgodovinsko pomembno, ohranite razmerja `duplicate_of`, `reprint_of` ali `version_of`.
 
 ### 7. Pripravite rezultat, prilagojen vprašanju
 
@@ -115,6 +115,10 @@ Po vsakem delu z dvojniki ponovno preverite ohranjene identifikatorje in števil
 Oddajte nespremenjeni vir ali navedbo vira, surovo tabelo, dnevnik odločitev, urejene zapise, rezultat za raziskovalno vprašanje, poročilo o preverjanju in seznam znanih težav. Dodajte kratek podatkovni slovar z opredelitvijo polj in dovoljenih oznak.
 
 Postopek je uspešen, če lahko druga oseba pojasni eno vrstico od vira do rezultata, rekonstruira vse vsebinske popravke, ponovi štetje vrstic in prepozna nerešena vprašanja. Preverjeni rezultat učnega gradiva ima osem urejenih zapisov; deveta surova vrstica je ločeno označen sintetični dvojnik.
+
+## Vpliv na raziskovalno trditev
+
+Primerjajte eno trditev pred urejanjem podatkov in po njem. Kandidat v surovi tabeli bi lahko podprl napačno trditev, da je govornik na fotografiji identificiran. Dnevnik odločitev podpira ožjo trditev: napis vsebuje obliko »Mr. Meker«, identiteta osebe v normativni zbirki pa ostaja nerešena.
 
 ## Preverite se
 

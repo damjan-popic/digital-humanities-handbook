@@ -75,6 +75,10 @@ Celica v preglednici ima **shranjeno vrednost** in **prikaz**. Prikaz `01/02/03`
 8. [V Power Queryju izdelajte ponovljive pretvorbe](../workflows/data-wrangling/make-repeatable-transformations-with-excel-power-query.md).
 9. [Podatke povzemite z vrtilnimi tabelami in preglednimi grafikoni](../workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md).
 
+### Pot uporabite pri arhivskem gradivu
+
+Kadar projekt začnete s faksimilom in ne z že strukturiranim virom, uporabite odprto [učno gradivo Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction). [Neurejene zapiske pretvorite v ponovno uporabno zbirko podatkov](../workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md), [uskladite nasprotujoče si metapodatke in ohranite negotovost](../workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md) ter [ovrednotite OCR ali HTR na referenčnem vzorcu](../workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md). Ti postopki razširjajo isti pregledni raziskovalni cikel in ne uvajajo zahteve po ukazni vrstici.
+
 Prenesite [različico 1 vzorčnega paketa za znanstveno delo](../../assets/downloads/scholarly-work-foundations-v1.zip). Vsebuje izvirno učno gradivo ali bibliografska dejstva ter je razdeljen na plasti virov, surovih podatkov, očiščenih podatkov, izhodov, preverjanja, znanih težav in pregleda citiranja. Datoteka `RIGHTS.md` beleži izvor in pogoje ponovne uporabe.
 
 ## Nizek tehnični prag

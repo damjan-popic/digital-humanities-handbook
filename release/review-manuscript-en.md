@@ -115,9 +115,9 @@ The handbook is not four separate shelves. Chapters provide concepts and argumen
 | [Infrastructures of digital humanities: power, access and maintenance](https://damjan-popic.github.io/digital-humanities-handbook/chapters/critical-infrastructures/) | [How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ethics/decide-whether-a-digitised-source-should-be-public/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/) |
 | [Digital humanities in Slovenia: infrastructures, languages and communities](https://damjan-popic.github.io/digital-humanities-handbook/chapters/digital-humanities-in-slovenia/) | [How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)<br>[How do I map places mentioned in a text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/map-places-mentioned-in-a-text/) | [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)<br>[Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/) |
 | [From question to method](https://damjan-popic.github.io/digital-humanities-handbook/chapters/research-design/) | [How do I build and clean a Zotero library?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/reference-management/build-and-clean-a-zotero-library/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)<br>[How do I audit AI output against source documents?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ai/audit-ai-output-against-source-documents/)<br>[How do I clone, run, change and commit a handbook project?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/foundations/clone-run-change-and-commit-a-handbook-project/) | [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
-| [Data, metadata and models](https://damjan-popic.github.io/digital-humanities-handbook/chapters/data-metadata-models/) | [How do I import and clean a small dataset in Excel?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)<br>[How do I structure a small Python NLP project?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/structure-a-small-python-nlp-project/) | [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/) |
-| [Texts, corpora and OCR](https://damjan-popic.github.io/digital-humanities-handbook/chapters/texts-corpora-ocr/) | [How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/bulk-download-pdfs-and-ocr-them/)<br>[How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/)<br>[How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/deduplicate-corpus-text-with-minhash/)<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) | [Web text harvesting](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/text-harvester/)<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
-| [Linguistic annotation and CLASSLA](https://damjan-popic.github.io/digital-humanities-handbook/chapters/linguistic-annotation-classla/) | [How do I install and test CLASSLA with Python 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-and-test-classla/)<br>[How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)<br>[How do I export CLASSLA results to CSV?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/export-classla-results-to-csv/) | [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/) |
+| [Data, metadata and models](https://damjan-popic.github.io/digital-humanities-handbook/chapters/data-metadata-models/) | [How do I import and clean a small dataset in Excel?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I reconcile conflicting metadata without erasing uncertainty?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty/)<br>[How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)<br>[How do I structure a small Python NLP project?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/structure-a-small-python-nlp-project/) | [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/) |
+| [Texts, corpora and OCR](https://damjan-popic.github.io/digital-humanities-handbook/chapters/texts-corpora-ocr/) | [How do I evaluate OCR or HTR against a reference sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/bulk-download-pdfs-and-ocr-them/)<br>[How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/)<br>[How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/deduplicate-corpus-text-with-minhash/)<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) | [Web text harvesting](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/text-harvester/)<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
+| [Linguistic annotation and CLASSLA](https://damjan-popic.github.io/digital-humanities-handbook/chapters/linguistic-annotation-classla/) | [How do I evaluate OCR or HTR against a reference sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[How do I install and test CLASSLA with Python 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-and-test-classla/)<br>[How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)<br>[How do I export CLASSLA results to CSV?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/export-classla-results-to-csv/) | [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/) |
 | [Text analysis](https://damjan-popic.github.io/digital-humanities-handbook/chapters/text-analysis/) | [How do I query a corpus with CQPweb?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/query-a-corpus-with-cqpweb/)<br>[How do I compare style with function words?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-style-with-function-words/)<br>[How do I make a dispersion plot in LancsBox?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/make-a-dispersion-plot-in-lancsbox/)<br>[How do I visualise a frequency list with Voyant?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-a-frequency-list-with-voyant/) | [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
 | [Topics, sentiment and emotion](https://damjan-popic.github.io/digital-humanities-handbook/chapters/topics-emotions-classification/) | [How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[How do I explore recurring themes with NMF?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/explore-topics-with-nmf/)<br>[How do I create a sentence-similarity heat map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/create-a-sentence-similarity-heat-map/) | [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/createai/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
 | [Databases and SQL](https://damjan-popic.github.io/digital-humanities-handbook/chapters/databases-sql/) | [How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
@@ -1142,100 +1142,375 @@ These relations do not turn public objects automatically into research-ready dat
 
 After this chapter, you should be able to:
 
-- turn a broad humanities interest into an answerable research question;
-- define units of analysis, variables, comparisons and baselines;
-- match methods to claims rather than to available software;
-- design manual validation and error analysis;
-- distinguish exploratory findings from confirmatory evidence.
+- turn a broad humanities interest into a bounded, answerable research question;
+- distinguish an archive, a collection, a sampling frame and an analytical corpus;
+- define units of observation and analysis, concepts, indicators and comparisons;
+- reason carefully from absence without treating a catalogue gap as proof that an event did not occur;
+- set source, rights, feasibility and quality gates before full data collection;
+- plan provenance, manual validation, error analysis and stopping rules in advance;
+- state the strongest claim the evidence could support and the evidence that would change your mind.
 
 ## Before you begin
 
-Write down a question you would ask even if no digital tool existed. Then underline the nouns and verbs. The nouns often point to objects and units; the verbs often reveal the kind of comparison or explanation the project requires.
+Write down a question you would ask even if no digital tool existed. Underline
+its nouns and verbs. The nouns often point to people, texts, events, places or
+institutions; the verbs imply relations such as change, comparison,
+circulation or representation. Now add: **according to which surviving
+sources, for which period, and compared with what?**
 
-Research design makes modelling and infrastructural choices explicit. Use [Models, evidence and interpretation](models-evidence-interpretation.md) to distinguish sources, representations, outputs and evidence, and [Infrastructures of digital humanities](critical-infrastructures.md) to audit how access and maintenance condition the project. If the question concerns Slovenian material, the ecosystem map in [Digital humanities in Slovenia](digital-humanities-in-slovenia.md) helps distinguish discovery portals, research-data environments, repositories and language services before method selection.
+No programming or statistics is required. You need a research question and
+access to a small, lawfully reusable source set. Your output will be a design
+card, a source-and-rights decision and a validation plan. A successful design
+lets another reader identify every inferential step. Common failures are
+starting from a tool, confusing convenient holdings with a population, and
+letting undocumented cleaning decisions change the question.
 
-## A question is not yet a method
+This chapter turns the argument in [Models, evidence and
+interpretation](models-evidence-interpretation.md) into a practical research
+plan. [Data, metadata and models](data-metadata-models.md) develops the record
+structure; [Texts, corpora and OCR](texts-corpora-ocr.md) addresses document
+images, OCR/HTR and corpus sampling. These chapters share the small
+[*Archival friction* teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
-Questions such as “How is identity represented in literature?” or “What emotions appear in political discourse?” are intellectually meaningful but computationally underspecified. A computer cannot act on *identity*, *representation* or *emotion* until the project decides what observable evidence will stand for those concepts.
+## Research design is an argument in advance
 
-**Operationalization** is the process of connecting a concept to observable, recordable and contestable indicators. It should not be hidden as a technical detail. Operationalization is part of the argument.
+A research design connects a question to evidence before results are known.
+It specifies what will count as a source, a case, an observation and a
+comparison; how records will be selected and transformed; what could go
+wrong; and how claims will be limited. It is not merely a timetable or a list
+of software.
 
-For example, “visibility of women in a newspaper” might be represented by:
+A useful design can be read as a chain:
 
-- the proportion of named people recognized as women;
-- the number of quotations attributed to women;
-- the roles in which women are mentioned;
-- article topics where women appear;
-- prominence in headlines or opening paragraphs.
+> question → source population → accessible sampling frame → selected cases →
+> representation and indicators → method → validation → bounded claim
 
-Each indicator answers a different question. None is a complete measure of visibility.
+Every arrow is contestable. A portal may expose only catalogued objects. A
+scan may omit a verso. An OCR system may fail on names and diacritics. A
+category such as “political event” may reflect a present-day codebook rather
+than the publication's language. Research design makes these transitions
+available for criticism rather than hiding them inside a finished dataset.
 
-## Define the unit of analysis
+## Begin with the archive, not an imagined totality
 
-A project needs a clear unit: document, page, article, paragraph, sentence, token, person, place, event, image or relation. The choice affects both statistics and interpretation.
+An archive is not a transparent store of everything that happened. Records
+were created for particular administrative, commercial, familial or
+political purposes; some were never made, some were discarded, some were
+withheld, and only part of what survives may be catalogued or digitized.
+Michel-Rolph Trouillot describes silences entering historical production at
+several moments, from the making of sources to the making of narratives.[^trouillot]
+Rodney Carter likewise treats archival silence as a relation of power while
+warning that silence can also be a strategy of people who decline to be
+recorded.[^carter] Neither account licenses the researcher to fill a gap with
+an attractive story.
 
-If sentiment is calculated per sentence, one article may contribute dozens of observations. Treating those sentences as independent can exaggerate certainty. If a place is counted every time it appears, a travel narrative may dominate a corpus. If authors are compared by document, unequal document lengths may distort frequency measures.
+Keep four scopes distinct:
 
-Write the unit into the research question whenever possible:
+| Scope | Practical question | Typical limitation |
+| --- | --- | --- |
+| **Target population of sources** | What records would be relevant if all had survived and were accessible? | It is often unknowable and partly hypothetical. |
+| **Repository or collection** | What did an institution acquire, preserve and describe? | Appraisal, transfer, resources and institutional purpose shape survival. |
+| **Sampling frame** | Which records could this project actually discover and obtain? | Catalogue quality, digitization, language, access rules and cost intervene. |
+| **Analytical corpus** | Which accessible records pass the declared inclusion rules? | The researcher's exclusions create another boundary. |
 
-> How does the frequency and context of migration-related terms differ **between editorials** in two newspaper periods?
+Calling the last set “the archive” collapses four selections into one. Report
+their sizes where possible, and describe unquantifiable gaps in prose.
 
-## Comparisons and baselines
+### Selection decisions are evidence about the project
 
-A pattern becomes meaningful through comparison. Ask “compared with what?” before running a method.
+Maintain a selection log from the first search. For each query, repository or
+box, record the date, search terms or shelfmarks, filters, result count,
+access outcome and decision. Capture interface-specific details with an
+access date because catalogues change. Keep stable identifiers rather than
+session URLs. If a source can be viewed but not lawfully shared, record that
+constraint before designing a classroom or reproducibility claim around it.
 
-Useful baselines include:
+This log helps distinguish “the item does not appear in the searched frame”
+from “the item did not exist”. It also reveals when a search vocabulary has
+excluded historical spellings, minority languages or descriptions produced
+under earlier cataloguing practices.
 
-- another period, genre, author, institution or region;
-- the rest of the corpus;
-- a random or majority-class prediction;
-- a simple frequency method before a complex model;
-- human agreement before machine accuracy;
-- shuffled data to test whether structure exceeds chance.
+## Establish a source-and-rights gate
 
-A sophisticated model that barely beats a simple baseline is not a strong result. A simple method that answers the question transparently may be preferable.
+Before collecting at scale, audit one representative object from discovery
+to reuse. The gate should answer:
 
-## Exploratory and confirmatory work
+1. **Identity:** is this the intended edition, issue, page or archival unit?
+2. **Provenance:** which institution holds the object, and which service
+   supplies the digital representation and metadata?
+3. **Completeness:** are all required pages, attachments, columns or versions
+   present?
+4. **Rights and authority:** may you download, analyse, quote and redistribute
+   the source, metadata and derived files? Do community or donor conditions
+   impose further responsibilities?
+5. **Technical access:** is there a stable identifier, download or snapshot?
+   Does access require a mutable interface or account?
+6. **Research fit:** can the object supply the observations needed by the
+   question, including known difficult cases?
 
-Exploratory analysis looks for patterns and generates hypotheses. It is appropriate when categories or relationships are not yet known. Confirmatory analysis tests a pre-specified expectation with data and evaluation criteria chosen in advance.
+Record a **go**, **revise** or **stop** decision. Stop when essential rights
+are unknown, provenance cannot be established, the required population is
+systematically inaccessible, or the sample cannot test the intended claim.
+Revise when a narrower question remains defensible. A smaller lawful project
+is stronger than a large collection that cannot be inspected or shared.
 
-Digital-humanities projects often move between the two. The danger is to explore many possibilities and then present the most attractive pattern as if it had been predicted. Keep an analysis log. Record when a category, threshold, corpus boundary or visualization changed and why.
+“Open” is not the same as ethically unproblematic. The FAIR principles make
+findability, accessibility, interoperability and reuse important properties
+of research objects, including provenance and licences.[^fair] The CARE
+principles add collective benefit, authority to control, responsibility and
+ethics for Indigenous data governance.[^care] Apply relevant community norms
+rather than treating maximum circulation as an automatic good.
 
-## Validation is designed, not appended
+## Turn the question into explicit design decisions
 
-Validation should be planned before the full analysis. Depending on the method, it can include:
+### Bound the question
 
-- manually checking a random sample;
-- oversampling rare or high-risk cases;
-- calculating precision, recall or agreement;
-- comparing two annotators and resolving disagreement;
-- checking whether results survive alternative preprocessing;
-- reading examples from both the centre and the edges of a distribution;
-- testing whether a result is driven by one source, period or author.
+Questions such as “How is national identity represented in newspapers?” are
+intellectually meaningful but underspecified. A design must name a source
+population, period, unit, relation and comparison. For example:
 
-Accuracy alone is rarely enough. A model with 90% accuracy may fail almost completely on the category that matters most. Error analysis asks which errors occur, for whom, in which genres and with what interpretive consequence.
+> How do image captions in the surviving issues of two named Slovene
+> illustrated supplements, 1924–1926, assign political agency to named and
+> unnamed groups, and how does that distribution differ by publication?
 
-## Triangulation
+This still needs source criticism, but it identifies what will be compared.
+It does not claim to measure what all readers believed or what “the nation”
+was.
 
-A strong project often combines methods that fail differently. Frequencies show scale but not meaning. Concordances restore context but are laborious. A topic model groups co-occurring terms but needs interpretation. Interviews may explain institutional practice but not historical prevalence.
+### Define observation, sampling and analysis units
 
-Triangulation does not mean that every method must agree. Disagreement can be analytically valuable when it exposes different levels of the object.
+The **observation unit** is what one record describes: a page, caption,
+letter, person, event or relation. The **sampling unit** is what is selected:
+perhaps an issue even when captions are analysed. The **analysis unit** is
+what contributes to a comparison. These can differ, but the differences must
+be declared.
 
-## Worked example: emotion in parliamentary debate
+If sentences from one article are treated as independent observations, a
+long article can dominate and uncertainty can be understated. If people are
+counted every time they appear, a single recurring public figure may shape a
+publication-level result. Decide whether clustering by issue, author or
+source is part of the design.
 
-Broad question: *How did emotional language change during a political crisis?*
+### Operationalize without mistaking an indicator for the concept
 
-A research design might specify:
+**Operationalization** connects a concept to observable, recordable and
+contestable indicators. Adcock and Collier emphasize that measurement
+validity depends on the relation among a background concept, its
+context-specific formulation, indicators and scores.[^validity] In
+humanities work, the process may combine structured coding and close reading.
 
-- **sources:** official transcripts from six months before and after a defined event;
-- **unit:** each speaker turn, preserving speaker and party metadata;
-- **concept:** emotion represented through a manual multi-label scheme plus a lexicon baseline;
-- **comparison:** pre-event versus post-event, by party and speaker role;
-- **validation:** two annotators on a stratified sample, confusion analysis for automatic labels;
-- **interpretation:** close reading of high-change categories and attention to quotation, irony and procedural language;
-- **claim limit:** language in the transcript, not the private emotional state of speakers.
+“Visibility of women” might be represented by the share of named people,
+quoted speech, image area, headline prominence, or roles assigned in
+captions. Each indicator preserves a different aspect. Gender attribution
+also requires a documented and ethically defensible rule; a name is not a
+transparent measurement. Write a **claim limit** beside every indicator:
 
-The last distinction is crucial. Text analysis can measure textual cues and labels; it does not directly read minds.
+| Concept | Indicator | What it does not establish |
+| --- | --- | --- |
+| Prominence | caption position and image area on a page | reader attention or political influence |
+| Attribution of agency | active grammatical role in a caption | the person's actual responsibility |
+| Circulation | number of repository copies or reprints found | total historical readership |
+| Absence | no match in a documented sampling frame | that the event, person or expression did not exist |
+
+### Specify inclusion, exclusion and ambiguity
+
+Write rules before the full pass. Include positive examples, counterexamples
+and borderline cases. Say what happens to an anonymous caption, an uncertain
+date, an item spanning two pages, a reprint and a record in two languages.
+Preserve an “uncertain” state when the evidence is insufficient. Forced
+certainty improves neither comparability nor truth.
+
+When categories change during exploration, version the codebook and record
+which rows were recoded. Do not revise old decisions invisibly to make an
+emerging pattern cleaner.
+
+## Comparison, baselines and negative evidence
+
+A pattern becomes meaningful through comparison. Ask **compared with what?**
+Useful baselines include another period, genre, institution or region; the
+rest of the corpus; human agreement; a simple rule before a complex model;
+and a shuffled or majority-class result. A sophisticated method that does not
+improve the relevant evidence over a transparent baseline has not earned its
+complexity.
+
+Negative evidence requires a special audit. Before arguing from a missing
+name or topic, ask:
+
+- Was the relevant kind of record normally created and preserved?
+- Does the catalogue index the feature being searched?
+- Were spelling variants, languages, OCR errors and access restrictions
+  tested?
+- Is the denominator known?
+- Would the same procedure find a positive control that should be present?
+
+The strongest defensible statement may be: “No instance was found in 312
+searchable captions under these queries and manual checks.” That is useful,
+but it is narrower than “the publication never mentioned the person.”
+
+## Separate exploration from confirmation
+
+Exploration discovers patterns, revises categories and generates hypotheses.
+Confirmation evaluates a pre-specified expectation against data and criteria
+not chosen to favour the observed result. Many humanities projects move
+iteratively between them; that movement becomes misleading only when the
+history is concealed.
+
+Keep an analysis diary with dated entries for corpus-boundary changes,
+category revisions, thresholds, exclusions and visual choices. Label
+exploratory charts. For a confirmatory pass, freeze the question, codebook,
+primary comparison and acceptance criteria, or use a new sample when one is
+available. If neither is possible, present the result as exploratory and make
+the limitation part of the argument.
+
+## Design provenance and validation together
+
+Validation is not a final button. It is a plan for discovering where the
+research design fails. Depending on the claim, include:
+
+- a random sample for an overall error estimate and a stratified sample for
+  rare or high-risk cases;
+- independent double coding, followed by a disagreement log rather than only
+  an agreement score;
+- checks of source locators, retained identifiers, row counts and duplicate
+  decisions;
+- sensitivity tests under alternative inclusion rules, date ranges or
+  normalization policies;
+- close reading of central cases, boundary cases, errors and outliers;
+- a comparison with a simpler baseline;
+- a deliberate search for evidence that could contradict the preferred
+  interpretation.
+
+Define thresholds and actions in advance: for example, pause data collection
+if more than 5% of sampled records lack resolvable source locators; redesign
+the date field if two coders cannot consistently distinguish exact, derived,
+approximate and unknown dates; do not aggregate a subgroup with fewer than a
+declared number of independent documents.
+
+A **stopping rule** prevents endless cleaning and convenient stopping after a
+favourable result. It may be a fixed corpus boundary, saturation criterion,
+time budget, target precision, maximum unresolved share or source-access
+gate. Record both the rule and whether it was met.
+
+## Worked example: *Archival friction*
+
+The packet starts with a two-page 1925 issue of *Ilustrirani Slovenec*. Its
+captions contain relative dates, historical names, partisan description and
+a tempting but unresolved “Meker/Meeker” identity. The provider OCR corrupts
+several words and diacritics. Four additional disturbances—a duplicate and
+conflicting values—are synthetic and separately declared.
+
+Suppose the question is: **Which source and processing uncertainties would
+change a comparison of named political actors in illustrated captions?** A
+compact design is:
+
+- **Source population:** the two pages of the cited issue, not all Slovene
+  illustrated press.
+- **Sampling frame and corpus:** every captioned unit on those pages; the
+  teaching table selects eight units for a pilot, so it cannot estimate the
+  distribution of the whole issue without completing the inventory.
+- **Observation unit:** one issue, portrait, group portrait or captioned
+  feature; `record_kind` preserves the difference.
+- **Indicators:** whether a person is named as printed, whether an authority
+  match is accepted, and whether a date is exact, derived, approximate or
+  unknown.
+- **Validation:** return every row to its PDF locator; compare provider OCR
+  with the gold excerpt; verify eight clean identifiers and exclude only the
+  declared synthetic duplicate.
+- **Stopping rule:** no authority identifier is added until an independent
+  source supports the match; unresolved cases remain unresolved.
+- **Claim limit:** the result evaluates record construction in this pilot. It
+  does not establish historical prominence or public opinion.
+
+The unresolved row is not a failed exercise. It demonstrates that good
+research design sometimes produces an explicit “not enough evidence”.
+
+## Practice: a design and stop/go memo
+
+Use the packet or a small source set from your field. Produce a one-page memo
+with:
+
+1. a bounded research question;
+2. source population, repository holdings, sampling frame and analytical
+   corpus;
+3. source-and-rights gate with a go, revise or stop decision;
+4. sampling, observation and analysis units;
+5. two indicators and their claim limits;
+6. inclusion, exclusion, duplicate and uncertainty rules;
+7. one baseline and one negative-evidence check;
+8. validation sample, error analysis and a stopping rule;
+9. the strongest defensible claim and one finding that would make you revise
+   it.
+
+**Check:** exchange memos. Your reader should be able to predict one record
+you would include, one you would exclude, and one you would keep as
+uncertain. **Failure mode:** if the memo names a platform but not a source
+population or unit, the method is still tool-led.
+
+## Reflection
+
+- Which absence in your project was produced before the archive, by the
+  archive, by digitization, by search, or by your own rule?
+- Which operational indicator is most convenient but least faithful to the
+  concept?
+- What right or community interest could override a technical possibility to
+  collect or publish?
+- Which error would most seriously damage the humanities interpretation?
+- What evidence would genuinely change your conclusion?
+
+## Summary
+
+A defensible digital-humanities method begins with a bounded question and a
+source-aware design. Archives, catalogues, interfaces and analytical corpora
+are different selections. A source-and-rights gate tests identity,
+provenance, completeness, reuse conditions, access and research fit before
+scale. Units, indicators, comparisons and missing-value rules turn concepts
+into inspectable operations without making them equivalent to their
+measurements.
+
+Selection logs, negative-evidence checks and explicit uncertainty prevent a
+catalogue gap from becoming a historical fact. Exploration may revise a
+design, but those revisions must remain visible. Provenance, validation,
+error analysis and stopping rules are parts of the argument, not technical
+appendices. The result is not certainty; it is a traceable account of what
+the selected evidence can and cannot support.
+
+## Further reading and references
+
+- Adcock, Robert, and David Collier. “[Measurement Validity: A Shared
+  Standard for Qualitative and Quantitative
+  Research](https://doi.org/10.1017/S0003055401003100).” *American Political
+  Science Review* 95, no. 3 (2001): 529–546. DOI:
+  `10.1017/S0003055401003100`.
+- Carter, Rodney G. S. “[Of Things Said and Unsaid: Power, Archival Silences,
+  and Power in
+  Silence](https://archivaria.ca/index.php/archivaria/article/view/12541).”
+  *Archivaria* 61 (2006): 215–233. Accessed 2 September 2026.
+- Global Indigenous Data Alliance. “[CARE Principles for Indigenous Data
+  Governance](https://www.gida-global.org/careprinciples).” Accessed 2
+  September 2026.
+- Trouillot, Michel-Rolph. [*Silencing the Past: Power and the Production of
+  History*](https://www.beacon.org/Silencing-the-Past-P1109.aspx). Boston:
+  Beacon Press, 1995. Publisher page accessed 2 September 2026.
+- Wilkinson, Mark D., et al. “[The FAIR Guiding Principles for Scientific
+  Data Management and
+  Stewardship](https://doi.org/10.1038/sdata.2016.18).” *Scientific Data* 3
+  (2016): 160018. DOI: `10.1038/sdata.2016.18`.
+
+[^trouillot]: Trouillot, *Silencing the Past*, especially his account of
+    silences entering the production of sources, archives, narratives and
+    retrospective significance.
+[^carter]: Carter, “Of Things Said and Unsaid,” 215–233. The article treats
+    archival silences as effects of power and also considers silence as an
+    exercise of agency by marginalized people.
+[^fair]: Wilkinson et al., “FAIR Guiding Principles.” FAIR concerns the
+    properties and stewardship of research objects; it does not by itself
+    settle whether access or reuse is ethically appropriate.
+[^care]: Global Indigenous Data Alliance, “CARE Principles.” The principles
+    are cited here as a corrective to assuming that technically open data
+    should circulate without collective authority and responsibility.
+[^validity]: Adcock and Collier, “Measurement Validity,” 529–546. Their
+    framework crosses qualitative and quantitative research and emphasizes
+    the contextual character of measurement claims.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Continue through the ecosystem"
@@ -1253,31 +1528,6 @@ The last distinction is crucial. Text analysis can measure textual cues and labe
     - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/)
 <!-- handbook-ecosystem:end -->
 
-## Practice
-
-Take a broad question from your field and complete this design card:
-
-| Element | Decision |
-|---|---|
-| Research question | |
-| Corpus or collection | |
-| Unit of analysis | |
-| Operational indicator(s) | |
-| Comparison/baseline | |
-| Validation sample | |
-| Main confound | |
-| Maximum defensible claim | |
-
-## Reflection
-
-- What does your operationalization make visible, and what does it erase?
-- Which simpler baseline should a complex method beat?
-- What error would most seriously damage the humanities interpretation?
-
-## Summary
-
-A digital method is appropriate only in relation to a research question, evidence model and claim. Operationalization, units, comparisons and validation are intellectual decisions. Good design defines the strongest claim the evidence can support and plans error analysis before scale makes mistakes expensive.
-
 ---
 
 ## Data, metadata and models
@@ -1286,119 +1536,428 @@ A digital method is appropriate only in relation to a research question, evidenc
 
 After this chapter, you should be able to:
 
-- distinguish data, metadata and documentation;
-- design stable identifiers and a simple tabular data model;
-- represent provenance, uncertainty and missingness explicitly;
-- recognize when a spreadsheet should become a relational database;
-- evaluate whether a schema reflects the research question or merely the available source format.
+- distinguish source objects, provider metadata, research data, metadata and documentation;
+- explain why a data model is an interpretation rather than neutral storage;
+- design stable identifiers, source locators and a simple relational structure;
+- preserve source wording alongside normalized dates, names and controlled terms;
+- represent uncertainty, missingness, duplicates, reprints and versions explicitly;
+- create an auditable provenance and correction log;
+- select a metadata standard or vocabulary for a declared purpose and test its fit.
 
 ## Before you begin
 
-Open a table you have used for research. Can you tell, without asking its creator, what one row represents, which columns are required, what blank cells mean, where the values came from and which version you are looking at? If not, the problem is not “messy data” alone; it is missing semantics.
+Open a table you have used for research. Can you tell, without asking its
+creator, what one row represents, which columns are required, what a blank
+means, where each value came from, and whether a name is transcribed or
+normalized? Can you return from a row to a page, line, image region or
+catalogue record? If not, the table lacks semantics and provenance, not just
+tidiness.
 
-This chapter concentrates on practical data structures and documentation. For the broader epistemic account of how sources, models and outputs become evidence, see [Models, evidence and interpretation](models-evidence-interpretation.md). When a collection interface, standard or export rule constrains the records available to you, use [Infrastructures of digital humanities](critical-infrastructures.md) to document that upstream selection as well.
+No database or coding experience is required. You need a small collection or
+the [*Archival friction* teaching
+packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+Your outputs will be a record model, data dictionary, correction log and
+quality report. A successful result preserves evidence even when a value is
+normalized or left unresolved. The central failure mode is silent
+replacement: making a table look consistent by erasing what the source,
+provider or researcher actually said.
 
-## Data, metadata and documentation
+For the question and sampling frame, begin with [From question to
+method](research-design.md). For the wider distinction among sources,
+representations, outputs and evidence, see [Models, evidence and
+interpretation](models-evidence-interpretation.md). The spreadsheet workflows
+in [Scholarly-work foundations](../foundations/scholarly-work.md)
+show how to keep raw, cleaned, decision and output layers separate without a
+programming requirement.
 
-In humanities research, **data** are recorded observations or representations used as evidence. **Metadata** describe the objects, records or processes: title, date, creator, source, language, rights, collection, coordinates, transcription status or annotation version. **Documentation** explains how the data and metadata were produced and how they should be interpreted.
+## Data are made for a purpose
 
-The distinction depends on the question. A publication date may be metadata in a corpus search but become analysed data in a study of publishing history.
+In humanities research, **data** are recorded observations or representations
+used to support inquiry. **Metadata** describe objects, records or processes:
+title, date, creator, language, rights, collection, source location,
+transcription status or transformation. **Documentation** explains the model,
+rules, history and limits that cannot be understood from cells alone.
 
-A robust project keeps all three layers:
+The roles depend on the question. A publication date is metadata when you
+retrieve a text, but analysed data in a history of publishing. A catalogue
+description is metadata about an object and a historical source about the
+institution that created the description.
 
-- the source or a stable reference to it;
-- structured records used in analysis;
-- documentation of transformations and decisions.
+Johanna Drucker uses *capta*—what has been taken—to emphasize that humanities
+data are constituted through selection and parameterization rather than found
+ready-made.[^drucker] The term is a valuable question, not a requirement to
+rename every file. Ask: who selected this unit, according to which model,
+from which surviving material, and with what loss?
 
-## What does one row mean?
+## A model is a set of commitments
 
-The most important table-design question is the **observation unit**. One row should represent one clearly defined thing: one document, person, place, event, sentence, annotation or relationship.
+A **data model** states what kinds of things exist for the project, which
+properties describe them, how they relate and which constraints apply. A
+spreadsheet with one row per caption is already a model. It treats a caption
+as a separable unit, chooses fields and decides which complexities remain in
+notes.
 
-Mixing levels creates errors. A table with one row per author but multiple book titles squeezed into cells cannot answer book-level questions reliably. A table with one row per newspaper issue but article-level topics in comma-separated lists cannot be filtered or counted without ambiguity.
+Distinguish three levels:
 
-A useful test is to complete the sentence:
+1. A **conceptual model** names entities and relations in scholarly language:
+   issue, page, image, caption, person, event, version and source.
+2. A **logical model** translates these into tables, fields, identifiers,
+   controlled values and constraints.
+3. A **physical representation** stores them in CSV, a spreadsheet, XML,
+   JSON, a relational database or another format.
+
+Changing software without revisiting the first two levels does not repair a
+poor model. Conversely, a careful small CSV can represent a defensible model.
+
+Geoffrey Bowker and Susan Leigh Star show that classifications organize work
+and distribute consequences while becoming easy to overlook as
+infrastructure.[^bowker-star] Therefore keep the source's categories, the
+provider's categories and your analytical categories distinguishable. A
+historical polemical label is evidence about a publication, not automatically
+an acceptable modern subject heading.
+
+## Define the record before the fields
+
+Complete the sentence:
 
 > Each row represents exactly one ________.
 
-If several answers are possible, split the data into related tables.
+If several answers fit, the table mixes levels. One row cannot safely be both
+an issue and every person pictured in it. Repeating issue metadata in each
+person row may be tolerable for a tiny export, but the underlying model still
+contains separate entities.
 
-## Identifiers before names
+For an illustrated periodical, a modest relational design might use:
 
-Names are labels, not stable identifiers. People change names; places have historical and multilingual variants; titles are repeated; spelling varies. Assign each entity a stable internal ID such as `person_0042` or `place_0187`, and store names as attributes or aliases.
+- `issues(issue_id, title_as_printed, issue_date, source_id, rights_status)`;
+- `pages(page_id, issue_id, page_label, file_id)`;
+- `features(feature_id, page_id, feature_type, caption_as_printed, region)`;
+- `persons(person_id, preferred_label, authority_uri, match_status)`;
+- `feature_agents(feature_id, person_id, role, certainty)`;
+- `decisions(decision_id, record_id, field, old_value, new_value, evidence)`.
 
-Identifiers should be:
+Both designs are defensible:
 
-- unique within the project;
-- persistent across revisions;
-- free of sensitive meaning where possible;
-- never silently recycled;
-- mapped to external identifiers such as Wikidata, VIAF or GeoNames when appropriate, without treating external reconciliation as infallible.
+| Schema | Enables | Suppresses or makes expensive |
+| --- | --- | --- |
+| Flat table | Rapid audit | Repeats data; obscures group portraits, versions and conflicting identities |
+| Relational | Cross-entity queries; typed uncertainty | Requires joins; distances inspection from the page |
 
-## Missing, unknown and not applicable
+## Identifiers before labels
 
-A blank cell is dangerously ambiguous. It might mean:
+Names and titles are labels, not reliable identifiers. They change, repeat,
+use several scripts and contain historical spelling. Give every record a
+stable, opaque project identifier such as `AF-P2-003`. Never recycle it for a
+different object. Preserve provider identifiers and external authority URIs
+in separate fields.
 
-- the value is unknown;
-- the value was not recorded;
-- the field does not apply;
-- the source is illegible;
-- the value is being withheld;
-- the work has not yet been completed.
+A good identifier does not claim that two records denote the same person. It
+only keeps your records stable. Identity is an evidential decision expressed
+through a relation such as `same_as`, `possible_match`, `duplicate_of`,
+`reprint_of` or `version_of`, with a status and rationale.
 
-Choose an explicit policy. In analysis tables, a machine-readable missing value may be appropriate, but preserve a separate status or note when different forms of uncertainty matter historically.
+Every content record also needs a **source locator**: page, column, image
+region, folio, timestamp or archival reference detailed enough for another
+reader to inspect the claim. A generic link to a collection homepage is not a
+locator.
 
-Do not replace unknown values with zero unless zero is a real observed value. “No recorded letters” is not the same as “zero letters were written.”
+## Preserve layers instead of overwriting
 
-## Controlled vocabularies and open text
+At least four values may legitimately differ:
 
-Controlled vocabularies make comparison possible: `novel`, `poetry`, `essay` rather than dozens of spelling variants. But fixed categories can erase ambiguity and impose modern distinctions.
+1. **source form** — visible in the historical object;
+2. **provider value** — catalogue metadata or machine OCR;
+3. **researcher transcription or normalization** — a documented correction;
+4. **analytical category** — a value created for a particular comparison.
 
-A practical pattern is to keep:
+Store them in different fields or tables. For a caption printed as “Mr.
+Meker”, an OCR layer might agree, an authority-search layer might propose
+“Ezra Meeker”, and the audited status may remain `unresolved`. Replacing the
+printed form with the candidate makes the source appear more certain than it
+is and prevents later review.
 
-- a controlled field for analysis;
-- the original source wording;
-- a note or confidence field;
-- a vocabulary document defining each category and its revisions.
+Keep four file or database layers even when you also separate values by
+field: a **source/raw layer** that is never silently changed; an **interim
+layer** for candidates and repeatable transformations; a
+**processed/modelled layer** containing the accepted interpretation for a
+stated purpose; and a **decision layer** recording interventions, rejections
+and unresolved cases. The interim layer is not evidence merely because a
+tool produced it, and the processed layer never replaces the source.
 
-Categories should be few enough to use consistently and rich enough to support the research question. “Other” is often necessary, but it should be inspected rather than treated as a bin for discomfort.
+A correction log should contain at least a decision identifier, record and
+field, previous and new value, action, evidence, responsible person or
+process, date and rule version. Fix systematic problems through repeatable
+transformations; use the log for source-specific judgement. Never “clean” the
+only copy.
 
-## Provenance and transformation
+## Provenance is a chain of responsibility
 
-Every derived value should be traceable. Record at least:
+**Provenance** records where a representation came from and how it changed.
+The W3C PROV family describes entities, activities and agents, but a small
+project does not need a full RDF implementation to benefit from the
+distinction.[^prov] A readable ledger can state:
 
-- source identifier and location;
-- date of acquisition;
-- method or script used;
-- software/model version where relevant;
-- person or process responsible;
-- manual corrections;
-- relationship between raw, cleaned and analysed files.
+| Entity produced | Activity | Used entity | Responsible agent | Time/version |
+| --- | --- | --- | --- | --- |
+| committed PDF | download without byte changes | provider file URL | packet maintainer | access date and checksum |
+| source record | manual selection and transcription | PDF page and region | researcher | codebook v1 |
+| cleaned record | documented correction | raw record and decision | researcher or script | run date/version |
+| chart | aggregation | cleaned release | named workflow | software and settings |
 
-A common folder structure separates `data/raw`, `data/interim`, `data/processed` and `output`. Raw data should be read-only whenever possible. Corrections belong in a documented transformation or correction table, not in silent overwriting.
+Checksums establish byte identity, not authenticity or accuracy. A matching
+hash proves that two files are identical; it does not prove that the provider
+described the object correctly or that your transcription is faithful.
 
-## When a spreadsheet stops being enough
+## Dates need form, value and certainty
 
-A spreadsheet is excellent for inspection and small flat datasets. Consider a relational database when:
+Humanities dates are often relative, approximate, disputed or incomplete.
+Keep at least:
 
-- one person has many works and one work has many persons;
-- records need stable relationships across tables;
-- repeated text values create inconsistency;
-- several people edit or query the data;
-- integrity rules matter;
-- the project needs reusable queries.
+- the wording as printed, for example `dne 1. t. m.` (“on the first of this
+  month”);
+- a normalized value such as `1925-02-01`;
+- a status such as `exact`, `derived_from_relative_date`, `approximate`,
+  `uncertain` or `unknown`;
+- the rule and contextual evidence used for normalization.
 
-The decision is not about prestige. A database is useful when relationships and constraints are part of the evidence.
+The Library of Congress Extended Date/Time Format (EDTF) provides syntax for
+uncertain (`1984?`), approximate (`2004-06~`), unspecified and interval
+dates.[^edtf] Use it only when your software supports the declared level and
+your readers can recover the original wording. A plain interval with explicit
+certainty fields may be more interoperable in a small project. Never turn
+“probably 1925” into the exact date `1925-01-01` merely because a spreadsheet
+expects a day.
 
-## Worked example: correspondence data
+## Names and authority reconciliation
 
-A correspondence project might use four tables:
+Authority files can connect spelling variants and supply durable identifiers,
+but reconciliation is a research claim. Preserve:
 
-- `persons(person_id, preferred_name, birth_year, ...)`
-- `letters(letter_id, date_text, date_start, date_end, source_id, ...)`
-- `letter_participants(letter_id, person_id, role)`
-- `places(place_id, preferred_name, latitude, longitude, ...)`
+- `name_as_printed`;
+- a normalized display label, if needed;
+- the authority system and candidate URI;
+- match status (`accepted`, `possible`, `rejected`, `unresolved`);
+- evidence and reviewer;
+- access date, because interfaces and records change.
 
-The participant table allows several senders, recipients, copied persons or uncertain roles without adding columns such as `recipient_2` and `recipient_3`. The date is represented both as the original string and as a computable interval, preserving uncertainty such as “spring 1898.”
+Do not accept the highest search result solely because the label matches. Test
+dates, roles, places, associates and source context. A historical newspaper
+may misspell a name; two contemporaries may share one; an authority record
+may itself be incomplete. The Getty Vocabularies, for example, provide
+persistent subject identifiers and variant names but describe an evolving,
+domain-bounded resource, not a universal list of people and places.[^getty]
+
+Treat reconciliation as **linking with evidence**, not replacing the local
+record. If no candidate is sufficiently supported, `unresolved` is a valid
+result.
+
+## Missingness has meanings
+
+A blank can mean unknown, not recorded, illegible, not applicable, withheld,
+not yet checked or lost during processing. These states have different
+historical and ethical consequences. Define allowed missing-status values in
+the data dictionary and use a separate note when needed.
+
+Do not replace unknown values with zero. “No surviving record was found” is
+not “zero events occurred”. Do not publish a suppressed value as `unknown` if
+that erases a community or privacy decision; record the access category at an
+appropriate level without exposing the protected value.
+
+## Duplicates, reprints and versions are relations
+
+Exact file copies can be detected with hashes, but documentary identity is
+not only byte identity. A reprinted article, a revised edition, an OCR export
+and a new scan of the same page can share content while serving different
+research purposes.
+
+Avoid one overloaded `duplicate` flag. Prefer typed relations:
+
+- `duplicate_of`: the same record entered twice;
+- `copy_of`: another carrier of substantially the same object;
+- `reprint_of`: republication in a new issue or venue;
+- `version_of`: a related state with meaningful change;
+- `derived_from`: OCR, normalization, crop or analysis output based on a
+  source representation.
+
+Then state the analytical rule. A study of circulation may count reprints; a
+lexical study may retain only one text instance; a study of OCR may compare
+several scans of the same page. Never delete relations that later researchers
+would need to reconstruct the choice.
+
+## Standards are tools, not automatic quality
+
+A standard supplies shared terms or structures, but it cannot decide what
+your project should observe. Start from requirements, then choose a small
+**application profile**: the fields, obligations, vocabularies and local rules
+you will actually use.
+
+- [DCMI Metadata Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
+  provide broad cross-domain properties and stable term URIs.
+- [TEI P5](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/)
+  represents textual structure and editorial alternatives; `<choice>` can
+  group original and corrected forms rather than erasing one.[^tei]
+- [CIDOC CRM](https://cidoc-crm.org/get-last-official-release) offers a
+  conceptual model for cultural-heritage entities and event-centred
+  relations. The last official release listed on 2 September 2026 was 7.1.3;
+  later versions on the versions page were drafts.[^cidoc]
+
+Interface and specification pages are mutable; record access dates and pin a
+version when exact conformance matters. A minimal local schema with clear
+crosswalks may be better than claiming full compliance with a large standard
+you use only superficially.
+
+Audit the fit with concrete questions: Can the profile preserve source
+wording and a normalized value? Can it distinguish an uncertain identity
+from a confirmed one? Can it record rights for both the source and your
+annotations? Does export round-trip without losing language, diacritics,
+identifiers or relations?
+
+## Quality checks for a small scholarly dataset
+
+Run structural and interpretive checks:
+
+- identifiers are unique, non-blank and stable;
+- foreign keys point to existing records;
+- required source locators and rights fields are present;
+- controlled values occur in the versioned vocabulary;
+- normalized dates match their declared precision and certainty;
+- original strings remain unchanged;
+- accepted authority links have recorded evidence;
+- duplicate and version relations are typed and non-circular;
+- row counts and retained identifiers match the decision log;
+- a stratified sample returns correctly to the facsimile;
+- exports preserve UTF-8 text and leading identifier characters.
+
+Automated checks find structural contradictions. They cannot decide whether a
+caption is politically neutral, a person match is historically persuasive or
+a category is adequate. Combine them with source review.
+
+## Worked example: eight records under friction
+
+The teaching packet records eight units from a two-page issue. The source
+table preserves transcribed labels, provider OCR, printed dates, normalized
+dates, certainty, names, candidate authorities, source locators and evidence
+notes. A separate perturbation table introduces four declared teaching
+problems. The generated raw table therefore contains nine rows: three altered
+fields and one duplicate row.
+
+The audit proceeds as follows:
+
+1. Verify the committed PDF against its provider and SHA-256.
+2. Confirm that all eight source identifiers resolve to a page and region.
+3. Compare each changed raw field with the facsimile, not only the clean
+   answer table.
+4. Restore the caption's capitalization where the image decides the matter.
+5. Remove only the row explicitly declared as a synthetic duplicate; retain
+   the underlying feature.
+6. Reject the silent change from “Meker” to “Meeker” and leave the authority
+   candidate blank because the packet supplies no independent evidence.
+7. Retain derived and approximate dates with their statuses rather than
+   converting them to unqualified exact dates.
+8. Verify eight clean record IDs, four logged decisions and no altered source
+   bytes.
+
+The clean result is not a claim that all eight records are complete. It is a
+claim that every retained value has a declared evidential status and can be
+audited.
+
+## Practice: build and audit a record model
+
+Using the packet or five to ten records from your field, prepare:
+
+1. a conceptual sketch of entities and relations;
+2. a table or set of tables in which every row has one meaning;
+3. stable internal identifiers and precise source locators;
+4. separate source, provider, normalized and analytical values where they
+   differ;
+5. a data dictionary defining type, allowed values, missingness and
+   obligation for every field;
+6. one uncertain date, one unresolved authority candidate and one typed
+   duplicate/version relation;
+7. a correction and provenance log;
+8. a quality report containing row counts, identifier checks and two manual
+   source comparisons.
+
+**Check:** another reader should be able to reconstruct one normalized value
+and explain one unresolved value without asking you. **Failure mode:** if the
+cleaned table is more confident than the source and the decision log cannot
+explain why, restore the layers before analysing it.
+
+## Reflection
+
+- Which fields describe the historical object, and which describe your
+  encounter with it?
+- Which category comes from the source, provider, standard or research
+  question?
+- Could an external authority link import a modern or domain-specific
+  identity into a historically ambiguous record?
+- Which blank values represent archival silence, and which represent
+  unfinished work?
+- What would be lost if every reprint or version were collapsed into one
+  “master” record?
+
+## Summary
+
+Humanities data are structured representations made for a purpose. A model
+defines entities, properties, relations and constraints before a file format
+implements them. Stable identifiers keep records continuous; source locators
+return claims to evidence. Original, provider, normalized and analytical
+values must remain distinguishable.
+
+Dates require printed form, normalized value and certainty. Names require
+evidence-based reconciliation, not automatic replacement. Missingness,
+duplicates, reprints and versions carry meaning and should be modelled rather
+than erased. Provenance and correction logs assign responsibility to each
+transformation. Standards can improve exchange when used through a declared,
+versioned application profile, but conformance does not substitute for
+source criticism. Good data are not frictionless facts: they are records whose
+construction, uncertainty and limits remain inspectable.
+
+## Further reading and references
+
+- Bowker, Geoffrey C., and Susan Leigh Star. [*Sorting Things Out:
+  Classification and Its
+  Consequences*](https://mitpress.mit.edu/9780262024617/sorting-things-out/).
+  MIT Press, 1999. Publisher page accessed 2 September 2026.
+- CIDOC CRM Special Interest Group. [*Definition of the CIDOC Conceptual
+  Reference Model*, version
+  7.1.3](https://cidoc-crm.org/get-last-official-release). February 2024.
+  Accessed 2 September 2026.
+- Dublin Core Metadata Initiative. “[DCMI Metadata
+  Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/).”
+  DCMI Recommendation, issued 20 January 2020. Accessed 2 September 2026.
+- Drucker, Johanna. “[Humanities Approaches to Graphical
+  Display](https://dhq.digitalhumanities.org/vol/5/1/000091/000091.html).”
+  *Digital Humanities Quarterly* 5, no. 1 (2011). Accessed 2 September 2026.
+- Library of Congress. “[Extended Date/Time Format (EDTF)
+  Specification](https://www.loc.gov/standards/datetime/).” 4 February 2019.
+  Accessed 2 September 2026.
+- Moreau, Luc, and Paolo Missier, eds. “[PROV-DM: The PROV Data
+  Model](https://www.w3.org/TR/prov-dm/).” W3C Recommendation, 30 April 2013.
+  Accessed 2 September 2026.
+- TEI Consortium. [*TEI P5: Guidelines for Electronic Text Encoding and
+  Interchange*](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/), version
+  4.11.0, 18 February 2026. Accessed 2 September 2026.
+
+[^drucker]: Drucker, “Humanities Approaches to Graphical Display,” on data as
+    capta and the interpretive character of parameterization.
+[^bowker-star]: Bowker and Star, *Sorting Things Out*, especially their
+    analysis of classification systems as consequential infrastructure.
+[^prov]: W3C, “PROV-DM.” The formal model is optional here; the practical
+    distinction among an entity, an activity and a responsible agent is the
+    important minimum.
+[^edtf]: Library of Congress, “EDTF Specification.” The 2019 specification
+    defines conformance levels and syntax for reduced precision, uncertainty,
+    approximation and intervals.
+[^getty]: Getty Research Institute, “[Obtain the Getty
+    Vocabularies](https://www.getty.edu/research/tools/vocabularies/obtain/).”
+    The page documents identifiers, open-data terms and changing delivery
+    services. Accessed 2 September 2026.
+[^tei]: TEI Consortium, “[`<choice>`](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-choice.html),”
+    P5 version 4.11.0. Accessed 2 September 2026.
+[^cidoc]: CIDOC CRM Special Interest Group, “[Versions of the
+    CIDOC-CRM](https://cidoc-crm.org/versions-of-the-cidoc-crm).” Accessed 2
+    September 2026.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Continue through the ecosystem"
@@ -1406,6 +1965,7 @@ The participant table allows several senders, recipients, copied persons or unce
 
     - [How do I import and clean a small dataset in Excel?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel/)
     - [How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
+    - [How do I reconcile conflicting metadata without erasing uncertainty?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty/)
     - [How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)
     - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)
     - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)
@@ -1417,141 +1977,262 @@ The participant table allows several senders, recipients, copied persons or unce
     - [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/)
 <!-- handbook-ecosystem:end -->
 
-## Practice
-
-Take a small humanities collection and create:
-
-1. a data dictionary with field name, definition, type, allowed values and missing-value policy;
-2. five example records;
-3. a provenance note explaining one transformation;
-4. a list of entities that need stable identifiers.
-
-## Reflection
-
-- Which categories come from the historical source, and which come from your research design?
-- Could another researcher reconstruct a derived value from your records?
-- What does a blank cell mean in each field?
-
-## Summary
-
-Data structure is interpretation made operational. Clear observation units, stable identifiers, explicit missingness, documented vocabularies and provenance make analysis possible without pretending that cultural evidence is cleaner or more certain than it is. Use a database when relationships and constraints matter, not simply because the dataset is “serious.”
-
 ---
 
 ## Texts, corpora and OCR
+
+A searchable transcription can make an archive feel complete. It is not the archive. It is one representation produced from selected objects, page images, layout decisions, a recognition system and editorial rules. What can you responsibly infer when every one of those stages can omit or alter evidence?
+
+This chapter treats a corpus as a research instrument rather than a folder of text. It connects [research design](research-design.md), [data, metadata and models](data-metadata-models.md), and [critical infrastructures](critical-infrastructures.md). Its worked example uses the open [Archival Friction teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction), so you can inspect the scan, provider text, reference transcription, metadata decisions and validation results together.
 
 ## Learning outcomes
 
 After this chapter, you should be able to:
 
-- distinguish document images, OCR text, corrected text, linguistic annotation and metadata;
-- design a corpus around a question rather than around convenience;
-- assess representativeness, balance and comparability;
-- choose a normalization policy appropriate to historical or non-standard language;
-- measure OCR quality and explain its effect on later analysis.
+- distinguish OCR from HTR and distinguish page image, layout, transcription, normalized text, annotation and metadata layers;
+- write a transcription policy for historical print or handwriting;
+- define a target population, sampling frame and defensible corpus sample;
+- calculate and interpret character error rate (CER) and word error rate (WER) against a reference transcription;
+- test whether recognition errors threaten a particular search, count or interpretation;
+- preserve source, rights, processing and correction provenance through a text pipeline; and
+- describe duplicate, reprint and version relationships without erasing historically meaningful circulation.
 
 ## Before you begin
 
-Open a scanned historical page and its OCR transcription. Find five differences. Which errors would prevent search? Which would change a word frequency? Which would mislead a named-entity recognizer? Not every error has the same research cost.
+You need no command line or programming experience. You do need a research question, permission to use the material, a small set of document images, and a spreadsheet or text editor. For evaluation, you also need a carefully checked reference transcription of a sample.
 
-Digitization, OCR and corpus delivery depend on institutional choices as well as software. Use [Infrastructures of digital humanities](critical-infrastructures.md) to examine selection, access and maintenance, and [Digital humanities in Slovenia](digital-humanities-in-slovenia.md) for a local example of the steps between a library scan and a deposited corpus.
+Your outputs are a corpus card, rights record, transcription policy, linked layers, sampling log, quality report, correction log and known-problems note. Another reader must be able to recover a passage's source, transformations and remaining limits.
 
-## A digital text has layers
+## Begin with the research claim
 
-A single document can have several related representations:
+Suppose you want to examine how a 1925 illustrated newspaper represented public institutions. “Download all available OCR” does not define a method. Ask instead:
 
-1. **image** — the scan or photograph;
-2. **layout description** — regions, columns, lines, marginalia;
-3. **diplomatic transcription** — a close record of visible characters and structure;
-4. **normalized text** — standardized spelling, punctuation or encoding;
-5. **linguistic annotation** — tokens, lemmas, part-of-speech tags, entities or syntax;
-6. **metadata** — source, date, author, genre, rights and processing history.
+- What is the target population: one title in 1925, illustrated newspapers in the region, or all surviving periodicals accessible through one portal?
+- What is the unit of sampling: issue, page, article, caption or advertisement?
+- What is the unit of analysis: word, named person, image-caption pair, article or issue?
+- Which comparisons matter: months, genres, publishers, languages or page positions?
+- What evidence would contradict the interpretation?
 
-These layers should not silently overwrite one another. The image remains evidence when OCR is uncertain. The diplomatic text preserves historical form. A normalized version may support search, but it is an interpretation and should be linked to the original.
+These decisions reveal when the available collection cannot answer the question. As Douglas Biber argues, representativeness begins with a defined population and theoretically relevant strata, not a large word count.
 
-## Corpus design begins with inclusion rules
+## Pass a source-and-rights gate before recognition
 
-A corpus is a purposive collection of texts, not simply a folder containing many files. Its boundaries must be justified.
+Before running OCR or HTR, make one record for each source object. At minimum record:
 
-Specify:
+- repository and collection;
+- stable source URL or catalogue identifier;
+- title, creator or publisher, date and extent as supplied;
+- rights statement or licence and who made that assessment;
+- access date and download date;
+- file name, format, size and cryptographic checksum;
+- whether the file is the repository original, a derivative or your own capture; and
+- known missing pages, access restrictions or sensitive content.
 
-- target population: what larger body of texts the corpus is intended to represent;
-- sampling frame: which materials were actually available for selection;
-- inclusion and exclusion criteria;
-- time, genre, region, language and authorship coverage;
-- unit of sampling and unit of analysis;
-- known gaps, duplication and rights restrictions.
+Stop if you cannot identify the source, obtain or document permission, or explain whether redistribution is allowed. Revise the plan if research use is permitted but republishing images is not. Proceed only when the intended acquisition, processing and delivery are compatible with the rights record. “Online” does not mean public domain, and a public-domain work may still be delivered through a file with institutional terms or personal data concerns.
 
-A million web pages may be less useful than one thousand well-documented documents if the research requires period, genre or authorship comparisons.
+The packet models this gate in `RIGHTS.md`, `SOURCE_CITATION.md`, `source/commons-source.json` and the checksum manifest. Its source PDF is an unchanged Wikimedia Commons copy of *Ilustrirani Slovenec* dated 7 February 1925, with its catalogue record, public-domain status, access date and digest. This tiny sample tests a method; it cannot represent the newspaper.
 
-## Representativeness is a claim
+## OCR and HTR solve related but different problems
 
-No corpus represents “language” or “culture” in the abstract. It represents a defined population under a set of choices. Web corpora overrepresent material that is public, crawlable and search-engine visible. Newspaper archives reflect survival, licensing and digitization priorities. Literary corpora often overrepresent canonical, public-domain works.
+**Optical character recognition (OCR)** usually means automatic recognition of printed or typeset characters in a page image. **Handwritten text recognition (HTR)** predicts sequences from handwriting, often using models trained or adapted on line images and transcriptions. Historical type, mixed print and handwriting, marginal additions and decorative headings blur the boundary; record what model and process you actually used rather than relying on the label.
 
-Use metadata tables and distribution plots to inspect balance. Count documents and words by year, genre, source, author and other relevant strata. Large word counts do not compensate for a missing category.
+Multiple hands may require separate models or validation strata. A model confidence score is an output under that model's assumptions, not a measured error rate; calibrate it against checked text before using it as a filter.
 
-## OCR as measurement
+Recognition is only one stage. Segmentation identifies regions, columns, reading order and lines; transcription predicts characters or words; correction alters that prediction; export may flatten layout. Plausible plain text can therefore put correct words in the wrong order or omit a caption.
 
-Optical character recognition predicts text from images. It is not neutral transcription. Quality depends on print, script, language model, scan resolution, layout, hyphenation, page damage and historical spelling.
+Interfaces, model catalogues and export menus change. Record the service, version or access date, model identifier, settings and export format. Preserve the input and downloaded result; if a hosted service cannot expose a stable version, say so.
 
-Two common measures are:
+## Keep the document layers linked
 
-- **character error rate (CER):** substitutions, insertions and deletions relative to reference characters;
-- **word error rate (WER):** the same logic at word level.
+A text object contains non-interchangeable layers:
 
-A global score can hide unequal failure. Proper names, diacritics, small type, tables or minority-language passages may be much worse than ordinary prose. Evaluate a stratified sample that includes difficult pages and the text features central to the research.
+1. **source object** — the physical or born-digital item described by the repository;
+2. **page image** — a scan or photograph with a stable page identifier;
+3. **layout** — regions, columns, lines, reading order and coordinates;
+4. **provider transcription** — the text delivered by an archive or recognition service;
+5. **reference or corrected transcription** — human-checked text under a declared policy;
+6. **normalized text** — standardized spelling, whitespace or characters for a stated purpose;
+7. **annotation** — tokens, entities, topics, editorial notes or linguistic labels; and
+8. **metadata and provenance** — identity, rights, relations and processing history.
 
-## The downstream cost of OCR errors
+Never overwrite one layer with another. Corrections should point to the previous value, source location, agent, date and rule. TEI `<choice>` can represent original and corrected forms; ALTO XML can preserve strings and layout; IIIF manifests can link page views, rights and annotations. Their separation of object, surface, text and description is a useful design test.
 
-OCR affects methods differently:
+## Write the transcription policy before making ground truth
 
-- full-text search loses recall when target words are misspelled;
-- frequency lists fragment one word into many erroneous forms;
-- lemmatizers and taggers may fail on corrupted tokens;
-- named-entity recognition is especially vulnerable to unusual names;
-- topic models may create noise topics around repeated OCR artefacts;
-- quotations and editions require much higher fidelity than aggregate trends.
+A **reference transcription**, often called *ground truth*, is human-produced under explicit conventions. Two transcribers can disagree because one records glyphs and line breaks while another records words. Write and pilot the policy before transcribing the evaluation sample.
 
-The right correction effort therefore depends on the claim. A rough trend analysis may tolerate errors that a scholarly edition cannot.
+Specify at least:
 
-## Normalization and historical variation
+- **scope:** body text only, or also mastheads, captions, advertisements, page numbers and marginalia;
+- **reading order:** how columns, boxes, footnotes and interrupted articles are sequenced;
+- **line breaks and hyphenation:** whether layout line breaks are preserved; whether a word divided at a line end remains divided, is joined, or records both forms;
+- **characters and ligatures:** whether visible ligatures and historical glyphs are encoded literally, expanded, or represented by an original/normalized pair;
+- **spelling and punctuation:** whether historical spelling, capitalization, abbreviation and punctuation are retained;
+- **Unicode:** which composed characters, quotation marks, dashes, spaces and replacement symbols are permitted;
+- **illegible or missing text:** the notation for unreadable, damaged and cropped passages;
+- **corrections:** how printer's errors, handwritten corrections and editorial interventions are represented; and
+- **layout:** whether paragraphs, headings, tables and image captions are represented in plain text, structured markup or a separate layout file.
 
-Normalization can improve comparability but erase evidence. Keep the original and normalized forms separately. Document rules for:
+These choices change CER and WER. If the reference joins a line-end word while the OCR preserves a hyphen and newline, the score measures a policy difference as well as recognition. Normalize only the features declared irrelevant to the test, apply the same normalization to candidate and reference, and publish that rule.
 
-- Unicode and character encoding;
-- line-break hyphenation;
-- historical characters and diacritics;
-- spelling variants;
-- punctuation and quotation marks;
-- boilerplate, headers and page numbers;
-- language mixing and code-switching.
+## A corpus is a designed sample
 
-Automatic normalization should be reversible or at least auditable. A correction list with source form, replacement, context and reason is preferable to undocumented search-and-replace.
+The **target population** is the larger body about which you want to make a claim. The **sampling frame** is what you could actually select. Describe gaps caused by survival, cataloguing, digitization, licensing or access.
 
-## Deduplication and document identity
+Then distinguish three related properties:
 
-Digital collections often contain duplicates: mirrored web pages, syndicated news, revised editions, OCR exports of the same scan or documents quoted inside other documents. Duplicates can dominate frequencies and falsely increase confidence.
+- **coverage** asks whether relevant categories and periods are present;
+- **balance** describes their proportions in the corpus; and
+- **comparability** asks whether groups were produced and processed in sufficiently similar ways for the proposed contrast.
 
-Assign document IDs, calculate exact hashes for identical files and use similarity methods for near-duplicates. Do not delete blindly: duplicated circulation may itself be historically meaningful. Mark relationships such as `duplicate_of`, `reprint_of` or `version_of` and decide which level the analysis needs.
+A balanced corpus is not automatically representative: equal numbers by decade may differ from the historical population. Comparability can fail when one decade uses repository OCR and another newly corrected HTR.
 
-## Worked example: a historical newspaper corpus
+Create a sampling table with strata, eligibility, selection, rights, image quality, recognition route and exclusions. Count documents and words. Random sampling within strata can reduce convenience bias; label purposive selection honestly.
 
-A defensible workflow might be:
+## Build an evaluation sample that can reveal failure
 
-1. select newspaper titles and years according to the question;
-2. record issue-level and article-level metadata;
-3. retain page images and OCR separately;
-4. sample pages across titles, years and layout types for OCR evaluation;
-5. correct high-impact systematic errors;
-6. segment articles and preserve links to page coordinates;
-7. document missing issues and changes in publication frequency;
-8. compare word and document distributions before analysis;
-9. keep an error register and cite the corpus release.
+Do not evaluate only the cleanest page. Select a sample across the features that may affect the claim: year, title, typeface or hand, scan quality, column count, language, genre, captions, tables, damage and proper names. Keep a random or systematic component so memorable failures do not define the whole estimate. Add an explicitly purposive “challenge” set if needed, but report it separately.
+
+One checked passage can teach the mechanics. For research, record sample size, selection, strata, transcribers, checking, disagreement resolution and policy version. An estimate says nothing about excluded advertisements or handwriting.
+
+## Worked example: archival friction
+
+### Where the first pipeline fails
+
+The packet begins with a two-page illustrated newspaper and provider OCR. Treating the exported text as the article silently accepts unstable column order, missed captions and corrupted names. Treating every caption as an article also confuses document and analytical units. The sample is too small and too selectively illustrated to support a claim about the newspaper as a whole.
+
+### Manual intervention
+
+The reference transcription follows a declared reading order, retains historical spelling and punctuation, and joins layout-only line breaks. The provider export stays unchanged in `raw/`; the checked passage is a separate `cleaned/` object. A human compares image and text, logs error categories, checks disputed names and calculates CER and WER under one normalization rule.
+
+### What remains uncertain
+
+The identity behind “Mr. Meker” is unresolved, the date of one photograph is only approximate, and untranscribed regions have not been evaluated. The exercise does not estimate variation across issues, layouts or recognition models.
+
+### Effect on the downstream claim
+
+The checked passage has CER 0.025381 and WER 0.096774, but a corrupted proper name still changes exact search. You may claim that the provider text needs name-aware checking for this passage. You may not infer a publication-wide error rate or interpret absence from search as historical absence.
+
+## Calculate CER and WER
+
+Align the recognition output with the reference and count the minimum substitutions \(S\), deletions \(D\) and insertions \(I\). For a reference of \(N\) units:
+
+\[
+\mathrm{error\ rate}=\frac{S+D+I}{N}
+\]
+
+Use characters for **CER** and defined word tokens for **WER**. State whether spaces, punctuation and case count as characters, how Unicode is normalized and how words are tokenized. Because insertions are possible, an error rate can exceed 1. Do not convert the score into “percent accuracy” without defining the relationship; the intuitive complement can be misleading when alignment contains insertions.
+
+The packet records 591 reference characters and 15 edits, hence CER \(15/591=0.025381\). Its 93 whitespace-delimited reference words and 9 edits give WER \(9/93=0.096774\). These deterministic values describe one passage, not an issue, title, platform or model.
+
+## Turn one score into an error profile
+
+CER and WER collapse different failures. Add an error table with source location, reference, candidate, operation, category and likely consequence. Useful categories include:
+
+- character confusion, especially diacritics and historically similar glyphs;
+- joined or split words;
+- line-end hyphenation;
+- omitted line, region, column or caption;
+- duplicated text or wrong reading order;
+- punctuation or case difference;
+- proper name, date or number error; and
+- editorial-policy disagreement rather than recognition failure.
+
+Report metrics by relevant stratum when the sample permits. A low aggregate CER can coexist with catastrophic omission of captions or poor recall for names. Conversely, historical spelling is not an OCR error when the image contains it.
+
+## Test the downstream claim, not an abstract threshold
+
+There is no universal “good enough” CER. The acceptable error depends on the task and the distribution of error. Full-text search loses recall when target strings are corrupted. Frequency lists split one lexical item into variants. Named-entity recognition is vulnerable to rare names. Topic or clustering methods can organize repeated recognition noise. Exact quotation, collation and scholarly editing require direct verification against the image.
+
+Evaluate the task itself:
+
+1. Write the intended claim and the text features it depends on.
+2. Run a small analysis on provider text and checked text.
+3. Compare retrieved items, counts, rankings or classifications.
+4. Inspect false negatives and false positives by stratum.
+5. Decide whether to correct, change method, narrow the claim or stop.
+
+Research by Traub, van Ossenbruggen and Hardman and by Hill and Hengchen shows that OCR's effect depends on the research task. Quality reporting should combine intrinsic metrics, error categories and a downstream test.
+
+## Preserve duplicates, reprints and versions as relations
+
+The same content may appear as an identical file, second scan, syndicated article, changed reprint, revised edition or OCR export. These are different relations.
+
+Use stable identifiers. Checksums detect byte-identical files, not intellectual identity. Review metadata and text, then record `duplicate_of`, `reprint_of` or `version_of`. Decide whether analysis counts manifestations, articles or works; retain repetition when circulation is the phenomenon.
+
+If one record represents several manifestations, retain a relation table and explicit selection rule, then verify identifiers and counts. Similarity is evidence for review, not historical judgment.
+
+## Design the pipeline as a chain of evidence
+
+Use directories or equivalent storage layers whose roles remain visible:
+
+```text
+source/          repository file and source metadata
+raw/             unchanged provider OCR or HTR export
+cleaned/         checked or normalized derivatives
+output/          metrics, corpus tables and analytical results
+validation/      expected values, checksums and test reports
+known-problems/  unresolved errors and scope limits
+```
+
+Record each transformation with input, output, procedure, version or access date, parameters, agent, date and result. A manifest should connect identifiers, paths, checksums, media types and layer roles. After correction, verify files, unique identifiers, page links, counts, raw checksums, encoding and recomputed metrics.
+
+A script may automate these checks, but automation is an optional extension. A spreadsheet checklist and operating-system checksum tool can implement the same control. Passing this chapter requires the evidence chain, not a particular platform.
+
+## Practice: make one defensible claim
+
+Download or open the [Archival Friction teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+
+1. Read the rights record and source citation. State whether you may redistribute the included PDF and why.
+2. Inspect both source pages before reading the transcriptions. Identify two layout features likely to affect reading order.
+3. Compare `raw/provider-ocr.txt` with `cleaned/gold-transcription.txt`. Classify at least five differences.
+4. Read `source/transcription-note.md`. Decide whether each difference is recognition error, policy difference or unresolved reading.
+5. Confirm the reported character and word counts and explain why the rates differ.
+6. Choose one task—search for a name, count a form or quote a sentence—and test it on both versions.
+7. Write a claim limited to this sample, followed by one sentence explaining what you cannot generalize.
+
+The exercise passes if another student can trace every number and quotation to a file and page, reproduce your classification under the stated policy, and see why your conclusion is no broader than the sample.
+
+## Failure modes and repair decisions
+
+Stop when rights are incompatible with the planned output, source identity is unresolved, pages are missing in a way that invalidates the comparison, or reference transcription cannot be checked. Revise when strata are absent, identifiers are unstable, policy changed midstream, layout was flattened incorrectly, or a downstream result changes materially after correction. Proceed with a documented limitation when the error is measured, its likely effect is bounded and the claim remains supported.
+
+Never replace the raw file. Preserve failed output, log corrections and issue a new derivative. Record a rerun after a model or interface change as another version.
+
+## Ethics and licensing limits
+
+Recognition can expose names or sensitive facts that were difficult to search in images. Public-domain status does not remove privacy, community authority or contextual-harm concerns. Follow repository restrictions and relevant law, minimize unnecessary personal data, and document access decisions.
+
+Credit scanning, cataloguing, transcription, correction and community knowledge as labour. Do not call provider OCR your transcription. Specify training, review, attribution and disagreement procedures for student or volunteer work.
+
+## Reflection
+
+- Which texts are absent before recognition even begins?
+- Which transcription rule most changes your planned measurement?
+- Does your quality sample represent ordinary material, difficult material, or both?
+- Would the same error profile support search but invalidate quotation?
+- When is a reprint noise, and when is it evidence of circulation?
+
+## Summary
+
+A corpus is an argued relationship between a question, a population, an available sampling frame and linked representations. OCR and HTR produce useful predictions, not transparent text. Preserve page, layout, provider, corrected, normalized and annotated layers; define transcription policy before evaluation; report CER and WER with their rules and strata; and test the downstream claim. Rights, provenance and known failures belong inside the pipeline. More text does not repair an unexamined sample.
+
+## Further reading and current technical references
+
+- Biber, Douglas. 1993. [“Representativeness in Corpus Design.”](https://doi.org/10.1093/llc/8.4.243) *Literary and Linguistic Computing* 8 (4): 243–257.
+- Traub, Myriam C., Jacco van Ossenbruggen, and Lynda Hardman. 2015. [“Impact Analysis of OCR Quality on Research Tasks in Digital Archives.”](https://doi.org/10.1007/978-3-319-24592-8_19) In *Research and Advanced Technology for Digital Libraries*, 252–263.
+- OCR-D. [Ground Truth Guidelines](https://ocr-d.de/en/gt-guidelines/trans/) and [quality-assurance definition of CER](https://ocr-d.de/en/spec/ocrd_eval.html) (living technical documentation; accessed 2 September 2026).
+- Text Encoding Initiative. [TEI P5 Guidelines, `<choice>`](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-choice.html), version 4.11.0 dated 18 February 2026 (accessed 2 September 2026).
+- Library of Congress. [ALTO: Technical Metadata for Layout and Text Objects](https://www.loc.gov/standards/alto/) (current official schema listed as 4.4; accessed 2 September 2026).
+- IIIF Consortium. [Presentation API 3.0](https://iiif.io/api/presentation/3.0/) (stable version 3.0.0 at access; accessed 2 September 2026). A 4.0 release candidate was also listed, so implementations should record the version they use.
+
+Technical pages and interfaces are mutable. Record versions and access dates.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
+    - [How do I evaluate OCR or HTR against a reference sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)
     - [How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/bulk-download-pdfs-and-ocr-them/)
     - [How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/)
     - [How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/deduplicate-corpus-text-with-minhash/)
@@ -1563,20 +2244,6 @@ A defensible workflow might be:
     - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)
     - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/)
 <!-- handbook-ecosystem:end -->
-
-## Practice
-
-Create a corpus card for a collection you could realistically build. Include target population, sampling frame, inclusion rules, exclusion rules, metadata fields, expected OCR or extraction errors, duplicate policy and the strongest comparison the corpus can support.
-
-## Reflection
-
-- Which missing texts are invisible because they were never digitized?
-- Would normalization remove a feature your interpretation might later need?
-- Which OCR errors matter most for your planned method?
-
-## Summary
-
-A text corpus is a documented research instrument. It consists of linked layers, explicit boundaries, metadata and measured transformations. OCR and normalization create useful text but also new uncertainty. Corpus quality is not the number of tokens; it is the fit between selection, representation, error profile and research claim.
 
 ---
 
@@ -1691,6 +2358,7 @@ The annotation reduces the search space. It does not replace the interpretive di
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
+    - [How do I evaluate OCR or HTR against a reference sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)
     - [How do I install and test CLASSLA with Python 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-and-test-classla/)
     - [How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)
     - [How do I export CLASSLA results to CSV?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/export-classla-results-to-csv/)
@@ -2817,6 +3485,8 @@ Read [What is digital humanities?](../chapters/what-is-digital-humanities.md) an
 
 Use [Models, evidence and interpretation](../chapters/models-evidence-interpretation.md), [Infrastructures of digital humanities](../chapters/critical-infrastructures.md), and [From question to method](../chapters/research-design.md). Turn a broad topic into one bounded research question. Define the object, scope, possible evidence, provisional model, alternative explanation, and one infrastructural limit.
 
+Use the [Archival Friction teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) to test a plausible question against the actual sampling frame, source rights, dates and record units. Narrow or reformulate the claim when the two-page source cannot support it.
+
 **Output:** a question-and-evidence brief that distinguishes description, evidence, interpretation, and recommendation.
 
 ### 3. Scholarly writing and structured documents
@@ -2849,7 +3519,7 @@ A stable ZIP or dated snapshot is sufficient for assessment. If you choose the o
 
 ### 7. Excel data structure and cleaning
 
-Define one row and one variable before editing. Use the conceptual [messy-notes workflow](../workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md), then [import and clean the small dataset in Excel](../workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md). Inspect delimiter, encoding, decimal/date locale, and types; protect leading-zero identifiers as text; define missingness; use an Excel table, filters, frozen headings, formulas where appropriate, and a validation list. Preserve the raw source and document every cleaning rule.
+Define one row and one variable before editing. Use the [messy-notes workflow](../workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md) and [reconcile conflicting metadata without erasing uncertainty](../workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md), then [import and clean the small dataset in Excel](../workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md). Inspect delimiter, encoding, decimal/date locale, and types; protect leading-zero identifiers as text; define missingness; use an Excel table, filters, frozen headings, formulas where appropriate, and a validation list. Preserve source, raw, interim, modelled, decision and unresolved layers.
 
 **Output:** raw and cleaned files, data dictionary, validation list, transformation log, and five-row manual check.
 
@@ -2863,9 +3533,9 @@ Then [summarize the cleaned data with a PivotTable and one transparent chart](..
 
 ### 9. Documents, OCR and corpus basics
 
-Read [Texts, corpora and OCR](../chapters/texts-corpora-ocr.md). Compare a scan and OCR text, mark errors that change names, dates, negation, or word boundaries, and write inclusion rules for a five-document mini-corpus. Keep the image, OCR layer, corrected text, and annotation distinct.
+Read [Texts, corpora and OCR](../chapters/texts-corpora-ocr.md), then [evaluate OCR or HTR against a reference sample](../workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md). Compare a scan and machine text, declare transcription and sampling rules, calculate CER and WER, classify errors that change names, dates, negation or word boundaries, and test one search or count on both versions. Keep the image, layout, provider, reference, normalized and annotation layers distinct.
 
-**Output:** an OCR validation sample and corpus inclusion note.
+**Output:** an OCR/HTR validation sample, error audit, downstream comparison and corpus inclusion note.
 
 ### 10. Search, concordance and frequency
 

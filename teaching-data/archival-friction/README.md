@@ -15,15 +15,16 @@ treated as neutral metadata?
 The source is issue 7 of *Ilustrirani Slovenec*, dated 7 February 1925. The
 unchanged PDF is in `source/`. Wikimedia Commons identifies the file as a
 public-domain scan supplied by the Digital Library of Slovenia (dLib.si).
-See `RIGHTS.md` and `SOURCE_CITATION.md` before reusing it.
+See `rights-and-provenance.md` and `SOURCE_CITATION.md` before reusing it.
 
 ## Packet layers
 
 | Layer | Purpose | May you edit it during an exercise? |
 | --- | --- | --- |
 | `source/` | Unchanged facsimile, provider record, eight source-grounded records, and the declared synthetic perturbations | No; make a copy |
-| `raw/` | Deliberately awkward metadata and the provider OCR excerpt | Yes, in a working copy |
-| `cleaned/` | Audited metadata, a short gold transcription, and logged decisions | Use as the comparison target |
+| `raw/` | Deliberately awkward metadata and the provider OCR excerpt | No; copy to an interim layer |
+| `interim/` | Generated reconciliation candidates awaiting source review | Yes; record the resulting decision |
+| `cleaned/` | Audited metadata, a short reference transcription, and compact decisions | Use as the comparison target |
 | `output/` | Recomputed OCR metrics and record counts | Regenerate; do not hand-edit |
 | `validation/` | Checksums for the complete packet | Regenerate after an authorised packet change |
 | `known-problems/` | Limits that the exercise does not resolve | Extend when you discover another limit |
@@ -33,9 +34,16 @@ perturbations**. They are declared one by one in
 `source/synthetic-perturbations.csv`; they must never be cited as facts about
 the 1925 issue.
 
+The stable top-level student files are `metadata-raw.csv`,
+`metadata-clean.csv`, `correction-log.csv`, `unresolved-cases.csv`,
+`data-dictionary.md` and `expected-observations.md`. The two metadata files
+are deterministic copies of their corresponding nested raw and cleaned
+layers. `rights-and-provenance.md` is the complete source and reuse audit;
+`RIGHTS.md` remains as the original compact note.
+
 ## Suggested low-threshold route
 
-1. Open the PDF and read the two page descriptions in `RIGHTS.md`.
+1. Open the PDF and read the source audit in `rights-and-provenance.md`.
 2. Inspect `raw/messy-records.csv`. Mark observation, provider metadata,
    inference, and synthetic disturbance in different notes or columns.
 3. Compare the printed captions with `source/source-records.csv`. Do not
@@ -44,8 +52,8 @@ the 1925 issue.
 4. Compare `raw/provider-ocr.txt` with
    `cleaned/gold-transcription.txt`. Classify at least five errors and note
    which ones would change search, counting, or interpretation.
-5. Consult `cleaned/decisions.csv`, then compare your result with
-   `cleaned/records.csv`.
+5. Consult `correction-log.csv`, then compare your result with
+   `metadata-clean.csv` and the unresolved-case register.
 6. Read the counts in `output/`. Explain why a single CER or WER is not an
    interpretation of the document or a guarantee about the rest of the
    issue.

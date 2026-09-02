@@ -68,6 +68,10 @@ workflow_categories:
     chapters:
       - chapters/texts-corpora-ocr.md
       - chapters/critical-infrastructures.md
+  pdf:
+    chapters:
+      - chapters/texts-corpora-ocr.md
+      - chapters/research-design.md
   Publishing & FAIR data:
     chapters:
       - chapters/critical-infrastructures.md
@@ -108,6 +112,19 @@ workflow_categories:
 # Stable category IDs and per-workflow overrides keep localized display labels
 # separate from the canonical ecosystem mapping.
 workflows:
+  workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md:
+    chapters:
+      - chapters/data-metadata-models.md
+      - chapters/research-design.md
+  workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md:
+    chapters:
+      - chapters/data-metadata-models.md
+      - chapters/research-design.md
+  workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md:
+    chapters:
+      - chapters/texts-corpora-ocr.md
+      - chapters/research-design.md
+      - chapters/linguistic-annotation-classla.md
   workflows/reference-management/build-and-clean-a-zotero-library.md:
     chapters:
       - chapters/research-design.md
@@ -265,6 +282,7 @@ chapters:
     workflows:
       - workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md
       - workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md
+      - workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md
       - workflows/data/build-a-humanities-database-with-sqlite.md
       - workflows/publishing/package-a-corpus-with-fair-metadata.md
       - workflows/publishing/write-a-readme-for-a-humanities-dataset.md
@@ -274,6 +292,7 @@ chapters:
       - case-studies/korpus-solar-analysis.md
   chapters/texts-corpora-ocr.md:
     workflows:
+      - workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md
       - workflows/pdf/bulk-download-pdfs-and-ocr-them.md
       - workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md
       - workflows/corpora/deduplicate-corpus-text-with-minhash.md
@@ -284,6 +303,7 @@ chapters:
       - case-studies/medieval-ner.md
   chapters/linguistic-annotation-classla.md:
     workflows:
+      - workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md
       - workflows/nlp/install-and-test-classla.md
       - workflows/nlp/annotate-a-small-text-with-classla.md
       - workflows/nlp/export-classla-results-to-csv.md

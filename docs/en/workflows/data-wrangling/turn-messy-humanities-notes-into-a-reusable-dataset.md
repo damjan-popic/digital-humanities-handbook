@@ -116,6 +116,10 @@ Deliver an unchanged source or source reference, raw table, decision log, clean 
 
 The workflow passes when another person can explain one row from source to output, reconstruct every material correction, reproduce the row counts, and identify what remains unresolved. The packet's checked result contains eight clean records; the ninth raw row is a separately declared synthetic duplicate.
 
+## Effect on a scholarly claim
+
+Compare one claim before and after cleaning. In the packet, the raw authority candidate could support the false claim that the photographed speaker has been identified. The decision log instead supports a narrower claim: the caption supplies the printed form “Mr. Meker,” while the person's authority identity remains unresolved.
+
 ## Check yourself
 
 - Does one row represent the same kind of thing throughout the table?

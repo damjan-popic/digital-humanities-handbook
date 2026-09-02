@@ -28,7 +28,7 @@ No programming is required. The supplied teaching packet includes a tiny candida
 - a spreadsheet or an edit-distance tool that reports substitutions, deletions and insertions; and
 - optionally, the open [Archival Friction teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction): `raw/provider-ocr.txt`, `cleaned/gold-transcription.txt`, `source/transcription-note.md` and `output/ocr-evaluation.csv`.
 
-Check the source and rights record before copying images or text. Keep the candidate and reference in separate files.
+Check the source, rights and provenance record before copying images or text. Keep the candidate and reference in separate files.
 
 ## Workflow
 

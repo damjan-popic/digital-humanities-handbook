@@ -79,7 +79,7 @@ Razlikujte štiri obsege:
 
 | Obseg | Praktično vprašanje | Značilna omejitev |
 | --- | --- | --- |
-| **Zgodovinska celota virov** | Kateri zapisi bi bili relevantni, če bi se vsi ohranili in bili dostopni? | Pogosto je ne moremo poznati in ostaja deloma hipotetična. |
+| **Ciljna populacija virov** | Kateri zapisi bi bili relevantni, če bi se vsi ohranili in bili dostopni? | Pogosto je ne moremo poznati in ostaja deloma hipotetična. |
 | **Repozitorij ali zbirka** | Kaj je ustanova pridobila, ohranila in opisala? | Ohranjenost oblikujejo vrednotenje, prevzem, sredstva in namen ustanove. |
 | **Vzorčni okvir** | Katere zapise je projekt dejansko lahko odkril in pridobil? | Vmes posežejo kakovost kataloga, digitalizacija, jezik, dostopna pravila in stroški. |
 | **Analitični korpus** | Kateri dostopni zapisi ustrezajo objavljenim pravilom za vključitev? | Raziskovalčeve izključitve ustvarijo novo mejo. |
