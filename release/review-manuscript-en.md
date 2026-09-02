@@ -2215,18 +2215,19 @@ Credit scanning, cataloguing, transcription, correction and community knowledge 
 
 ## Summary
 
-A corpus is an argued relationship between a question, a population, an available sampling frame and linked representations. OCR and HTR produce useful predictions, not transparent text. Preserve page, layout, provider, corrected, normalized and annotated layers; define transcription policy before evaluation; report CER and WER with their rules and strata; and test the downstream claim. Rights, provenance and known failures belong inside the pipeline. More text does not repair an unexamined sample.
+A corpus is an argued relationship between a question, a population, a sampling frame and representations. OCR and HTR produce predictions, not transparent text. Preserve page, layout, provider, corrected, normalized and annotated layers; define transcription policy before evaluation; report CER and WER with their rules and strata; and test the downstream claim. Rights, provenance and failures belong inside the pipeline.
 
 ## Further reading and current technical references
 
 - Biber, Douglas. 1993. [“Representativeness in Corpus Design.”](https://doi.org/10.1093/llc/8.4.243) *Literary and Linguistic Computing* 8 (4): 243–257.
+- Hill, Mark J., and Simon Hengchen. 2019. [“Quantifying the Impact of Dirty OCR on Historical Text Analysis.”](https://doi.org/10.1093/llc/fqz024) *Digital Scholarship in the Humanities* 34 (4): 825–843.
 - Traub, Myriam C., Jacco van Ossenbruggen, and Lynda Hardman. 2015. [“Impact Analysis of OCR Quality on Research Tasks in Digital Archives.”](https://doi.org/10.1007/978-3-319-24592-8_19) In *Research and Advanced Technology for Digital Libraries*, 252–263.
 - OCR-D. [Ground Truth Guidelines](https://ocr-d.de/en/gt-guidelines/trans/) and [quality-assurance definition of CER](https://ocr-d.de/en/spec/ocrd_eval.html) (living technical documentation; accessed 2 September 2026).
 - Text Encoding Initiative. [TEI P5 Guidelines, `<choice>`](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-choice.html), version 4.11.0 dated 18 February 2026 (accessed 2 September 2026).
 - Library of Congress. [ALTO: Technical Metadata for Layout and Text Objects](https://www.loc.gov/standards/alto/) (current official schema listed as 4.4; accessed 2 September 2026).
 - IIIF Consortium. [Presentation API 3.0](https://iiif.io/api/presentation/3.0/) (stable version 3.0.0 at access; accessed 2 September 2026). A 4.0 release candidate was also listed, so implementations should record the version they use.
 
-Technical pages and interfaces are mutable. Record versions and access dates.
+Interfaces change. Record versions and access dates.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Continue through the ecosystem"
