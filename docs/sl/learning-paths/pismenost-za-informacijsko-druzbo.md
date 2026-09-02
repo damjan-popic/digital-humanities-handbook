@@ -1,6 +1,6 @@
 ---
 title: "Pismenost za informacijsko družbo"
-description: "Nizkopražna učna pot od vprašanj in virov do strukturiranega pisanja, preverjenih navedb, preglednih podatkov ter odgovorne oddaje."
+description: "Učna pot z nizkim tehničnim pragom od vprašanj in virov do strukturiranega pisanja, preverjenih navedb, preglednih podatkov ter odgovorne oddaje."
 tags: [predmet, informacijska-pismenost, znanstveno-pisanje, upravljanje-virov, podatkovna-pismenost, UI-pismenost]
 status: draft
 ---
@@ -29,9 +29,9 @@ Po končani poti boste znali:
 
 - raziskovalno vprašanje pretvoriti v strukturirano in popravljivo znanstveno besedilo za določeno občinstvo in žanr;
 - razlikovati med virom, bibliografskim zapisom, priponko, zapiskom, navedbo, bibliografijo in trajnim identifikatorjem;
-- ustvariti in preveriti manjšo knjižnico Zotero, izbrati avtoritativni standard citiranja ter pregledati pet različnih zapisov;
+- ustvariti in preveriti manjšo knjižnico Zotero, določiti zahtevani sistem citiranja, izbrati ustrezni citatni slog, upoštevati navodila za citiranje ter pregledati pet različnih zapisov;
 - v Wordu ali LibreOffice Writerju vstaviti navedbe z ustreznimi lokatorji ter ustvariti in osvežiti bibliografijo;
-- uporabljati prave naslovne sloge, kazalo, napise, navzkrižne sklice, komentarje in sledenje spremembam;
+- uporabljati naslovne sloge, samodejno kazalo, oštevilčene napise, navzkrižne sklice, komentarje in sledenje spremembam;
 - manjši podatkovni nabor v Excelu uvoziti, očistiti in povzeti brez tihih sprememb identifikatorjev ali tipov;
 - dokumentirati pretvorbo od surovih do očiščenih podatkov ter ločiti ponovljivo poizvedbo od enkratnega urejanja celic;
 - vsako tabelo ali sliko povezati z virom, enoto opazovanja, mero, imenovalcem, pravilom manjkajočih vrednosti, preverjanjem in interpretativno trditvijo;
@@ -55,7 +55,7 @@ Uporabite poglavja [Modeli, dokazno gradivo in interpretacija](../chapters/model
 
 ### 3. Znanstveno pisanje in strukturirani dokumenti
 
-Najprej [raziskovalno vprašanje pretvorite v načrt znanstvenega besedila](../workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md): poimenujte občinstvo in žanr, napišite delovno trditev, orišite razdelke, povežite vire s trditvami in revidirajte odstavek. Nato [daljši dokument strukturirajte s slogi, napisi in navzkrižnimi sklici](../workflows/scholarly-writing/structure-a-long-document-with-styles-captions-and-cross-references.md). Uporabite prave naslove, samodejno kazalo, polja, opombe, komentarje, sledenje spremembam in smiselno nadomestno besedilo. Začnite [dnevnik revizije](../workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md).
+Najprej [raziskovalno vprašanje pretvorite v načrt znanstvenega besedila](../workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md): poimenujte občinstvo in žanr, napišite delovno trditev, orišite razdelke, povežite vire s trditvami in revidirajte odstavek. Nato [daljši dokument strukturirajte s slogi, napisi in navzkrižnimi sklici](../workflows/scholarly-writing/structure-a-long-document-with-styles-captions-and-cross-references.md). Uporabite naslovne sloge, samodejno kazalo, polja, opombe, komentarje, sledenje spremembam in smiselno nadomestno besedilo. Začnite [dnevnik revizije](../workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md).
 
 **Izhod:** enostranski načrt argumenta, tabela povezav med viri in trditvami, revidirani odstavek ter strukturirani osnutek `.docx` ali `.odt`.
 
@@ -65,13 +65,13 @@ Pripravite strategijo s pojmi, sopomenkami, jezikovnimi različicami, Boolovimi 
 
 **Izhod:** dnevnik iskanja in izbora iz treh različnih okolij virov.
 
-### 5. Zotero, standardi citiranja in upravljanje bibliografije
+### 5. Zotero, sistemi in slogi citiranja ter upravljanje bibliografije
 
-Opravite vse tri postopke. [Ustvarite in očistite manjšo knjižnico Zotero](../workflows/reference-management/build-and-clean-a-zotero-library.md), pri čemer uporabite identifikator, katalog, Connector in ročni vnos. [Izberite, uporabite in preglejte zahtevani standard citiranja](../workflows/reference-management/choose-apply-and-audit-a-citation-style.md): zabeležite njegovo avtoriteto in različico ter preizkusite pet vrst virov. Nato [z Zoterom vstavite navedbe v Word ali LibreOffice](../workflows/reference-management/cite-with-zotero-in-word-or-libreoffice.md), dodajte ustrezne lokatorje, vstavite navedbo z več viri, ustvarite in osvežite bibliografijo ter metapodatke popravite v Zoteru.
+Opravite vse tri postopke. [Ustvarite in očistite manjšo knjižnico Zotero](../workflows/reference-management/build-and-clean-a-zotero-library.md), pri čemer uporabite identifikator, katalog, Connector in ročni vnos. [Določite zahtevani sistem citiranja, izberite citatni slog in preglejte izpis](../workflows/reference-management/choose-apply-and-audit-a-citation-style.md): zabeležite avtoritativna navodila za citiranje in njihovo različico ter preizkusite pet vrst virov. Nato [z Zoterom vstavite navedbe v Word ali LibreOffice](../workflows/reference-management/cite-with-zotero-in-word-or-libreoffice.md), dodajte ustrezne lokatorje, vstavite navedbo z več viri, ustvarite in osvežite bibliografijo ter metapodatke popravite v Zoteru.
 
-Pojasnite en primer vira ali metapodatkov, ki ga slog ne obravnava jasno. Istega dokumenta ne upravljajte z Zoterom in Wordovim vgrajenim upravljalnikom. V delovni kopiji navedb nikoli ne odvežite.
+Pojasnite en primer vira ali metapodatkov, ki ga slog ne obravnava jasno. Istega dokumenta ne upravljajte z Zoterom in Wordovim vgrajenim upravljalnikom. Dokument z aktivnimi polji Zotero vedno ohranite kot glavni izvod in upoštevajte oddajna navodila revije, fakultete ali založnika. Če morate oddati statično besedilo, odstranite povezave samo v posebej poimenovani in varnostno kopirani končni oddajni kopiji, nikoli pa v delovnem dokumentu ali zgolj zaradi popravljanja oblikovanja.
 
-**Izhod:** pet preverjenih zapisov Zotero, povezani dokument z navedbami in ustvarjeno bibliografijo ter kratek `citation-style-audit/` z avtoriteto, preizkusi, popravki, odstopanji in nerešenimi primeri.
+**Izhod:** pet preverjenih zapisov Zotero, glavni dokument z aktivnimi polji, navedbami in ustvarjeno bibliografijo ter kratek `citation-style-audit/` z navodili za citiranje, uporabljenim slogom, preizkusi, popravki, odstopanji in nerešenimi primeri.
 
 ### 6. Datoteke, formati, mape, README in varnostna kopija
 
@@ -83,17 +83,17 @@ Za ocenjevanje zadostuje stabilni ZIP ali datirani posnetek. Če izberete neobve
 
 ### 7. Struktura in čiščenje podatkov v Excelu
 
-Pred urejanjem določite pomen vrstice in spremenljivke. Uporabite pojmovni postopek za [pretvorbo neurejenih zapiskov v podatkovni nabor](../workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md), nato pa [manjši nabor uvozite in očistite v Excelu](../workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md). Preglejte ločilo, kodiranje, locale decimalk/datumov in tipe; identifikatorje z začetnimi ničlami zaščitite kot besedilo; opredelite manjkajoče vrednosti; uporabite Excelovo tabelo, filtre, zamrznjene glave, smiselne formule in validacijski seznam. Surovi vir ohranite in zabeležite vsako pravilo čiščenja.
+Pred urejanjem določite pomen vrstice in spremenljivke. Uporabite pojmovni postopek za [pretvorbo neurejenih zapiskov v podatkovni nabor](../workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md), nato pa [manjši nabor uvozite in očistite v Excelu](../workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md). Preglejte ločilo, kodiranje, podatkovne tipe in območne nastavitve (angl. *locale*), ki določajo razlago decimalnih znamenj in datumov. Identifikatorje z začetnimi ničlami zaščitite kot besedilo; opredelite manjkajoče vrednosti; uporabite Excelovo tabelo, filtre, zamrznjene glave, smiselne formule in validacijski seznam. Surovi vir ohranite in zabeležite vsako pravilo čiščenja.
 
 **Izhod:** surova in očiščena datoteka, podatkovni slovar, validacijski seznam, dnevnik pretvorb in ročni pregled petih vrstic.
 
 ### 8. Ponovljiva analiza preglednic in vizualno sporočanje
 
-[Ponovljive pretvorbe zabeležite v Excelovem Power Queryju](../workflows/data-wrangling/make-repeatable-transformations-with-excel-power-query.md): stolpce preimenujte in jim določite tipe, besedilo obrežite/očistite in razdelite, filtrirajte po pravilu, zamenjajte dokumentirane kategorije, združite šifrant, odstranite utemeljene dvojnike ter osvežite po spremembi vira. Preglejte Applied Steps in diagnosticirajte pokvarjeni korak. Če ustvarjanje Power Queryja ni na voljo, opravite dokumentirano nadomestno vajo, korake pa naj enkrat požene oseba na podprti platformi.
+[Ponovljive pretvorbe zabeležite v Excelovem Power Queryju](../workflows/data-wrangling/make-repeatable-transformations-with-excel-power-query.md): stolpce preimenujte in jim določite podatkovne tipe, besedilo obrežite, očistite in razdelite, filtrirajte po pravilu, zamenjajte dokumentirane kategorije ter združite šifrant. Popolnoma enake vrstice lahko odstranite neposredno; kadar se kandidati z istim ključem razlikujejo, uporabite izrecno prednostno, skupinsko-indeksno ali drugo ponovljivo pravilo za ohranitev oziroma izločitev in ne zaupajte vidnemu vrstnemu redu. Po spremembi vira osvežite rezultat, preverite ohranjene identifikatorje in število vrstic, preglejte *Applied Steps* ter diagnosticirajte pokvarjeni korak. Če ustvarjanje Power Queryja ni na voljo, opravite dokumentirano nadomestno vajo, korake pa naj enkrat požene oseba na podprti platformi.
 
 Nato [očiščene podatke povzemite z vrtilno tabelo in preglednim grafikonom](../workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md). Ločite število vrstic, različne dokumente, vsoto in povprečje; prikažite manjkajoče kategorije in imenovalec; osvežite ter ročno preverite podmnožico.
 
-**Izhod:** ponovljiv postopek od surovih do očiščenih podatkov, osveženi rezultat, preverjena vrtilna tabela, en zadržan grafikon, popoln napis, nadomestno besedilo in interpretacija z omejitvijo.
+**Izhod:** ponovljiv postopek od surovih do očiščenih podatkov, osveženi rezultat, preverjena vrtilna tabela, en pregledno oblikovan grafikon brez odvečnih učinkov, popoln napis, nadomestno besedilo in interpretacija z omejitvijo.
 
 ### 9. Dokumenti, OCR in osnove korpusov
 
@@ -127,9 +127,9 @@ Pri dosjeju uporabite [etični kontrolni seznam](../resources/ethics-checklist.m
 
 ### 14. Ponovljivi znanstveni dosje, verzioniranje in medvrstniški pregled
 
-Končni dosje sestavite iz plasti virov, pisanja, citiranja, preglednic, preverjanja, znanih težav in pravic. [Postopek revizije](../workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md) izvedite v vsebinskem, strukturnem, odstavčnem, stavčnem in korekturnem krogu. Ustvarite stabilni ZIP ali datirani posnetek ter zabeležite uporabljene različice priročnika in programskih navodil.
+Končni dosje sestavite iz plasti virov, pisanja, citiranja, preglednic, preverjanja, znanih težav in pravic. Pri [reviziji](../workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md) ločeno preglejte vsebino, dokazno gradivo, zgradbo, odstavke, stavke in končni prelom. Ustvarite stabilni ZIP ali datirani posnetek ter zabeležite uporabljene različice priročnika in programskih navodil.
 
-Dosjeje si izmenjajte. Brez ustne pomoči poiščite vire, preglejte pet zapisov Zotero in pregled standarda citiranja, sledite od surovih podatkov do očiščenih, ročno preverite eno vrednost v tabeli ali sliki, določite glavno omejitev ter vrnite strukturirano recenzijo. Odziv vključite v revizijo in dnevnik.
+Dosjeje si izmenjajte. Brez ustne pomoči poiščite vire, preglejte pet zapisov Zotero ter zapis o uporabljenem sistemu, citatnem slogu in navodilih za citiranje, sledite od surovih podatkov do očiščenih, ročno preverite eno vrednost v tabeli ali sliki, določite glavno omejitev ter vrnite strukturirano recenzijo. Odziv vključite v revizijo in dnevnik.
 
 **Izhod:** končni dosje, stabilni posnetek, medvrstniški pregled, odziv in zaključen dnevnik revizije.
 
@@ -155,8 +155,8 @@ Oddajte:
 2. dnevnik iskanja/izbora ter tabelo povezav med viri in trditvami;
 3. strukturirani `.docx` ali `.odt` s pravimi naslovnimi slogi, samodejnim kazalom, napisi in navzkrižnimi sklici;
 4. najmanj pet preverjenih zapisov Zotero z zapiski o metapodatkovnih popravkih;
-5. dejavne navedbe z ustreznimi lokatorji ter ustvarjeno in osveženo bibliografijo;
-6. kratek pregled standarda citiranja z avtoriteto/različico, petimi različnimi zapisi, popravki, utemeljenimi odstopanji in nerešenimi primeri;
+5. navedbe z aktivnimi polji in ustreznimi lokatorji ter ustvarjeno in osveženo bibliografijo;
+6. kratek pregled sistema in sloga citiranja, ki navede avtoritativna navodila in njihovo različico, uporabi pet različnih zapisov ter zabeleži popravke, utemeljena odstopanja in nerešene primere;
 7. eno dokumentirano pretvorbo od surove do očiščene preglednice s surovo datoteko, očiščenim izhodom, podatkovnim slovarjem in dnevnikom preverjanja;
 8. eno preverjeno tabelo ali sliko s popolnim napisom, ki navede vir, enoto, mero, imenovalec, pravilo manjkajočih vrednosti, pretvorbo in ročni pregled;
 9. interpretacijo v obsegu 700–1.000 besed, ki loči opis, dokazno gradivo, interpretacijo in priporočilo;

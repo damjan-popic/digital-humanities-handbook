@@ -16,36 +16,36 @@ tags: [znanstveno-pisanje, argument, dokazno-gradivo, odstavek, načrtovanje]
 
 ## Kaj želite doseči
 
-Kako lahko široko zanimanje spremenite v argument, ki ga lahko presodi določeno znanstveno občinstvo? Znanstveno besedilo ne predstavi le teme. Zastavi raziskovalno vprašanje, ponudi začasni odgovor, predstavi dokazno gradivo, pojasni sklepanje, obravnava druge možnosti in navede omejitve.
+Kako lahko široko zanimanje spremenite v argument, ki ga lahko presodi določeno strokovno občinstvo? Znanstveno besedilo ne predstavi le teme. Zastavi raziskovalno vprašanje, ponudi začasni odgovor, predstavi dokazno gradivo, pojasni sklepanje, obravnava druge možnosti in navede omejitve.
 
 Humanistični žanri so raznoliki. Besedilna interpretacija, zgodovinska študija primera, teoretski esej, komentar izdaje in poročilo o digitalni metodi nimajo ene obvezne zgradbe. IMRaD je lahko primeren za empirično raziskavo, drugo besedilo pa se razvije skozi problem, arhiv, interpretativno zaporedje in posledice. IMRaD-a ali eseja s petimi odstavki ne uporabljajte kot univerzalne predloge.
 
 ## Potrebujete
 
-- navodila za nalogo ali objavo, ciljno občinstvo, obseg in citatne zahteve;
+- navodila za nalogo ali objavo, ciljno občinstvo, obseg in navodila za citiranje;
 - eno omejeno raziskovalno vprašanje in tri do pet preverjenih virov;
 - bralne zapiske, ki ločijo navedke, parafraze, povzetke in vaš odziv;
-- [vzorčni paket ZIP](../../../assets/downloads/scholarly-work-foundations-v1.zip) z bralnimi zapiski, enostranskim načrtom, tabelo povezav med viri in trditvami, revidiranim odstavkom ter znano težavo krpankarskega pisanja.
+- [vzorčni paket ZIP](../../../assets/downloads/scholarly-work-foundations-v1.zip) z bralnimi zapiski, enostranskim načrtom, tabelo povezav med viri in trditvami, revidiranim odstavkom ter primerom **pretesnega parafraziranja (angl. *patchwriting*)**, pri katerem osnutek kljub zamenjanim besedam ohrani zgradbo in zaporedje izvornega besedila.
 
 ## Postopek
 
-1. **Poimenujte občinstvo in žanr.** Napišite poved: `Za [bralce] ta [žanr] raziskuje [problem], da bi pojasnil [zastavek].` Preglejte dva verodostojna primera iz discipline. Zabeležite, kako uporabljata dokazno gradivo in razdelke, vendar njunih naslovov ne spreminjajte v univerzalni oris.
+1. **Poimenujte občinstvo in žanr.** Napišite poved: `Za [bralstvo] ta [žanr] raziskuje [problem], da bi pojasnil [pomen problema].` Preglejte dva verodostojna primera iz discipline. Zabeležite, kako uporabljata dokazno gradivo in razdelke, vendar njunih naslovov ne spreminjajte v univerzalni oris.
 
 2. **Zožite vprašanje.** Temo, denimo »digitalizirane razglednice«, spremenite v vprašanje, ki poimenuje gradivo, odnos, obseg in negotovost: `Kako nedosledni kataloški opisi vplivajo na najdljivost ustvarjalcev v manjši zbirki digitaliziranih razglednic?` Dobro vprašanje omogoča več utemeljenih odgovorov.
 
-3. **Napišite delovno trditev.** Vprašanje odgovorite v eni ali dveh povedih. Trditev naj bo razpravljiva, omejena in popravljiva. Nato napišite najmočnejši razumni drugačni odgovor. Če se noben poučeni bralec ne more ne strinjati, je zapis morda opis in ne teza.
+3. **Napišite delovno trditev.** Na vprašanje odgovorite v eni ali dveh povedih. Trditev naj bo razpravljiva, omejena in popravljiva. Nato napišite najbolj prepričljiv drugačen odgovor, ki bi ga lahko utemeljil poučen bralec. Če se z zapisom nihče ne more utemeljeno ne strinjati, je morda opis in ne teza.
 
 4. **Naštejte dokazno gradivo, protiprimer in omejitev.** Za vsak podporni vir ali opažanje navedite, kaj pokaže in katero sklepanje ga poveže s trditvijo. Dodajte protiprimer ali konkurenčno interpretacijo ter eno omejitev gradiva, modela, merila ali metode. Omejitev zoži sklep, ni pa nujno, da izniči projekt.
 
 5. **Izdelajte tabelo od vira do trditve.** Vsaki načrtovani trditvi namenite vrstico. Dodajte vir, natančni lokator, dokaz oziroma opažanje, interpretativno rabo, možni ugovor in stanje preverjanja. Bibliografija pokaže, kaj ste pregledali; ta tabela pokaže, katero argumentativno delo lahko vir opravi.
 
-6. **Razdelke načrtujte kot korake.** Za vsak razdelek zapišite vprašanje, krajevno trditev, dokazno gradivo, prehod iz prejšnjega razdelka in razlog za naslednjega. Naslov razdelka naj opiše vlogo v argumentu in ne mape za nepovezane zapiske.
+6. **Razdelke načrtujte kot argumentativne korake.** Za vsak razdelek zapišite vprašanje, delno trditev, dokazno gradivo, prehod iz prejšnjega razdelka in razlog za naslednjega. Naslov razdelka naj opiše njegovo vlogo v argumentu, ne pa mape za nepovezane zapiske.
 
 7. **Odstavek načrtujte kot sklepanje.** Uporabite zaporedje **trditev → dokazno gradivo → utemeljitev → prehod**. Gre za diagnostični vzorec, ne zahtevo po štirih povedih. Navedek brez vaše utemeljitve je osirotel, trditev brez pregledne opore nepodprta, prehod pa naj poimenuje pojmovno povezavo.
 
 8. **Ločite tri rabe vira.** **Navedek** natančno ponovi besede in zahteva preverjen prepis, narekovaje ali blok ter lokator. **Parafraza** določen odlomek vsebinsko predstavi z vašo skladnjo in poudarkom ter še vedno potrebuje navedbo. **Povzetek** zgosti širši argument ali gradivo in poimenuje njegov obseg. Nobena oblika ni sama po sebi bolj znanstvena.
 
-9. **Pišite iz zaprtih zapiskov in nato preverite.** Zabeležite odlomek in lokator, vir skrijte, idejo razložite za svoje vprašanje ter nato vir znova odprite in preverite natančnost. Če osnutek s sopomenkami sledi vsaki izvorni povedi, ga predelajte: krpankarsko pisanje prikrije, čigava sta jezik in sklepanje.
+9. **Pišite iz zaprtih zapiskov in nato preverite.** Zabeležite odlomek in lokator, vir skrijte, idejo razložite glede na svoje vprašanje ter nato vir znova odprite in preverite natančnost. Če osnutek s sopomenkami sledi vsaki izvorni povedi, ga predelajte: pretesno parafraziranje prikrije, čigava sta jezik in sklepanje.
 
 10. **Napišite in revidirajte vzorčni odstavek.** Označite njegovo trditev, dokazno gradivo, utemeljitev in prehod. Navedek ali parafrazo preverite ob viru. Protiprimer vključite tam, kjer res spremeni sklepanje, in ne le v simbolni zadnji povedi.
 
@@ -55,7 +55,7 @@ Humanistični žanri so raznoliki. Besedilna interpretacija, zgodovinska študij
 
 Pripravite enostranski načrt argumenta, tabelo povezav med viri in trditvami ter en revidiran vzorčni odstavek. Načrt naj vsebuje občinstvo, žanr, vprašanje, delovno trditev, drugačni odgovor, korake razdelkov, dokazno gradivo, protiprimer in omejitev.
 
-Postopek je uspešen, če vsak razdelek razvija osrednje vprašanje, ima vsaka načrtovana dokazna trditev vir in lokator ter revidirani odstavek vidno poveže dokazno gradivo z utemeljitvijo brez krpankarskega pisanja.
+Postopek je uspešen, če vsak razdelek razvija osrednje vprašanje, ima vsaka načrtovana dokazna trditev vir in lokator ter revidirani odstavek jasno poveže dokazno gradivo z utemeljitvijo brez pretesnega parafraziranja.
 
 ## Preverite se
 

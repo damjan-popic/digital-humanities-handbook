@@ -23,9 +23,9 @@ The arrows are not a command to work only from left to right. A counterexample m
 After completing the route, you should be able to:
 
 - turn a research question into a section-level argument plan and a source-to-claim table;
-- structure and revise a scientific text without treating one genre as universal;
+- structure and revise a scholarly text without treating one genre as universal;
 - build and quality-check a small Zotero library;
-- select a required citation standard, insert citations with locators, and audit the generated output;
+- identify the required citation system and guidelines, select the corresponding citation style, insert citations with locators, and audit the generated output;
 - use real heading styles, captions, cross-references, fields, comments, and tracked changes;
 - import, clean, and summarize a small Excel dataset without silently changing identifiers or types;
 - distinguish a repeatable transformation from an undocumented edit;
@@ -40,7 +40,7 @@ After completing the route, you should be able to:
 | **Attachment** | A PDF, snapshot, image, or other file attached to a Zotero item. | The bibliographic item itself or permission to redistribute the file. |
 | **Reading note** | Your traceable record of a source passage, locator, paraphrase, question, and possible use. | A citation or a copy of prose ready to paste. |
 | **Citation** | A formatted pointer in the text, a note, or an endnote that connects a claim to a source record. | A complete bibliography entry in every citation system. |
-| **Bibliography** | A formatted list produced according to a defined citation standard and local brief. | A substitute for checking individual claims and locators. |
+| **Bibliography** | A formatted list produced with a defined citation style under the governing citation guidelines. | A substitute for checking individual claims and locators. |
 | **Stable identifier** | A managed identifier such as a DOI, ISBN, Handle, ARK, or archival signature. | Any URL copied from a browser address bar. |
 
 ## From a question to a document
@@ -59,7 +59,7 @@ A **one-off edit** changes a cell with no reusable record. A **documented transf
 
 ### Plan and revise the argument
 
-1. [Turn a research question into a scientific paper plan](../workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md).
+1. [Turn a research question into a scholarly paper plan](../workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md).
 2. [Structure a long document with styles, captions, and cross-references](../workflows/scholarly-writing/structure-a-long-document-with-styles-captions-and-cross-references.md).
 3. [Revise claims, evidence, and paragraphs](../workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md).
 
@@ -98,7 +98,7 @@ Before submission, make a backed-up delivery copy and verify:
 - AI assistance, if any, is disclosed and its outputs are verified;
 - rights, privacy, accessibility, and platform limitations are stated.
 
-Do not use Zotero's irreversible **Unlink Citations** command in the working document. Use it only in a backed-up final delivery copy when a recipient specifically requires plain text.
+Always keep the working document with active Zotero fields as the master. Follow the venue or publisher's delivery requirements. When preparing a static final submission, use Zotero's irreversible **Unlink Citations** command only in a separately named and backed-up delivery copy. Never unlink the working master merely to repair formatting.
 
 ## Interface and source boundary
 

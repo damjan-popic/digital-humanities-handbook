@@ -16,7 +16,7 @@ tags: [excel, csv, podatkovni-tipi, urejeni-podatki, validacija, provenienca]
 
 ## Kaj želite doseči
 
-Kako lahko manjši izvoz ali kataloško tabelo spremenite v raziskovalne podatke, ne da bi potiho spremenili identifikatorje, datume, decimalke ali negotovost? Excel vrednost najprej interpretira in jo nato prikaže. Če CSV dvokliknete, lahko program sprejme sistemske privzete nastavitve, preden pregledate ločilo, kodiranje, locale in podatkovne tipe stolpcev.
+Kako lahko manjši izvoz ali kataloško tabelo spremenite v raziskovalne podatke, ne da bi potiho spremenili identifikatorje, datume, decimalke ali negotovost? Excel vrednost najprej interpretira in jo nato prikaže. Če CSV dvokliknete, lahko program sprejme sistemske privzete nastavitve, preden pregledate ločilo, kodiranje, podatkovne tipe stolpcev in območne nastavitve (angl. *locale*), ki določajo razlago decimalnih znamenj, datumov in drugih regionalno odvisnih zapisov.
 
 Surovo datoteko ohranite ter izdelajte dokumentirano očiščeno plast. V raziskovalnem naboru vrstice predstavljajo enote opazovanja, stolpci pa spremenljivke. Okrasna tabela za branje lahko uporablja spojene celice, barvo in več dejstev v eni celici, vendar zato še ni ponovno uporaben podatkovni nabor.
 
@@ -25,7 +25,7 @@ Surovo datoteko ohranite ter izdelajte dokumentirano očiščeno plast. V razisk
 - manjšo datoteko CSV ali besedilno datoteko z ločili in jasno opredelitev ene vrstice;
 - podatek o ločilu, kodiranju, decimalnem znamenju, datumskih pravilih, kodah za manjkajoče vrednosti in pravicah vira;
 - namizni Excel z *Data → From Text/CSV* ali enakovrednim uvoznim vmesnikom;
-- [vzorčni paket ZIP](../../../assets/downloads/scholarly-work-foundations-v1.zip) s surovo, šifrantno, očiščeno, delovno, izhodno, preverjalno in problematično plastjo.
+- [vzorčni paket ZIP](../../../assets/downloads/scholarly-work-foundations-v1.zip) s surovimi podatki, šifrantom, očiščenimi podatki, delovnimi in izhodnimi datotekami, preverjanji ter znanimi težavami.
 
 ## Postopek
 
@@ -33,9 +33,9 @@ Surovo datoteko ohranite ter izdelajte dokumentirano očiščeno plast. V razisk
 
 2. **Opredelite enoto opazovanja.** Napišite na primer: `Ena vrstica predstavlja en kataloški zapis ene razglednice.` Vsaki spremenljivki namenite stolpec in vsakemu opažanju vrstico. Enote navedite v glavah ali podatkovnem slovarju, ne med vrednostmi. V podatkovnem območju ne spajajte celic.
 
-3. **Uvozite skozi podatkovni vmesnik.** Uporabite *Data → From Text/CSV* oziroma *Get Data → Text/CSV*. Preglejte predogled ter nastavite pravo ločilo in izvor/kodiranje datoteke, za vzorec UTF-8. Če je razlaga decimalnih števil ali datumov odvisna od okolja, pred nalaganjem določite ali zabeležite nameravani locale. Kadar morate popraviti tipe, izberite *Transform Data*.
+3. **Uvozite skozi podatkovni vmesnik.** Uporabite *Data → From Text/CSV* oziroma *Get Data → Text/CSV*. Preglejte predogled ter nastavite pravo ločilo in izvor oziroma kodiranje datoteke, za vzorec UTF-8. Če je razlaga decimalnih števil ali datumov odvisna od okolja, pred nalaganjem določite ali zabeležite nameravane območne nastavitve. Kadar morate popraviti podatkovne tipe, izberite *Transform Data*.
 
-4. **Identifikatorje zaščitite kot besedilo.** Kataloške oznake, signature, poštne številke in dolge številčne identifikatorje pred pretvorbo nastavite na Text. Preverite, ali `00127` ostane pet znakov ter ali zapisi, podobni datumom ali znanstvenemu zapisu, ostanejo dobesedni, kadar so identifikatorji.
+4. **Identifikatorje zaščitite kot besedilo.** Kataloškim oznakam, signaturam, poštnim številkam in dolgim številčnim identifikatorjem pred pretvorbo določite podatkovni tip *Besedilo (Text)*. Preverite, ali `00127` ostane pet znakov ter ali zapisi, podobni datumom ali znanstvenemu zapisu števil, ostanejo dobesedni, kadar so identifikatorji.
 
 5. **Datume in števila preglejte kot vrednosti.** Prikazani datum lahko skriva drugo serijsko vrednost, decimalna vejica pa se lahko v drugem okolju razcepi ali postane besedilo. Preizkusite znano vrstico. Dvoumni izvorni datum ohranite kot besedilo ter dodajte normalizirani datum in polje natančnosti; dneva si ne izmislite.
 

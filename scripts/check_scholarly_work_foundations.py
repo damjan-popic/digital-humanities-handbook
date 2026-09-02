@@ -52,6 +52,7 @@ META = {
 }
 SAMPLE_ROOT = ROOT / "examples" / "scholarly-work-foundations"
 SAMPLE_FILES = {
+    "MANIFEST.sha256",
     "README.md",
     "RIGHTS.md",
     "source/identifier-exercise.md",

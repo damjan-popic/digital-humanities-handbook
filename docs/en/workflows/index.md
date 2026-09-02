@@ -144,7 +144,7 @@ The Slovene edition contains the stable core and a growing curated set of transl
 
 - [How do I revise claims, evidence, and paragraphs?](scholarly-writing/revise-claims-evidence-and-paragraphs.md) <span class="tiny">— beginner</span>
 - [How do I structure a long document with styles, captions, and cross-references?](scholarly-writing/structure-a-long-document-with-styles-captions-and-cross-references.md) <span class="tiny">— beginner</span>
-- [How do I turn a research question into a scientific paper plan?](scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md) <span class="tiny">— beginner</span>
+- [How do I turn a research question into a scholarly paper plan?](scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md) <span class="tiny">— beginner</span>
 
 ### Subtitling
 

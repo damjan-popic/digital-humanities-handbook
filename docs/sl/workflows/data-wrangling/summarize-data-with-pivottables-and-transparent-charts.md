@@ -1,6 +1,6 @@
 ---
 title: "Kako podatke povzamem z vrtilnimi tabelami in preglednimi grafikoni?"
-description: "Na omejeno vprašanje odgovorite s preverjeno vrtilno tabelo in zadržanim grafikonom z jasnim virom, enoto, imenovalcem in manjkajočimi vrednostmi."
+description: "Na omejeno vprašanje odgovorite s preverjeno vrtilno tabelo in pregledno oblikovanim grafikonom z jasnim virom, enoto, imenovalcem in manjkajočimi vrednostmi."
 category: "Urejanje podatkov"
 category_id: "data-wrangling"
 difficulty: "začetno"
@@ -23,7 +23,7 @@ Začnite z urejenimi, preverjenimi podatki: ena vrstica na enoto opazovanja, ena
 ## Potrebujete
 
 - očiščeno Excelovo tabelo in podatkovni slovar;
-- zapisano vprašanje s populacijo, skupinsko spremenljivko, mero in izključitvami;
+- zapisano vprašanje s populacijo, spremenljivko, po kateri boste podatke združevali, mero in izključitvami;
 - dnevnik od surovih do očiščenih podatkov in znane manjkajoče kategorije;
 - [vzorčni paket ZIP](../../../assets/downloads/scholarly-work-foundations-v1.zip), kjer delovni zvezek, povzetek, podatki za grafikon in ročna preverjanja tvorijo pregledno verigo.
 
@@ -35,7 +35,7 @@ Začnite z urejenimi, preverjenimi podatki: ena vrstica na enoto opazovanja, ena
 
 3. **Vstavite vrtilno tabelo.** Izberite celico v poimenovani očiščeni tabeli in uporabite *Insert → PivotTable*. Preverite tabelo/obseg in rezultat postavite na novi list `Pivot Check`. Izvorna tabela naj ostane nespremenjena.
 
-4. **Polja razporedite namerno.** Skupinsko polje postavite v *Rows*, mero pa v *Values*. Odprite *Value Field Settings* ter po vprašanju izberite Count, Sum ali Average. Za število različnih dokumentov uporabite *Distinct Count*, kjer ga podpirata različica Excela in Data Model; sicer izdelajte pregledno razdvojeno kontrolno tabelo in nadomestilo dokumentirajte.
+4. **Polja razporedite namerno.** Polje, po katerem združujete podatke, postavite v *Rows*, mero pa v *Values*. Odprite *Value Field Settings* ter glede na vprašanje izberite *Count*, *Sum* ali *Average*. Za število različnih dokumentov uporabite *Distinct Count*, kjer ga podpirata različica Excela in *Data Model*; sicer izdelajte kontrolno tabelo z enim zapisom na dokument in nadomestni postopek dokumentirajte.
 
 5. **Razkrijte manjkajoče kategorije.** Preglejte filtre in oznake vrstic. Potrdite, da so prazne, neznane in nerelevantne vrednosti obravnavane po pravilu. Pri majhnem imenovalcu poleg deleža pokažite tudi število.
 
@@ -45,7 +45,7 @@ Začnite z urejenimi, preverjenimi podatki: ena vrstica na enoto opazovanja, ena
 
 8. **Pripravite tabelo za grafikon.** Kopirajte ali povežite samo kategorije in preverjene vrednosti, potrebne za sporočilo. Pomožna tabela naj ostane sledljiva do vrtilne ali izvorne tabele. Nepojasnjenih vrednosti ne prilepite v nepovezani grafikon.
 
-9. **Izberite en zadržan grafikon.** Razvrščeni stolpčni ali palični grafikon je primeren za manjšo primerjavo kategorij, črtni pa za urejeno časovno vrsto. Izognite se 3D-učinkom, prelivom, okrasnim ikonam in barvi brez pomena. Ko so pomembne natančne vrednosti, je lahko tabela jasnejša.
+9. **Izberite en pregledno oblikovan grafikon.** Razvrščeni stolpčni ali palični grafikon je primeren za manjšo primerjavo kategorij, črtni pa za urejeno časovno vrsto. Izognite se 3D-učinkom, prelivom, okrasnim ikonam in barvi brez pomena. Ko so pomembne natančne vrednosti, je lahko tabela jasnejša.
 
 10. **Označite dokazno gradivo.** Dodajte opisni naslov in vidne enote, naslova osi pa samo, kjer sta potrebna. Pod grafikon napišite popoln napis: izvorna datoteka/različica, enota opazovanja, mera, imenovalec, izključitve, pravilo manjkajočih vrednosti, sklic na pretvorbo in rezultat ročnega preverjanja. Dodajte smiselno nadomestno besedilo ter pomena ne kodirajte samo z barvo.
 
@@ -53,7 +53,7 @@ Začnite z urejenimi, preverjenimi podatki: ena vrstica na enoto opazovanja, ena
 
 ## Rezultat
 
-Pripravite osveženo vrtilno tabelo, ročno preverjeno podmnožico, povezano tabelo za grafikon, en zadržan grafikon, popoln napis in nadomestno besedilo ter odstavek, ki loči opis, dokazno gradivo, interpretacijo in omejitev.
+Pripravite osveženo vrtilno tabelo, ročno preverjeno podmnožico, povezano tabelo za grafikon, en pregledno oblikovan grafikon brez odvečnih učinkov, popoln napis in nadomestno besedilo ter odstavek, ki loči opis, dokazno gradivo, interpretacijo in omejitev.
 
 Postopek je uspešen, če izbrana agregacija odgovori na zapisano vprašanje, sta imenovalec in pravilo manjkajočih vrednosti izrecna, se ročni vzorec ujema z vrtilno tabelo ter je vsaka narisana vrednost sledljiva do očiščene tabele.
 
@@ -61,7 +61,7 @@ Postopek je uspešen, če izbrana agregacija odgovori na zapisano vprašanje, st
 
 - Ali polje Values uporablja Count, Sum, Average ali Distinct Count iz zapisanega razloga?
 - Ali lahko poimenujete imenovalec in vse izključitve?
-- Ali je osvežitev vključila pričakovano nadzorovano vrstico?
+- Ali je osvežitev vključila vnaprej določeni preizkusni zapis?
 - Ali ročna podmnožica ponovi rezultat vrtilne tabele?
 - Ali napis omogoča določitev vira, enote, mere in manjkajočih vrednosti?
 - Ali interpretativna trditev ne presega dokaznega gradiva?
@@ -81,4 +81,4 @@ Vire smo preverili **2. septembra 2026**: Microsoft Support o [ustvarjanju vrtil
 
 ## Naloga
 
-Iz očiščene vzorčne tabele pripravite število po kategorijah, prikažite neznano kategorijo, ročno preverite eno kategorijo, rezultat po dodani vrstici osvežite in izdelajte en grafikon z napisom, ki navede imenovalec ter pravilo manjkajočih vrednosti.
+V očiščeni vzorčni tabeli preštejte zapise po kategorijah, prikažite neznano kategorijo, ročno preverite eno kategorijo, rezultat po dodanem preizkusnem zapisu osvežite in izdelajte en grafikon z napisom, ki navede imenovalec ter pravilo manjkajočih vrednosti.

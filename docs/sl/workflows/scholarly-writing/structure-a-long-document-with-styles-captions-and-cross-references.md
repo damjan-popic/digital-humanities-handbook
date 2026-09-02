@@ -38,15 +38,15 @@ Spodnje trenutne oznake so orientacija, ne trajna dejstva. Namizni Word, spletni
 
 5. **Uredite uvodne strani in številke.** Naslovnico ter morebitni izvleček in kazalo ločite od glavnega besedila. V Wordu lahko novi odsek pred arabskim številčenjem uporablja rimske številke ali nima vidne številke; pred spremembo prekinite povezavo glave/noge s prejšnjim odsekom. Writer uporablja sloge strani in polja številk. Rezultat preverite v izvoženem PDF-ju.
 
-6. **Vstavite pravi napis.** Izberite tabelo ali sliko in uporabite Word *References → Insert Caption* oziroma Writerjev *Insert Caption* ali ukaz *Caption* ob predmetu. Izberite pravilno oznako in napišite popoln napis: identifikator, opisni naslov, vir, pomembno pretvorbo, enoto/imenovalec ter opombo o manjkajočih vrednostih ali pravicah. Samodejno oštevilčeno polje podpira preštevilčenje; ročno natipkana »Slika 1« ga ne.
+6. **Vstavite samodejno oštevilčen napis.** Izberite tabelo ali sliko in uporabite Word *References → Insert Caption* oziroma Writerjev *Insert Caption* ali ukaz *Caption* ob predmetu. Izberite pravilno oznako in napišite popoln napis: identifikator, opisni naslov, vir, pomembno pretvorbo, enoto ali imenovalec ter opombo o manjkajočih vrednostih ali pravicah. Samodejno oštevilčeno polje podpira preštevilčenje; ročno natipkana »Slika 1« ga ne.
 
-7. **Vstavite navzkrižni sklic.** Najprej ustvarite cilj. V Wordu uporabite *Insert/References → Cross-reference*, v Writerju *Insert → Cross-reference* ali *Insert → Field → More Fields → Cross-references*. Izberite napis, naslov, opombo ali zaznamek in želeno obliko prikaza. Prilepljeni zapis »glejte Tabelo 2« ni živi sklic.
+7. **Vstavite navzkrižni sklic.** Najprej ustvarite cilj. V Wordu uporabite *Insert/References → Cross-reference*, v Writerju *Insert → Cross-reference* ali *Insert → Field → More Fields → Cross-references*. Izberite napis, naslov, opombo ali zaznamek in želeno obliko prikaza. Prilepljeni zapis »glejte Tabelo 2« ni posodabljajoči se navzkrižni sklic.
 
-8. **Uporabite prave sprotne ali končne opombe.** V Wordu jih vstavite z *References → Insert Footnote/Endnote*, v Writerju z *Insert → Footnote and Endnote*. Vrsto izberite po standardu citiranja in žanru. Nadpisane številke in besedila na dnu strani ne tipkajte ročno.
+8. **Opombe vstavite s funkcijo urejevalnika.** V Wordu sprotne ali končne opombe vstavite z *References → Insert Footnote/Endnote*, v Writerju pa z *Insert → Footnote and Endnote*. Vrsto izberite glede na sistem citiranja, navodila za citiranje in žanr. Nadpisane številke in besedila na dnu strani ne tipkajte ročno.
 
-9. **Dodajte sled pregleda.** Komentarje uporabite za vprašanja ali razlage, *Track Changes* oziroma *Record Changes* pa za predlagane spremembe besedila. Označite pregledovalce. Vsak predlog presodite v kontekstu in ga zavestno sprejmite ali zavrnite; *Accept All* lahko izbriše potrebno razliko ali vnese napako.
+9. **Zabeležite recenzijske posege.** Komentarje uporabite za vprašanja ali razlage, *Track Changes* oziroma *Record Changes* pa za predlagane spremembe besedila. Označite pregledovalce. Vsak predlog presodite v kontekstu in ga zavestno sprejmite ali zavrnite; *Accept All* lahko izbriše potrebno razliko ali vnese napako.
 
-10. **Dodajte smiselno nadomestno besedilo.** Opišite namen in pomembno vsebino vsake informativne slike ali grafikona. Res okrasni predmet označite kot tak, kjer je možnost podprta. Napisa ne ponavljajte dobesedno, če ne razloži vidnega razmerja. Pravi naslovi uporabnikom bralnikov zaslona omogočajo tudi navigacijo.
+10. **Dodajte smiselno nadomestno besedilo.** Opišite namen in pomembno vsebino vsake informativne slike ali grafikona. Res okrasni predmet označite kot tak, kjer je možnost podprta. Napisa ne ponavljajte dobesedno, če ne razloži vidnega razmerja. Naslovni slogi uporabnikom bralnikov zaslona omogočajo tudi navigacijo.
 
 11. **Pred oddajo posodobite polja.** Shranite varnostno kopijo, nato posodobite kazalo, napise, navzkrižne sklice, številke strani ter navedbe/bibliografijo Zotero z njihovimi ukazi. V Wordu lahko izbor celotnega dokumenta in posodobitev osvežita večino Wordovih polj, navedbe Zotero pa osvežite iz dodatka. V Writerju posebej posodobite kazala in polja. Rezultat preglejte.
 
@@ -54,7 +54,7 @@ Spodnje trenutne oznake so orientacija, ne trajna dejstva. Namizni Word, spletni
 
 ## Rezultat
 
-Pripravite strukturirani delovni dokument z dvema ravnema naslovov, samodejnim kazalom, načrtovano mejo strani/odseka ali sloga strani, oštevilčenim napisom, živim navzkrižnim sklicem, pravo opombo, številkami strani, enim komentarjem, eno sledeno spremembo in smiselnim nadomestnim besedilom.
+Pripravite strukturirani delovni dokument z dvema ravnema naslovov, samodejnim kazalom, načrtovano mejo strani oziroma odseka ali sloga strani, samodejno oštevilčenim napisom, posodabljajočim se navzkrižnim sklicem, sprotno ali končno opombo, vstavljeno s funkcijo urejevalnika, številkami strani, enim komentarjem, eno spremembo, zabeleženo s sledenjem, in smiselnim nadomestnim besedilom.
 
 Postopek je uspešen, če premik razdelka in dodana slika po posodobitvi polj ne zahtevata ročnega preštevilčenja, navigacijski prikaz ustreza orisu in izvoženi dokument ostane berljiv.
 

@@ -1,6 +1,6 @@
 ---
 title: "How do I choose, apply, and audit a citation style?"
-description: "Treat a citation standard as an editorial system, test varied source types, and document corrections and unresolved cases."
+description: "Identify the required citation system, select its concrete style, test varied source types, and document corrections and unresolved cases."
 category: "Reference management"
 category_id: "reference-management"
 difficulty: "beginner"
@@ -16,9 +16,9 @@ tags: [citation-style, csl, zotero, locators, audit]
 
 ## What you are trying to do
 
-How can you know that an automatically formatted bibliography satisfies the rules that govern a real submission? A citation style is an editorial and disciplinary system, not a cosmetic preference and not a quality ranking. Zotero applies machine-readable Citation Style Language (CSL), but the authoritative faculty, journal, publisher, or professional-association guide decides what your reader expects.
+How can you know that an automatically formatted bibliography satisfies the rules that govern a real submission? A **citation system** establishes the basic arrangement, such as author–date, notes and bibliography, or numeric references. A **citation style** is a concrete formatting implementation, often encoded in Citation Style Language (CSL). The governing faculty, journal, publisher, or professional-association **citation guidelines** may add submission-specific requirements. These distinctions are editorial conventions, not a quality ranking.
 
-Keep the chain explicit: a **source** is the evidence; a **bibliographic record** describes it; a **citation** points from a claim to that record; a **locator** identifies the cited passage or unit; a **bibliography** lists records according to selection rules; a **citation style** formats and orders these elements; and a **local style guide** may add requirements that the generic style does not encode.
+Keep the chain explicit: a **source** is the evidence; a **bibliographic record** describes it; a **citation** points from a claim to that record; a **locator** identifies the cited passage or unit; a **bibliography** lists records according to selection rules; a **citation style** formats and orders these elements; and local or venue-specific citation guidelines may add requirements that the generic style does not encode.
 
 ## You need
 

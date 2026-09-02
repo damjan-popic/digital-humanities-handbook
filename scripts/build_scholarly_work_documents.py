@@ -9,8 +9,9 @@ This build code follows the repository's MIT licence.
 from __future__ import annotations
 
 import argparse
+from datetime import datetime, timezone
 from pathlib import Path
-import zipfile
+from tempfile import TemporaryDirectory
 
 from docx import Document
 from docx.enum.section import WD_SECTION
@@ -20,6 +21,8 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
 from PIL import Image, ImageDraw, ImageFont
+
+from scholarly_work_package_utils import deterministic_zip, normalize_office_package
 
 
 BLUE = "2E74B5"
@@ -33,6 +36,7 @@ INK = "1B1F23"
 TABLE_WIDTH_DXA = 9360
 TABLE_INDENT_DXA = 120
 CELL_MARGIN_DXA = 120
+FIXED_TIME = datetime(2026, 9, 2, tzinfo=timezone.utc)
 
 
 def set_run_font(run, size=11, color=INK, bold=None, italic=None):
@@ -411,6 +415,8 @@ def set_core_properties(document, title):
     properties.subject = "Original teaching fixture for scholarly-work foundations"
     properties.keywords = "scholarly writing; Zotero; Word; LibreOffice; Excel; teaching sample"
     properties.comments = "CC BY 4.0; fictional teaching data; version 1.0"
+    properties.created = FIXED_TIME
+    properties.modified = FIXED_TIME
 
 
 def build_structured_paper(output_path, figure_path):
@@ -569,6 +575,7 @@ def build_structured_paper(output_path, figure_path):
         p.add_run(text)
 
     document.save(output_path)
+    normalize_office_package(output_path)
 
 
 def build_bibliography(output_path):
@@ -670,6 +677,7 @@ def build_bibliography(output_path):
         "The workbook may be treated as software, a dataset or a supporting file depending on its publication context. The model records the ambiguity instead of pretending that a generic guide supplies a universal answer."
     )
     document.save(output_path)
+    normalize_office_package(output_path)
 
 
 def build_odt(output_path, figure_path):
@@ -752,7 +760,7 @@ def build_odt(output_path, figure_path):
    <text:p text:style-name="Source">Source: Digital Humanities Handbook original teaching sample, version 1.0.</text:p>
    <text:h text:outline-level="1">3. Results</text:h>
    <text:p>The separation of layers summarized in <text:reference-ref text:ref-name="tbl_layers" text:reference-format="text">Table 1</text:reference-ref> makes the chart denominator recoverable. Of the eight retained records, four are normalized as postcards, three as photographs and one as unknown.</text:p>
-   <text:p><draw:frame draw:style-name="Figure" draw:name="Object-type chart" text:anchor-type="paragraph" svg:width="5.8in" svg:height="3.29in"><draw:image xlink:href="Pictures/object-type-chart.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:mime-type="image/png"/></draw:frame></text:p>
+   <text:p><draw:frame draw:style-name="Figure" draw:name="Object-type chart" text:anchor-type="paragraph" svg:width="5.8in" svg:height="3.29in"><svg:title>Object-type count chart</svg:title><svg:desc>Bar chart of eight retained records: photograph 3, postcard 4, unknown 1.</svg:desc><draw:image xlink:href="Pictures/object-type-chart.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:mime-type="image/png"/></draw:frame></text:p>
    <text:p text:style-name="Caption"><text:reference-mark-start text:name="fig_types"/>Figure <text:sequence text:name="Figure" text:formula="ooow:Figure+1">1</text:sequence>. Retained records by normalized object type (n = 8).<text:reference-mark-end text:name="fig_types"/></text:p>
    <text:p text:style-name="Source">Source: output/chart-data.csv; exclusions are one exact duplicate and one test record.</text:p>
    <text:p><text:reference-ref text:ref-name="fig_types" text:reference-format="text">Figure 1</text:reference-ref> retains the unknown category. Removing it would make the chart look cleaner while concealing unresolved metadata.</text:p>
@@ -805,36 +813,47 @@ def build_odt(output_path, figure_path):
  <manifest:file-entry manifest:full-path="settings.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="Pictures/object-type-chart.png" manifest:media-type="image/png"/>
 </manifest:manifest>"""
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with zipfile.ZipFile(output_path, "w") as archive:
-        archive.writestr("mimetype", mimetype, compress_type=zipfile.ZIP_STORED)
-        archive.writestr("content.xml", content, compress_type=zipfile.ZIP_DEFLATED)
-        archive.writestr("styles.xml", styles, compress_type=zipfile.ZIP_DEFLATED)
-        archive.writestr("meta.xml", meta, compress_type=zipfile.ZIP_DEFLATED)
-        archive.writestr("settings.xml", settings, compress_type=zipfile.ZIP_DEFLATED)
-        archive.writestr("META-INF/manifest.xml", manifest, compress_type=zipfile.ZIP_DEFLATED)
-        archive.write(figure_path, "Pictures/object-type-chart.png", compress_type=zipfile.ZIP_DEFLATED)
+    deterministic_zip(
+        output_path,
+        [
+            ("mimetype", mimetype.encode("utf-8")),
+            ("content.xml", content.encode("utf-8")),
+            ("styles.xml", styles.encode("utf-8")),
+            ("meta.xml", meta.encode("utf-8")),
+            ("settings.xml", settings.encode("utf-8")),
+            ("META-INF/manifest.xml", manifest.encode("utf-8")),
+            ("Pictures/object-type-chart.png", figure_path.read_bytes()),
+        ],
+        stored_first="mimetype",
+    )
+
+
+def build_documents(root: Path) -> list[Path]:
+    output_dir = root / "examples" / "scholarly-work-foundations" / "output"
+    audit_dir = root / "examples" / "scholarly-work-foundations" / "citation-style-audit"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    audit_dir.mkdir(parents=True, exist_ok=True)
+    with TemporaryDirectory(prefix="scholarly-work-documents-") as temporary:
+        figure_path = Path(temporary) / "object-type-chart.png"
+        build_figure(figure_path)
+        build_structured_paper(output_dir / "structured-paper.docx", figure_path)
+        build_odt(output_dir / "structured-paper.odt", figure_path)
+    build_bibliography(audit_dir / "generated-bibliography.docx")
+    outputs = [
+        output_dir / "structured-paper.docx",
+        output_dir / "structured-paper.odt",
+        audit_dir / "generated-bibliography.docx",
+    ]
+    for output in outputs:
+        print(output.relative_to(root))
+    return outputs
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--repo-root", type=Path, required=True)
     args = parser.parse_args()
-    root = args.repo_root.resolve()
-    output_dir = root / "examples" / "scholarly-work-foundations" / "output"
-    audit_dir = root / "examples" / "scholarly-work-foundations" / "citation-style-audit"
-    qa_dir = root / ".codex-tmp" / "issue-20-documents"
-    output_dir.mkdir(parents=True, exist_ok=True)
-    audit_dir.mkdir(parents=True, exist_ok=True)
-    qa_dir.mkdir(parents=True, exist_ok=True)
-    figure_path = qa_dir / "object-type-chart.png"
-    build_figure(figure_path)
-    build_structured_paper(output_dir / "structured-paper.docx", figure_path)
-    build_odt(output_dir / "structured-paper.odt", figure_path)
-    build_bibliography(audit_dir / "generated-bibliography.docx")
-    print(output_dir / "structured-paper.docx")
-    print(output_dir / "structured-paper.odt")
-    print(audit_dir / "generated-bibliography.docx")
+    build_documents(args.repo_root.resolve())
 
 
 if __name__ == "__main__":

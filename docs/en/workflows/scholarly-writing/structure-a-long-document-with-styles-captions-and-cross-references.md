@@ -42,7 +42,7 @@ The current labels below are orientation points, not permanent facts. Word deskt
 
 7. **Insert a cross-reference.** Create the target first. In Word use *Insert/References → Cross-reference*; in Writer use *Insert → Cross-reference* or *Insert → Field → More Fields → Cross-references*. Select the caption, heading, footnote, or bookmark and the required display form. A pasted “see Table 2” is text, not a live reference.
 
-8. **Use real footnotes or endnotes.** Insert them through *References → Insert Footnote/Endnote* in Word or *Insert → Footnote and Endnote* in Writer. Choose between footnotes and endnotes according to the citation standard and genre. Do not type a superscript and a note at the bottom of the page manually.
+8. **Use real footnotes or endnotes.** Insert them through *References → Insert Footnote/Endnote* in Word or *Insert → Footnote and Endnote* in Writer. Choose between footnotes and endnotes according to the governing citation system, guidelines, and genre. Do not type a superscript and a note at the bottom of the page manually.
 
 9. **Add review evidence.** Use comments for questions or explanations and *Track Changes*/*Record Changes* for proposed textual changes. Identify reviewers. Inspect each suggestion in context and accept or reject it deliberately; “accept all” can remove necessary distinctions or import an error.
 

@@ -69,7 +69,7 @@ Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod
 
 ### Upravljanje virov
 
-- [Kako izberem, uporabim in pregledam standard citiranja?](reference-management/choose-apply-and-audit-a-citation-style.md) <span class="tiny">— začetno</span>
+- [Kako izberem sistem in citatni slog ter pregledam navedbe?](reference-management/choose-apply-and-audit-a-citation-style.md) <span class="tiny">— začetno</span>
 - [Kako ustvarim in očistim knjižnico Zotero?](reference-management/build-and-clean-a-zotero-library.md) <span class="tiny">— začetno</span>
 - [Kako z Zoterom vstavljam navedbe v Word ali LibreOffice?](reference-management/cite-with-zotero-in-word-or-libreoffice.md) <span class="tiny">— začetno</span>
 

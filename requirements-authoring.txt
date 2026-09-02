@@ -1,0 +1,9 @@
+# Optional public authoring environment for the scholarly-work teaching fixtures.
+# Install separately from the website dependencies with `make install-authoring`.
+et-xmlfile==2.0.0
+lxml==6.0.1
+openpyxl==3.1.5
+pdf2image==1.17.0
+Pillow==11.3.0
+python-docx==1.2.0
+typing_extensions==4.15.0

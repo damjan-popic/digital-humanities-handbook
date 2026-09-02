@@ -1,14 +1,14 @@
 ---
-title: "How do I turn a research question into a scientific paper plan?"
+title: "How do I turn a research question into a scholarly paper plan?"
 description: "Design a humanities argument from question, evidence, counterexample, and limitation before drafting a stable abstract."
 category: "Scholarly writing"
 category_id: "scholarly-writing"
 difficulty: "beginner"
 time: "75–120 min"
-tags: [scientific-writing, argument, evidence, paragraph, planning]
+tags: [scholarly-writing, argument, evidence, paragraph, planning]
 ---
 
-# How do I turn a research question into a scientific paper plan?
+# How do I turn a research question into a scholarly paper plan?
 
 <div class="answer-meta" markdown>
 <span>Scholarly writing</span><span>beginner</span><span>75–120 min</span>
@@ -16,7 +16,7 @@ tags: [scientific-writing, argument, evidence, paragraph, planning]
 
 ## What you are trying to do
 
-How can a broad interest become an argument that a particular scholarly audience can evaluate? A scientific or scholarly paper does more than report a topic. It poses a researchable question, offers a provisional answer, presents evidence, explains the reasoning, addresses alternatives, and states limits.
+How can a broad interest become an argument that a particular scholarly audience can evaluate? A scholarly paper does more than report a topic. It poses a researchable question, offers a provisional answer, presents evidence, explains the reasoning, addresses alternatives, and states limits.
 
 Humanities genres vary. A textual interpretation, historical case study, theoretical essay, edition commentary, and digital-method report do not share one mandatory architecture. IMRaD may be appropriate for an empirical study, while another paper may move through a problem, archive, interpretive sequence, and implications. Do not impose IMRaD or a five-paragraph essay as a universal template.
 
@@ -25,7 +25,7 @@ Humanities genres vary. A textual interpretation, historical case study, theoret
 - the assignment or publication brief, intended audience, length, and citation requirements;
 - one bounded research question and three to five checked sources;
 - reading notes that separate quotations, paraphrases, summaries, and your own response;
-- the [sample ZIP](../../../assets/downloads/scholarly-work-foundations-v1.zip), which includes reading notes, a one-page plan, source-to-claim table, revised paragraph, and known patchwriting problem.
+- the [sample ZIP](../../../assets/downloads/scholarly-work-foundations-v1.zip), which includes reading notes, a one-page plan, source-to-claim table, revised paragraph, and a known problem of **patchwriting**—paraphrasing so closely that the source's sentence structure and progression remain disguised beneath small word substitutions.
 
 ## Workflow
 

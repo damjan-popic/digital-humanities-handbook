@@ -32,12 +32,15 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requirements.txt -r requirements-authoring.txt
+
+      - name: Rebuild scholarly-work teaching samples
+        run: make scholarly-work-samples
 
       - name: Regenerate catalogues and translation report
         run: make indexes
 
-      - name: Verify generated indexes are committed
+      - name: Verify generated artefacts are committed
         run: git diff --exit-code
 
       - name: Validate and build

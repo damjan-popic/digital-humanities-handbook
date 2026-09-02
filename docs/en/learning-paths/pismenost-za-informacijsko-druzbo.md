@@ -9,7 +9,7 @@ status: draft
 
 ## Purpose
 
-This path is designed for first-year and non-technical humanities students who need one coherent route from a research question to a structured, cited, and inspectable submission. It combines scientific writing, source evaluation, reference management, word processing, spreadsheet data work, basic text and spatial methods, and responsible use of artificial intelligence.
+This path is designed for first-year and non-technical humanities students who need one coherent route from a research question to a structured, cited, and inspectable submission. It combines scholarly writing, source evaluation, reference management, word processing, spreadsheet data work, basic text and spatial methods, and responsible use of artificial intelligence.
 
 The course should not be reduced to software menus. Interfaces change. The durable outcome is the ability to define a question, distinguish evidence from interpretation, preserve source and data lineage, check output, revise a claim, and communicate limits.
 
@@ -27,9 +27,9 @@ Because Word, LibreOffice, Zotero, Excel, and Power Query differ by platform and
 
 By the end of the path, you should be able to:
 
-- turn a research question into a structured and revisable scientific text for a named audience and genre;
+- turn a research question into a structured and revisable scholarly text for a named audience and genre;
 - distinguish a source, bibliographic record, attachment, note, citation, bibliography, and stable identifier;
-- build and verify a small Zotero library, select an authoritative citation standard, and audit five varied records;
+- build and verify a small Zotero library, identify the required citation system and guidelines, select the corresponding style, and audit five varied records;
 - insert citations with appropriate locators and generate and refresh a bibliography in Word or LibreOffice Writer;
 - use real heading styles, contents, captions, cross-references, comments, and tracked changes;
 - import, clean, and summarize a small Excel dataset without silently changing identifiers or types;
@@ -53,9 +53,9 @@ Use [Models, evidence and interpretation](../chapters/models-evidence-interpreta
 
 **Output:** a question-and-evidence brief that distinguishes description, evidence, interpretation, and recommendation.
 
-### 3. Scientific writing and structured documents
+### 3. Scholarly writing and structured documents
 
-First [turn the research question into a scientific paper plan](../workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md): name the audience and genre, draft a working claim, map sections, connect sources to claims, and revise one paragraph. Then [structure the long document with styles, captions, and cross-references](../workflows/scholarly-writing/structure-a-long-document-with-styles-captions-and-cross-references.md). Use real headings, an automatic contents page, fields, notes, comments, tracked changes, and meaningful alternative text. Begin a [revision log](../workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md).
+First [turn the research question into a scholarly paper plan](../workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md): name the audience and genre, draft a working claim, map sections, connect sources to claims, and revise one paragraph. Then [structure the long document with styles, captions, and cross-references](../workflows/scholarly-writing/structure-a-long-document-with-styles-captions-and-cross-references.md). Use real headings, an automatic contents page, fields, notes, comments, tracked changes, and meaningful alternative text. Begin a [revision log](../workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md).
 
 **Output:** a one-page argument plan, source-to-claim table, revised paragraph, and structured `.docx` or `.odt` draft.
 
@@ -65,11 +65,11 @@ Build a search strategy with concepts, synonyms, language variants, Boolean comb
 
 **Output:** a search and source-selection log with three different source environments.
 
-### 5. Zotero, citation standards and bibliography management
+### 5. Zotero, citation systems, styles and bibliography management
 
 Complete all three reference workflows. [Build and clean a small Zotero library](../workflows/reference-management/build-and-clean-a-zotero-library.md), including identifier, catalogue, Connector, and manual-entry routes. [Choose, apply, and audit the required citation style](../workflows/reference-management/choose-apply-and-audit-a-citation-style.md): record its authority and version, then test five source types. Finally [insert citations with Zotero in Word or LibreOffice](../workflows/reference-management/cite-with-zotero-in-word-or-libreoffice.md), add appropriate locators, create a multiple-source citation, generate and refresh the bibliography, and correct metadata in Zotero.
 
-Explain one source or metadata case that the style does not handle cleanly. Do not maintain the same document with both Zotero and Word's built-in citation manager. Never unlink citations in the working copy.
+Explain one source or metadata case that the style does not handle cleanly. Do not maintain the same document with both Zotero and Word's built-in citation manager. Keep the document with active Zotero fields as the master; follow the venue's delivery requirements and unlink only a separately named, backed-up final submission copy when static text is required. Never unlink the working master merely to repair formatting.
 
 **Output:** five verified Zotero records, a linked document with citations and generated bibliography, and a short `citation-style-audit/` recording authority, tests, corrections, deviations, and unresolved cases.
 
@@ -89,7 +89,7 @@ Define one row and one variable before editing. Use the conceptual [messy-notes 
 
 ### 8. Repeatable spreadsheet analysis and visual communication
 
-[Record repeatable transformations in Excel Power Query](../workflows/data-wrangling/make-repeatable-transformations-with-excel-power-query.md): rename and type columns, trim/clean and split text, filter by a stated rule, replace documented categories, merge a lookup, remove justified duplicates, and refresh after a source change. Inspect Applied Steps and diagnose one broken step. If Power Query authoring is unavailable, complete the documented fallback and have the steps run once on a supported platform.
+[Record repeatable transformations in Excel Power Query](../workflows/data-wrangling/make-repeatable-transformations-with-excel-power-query.md): rename and type columns, trim/clean and split text, filter by a stated rule, replace documented categories, merge a lookup, and refresh after a source change. Remove exact duplicate rows directly; when candidate rows differ, use an explicit priority, grouping/index, or retain/exclude rule rather than trusting visible sort order. Verify retained identifiers and row counts. Inspect Applied Steps and diagnose one broken step. If Power Query authoring is unavailable, complete the documented fallback and have the steps run once on a supported platform.
 
 Then [summarize the cleaned data with a PivotTable and one transparent chart](../workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md). Distinguish row count, distinct documents, sum, and average; expose missing categories and denominator; refresh; and manually verify a small subset.
 

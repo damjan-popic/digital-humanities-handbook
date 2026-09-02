@@ -45,7 +45,7 @@ Keep three layers distinct: the **source** file, the **query** that records oper
 
 8. **Merge the lookup table.** Import `place-lookup.csv` as a separate query. Use *Merge Queries* on the exact source key, inspect match rates, and expand only needed normalized fields. Keep unmatched values visible for review; do not let a fuzzy or many-to-many join silently multiply rows.
 
-9. **Remove only justified duplicates.** Define the key and rationale before *Remove Duplicates*. Sort order can affect which row is retained, so first decide which record should survive and whether two similar records are actually editions, versions, or separate observations. Compare row counts and IDs before and after.
+9. **Remove duplicates with an explicit rule.** If rows are exact duplicates across every relevant field, select those fields and remove the repeated identical row. If candidates share a key but differ elsewhere, do not rely on visible sort order: Power Query's `Table.Distinct` does not generally guarantee which candidate it retains because query folding and optimization can change execution. First create a deterministic priority, grouping/index, or documented retain/exclude rule that selects one candidate explicitly; then filter by that rule. Record the retained and excluded identifiers and reconcile row counts afterward.
 
 10. **Load the result separately.** Use *Close & Load To* and load as a table on a named `Query Result` sheet or as a connection when appropriate. Do not overwrite the raw source. Add a README or workbook sheet that translates each Applied Step into a research reason.
 
@@ -61,7 +61,7 @@ Power Query availability, connectors, authoring, and refresh differ across Windo
 
 Produce the unchanged source, lookup table, workbook with `Query Result`, exported cleaned CSV, Applied Steps inventory, refresh test, row-count reconciliation, and one broken-step diagnosis.
 
-The workflow passes when refresh after an added source row reproduces all documented transformations, identifiers remain text, the merge does not multiply observations, duplicate removal matches the written rule, and the first broken step can be identified.
+The workflow passes when refresh after an added source row reproduces all documented transformations, identifiers remain text, the merge does not multiply observations, exact duplicates are removed safely, any differing candidate is selected by an explicit deterministic rule, retained identifiers and row counts reconcile, and the first broken step can be identified.
 
 ## Check yourself
 
@@ -77,12 +77,12 @@ The workflow passes when refresh after an added source row reproduces all docume
 - Editing the loaded result and expecting the change to survive refresh.
 - Replacing categories without a mapping or case rule.
 - Merging on non-unique keys and multiplying rows.
-- Removing duplicates without defining which record is retained.
+- Assuming visible sort order determines which non-identical duplicate candidate is retained.
 - Repairing the last error instead of locating the first broken dependency.
 
 ## Sources and interface status
 
-Sources checked **2 September 2026**: Microsoft Support on [Power Query in Excel](https://support.microsoft.com/en-us/excel/about-power-query-in-excel), [creating, loading, or editing a query](https://support.microsoft.com/en-us/excel/create-load-or-edit-a-query-in-excel-power-query), [importing data sources](https://support.microsoft.com/en-us/excel/import-data-from-data-sources-power-query), [renaming columns and diagnosing later steps](https://support.microsoft.com/en-us/excel/rename-a-column-power-query), [merging queries](https://support.microsoft.com/en-us/office/merge-queries-power-query), and [Power Query availability by Excel version](https://support.microsoft.com/en-us/office/power-query-data-sources-in-excel-versions). Verify the current feature matrix for your platform before assessment.
+Sources checked **2 September 2026**: Microsoft Support on [Power Query in Excel](https://support.microsoft.com/en-us/excel/about-power-query-in-excel), [creating, loading, or editing a query](https://support.microsoft.com/en-us/excel/create-load-or-edit-a-query-in-excel-power-query), [importing data sources](https://support.microsoft.com/en-us/excel/import-data-from-data-sources-power-query), [renaming columns and diagnosing later steps](https://support.microsoft.com/en-us/excel/rename-a-column-power-query), [merging queries](https://support.microsoft.com/en-us/office/merge-queries-power-query), and [Power Query availability by Excel version](https://support.microsoft.com/en-us/office/power-query-data-sources-in-excel-versions); Microsoft Learn on [`Table.Distinct`](https://learn.microsoft.com/en-us/powerquery-m/table-distinct) and its non-guaranteed retention behavior. Verify the current feature matrix for your platform before assessment.
 
 ## Practice task
 

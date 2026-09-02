@@ -4,6 +4,7 @@
 |---|---|---|---|
 | Leading zeros | `00009`, all identifiers | import as text | convert identifiers to numbers |
 | Exact duplicate | second `00105` | exclude once and log the rule | delete both occurrences |
+| Non-identical duplicate candidates | same key, differing fields | apply an explicit priority/group/index or retain/exclude rule; record retained IDs and row counts | assume visible sort order determines which row remains |
 | Test row | `TEST-01` | exclude through an explicit filter | delete it from the raw file |
 | Locale-sensitive numbers | `1.204`, `1 125` | apply the documented source convention and test known values | trust automatic type detection |
 | Mixed date precision | month, year, exact day, approximate and uncertain dates | separate display value, ISO value, precision and status | invent missing days or precision |

@@ -18,7 +18,7 @@ tags: [zotero, word, libreoffice, citations, bibliography]
 
 How can a citation remain connected to corrected source metadata while a paper changes? Zotero's word-processor integration inserts active fields. The visible citation is formatted output; the editable bibliographic facts belong in the Zotero item.
 
-Choose and audit the required citation standard before this workflow. Do not maintain the same document simultaneously with Zotero and Word's built-in citation manager: two field systems make corrections and collaboration difficult to diagnose.
+Identify the governing citation system and guidelines, then choose and audit the corresponding citation style before this workflow. Do not maintain the same document simultaneously with Zotero and Word's built-in citation manager: two field systems make corrections and collaboration difficult to diagnose.
 
 ## You need
 
@@ -49,7 +49,7 @@ Use the [sample ZIP](../../../assets/downloads/scholarly-work-foundations-v1.zip
 
 9. **Collaborate in a compatible copy.** Keep the working file in one format and test round trips before a deadline. Zotero may use Word fields or bookmarks depending on collaboration needs; current Zotero guidance generally prefers fields unless LibreOffice compatibility requires bookmarks. Never assume that converting repeatedly between `.docx` and `.odt` preserves every active field.
 
-10. **Unlink only a backed-up final copy.** *Unlink Citations* removes Zotero field codes and prevents future automatic updates. Zotero documents this as irreversible. Use it only in a separate, backed-up delivery copy when a recipient specifically requires plain text. Keep the linked working document.
+10. **Unlink only a backed-up final submission copy.** *Unlink Citations* removes Zotero field codes and prevents future automatic updates. Zotero documents this as irreversible. Always retain the linked working document as the master and follow the venue or publisher's delivery requirements. When preparing a static final submission, unlink only a separately named and backed-up delivery copy. Never unlink the working master merely to repair formatting.
 
 ## Word and LibreOffice labels
 
@@ -63,7 +63,7 @@ Use the [sample ZIP](../../../assets/downloads/scholarly-work-foundations-v1.zip
 
 ## Output
 
-Produce a linked working document containing one citation with a locator, one multi-source citation, and a generated bibliography; a five-case comparison log; and, only if requested, a separately named unlinked delivery copy.
+Produce a master document with active Zotero fields containing one citation with a locator, one multi-source citation, and a generated bibliography; a five-case comparison log; and, when required for a static final submission, a separately named and backed-up copy with links removed.
 
 The workflow passes when a metadata correction made once in Zotero appears after *Refresh*, all five audit cases match the chosen authoritative guide or have a documented deviation, and the linked working copy remains available.
 
@@ -85,7 +85,7 @@ The workflow passes when a metadata correction made once in Zotero appears after
 
 ## Sources and interface status
 
-Sources checked **2 September 2026**: Zotero's official [Word Processor Plugins](https://www.zotero.org/support/word_processor_integration), [Using the Zotero Word Plugin](https://www.zotero.org/support/word_processor_plugin_usage), [Cite settings](https://www.zotero.org/support/preferences/cite), and [Troubleshooting](https://www.zotero.org/support/word_processor_plugin_troubleshooting) documentation. The plugin's concepts are shared across Word and Writer, but exact labels, field storage, and compatibility behaviour vary by platform and version.
+Sources checked **2 September 2026**: Zotero's official [Word Processor Plugins](https://www.zotero.org/support/word_processor_integration), [Using the Zotero Word Plugin](https://www.zotero.org/support/word_processor_plugin_usage), [guidance on unlinking citations](https://www.zotero.org/support/kb/unlinking_citations), [Cite settings](https://www.zotero.org/support/preferences/cite), and [Troubleshooting](https://www.zotero.org/support/word_processor_plugin_troubleshooting) documentation. The plugin's concepts are shared across Word and Writer, but exact labels, field storage, and compatibility behaviour vary by platform and version.
 
 ## Practice task
 

@@ -1,7 +1,10 @@
-.PHONY: install serve indexes manuscripts check build preview clean
+.PHONY: install install-authoring serve indexes manuscripts scholarly-work-samples check build preview clean
 
 install:
 	python -m pip install -r requirements.txt
+
+install-authoring:
+	python -m pip install -r requirements-authoring.txt
 
 serve:
 	mkdocs serve
@@ -13,10 +16,16 @@ indexes:
 manuscripts:
 	python scripts/build_review_manuscripts.py
 
+scholarly-work-samples:
+	python scripts/build_scholarly_work_documents.py --repo-root .
+	python scripts/build_scholarly_work_workbook.py --repo-root .
+	python scripts/build_scholarly_work_snapshot.py --repo-root .
+
 check: indexes manuscripts
 	python scripts/check_handbook.py
 	python scripts/check_technical_foundations.py
 	python scripts/check_scholarly_work_foundations.py
+	python scripts/check_scholarly_work_samples.py
 	python scripts/check_intertextuality.py
 	python scripts/check_review_ecosystem.py
 	python scripts/check_answers.py
