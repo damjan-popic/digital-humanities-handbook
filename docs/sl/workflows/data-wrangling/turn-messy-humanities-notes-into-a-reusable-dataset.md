@@ -2,6 +2,7 @@
 title: "Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?"
 description: "Arhivske sezname, bibliografijo, rodoslovje ali terenske zapiske strukturirajte, ne da bi izbrisali negotovost."
 category: "Urejanje podatkov"
+category_id: "data-wrangling"
 difficulty: "začetno"
 time: "45–90 min"
 tags: [podatkovni-model, metapodatki, neurejeni-podatki, humanistika]

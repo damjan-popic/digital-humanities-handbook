@@ -18,7 +18,9 @@ Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod
 - **Osnove** — 6
 - **Podatki** — 1
 - **UI** — 1
-- **Urejanje podatkov** — 1
+- **Upravljanje virov** — 3
+- **Urejanje podatkov** — 4
+- **Znanstveno pisanje** — 3
 
 ## Vsi prevedeni postopki
 
@@ -65,6 +67,21 @@ Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod
 
 - [Kako rezultat UI preverim ob izvornih dokumentih?](ai/audit-ai-output-against-source-documents.md) <span class="tiny">— začetno</span>
 
+### Upravljanje virov
+
+- [Kako izberem sistem in citatni slog ter pregledam navedbe?](reference-management/choose-apply-and-audit-a-citation-style.md) <span class="tiny">— začetno</span>
+- [Kako ustvarim in očistim knjižnico Zotero?](reference-management/build-and-clean-a-zotero-library.md) <span class="tiny">— začetno</span>
+- [Kako z Zoterom vstavljam navedbe v Word ali LibreOffice?](reference-management/cite-with-zotero-in-word-or-libreoffice.md) <span class="tiny">— začetno</span>
+
 ### Urejanje podatkov
 
+- [Kako manjši podatkovni nabor uvozim in očistim v Excelu?](data-wrangling/import-and-clean-a-small-dataset-in-excel.md) <span class="tiny">— začetno</span>
 - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?](data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md) <span class="tiny">— začetno</span>
+- [Kako podatke povzamem z vrtilnimi tabelami in preglednimi grafikoni?](data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md) <span class="tiny">— začetno</span>
+- [Kako v Excelovem Power Queryju izdelam ponovljive pretvorbe?](data-wrangling/make-repeatable-transformations-with-excel-power-query.md) <span class="tiny">— začetno</span>
+
+### Znanstveno pisanje
+
+- [Kako daljši dokument strukturiram s slogi, napisi in navzkrižnimi sklici?](scholarly-writing/structure-a-long-document-with-styles-captions-and-cross-references.md) <span class="tiny">— začetno</span>
+- [Kako raziskovalno vprašanje pretvorim v načrt znanstvenega besedila?](scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md) <span class="tiny">— začetno</span>
+- [Kako revidiram trditve, dokazno gradivo in odstavke?](scholarly-writing/revise-claims-evidence-and-paragraphs.md) <span class="tiny">— začetno</span>

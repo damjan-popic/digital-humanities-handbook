@@ -1,0 +1,4 @@
+claim_id,claim,source_locator,evidence_role,reasoning,limitation
+C1,Inconsistent labels obstruct comparison,reading-notes.md A.1 and raw object_type column,defines the modelling problem,Variant strings prevent direct grouping until a documented mapping is applied,The fictional table cannot establish the prevalence of inconsistency in real catalogues
+C2,Provenance limits information loss,reading-notes.md B.1 and cleaned source/normalized field pairs,shows an auditable transformation,Keeping source and normalized fields lets readers inspect each choice,The lookup still reflects the authors' analytical purpose
+C3,Visible exceptions make summaries more credible,reading-notes.md C.1 and validation/manual-checks.md,tests denominator and exclusions,Named unknowns and exclusions constrain interpretation,Manual checks do not prove that every historical label is correctly understood

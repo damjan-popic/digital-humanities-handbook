@@ -2,6 +2,7 @@
 title: "How do I turn messy humanities notes into a reusable dataset?"
 description: "You have notes, archive lists, genealogy, bibliography, or fieldwork data and want structured rows without erasing uncertainty."
 category: "Data wrangling"
+category_id: "data-wrangling"
 difficulty: "beginner"
 time: "45–90 min"
 tags: [data modeling, metadata, messy data, humanities]

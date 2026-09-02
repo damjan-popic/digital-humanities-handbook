@@ -4,6 +4,9 @@ Učne poti priročnik spremenijo v predmet, ne da bi vsebino priklenile na en sa
 
 Poti štiridelno jedro priročnika uporabljata selektivno. Pismenost za informacijsko družbo iz zgodovinskega in pojmovnega uvoda izbere temeljne vsebine, nato pa nadaljuje z viri, vsakdanjimi metodami in odgovornim objavljanjem. Digitalna slovenistika uporabi celoten teoretski uvod ter mu doda tehnično zahtevnejše zaporedje raziskovalne zasnove, besedilnih metod, strukturiranih in prostorskih podatkov, omrežij ter izdaje.
 
+!!! tip "Znanstveno delo začnite tukaj"
+    Vzporedna [pot temeljev znanstvenega dela](../foundations/scholarly-work.md) poveže znanstveno pisanje, strukturirane dokumente Word/LibreOffice, Zotero, sisteme in sloge citiranja ter ponovljivo delo v Excelu. Je praktični temelj Pismenosti za informacijsko družbo in ne zahteva ukazne vrstice ali programiranja.
+
 ## Trenutni poti
 
 - [Pismenost za informacijsko družbo](pismenost-za-informacijsko-druzbo.md) — temeljna informacijska, podatkovna, besedilna in UI-pismenost z nizkim tehničnim pragom.

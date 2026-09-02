@@ -86,6 +86,7 @@ plugins:
             - Ekosistem: ecosystem.md
             - Osnove:
                 - "Tehnično delovno okolje: terminal, WSL, Bash, Git in Python": foundations/technical-workspace.md
+                - "Znanstveno delo: pisanje, viri, dokumenti in preglednice": foundations/scholarly-work.md
             - Učne poti:
                 - Pregled: learning-paths/index.md
                 - Pismenost za informacijsko družbo: learning-paths/pismenost-za-informacijsko-druzbo.md
@@ -165,6 +166,7 @@ nav:
   - Ecosystem: ecosystem.md
   - Foundations:
       - "Technical workspace: terminal, WSL, Bash, Git, and Python": foundations/technical-workspace.md
+      - "Scholarly work: writing, references, documents, and spreadsheets": foundations/scholarly-work.md
   - Learning paths:
       - Overview: learning-paths/index.md
       - Information Society Literacy: learning-paths/pismenost-za-informacijsko-druzbo.md

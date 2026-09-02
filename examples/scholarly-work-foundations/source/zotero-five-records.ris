@@ -1,0 +1,47 @@
+TY  - BOOK
+AU  - Hayot, Eric
+TI  - The Elements of Academic Style: Writing for the Humanities
+PY  - 2014
+PB  - Columbia University Press
+CY  - New York
+SN  - 978-0-231-16801-4
+ER  -
+
+TY  - JOUR
+AU  - Gump, Steven E.
+TI  - The Elements of Academic Style: Writing for the Humanities by Eric Hayot (review)
+JO  - Journal of Scholarly Publishing
+VL  - 46
+IS  - 4
+SP  - 399
+EP  - 403
+PY  - 2015
+DO  - 10.3138/jsp.46.4.BR2
+ER  -
+
+TY  - ELEC
+A2  - Harvard College Writing Center
+TI  - Developing A Thesis
+UR  - https://writingcenter.fas.harvard.edu/thesis
+Y2  - 2026/09/02
+ER  -
+
+TY  - DATA
+A2  - Digital Humanities Handbook
+TI  - Fictional Postcard Catalogue Teaching Dataset
+PY  - 2026
+ET  - Version 1.0
+PB  - Digital Humanities Handbook
+UR  - https://github.com/damjan-popic/digital-humanities-handbook
+N1  - Original fictional teaching data; CC BY 4.0.
+ER  -
+
+TY  - COMP
+A2  - Digital Humanities Handbook
+TI  - Scholarly-Data Teaching Workbook
+PY  - 2026
+ET  - Version 1.0
+PB  - Digital Humanities Handbook
+UR  - https://github.com/damjan-popic/digital-humanities-handbook
+N1  - Original teaching workbook; CC BY 4.0. Build code is MIT.
+ER  -

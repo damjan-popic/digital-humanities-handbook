@@ -4,6 +4,9 @@ Learning paths turn the handbook into a course without locking the content to a 
 
 The paths draw selectively on the handbook's four-part core. Information Society Literacy samples the historical and conceptual opening before moving through sources, everyday methods and responsible publication. Digital Slovenian Studies uses the full theoretical opening, then follows a technically advanced sequence through research design, text methods, structured and spatial data, networks and release.
 
+!!! tip "Start scholarly work here"
+    The paired [scholarly-work foundations route](../foundations/scholarly-work.md) connects scholarly writing, structured Word/LibreOffice documents, Zotero, citation systems and styles, and repeatable Excel work. It is the practical foundation for Information Society Literacy and requires no command line or programming.
+
 ## Current paths
 
 - [Information Society Literacy](pismenost-za-informacijsko-druzbo.md) — foundational information, data, text and AI literacy with a low technical threshold.

@@ -1,0 +1,9 @@
+record_id,title,creator_raw,creator_clean,place_raw,place_normalized,object_type_normalized,date_display,date_iso,date_precision,date_status,views,views_status,collection_code,validation_note
+00101,Razglednica Prešernovega trga,Marija K.,Marija K.,Ljubljana,Ljubljana,photograph,1908-05,1908-05,month,valid,1204,parsed thousands separator,A-01,Whitespace trimmed
+00102,Railway station,J. Novak,J. Novak,Celje,Celje,photograph,c. 1910,1910,year,approximate,850,valid integer,A-01,Approximation retained in display field
+00103,Harbour view,Atelier Sole,Atelier Sole,Koper / Capodistria,Koper,postcard,1912/06/14,1912-06-14,day,valid,1125,parsed space separator,B-02,Bilingual source place retained
+00104,Castle courtyard,,,Škofja Loka,Škofja Loka,postcard,1911,1911,year,valid,,missing,B-02,Missing creator and views retained
+00105,Market day,Ana Kovač,Ana Kovač,Maribor,Maribor,photograph,14. 2. 1913,1913-02-14,day,valid,980,valid integer,A-01,Exact duplicate excluded once
+00106,Bridge at dusk,Unknown,,Laibach,Ljubljana,postcard,1914-13-40,,unknown,invalid,730,valid integer,C-03,Impossible date flagged; historical label retained
+00107,Untitled fragment,N. N.,N. N.,Ptuj,Ptuj,unknown,,,unknown,missing,14,valid integer,C-03,Blank object type mapped to explicit unknown
+00009,River embankment,M. Horvat,M. Horvat,Ljubljana,Ljubljana,postcard,1909?,1909,year,uncertain,502,valid integer,A-01,Leading zeros preserved; uncertainty retained
