@@ -1,7 +1,7 @@
 ---
 title: "Data, metadata and models"
-description: "How humanities materials become structured data without losing provenance, uncertainty and context."
-tags: [data, metadata, modelling, provenance]
+description: "How humanities materials become traceable records without erasing source wording, uncertainty, versions or interpretive decisions."
+tags: [data, metadata, modelling, provenance, uncertainty]
 status: draft
 ---
 
@@ -11,135 +11,415 @@ status: draft
 
 After this chapter, you should be able to:
 
-- distinguish data, metadata and documentation;
-- design stable identifiers and a simple tabular data model;
-- represent provenance, uncertainty and missingness explicitly;
-- recognize when a spreadsheet should become a relational database;
-- evaluate whether a schema reflects the research question or merely the available source format.
+- distinguish source objects, provider metadata, research data, metadata and documentation;
+- explain why a data model is an interpretation rather than neutral storage;
+- design stable identifiers, source locators and a simple relational structure;
+- preserve source wording alongside normalized dates, names and controlled terms;
+- represent uncertainty, missingness, duplicates, reprints and versions explicitly;
+- create an auditable provenance and correction log;
+- select a metadata standard or vocabulary for a declared purpose and test its fit.
 
 ## Before you begin
 
-Open a table you have used for research. Can you tell, without asking its creator, what one row represents, which columns are required, what blank cells mean, where the values came from and which version you are looking at? If not, the problem is not “messy data” alone; it is missing semantics.
+Open a table you have used for research. Can you tell, without asking its
+creator, what one row represents, which columns are required, what a blank
+means, where each value came from, and whether a name is transcribed or
+normalized? Can you return from a row to a page, line, image region or
+catalogue record? If not, the table lacks semantics and provenance, not just
+tidiness.
 
-This chapter concentrates on practical data structures and documentation. For the broader epistemic account of how sources, models and outputs become evidence, see [Models, evidence and interpretation](models-evidence-interpretation.md). When a collection interface, standard or export rule constrains the records available to you, use [Infrastructures of digital humanities](critical-infrastructures.md) to document that upstream selection as well.
+No database or coding experience is required. You need a small collection or
+the [*Archival friction* teaching
+packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+Your outputs will be a record model, data dictionary, correction log and
+quality report. A successful result preserves evidence even when a value is
+normalized or left unresolved. The central failure mode is silent
+replacement: making a table look consistent by erasing what the source,
+provider or researcher actually said.
 
-## Data, metadata and documentation
+For the question and sampling frame, begin with [From question to
+method](research-design.md). For the wider distinction among sources,
+representations, outputs and evidence, see [Models, evidence and
+interpretation](models-evidence-interpretation.md). The spreadsheet workflows
+in [Scholarly-work foundations](../foundations/scholarly-work-foundations.md)
+show how to keep raw, cleaned, decision and output layers separate without a
+programming requirement.
 
-In humanities research, **data** are recorded observations or representations used as evidence. **Metadata** describe the objects, records or processes: title, date, creator, source, language, rights, collection, coordinates, transcription status or annotation version. **Documentation** explains how the data and metadata were produced and how they should be interpreted.
+## Data are made for a purpose
 
-The distinction depends on the question. A publication date may be metadata in a corpus search but become analysed data in a study of publishing history.
+In humanities research, **data** are recorded observations or representations
+used to support inquiry. **Metadata** describe objects, records or processes:
+title, date, creator, language, rights, collection, source location,
+transcription status or transformation. **Documentation** explains the model,
+rules, history and limits that cannot be understood from cells alone.
 
-A robust project keeps all three layers:
+The roles depend on the question. A publication date is metadata when you
+retrieve a text, but analysed data in a history of publishing. A catalogue
+description is metadata about an object and a historical source about the
+institution that created the description.
 
-- the source or a stable reference to it;
-- structured records used in analysis;
-- documentation of transformations and decisions.
+Johanna Drucker uses *capta*—what has been taken—to emphasize that humanities
+data are constituted through selection and parameterization rather than found
+ready-made.[^drucker] The term is a valuable question, not a requirement to
+rename every file. Ask: who selected this unit, according to which model,
+from which surviving material, and with what loss?
 
-## What does one row mean?
+## A model is a set of commitments
 
-The most important table-design question is the **observation unit**. One row should represent one clearly defined thing: one document, person, place, event, sentence, annotation or relationship.
+A **data model** states what kinds of things exist for the project, which
+properties describe them, how they relate and which constraints apply. A
+spreadsheet with one row per caption is already a model. It treats a caption
+as a separable unit, chooses fields and decides which complexities remain in
+notes.
 
-Mixing levels creates errors. A table with one row per author but multiple book titles squeezed into cells cannot answer book-level questions reliably. A table with one row per newspaper issue but article-level topics in comma-separated lists cannot be filtered or counted without ambiguity.
+Distinguish three levels:
 
-A useful test is to complete the sentence:
+1. A **conceptual model** names entities and relations in scholarly language:
+   issue, page, image, caption, person, event, version and source.
+2. A **logical model** translates these into tables, fields, identifiers,
+   controlled values and constraints.
+3. A **physical representation** stores them in CSV, a spreadsheet, XML,
+   JSON, a relational database or another format.
+
+Changing software without revisiting the first two levels does not repair a
+poor model. Conversely, a careful small CSV can represent a defensible model.
+
+Geoffrey Bowker and Susan Leigh Star show that classifications organize work
+and distribute consequences while becoming easy to overlook as
+infrastructure.[^bowker-star] Therefore keep the source's categories, the
+provider's categories and your analytical categories distinguishable. A
+historical polemical label is evidence about a publication, not automatically
+an acceptable modern subject heading.
+
+## Define the record before the fields
+
+Complete the sentence:
 
 > Each row represents exactly one ________.
 
-If several answers are possible, split the data into related tables.
+If several answers fit, the table mixes levels. One row cannot safely be both
+an issue and every person pictured in it. Repeating issue metadata in each
+person row may be tolerable for a tiny export, but the underlying model still
+contains separate entities.
 
-## Identifiers before names
+For an illustrated periodical, a modest relational design might use:
 
-Names are labels, not stable identifiers. People change names; places have historical and multilingual variants; titles are repeated; spelling varies. Assign each entity a stable internal ID such as `person_0042` or `place_0187`, and store names as attributes or aliases.
+- `issues(issue_id, title_as_printed, issue_date, source_id, rights_status)`;
+- `pages(page_id, issue_id, page_label, file_id)`;
+- `features(feature_id, page_id, feature_type, caption_as_printed, region)`;
+- `persons(person_id, preferred_label, authority_uri, match_status)`;
+- `feature_agents(feature_id, person_id, role, certainty)`;
+- `decisions(decision_id, record_id, field, old_value, new_value, evidence)`.
 
-Identifiers should be:
+The join table `feature_agents` supports a group portrait, uncertain identity
+and several roles without columns called `person_2` or `person_3`. A flat
+teaching table can combine these for ease of inspection, provided its data
+dictionary explains the compromise.
 
-- unique within the project;
-- persistent across revisions;
-- free of sensitive meaning where possible;
-- never silently recycled;
-- mapped to external identifiers such as Wikidata, VIAF or GeoNames when appropriate, without treating external reconciliation as infallible.
+## Identifiers before labels
 
-## Missing, unknown and not applicable
+Names and titles are labels, not reliable identifiers. They change, repeat,
+use several scripts and contain historical spelling. Give every record a
+stable, opaque project identifier such as `AF-P2-003`. Never recycle it for a
+different object. Preserve provider identifiers and external authority URIs
+in separate fields.
 
-A blank cell is dangerously ambiguous. It might mean:
+A good identifier does not claim that two records denote the same person. It
+only keeps your records stable. Identity is an evidential decision expressed
+through a relation such as `same_as`, `possible_match`, `duplicate_of`,
+`reprint_of` or `version_of`, with a status and rationale.
 
-- the value is unknown;
-- the value was not recorded;
-- the field does not apply;
-- the source is illegible;
-- the value is being withheld;
-- the work has not yet been completed.
+Every content record also needs a **source locator**: page, column, image
+region, folio, timestamp or archival reference detailed enough for another
+reader to inspect the claim. A generic link to a collection homepage is not a
+locator.
 
-Choose an explicit policy. In analysis tables, a machine-readable missing value may be appropriate, but preserve a separate status or note when different forms of uncertainty matter historically.
+## Preserve layers instead of overwriting
 
-Do not replace unknown values with zero unless zero is a real observed value. “No recorded letters” is not the same as “zero letters were written.”
+At least four values may legitimately differ:
 
-## Controlled vocabularies and open text
+1. **source form** — visible in the historical object;
+2. **provider value** — catalogue metadata or machine OCR;
+3. **researcher transcription or normalization** — a documented correction;
+4. **analytical category** — a value created for a particular comparison.
 
-Controlled vocabularies make comparison possible: `novel`, `poetry`, `essay` rather than dozens of spelling variants. But fixed categories can erase ambiguity and impose modern distinctions.
+Store them in different fields or tables. For a caption printed as “Mr.
+Meker”, an OCR layer might agree, an authority-search layer might propose
+“Ezra Meeker”, and the audited status may remain `unresolved`. Replacing the
+printed form with the candidate makes the source appear more certain than it
+is and prevents later review.
 
-A practical pattern is to keep:
+A correction log should contain at least a decision identifier, record and
+field, previous and new value, action, evidence, responsible person or
+process, date and rule version. Fix systematic problems through repeatable
+transformations; use the log for source-specific judgement. Never “clean” the
+only copy.
 
-- a controlled field for analysis;
-- the original source wording;
-- a note or confidence field;
-- a vocabulary document defining each category and its revisions.
+## Provenance is a chain of responsibility
 
-Categories should be few enough to use consistently and rich enough to support the research question. “Other” is often necessary, but it should be inspected rather than treated as a bin for discomfort.
+**Provenance** records where a representation came from and how it changed.
+The W3C PROV family describes entities, activities and agents, but a small
+project does not need a full RDF implementation to benefit from the
+distinction.[^prov] A readable ledger can state:
 
-## Provenance and transformation
+| Entity produced | Activity | Used entity | Responsible agent | Time/version |
+| --- | --- | --- | --- | --- |
+| committed PDF | download without byte changes | provider file URL | packet maintainer | access date and checksum |
+| source record | manual selection and transcription | PDF page and region | researcher | codebook v1 |
+| cleaned record | documented correction | raw record and decision | researcher or script | run date/version |
+| chart | aggregation | cleaned release | named workflow | software and settings |
 
-Every derived value should be traceable. Record at least:
+Checksums establish byte identity, not authenticity or accuracy. A matching
+hash proves that two files are identical; it does not prove that the provider
+described the object correctly or that your transcription is faithful.
 
-- source identifier and location;
-- date of acquisition;
-- method or script used;
-- software/model version where relevant;
-- person or process responsible;
-- manual corrections;
-- relationship between raw, cleaned and analysed files.
+## Dates need form, value and certainty
 
-A common folder structure separates `data/raw`, `data/interim`, `data/processed` and `output`. Raw data should be read-only whenever possible. Corrections belong in a documented transformation or correction table, not in silent overwriting.
+Humanities dates are often relative, approximate, disputed or incomplete.
+Keep at least:
 
-## When a spreadsheet stops being enough
+- the wording as printed, for example `dne 1. t. m.` (“on the first of this
+  month”);
+- a normalized value such as `1925-02-01`;
+- a status such as `exact`, `derived_from_relative_date`, `approximate`,
+  `uncertain` or `unknown`;
+- the rule and contextual evidence used for normalization.
 
-A spreadsheet is excellent for inspection and small flat datasets. Consider a relational database when:
+The Library of Congress Extended Date/Time Format (EDTF) provides syntax for
+uncertain (`1984?`), approximate (`2004-06~`), unspecified and interval
+dates.[^edtf] Use it only when your software supports the declared level and
+your readers can recover the original wording. A plain interval with explicit
+certainty fields may be more interoperable in a small project. Never turn
+“probably 1925” into the exact date `1925-01-01` merely because a spreadsheet
+expects a day.
 
-- one person has many works and one work has many persons;
-- records need stable relationships across tables;
-- repeated text values create inconsistency;
-- several people edit or query the data;
-- integrity rules matter;
-- the project needs reusable queries.
+## Names and authority reconciliation
 
-The decision is not about prestige. A database is useful when relationships and constraints are part of the evidence.
+Authority files can connect spelling variants and supply durable identifiers,
+but reconciliation is a research claim. Preserve:
 
-## Worked example: correspondence data
+- `name_as_printed`;
+- a normalized display label, if needed;
+- the authority system and candidate URI;
+- match status (`accepted`, `possible`, `rejected`, `unresolved`);
+- evidence and reviewer;
+- access date, because interfaces and records change.
 
-A correspondence project might use four tables:
+Do not accept the highest search result solely because the label matches. Test
+dates, roles, places, associates and source context. A historical newspaper
+may misspell a name; two contemporaries may share one; an authority record
+may itself be incomplete. The Getty Vocabularies, for example, provide
+persistent subject identifiers and variant names but describe an evolving,
+domain-bounded resource, not a universal list of people and places.[^getty]
 
-- `persons(person_id, preferred_name, birth_year, ...)`
-- `letters(letter_id, date_text, date_start, date_end, source_id, ...)`
-- `letter_participants(letter_id, person_id, role)`
-- `places(place_id, preferred_name, latitude, longitude, ...)`
+Treat reconciliation as **linking with evidence**, not replacing the local
+record. If no candidate is sufficiently supported, `unresolved` is a valid
+result.
 
-The participant table allows several senders, recipients, copied persons or uncertain roles without adding columns such as `recipient_2` and `recipient_3`. The date is represented both as the original string and as a computable interval, preserving uncertainty such as “spring 1898.”
+## Missingness has meanings
 
-## Practice
+A blank can mean unknown, not recorded, illegible, not applicable, withheld,
+not yet checked or lost during processing. These states have different
+historical and ethical consequences. Define allowed missing-status values in
+the data dictionary and use a separate note when needed.
 
-Take a small humanities collection and create:
+Do not replace unknown values with zero. “No surviving record was found” is
+not “zero events occurred”. Do not publish a suppressed value as `unknown` if
+that erases a community or privacy decision; record the access category at an
+appropriate level without exposing the protected value.
 
-1. a data dictionary with field name, definition, type, allowed values and missing-value policy;
-2. five example records;
-3. a provenance note explaining one transformation;
-4. a list of entities that need stable identifiers.
+## Duplicates, reprints and versions are relations
+
+Exact file copies can be detected with hashes, but documentary identity is
+not only byte identity. A reprinted article, a revised edition, an OCR export
+and a new scan of the same page can share content while serving different
+research purposes.
+
+Avoid one overloaded `duplicate` flag. Prefer typed relations:
+
+- `duplicate_of`: the same record entered twice;
+- `copy_of`: another carrier of substantially the same object;
+- `reprint_of`: republication in a new issue or venue;
+- `version_of`: a related state with meaningful change;
+- `derived_from`: OCR, normalization, crop or analysis output based on a
+  source representation.
+
+Then state the analytical rule. A study of circulation may count reprints; a
+lexical study may retain only one text instance; a study of OCR may compare
+several scans of the same page. Never delete relations that later researchers
+would need to reconstruct the choice.
+
+## Standards are tools, not automatic quality
+
+A standard supplies shared terms or structures, but it cannot decide what
+your project should observe. Start from requirements, then choose a small
+**application profile**: the fields, obligations, vocabularies and local rules
+you will actually use.
+
+- [DCMI Metadata Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
+  provide broad cross-domain properties and stable term URIs.
+- [TEI P5](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/)
+  represents textual structure and editorial alternatives; `<choice>` can
+  group original and corrected forms rather than erasing one.[^tei]
+- [CIDOC CRM](https://cidoc-crm.org/get-last-official-release) offers a
+  conceptual model for cultural-heritage entities and event-centred
+  relations. The last official release listed on 2 September 2026 was 7.1.3;
+  later versions on the versions page were drafts.[^cidoc]
+
+Interface and specification pages are mutable; record access dates and pin a
+version when exact conformance matters. A minimal local schema with clear
+crosswalks may be better than claiming full compliance with a large standard
+you use only superficially.
+
+Audit the fit with concrete questions: Can the profile preserve source
+wording and a normalized value? Can it distinguish an uncertain identity
+from a confirmed one? Can it record rights for both the source and your
+annotations? Does export round-trip without losing language, diacritics,
+identifiers or relations?
+
+## Quality checks for a small scholarly dataset
+
+Run structural and interpretive checks:
+
+- identifiers are unique, non-blank and stable;
+- foreign keys point to existing records;
+- required source locators and rights fields are present;
+- controlled values occur in the versioned vocabulary;
+- normalized dates match their declared precision and certainty;
+- original strings remain unchanged;
+- accepted authority links have recorded evidence;
+- duplicate and version relations are typed and non-circular;
+- row counts and retained identifiers match the decision log;
+- a stratified sample returns correctly to the facsimile;
+- exports preserve UTF-8 text and leading identifier characters.
+
+Automated checks find structural contradictions. They cannot decide whether a
+caption is politically neutral, a person match is historically persuasive or
+a category is adequate. Combine them with source review.
+
+## Worked example: eight records under friction
+
+The teaching packet records eight units from a two-page issue. The source
+table preserves transcribed labels, provider OCR, printed dates, normalized
+dates, certainty, names, candidate authorities, source locators and evidence
+notes. A separate perturbation table introduces four declared teaching
+problems. The generated raw table therefore contains nine rows: three altered
+fields and one duplicate row.
+
+The audit proceeds as follows:
+
+1. Verify the committed PDF against its provider and SHA-256.
+2. Confirm that all eight source identifiers resolve to a page and region.
+3. Compare each changed raw field with the facsimile, not only the clean
+   answer table.
+4. Restore the caption's capitalization where the image decides the matter.
+5. Remove only the row explicitly declared as a synthetic duplicate; retain
+   the underlying feature.
+6. Reject the silent change from “Meker” to “Meeker” and leave the authority
+   candidate blank because the packet supplies no independent evidence.
+7. Retain derived and approximate dates with their statuses rather than
+   converting them to unqualified exact dates.
+8. Verify eight clean record IDs, four logged decisions and no altered source
+   bytes.
+
+The clean result is not a claim that all eight records are complete. It is a
+claim that every retained value has a declared evidential status and can be
+audited.
+
+## Practice: build and audit a record model
+
+Using the packet or five to ten records from your field, prepare:
+
+1. a conceptual sketch of entities and relations;
+2. a table or set of tables in which every row has one meaning;
+3. stable internal identifiers and precise source locators;
+4. separate source, provider, normalized and analytical values where they
+   differ;
+5. a data dictionary defining type, allowed values, missingness and
+   obligation for every field;
+6. one uncertain date, one unresolved authority candidate and one typed
+   duplicate/version relation;
+7. a correction and provenance log;
+8. a quality report containing row counts, identifier checks and two manual
+   source comparisons.
+
+**Check:** another reader should be able to reconstruct one normalized value
+and explain one unresolved value without asking you. **Failure mode:** if the
+cleaned table is more confident than the source and the decision log cannot
+explain why, restore the layers before analysing it.
 
 ## Reflection
 
-- Which categories come from the historical source, and which come from your research design?
-- Could another researcher reconstruct a derived value from your records?
-- What does a blank cell mean in each field?
+- Which fields describe the historical object, and which describe your
+  encounter with it?
+- Which category comes from the source, provider, standard or research
+  question?
+- Could an external authority link import a modern or domain-specific
+  identity into a historically ambiguous record?
+- Which blank values represent archival silence, and which represent
+  unfinished work?
+- What would be lost if every reprint or version were collapsed into one
+  “master” record?
 
 ## Summary
 
-Data structure is interpretation made operational. Clear observation units, stable identifiers, explicit missingness, documented vocabularies and provenance make analysis possible without pretending that cultural evidence is cleaner or more certain than it is. Use a database when relationships and constraints matter, not simply because the dataset is “serious.”
+Humanities data are structured representations made for a purpose. A model
+defines entities, properties, relations and constraints before a file format
+implements them. Stable identifiers keep records continuous; source locators
+return claims to evidence. Original, provider, normalized and analytical
+values must remain distinguishable.
+
+Dates require printed form, normalized value and certainty. Names require
+evidence-based reconciliation, not automatic replacement. Missingness,
+duplicates, reprints and versions carry meaning and should be modelled rather
+than erased. Provenance and correction logs assign responsibility to each
+transformation. Standards can improve exchange when used through a declared,
+versioned application profile, but conformance does not substitute for
+source criticism. Good data are not frictionless facts: they are records whose
+construction, uncertainty and limits remain inspectable.
+
+## Further reading and references
+
+- Bowker, Geoffrey C., and Susan Leigh Star. [*Sorting Things Out:
+  Classification and Its
+  Consequences*](https://mitpress.mit.edu/9780262024617/sorting-things-out/).
+  MIT Press, 1999. Publisher page accessed 2 September 2026.
+- CIDOC CRM Special Interest Group. [*Definition of the CIDOC Conceptual
+  Reference Model*, version
+  7.1.3](https://cidoc-crm.org/get-last-official-release). February 2024.
+  Accessed 2 September 2026.
+- Dublin Core Metadata Initiative. “[DCMI Metadata
+  Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/).”
+  DCMI Recommendation, issued 20 January 2020. Accessed 2 September 2026.
+- Drucker, Johanna. “[Humanities Approaches to Graphical
+  Display](https://dhq.digitalhumanities.org/vol/5/1/000091/000091.html).”
+  *Digital Humanities Quarterly* 5, no. 1 (2011). Accessed 2 September 2026.
+- Library of Congress. “[Extended Date/Time Format (EDTF)
+  Specification](https://www.loc.gov/standards/datetime/).” 4 February 2019.
+  Accessed 2 September 2026.
+- Moreau, Luc, and Paolo Missier, eds. “[PROV-DM: The PROV Data
+  Model](https://www.w3.org/TR/prov-dm/).” W3C Recommendation, 30 April 2013.
+  Accessed 2 September 2026.
+- TEI Consortium. [*TEI P5: Guidelines for Electronic Text Encoding and
+  Interchange*](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/), version
+  4.11.0, 18 February 2026. Accessed 2 September 2026.
+
+[^drucker]: Drucker, “Humanities Approaches to Graphical Display,” on data as
+    capta and the interpretive character of parameterization.
+[^bowker-star]: Bowker and Star, *Sorting Things Out*, especially their
+    analysis of classification systems as consequential infrastructure.
+[^prov]: W3C, “PROV-DM.” The formal model is optional here; the practical
+    distinction among an entity, an activity and a responsible agent is the
+    important minimum.
+[^edtf]: Library of Congress, “EDTF Specification.” The 2019 specification
+    defines conformance levels and syntax for reduced precision, uncertainty,
+    approximation and intervals.
+[^getty]: Getty Research Institute, “[Obtain the Getty
+    Vocabularies](https://www.getty.edu/research/tools/vocabularies/obtain/).”
+    The page documents identifiers, open-data terms and changing delivery
+    services. Accessed 2 September 2026.
+[^tei]: TEI Consortium, “[`<choice>`](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-choice.html),”
+    P5 version 4.11.0. Accessed 2 September 2026.
+[^cidoc]: CIDOC CRM Special Interest Group, “[Versions of the
+    CIDOC-CRM](https://cidoc-crm.org/versions-of-the-cidoc-crm).” Accessed 2
+    September 2026.
