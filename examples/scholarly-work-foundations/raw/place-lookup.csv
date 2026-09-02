@@ -1,0 +1,8 @@
+place_raw,place_normalized,match_status,decision_note
+Ljubljana,Ljubljana,exact,Whitespace is removed but source value is retained.
+Celje,Celje,exact,No semantic change.
+Koper / Capodistria,Koper,reviewed,"Normalized grouping uses Koper; bilingual source label is retained."
+Škofja Loka,Škofja Loka,exact,No semantic change.
+Maribor,Maribor,exact,No semantic change.
+Laibach,Ljubljana,reviewed,"Historical German label is retained in place_raw; normalized grouping uses Ljubljana."
+Ptuj,Ptuj,exact,No semantic change.

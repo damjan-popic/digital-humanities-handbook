@@ -136,7 +136,15 @@ def check_navigation(locale: str, config: dict, failures: list[str]) -> None:
             f"mkdocs.yml ({locale}): expected one top-level '{label}' group"
         )
         return
-    expected = [{META[locale]["hub_title"]: HUB}]
+    scholarly_title = (
+        "Znanstveno delo: pisanje, viri, dokumenti in preglednice"
+        if locale == "sl"
+        else "Scholarly work: writing, references, documents, and spreadsheets"
+    )
+    expected = [
+        {META[locale]["hub_title"]: HUB},
+        {scholarly_title: "foundations/scholarly-work.md"},
+    ]
     if matches[0] != expected:
         failures.append(
             f"mkdocs.yml ({locale}): '{label}' group is {matches[0]!r}; "

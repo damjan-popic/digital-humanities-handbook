@@ -17,7 +17,7 @@ The Slovene edition contains the stable core and a growing curated set of transl
 - **CAT tools** — 3
 - **Corpora** — 6
 - **Data** — 1
-- **Data wrangling** — 1
+- **Data wrangling** — 4
 - **Digital editions** — 1
 - **Ethics** — 1
 - **Foundations** — 6
@@ -27,6 +27,8 @@ The Slovene edition contains the stable core and a growing curated set of transl
 - **NLP** — 15
 - **PDF & OCR** — 1
 - **Publishing & FAIR data** — 2
+- **Reference management** — 3
+- **Scholarly writing** — 3
 - **Subtitling** — 5
 - **Terminology** — 8
 - **Text analysis** — 3
@@ -69,6 +71,9 @@ The Slovene edition contains the stable core and a growing curated set of transl
 
 ### Data wrangling
 
+- [How do I import and clean a small dataset in Excel?](data-wrangling/import-and-clean-a-small-dataset-in-excel.md) <span class="tiny">— beginner</span>
+- [How do I make repeatable transformations with Excel Power Query?](data-wrangling/make-repeatable-transformations-with-excel-power-query.md) <span class="tiny">— beginner</span>
+- [How do I summarize data with PivotTables and transparent charts?](data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md) <span class="tiny">— beginner</span>
 - [How do I turn messy humanities notes into a reusable dataset?](data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md) <span class="tiny">— beginner</span>
 
 ### Digital editions
@@ -128,6 +133,18 @@ The Slovene edition contains the stable core and a growing curated set of transl
 
 - [How do I package a corpus with FAIR metadata?](publishing/package-a-corpus-with-fair-metadata.md) <span class="tiny">— intermediate</span>
 - [How do I write a README for a humanities dataset?](publishing/write-a-readme-for-a-humanities-dataset.md) <span class="tiny">— beginner</span>
+
+### Reference management
+
+- [How do I build and clean a Zotero library?](reference-management/build-and-clean-a-zotero-library.md) <span class="tiny">— beginner</span>
+- [How do I choose, apply, and audit a citation style?](reference-management/choose-apply-and-audit-a-citation-style.md) <span class="tiny">— beginner</span>
+- [How do I cite with Zotero in Word or LibreOffice?](reference-management/cite-with-zotero-in-word-or-libreoffice.md) <span class="tiny">— beginner</span>
+
+### Scholarly writing
+
+- [How do I revise claims, evidence, and paragraphs?](scholarly-writing/revise-claims-evidence-and-paragraphs.md) <span class="tiny">— beginner</span>
+- [How do I structure a long document with styles, captions, and cross-references?](scholarly-writing/structure-a-long-document-with-styles-captions-and-cross-references.md) <span class="tiny">— beginner</span>
+- [How do I turn a research question into a scientific paper plan?](scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md) <span class="tiny">— beginner</span>
 
 ### Subtitling
 

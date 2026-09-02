@@ -29,7 +29,7 @@ workflow_categories:
     chapters:
       - chapters/databases-sql.md
       - chapters/data-metadata-models.md
-  Data wrangling:
+  data-wrangling:
     chapters:
       - chapters/data-metadata-models.md
       - chapters/research-design.md
@@ -73,6 +73,17 @@ workflow_categories:
       - chapters/critical-infrastructures.md
       - chapters/ai-ethics-reproducibility.md
       - chapters/open-living-handbook.md
+  reference-management:
+    chapters:
+      - chapters/research-design.md
+      - chapters/data-metadata-models.md
+      - chapters/open-living-handbook.md
+  scholarly-writing:
+    chapters:
+      - chapters/models-evidence-interpretation.md
+      - chapters/research-design.md
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
   Subtitling:
     chapters:
       - chapters/texts-corpora-ocr.md
@@ -97,6 +108,49 @@ workflow_categories:
 # Stable category IDs and per-workflow overrides keep localized display labels
 # separate from the canonical ecosystem mapping.
 workflows:
+  workflows/reference-management/build-and-clean-a-zotero-library.md:
+    chapters:
+      - chapters/research-design.md
+      - chapters/data-metadata-models.md
+      - chapters/open-living-handbook.md
+  workflows/reference-management/cite-with-zotero-in-word-or-libreoffice.md:
+    chapters:
+      - chapters/research-design.md
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
+  workflows/reference-management/choose-apply-and-audit-a-citation-style.md:
+    chapters:
+      - chapters/models-evidence-interpretation.md
+      - chapters/research-design.md
+      - chapters/open-living-handbook.md
+  workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md:
+    chapters:
+      - chapters/models-evidence-interpretation.md
+      - chapters/research-design.md
+  workflows/scholarly-writing/structure-a-long-document-with-styles-captions-and-cross-references.md:
+    chapters:
+      - chapters/data-metadata-models.md
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
+  workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md:
+    chapters:
+      - chapters/models-evidence-interpretation.md
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/open-living-handbook.md
+  workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md:
+    chapters:
+      - chapters/data-metadata-models.md
+      - chapters/research-design.md
+  workflows/data-wrangling/make-repeatable-transformations-with-excel-power-query.md:
+    chapters:
+      - chapters/data-metadata-models.md
+      - chapters/research-design.md
+      - chapters/ai-ethics-reproducibility.md
+  workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md:
+    chapters:
+      - chapters/models-evidence-interpretation.md
+      - chapters/data-metadata-models.md
+      - chapters/networks-visualization.md
   workflows/foundations/install-wsl-and-ubuntu-on-windows.md:
     chapters:
       - chapters/ai-ethics-reproducibility.md
@@ -173,6 +227,7 @@ chapters:
       - case-studies/corpus-augmenter.md
   chapters/models-evidence-interpretation.md:
     workflows:
+      - workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md
       - workflows/visualization/visualise-uncertainty-in-humanities-data.md
       - workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md
       - workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md
@@ -198,6 +253,7 @@ chapters:
       - case-studies/jezikovni-svetovalec.md
   chapters/research-design.md:
     workflows:
+      - workflows/reference-management/build-and-clean-a-zotero-library.md
       - workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md
       - workflows/publishing/write-a-readme-for-a-humanities-dataset.md
       - workflows/ai/audit-ai-output-against-source-documents.md
@@ -207,6 +263,7 @@ chapters:
       - case-studies/medieval-ner.md
   chapters/data-metadata-models.md:
     workflows:
+      - workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md
       - workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md
       - workflows/data/build-a-humanities-database-with-sqlite.md
       - workflows/publishing/package-a-corpus-with-fair-metadata.md
@@ -269,6 +326,7 @@ chapters:
       - case-studies/medieval-ner.md
   chapters/networks-visualization.md:
     workflows:
+      - workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md
       - workflows/networks/build-a-cooccurrence-network.md
       - workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape.md
       - workflows/visualization/visualise-uncertainty-in-humanities-data.md
@@ -277,6 +335,7 @@ chapters:
       - case-studies/pracomul.md
   chapters/ai-ethics-reproducibility.md:
     workflows:
+      - workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md
       - workflows/ai/audit-ai-output-against-source-documents.md
       - workflows/ethics/decide-whether-a-digitised-source-should-be-public.md
       - workflows/publishing/package-a-corpus-with-fair-metadata.md
@@ -289,6 +348,7 @@ chapters:
       - case-studies/vejice-add-in.md
   chapters/open-living-handbook.md:
     workflows:
+      - workflows/reference-management/choose-apply-and-audit-a-citation-style.md
       - workflows/automation/automate-a-linguistic-workflow-with-a-makefile.md
       - workflows/publishing/write-a-readme-for-a-humanities-dataset.md
       - workflows/publishing/package-a-corpus-with-fair-metadata.md

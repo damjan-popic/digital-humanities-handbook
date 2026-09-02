@@ -1,0 +1,11 @@
+record_id;title;creator;place_raw;date_raw;object_type;views;collection_code;notes
+00101; Razglednica Prešernovega trga ;Marija K.;Ljubljana ;1908-05;Photograph;1.204;A-01;leading and trailing spaces
+00102;Railway station;J. Novak;Celje;c. 1910;photo;850;A-01;approximate date
+00103;Harbour view;Atelier Sole;Koper / Capodistria;1912/06/14;Postcard;1 125;B-02;bilingual place label
+00104;Castle courtyard;;Škofja Loka;1911;postcard;;B-02;missing creator and views
+00105;Market day;Ana Kovač;Maribor;14. 2. 1913;photograph;980;A-01;day-first date
+00105;Market day;Ana Kovač;Maribor;14. 2. 1913;photograph;980;A-01;day-first date
+00106;Bridge at dusk;Unknown;Laibach;1914-13-40;razglednica;730;C-03;impossible date and historical place label
+TEST-01;Calibration card;Staff;Ljubljana;2026-01-01;test;0;TEST;non-collection test row
+00107;Untitled fragment;N. N.;Ptuj;; ;14;C-03;blank object type and date
+00009;River embankment;M. Horvat;Ljubljana;1909?;razglednica;502;A-01;identifier must retain leading zeros
