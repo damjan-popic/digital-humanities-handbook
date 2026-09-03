@@ -161,11 +161,13 @@ and unresolved cases. The interim layer is not evidence merely because a
 tool produced it, and the processed layer never replaces the source.
 
 The teaching packet makes the directory roles still more explicit:
-`source/` contains only the unchanged PDF, captured provider records and
-unchanged provider OCR; `reference/` contains handbook-created observations,
-editorial decisions and reference transcription; `teaching/` declares
-synthetic disturbances; and `raw/`, `interim/`, `cleaned/`, `output/`,
-`validation/` and `known-problems/` preserve the subsequent evidence chain.
+`source/` contains the unchanged PDF, captured provider records and the
+byte-preserved dLib TXT export; `reference/` contains handbook-created
+observations, editorial decisions and reference transcription; `teaching/`
+declares synthetic disturbances; and `raw/` contains the selected, decoded
+and whitespace-normalized OCR excerpt alongside deliberately awkward rows.
+The remaining `interim/`, `cleaned/`, `output/`, `validation/` and
+`known-problems/` layers preserve the subsequent evidence chain.
 
 A correction log should contain at least a decision identifier, record and
 field, previous and new value, action, evidence, responsible person or
@@ -344,7 +346,7 @@ The audit proceeds as follows:
 7. Derive 1925-02-01 and 1925-01-27 under explicit rules, but leave the
    riverbed photograph's creation date blank/`unknown`; its issue date is
    context only.
-8. Verify eight clean IDs, eight authentic editorial decisions, four
+8. Verify eight clean IDs, nine source-grounded editorial decisions, four
    synthetic reversals and no altered source bytes.
 
 The clean result is not a claim that all eight records are complete. It is a

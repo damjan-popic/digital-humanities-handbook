@@ -15,6 +15,7 @@
   "publisher_as_reported": "Fran Kulovec (1884-1941)",
   "rights_label": "Public domain",
   "rights_label_applied_by": "Wikimedia Commons file page",
-  "rights_note": "Commons applies the public-domain assessment and identifies dLib as the source; the dLib record's displayed rights field was blank at access.",
-  "source_date": "1925-02-07"
+  "rights_note": "Commons applies a public-domain assessment and identifies dLib as the source; the dLib record's displayed rights field was blank at access. Commons also displays a notice that a United States public-domain tag should be supplied, so the label is not recorded as universal cross-jurisdiction clearance.",
+  "source_date": "1925-02-07",
+  "us_public_domain_tag_notice": "You must also include a United States public domain tag to indicate why this work is in the public domain in the United States."
 }

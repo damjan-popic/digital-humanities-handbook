@@ -26,7 +26,7 @@ Programiranje ni potrebno. Učno gradivo vsebuje manjši par kandidatnega in ref
 - napisana pravila prepisovanja;
 - človeško preverjeni referenčni prepis vnaprej določenega vzorca;
 - preglednico ali orodje za urejevalno razdaljo, ki navede zamenjave, izpuste in vstavke; ter
-- po želji prenesite [ZIP učnega gradiva Arhivsko trenje](../../../assets/downloads/archival-friction-v1.zip): uporabite `raw/provider-ocr.txt`, `reference/reference-transcription.txt`, `reference/transcription-policy.sl.md`, `output/ocr-evaluation.csv` in `output/ocr-error-audit.csv`; vzdrževalci lahko pregledate tudi [izvorno drevo paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+- po želji prenesite [ZIP učnega gradiva Arhivsko trenje](../../../assets/downloads/archival-friction-v1.zip): `source/provider-ocr.txt` ohranja natančni izvoz TXT iz dLib, vaja pa uporablja njegovo dokumentirano izpeljanko `raw/provider-ocr.txt` skupaj z `reference/reference-transcription.txt`, `reference/transcription-policy.sl.md`, `output/ocr-evaluation.csv` in `output/ocr-error-audit.csv`; vzdrževalci lahko pregledate tudi [izvorno drevo paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
 Pred kopiranjem slik ali besedila preverite zapis o viru, pravicah in provenienci. Kandidatni in referenčni prepis hranite v ločenih datotekah.
 
@@ -63,9 +63,9 @@ Zabeležite prepisovalca, pregledovalca, datume in različico pravil. Nesoglasje
 
 ### 5. Normalizirajte samo tisto, kar preskus izključuje
 
-Na kandidatu in referenci uporabite povsem enako, vnaprej določeno predobdelavo. Če velikost črk ni pomembna, jo poenotite v obeh; če so ločila pomembna, jih v obeh ohranite. Učno gradivo odstrani začetne in končne presledke ter uporabi obliko Unicode NFC, druge znakovne razlike pa ohrani. Za WER besede razmeji s presledki.
+Za kandidata in referenco uporabite povsem enaka, vnaprej določena pravila primerjave. Če velikost črk ni pomembna, jo poenotite v obeh; če so ločila pomembna, jih v obeh ohranite. Gradilnik paketa najprej dekodira ohranjeni izvoz iz dLib kot Windows-1250, izbere izvorne vrstice 1–4, združi vrstici v glavi ter strne zaporedne presledke v enako trivrstično zgradbo, kot jo uporablja referenčni prepis. Primerjava nato uporabi Unicode NFC, odstrani začetne in končne presledke ter ohrani druge znakovne razlike. Pri WER besede razmeji s presledki.
 
-Pravila normalizacije in razmejevanja pojavnic shranite ob rezultatu. CER brez njih je dvoumen.
+Pravila izbora, normalizacije in razmejevanja pojavnic shranite ob rezultatu. CER brez njih je dvoumen. V paketu se izračun CER in WER začne po dokumentiranem izboru in normalizaciji presledkov, zato ne meri izpuščenih presledkov postavitve drugod v izvornem izvozu.
 
 ### 6. Samodejno poravnajte in izračunajte
 
@@ -77,9 +77,9 @@ Z najmanjšo urejevalno razdaljo preštejte zamenjave \(S\), izpuste \(D\) in vs
 
 Enkrat uporabite znake za CER, drugič pa svoje vnaprej določene besedne pojavnice za WER. Ločeno shranite zamenjave, izpuste in vstavke, njihove vsote ter stopnji. Določite tudi pravilo za izbiro med več enako ugodnimi poravnavami. Paket daje prednost ujemanju, nato zamenjavi, izpustu in vstavku. Vrednosti \(1-\mathrm{CER}\) ne imenujte »natančnost«, ne da bi jo opredelili; zaradi vstavkov je lahko stopnja napak večja od 1.
 
-Vzorec `AF-OCR-P1-INTRO` vsebuje 591 referenčnih znakov in 93 referenčnih besed. Deterministična poravnava pokaže 7 zamenjav, 5 izpustov in 3 vstavke znakov (skupaj 15) ter 7 zamenjav, 2 izpusta in 0 vstavkov besed (skupaj 9). Zato velja:
+Vzorec `AF-OCR-P1-INTRO` vsebuje 591 referenčnih znakov in 93 referenčnih besed. Po dokumentirani normalizaciji pri pripravi odlomka deterministična poravnava pokaže 7 zamenjav, 5 izpustov in 0 vstavkov znakov (skupaj 12) ter 7 zamenjav, 2 izpusta in 0 vstavkov besed (skupaj 9). Zato velja:
 
-- CER = `15 / 591 = 0,025381` (približno 2,54 %);
+- CER = `12 / 591 = 0,020305` (približno 2,03 %);
 - WER = `9 / 93 = 0,096774` (približno 9,68 %).
 
 Števce in imenovalce vnesite v ločene celice preglednice. Preverite natančna števila S/D/I, nato vsako stopnjo izračunajte kot vsoto sprememb, deljeno z navedenim referenčnim imenovalcem. Rezultat številčno primerjajte po zaokroževanju polovice k sodemu številu na šest decimalk; bajtna enakost datotek CSV ni merilo številčne pravilnosti.

@@ -288,8 +288,9 @@ compact design is:
   whether a date is exact, rule-derived, unknown or not applicable.
 - **Validation:** return every row to its PDF locator; compare provider OCR
   with the documented reference excerpt; verify eight clean observation
-  identifiers, twelve editorial decisions and exclusion of only the declared
-  synthetic duplicate. The riverbed photograph remains undated; the issue
+  identifiers, nine source-grounded decisions, four synthetic reversals and
+  exclusion of only the explicitly labelled synthetic duplicate. The
+  riverbed photograph remains undated; the issue
   date is stored only as publication context.
 - **Stopping rule:** no authority identifier is added until an independent
   source supports the match; unresolved cases remain unresolved.

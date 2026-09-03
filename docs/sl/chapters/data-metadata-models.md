@@ -161,12 +161,14 @@ plast**, v kateri beležite posege, zavrnitve in nerešene primere. Vmesna plast
 ni dokaz že zato, ker jo je izdelalo orodje, obdelana plast pa ne nadomesti
 vira.
 
-Učni paket vloge map opredeli še natančneje. `source/` vsebuje samo
-nespremenjeni PDF, zajeta zapisa ponudnikov in nespremenjeni ponudnikov OCR;
+Učni paket vloge map opredeli še natančneje. `source/` vsebuje nespremenjeni
+PDF, zajeta zapisa ponudnikov in bajtno nespremenjeni izvoz TXT iz dLib;
 `reference/` vsebuje priročniška opazovanja, uredniške odločitve in
-referenčni prepis; `teaching/` prijavlja sintetične motnje; `raw/`,
-`interim/`, `cleaned/`, `output/`, `validation/` in `known-problems/` pa
-ohranjajo nadaljnjo sled dokazov.
+referenčni prepis; `teaching/` vsebuje izrecno označene sintetične motnje;
+`raw/` pa izbrani, dekodirani in presledkovno normalizirani odlomek OCR-ja ter
+namenoma neurejene vrstice. Preostale plasti `interim/`, `cleaned/`,
+`output/`, `validation/` in `known-problems/` ohranjajo nadaljnjo sled
+dokazov.
 
 Dnevnik popravkov naj vsebuje vsaj identifikator odločitve, zapis in polje,
 prejšnjo in novo vrednost, dejanje, dokaz, odgovorno osebo ali postopek, datum
@@ -330,7 +332,8 @@ Učni paket vsebuje en pristen predmet, dvostransko časopisno številko. V mapi
 številki in sedem o prispevkih. Tabela hrani prepise oznak, OCR ponudnika,
 obseg in stanje datumov, ločeni datum številke, natisnjene oznake oseb ali
 skupin, strukturo enote, normativne kandidate in stanja povezav, mesta v viru
-ter opombe o dokazih. Mapa `teaching/` uvede štiri prijavljene učne težave.
+ter opombe o dokazih. Mapa `teaching/` uvede štiri izrecno označene učne
+motnje.
 Izdelana surova tabela ima zato devet vrstic: tri spremenjena polja in eno
 podvojeno vrstico.
 
@@ -349,7 +352,8 @@ Pregled opravite tako:
 7. Datuma 1925-02-01 in 1925-01-27 izpeljite po izrecnih pravilih, datum
    nastanka fotografije struge pa pustite prazen oziroma `unknown`; datum
    številke je samo kontekst.
-8. Preverite osem očiščenih oznak, osem pristnih uredniških odločitev, štiri
+8. Preverite osem očiščenih oznak, devet na viru utemeljenih uredniških
+   odločitev, štiri
    razveljavitve sintetičnih motenj in nespremenjene bajte izvorne datoteke.
 
 Očiščeni rezultat ne trdi, da je vseh osem zapisov popolnih. Trdi, da ima

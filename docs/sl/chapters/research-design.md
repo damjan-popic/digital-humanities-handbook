@@ -294,8 +294,9 @@ zasnova je lahko takšna:
   je datum točen, po pravilu izpeljan, neznan ali se ne uporablja.
 - **Preverjanje:** vsako vrstico primerjajte z označenim mestom v PDF-ju;
   ponudnikov OCR primerjajte z dokumentiranim referenčnim izsekom; potrdite
-  osem očiščenih oznak opazovanj, dvanajst uredniških odločitev in izločitev
-  samo prijavljenega sintetičnega dvojnika. Fotografija struge ostane brez
+  osem očiščenih oznak opazovanj, devet na viru utemeljenih odločitev, štiri
+  razveljavitve sintetičnih posegov in izločitev samo izrecno označenega
+  sintetičnega dvojnika. Fotografija struge ostane brez
   datuma nastanka; datum številke je shranjen samo kot kontekst objave.
 - **Pravilo za ustavitev:** identifikatorja iz normativne zbirke ne dodajte,
   dokler povezave ne potrdi neodvisen vir; nerazrešeni primeri ostanejo

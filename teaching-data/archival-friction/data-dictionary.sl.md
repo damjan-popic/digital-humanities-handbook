@@ -1,17 +1,21 @@
 # Podatkovni slovar
 
 Vse datoteke CSV uporabljajo UTF-8, vejico kot ločilo, eno naslovno vrstico
-in zaključke vrstic `\n`. Oznake opazovanj se začnejo z `AF-`, pristnih
-uredniških odločitev z `AF-ED-`, sintetičnih posegov z `AF-SYN-`, nerešenih
-primerov z `AF-U-`, vrstic pregleda OCR pa z `AF-OCR-A`.
+in zaključke vrstic `\n`. Oznake opazovanj se začnejo z `AF-`, uredniških
+odločitev, utemeljenih na viru, z `AF-ED-`, sintetičnih posegov z `AF-SYN-`,
+nerešenih primerov z `AF-U-`, vrstic pregleda OCR pa z `AF-OCR-A`.
 
 ## Plasti in vaje
 
-`source/` vsebuje samo nespremenjeno gradivo ponudnikov: zgodovinski PDF,
-zajeta zapisa dLib in Commons ter OCR ponudnika. `reference/` vsebuje
+`source/` vsebuje ohranjeno gradivo ponudnika: nespremenjeni zgodovinski PDF,
+zajeta zapisa dLib in Commons ter bajtno nespremenjeni izvoz TXT iz dLib.
+Izvoz ohranja prvotne zaključke vrstic CRLF, gradilnik pa ga dekodira kot
+Windows-1250. `reference/` vsebuje
 priročniška, na viru utemeljena opazovanja, uredniške odločitve, referenčni
-prepis in pravila. `teaching/` prijavlja sintetične motnje. `raw/` ohranja
-njihov namenoma neurejeni rezultat; `interim/` vsebuje kandidate za pregled;
+prepis in pravila. `teaching/` vsebuje izrecno označene sintetične motnje.
+`raw/` ohranja njihov namenoma neurejeni rezultat in izpeljani trivrstični
+odlomek OCR-ja ponudnika po dokumentiranem izboru, dekodiranju, normalizaciji
+Unicode NFC in poenotenju presledkov; `interim/` vsebuje kandidate za pregled;
 `cleaned/` preverjeni rezultat; `output/` izpeljane mere in povzetke;
 `validation/` pričakovane vrednosti in zgoščene vrednosti; `known-problems/`
 pa omejitve.
@@ -45,7 +49,7 @@ tabelah na vrhnji ravni ter tabelah v plasteh `raw/` in `cleaned/`.
 | `authority_evidence` | Dokazi za stanje povezave ali razlog, da se povezovanje ne uporablja. |
 | `source_locator` | Stran in območje v shranjenem PDF-ju. |
 | `evidence_note` | Pojasnilo prepisa, datuma, modela ali omejitve. |
-| `synthetic` | `true` samo, če na neurejeno vrstico vpliva prijavljena učna motnja, sicer `false`. |
+| `synthetic` | `true` samo, če na neurejeno vrstico vpliva izrecno označena učna motnja, sicer `false`. |
 
 Natisnjena oznaka, struktura enote in povezava z normativnim zapisom so
 ločene. Jasno natisnjeno ime brez zunanjega URI-ja je lahko `one_person` in
@@ -59,7 +63,7 @@ ločene. Jasno natisnjeno ime brez zunanjega URI-ja je lahko `one_person` in
 `teaching/synthetic-perturbations.csv` vsebuje `perturbation_id`, `operation`
 (`set` za spremembo ali `duplicate` za podvojitev), `target_record_id`,
 neobvezni `new_record_id`, spremenjeno `field`, umetno `synthetic_value` in
-`teaching_reason`. To so prijavljeni pripomočki pri vaji, nikoli
+`teaching_reason`. To so izrecno označeni umetni posegi za vajo, nikoli
 zgodovinska dejstva.
 
 `interim/reconciliation-candidates.csv` vsebuje `candidate_id`, `record_id`,
@@ -70,8 +74,9 @@ zgodovinska dejstva.
 `record_id`, `field`, `input_value`, `result_value`, določeno dejanje
 `action`, `source_locator`, `evidence`, `responsible_process`,
 `decision_date`, `rule_version`, `confidence`, `reversible` in `synthetic`.
-Osem vrstic z `synthetic=false` dokumentira delo ob viru, štiri z
-`synthetic=true` pa razveljavijo prijavljene motnje.
+Devet vrstic z `synthetic=false` dokumentira delo ob viru, vključno z izborom
+in normalizacijo odlomka ponudnikovega OCR-ja, štiri z `synthetic=true` pa
+razveljavijo izrecno označene motnje.
 
 `unresolved-cases.csv` vsebuje `case_id`, `record_id`, polje `field`, stanje
 `status`, `current_value`, `current_evidence`, `reason` in
@@ -83,10 +88,13 @@ prazno mesto za samodejno dopolnitev.
 `output/ocr-evaluation.csv` ločeno poroča o zamenjavah, izpustih in vstavkih
 znakov in besed, referenčnih imenovalcih, skupnem številu sprememb ter CER in
 WER. Poravnava znakov uporablja kodne točke Unicode z notranjimi presledki,
-poravnava besed pa deli po presledkih Unicode. Ob izenačenju ima prednost
+poravnava besed pa deli po preslednih znakih Unicode. Ob izenačenju ima prednost
 ujemanje, nato zamenjava, izpust in vstavek. Stopnji sta
 `spremembe / referenčni imenovalec` in sta zaokroženi na šest decimalk po
-pravilu zaokroževanja polovice k sodemu številu.
+pravilu zaokroževanja polovice k sodemu številu. Primerjava se začne z
+`raw/provider-ocr.txt`, torej po dokumentiranem izboru odlomka in
+normalizaciji presledkov. Zato ne meri izpuščenih presledkov postavitve v
+preostalem delu izvoza iz dLib.
 
 `output/ocr-error-audit.csv` vsebuje `audit_id`, `sample_id`,
 `source_locator`, `reference_form`, `provider_form`, `operation`,

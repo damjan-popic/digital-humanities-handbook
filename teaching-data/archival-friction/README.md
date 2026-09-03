@@ -1,9 +1,9 @@
 # Archival friction teaching packet
 
 This bilingual packet accompanies the handbook route through research
-design, data and metadata, and text/OCR work. It keeps authentic provider
-material, handbook reference work, synthetic teaching disturbances and
-derived results visibly separate.
+design, data and metadata, and text/OCR work. It keeps preserved provider
+material, handbook reference work, explicitly labelled synthetic teaching
+disturbances and derived results visibly separate.
 
 ## Research prompt
 
@@ -22,10 +22,10 @@ perturbations are not additional authentic archival records.
 
 | Layer | Purpose | Exercise rule |
 | --- | --- | --- |
-| `source/` | Unchanged PDF, captured dLib and Commons records, unchanged provider OCR | Never edit; copy material forward |
+| `source/` | Unchanged PDF, captured dLib and Commons records, and the byte-preserved dLib TXT export | Never edit; copy material forward |
 | `reference/` | Handbook-created source-grounded observations, editorial decisions, reference transcription and policy | Use as an auditable comparison, not “ground truth” |
 | `teaching/` | Four declared synthetic disturbances | Use only to construct the exercise |
-| `raw/` | Deliberately awkward rows and copied provider OCR | Preserve; copy to `interim/` |
+| `raw/` | Deliberately awkward rows and the selected, decoded and whitespace-normalized provider-OCR excerpt | Preserve; copy to `interim/` |
 | `interim/` | Candidates awaiting source/reference review | Review and record a decision |
 | `cleaned/` | Audited observations, reference transcription and decisions | Compare with your result |
 | `output/` | OCR counts, error audit and record summaries | Regenerate; do not hand-edit |
@@ -34,8 +34,10 @@ perturbations are not additional authentic archival records.
 
 Top-level `metadata-raw.csv` and `metadata-clean.csv` are deterministic
 copies of the corresponding layered tables. `correction-log.csv` combines
-eight authentic editorial decisions (`synthetic=false`) with the four
-reversals of declared teaching disturbances (`synthetic=true`).
+nine source-grounded editorial decisions (`synthetic=false`) with the four
+reversals of explicitly labelled teaching disturbances (`synthetic=true`).
+One source-grounded decision records how dLib TXT lines 1–4 are decoded,
+selected and normalized into `raw/provider-ocr.txt`.
 
 ## Low-threshold exercise
 
@@ -61,7 +63,10 @@ make archival-friction-packet
 ```
 
 The builder uses the Python standard library plus the repository's public
-authoring utilities and never downloads or replaces the committed scan.
+authoring utilities and never downloads or replaces the committed scan or
+TXT export. CER and WER start after the declared selection and whitespace
+normalization; they do not measure layout-whitespace loss elsewhere in the
+provider export.
 
 ## Accessible page descriptions
 

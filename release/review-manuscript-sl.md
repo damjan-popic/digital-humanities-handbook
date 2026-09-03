@@ -1431,8 +1431,9 @@ zasnova je lahko takšna:
   je datum točen, po pravilu izpeljan, neznan ali se ne uporablja.
 - **Preverjanje:** vsako vrstico primerjajte z označenim mestom v PDF-ju;
   ponudnikov OCR primerjajte z dokumentiranim referenčnim izsekom; potrdite
-  osem očiščenih oznak opazovanj, dvanajst uredniških odločitev in izločitev
-  samo prijavljenega sintetičnega dvojnika. Fotografija struge ostane brez
+  osem očiščenih oznak opazovanj, devet na viru utemeljenih odločitev, štiri
+  razveljavitve sintetičnih posegov in izločitev samo izrecno označenega
+  sintetičnega dvojnika. Fotografija struge ostane brez
   datuma nastanka; datum številke je shranjen samo kot kontekst objave.
 - **Pravilo za ustavitev:** identifikatorja iz normativne zbirke ne dodajte,
   dokler povezave ne potrdi neodvisen vir; nerazrešeni primeri ostanejo
@@ -1706,12 +1707,14 @@ plast**, v kateri beležite posege, zavrnitve in nerešene primere. Vmesna plast
 ni dokaz že zato, ker jo je izdelalo orodje, obdelana plast pa ne nadomesti
 vira.
 
-Učni paket vloge map opredeli še natančneje. `source/` vsebuje samo
-nespremenjeni PDF, zajeta zapisa ponudnikov in nespremenjeni ponudnikov OCR;
+Učni paket vloge map opredeli še natančneje. `source/` vsebuje nespremenjeni
+PDF, zajeta zapisa ponudnikov in bajtno nespremenjeni izvoz TXT iz dLib;
 `reference/` vsebuje priročniška opazovanja, uredniške odločitve in
-referenčni prepis; `teaching/` prijavlja sintetične motnje; `raw/`,
-`interim/`, `cleaned/`, `output/`, `validation/` in `known-problems/` pa
-ohranjajo nadaljnjo sled dokazov.
+referenčni prepis; `teaching/` vsebuje izrecno označene sintetične motnje;
+`raw/` pa izbrani, dekodirani in presledkovno normalizirani odlomek OCR-ja ter
+namenoma neurejene vrstice. Preostale plasti `interim/`, `cleaned/`,
+`output/`, `validation/` in `known-problems/` ohranjajo nadaljnjo sled
+dokazov.
 
 Dnevnik popravkov naj vsebuje vsaj identifikator odločitve, zapis in polje,
 prejšnjo in novo vrednost, dejanje, dokaz, odgovorno osebo ali postopek, datum
@@ -1875,7 +1878,8 @@ Učni paket vsebuje en pristen predmet, dvostransko časopisno številko. V mapi
 številki in sedem o prispevkih. Tabela hrani prepise oznak, OCR ponudnika,
 obseg in stanje datumov, ločeni datum številke, natisnjene oznake oseb ali
 skupin, strukturo enote, normativne kandidate in stanja povezav, mesta v viru
-ter opombe o dokazih. Mapa `teaching/` uvede štiri prijavljene učne težave.
+ter opombe o dokazih. Mapa `teaching/` uvede štiri izrecno označene učne
+motnje.
 Izdelana surova tabela ima zato devet vrstic: tri spremenjena polja in eno
 podvojeno vrstico.
 
@@ -1894,7 +1898,8 @@ Pregled opravite tako:
 7. Datuma 1925-02-01 in 1925-01-27 izpeljite po izrecnih pravilih, datum
    nastanka fotografije struge pa pustite prazen oziroma `unknown`; datum
    številke je samo kontekst.
-8. Preverite osem očiščenih oznak, osem pristnih uredniških odločitev, štiri
+8. Preverite osem očiščenih oznak, devet na viru utemeljenih uredniških
+   odločitev, štiri
    razveljavitve sintetičnih motenj in nespremenjene bajte izvorne datoteke.
 
 Očiščeni rezultat ne trdi, da je vseh osem zapisov popolnih. Trdi, da ima
@@ -2072,7 +2077,7 @@ Za vsak izvorni predmet najprej ustvarite zapis. Vključite vsaj:
 
 Ustavite se, če ne morete ugotoviti izvora, pridobiti ali dokumentirati dovoljenja oziroma pojasniti možnosti ponovne objave. Načrt prilagodite, če je raziskovalna uporaba dovoljena, objava posnetkov pa ne. Nadaljujte šele, ko so pridobitev, obdelava in načrtovana objava skladne z zapisom o pravicah. Beseda »spletno« ne pomeni »v javni domeni«.
 
-Učno gradivo pregled ponazori z `rights-and-provenance.sl.md`, `SOURCE_CITATION.sl.md`, `source/dlib-source.json`, `source/commons-source.json` in manifestom zgoščenih vrednosti. dLib zagotavlja trajni URN in bibliografski zapis prek NUK; prikazano polje o pravicah je bilo ob pregledu prazno. Wikimedia Commons navaja dLib kot vir in nespremenjeni kopiji PDF pripiše javno domeno. Majhen vzorec je primeren za preskus postopka, ne za predstavljanje celotnega časopisa.
+Učno gradivo pregled ponazori z `rights-and-provenance.sl.md`, `SOURCE_CITATION.sl.md`, `source/dlib-source.json`, `source/commons-source.json` in manifestom zgoščenih vrednosti. dLib zagotavlja trajni URN in bibliografski zapis prek NUK; prikazano polje o pravicah je bilo ob pregledu prazno. Wikimedia Commons navaja dLib kot vir in za nespremenjeno kopijo PDF objavlja presojo javne domene, hkrati pa opozarja, da je treba dodati oznako statusa javne domene v ZDA. Zato mora uporabo v različnih jurisdikcijah dokončno preveriti založnik pri pregledu pravic za različico v1.0. Majhen vzorec je primeren za preskus postopka, ne za predstavljanje celotnega časopisa.
 
 ## OCR in HTR rešujeta sorodna, vendar različna problema
 
@@ -2145,7 +2150,7 @@ Učno gradivo se začne z dvostranskim ilustriranim časopisom in ponudnikovim O
 
 ### Ročni poseg
 
-Referenčni prepis sledi določenemu vrstnemu redu, ohrani zgodovinski zapis in ločila ter združi prelome, ki so samo posledica postavitve. Ponudnikov izvoz ostane nespremenjen v `source/` in je kopiran v `raw/`; ročno preverjeni odlomek je ločena, dokumentirana datoteka v `reference/`. Človek primerja sliko in besedilo, razvrsti napake, preveri sporna imena ter izračuna CER in WER po enotnih pravilih normalizacije in poravnave.
+Referenčni prepis sledi določenemu vrstnemu redu, ohrani zgodovinski zapis in ločila ter združi prelome, ki so samo posledica postavitve. Natančni izvoz TXT iz dLib ostane nespremenjen v `source/`; gradilnik ga dekodira, izbere določene vrstice in iz njihove presledkovno normalizirane vsebine ustvari izpeljanko v `raw/`. Odločitev o delu ob viru je zabeležena, ročno preverjeni odlomek pa ostane ločena, dokumentirana datoteka v `reference/`. Človek primerja sliko in besedilo, razvrsti napake, preveri sporna imena ter po dokumentirani normalizaciji pri pripravi odlomka izračuna CER in WER po enotnih pravilih poravnave.
 
 ### Kaj ostane negotovo
 
@@ -2153,7 +2158,7 @@ Natisnjena oblika »Mr. Meker« ostaja ločena od zavrnjenega normativnega kandi
 
 ### Vpliv na nadaljnjo trditev
 
-Preverjeni odlomek ima CER 0,025381 in WER 0,096774, vendar poškodovano osebno ime še vedno spremeni natančno iskanje. Utemeljeno lahko trdite, da je pri tem odlomku treba preverjati imena. Ne smete pa sklepati o stopnji napak celotne publikacije ali odsotnosti v zgodovini zgolj na podlagi neuspešnega iskanja.
+Po dokumentirani normalizaciji pri pripravi odlomka ima preverjeno besedilo CER 0,020305 in WER 0,096774, vendar poškodovano osebno ime še vedno spremeni natančno iskanje. Utemeljeno lahko trdite, da je pri tem odlomku treba preverjati imena. Ne smete pa sklepati o stopnji napak celotne publikacije ali odsotnosti v zgodovini zgolj na podlagi neuspešnega iskanja.
 
 ## Izračunajte CER in WER
 
@@ -2165,7 +2170,7 @@ Rezultat prepoznavanja poravnajte z referenčnim prepisom ter preštejte najmanj
 
 Za **stopnjo napak na znakih (CER)** so enote znaki, za **stopnjo napak na besedah (WER)** pa vnaprej določene besedne pojavnice. Navedite, ali med znake štejete presledke, ločila in razliko med velikimi ter malimi črkami, kako poenotite Unicode in kako razdelite besedilo na besede. Zaradi vstavkov je lahko stopnja napak večja od 1. Rezultata ne preimenujte v »odstotek natančnosti«, ne da bi to razmerje natančno opredelili.
 
-Učno gradivo vsebuje 591 referenčnih znakov s 7 zamenjavami, 5 izpusti in 3 vstavki (skupaj 15), zato je CER \(15/591=0{,}025381\). Pri 93 besedah je 7 zamenjav, 2 izpusta in 0 vstavkov (skupaj 9), zato je WER \(9/93=0{,}096774\). Pri izenačenih najmanjših poravnavah imajo prednost ujemanje, zamenjava, izpust in vstavek v tem vrstnem redu; stopnji sta zaokroženi na šest decimalk po pravilu polovice k sodemu številu. Ponovljivi vrednosti opisujeta en odlomek, ne številke, časopisa, portala ali modela.
+Po dokumentirani normalizaciji pri pripravi odlomka učno gradivo vsebuje 591 referenčnih znakov s 7 zamenjavami, 5 izpusti in 0 vstavki (skupaj 12), zato je CER \(12/591=0{,}020305\). Pri 93 besedah je 7 zamenjav, 2 izpusta in 0 vstavkov (skupaj 9), zato je WER \(9/93=0{,}096774\). Pri izenačenih najmanjših poravnavah imajo prednost ujemanje, zamenjava, izpust in vstavek v tem vrstnem redu; stopnji sta zaokroženi na šest decimalk po pravilu polovice k sodemu številu. Ponovljivi vrednosti ne merita izpuščenih presledkov postavitve in opisujeta en odlomek, ne številke, časopisa, portala ali modela.
 
 ## Eno število razčlenite v profil napak
 
@@ -2209,10 +2214,10 @@ Uporabljajte stabilne identifikatorje. Zgoščene vrednosti odkrijejo bitno enak
 Uporabite naslednje mape ali enakovredne plasti shranjevanja:
 
 ```text
-source/          nespremenjeni predmet, zapisa ponudnikov in ponudnikov OCR/izvoz
+source/          nespremenjeni predmet, zapisa ponudnikov in bajtno ohranjeni izvoz
 reference/       priročniška opazovanja, referenčni prepis in pravila
-teaching/        prijavljene sintetične motnje
-raw/             namenoma neurejene izpeljane delovne vrstice
+teaching/        izrecno označene sintetične motnje
+raw/             normalizirani odlomek OCR-ja in neurejene delovne vrstice
 interim/         kandidati, ki čakajo na pregled ob viru ali referenci
 cleaned/         preverjeni zapisi, kopija prepisa in odločitve
 output/          metrike, pregled napak in povzetki zapisov
@@ -2228,7 +2233,7 @@ Preverjanje lahko avtomatizirate, vendar je to izbirna razširitev. Enako sled l
 
 Prenesite [ZIP učnega gradiva Arhivsko trenje](../../assets/downloads/archival-friction-v1.zip). Zgradbo lahko pregledate v [izvornem drevesu paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
-1. Preberite zapis o pravicah in navedbo vira. Pojasnite, ali smete priloženi PDF razširjati naprej.
+1. Preberite zapis o pravicah in navedbo vira. Pojasnite, katera presoja podpira ponovno uporabo PDF-ja in katero preverjanje mora še opraviti založnik.
 2. Pred branjem prepisov preglejte obe strani. Poiščite dve postavitveni lastnosti, ki lahko vplivata na vrstni red branja.
 3. Primerjajte `raw/provider-ocr.txt` in `reference/reference-transcription.txt`. Razvrstite vsaj pet razlik.
 4. Preberite `reference/transcription-policy.sl.md`. Presodite, ali je vsaka razlika napaka prepoznavanja, razlika v pravilu ali nerešeno branje.
@@ -2236,7 +2241,7 @@ Prenesite [ZIP učnega gradiva Arhivsko trenje](../../assets/downloads/archival-
 6. Izberite eno nalogo — iskanje imena, štetje oblike ali navajanje povedi — in jo preizkusite na obeh prepisih.
 7. Napišite trditev, ki velja samo za ta vzorec, nato pa dodajte poved o tem, česa ne morete posplošiti.
 
-Vajo uspešno opravite, če lahko druga oseba vsako število in navedek poveže z datoteko in stranjo, po vaših pravilih ponovi razvrščanje ter razume, zakaj sklep ni širši od vzorca.
+Vajo uspešno opravite, če lahko druga oseba vsako število in navedek poveže z datoteko in stranjo, po vaših pravilih ponovi razvrščanje ter razume, zakaj sklep ni širši od vzorca. Izračun CER in WER se začne po dokumentiranem izboru odlomka in normalizaciji presledkov, zato ne meri izpuščenih presledkov postavitve drugod v ponudnikovem izvozu.
 
 ## Napake, ustavitev in popravki
 

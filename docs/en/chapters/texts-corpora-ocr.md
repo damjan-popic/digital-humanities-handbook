@@ -56,7 +56,7 @@ Before running OCR or HTR, make one record for each source object. At minimum re
 
 Stop if you cannot identify the source, obtain or document permission, or explain whether redistribution is allowed. Revise the plan if research use is permitted but republishing images is not. Proceed only when the intended acquisition, processing and delivery are compatible with the rights record. “Online” does not mean public domain, and a public-domain work may still be delivered through a file with institutional terms or personal data concerns.
 
-The packet models this gate in `rights-and-provenance.md`, `SOURCE_CITATION.md`, `source/dlib-source.json`, `source/commons-source.json` and the checksum manifest. dLib supplies the stable URN and bibliographic record through NUK; its displayed rights field was blank at the audit date. Wikimedia Commons identifies dLib as source and applies the public-domain label to the unchanged PDF copy. This tiny sample tests a method; it cannot represent the newspaper.
+The packet models this gate in `rights-and-provenance.md`, `SOURCE_CITATION.md`, `source/dlib-source.json`, `source/commons-source.json` and the checksum manifest. dLib supplies the stable URN and bibliographic record through NUK; its displayed rights field was blank at the audit date. Wikimedia Commons identifies dLib as source and applies a public-domain assessment to the unchanged PDF copy, while also displaying a notice that a United States public-domain tag should be supplied. The packet therefore assigns final cross-jurisdiction clearance to the publisher's v1.0 rights review. This tiny sample tests a method; it cannot represent the newspaper.
 
 ## OCR and HTR solve related but different problems
 
@@ -129,7 +129,7 @@ The packet begins with a two-page illustrated newspaper and provider OCR. Treati
 
 ### Manual intervention
 
-The reference transcription follows a declared reading order, retains historical spelling and punctuation, and joins layout-only line breaks. The provider export stays unchanged in `source/` and is copied into `raw/`; the checked passage is a separate, documented `reference/` object. A human compares image and text, logs error categories, checks disputed names and calculates CER and WER under one normalization and alignment policy.
+The reference transcription follows a declared reading order, retains historical spelling and punctuation, and joins layout-only line breaks. The exact dLib TXT export stays unchanged in `source/`; the builder decodes it, selects the declared lines and normalizes their whitespace into a derivative in `raw/`. That source-grounded decision is logged, and the checked passage remains a separate, documented `reference/` object. A human compares image and text, logs error categories, checks disputed names and calculates CER and WER after the declared extraction normalization under one alignment policy.
 
 ### What remains uncertain
 
@@ -137,7 +137,7 @@ The printed “Mr. Meker” remains distinct from a rejected Ezra Meeker authori
 
 ### Effect on the downstream claim
 
-The checked passage has CER 0.025381 and WER 0.096774, but a corrupted proper name still changes exact search. You may claim that the provider text needs name-aware checking for this passage. You may not infer a publication-wide error rate or interpret absence from search as historical absence.
+After the declared extraction normalization, the checked passage has CER 0.020305 and WER 0.096774, but a corrupted proper name still changes exact search. You may claim that the provider text needs name-aware checking for this passage. You may not infer a publication-wide error rate or interpret absence from search as historical absence.
 
 ## Calculate CER and WER
 
@@ -149,7 +149,7 @@ Align the recognition output with the reference and count the minimum substituti
 
 Use characters for **CER** and defined word tokens for **WER**. State whether spaces, punctuation and case count as characters, how Unicode is normalized and how words are tokenized. Because insertions are possible, an error rate can exceed 1. Do not convert the score into “percent accuracy” without defining the relationship; the intuitive complement can be misleading when alignment contains insertions.
 
-The packet records 591 reference characters with 7 substitutions, 5 deletions and 3 insertions (15 edits), hence CER \(15/591=0.025381\). Its 93 whitespace-delimited reference words have 7 substitutions, 2 deletions and 0 insertions (9 edits), giving WER \(9/93=0.096774\). Tied minimum alignments prefer match, substitution, deletion and insertion in that order; rates use round-half-even to six decimals. These deterministic values describe one passage, not an issue, title, platform or model.
+After the declared extraction normalization, the packet records 591 reference characters with 7 substitutions, 5 deletions and 0 insertions (12 edits), hence CER \(12/591=0.020305\). Its 93 whitespace-delimited reference words have 7 substitutions, 2 deletions and 0 insertions (9 edits), giving WER \(9/93=0.096774\). Tied minimum alignments prefer match, substitution, deletion and insertion in that order; rates use round-half-even to six decimals. These deterministic values do not measure omitted layout-whitespace behaviour and describe one passage, not an issue, title, platform or model.
 
 ## Turn one score into an error profile
 
@@ -193,10 +193,10 @@ If one record represents several manifestations, retain a relation table and exp
 Use directories or equivalent storage layers whose roles remain visible:
 
 ```text
-source/          unchanged object, provider records and provider OCR/export
+source/          unchanged object, provider records and byte-preserved export
 reference/       handbook observations, reference transcription and policy
 teaching/        declared synthetic disturbances
-raw/             deliberately awkward derived working rows
+raw/             derived normalized OCR excerpt and awkward working rows
 interim/         candidates awaiting source/reference review
 cleaned/         audited records, transcription copy and decisions
 output/          metrics, error audit and record summaries
@@ -212,7 +212,7 @@ A script may automate these checks, but automation is an optional extension. A s
 
 Download the [Archival Friction teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip). Use the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) to inspect how it is assembled.
 
-1. Read the rights record and source citation. State whether you may redistribute the included PDF and why.
+1. Read the rights record and source citation. State which assessment supports reuse of the PDF and what clearance remains for the publisher.
 2. Inspect both source pages before reading the transcriptions. Identify two layout features likely to affect reading order.
 3. Compare `raw/provider-ocr.txt` with `reference/reference-transcription.txt`. Classify at least five differences.
 4. Read `reference/transcription-policy.md`. Decide whether each difference is recognition error, policy difference or unresolved reading.
@@ -220,7 +220,7 @@ Download the [Archival Friction teaching packet ZIP](../../assets/downloads/arch
 6. Choose one task—search for a name, count a form or quote a sentence—and test it on both versions.
 7. Write a claim limited to this sample, followed by one sentence explaining what you cannot generalize.
 
-The exercise passes if another student can trace every number and quotation to a file and page, reproduce your classification under the stated policy, and see why your conclusion is no broader than the sample.
+The exercise passes if another student can trace every number and quotation to a file and page, reproduce your classification under the stated policy, and see why your conclusion is no broader than the sample. CER and WER begin after the documented excerpt selection and whitespace normalization, so they do not measure omitted layout-whitespace behaviour elsewhere in the provider export.
 
 ## Failure modes and repair decisions
 

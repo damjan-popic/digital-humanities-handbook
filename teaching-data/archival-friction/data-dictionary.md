@@ -1,17 +1,21 @@
 # Data dictionary
 
 All CSV files use UTF-8, comma delimiters, one header row and `\n` line
-endings. Stable observations begin `AF-`; authentic editorial decisions
+endings. Stable observations begin `AF-`; source-grounded editorial decisions
 begin `AF-ED-`; synthetic interventions begin `AF-SYN-`; unresolved cases
 begin `AF-U-`; OCR audit rows begin `AF-OCR-A`.
 
 ## Layers and exercises
 
-`source/` contains only unchanged provider material: the historical PDF,
-captured dLib and Commons records, and provider OCR. `reference/` contains
+`source/` contains preserved provider material: the unchanged historical PDF,
+captured dLib and Commons records, and the byte-preserved dLib TXT export.
+The export retains its original CRLF bytes and is decoded as Windows-1250 by
+the builder. `reference/` contains
 handbook-created source-grounded observations, editorial decisions,
 reference transcription and policy. `teaching/` declares synthetic
-disturbances. `raw/` preserves their deliberately awkward result;
+disturbances. `raw/` preserves their deliberately awkward result and the
+derived three-line provider excerpt after declared selection, decoding,
+Unicode NFC and whitespace normalization;
 `interim/` holds review candidates; `cleaned/` holds the audited result;
 `output/` contains derived metrics and summaries; `validation/` contains
 expected values and digests; `known-problems/` records limits.
@@ -68,8 +72,9 @@ exercise devices, never historical facts.
 `correction-log.csv` and `cleaned/decisions.csv` record `decision_id`,
 `record_id`, `field`, `input_value`, `result_value`, specific `action`,
 `source_locator`, `evidence`, `responsible_process`, `decision_date`,
-`rule_version`, `confidence`, `reversible`, and `synthetic`. Eight
-`synthetic=false` rows document source-grounded editorial work; four
+`rule_version`, `confidence`, `reversible`, and `synthetic`. Nine
+`synthetic=false` rows document source-grounded editorial work—including the
+provider-excerpt extraction and normalization—while four
 `synthetic=true` rows reverse the declared disturbances.
 
 `unresolved-cases.csv` records `case_id`, `record_id`, field-specific `field`,
@@ -85,7 +90,9 @@ CER and WER. Character alignment uses Unicode code points including internal
 whitespace; word alignment splits on Unicode whitespace. Ties prefer match,
 then substitution, deletion and insertion. Rates use
 `edits / reference denominator` and are rounded to six decimal places with
-round-half-even.
+round-half-even. These comparisons begin with `raw/provider-ocr.txt`, after
+the declared excerpt selection and whitespace normalization; they do not
+measure omitted layout-whitespace behaviour in the rest of the dLib export.
 
 `output/ocr-error-audit.csv` gives `audit_id`, `sample_id`, `source_locator`,
 `reference_form`, `provider_form`, `operation`, `error_category`,

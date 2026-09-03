@@ -8,6 +8,7 @@ import hashlib
 import json
 import re
 import sys
+import unicodedata
 from decimal import Decimal, ROUND_HALF_EVEN
 from pathlib import Path
 from zipfile import ZipFile
@@ -23,6 +24,7 @@ ARCHIVE = ROOT / "docs/assets/downloads/archival-friction-v1.zip"
 DIGEST = ARCHIVE.with_suffix(ARCHIVE.suffix + ".sha256")
 ARCHIVE_PREFIX = "archival-friction-v1/"
 PDF_SHA256 = "e7b4b9f27f2043f2a3861b6cf05e1b4d8e1053e16eb81bf05f96d21385b5ad79"
+PROVIDER_EXPORT_SHA256 = "ab4e9e5464eb349d4c27b3b895c2b98b3a6509f3ce4be76f387b739a1fcee456"
 SOURCE_TREE_URL = (
     "https://github.com/damjan-popic/digital-humanities-handbook/"
     "tree/main/teaching-data/archival-friction"
@@ -120,6 +122,23 @@ def rows(relative: str) -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
+def expected_provider_excerpt() -> str:
+    source_lines = (PACKET / "source/provider-ocr.txt").read_bytes().decode(
+        "windows-1250"
+    ).splitlines()
+    if len(source_lines) < 4:
+        return ""
+    selected_lines = (
+        f"{source_lines[0]} {source_lines[1]}",
+        source_lines[2],
+        source_lines[3],
+    )
+    return "\n".join(
+        " ".join(unicodedata.normalize("NFC", line).split())
+        for line in selected_lines
+    )
+
+
 def unique_ids(
     records: list[dict[str, str]], field: str, label: str, failures: list[str]
 ) -> set[str]:
@@ -147,9 +166,13 @@ def check_bilingual_packet_docs(failures: list[str]) -> None:
         },
         "rights-and-provenance.md": {
             PDF_SHA256,
+            PROVIDER_EXPORT_SHA256,
             "URN:NBN:SI:doc-YPI8OFSU",
             "source/dlib-source.json",
             "source/commons-source.json",
+            "CC BY 4.0",
+            "MIT",
+            "v1.0",
             "AF-SYN-001",
             "AF-SYN-004",
         },
@@ -190,6 +213,7 @@ def check_bilingual_packet_docs(failures: list[str]) -> None:
         "RIGHTS.md": {"rights-and-provenance.md", "rights-and-provenance.sl.md"},
         "reference/transcription-policy.md": {
             "source/provider-ocr.txt",
+            "raw/provider-ocr.txt",
             "reference/reference-transcription.txt",
         },
     }
@@ -273,7 +297,7 @@ def check_source_and_rights(failures: list[str]) -> None:
             "ilustrirani-slovenec-1925-02-07.pdf",
             "provider-ocr.txt",
         },
-        "source/ must contain only unchanged provider material and captured records",
+        "source/ must contain only preserved provider material and captured records",
         failures,
     )
     pdf = PACKET / "source/ilustrirani-slovenec-1925-02-07.pdf"
@@ -285,8 +309,25 @@ def check_source_and_rights(failures: list[str]) -> None:
     fail(dlib.get("availability_at_access") == {"pdf": True, "txt": True}, "dLib PDF/TXT availability is stale", failures)
     fail(dlib.get("displayed_pdf_size_kb") == 1185 and dlib.get("displayed_txt_size_kb") == 7, "dLib displayed file sizes are stale", failures)
     fail(dlib.get("displayed_rights_field") == "blank", "dLib rights-field audit is stale", failures)
+    provider_export = PACKET / "source/provider-ocr.txt"
+    export_capture = dlib.get("txt_export_capture", {})
+    fail(hashlib.sha256(provider_export.read_bytes()).hexdigest() == PROVIDER_EXPORT_SHA256, "preserved dLib TXT export digest changed", failures)
+    fail(export_capture.get("sha256") == PROVIDER_EXPORT_SHA256, "dLib TXT capture digest is stale", failures)
+    fail(export_capture.get("byte_size") == provider_export.stat().st_size == 5710, "dLib TXT capture byte size is stale", failures)
+    fail(export_capture.get("decoding_used") == "Windows-1250", "dLib TXT decoding record is stale", failures)
+    fail(export_capture.get("line_endings") == "CRLF", "dLib TXT line-ending record is stale", failures)
+    fail(export_capture.get("content_type_header") == "text/plain", "dLib TXT content type is stale", failures)
+    expected_excerpt = expected_provider_excerpt()
+    fail(bool(expected_excerpt), "dLib TXT export cannot supply the declared four-line selection", failures)
+    fail(
+        (PACKET / "raw/provider-ocr.txt").read_bytes()
+        == (expected_excerpt + "\n").encode("utf-8"),
+        "raw provider excerpt does not match the declared extraction and whitespace normalization",
+        failures,
+    )
     fail(commons.get("rights_label_applied_by") == "Wikimedia Commons file page", "Commons rights attribution is unclear", failures)
     fail(commons.get("provider_credit") == "Digital Library of Slovenia", "Commons-to-dLib source credit is missing", failures)
+    fail("United States public domain tag" in commons.get("us_public_domain_tag_notice", ""), "Commons US-tag notice is missing", failures)
 
 
 def check_records_and_decisions(failures: list[str]) -> None:
@@ -331,7 +372,9 @@ def check_records_and_decisions(failures: list[str]) -> None:
     fail(riverbed["date_normalized"] == "", "AF-P1-002 must have no normalized creation date", failures)
     fail(riverbed["date_status"] == "unknown", "AF-P1-002 creation-date status must be unknown", failures)
     fail(riverbed["issue_context_date"] == "1925-02-07", "AF-P1-002 issue context is missing", failures)
-    authentic_decisions = [row for row in decisions if row["synthetic"] == "false"]
+    source_grounded_decisions = [
+        row for row in decisions if row["synthetic"] == "false"
+    ]
     for row in clean:
         inherited = (
             row["record_kind"] != "issue"
@@ -343,7 +386,7 @@ def check_records_and_decisions(failures: list[str]) -> None:
             decision["record_id"] == row["record_id"]
             and decision["field"] == "date_normalized"
             and decision["action"] == "derive_undated_feature_date_from_evidence"
-            for decision in authentic_decisions
+            for decision in source_grounded_decisions
         )
         fail(not inherited or explicit_rule, f"{row['record_id']} inherits issue date without an evidential rule", failures)
 
@@ -400,8 +443,13 @@ def check_records_and_decisions(failures: list[str]) -> None:
         "synthetic",
     }
     fail(bool(decisions) and set(decisions[0]) == required_decision_fields, "decision log schema is incomplete", failures)
-    fail(len(authentic_decisions) == 8, "expected eight authentic editorial decisions", failures)
-    fail({row["decision_id"] for row in authentic_decisions} == {f"AF-ED-{number:03d}" for number in range(1, 9)}, "authentic editorial decision IDs are incomplete", failures)
+    fail(len(source_grounded_decisions) == 9, "expected nine source-grounded editorial decisions", failures)
+    fail(
+        {row["decision_id"] for row in source_grounded_decisions}
+        == {f"AF-ED-{number:03d}" for number in range(1, 10)},
+        "source-grounded editorial decision IDs are incomplete",
+        failures,
+    )
     fail({row["decision_id"] for row in decisions if row["synthetic"] == "true"} == perturbation_ids, "synthetic decision IDs differ from perturbations", failures)
     fail(all(row["source_locator"] and row["evidence"] and row["responsible_process"] and row["decision_date"] and row["rule_version"] and row["confidence"] and row["reversible"] for row in decisions), "a decision lacks required provenance", failures)
     fail(all(row["action"] != "restore_from_facsimile_or_leave_unresolved" for row in decisions), "generic decision action remains", failures)
@@ -412,8 +460,102 @@ def check_records_and_decisions(failures: list[str]) -> None:
         "reject_authority_candidate",
         "model_group_as_multiple_people",
         "leave_creation_date_unknown",
+        "select_decode_and_normalize_provider_excerpt",
     }
-    fail(required_actions <= {row["action"] for row in authentic_decisions}, "authentic editorial action inventory is incomplete", failures)
+    fail(
+        required_actions <= {row["action"] for row in source_grounded_decisions},
+        "source-grounded editorial action inventory is incomplete",
+        failures,
+    )
+
+    observation_decisions = [
+        row for row in source_grounded_decisions if row["field"] in OBSERVATION_FIELDS
+    ]
+    for decision in observation_decisions:
+        observation = by_id.get(decision["record_id"])
+        fail(
+            observation is not None,
+            f"{decision['decision_id']} targets a missing cleaned observation",
+            failures,
+        )
+        if observation is not None:
+            fail(
+                decision["result_value"] == observation[decision["field"]],
+                f"{decision['decision_id']} result does not match cleaned {decision['field']}",
+                failures,
+            )
+
+    transcription_decisions = [
+        row
+        for row in source_grounded_decisions
+        if row["field"] == "reference_transcription"
+    ]
+    fail(
+        {row["decision_id"] for row in transcription_decisions}
+        == {"AF-ED-003", "AF-ED-004"},
+        "reference-transcription decisions are incomplete",
+        failures,
+    )
+    provider_excerpt = (PACKET / "raw/provider-ocr.txt").read_text(encoding="utf-8")
+    reference_transcription = (
+        PACKET / "reference/reference-transcription.txt"
+    ).read_text(encoding="utf-8")
+    for decision in transcription_decisions:
+        fail(
+            decision["input_value"] in provider_excerpt,
+            f"{decision['decision_id']} input is absent from the normalized provider excerpt",
+            failures,
+        )
+        fail(
+            decision["result_value"] in reference_transcription,
+            f"{decision['decision_id']} result is absent from the reference transcription",
+            failures,
+        )
+
+    extraction_decisions = [
+        row for row in source_grounded_decisions if row["field"] == "raw_provider_ocr"
+    ]
+    fail(
+        len(extraction_decisions) == 1
+        and extraction_decisions[0]["decision_id"] == "AF-ED-009"
+        and extraction_decisions[0]["input_value"] == "source/provider-ocr.txt"
+        and extraction_decisions[0]["result_value"] == "raw/provider-ocr.txt",
+        "provider-excerpt extraction decision is missing or inconsistent",
+        failures,
+    )
+    known_decision_fields = OBSERVATION_FIELDS | {
+        "reference_transcription",
+        "raw_provider_ocr",
+    }
+    fail(
+        all(row["field"] in known_decision_fields for row in source_grounded_decisions),
+        "a source-grounded decision targets an unsupported field",
+        failures,
+    )
+
+    authority_decision = next(
+        (row for row in source_grounded_decisions if row["decision_id"] == "AF-ED-006"),
+        {},
+    )
+    fail(
+        authority_decision.get("field") == "authority_link_status"
+        and authority_decision.get("input_value") == "not_reconciled"
+        and authority_decision.get("result_value") == "candidate_rejected"
+        and by_id["AF-P2-003"]["authority_candidate"] == "Ezra Meeker",
+        "AF-ED-006 does not separate the authority candidate from the status transition",
+        failures,
+    )
+    riverbed_decision = next(
+        (row for row in source_grounded_decisions if row["decision_id"] == "AF-ED-008"),
+        {},
+    )
+    fail(
+        riverbed_decision.get("field") == "date_status"
+        and riverbed_decision.get("result_value") == "unknown"
+        and by_id["AF-P1-002"]["date_normalized"] == "",
+        "AF-ED-008 does not agree with the cleaned riverbed date fields",
+        failures,
+    )
     fail(decision_ids == {row["decision_id"] for row in decisions}, "decision ID set is inconsistent", failures)
 
 
@@ -427,12 +569,17 @@ def check_ocr_and_summary(failures: list[str]) -> None:
         result = evaluation[0]
         expected_values = {
             "sample_id": "AF-OCR-P1-INTRO",
+            "normalization": (
+                "dLib TXT decoded as Windows-1250; source lines 1-4 selected; "
+                "header lines joined; Unicode NFC; whitespace runs collapsed "
+                "within three comparison lines"
+            ),
             "reference_characters": "591",
             "character_substitutions": "7",
             "character_deletions": "5",
-            "character_insertions": "3",
-            "character_edits": "15",
-            "cer": "0.025381",
+            "character_insertions": "0",
+            "character_edits": "12",
+            "cer": "0.020305",
             "reference_words": "93",
             "word_substitutions": "7",
             "word_deletions": "2",
@@ -448,6 +595,25 @@ def check_ocr_and_summary(failures: list[str]) -> None:
         calculated_wer = (Decimal(result["word_edits"]) / Decimal(result["reference_words"])).quantize(quantizer, rounding=ROUND_HALF_EVEN)
         fail(result["cer"] == f"{calculated_cer:.6f}", "CER does not match the declared numeric rule", failures)
         fail(result["wer"] == f"{calculated_wer:.6f}", "WER does not match the declared numeric rule", failures)
+        for key in (
+            "reference_characters",
+            "character_substitutions",
+            "character_deletions",
+            "character_insertions",
+            "character_edits",
+            "cer",
+            "reference_words",
+            "word_substitutions",
+            "word_deletions",
+            "word_insertions",
+            "word_edits",
+            "wer",
+        ):
+            fail(
+                str(expected.get("ocr", {}).get(key, "")) == result[key],
+                f"expected-results OCR value differs for {key}",
+                failures,
+            )
         for unit in ("character", "word"):
             total = sum(int(result[f"{unit}_{kind}"]) for kind in ("substitutions", "deletions", "insertions"))
             fail(total == int(result[f"{unit}_edits"]), f"{unit} S/D/I does not sum to edits", failures)
@@ -462,9 +628,26 @@ def check_ocr_and_summary(failures: list[str]) -> None:
             fail(operation_counts[operation] == int(evaluation[0][f"word_{plural}"]), f"OCR audit {operation} count differs from aggregate", failures)
     fail(all(row["review_status"] == "manually reviewed against facsimile" for row in audit), "OCR audit contains an unreviewed row", failures)
     fail(all("character S/D/I" in row["aggregate_relation"] for row in audit), "OCR audit does not explain character-alignment scope", failures)
+    stanovske_audit = next(
+        (
+            row
+            for row in audit
+            if row["reference_form"] == "stanovske"
+            and row["provider_form"] == "stavovske"
+        ),
+        {},
+    )
+    fail(
+        stanovske_audit.get("operation") == "substitution"
+        and stanovske_audit.get("error_category") == "character substitution",
+        "stanovske → stavovske is not classified as a character substitution",
+        failures,
+    )
     fail(expected.get("unresolved_case_count") == 2, "expected-results unresolved count is stale", failures)
     fail(expected.get("authentic_historical_object_count") == 1, "expected-results authentic-object count is stale", failures)
     fail(expected.get("reference_observation_count") == 8, "expected-results reference count is stale", failures)
+    fail(expected.get("source_grounded_decision_count") == 9, "expected-results decision count is stale", failures)
+    fail(expected.get("source_provider_export_sha256") == PROVIDER_EXPORT_SHA256, "expected-results provider-export digest is stale", failures)
     summary_keys = {(row["dimension"], row["category"]): row["count"] for row in summary}
     expected_summary = {
         ("inventory", "authentic_historical_object"): "1",
@@ -600,7 +783,7 @@ def main() -> int:
     print(
         "OK: archival-friction packet has 1 authentic two-page object, 8 handbook "
         "reference observations (1 issue + 7 features), 4 declared synthetic "
-        "perturbations, 8 authentic editorial decisions, 2 field-specific open "
+        "perturbations, 9 source-grounded editorial decisions, 2 field-specific open "
         "cases, a complete OCR S/D/I audit, paired packet documentation, a "
         "byte-checked deterministic ZIP, 3 paired workflows, 6 formal-review "
         "chapters, and curated ecosystem links."

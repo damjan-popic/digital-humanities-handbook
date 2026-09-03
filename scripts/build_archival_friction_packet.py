@@ -11,6 +11,7 @@ import json
 import shutil
 import tempfile
 import unicodedata
+from decimal import Decimal, ROUND_HALF_EVEN
 from pathlib import Path
 from zipfile import ZipFile
 
@@ -19,6 +20,8 @@ from scholarly_work_package_utils import FIXED_ZIP_DATE, deterministic_zip
 
 ARCHIVE_NAME = "archival-friction-v1.zip"
 ARCHIVE_PREFIX = "archival-friction-v1/"
+PROVIDER_EXPORT_SHA256 = "ab4e9e5464eb349d4c27b3b895c2b98b3a6509f3ce4be76f387b739a1fcee456"
+RATE_QUANTIZER = Decimal("0.000001")
 DEPRECATED_PACKET_FILES = (
     "source/source-records.csv",
     "source/synthetic-perturbations.csv",
@@ -67,6 +70,32 @@ def csv_bytes(rows: list[dict[str, str]], fields: list[str]) -> bytes:
 
 def normalized_text(path: Path) -> str:
     return unicodedata.normalize("NFC", path.read_text(encoding="utf-8")).strip()
+
+
+def provider_comparison_excerpt(path: Path) -> str:
+    """Derive the declared three-line comparison sample from the dLib TXT export."""
+    source_lines = path.read_bytes().decode("windows-1250").splitlines()
+    if len(source_lines) < 4:
+        raise ValueError("The dLib TXT export no longer contains the selected first four lines")
+    selected_lines = (
+        f"{source_lines[0]} {source_lines[1]}",
+        source_lines[2],
+        source_lines[3],
+    )
+    normalized_lines = (
+        " ".join(unicodedata.normalize("NFC", line).split())
+        for line in selected_lines
+    )
+    return "\n".join(normalized_lines)
+
+
+def rounded_rate(edits: int, denominator: int) -> str:
+    return format(
+        (Decimal(edits) / Decimal(denominator)).quantize(
+            RATE_QUANTIZER, rounding=ROUND_HALF_EVEN
+        ),
+        ".6f",
+    )
 
 
 def align(
@@ -151,7 +180,7 @@ def word_audit(
             "Negation is lost and the sentence meaning changes.",
         ),
         ("substitution", "stanovske", "stavovske"): (
-            "letter deletion",
+            "character substitution",
             "recognition_error",
             "A politically meaningful term becomes an out-of-vocabulary form.",
         ),
@@ -210,7 +239,7 @@ def expected_outputs(packet: Path) -> dict[str, bytes]:
     fields = list(reference_rows[0])
     clean_rows = [dict(row) for row in reference_rows]
     messy_rows = [dict(row) for row in reference_rows]
-    authentic_decisions = read_csv(packet / "reference/editorial-decisions.csv")
+    source_grounded_decisions = read_csv(packet / "reference/editorial-decisions.csv")
     perturbations = read_csv(packet / "teaching/synthetic-perturbations.csv")
     synthetic_decisions: list[dict[str, str]] = []
     candidates: list[dict[str, str]] = []
@@ -272,8 +301,8 @@ def expected_outputs(packet: Path) -> dict[str, bytes]:
             }
         )
 
-    decision_fields = list(authentic_decisions[0])
-    decisions = authentic_decisions + synthetic_decisions
+    decision_fields = list(source_grounded_decisions[0])
+    decisions = source_grounded_decisions + synthetic_decisions
     unresolved = [
         {
             "case_id": "AF-U-001",
@@ -297,7 +326,7 @@ def expected_outputs(packet: Path) -> dict[str, bytes]:
         },
     ]
 
-    provider = normalized_text(packet / "source/provider-ocr.txt")
+    provider = provider_comparison_excerpt(packet / "source/provider-ocr.txt")
     reference = normalized_text(packet / "reference/reference-transcription.txt")
     character_operations = align(reference, provider)
     word_operations = align(reference.split(), provider.split())
@@ -307,12 +336,16 @@ def expected_outputs(packet: Path) -> dict[str, bytes]:
     word_edits = sum(word_counts.values())
     reference_character_count = len(reference)
     reference_word_count = len(reference.split())
-    cer = character_edits / reference_character_count
-    wer = word_edits / reference_word_count
+    cer = rounded_rate(character_edits, reference_character_count)
+    wer = rounded_rate(word_edits, reference_word_count)
     evaluation = [
         {
             "sample_id": "AF-OCR-P1-INTRO",
-            "normalization": "Unicode NFC; surrounding whitespace stripped",
+            "normalization": (
+                "dLib TXT decoded as Windows-1250; source lines 1-4 selected; "
+                "header lines joined; Unicode NFC; whitespace runs collapsed "
+                "within three comparison lines"
+            ),
             "character_tokenization": "Unicode code points including internal whitespace",
             "word_tokenization": "Unicode whitespace",
             "tie_breaking": "equal, then substitution, deletion, insertion",
@@ -321,13 +354,13 @@ def expected_outputs(packet: Path) -> dict[str, bytes]:
             "character_deletions": str(character_counts["deletion"]),
             "character_insertions": str(character_counts["insertion"]),
             "character_edits": str(character_edits),
-            "cer": f"{cer:.6f}",
+            "cer": cer,
             "reference_words": str(reference_word_count),
             "word_substitutions": str(word_counts["substitution"]),
             "word_deletions": str(word_counts["deletion"]),
             "word_insertions": str(word_counts["insertion"]),
             "word_edits": str(word_edits),
-            "wer": f"{wer:.6f}",
+            "wer": wer,
             "rate_rounding": "round half even to six decimal places",
         }
     ]
@@ -373,7 +406,7 @@ def expected_outputs(packet: Path) -> dict[str, bytes]:
         "feature_record_count": 7,
         "issue_record_count": 1,
         "ocr": {
-            "cer": round(cer, 6),
+            "cer": cer,
             "character_deletions": character_counts["deletion"],
             "character_edits": character_edits,
             "character_insertions": character_counts["insertion"],
@@ -381,7 +414,7 @@ def expected_outputs(packet: Path) -> dict[str, bytes]:
             "reference_characters": reference_character_count,
             "reference_words": reference_word_count,
             "sample_id": "AF-OCR-P1-INTRO",
-            "wer": round(wer, 6),
+            "wer": wer,
             "word_deletions": word_counts["deletion"],
             "word_edits": word_edits,
             "word_insertions": word_counts["insertion"],
@@ -390,6 +423,8 @@ def expected_outputs(packet: Path) -> dict[str, bytes]:
         "packet_version": 1,
         "raw_record_count": len(messy_rows),
         "reference_observation_count": len(reference_rows),
+        "source_grounded_decision_count": len(source_grounded_decisions),
+        "source_provider_export_sha256": PROVIDER_EXPORT_SHA256,
         "source_pdf_sha256": "e7b4b9f27f2043f2a3861b6cf05e1b4d8e1053e16eb81bf05f96d21385b5ad79",
         "synthetic_perturbation_count": len(perturbations),
         "unresolved_case_count": len(unresolved),

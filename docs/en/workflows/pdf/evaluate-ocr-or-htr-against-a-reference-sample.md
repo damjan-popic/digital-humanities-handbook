@@ -26,7 +26,7 @@ No programming is required. The supplied teaching packet includes a tiny candida
 - a written transcription policy;
 - a human-checked reference transcription for a declared sample;
 - a spreadsheet or an edit-distance tool that reports substitutions, deletions and insertions; and
-- optionally, download the [Archival Friction teaching packet ZIP](../../../assets/downloads/archival-friction-v1.zip): use `raw/provider-ocr.txt`, `reference/reference-transcription.txt`, `reference/transcription-policy.md`, `output/ocr-evaluation.csv` and `output/ocr-error-audit.csv`; maintainers can inspect the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+- optionally, download the [Archival Friction teaching packet ZIP](../../../assets/downloads/archival-friction-v1.zip): `source/provider-ocr.txt` preserves the exact dLib TXT export, while the exercise uses its declared derivative `raw/provider-ocr.txt` with `reference/reference-transcription.txt`, `reference/transcription-policy.md`, `output/ocr-evaluation.csv` and `output/ocr-error-audit.csv`; maintainers can inspect the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
 Check the source, rights and provenance record before copying images or text. Keep the candidate and reference in separate files.
 
@@ -63,9 +63,9 @@ Record the transcriber, checker, dates and policy version. Resolve disagreements
 
 ### 5. Normalize only what the test excludes
 
-Apply exactly the same declared preprocessing to candidate and reference. If case does not matter, fold case in both; if punctuation matters, retain it in both. The packet strips surrounding whitespace and uses Unicode NFC but otherwise retains character differences. For WER it uses whitespace-delimited words.
+Apply exactly the same declared comparison policy to candidate and reference. If case does not matter, fold case in both; if punctuation matters, retain it in both. Before comparison, the packet decodes the preserved dLib export as Windows-1250, selects source lines 1–4, joins the two masthead lines and collapses whitespace runs into the same three-line structure used by the reference. The comparison then uses Unicode NFC, strips surrounding whitespace and otherwise retains character differences. For WER it uses whitespace-delimited words.
 
-Save the normalization and tokenization rules with the result. A CER without them is ambiguous.
+Save the extraction, normalization and tokenization rules with the result. A CER without them is ambiguous. The packet's CER and WER begin after the declared selection and whitespace normalization; they do not measure omitted layout-whitespace behaviour elsewhere in the source export.
 
 ### 6. Run automated alignment and calculate
 
@@ -77,9 +77,9 @@ Use minimum edit distance to count substitutions \(S\), deletions \(D\) and inse
 
 Calculate once with characters for CER and once with your defined word tokens for WER. Record substitutions, deletions and insertions separately as well as their sums and rates. Declare a tie-break rule for multiple minimum alignments. The packet prefers a match, then substitution, deletion and insertion. Do not call \(1-\mathrm{CER}\) “accuracy” without defining it; insertions can make an error rate greater than 1.
 
-The packet's sample `AF-OCR-P1-INTRO` contains 591 reference characters and 93 reference words. Its deterministic alignment reports 7 character substitutions, 5 deletions and 3 insertions (15 edits), plus 7 word substitutions, 2 deletions and 0 insertions (9 edits). Therefore:
+The packet's sample `AF-OCR-P1-INTRO` contains 591 reference characters and 93 reference words. After the declared extraction normalization, its deterministic alignment reports 7 character substitutions, 5 deletions and 0 insertions (12 edits), plus 7 word substitutions, 2 deletions and 0 insertions (9 edits). Therefore:
 
-- CER = `15 / 591 = 0.025381` (about 2.54%);
+- CER = `12 / 591 = 0.020305` (about 2.03%);
 - WER = `9 / 93 = 0.096774` (about 9.68%).
 
 Enter the numerators and denominators in separate spreadsheet cells. Compare the exact S/D/I counts and recompute each rate as edits divided by its declared reference denominator; then compare the result numerically after round-half-even formatting to six decimal places. CSV bytes are not the numerical criterion.

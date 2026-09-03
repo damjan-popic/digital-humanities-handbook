@@ -15,10 +15,14 @@ These are checks, not interpretations to copy into an essay.
 - Clear printed names remain local labels even when no external authority
   search was attempted. AF-P2-001 is `multiple_people`, not one unresolved
   identity. “Meker” is retained; Ezra Meeker is a `candidate_rejected`.
-- `correction-log.csv` has eight source-grounded editorial decisions and four
-  synthetic reversals. All carry locators, evidence, process, date, rule
-  version, confidence and reversibility.
-- The OCR audit covers the complete declared excerpt. Word-error-audit rows
+- `correction-log.csv` has nine source-grounded editorial decisions and four
+  synthetic reversals. The ninth records selection, decoding and whitespace
+  normalization from the exact dLib TXT export into the comparison excerpt.
+  All carry locators, evidence, process, date, rule version, confidence and
+  reversibility.
+- The OCR audit covers the complete declared comparison excerpt. CER and WER
+  begin after that extraction normalization and do not measure omitted
+  layout-whitespace behaviour. Word-error-audit rows
   sum to the word substitutions/deletions/insertions; character operations
   are a separate whole-string alignment. CER and WER use the reference
   denominators and six-decimal round-half-even formatting.

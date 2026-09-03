@@ -1,9 +1,9 @@
 # Učni paket o trenju pri delu z arhivskim gradivom
 
 Dvojezični paket spremlja priročniško pot skozi raziskovalni načrt, podatke
-in metapodatke ter delo z besedilom in OCR-jem. Jasno ločuje pristno gradivo
-ponudnikov, priročniško referenčno delo, sintetične učne motnje in izpeljane
-rezultate.
+in metapodatke ter delo z besedilom in OCR-jem. Jasno ločuje ohranjeno
+gradivo ponudnika, priročniško referenčno delo, izrecno označene sintetične
+učne motnje in izpeljane rezultate.
 
 ## Raziskovalno vprašanje
 
@@ -15,7 +15,7 @@ Popis vsebuje **en pristen zgodovinski predmet**: 7. številko
 *Ilustriranega Slovenca* z dne 7. februarja 1925, ki jo predstavlja
 nespremenjen dvostranski PDF. Priročnik je iz nje pripravil **osem na viru
 utemeljenih referenčnih opazovanj**: en zapis o številki in sedem zapisov o
-posameznih prispevkih. Učna plast vsebuje **štiri prijavljene sintetične
+posameznih prispevkih. Učna plast vsebuje **štiri izrecno označene sintetične
 motnje**. Referenčna opazovanja in motnje niso dodatni pristni arhivski
 zapisi.
 
@@ -23,10 +23,10 @@ zapisi.
 
 | Plast | Namen | Pravilo pri vaji |
 | --- | --- | --- |
-| `source/` | Nespremenjeni PDF, zajeta zapisa dLib in Commons ter nespremenjeni OCR ponudnika | Ne urejajte; gradivo kopirajte v naslednjo plast |
+| `source/` | Nespremenjeni PDF, zajeta zapisa dLib in Commons ter bajtno nespremenjen izvoz TXT iz dLib | Ne urejajte; gradivo kopirajte v naslednjo plast |
 | `reference/` | Priročniška opazovanja, uredniške odločitve, referenčni prepis in pravila prepisa | Uporabite kot preverljivo referenco, ne kot »temeljno resnico« |
-| `teaching/` | Štiri prijavljene sintetične motnje | Uporabite samo za pripravo vaje |
-| `raw/` | Namenoma neurejene vrstice in kopija OCR-ja ponudnika | Ohranite; kopirajte v `interim/` |
+| `teaching/` | Štiri izrecno označene sintetične motnje | Uporabite samo za pripravo vaje |
+| `raw/` | Namenoma neurejene vrstice ter izbrani, dekodirani in presledkovno normalizirani odlomek OCR-ja ponudnika | Ohranite; kopirajte v `interim/` |
 | `interim/` | Kandidati, ki čakajo na preverjanje ob viru ali referenci | Preverite jih in zapišite odločitev |
 | `cleaned/` | Preverjena opazovanja, referenčni prepis in odločitve | Primerjajte s svojim rezultatom |
 | `output/` | Štetje napak OCR, pregled napak in povzetki zapisov | Ponovno ustvarite; ne urejajte ročno |
@@ -35,8 +35,10 @@ zapisi.
 
 Datoteki `metadata-raw.csv` in `metadata-clean.csv` na vrhnji ravni sta
 deterministični kopiji ustreznih tabel v plasteh. `correction-log.csv`
-združuje osem pristnih uredniških odločitev (`synthetic=false`) in štiri
-razveljavitve prijavljenih učnih motenj (`synthetic=true`).
+združuje devet na viru utemeljenih uredniških odločitev (`synthetic=false`)
+in štiri razveljavitve izrecno označenih učnih motenj (`synthetic=true`). Ena
+odločitev opisuje, kako so vrstice 1–4 izvoza TXT iz dLib dekodirane, izbrane
+in normalizirane v `raw/provider-ocr.txt`.
 
 ## Dostopna učna pot
 
@@ -63,7 +65,9 @@ make archival-friction-packet
 ```
 
 Gradilnik uporablja standardno knjižnico Python in javna avtorska orodja
-repozitorija; shranjenega posnetka ne prenaša in ne zamenjuje.
+repozitorija; shranjenega posnetka in izvoza TXT ne prenaša in ne zamenjuje.
+Izračun CER in WER se začne po dokumentiranem izboru in normalizaciji
+presledkov, zato ne meri izgube presledkov postavitve zunaj izbranega odlomka.
 
 ## Dostopna opisa strani
 
