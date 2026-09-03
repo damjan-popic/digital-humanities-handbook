@@ -1,0 +1,2 @@
+# Preserve the exact Windows-1250/CRLF dLib provider export as captured.
+teaching-data/archival-friction/source/provider-ocr.txt -text -diff

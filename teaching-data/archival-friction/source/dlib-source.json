@@ -1,0 +1,30 @@
+{
+  "accessed": "2026-09-03",
+  "availability_at_access": {
+    "pdf": true,
+    "txt": true
+  },
+  "canonical_record_url": "https://www.dlib.si/details/URN:NBN:SI:doc-YPI8OFSU",
+  "cobiss_id": "34019329",
+  "date": "1925-02-07",
+  "displayed_rights_field": "blank",
+  "displayed_pdf_size_kb": 1185,
+  "displayed_txt_size_kb": 7,
+  "issue": "7",
+  "language": "slovenian",
+  "provider": "Narodna in univerzitetna knjižnica (NUK)",
+  "publication": "Ilustrirani Slovenec : tedenska priloga Slovenca",
+  "publisher": "Fran Kulovec",
+  "rights_note": "The displayed dLib record did not supply the explicit public-domain label used by the packet.",
+  "stable_urn": "URN:NBN:SI:doc-YPI8OFSU",
+  "txt_export_capture": {
+    "byte_size": 5710,
+    "content_disposition_filename": "Ilustrirani_URN:NBN:SI:doc-YPI8OFSU.txt",
+    "content_type_header": "text/plain",
+    "decoding_used": "Windows-1250",
+    "download_url": "https://www.dlib.si/stream/URN:NBN:SI:doc-YPI8OFSU/0e211413-0b2d-440d-bfd9-ef691401f1f1/TEXT",
+    "line_endings": "CRLF",
+    "sha256": "ab4e9e5464eb349d4c27b3b895c2b98b3a6509f3ce4be76f387b739a1fcee456"
+  },
+  "volume": "1"
+}

@@ -1,0 +1,5 @@
+candidate_id,record_id,field,candidate_value,reference_value,review_status,synthetic
+AF-SYN-001,AF-P1-001,label_transcribed,Triumf dr. Korošca v slovenski LJubljani.,Triumf dr. Korošca v slovenski Ljubljani.,requires_source_or_reference_review,true
+AF-SYN-002,AF-P2-003,printed_person_or_group,Mr. Meeker,Mr. Meker,requires_source_or_reference_review,true
+AF-SYN-003,AF-P2-003,authority_link_status,accepted,candidate_rejected,requires_source_or_reference_review,true
+AF-SYN-004,AF-P1-002-DUP,record_id,AF-P1-002-DUP,AF-P1-002,requires_source_or_reference_review,true

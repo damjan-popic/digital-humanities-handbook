@@ -1,0 +1,5 @@
+perturbation_id,operation,target_record_id,new_record_id,field,synthetic_value,teaching_reason
+AF-SYN-001,set,AF-P1-001,,label_transcribed,Triumf dr. Korošca v slovenski LJubljani.,Simulates a case-changing transcription error that looks harmless but breaks exact matching.
+AF-SYN-002,set,AF-P2-003,,printed_person_or_group,Mr. Meeker,Simulates an unsupported silent correction of the spelling printed in the source.
+AF-SYN-003,set,AF-P2-003,,authority_link_status,accepted,Simulates acceptance of a plausible authority candidate without sufficient evidence.
+AF-SYN-004,duplicate,AF-P1-002,AF-P1-002-DUP,,,Creates a duplicate catalogue row without changing the historical object.

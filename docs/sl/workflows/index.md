@@ -16,10 +16,11 @@ Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod
 - **NLP** — 9
 - **Omrežja** — 1
 - **Osnove** — 6
+- **PDF in OCR** — 1
 - **Podatki** — 1
 - **UI** — 1
 - **Upravljanje virov** — 3
-- **Urejanje podatkov** — 4
+- **Urejanje podatkov** — 5
 - **Znanstveno pisanje** — 3
 
 ## Vsi prevedeni postopki
@@ -59,6 +60,10 @@ Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod
 - [Kako v lupini Bash uporabim cevovode, preusmerjanje in grep?](foundations/use-pipes-redirection-and-grep-in-bash.md) <span class="tiny">— začetno</span>
 - [Kako z Gitom sledim manjšemu projektu?](foundations/track-a-small-project-with-git.md) <span class="tiny">— začetno</span>
 
+### PDF in OCR
+
+- [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](pdf/evaluate-ocr-or-htr-against-a-reference-sample.md) <span class="tiny">— začetno</span>
+
 ### Podatki
 
 - [Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](data/build-a-humanities-database-with-sqlite.md) <span class="tiny">— srednje</span>
@@ -76,8 +81,9 @@ Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod
 ### Urejanje podatkov
 
 - [Kako manjši podatkovni nabor uvozim in očistim v Excelu?](data-wrangling/import-and-clean-a-small-dataset-in-excel.md) <span class="tiny">— začetno</span>
-- [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko?](data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md) <span class="tiny">— začetno</span>
+- [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md) <span class="tiny">— začetno</span>
 - [Kako podatke povzamem z vrtilnimi tabelami in preglednimi grafikoni?](data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md) <span class="tiny">— začetno</span>
+- [Kako uskladim nasprotujoče si metapodatke in ohranim negotovost?](data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md) <span class="tiny">— začetno</span>
 - [Kako v Excelovem Power Queryju izdelam ponovljive pretvorbe?](data-wrangling/make-repeatable-transformations-with-excel-power-query.md) <span class="tiny">— začetno</span>
 
 ### Znanstveno pisanje

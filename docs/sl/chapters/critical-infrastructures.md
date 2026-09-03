@@ -22,7 +22,7 @@ Po tem poglavju boste znali:
 
 ## Pred začetkom: kaj omogoča navidezno preprosto iskanje?
 
-V zgodovinskem korpusu poiščemo besedo in hitro dobimo zadetke. Zdi se, da postopek vključuje le bralca, polje in indeks. V resnici je odvisen od nastanka in ohranitve zapisov, institucionalnega izbora in financiranja, katalogizacije, skeniranja, optičnega razpoznavanja znakov (OCR), členjenja člankov, identifikatorjev, metapodatkov, strežnikov, programske opreme, razvrščanja, odločitev o pravicah ter ljudi, ki vse našteto vzdržujejo. Kaj bi lahko spremenilo rezultat, ne da bi spremenili poizvedbo?
+V zgodovinskem korpusu poiščemo besedo in hitro dobimo zadetke. Zdi se, da postopek vključuje le bralca, polje in indeks. V resnici je odvisen od nastanka in ohranitve zapisov, institucionalnega izbora in financiranja, katalogizacije, skeniranja, optičnega prepoznavanja znakov (OCR), členjenja člankov, identifikatorjev, metapodatkov, strežnikov, programske opreme, razvrščanja, odločitev o pravicah ter ljudi, ki vse našteto vzdržujejo. Kaj bi lahko spremenilo rezultat, ne da bi spremenili poizvedbo?
 
 **Predznanje:** preberite poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md), zlasti razpravo o izboru, kategorijah in negotovosti. Programiranje ni potrebno. **Vhod za vajo:** digitalna zbirka ali raziskovalna storitev, ki jo smete javno opisati, ter predlagana humanistična trditev. **Rezultat:** presoja infrastrukture z razločenimi vrstami dokaznega gradiva. **Preverjanje:** drugi bralec mora ločiti vaša opažanja, navedbe ustanove, lastne preizkuse in interpretacije. **Omejitve:** ne obidite nadzora dostopa, ne razkrivajte občutljivih zapisov in pravne dostopnosti ne zamenjujte z etičnim dovoljenjem.
 
@@ -85,7 +85,7 @@ Vzdrževanje je znanstveno delo, ker ohranja razmere, v katerih je mogoče dokaz
 
 ## Jezik, geografija in domnevno »globalno« področje
 
-Izraz **jezik z manj viri** naj opisuje razmerje, ne pomanjkljivosti jezika ali njegovih govorcev. Razpoložljivost je odvisna od naloge, žanra, obdobja in področja ter od obsega in licenciranja korpusov, slovarjev, označenih primerov, modelov, računske zmogljivosti, vmesnikov in strokovnega časa. Jezik z dobro podporo za prevajanje sodobnih novic ima lahko slabo podporo za OCR tiska iz 18. stoletja ali razpoznavanje imen v narečnih besedilih. Pregled rabe poimenovanja *low-resource* ugotavlja več povezanih osi in malo soglasja o enem pragu.[^manj-virov]
+Izraz **jezik z manj viri** naj opisuje razmerje, ne pomanjkljivosti jezika ali njegovih govorcev. Razpoložljivost je odvisna od naloge, žanra, obdobja in področja ter od obsega in licenciranja korpusov, slovarjev, označenih primerov, modelov, računske zmogljivosti, vmesnikov in strokovnega časa. Jezik z dobro podporo za prevajanje sodobnih novic ima lahko slabo podporo za OCR tiska iz 18. stoletja ali prepoznavanje imen v narečnih besedilih. Pregled rabe poimenovanja *low-resource* ugotavlja več povezanih osi in malo soglasja o enem pragu.[^manj-virov]
 
 Orodje, naučeno na sodobni knjižni slovenščini, se morda ne bo zanesljivo preneslo na starejšo tipografijo, zgodovinsko oblikoslovje ali časopisje z regionalno mešanico jezikov. Večjezični katalog lahko prikazuje slovenske opise, zadetke pa razvršča z indeksom, osredinjenim na angleščino. To so preverljive infrastrukturne odvisnosti, ne trditve, da slovenščina ni dovolj razvita ali da vsa orodja delujejo slabo. Uspešnost merimo za dejansko obdobje, žanr in jezikovno različico, ohranimo jezikovne oznake in izvirno izrazje, vključimo ustrezno strokovno znanje ter primerjamo smiselna izhodišča.
 
@@ -116,7 +116,7 @@ Lastnost ene sestavine ne določa drugih. Odprtokodna koda lahko obdeluje omejen
 
 Načela FAIR iz leta 2016 zahtevajo, da so digitalni raziskovalni objekti **Findable (najdljivi), Accessible (dostopni), Interoperable (interoperabilni) in Reusable (ponovno uporabni)**. Dostop lahko po potrebi vključuje avtentikacijo in avtorizacijo; FAIR torej ne zahteva neomejenega javnega prenosa in samo po sebi ne zagotavlja kakovosti ali etične upravičenosti.[^fair] Načela CARE za upravljanje podatkov domorodnih skupnosti poudarjajo **Collective Benefit (kolektivno korist), Authority to Control (pristojnost za nadzor oziroma odločanje), Responsibility (odgovornost) in Ethics (etiko)**. Nastala so v mrežah za podatkovno suverenost domorodnih ljudstev in zadevajo njihove pravice ter interese v podatkih o njihovih skupnostih, ozemljih, znanju in kulturah.[^care][^gida]
 
-Načela FAIR zadevajo najdljivost, pridobivanje pod jasnimi pogoji, povezljivost in ponovno rabo podatkov ter metapodatkov. Načela CARE se osredotočajo na korist, odločanje in odgovornost v specifičnem kontekstu podatkov domorodnih ljudstev. Pristopa se lahko dopolnjujeta, vendar lahko objekt, tehnično skladen z načeli FAIR, krši načela CARE, legitimna pristojnost za nadzor pa omeji ponovno uporabo. Načela CARE niso omejena na eno državo, kratice pa ne smemo razumeti kot splošne etične oznake, ločene od domorodnega upravljanja podatkov. Drugi projekti se lahko učijo vprašanj o koristih in pristojnostih, ne da bi si prisvojili njihov izvor ali neutemeljeno zatrjevali skladnost.
+Načela FAIR zadevajo najdljivost, pridobivanje pod jasnimi pogoji, interoperabilnost in ponovno rabo podatkov ter metapodatkov. Načela CARE se osredotočajo na korist, odločanje in odgovornost v specifičnem kontekstu podatkov domorodnih ljudstev. Pristopa se lahko dopolnjujeta, vendar lahko objekt, tehnično skladen z načeli FAIR, krši načela CARE, legitimna pristojnost za nadzor pa omeji ponovno uporabo. Načela CARE niso omejena na eno državo, kratice pa ne smemo razumeti kot splošne etične oznake, ločene od domorodnega upravljanja podatkov. Drugi projekti se lahko učijo vprašanj o koristih in pristojnostih, ne da bi si prisvojili njihov izvor ali neutemeljeno zatrjevali skladnost.
 
 ## Vzdrževanje in okoljski stroški
 
@@ -132,7 +132,7 @@ Zamislimo si raziskavo uokvirjanja javnega strahu v stoletju časopisja v jeziku
 
 1. **Ohranjenost:** ohranili so se le nekateri naslovi, letniki in fizični izvodi, pri čemer se stanje lahko razlikuje po regijah in založnikih.
 2. **Izbor in financiranje digitalizacije:** ustanova izbere podmnožico glede na stanje, uporabo, pomen, pravice ali sredstva; razloge in zavrnjeno gradivo naj dokumentira.
-3. **Skeniranje:** vezani letniki, presevanje tiska, poškodbe, stolpci in oglasi vplivajo na kakovost slike ter razpoznavanje postavitve.
+3. **Skeniranje:** vezani letniki, presevanje tiska, poškodbe, stolpci in oglasi vplivajo na kakovost slike ter prepoznavanje postavitve.
 4. **OCR:** natančnost se spreminja z obdobjem, tipografijo, pravopisom, jezikovno različico in stanjem strani; ovrednotiti jo moramo po slojih, ne z eno skupno oceno.
 5. **Členjenje in metapodatki:** meje člankov, datumi, žanri, naslovi in identiteta časopisa so rezultat samodejnega sklepanja ali vnosa; stran še ni samodejno članek.
 6. **Pravice in posredovanje:** avtorske pravice, zasebnost ali pogodbe lahko dovolijo branje, ne pa množičnega prenosa, ali pa omejijo API; to vpliva na ponovljivost in vzorčenje.

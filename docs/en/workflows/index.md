@@ -17,7 +17,7 @@ The Slovene edition contains the stable core and a growing curated set of transl
 - **CAT tools** — 3
 - **Corpora** — 6
 - **Data** — 1
-- **Data wrangling** — 4
+- **Data wrangling** — 5
 - **Digital editions** — 1
 - **Ethics** — 1
 - **Foundations** — 6
@@ -25,7 +25,7 @@ The Slovene edition contains the stable core and a growing curated set of transl
 - **MT evaluation** — 2
 - **Networks** — 1
 - **NLP** — 15
-- **PDF & OCR** — 1
+- **PDF & OCR** — 2
 - **Publishing & FAIR data** — 2
 - **Reference management** — 3
 - **Scholarly writing** — 3
@@ -73,6 +73,7 @@ The Slovene edition contains the stable core and a growing curated set of transl
 
 - [How do I import and clean a small dataset in Excel?](data-wrangling/import-and-clean-a-small-dataset-in-excel.md) <span class="tiny">— beginner</span>
 - [How do I make repeatable transformations with Excel Power Query?](data-wrangling/make-repeatable-transformations-with-excel-power-query.md) <span class="tiny">— beginner</span>
+- [How do I reconcile conflicting metadata without erasing uncertainty?](data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md) <span class="tiny">— beginner</span>
 - [How do I summarize data with PivotTables and transparent charts?](data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md) <span class="tiny">— beginner</span>
 - [How do I turn messy humanities notes into a reusable dataset?](data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md) <span class="tiny">— beginner</span>
 
@@ -128,6 +129,7 @@ The Slovene edition contains the stable core and a growing curated set of transl
 ### PDF & OCR
 
 - [How do I bulk-download PDFs and OCR them?](pdf/bulk-download-pdfs-and-ocr-them.md) <span class="tiny">— intermediate</span>
+- [How do I evaluate OCR or HTR against a reference sample?](pdf/evaluate-ocr-or-htr-against-a-reference-sample.md) <span class="tiny">— beginner</span>
 
 ### Publishing & FAIR data
 

@@ -37,6 +37,9 @@ jobs:
       - name: Rebuild scholarly-work teaching samples
         run: make scholarly-work-samples
 
+      - name: Rebuild archival-friction teaching packet
+        run: make archival-friction-packet
+
       - name: Regenerate catalogues and translation report
         run: make indexes
 

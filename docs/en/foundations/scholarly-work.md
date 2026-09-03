@@ -75,6 +75,10 @@ A **one-off edit** changes a cell with no reusable record. A **documented transf
 8. [Make repeatable transformations with Excel Power Query](../workflows/data-wrangling/make-repeatable-transformations-with-excel-power-query.md).
 9. [Summarize data with PivotTables and transparent charts](../workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md).
 
+### Apply the route to archival evidence
+
+When a project begins with a facsimile rather than an already structured source, download the [Archival Friction teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip); maintainers and curious readers can inspect the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction). [Turn messy notes into a reusable dataset](../workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md), [reconcile conflicting metadata without erasing uncertainty](../workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md), and [evaluate OCR or HTR against a reference sample](../workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md). These workflows extend the same inspectable research cycle; they do not add a command-line requirement.
+
 Download the [version 1 scholarly-work sample ZIP](../../assets/downloads/scholarly-work-foundations-v1.zip). It contains original or bibliographic-fact-only teaching material organized into source, raw, cleaned, output, validation, known-problem, and citation-audit layers. Its `RIGHTS.md` records provenance and reuse conditions.
 
 ## A low technical threshold
