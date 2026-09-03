@@ -12,12 +12,12 @@ Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod
 ## Kategorije
 
 - **Analiza besedil** — 3
-- **Kartiranje** — 1
+- **Kartiranje** — 3
 - **NLP** — 9
-- **Omrežja** — 1
+- **Omrežja** — 3
 - **Osnove** — 6
 - **PDF in OCR** — 1
-- **Podatki** — 1
+- **Podatki** — 2
 - **UI** — 1
 - **Upravljanje virov** — 3
 - **Urejanje podatkov** — 5
@@ -33,7 +33,9 @@ Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod
 
 ### Kartiranje
 
+- [Kako georeferenciram in preverim zgodovinski zemljevid v QGIS?](mapping/georeference-and-check-a-historical-map-in-qgis.md) <span class="tiny">— srednje</span>
 - [Kako kartiram kraje, omenjene v besedilu?](mapping/map-places-mentioned-in-a-text.md) <span class="tiny">— začetno</span>
+- [Kako modeliram spreminjajoča se krajevna imena in meje?](mapping/model-changing-place-names-and-boundaries.md) <span class="tiny">— srednje</span>
 
 ### NLP
 
@@ -49,6 +51,8 @@ Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod
 
 ### Omrežja
 
+- [Kako preverim omrežno trditev ob izvornih zapisih?](networks/audit-a-network-claim-against-source-records.md) <span class="tiny">— srednje</span>
+- [Kako primerjam dvodelna in projicirana omrežja?](networks/compare-bipartite-and-projected-networks.md) <span class="tiny">— srednje</span>
 - [Kako zgradim omrežje sopojavljanja, povezano z viri?](networks/build-a-cooccurrence-network.md) <span class="tiny">— srednje</span>
 
 ### Osnove
@@ -66,6 +70,7 @@ Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod
 
 ### Podatki
 
+- [Kako modeliram spreminjajoča se imena, statuse in meje v SQLite?](data/model-changing-names-statuses-and-boundaries-in-sqlite.md) <span class="tiny">— srednje</span>
 - [Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](data/build-a-humanities-database-with-sqlite.md) <span class="tiny">— srednje</span>
 
 ### UI

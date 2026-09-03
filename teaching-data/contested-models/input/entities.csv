@@ -1,0 +1,11 @@
+entity_id,kind,label,synthetic
+SYN-A,person,Ana Kovač,true
+SYN-B,person,Bojan Vidmar,true
+SYN-C,person,Ciril Novak,true
+SYN-D,person,Dora Hribar,true
+SYN-E,person,Eva Marin,true
+SYN-F,person,Franc Zupan,true
+SYN-L1,place,St. Peter candidate 1,true
+SYN-L2,place,St. Peter candidate 2,true
+SYN-W,territory,West / Zahod,true
+SYN-EAST,territory,East / Vzhod,true

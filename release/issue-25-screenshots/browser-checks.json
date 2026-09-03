@@ -1,0 +1,1282 @@
+[
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "./",
+        "language": "en"
+      },
+      {
+        "href": "../../sl/chapters/databases-sql/",
+        "language": "sl"
+      }
+    ],
+    "scheme": "default",
+    "scrollWidth": 1265,
+    "tables": 2,
+    "title": "Databases and SQL¶",
+    "url": "/chapters/databases-sql/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "./",
+        "language": "en"
+      },
+      {
+        "href": "../../sl/chapters/databases-sql/",
+        "language": "sl"
+      }
+    ],
+    "scheme": "slate",
+    "scrollWidth": 1265,
+    "tables": 2,
+    "title": "Databases and SQL¶",
+    "url": "/chapters/databases-sql/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "./",
+        "language": "en"
+      },
+      {
+        "href": "../../sl/chapters/gis-spatial-humanities/",
+        "language": "sl"
+      }
+    ],
+    "scheme": "default",
+    "scrollWidth": 1265,
+    "tables": 3,
+    "title": "GIS and spatial humanities¶",
+    "url": "/chapters/gis-spatial-humanities/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "./",
+        "language": "en"
+      },
+      {
+        "href": "../../sl/chapters/gis-spatial-humanities/",
+        "language": "sl"
+      }
+    ],
+    "scheme": "slate",
+    "scrollWidth": 1265,
+    "tables": 3,
+    "title": "GIS and spatial humanities¶",
+    "url": "/chapters/gis-spatial-humanities/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "./",
+        "language": "en"
+      },
+      {
+        "href": "../../sl/chapters/networks-visualization/",
+        "language": "sl"
+      }
+    ],
+    "scheme": "default",
+    "scrollWidth": 1265,
+    "tables": 2,
+    "title": "Networks and visualization¶",
+    "url": "/chapters/networks-visualization/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "./",
+        "language": "en"
+      },
+      {
+        "href": "../../sl/chapters/networks-visualization/",
+        "language": "sl"
+      }
+    ],
+    "scheme": "slate",
+    "scrollWidth": 1265,
+    "tables": 2,
+    "title": "Networks and visualization¶",
+    "url": "/chapters/networks-visualization/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "./",
+        "language": "en"
+      },
+      {
+        "href": "../../../sl/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/",
+        "language": "sl"
+      }
+    ],
+    "scheme": "default",
+    "scrollWidth": 1265,
+    "tables": 0,
+    "title": "How do I model changing names, statuses and boundaries in SQLite?¶",
+    "url": "/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "./",
+        "language": "en"
+      },
+      {
+        "href": "../../../sl/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/",
+        "language": "sl"
+      }
+    ],
+    "scheme": "slate",
+    "scrollWidth": 1265,
+    "tables": 0,
+    "title": "How do I model changing names, statuses and boundaries in SQLite?¶",
+    "url": "/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "./",
+        "language": "en"
+      },
+      {
+        "href": "../../../sl/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/",
+        "language": "sl"
+      }
+    ],
+    "scheme": "default",
+    "scrollWidth": 1265,
+    "tables": 1,
+    "title": "How do I georeference and check a historical map in QGIS?¶",
+    "url": "/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "./",
+        "language": "en"
+      },
+      {
+        "href": "../../../sl/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/",
+        "language": "sl"
+      }
+    ],
+    "scheme": "slate",
+    "scrollWidth": 1265,
+    "tables": 1,
+    "title": "How do I georeference and check a historical map in QGIS?¶",
+    "url": "/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "./",
+        "language": "en"
+      },
+      {
+        "href": "../../../sl/workflows/mapping/model-changing-place-names-and-boundaries/",
+        "language": "sl"
+      }
+    ],
+    "scheme": "default",
+    "scrollWidth": 1265,
+    "tables": 1,
+    "title": "How do I model changing place names and boundaries?¶",
+    "url": "/workflows/mapping/model-changing-place-names-and-boundaries/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "./",
+        "language": "en"
+      },
+      {
+        "href": "../../../sl/workflows/mapping/model-changing-place-names-and-boundaries/",
+        "language": "sl"
+      }
+    ],
+    "scheme": "slate",
+    "scrollWidth": 1265,
+    "tables": 1,
+    "title": "How do I model changing place names and boundaries?¶",
+    "url": "/workflows/mapping/model-changing-place-names-and-boundaries/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "./",
+        "language": "en"
+      },
+      {
+        "href": "../../../sl/workflows/networks/compare-bipartite-and-projected-networks/",
+        "language": "sl"
+      }
+    ],
+    "scheme": "default",
+    "scrollWidth": 1265,
+    "tables": 1,
+    "title": "How do I compare bipartite and projected networks?¶",
+    "url": "/workflows/networks/compare-bipartite-and-projected-networks/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "./",
+        "language": "en"
+      },
+      {
+        "href": "../../../sl/workflows/networks/compare-bipartite-and-projected-networks/",
+        "language": "sl"
+      }
+    ],
+    "scheme": "slate",
+    "scrollWidth": 1265,
+    "tables": 1,
+    "title": "How do I compare bipartite and projected networks?¶",
+    "url": "/workflows/networks/compare-bipartite-and-projected-networks/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "./",
+        "language": "en"
+      },
+      {
+        "href": "../../../sl/workflows/networks/audit-a-network-claim-against-source-records/",
+        "language": "sl"
+      }
+    ],
+    "scheme": "default",
+    "scrollWidth": 1265,
+    "tables": 1,
+    "title": "How do I audit a network claim against source records?¶",
+    "url": "/workflows/networks/audit-a-network-claim-against-source-records/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "./",
+        "language": "en"
+      },
+      {
+        "href": "../../../sl/workflows/networks/audit-a-network-claim-against-source-records/",
+        "language": "sl"
+      }
+    ],
+    "scheme": "slate",
+    "scrollWidth": 1265,
+    "tables": 1,
+    "title": "How do I audit a network claim against source records?¶",
+    "url": "/workflows/networks/audit-a-network-claim-against-source-records/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "../../../chapters/databases-sql/",
+        "language": "en"
+      },
+      {
+        "href": "./",
+        "language": "sl"
+      }
+    ],
+    "scheme": "default",
+    "scrollWidth": 1265,
+    "tables": 2,
+    "title": "Podatkovne zbirke in SQL¶",
+    "url": "/sl/chapters/databases-sql/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "../../../chapters/databases-sql/",
+        "language": "en"
+      },
+      {
+        "href": "./",
+        "language": "sl"
+      }
+    ],
+    "scheme": "slate",
+    "scrollWidth": 1265,
+    "tables": 2,
+    "title": "Podatkovne zbirke in SQL¶",
+    "url": "/sl/chapters/databases-sql/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "../../../chapters/gis-spatial-humanities/",
+        "language": "en"
+      },
+      {
+        "href": "./",
+        "language": "sl"
+      }
+    ],
+    "scheme": "default",
+    "scrollWidth": 1265,
+    "tables": 3,
+    "title": "GIS in prostorska humanistika¶",
+    "url": "/sl/chapters/gis-spatial-humanities/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "../../../chapters/gis-spatial-humanities/",
+        "language": "en"
+      },
+      {
+        "href": "./",
+        "language": "sl"
+      }
+    ],
+    "scheme": "slate",
+    "scrollWidth": 1265,
+    "tables": 3,
+    "title": "GIS in prostorska humanistika¶",
+    "url": "/sl/chapters/gis-spatial-humanities/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "../../../chapters/networks-visualization/",
+        "language": "en"
+      },
+      {
+        "href": "./",
+        "language": "sl"
+      }
+    ],
+    "scheme": "default",
+    "scrollWidth": 1265,
+    "tables": 2,
+    "title": "Omrežja in vizualizacija¶",
+    "url": "/sl/chapters/networks-visualization/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "../../../chapters/networks-visualization/",
+        "language": "en"
+      },
+      {
+        "href": "./",
+        "language": "sl"
+      }
+    ],
+    "scheme": "slate",
+    "scrollWidth": 1265,
+    "tables": 2,
+    "title": "Omrežja in vizualizacija¶",
+    "url": "/sl/chapters/networks-visualization/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "../../../../workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/",
+        "language": "en"
+      },
+      {
+        "href": "./",
+        "language": "sl"
+      }
+    ],
+    "scheme": "default",
+    "scrollWidth": 1265,
+    "tables": 0,
+    "title": "Kako modeliram spreminjajoča se imena, statuse in meje v SQLite?¶",
+    "url": "/sl/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "../../../../workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/",
+        "language": "en"
+      },
+      {
+        "href": "./",
+        "language": "sl"
+      }
+    ],
+    "scheme": "slate",
+    "scrollWidth": 1265,
+    "tables": 0,
+    "title": "Kako modeliram spreminjajoča se imena, statuse in meje v SQLite?¶",
+    "url": "/sl/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "../../../../workflows/mapping/georeference-and-check-a-historical-map-in-qgis/",
+        "language": "en"
+      },
+      {
+        "href": "./",
+        "language": "sl"
+      }
+    ],
+    "scheme": "default",
+    "scrollWidth": 1265,
+    "tables": 1,
+    "title": "Kako georeferenciram in preverim zgodovinski zemljevid v QGIS?¶",
+    "url": "/sl/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "../../../../workflows/mapping/georeference-and-check-a-historical-map-in-qgis/",
+        "language": "en"
+      },
+      {
+        "href": "./",
+        "language": "sl"
+      }
+    ],
+    "scheme": "slate",
+    "scrollWidth": 1265,
+    "tables": 1,
+    "title": "Kako georeferenciram in preverim zgodovinski zemljevid v QGIS?¶",
+    "url": "/sl/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "../../../../workflows/mapping/model-changing-place-names-and-boundaries/",
+        "language": "en"
+      },
+      {
+        "href": "./",
+        "language": "sl"
+      }
+    ],
+    "scheme": "default",
+    "scrollWidth": 1265,
+    "tables": 1,
+    "title": "Kako modeliram spreminjajoča se krajevna imena in meje?¶",
+    "url": "/sl/workflows/mapping/model-changing-place-names-and-boundaries/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "../../../../workflows/mapping/model-changing-place-names-and-boundaries/",
+        "language": "en"
+      },
+      {
+        "href": "./",
+        "language": "sl"
+      }
+    ],
+    "scheme": "slate",
+    "scrollWidth": 1265,
+    "tables": 1,
+    "title": "Kako modeliram spreminjajoča se krajevna imena in meje?¶",
+    "url": "/sl/workflows/mapping/model-changing-place-names-and-boundaries/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "../../../../workflows/networks/compare-bipartite-and-projected-networks/",
+        "language": "en"
+      },
+      {
+        "href": "./",
+        "language": "sl"
+      }
+    ],
+    "scheme": "default",
+    "scrollWidth": 1265,
+    "tables": 1,
+    "title": "Kako primerjam dvodelna in projicirana omrežja?¶",
+    "url": "/sl/workflows/networks/compare-bipartite-and-projected-networks/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "../../../../workflows/networks/compare-bipartite-and-projected-networks/",
+        "language": "en"
+      },
+      {
+        "href": "./",
+        "language": "sl"
+      }
+    ],
+    "scheme": "slate",
+    "scrollWidth": 1265,
+    "tables": 1,
+    "title": "Kako primerjam dvodelna in projicirana omrežja?¶",
+    "url": "/sl/workflows/networks/compare-bipartite-and-projected-networks/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "../../../../workflows/networks/audit-a-network-claim-against-source-records/",
+        "language": "en"
+      },
+      {
+        "href": "./",
+        "language": "sl"
+      }
+    ],
+    "scheme": "default",
+    "scrollWidth": 1265,
+    "tables": 1,
+    "title": "Kako preverim omrežno trditev ob izvornih zapisih?¶",
+    "url": "/sl/workflows/networks/audit-a-network-claim-against-source-records/",
+    "width": 1280
+  },
+  {
+    "brokenAnchors": [],
+    "clientWidth": 1265,
+    "languageLinks": [
+      {
+        "href": "../../../../workflows/networks/audit-a-network-claim-against-source-records/",
+        "language": "en"
+      },
+      {
+        "href": "./",
+        "language": "sl"
+      }
+    ],
+    "scheme": "slate",
+    "scrollWidth": 1265,
+    "tables": 1,
+    "title": "Kako preverim omrežno trditev ob izvornih zapisih?¶",
+    "url": "/sl/workflows/networks/audit-a-network-claim-against-source-records/",
+    "width": 1280
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 753,
+    "url": "/chapters/databases-sql/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 753,
+    "url": "/chapters/databases-sql/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 753,
+    "url": "/chapters/gis-spatial-humanities/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 753,
+    "url": "/chapters/gis-spatial-humanities/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 753,
+    "url": "/chapters/networks-visualization/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 753,
+    "url": "/chapters/networks-visualization/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 753,
+    "url": "/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 753,
+    "url": "/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 753,
+    "url": "/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 753,
+    "url": "/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 753,
+    "url": "/workflows/mapping/model-changing-place-names-and-boundaries/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 753,
+    "url": "/workflows/mapping/model-changing-place-names-and-boundaries/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 753,
+    "url": "/workflows/networks/compare-bipartite-and-projected-networks/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 753,
+    "url": "/workflows/networks/compare-bipartite-and-projected-networks/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 753,
+    "url": "/workflows/networks/audit-a-network-claim-against-source-records/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 753,
+    "url": "/workflows/networks/audit-a-network-claim-against-source-records/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 753,
+    "url": "/sl/chapters/databases-sql/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 753,
+    "url": "/sl/chapters/databases-sql/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 753,
+    "url": "/sl/chapters/gis-spatial-humanities/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 753,
+    "url": "/sl/chapters/gis-spatial-humanities/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 753,
+    "url": "/sl/chapters/networks-visualization/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 753,
+    "url": "/sl/chapters/networks-visualization/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 753,
+    "url": "/sl/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 753,
+    "url": "/sl/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 753,
+    "url": "/sl/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 753,
+    "url": "/sl/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 753,
+    "url": "/sl/workflows/mapping/model-changing-place-names-and-boundaries/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 753,
+    "url": "/sl/workflows/mapping/model-changing-place-names-and-boundaries/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 753,
+    "url": "/sl/workflows/networks/compare-bipartite-and-projected-networks/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 753,
+    "url": "/sl/workflows/networks/compare-bipartite-and-projected-networks/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 753,
+    "url": "/sl/workflows/networks/audit-a-network-claim-against-source-records/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 753,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 753,
+    "url": "/sl/workflows/networks/audit-a-network-claim-against-source-records/",
+    "width": 768
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 345,
+    "url": "/chapters/databases-sql/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 345,
+    "url": "/chapters/databases-sql/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 345,
+    "url": "/chapters/gis-spatial-humanities/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 345,
+    "url": "/chapters/gis-spatial-humanities/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 345,
+    "url": "/chapters/networks-visualization/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 345,
+    "url": "/chapters/networks-visualization/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 345,
+    "url": "/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 345,
+    "url": "/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 345,
+    "url": "/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 345,
+    "url": "/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 345,
+    "url": "/workflows/mapping/model-changing-place-names-and-boundaries/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 345,
+    "url": "/workflows/mapping/model-changing-place-names-and-boundaries/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 345,
+    "url": "/workflows/networks/compare-bipartite-and-projected-networks/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 345,
+    "url": "/workflows/networks/compare-bipartite-and-projected-networks/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 345,
+    "url": "/workflows/networks/audit-a-network-claim-against-source-records/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 345,
+    "url": "/workflows/networks/audit-a-network-claim-against-source-records/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 345,
+    "url": "/sl/chapters/databases-sql/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 345,
+    "url": "/sl/chapters/databases-sql/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 345,
+    "url": "/sl/chapters/gis-spatial-humanities/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 345,
+    "url": "/sl/chapters/gis-spatial-humanities/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 345,
+    "url": "/sl/chapters/networks-visualization/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 345,
+    "url": "/sl/chapters/networks-visualization/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 345,
+    "url": "/sl/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 345,
+    "url": "/sl/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 345,
+    "url": "/sl/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 345,
+    "url": "/sl/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 345,
+    "url": "/sl/workflows/mapping/model-changing-place-names-and-boundaries/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 345,
+    "url": "/sl/workflows/mapping/model-changing-place-names-and-boundaries/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 345,
+    "url": "/sl/workflows/networks/compare-bipartite-and-projected-networks/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 345,
+    "url": "/sl/workflows/networks/compare-bipartite-and-projected-networks/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "default",
+    "scrollWidth": 345,
+    "url": "/sl/workflows/networks/audit-a-network-claim-against-source-records/",
+    "width": 360
+  },
+  {
+    "actionsInContent": true,
+    "brokenAnchors": [],
+    "clientWidth": 345,
+    "languageLinks": 2,
+    "scheme": "slate",
+    "scrollWidth": 345,
+    "url": "/sl/workflows/networks/audit-a-network-claim-against-source-records/",
+    "width": 360
+  }
+]

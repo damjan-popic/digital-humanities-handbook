@@ -1,0 +1,5 @@
+mention_id,source_id,source_form,place_id,review_status,confidence,evidence,synthetic,boundary_id,centre_membership,possible_memberships,valid_start,valid_end,dated_names,name_source
+SYN-M1,SYN-D2,St. Peter,SYN-L1,unresolved,possible,Workplace description insufficient to select candidate 1,true,SYN-B1910,SYN-EAST,SYN-W|SYN-EAST,1910-01-01,1920-01-01,de: St. Peter | sl: Šent Peter,SYN-NAMES
+SYN-M1,SYN-D2,St. Peter,SYN-L2,unresolved,possible,Workplace description insufficient to select candidate 2,true,SYN-B1910,SYN-EAST,SYN-EAST,1910-01-01,1920-01-01,de: St. Peter | sl: Sveti Peter,SYN-NAMES
+SYN-M1,SYN-D2,St. Peter,SYN-L1,unresolved,possible,Workplace description insufficient to select candidate 1,true,SYN-B1925,SYN-W,SYN-W|SYN-EAST,1920-01-01,1930-01-01,de: St. Peter | sl: Šentpeter,SYN-NAMES
+SYN-M1,SYN-D2,St. Peter,SYN-L2,unresolved,possible,Workplace description insufficient to select candidate 2,true,SYN-B1925,SYN-EAST,SYN-EAST,1920-01-01,1930-01-01,de: St. Peter | sl: Sveti Peter,SYN-NAMES

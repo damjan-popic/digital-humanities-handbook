@@ -1,0 +1,64 @@
+$ PATH="$PWD/.venv/bin:$PATH" make check
+$ .venv/bin/python teaching-data/contested-models/prepare_georeferencing.py --check
+$ git diff --check
+
+python scripts/build_workflow_index.py
+Wrote docs/en/workflows/index.md with 85 workflows
+Wrote docs/sl/workflows/index.md with 39 workflows
+python scripts/check_translation_coverage.py --output release/translation-coverage.md
+Translation coverage: 81/155 pages (52.3%).
+Fallback pages: 74; Slovene-only pages: 0.
+Wrote release/translation-coverage.md
+python scripts/build_review_manuscripts.py
+Wrote release/review-manuscript-en.md
+Wrote release/review-manuscript-sl.md
+python scripts/check_handbook.py
+OK: bilingual stable core has 16 paired chapters in canonical navigation/manuscript order and 2 paired 14-module learning paths.
+python scripts/check_technical_foundations.py
+OK: paired bilingual technical route has 2 hubs, 6 paired foundation workflows, 6 paired curated Python workflows, one unnumbered readiness clinic in each 14-module path, deterministic category IDs, valid hub links, and curated ecosystem mappings.
+python scripts/check_scholarly_work_foundations.py
+OK: paired scholarly-work route has 2 hubs, 9 paired workflows, localized stable categories, two aligned 14-module low-threshold paths, curated ecosystem mappings, and a complete stable sample ZIP.
+python scripts/check_scholarly_work_samples.py
+OK: 25 source/generated sample files match the checked manifest and deterministic ZIP byte-for-byte; the package digest and required DOCX, ODT and XLSX structures are valid.
+python scripts/build_archival_friction_packet.py --repo-root . --check
+Archival-friction packet, deterministic ZIP, and digest are reproducible and current.
+python scripts/check_archival_friction.py
+OK: archival-friction packet has 1 authentic two-page object, 8 handbook reference observations (1 issue + 7 features), 4 declared synthetic perturbations, 9 source-grounded editorial decisions, 2 field-specific open cases, a complete OCR S/D/I audit, paired packet documentation, a byte-checked deterministic ZIP, 3 paired workflows, 6 formal-review chapters, and curated ecosystem links.
+Chapter word counts (minimum 2000; no hard maximum): en/chapters/data-metadata-models.md=3173, en/chapters/research-design.md=2881, en/chapters/texts-corpora-ocr.md=3251, sl/chapters/data-metadata-models.md=3128, sl/chapters/research-design.md=2752, sl/chapters/texts-corpora-ocr.md=3254
+python scripts/build_contested_models_packet.py --check
+{"database_current_assertions": 12, "authentic_issue_edges": 6, "graph_edges": {"bipartite": 18, "projection_t1": 15, "projection_t2": 7, "projection_t3": 2, "without_press_list": 7, "fractional_ge_1": 3, "correspondence": 3, "correspondence_certain": 2, "missing_D6": 6}, "fit_rmse_m": 15.231, "independent_check_rmse_m": 220.063}
+OK: verified 8 artifacts; 43 deterministic archive members.
+python scripts/check_contested_models.py
+Word counts (visible prose/table tokens, excluding references/metadata/fenced code):
+  en/databases-sql: 2632
+  sl/databases-sql: 2561
+  en/gis-spatial-humanities: 2603
+  sl/gis-spatial-humanities: 2532
+  en/networks-visualization: 2655
+  sl/networks-visualization: 2519
+{"database_current_assertions": 12, "authentic_issue_edges": 6, "graph_edges": {"bipartite": 18, "projection_t1": 15, "projection_t2": 7, "projection_t3": 2, "without_press_list": 7, "fractional_ge_1": 3, "correspondence": 3, "correspondence_certain": 2, "missing_D6": 6}, "fit_rmse_m": 15.231, "independent_check_rmse_m": 220.063}
+OK: 6 chapters, 10 workflows; paired prose/code/references; SQL negative and temporal tests; graph/affine benchmarks; source provenance; standalone ZIP and query checks.
+python scripts/check_intertextuality.py
+OK: connected 16 chapters, 85 workflows, and 11 case studies through one validated ecosystem map.
+python scripts/check_review_ecosystem.py
+OK: both review manuscripts include the ecosystem overview and 16 chapter connection blocks.
+python scripts/check_answers.py
+OK: checked 124 workflow pages in English and Slovene.
+python scripts/check_projects.py
+OK: checked 11 case-study pages.
+mkdocs build --strict
+INFO    -  mkdocs_static_i18n: Building 'en' documentation to directory: /home/damjan/projects/digital-humanities-handbook/site
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /home/damjan/projects/digital-humanities-handbook/site
+INFO    -  mkdocs_static_i18n: Building 'sl' documentation to directory: /home/damjan/projects/digital-humanities-handbook/site/sl
+INFO    -  mkdocs_static_i18n: Language 'sl' is not supported by lunr.js, not setting it in the 'plugins.search.lang' option
+INFO    -  mkdocs_static_i18n: Overriding 'sl' config 'copyright' with 'Odprti učni vir. Besedila: CC BY 4.0. Koda: MIT.'
+INFO    -  mkdocs_static_i18n: Overriding 'sl' config 'nav' with '[{'Domov': 'index.md'}, {'Priročnik': [{'Uvod': [{'Kako uporabljati priročnik': 'chapters/index.md'}]}, {'I. del — Zgodovine, teorije in konteksti': [{'Kaj je digitalna humanistika?': 'chapters/what-is-digital-humanities.md'}, {'Zgodovine in genealogije digitalne humanistike': 'chapters/history-of-digital-humanities.md'}, {'Modeli, dokazno gradivo in interpretacija': 'chapters/models-evidence-interpretation.md'}, {'Infrastrukture digitalne humanistike: moč, dostop in vzdrževanje': 'chapters/critical-infrastructures.md'}, {'Digitalna humanistika v Sloveniji: infrastrukture, jeziki in skupnosti': 'chapters/digital-humanities-in-slovenia.md'}]}, {'II. del — Raziskovalna zasnova in viri': [{'Od vprašanja do metode': 'chapters/research-design.md'}, {'Podatki, metapodatki in modeli': 'chapters/data-metadata-models.md'}, {'Besedila, korpusi in OCR': 'chapters/texts-corpora-ocr.md'}]}, {'III. del — Analitične metode': [{'Jezikoslovna anotacija in CLASSLA': 'chapters/linguistic-annotation-classla.md'}, {'Analiza besedil': 'chapters/text-analysis.md'}, {'Teme, sentiment in čustva': 'chapters/topics-emotions-classification.md'}, {'Podatkovne zbirke in SQL': 'chapters/databases-sql.md'}, {'GIS in prostorska humanistika': 'chapters/gis-spatial-humanities.md'}, {'Omrežja in vizualizacija': 'chapters/networks-visualization.md'}]}, {'IV. del — Odgovorno raziskovanje in objavljanje': [{'UI, etika in ponovljivost': 'chapters/ai-ethics-reproducibility.md'}, {'Živi odprti priročnik': 'chapters/open-living-handbook.md'}]}]}, {'Ekosistem': 'ecosystem.md'}, {'Osnove': [{'Tehnično delovno okolje: terminal, WSL, Bash, Git in Python': 'foundations/technical-workspace.md'}, {'Znanstveno delo: pisanje, viri, dokumenti in preglednice': 'foundations/scholarly-work.md'}]}, {'Učne poti': [{'Pregled': 'learning-paths/index.md'}, {'Pismenost za informacijsko družbo': 'learning-paths/pismenost-za-informacijsko-druzbo.md'}, {'Digitalna slovenistika': 'learning-paths/digitalna-slovenistika.md'}]}, {'Praktični postopki': 'workflows/index.md'}, {'Študije primerov': 'case-studies/index.md'}, {'Viri': [{'Slovar': 'resources/glossary.md'}, {'Orodja': 'resources/tools.md'}, {'Etični kontrolni seznam': 'resources/ethics-checklist.md'}]}, {'Prispevajte': 'contribute/index.md'}, {'O projektu': 'about.md'}]'
+INFO    -  mkdocs_static_i18n: Overriding 'sl' config 'site_description' with 'Odprti, dvojezični in verzionirani priročnik za metode digitalne humanistike.'
+INFO    -  mkdocs_static_i18n: Overriding 'sl' config 'site_name' with 'Priročnik za digitalno humanistiko'
+INFO    -  Documentation built in 2.58 seconds
+python scripts/check_rendered_ecosystem.py
+OK: rendered ecosystem overview, chapter, workflow, and case-study pages contain reciprocal links; the Slovene overview exposes fallback labels.
+OK: cached EPSG:3794 coordinates match pyproj transformation.
+exit-status: 0
+# git diff --check produced no output.

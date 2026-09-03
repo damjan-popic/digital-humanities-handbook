@@ -120,9 +120,9 @@ The handbook is not four separate shelves. Chapters provide concepts and argumen
 | [Linguistic annotation and CLASSLA](https://damjan-popic.github.io/digital-humanities-handbook/chapters/linguistic-annotation-classla/) | [How do I evaluate OCR or HTR against a reference sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[How do I install and test CLASSLA with Python 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-and-test-classla/)<br>[How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)<br>[How do I export CLASSLA results to CSV?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/export-classla-results-to-csv/) | [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/) |
 | [Text analysis](https://damjan-popic.github.io/digital-humanities-handbook/chapters/text-analysis/) | [How do I query a corpus with CQPweb?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/query-a-corpus-with-cqpweb/)<br>[How do I compare style with function words?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-style-with-function-words/)<br>[How do I make a dispersion plot in LancsBox?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/make-a-dispersion-plot-in-lancsbox/)<br>[How do I visualise a frequency list with Voyant?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-a-frequency-list-with-voyant/) | [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
 | [Topics, sentiment and emotion](https://damjan-popic.github.io/digital-humanities-handbook/chapters/topics-emotions-classification/) | [How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[How do I explore recurring themes with NMF?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/explore-topics-with-nmf/)<br>[How do I create a sentence-similarity heat map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/create-a-sentence-similarity-heat-map/) | [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/createai/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
-| [Databases and SQL](https://damjan-popic.github.io/digital-humanities-handbook/chapters/databases-sql/) | [How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
-| [GIS and spatial humanities](https://damjan-popic.github.io/digital-humanities-handbook/chapters/gis-spatial-humanities/) | [How do I map places mentioned in a text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/map-places-mentioned-in-a-text/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/build-a-simple-cultural-heritage-map/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
-| [Networks and visualization](https://damjan-popic.github.io/digital-humanities-handbook/chapters/networks-visualization/) | [How do I summarize data with PivotTables and transparent charts?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts/)<br>[How do I build a source-linked co-occurrence network?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/build-a-cooccurrence-network/)<br>[How do I build a collocation graph from AntConc to Cytoscape?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
+| [Databases and SQL](https://damjan-popic.github.io/digital-humanities-handbook/chapters/databases-sql/) | [How do I model changing names, statuses and boundaries in SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/)<br>[How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
+| [GIS and spatial humanities](https://damjan-popic.github.io/digital-humanities-handbook/chapters/gis-spatial-humanities/) | [How do I georeference and check a historical map in QGIS?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/)<br>[How do I model changing place names and boundaries?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/model-changing-place-names-and-boundaries/)<br>[How do I map places mentioned in a text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/map-places-mentioned-in-a-text/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/build-a-simple-cultural-heritage-map/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
+| [Networks and visualization](https://damjan-popic.github.io/digital-humanities-handbook/chapters/networks-visualization/) | [How do I compare bipartite and projected networks?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/compare-bipartite-and-projected-networks/)<br>[How do I audit a network claim against source records?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/audit-a-network-claim-against-source-records/)<br>[How do I summarize data with PivotTables and transparent charts?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts/)<br>[How do I build a source-linked co-occurrence network?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/build-a-cooccurrence-network/)<br>[How do I build a collocation graph from AntConc to Cytoscape?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
 | [AI, ethics and reproducibility](https://damjan-popic.github.io/digital-humanities-handbook/chapters/ai-ethics-reproducibility/) | [How do I revise claims, evidence, and paragraphs?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs/)<br>[How do I audit AI output against source documents?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ai/audit-ai-output-against-source-documents/)<br>[How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ethics/decide-whether-a-digitised-source-should-be-public/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/)<br>[How do I install Python packages with pip?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-python-packages-with-pip/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/)<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/)<br>[User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/createai/)<br>[Slovenian comma-checking Word add-in](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/vejice-add-in/) |
 | [The living open handbook](https://damjan-popic.github.io/digital-humanities-handbook/chapters/open-living-handbook/) | [How do I choose, apply, and audit a citation style?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/reference-management/choose-apply-and-audit-a-citation-style/)<br>[How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I version-control a termbase with Git?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/terminology/version-control-a-termbase-with-git/)<br>[How do I track a small project with Git?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/foundations/track-a-small-project-with-git/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/)<br>[Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/) |
 
@@ -2713,134 +2713,308 @@ Classification and topic analysis can organize large text collections, but label
 
 After this chapter, you should be able to:
 
-- distinguish a spreadsheet from a relational database;
-- identify entities, attributes, relationships, keys and cardinalities;
-- design a normalized schema for a small humanities project;
-- write basic SQL queries that filter, join, group and count records;
-- represent uncertainty, provenance and changing interpretations explicitly.
+- distinguish entities, attributes, relations, observations, assertions and events;
+- compare a flat table, a normalized schema and a source-qualified assertion model;
+- represent changing names, statuses, language relations and territorial membership;
+- separate historical validity from the time an editor records or corrects a claim;
+- run and audit date-sensitive SQL, including disagreement and missing evidence;
+- explain what constraints, normalization and exports cannot guarantee.
 
 ## Before you begin
 
-Imagine a table with columns `author_1`, `author_2`, `author_3`, `place_1`, `place_2` and several cells containing comma-separated names. It may look convenient, but how would you reliably ask which authors published in the same place, or correct one person's name everywhere? The structure determines which questions remain possible.
+Can a person change country without moving, use two languages without having one
+timeless “language”, or be called a servant and a seamstress by different sources?
+A database that stores only `person.status`, `person.language` and `place.country`
+may answer confidently because it has already removed the distinctions needed
+to ask the question. Before opening software, write one query you want to answer
+and one distinction you refuse to lose.
 
-A schema is a model of selected entities and relationships, not a neutral container. [Models, evidence and interpretation](models-evidence-interpretation.md) helps expose those choices; [Infrastructures of digital humanities](critical-infrastructures.md) helps when database access, identifiers or maintenance depend on an external service.
+You need familiarity with rows, columns and source citation; basic SQL helps but
+is not required for the conceptual comparison. Begin with [Models, evidence and
+interpretation](models-evidence-interpretation.md). The practical prerequisite is
+being able to preserve an input file and run a supplied Python script. No server,
+paid service or personal data is needed for the example.
 
 ## A database is an argument about the world
 
-A database does more than store facts. Its schema states what kinds of things exist in the project and how they relate. For a literary history project, we might model people, works, editions, publishers, places and events. Choosing *work* and *edition* as separate entities is already an interpretive decision.
+A schema establishes what counts as a thing, which distinctions are repeatable,
+and which relationships can be queried. Codd's relational model separates logical
+data organization from physical storage and addresses redundancy and consistency;
+it does not decide what a historical person, community or event is. Those remain
+research decisions. [Codd 1970](https://doi.org/10.1145/362384.362685) provides the
+technical foundation, not a warrant to treat a successful query as historical proof.
 
-Relational modelling asks:
+Consider the authentic [archival-friction packet](../../assets/downloads/archival-friction-v1.zip).
+Its reference observation `AF-P1-003` transcribes the printed label “Dr. Ante
+Trumbić”. This is initially an observation about a caption in a particular issue,
+not an independently established biography. `AF-P2-003` retains “Mr. Meker” while
+rejecting an attempted authority match. A database must allow that rejection to
+remain visible without pretending that the printed person has vanished.
 
-- What is one identifiable thing?
-- Which properties belong to it?
-- Can one thing have many values of this property?
-- Which relationships connect entities?
-- What evidence supports each assertion?
+Source-oriented prosopography offers a useful precedent: make the relationship
+between a source, a person and an assertion an object of study. Bradley and
+Short's discussion supports distinguishing the historian's structured work from
+the historical world it describes. Our teaching schema adopts that distinction;
+it does not claim to implement a complete prosopographical ontology.
+[Bradley and Short 2005](https://doi.org/10.1093/llc/fqi022).
 
-The schema should follow research needs while remaining explicit enough to revise.
+## Entities, relationships and the level of a claim
 
-## Tables, rows, columns and keys
+An **entity** has a project identity: a person, document, place or institution.
+An **attribute** describes a record within a declared scope. A **relation** joins
+entities, such as a person participating in a document. An **observation** records
+what a researcher inspected. An **assertion** says something about an entity and
+identifies its evidential basis. An **event** models an occurrence with participants,
+roles and time. These are different choices, not increasingly truthful containers.
 
-A relational database stores records in tables:
+For example, a letter is a document; sending it is an event; its addressed name
+is an observation; identifying the addressee is an assertion. A letter may survive
+without proof that it was delivered. A sender–recipient edge therefore need not
+mean successful communication. Keeping an event table makes such distinctions
+possible, though it also demands decisions about what counts as one event.
 
-- a **row** represents one record;
-- a **column** represents one defined attribute;
-- a **primary key** uniquely identifies a row;
-- a **foreign key** refers to a row in another table.
+A primary key identifies a row; a foreign key points to another row. Names make
+poor keys because spelling, language and identification change. A many-to-many
+relation needs a **junction table**: `participation(document_id, person_id, role)`
+allows many people in one document and one person in many documents. A role can
+carry its own evidence. A group portrait is not a single unidentified person,
+and an institution should not be silently stored as a person to simplify a join.
 
-Use stable internal identifiers rather than names as keys. Names change, collide and vary in spelling. `person_id = 1042` can remain stable while the database stores several name forms and their sources.
+## Worked example: one dossier, three models
 
-## Relationships and cardinality
+The [contested-models companion](../../assets/downloads/contested-models-v1.zip)
+contains a deliberately **synthetic** longitudinal dossier. Its Ana Kovač / Anna
+Kovatsch (`SYN-A`) is fictional, not a person identified in the newspaper. The
+authentic packet remains unchanged; the companion tests difficulties that one
+newspaper issue cannot itself document. Read the bilingual dossier before its
+tables. Source-readable test records are essential: otherwise validating a query
+against another generated table merely repeats the same assumptions.
 
-Common relationships include:
+In invented document D1, an administrative list uses Anna Kovatsch and classifies
+A as a servant. In D2, a Slovene letter signed Ana Kovač, she calls herself a
+seamstress and claims to read German. A later association note describes an
+independent craft worker; a 1925 application records German use. Her stipulated
+fixed residence changes district when a synthetic boundary moves. These are
+test conditions, not reconstructed Slovenian administrative history.
 
-- one-to-many: one newspaper has many issues;
-- many-to-many: many people contribute to many works;
-- one-to-one: rare and often a sign that two tables could be combined.
+### Model 1: the convenient flat spreadsheet
 
-A many-to-many relationship needs a junction table. Instead of columns `author_1`, `author_2` and `author_3`, use a `contribution` table with `person_id`, `work_id`, role, order and evidence. The relationship itself can then carry historically meaningful information.
+| Person | Name | Status | Language | District |
+| --- | --- | --- | --- | --- |
+| SYN-A | Ana Kovač | seamstress | Slovene | West |
 
-## Normalization without dogma
+This is a clean display row for a narrowly declared purpose, but a dangerous
+master record. It hides the earlier name form, the administrative category, the
+German application and the period of district membership. Replacing each cell
+with comma-separated values restores some wording without restoring the relations:
+which language was used when, and who assigned which status?
 
-Normalization reduces duplication and contradictory updates. A useful basic rule is: one cell, one value; one table, one kind of entity; each fact stored in the place where it belongs.
+The flat model enables quick sorting and a readable handout. It obscures change
+and makes source-level disagreement expensive: the analyst must reread notes
+for every count. A table is not inadequate because it is a spreadsheet; it is
+inadequate when its row definition cannot express the research question.
 
-Do not repeat a publisher address in every edition row. Store the publisher once and link editions to it. Do not store a person's birth year both in the person table and every authorship record.
+### Model 2: normalized entities and relationships
 
-Yet humanities data are not always tidy. An uncertain date such as “between 1848 and 1851” should not be forced into one exact year. Model earliest date, latest date, display text and certainty separately, or create a date assertion table with evidence.
+Separate people, names, places, documents and participation. Store a name variant
+once per attestation or naming context and link it to its person and source.
+This removes repeated person columns and supports finding every document linked
+to A. A normalized design can also be temporal: normalization does not prohibit
+dates or conflicting statements. The limitation here is a deliberately simple
+entity/relationship design that still treats relationships as unqualified facts.
 
-## Provenance and assertions
-
-A value may be quoted from an archive, inferred by an editor, imported from Wikidata or proposed by a student. Store provenance at the level required by the claim.
-
-For contested information, model **assertions** rather than overwriting one value:
-
-| assertion_id | subject | property | value | source | certainty | contributor |
-|---:|---|---|---|---|---|---|
-| 81 | person_1042 | birth_place | place_17 | archive_A_52 | probable | dp |
-
-This makes disagreement queryable and preserves the history of editorial decisions.
-
-## SQL as a research language
-
-Structured Query Language expresses questions about tables. A few core patterns go far:
-
-```sql
-SELECT title, year
-FROM work
-WHERE year BETWEEN 1900 AND 1918
-ORDER BY year;
+```text
+person 1 -- many name_attestation many -- 1 document
+person 1 -- many participation    many -- 1 document
+person 1 -- many residence        many -- 1 place
 ```
 
-A join follows relationships:
+This representation helps maintain identifiers and avoid inconsistent updates.
+It does not, by itself, distinguish an editor's identification from a source's
+self-description. Adding provenance only to a whole document is insufficient
+when two claims in that document receive different editorial assessments.
 
-```sql
-SELECT p.preferred_name, COUNT(*) AS works
-FROM person AS p
-JOIN contribution AS c ON c.person_id = p.person_id
-WHERE c.role = 'author'
-GROUP BY p.person_id
-ORDER BY works DESC;
+### Model 3: assertions and events
+
+The executable schema separates `entity`, `source` and `assertion`. Each assertion
+has a subject, predicate, text value or entity object, context, historical interval,
+interval kind, record timestamp, source wording and confidence. The separate
+participation table supplies document roles for later event-oriented graphs.
+
+```text
+entity 1 -- many assertion many -- 1 source
+entity 1 -- many assertion.object_id       (entity-valued claims)
+assertion 1 -- many assertion.supersedes  (editorial revision)
 ```
 
-Queries should be saved as project files, not reconstructed manually for each publication. A query is part of the analytical method.
+| Model | Enables | Obscures or makes expensive |
+| --- | --- | --- |
+| Flat display | Readable snapshot; simple sorting | Temporal and source-specific joins |
+| Normalized entity/relationship | Reusable identities; many-to-many queries | Disagreement if relations remain unqualified |
+| Qualified assertion/event | Date-specific evidence and editorial snapshots | More joins; interpretation and vocabulary maintenance |
 
-## Integrity and validation
+The third model preserves more distinctions, but loses the document's layout,
+tone and sequence unless linked back to facsimiles and prose. Its generic predicate
+column also makes some type rules harder to enforce than separate, specialized
+tables would. Choose that cost knowingly; an assertion table is not a universal
+substitute for careful domain modelling.
 
-Databases can enforce useful constraints:
+## Names, status and language are contextual relations
 
-- keys must be unique;
-- required fields cannot be empty;
-- foreign keys must point to existing records;
-- categories can be restricted to controlled values;
-- dates or numerical ranges can be checked.
+Keep a **multilingual name variant** with its source form, language when known,
+script, context and date of attestation. An administrative spelling need not
+replace a signature. A preferred display name is an editorial policy for an
+interface or edition, not a timeless property of the person. Preserve search
+normalization separately: removing diacritics may find candidates but cannot
+authorize a merge or silently rewrite a quotation.
 
-Constraints prevent accidental inconsistency, but they cannot decide whether the underlying historical claim is correct. Validation also requires source review, duplicate detection, authority control and documented editorial policy.
+Social, legal and institutional status require different predicates or a declared
+vocabulary. Occupation, citizenship, membership and an institution's eligibility
+category are not interchangeable. In the dossier, “servant” and “seamstress”
+overlap in 1910. This may be simultaneous employment, self-presentation or a
+difference between classification systems. The database reports the difference;
+it cannot adjudicate it. “Certain” means the synthetic document clearly asserts
+the label, not that the label exhaustively describes its subject.
 
-## SQLite for small humanities projects
+Likewise separate **language knowledge**, **language use** and **language assigned
+by an institution**. A German category in a register, a Slovene letter and a claim
+to read German can coexist. None establishes mother tongue, national identity
+or exclusive proficiency. An application may have been translated or written by
+an intermediary; document language alone need not establish personal authorship.
+The dossier stipulates use to test the distinction, whereas a real project would
+need evidence about the production of each document.
 
-SQLite stores a complete relational database in one portable file and supports standard SQL without a server. It is an excellent step beyond spreadsheets for teaching, prototypes and many research datasets.
+Role vocabularies also change. “Member”, “deputy” or “independent worker” may have
+different admission rules across periods and institutions. Retain source wording
+and version the mapping to analytical categories. A crosswalk can mark partial
+equivalence or no equivalent. Do not force every historical label into the nearest
+modern occupation just to produce a complete bar chart.
 
-Keep alongside it:
+## Historical time and the time of recording
 
-- a schema file that can recreate the database;
-- import scripts or documented procedures;
-- controlled vocabularies;
-- data dictionaries and field definitions;
-- saved analytical queries;
-- versioned exports in open formats such as CSV.
+**Valid time** concerns the period a claim describes. **Record/transaction time**
+concerns when it entered or changed in the database. A modern correction to a
+1910 name changes the editorial record, not the person's historical name on
+the correction date. This introductory distinction follows the temporal-database
+tradition described by [Snodgrass and Ahn 1986](https://doi.org/10.1109/MC.1986.1663327).
 
-The database file is convenient; the documented process is what makes it reproducible.
+The companion uses half-open intervals `[start,end)`: 1910 is represented by
+`1910-01-01` through `1911-01-01`, excluding the latter. This avoids counting
+the boundary day in two adjacent periods. Its ISO dates are Gregorian teaching
+conventions. Real projects must record calendars, conversion rules and original
+date expressions rather than assuming every source used the same calendar.
 
-## Worked example: correspondence network
+An **event window** is not a duration. “Sometime in February” means one event
+within a range; “employed throughout February” describes a state over that range.
+Selecting a day inside the first interval finds a possibly relevant event, not
+proof it occurred that day. Approximate expressions need a declared rule and
+retained wording. Unknown endpoints should not be replaced by fabricated early
+or late dates. The executable fixture deliberately uses bounded intervals;
+a production schema needs explicit handling for open, unknown and contested bounds.
 
-To study correspondence, create tables for persons, letters, places and participation. A letter has a date, repository identifier and perhaps uncertainty. A participation table links a person to a letter with a role such as sender, recipient, mentioned person or editor. A place link can specify origin, destination or place mentioned.
+For editorial change, insert a new assertion linked by `supersedes`. The sample
+retains both the mistaken Ana Kovać and its corrected transcription Ana Kovač.
+By contrast, the occupational disagreement is not a correction and neither source
+supersedes the other. An append-only ledger supports reconstruction of earlier
+views, but timestamps must be controlled by the application to be trustworthy;
+a manually entered timestamp is not an independently secured transaction audit.
 
-This structure supports questions about exchange, mobility and mediation without collapsing every relationship into a single edge. It also makes explicit which relationships come from document metadata and which are extracted from letter text.
+## Querying evidence at a specified date
+
+SQL makes selection rules explicit. The saved `queries/at-date.sql` accepts a
+subject, historical date and editorial snapshot. Its central condition is:
+
+```sql
+a.valid_start <= :as_of AND :as_of < a.valid_end
+AND a.recorded_at <= :known_at
+```
+
+It also excludes assertions superseded by that editorial snapshot. Merely reading
+the current view would be wrong for a question about what the database said last
+week. Python supplies parameters; do not construct SQL by concatenating an
+untrusted name into a query. Save the query and input version alongside the result.
+
+The companion yields thirteen assertion rows, twelve in the current view and
+one candidate status-conflict pair, `SYN-A04` / `SYN-A05`. The earlier 1910
+editorial snapshot shows Ana Kovać; the corrected snapshot shows Ana Kovač.
+Both still show the two occupational descriptions. The 1925 query reports the
+later status and German-use event, not the 1910 letter as a lifelong language label.
+
+Counting requires equally explicit units. Joining one person to three name
+attestations and two roles can produce six rows. `COUNT(*)` then counts join
+combinations, not six people. Inspect the joined rows before choosing
+`COUNT(DISTINCT person_id)`. Use a left join to retain entities without evidence
+of a selected relation, and distinguish zero observations from an observed zero.
+
+## Boundaries, hierarchies and entity resolution
+
+Store territorial membership as a relation between a place and an administrative
+unit, qualified by date and source. In the synthetic exercise, a fixed residence
+at x=550 belongs east of a boundary at x=500, then west of a boundary at x=600.
+That is a jurisdictional change without migration. The real Ljubljana context
+also crosses the collapse of Austria-Hungary in 1918; the companion's invented
+district lines are not evidence for that historical transition.
+[City of Ljubljana history](https://www.ljubljana.si/sl/mestna-obcina/o-ljubljani/zgodovina-ljubljane/nemirno-20-stoletje).
+
+Administrative containment may be hierarchical: parish within district within
+province. A recursive query can follow parent relations, but each link must be
+valid for the queried period. A present-day hierarchy is not a shortcut to a
+historical one. Check cycles and multiple parents explicitly; overlapping civil
+and ecclesiastical jurisdictions may be meaningful, not errors to delete.
+[SQLite recursive queries](https://www.sqlite.org/lang_with.html).
+
+**Entity resolution** decides which records refer to the same entity. Retain
+candidate links, evidence and decisions rather than merging on a similar name.
+Test a proposed merge by inspecting dates, places, roles and source independence.
+A false merge creates connections between two biographies and contaminates both
+maps and networks. In the authentic packet, the rejected Meker/Meeker match is
+a useful counterexample to automatic spelling-based identity.
+
+## Validation, sensitivity and export loss
+
+Normalization reduces update anomalies; deliberate denormalization can produce
+a documented analytical snapshot. Do it through a saved query with a declared
+date, selection rule and input revision. Keep the normalized or assertion-level
+source authoritative. Otherwise an edited export and the database gradually
+become competing, undocumented editions.
+
+Constraints catch duplicate keys, missing references and reversed intervals.
+Enable SQLite foreign keys on every connection before importing. Check that the
+setting actually took effect, then run integrity and foreign-key checks. None
+verifies a caption's claim or the appropriateness of a category.
+[SQLite foreign-key documentation](https://www.sqlite.org/foreignkeys.html).
+
+For sensitivity, compare all overlapping status assertions with a policy that
+selects only the municipal register. On 1910-06-15, the first returns two labels;
+the second returns one. The person count remains one. A resulting occupational
+distribution changes because the evidence policy changed, not because a worker
+changed occupation. Publish both counts and the excluded assertion ID. Repeat
+the boundary query immediately before and on 1920-01-01 to check interval edges.
+
+A flat CSV cannot enforce foreign keys, preserve database views or carry all
+many-to-many relationships in one person row without duplication or aggregation.
+Export linked tables with stable IDs, a dictionary and saved queries; include
+source wording and editorial timestamps where relevant. Distinguish blank, unknown,
+not applicable and withheld values explicitly. Test reimport on a small sample.
+An accessible human-readable table is an analytical product, not a lossless backup.
+
+## Hybrid modelling
+
+One representation need not carry everything. Relational tables can hold entities
+and queryable assertions; TEI/XML can preserve textual variation and editorial
+structure; GeoPackage can hold dated geometries; a graph can support exploratory
+relations. Facsimiles and diplomatic transcription retain source evidence, while
+prose can explain distinctions that should resist controlled fields. Shared IDs
+and versioned links connect these representations. The guiding question is:
+which distinctions must be queryable, which must remain recoverable, and which
+should resist formalization? See the [GIS](gis-spatial-humanities.md) and
+[networks](networks-visualization.md) chapters for the same dossier's transformations.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
+    - [How do I model changing names, statuses and boundaries in SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/)
     - [How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)
     - [How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
 
@@ -2852,17 +3026,41 @@ This structure supports questions about exchange, mobility and mediation without
 
 ## Practice
 
-Design a schema for one project: a bibliography, oral-history archive, literary corpus, cultural-heritage inventory or correspondence collection. Draw entities and relationships, assign keys, identify one many-to-many relationship and show how uncertainty and provenance will be recorded.
+Use the paired [SQLite assertion workflow](../workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite.md).
+Download the companion, read its rights audit, and run `python run.py --output output`
+inside the extracted directory. Use a new output name on a second run. Compare
+`assertions-1910_early.csv`, `assertions-1910_corrected.csv` and
+`status-conflicts.csv` against the dossier. Explain the spelling correction and
+the surviving disagreement separately.
+
+Submit a schema sketch, both status-selection counts, a source-linked result
+table and a short account of export loss. As a manual check, trace every result
+for A to its document or note; as a failure test, attempt an orphan foreign key
+in a disposable copy. Do not edit the preserved source or publish invented
+identities as historical findings. Human methodological and Slovene-language
+review remain necessary even when every automated check passes.
 
 ## Reflection
 
-- Which categories in your schema are analytical interpretations rather than source facts?
-- What information would be lost by exporting the database to one flat table?
-- Which query would reveal the strongest weakness in your data coverage?
+- Which apparent contradictions arise from different contexts rather than false statements?
+- What does your query mean for an event with an uncertain date?
+- Which person disappears when you replace a left join with an inner join?
+- Could a reader reconstruct the evidence policy from your exported table alone?
 
 ## Summary
 
-A relational database is a formal, revisable model of entities and relationships. Keys and normalized tables reduce ambiguity; junction tables express many-to-many relations; SQL makes analytical steps explicit. Humanities databases become trustworthy when they also preserve uncertainty, provenance, contested assertions, editorial rules and recreatable structure.
+A relational database makes selected distinctions queryable; it does not turn
+assertions into truth. Stable identifiers, contextual names, qualified relations,
+historical intervals and editorial history help preserve change and disagreement.
+The strongest database argument includes its query, its source trail, a sensitivity
+comparison and an explicit account of what remains outside the schema.
+
+## Further reading
+
+- Codd, E. F. 1970. “A Relational Model of Data for Large Shared Data Banks.” *Communications of the ACM* 13(6): 377–387. [DOI](https://doi.org/10.1145/362384.362685). Relational organization and consistency.
+- Bradley, John, and Harold Short. 2005. “Texts into Databases: The Evolving Field of New-style Prosopography.” *Literary and Linguistic Computing* 20(Suppl): 3–24. [DOI](https://doi.org/10.1093/llc/fqi022). Source-oriented historical assertions.
+- Snodgrass, Richard, and Ilsoo Ahn. 1986. “Temporal Databases.” *Computer* 19(9): 35–42. [DOI](https://doi.org/10.1109/MC.1986.1663327). Distinguishing temporal dimensions.
+- SQLite. [Foreign keys](https://www.sqlite.org/foreignkeys.html), [date functions](https://www.sqlite.org/lang_datefunc.html), and [WITH/recursive queries](https://www.sqlite.org/lang_with.html). Operational references checked 3 September 2026; the sample implements its own bounded interval policy.
 
 ---
 
@@ -2872,109 +3070,150 @@ A relational database is a formal, revisable model of entities and relationships
 
 After this chapter, you should be able to:
 
-- distinguish a place mention, a place identity and a coordinate;
-- explain geocoding, coordinate reference systems, layers and spatial joins;
-- design a place table that preserves names, time and uncertainty;
-- recognize how digitization, scale and map design shape spatial arguments;
-- evaluate a map as an analytical claim rather than as an illustration.
+- distinguish a place, its names, its geometries and its administrative memberships;
+- separate source date, represented time and the date of a spatial identification;
+- explain coordinate reference systems, georeferencing, scale and positional accuracy;
+- preserve unresolved candidates and validate an identification against independent evidence;
+- test how boundaries, denominators, missing records and transport assumptions change a spatial claim;
+- publish an accessible map with a non-visual account of its evidence and limitations.
 
 ## Before you begin
 
-A nineteenth-century diary says that its author travelled to *St. Peter*. Which place is meant? The answer may depend on language, period, route, administrative boundaries and the writer's habits. Assigning coordinates is not clerical work; it is an interpretation that needs evidence.
+Did a person cross a border, or did a border cross the person? A record that assigns a resident to a different jurisdiction does not by itself establish migration. Nor does a letter headed “St. Peter” identify one unambiguous point. Before opening a map, write down what evidence would distinguish movement, administrative change and editorial misidentification. Which of these explanations could your surviving sources actually test?
 
-Geocoding turns historical descriptions into modelled spatial entities. Use [Models, evidence and interpretation](models-evidence-interpretation.md) to document that transformation and [Infrastructures of digital humanities](critical-infrastructures.md) to assess the gazetteers, map services and access conditions on which it depends.
+The recurring companion dossier from [Databases and SQL](databases-sql.md) concerns names, status, language use and territorial membership. Its people and boundary experiment are explicitly synthetic. They are not reconstructed biographies of people in the authentic archival-friction newspaper. The [downloadable packet](../../assets/downloads/contested-models-v1.zip) also contains an authentic Ljubljana plan and current landmark coordinates. Keep these evidence classes separate: the historical plan does not authenticate the invented boundary experiment.
 
-## Space is more than latitude and longitude
+## The argument: coordinates are qualified claims
 
-Humanities sources refer to places through names, descriptions, institutions, regions, routes and imagined geographies. A place can change name, boundary, function and political affiliation. One name may denote several locations; one location may have many names.
+Spatial humanities asks how location, distance, territory and experienced place contribute to interpretation. A point map can reveal a distribution, but it cannot determine what a place meant to an inhabitant or why a record named it. The interdisciplinary agenda collected in [The Spatial Humanities](https://iupress.org/9780253222176/the-spatial-humanities/) treats GIS as a research instrument whose representations must accommodate historical and interpretive questions, not as a replacement for them.
 
-Keep separate:
+Our operational principle is therefore simple: retain the passage, identification decision, geometry and temporal qualification as separable records. An administrative label is evidence about classification; a coordinate is an editorial representation. Neither necessarily describes self-identification. Historical cartography also warrants source criticism. Harley's [“Deconstructing the Map”](https://doi.org/10.3138/E635-7827-1757-9T53) makes mapmaking's social and political conditions part of analysis. Ask who commissioned a plan, what it made legible and what its conventions excluded.
 
-- the **mention** as it appears in the source;
-- the **normalized name** used for search or display;
-- the **place entity** with a stable project identifier;
-- the **geometry** used on a map;
-- the **time period** for which the identification applies;
-- the **evidence and certainty** supporting the link.
+## Place, name, geometry and territory
 
-This separation allows a corrected identification without changing the source transcription.
+A **toponym** is a name used for a place. A **place entity** is the project's continuing referent, whose identity may itself require argument. A **geometry** is a spatial representation chosen for a purpose. An **administrative unit** is an institutionally defined territory; its name, jurisdiction and boundary need not change together. A **route** represents a sequence or possible path, whereas a **region** may be vernacular, ecological or administrative. An imagined homeland or a remembered neighbourhood may not admit a defensible closed polygon.
 
-## Gazetteers and geocoding
+For the dossier, maintain a place table, a name-assertion table and dated territorial memberships. Do not rename every historical occurrence when a modern authority supplies a preferred label. Preserve “St. Peter” as source wording alongside the candidates `SYN-L1` and `SYN-L2`. Both candidates are inventions for the exercise, not claims that two particular real locations had that name.
 
-A **gazetteer** is a structured place-name resource containing identifiers, names, types, coordinates and often historical or administrative information. **Geocoding** links an address or place string to a spatial location.
+A neighbourhood point can support approximate display. A building footprint supports a different question; a region's centroid does not show where its population lived. Record why each geometry is adequate, and specify what cannot be inferred from it.
 
-Commercial or contemporary geocoders are optimized for current addresses. They may silently map historical names to modern centres, choose the most populous place or fail on dialect and multilingual forms. Record the service, date, query string, returned identifier, score and manual decision. Cache results where licences permit so that the project is not dependent on a changing external response.
+## Gazetteers without automatic certainty
 
-## Geometry and uncertainty
+Historical gazetteers link names, identifiers and descriptions across different temporal and linguistic contexts. [Southall, Mostern and Berman](https://doi.org/10.3366/ijhac.2011.0028) explain why a historical gazetteer needs more than a list of coordinate pairs. An authority identifier helps distinguish records, but it does not settle every historical identity problem.
 
-A point is not always the right representation. A historical region may need a polygon, a journey a line and an uncertain location a set of candidates or an approximate area.
+For each lookup, retain the original query, language, source date, resource name, version or retrieval date, returned identifier, alternatives and review decision. Search more than one name form. Examine neighbouring places, institutional context and a contemporary description. A service score can describe string similarity or ranking; do not relabel it “90% historically correct” without a calibrated validation study.
 
-Useful fields include:
+Keep rejected and unresolved candidates. Record why one was rejected, rather than silently erasing it. A name absent from a modern gazetteer may identify a vanished settlement, an unofficial district, a renamed street or a transcription error. Conversely, a successful response may select a distant contemporary place with the same name. Review a sample of confident matches as well as failures.
 
-| mention_id | place_id | geometry_type | certainty | start_date | end_date | source |
-|---|---|---|---|---|---|---|
-| m18 | p204 | point | probable | 1849 | 1851 | diary_7_f12 |
+## A historically qualified place model
 
-Avoid invented precision. A coordinate with six decimal places can imply metre-level certainty even when the source only identifies a valley. Represent uncertainty through ranges, confidence categories, multiple candidates, buffers or qualitative notes—and explain the convention in the legend.
+The source, place identification and territorial join answer different questions:
 
-## Coordinate reference systems
+| Record | Modern point shortcut | Qualified alternative |
+|---|---|---|
+| “St. Peter” in `SYN-D2` | choose the first search result | retain `SYN-L1` and `SYN-L2`; identification unresolved |
+| A's residence at `SYN-L1` | one coordinate and current country | dated residence assertion, geometry and membership |
+| A later jurisdiction label | infer a move | compare residence stability with boundary versions |
+| A map published in 1910 | date every feature to 1910 | distinguish publication from represented or surveyed time |
 
-Coordinates are interpreted within a **coordinate reference system** (CRS). Geographic coordinates such as WGS 84 use latitude and longitude; projected systems transform the earth onto a plane for particular regions and measurements.
+A historical source can describe an earlier journey, reproduce an older plan or propose a future road. Store publication date separately from represented time and survey or revision information when known. Unknown dates remain unknown. Do not manufacture a precise interval merely because the GIS temporal controller requires one.
 
-A map can look plausible even when layers use mismatched systems. Record the CRS for every spatial dataset. Reproject intentionally before measuring distance or area, and choose a projection suited to the geographic extent and analytical goal.
+For candidate identification, the appropriate output may be two rows and a paragraph, not two confidently plotted residences. A candidate count is not a count of actual locations occupied.
 
-## Layers and spatial joins
+## Coordinate systems and transformations
 
-GIS organizes information in layers: places, boundaries, roads, land use, events, documents or demographic indicators. A **spatial join** links records according to spatial relations such as within, intersects or nearest.
+Coordinates require a **coordinate reference system** (CRS), including units and the reference framework in which positions are expressed. Geographic longitude and latitude are angular coordinates. Projected coordinates support planar operations within a stated area of use. Measuring a polygon in square degrees does not produce its area in square metres.
 
-This enables questions such as:
+Assigning a CRS declares what existing numbers mean; transforming coordinates calculates different numbers for another system. Confusing these operations can move a layer while leaving its shape persuasive. Check coordinate ranges, axis order and units before interpreting an overlay. The packet transforms cached longitude/latitude using an explicit longitude-first setting into EPSG:3794. The Slovenian surveying authority documents the national projected framework and its [D96-17/TM terminology](https://www.e-prostor.gov.si/podrocja/drzavni-koordinatni-sistem/horizontalna-sestavina/); software may display the familiar D96/TM label.
 
-- Which letters originated within a historical border?
-- Which archaeological finds lie near a Roman road?
-- Which dialect observations fall inside present and historical administrative regions?
+Record the source CRS, target CRS, transformation implementation and any required grids. A project's on-the-fly display setting does not change the stored source coordinates. See the versioned [QGIS projection documentation](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_projections/working_with_projections.html) for interface-specific operations.
 
-But the relation is only as meaningful as the geometries and time alignment. Joining an 1850 event to a 2026 municipal boundary may answer an administrative convenience, not a historical question.
+## Scale, resolution and accuracy
 
-## Maps are arguments
+Scale relates a map distance to a ground distance. Resolution describes the smallest represented or sampled unit. Positional accuracy concerns agreement with a defensible reference location. Precision concerns the granularity of recorded numbers. These properties are related but not interchangeable.
 
-Every map chooses extent, scale, projection, classification, symbols, labels and omissions. Points can hide density; large polygons dominate visual attention; colour bins can exaggerate a threshold; missing data can look like absence.
+The authentic plan in the packet is Ciril Metod Koch's *Ljubljana*, published in 1910 at 1:8,200, as catalogued by [dLib.si](https://dlib.si/details/URN:NBN:SI:IMG-132KCU7C). At that nominal scale, one printed millimetre represents 8.2 metres. A building symbol may nevertheless be generalized or displaced. Increasing scan resolution cannot recover detail that the cartographer never recorded.
 
-A scholarly map should state:
+Similarly, six decimal places in a current landmark record do not establish survey-grade accuracy. The packet records the precision reported by Wikidata separately from our manually selected image points. Some coordinates describe an entity generally rather than an identifiable corner. A comparison that ignores this mismatch confuses different spatial referents.
 
-- data source and coverage;
-- unit of analysis;
-- temporal scope;
-- spatial resolution and uncertainty;
-- transformation and classification rules;
-- missing or excluded records;
-- whether the map is exploratory, descriptive or inferential.
+## Georeferencing as a testable fit
 
-Do not use a heat map simply because it is visually dramatic. Density estimation introduces bandwidth and edge choices that need interpretation.
+Georeferencing estimates a transformation between image coordinates and reference coordinates. Choose control points that identify the same physical feature in both sources, distribute them across the study area and avoid relying on one street or cluster. Corners may be more reproducible than vague centres, provided the building has not changed.
 
-## Texts and spatial extraction
+An affine transformation permits translation, rotation, scaling and shear. It does not reproduce every local distortion. A more flexible transformation can improve fitted residuals while making unsupported distortions between controls. Select a transformation for its assumptions and validation performance, not just its attractive appearance.
 
-To map places mentioned in texts, a workflow typically combines named-entity recognition, manual review, entity resolution and geocoding. Frequency of mention is not presence, residence or importance. A newspaper may mention a capital frequently because it is a political centre; a travel diary may name only unusual stops and omit familiar locations.
+Reserve independent check points that do not determine the fit. A residual is the difference between predicted and reference position for a point. Root-mean-square error (RMSE) summarizes those distances, but its meaning depends on units, point quality and where points lie. The [QGIS georeferencer documentation](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/georeferencer.html) explains available transformations and control-point handling; the software does not certify historical correspondence.
 
-Link every mapped point back to the passage and document. This allows readers to inspect whether a location is literal, metaphorical, reported, imagined or uncertain.
+## Worked example: a failed alignment check
 
-## Worked example: literary mobility
+The packet supplies the public-domain-labelled dLib scan, six first-pass landmark selections, cached current coordinates and a reproducible affine calculation. Four points fit the transformation; the railway station and cathedral are withheld. These are a deliberately retained pilot, not approved survey controls. Landmark centres and image selections require manual review.
 
-Suppose we study movement in a novel and its historical context.
+| Check | Result in metres | Interpretation |
+|---|---:|---|
+| Four fitted controls, RMSE | 15.231 | describes fit at selected controls only |
+| Two independent checks, RMSE | 220.063 | does not support a claim of approximately 15 m accuracy |
+| Leave out the western fitted point, check it afterwards | 1,090.241 | exposes weak spatial support and extrapolation |
+| Cathedral check alone | 142.481 | re-examine the selected feature and coordinate referent |
 
-1. Define whether the unit is a mention, scene, journey segment or character presence.
-2. Extract candidate place mentions and retain passage identifiers.
-3. Resolve names with period-appropriate gazetteers and scholarly sources.
-4. Assign geometry and certainty without forcing ambiguous cases.
-5. Distinguish narrated, remembered, imagined and referenced places.
-6. Build routes only where sequence and movement are supported by the text.
-7. compare the literary geography with historical transport or borders cautiously;
-8. publish a map with filters, source passages and an uncertainty legend;
-9. interpret absences as possible narrative choices, not automatic evidence of irrelevance.
+These outputs can be reproduced without QGIS. The paired [georeferencing workflow](../workflows/mapping/georeference-and-check-a-historical-map-in-qgis.md) adds the GUI procedure, saving the transformation and inspecting a current landmark layer. The interface procedure still requires a recorded QGIS review; the numerical pilot is not a claim that the resulting raster has been visually validated.
+
+Do not delete a bad check merely to improve a score. Reopen the source image, inspect the reference description and record whether a point was misidentified, moved, generalized or insufficiently precise. Save a corrected run separately. A low fitted RMSE alongside a poor independent result is useful evidence about the limits of the model.
+
+## Worked example: the border moves
+
+The boundary experiment uses an explicitly fictional 1,000-metre square in a local engineering coordinate system, not EPSG:3794 and not historical Ljubljana boundaries. A vertical divider changes from x=500 to x=600 in 1920. A's residence remains at x=550; the dossier stipulates continuity through 1925. East includes the dividing line, making the containment rule explicit.
+
+| Candidate | Centre x | 1910 centre membership | 1925 centre membership | With ±75 m positional uncertainty |
+|---|---:|---|---|---|
+| `SYN-L1` | 550 m | `SYN-EAST` | `SYN-W` | either territory in both periods |
+| `SYN-L2` | 800 m | `SYN-EAST` | `SYN-EAST` | east in both periods |
+
+Under centre-point classification, A's territorial affiliation changes without migration. Under the uncertainty envelope, membership cannot be uniquely assigned from geometry alone. The ±75 metres is a stipulated sensitivity range, not a measured confidence interval. The unresolved workplace mention must not replace the residence assertion.
+
+The [dated-place workflow](../workflows/mapping/model-changing-place-names-and-boundaries.md) reproduces this table. An actual historical project would additionally need evidence for the boundary date, geometry, residence continuity and administrative meaning. The synthetic calculation establishes logical consequences, not historical facts.
+
+## Spatial joins and missingness
+
+A spatial join adds attributes according to relations such as within, intersects or nearest. Combine the spatial predicate with a time predicate: a point and polygon that overlap on screen may refer to different centuries. State how boundary points, overlapping jurisdictions and uncertain intervals are handled. Distinguish possible membership from membership under every allowed location.
+
+Record unlocated mentions in the denominator of your coverage report. If ten of twenty letters can be located, mapping only those ten does not establish the geography of the whole correspondence. Missingness may follow language, cataloguing practice, urban address coverage or selective preservation. An empty region might lack surviving records, digitization or successful identifications rather than historical activity.
+
+Compare matched and unmatched records by period, source type and language before interpreting density. Publish the unmatched table with reasons and permitted source excerpts. Do not force a coordinate simply to achieve complete-looking coverage.
+
+## Choropleths and the unit problem
+
+A choropleth shades areas by a value. Counts answer a different question from rates. Suppose two fictional districts contain 20 and 10 surviving letters, but their relevant populations are 2,000 and 500. Counts rank the first district higher; rates are 10 and 20 letters per thousand residents. Neither describes literacy without further assumptions about authorship, survival and the population at risk.
+
+Aggregation also changes results when boundaries or area sizes change: this is the **modifiable areal unit problem**. [Fotheringham and Wong](https://doi.org/10.1068/a231025) examine its implications for multivariate analysis. For our simpler exercise, compare counts and rates under alternative groupings and explain which residents and observations enter each denominator.
+
+Do not divide an 1850 numerator by a convenient modern population without justification. Mark missing values separately from zero. Publish the underlying numerator, denominator, period and classification bins so a reader can reconstruct the shading without seeing the map.
+
+## Routes, distance and accessibility
+
+A straight line between two mentioned places is not evidence of a journey. The source may describe remembered locations, reported events or an imagined destination. Even when travel is documented, a shortest modern road path can be historically impossible. Bridges, border controls, gradients, seasonal conditions and available transport affect accessibility.
+
+Define whether you estimate geometric distance, network distance, travel time or a documented itinerary. A route network needs dated segments and explicit cost assumptions. Test at least one plausible alternative: remove an unverified bridge or vary walking speed rather than presenting one exact travel time.
+
+For the ambiguous “St. Peter” mention, compare what each candidate would imply, but do not invent a route to decide the identity circularly. A route plausibility argument is supporting evidence only if its historical transport assumptions are independently justified. Preserve the textual sequence even when no defensible line can be drawn.
+
+## Design, access and sensitive locations
+
+Map design shapes the argument through extent, labels, classification and omission. Use a sequential palette for ordered quantities and a clear neutral treatment for missing information. Do not rely on colour alone: pair candidate symbols with identifiers, uncertainty categories and explanatory text. Label the synthetic boundary model prominently.
+
+Provide a table giving every plotted identifier, period, membership, uncertainty and source link. A text description should state the pattern and exceptions, not merely announce that a map exists. Keep labels legible at the intended output size and test light and dark backgrounds. Interactive maps also need keyboard access and a downloadable alternative.
+
+Precise locations can expose vulnerable living communities, sacred sites or archaeological remains to harm. Public availability does not remove responsibility. Assess consent, legal restrictions and foreseeable misuse before publication; consider generalization or restricted access. Keep a secure source record where permitted, and explain the public transformation without revealing protected coordinates.
+
+## Hybrid modelling
+
+One representation need not carry everything. Relational tables preserve queryable place assertions; TEI/XML retains textual variants and editorial structure; GeoPackage can hold dated geometries; a graph may explore routes. Facsimiles and diplomatic transcription preserve evidence, while prose records distinctions that should resist categorical reduction. Ask which distinctions must be queryable, which must remain recoverable and which should resist formalization.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
+    - [How do I georeference and check a historical map in QGIS?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/)
+    - [How do I model changing place names and boundaries?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/model-changing-place-names-and-boundaries/)
     - [How do I map places mentioned in a text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/map-places-mentioned-in-a-text/)
     - [How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/build-a-simple-cultural-heritage-map/)
     - [How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/)
@@ -2987,17 +3226,34 @@ Suppose we study movement in a novel and its historical context.
 
 ## Practice
 
-Create a ten-row place table from a text or heritage list. Preserve source form, normalized name, identifier, coordinates or geometry, date, certainty, evidence and notes. Map it, then identify three ways in which the map could mislead a reader.
+Unpack the companion archive and run:
+
+```bash
+python run.py --output output-first
+```
+
+Use a new output directory for each run. Inspect `membership.csv`, `gcp-residuals.csv` and `gcp-leave-one-out.csv` before making any map. Compare centre-based membership with uncertain membership; explain why the name candidates cannot be counted as two residences. Then audit one fitted and one withheld landmark against the image and the cached reference record.
+
+Submit the tables, source and rights note, CRS and transformation record, a candidate-decision log and a 200-word interpretation. Name one conclusion that survives the sensitivity checks and one that fails. If you cannot use GIS, the tables and explicit containment rules form a complete non-visual submission.
 
 ## Reflection
 
-- Does the map represent mentions, events, people, documents or inferred movement?
-- Which historical boundary or place-name decision is most contestable?
-- What appears empty because your sources or geocoder do not cover it?
+- Which apparent migration could instead be a change in boundaries or classification?
+- What does your geocoder's confidence actually measure?
+- Would another denominator, reference point or plausible candidate reverse your claim?
+- Which locations should remain approximate or unpublished, and who should decide?
 
 ## Summary
 
-Spatial humanities turns place evidence into linked, time-aware and interpretable spatial data. A mention is not a coordinate, modern geocoding is not historical identification, and a map is not a neutral window. Gazetteers, stable identifiers, coordinate systems, provenance and explicit uncertainty make spatial visualizations useful as humanities arguments.
+Spatial evidence becomes credible through qualified identification, not through polished plotting. Names, places, geometries, jurisdictions and routes require distinct records and explicit dates. Independent checks can expose a misleadingly good fit. Candidate preservation, uncertainty-aware joins, defensible denominators and historical transport assumptions make a spatial argument inspectable. A table that honestly retains ambiguity can be a stronger result than a seamless map.
+
+## Further reading
+
+- Bodenhamer, David J., John Corrigan and Trevor M. Harris, eds. 2010. [*The Spatial Humanities: GIS and the Future of Humanities Scholarship*](https://iupress.org/9780253222176/the-spatial-humanities/). Indiana University Press.
+- Harley, J. B. 1989. [“Deconstructing the Map.”](https://doi.org/10.3138/E635-7827-1757-9T53) *Cartographica* 26(2): 1–20.
+- Southall, Humphrey, Ruth Mostern and Merrick Lex Berman. 2011. [“On historical gazetteers.”](https://doi.org/10.3366/ijhac.2011.0028) *International Journal of Humanities and Arts Computing* 5(2): 127–145.
+- Fotheringham, A. S., and D. W. S. Wong. 1991. [“The Modifiable Areal Unit Problem in Multivariate Statistical Analysis.”](https://doi.org/10.1068/a231025) *Environment and Planning A* 23(7): 1025–1044.
+- QGIS Documentation. [Georeferencer, version 3.40](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/georeferencer.html). Versioned operational reference, not an assertion that this is the newest release.
 
 ---
 
@@ -3007,103 +3263,157 @@ Spatial humanities turns place evidence into linked, time-aware and interpretabl
 
 After this chapter, you should be able to:
 
-- define nodes, edges, direction, weight and bipartite networks;
-- distinguish observed relationships from relationships inferred by a construction rule;
-- interpret basic centrality and community measures cautiously;
-- design a visualization that exposes scale, uncertainty and missing data;
-- document the transformations from source records to a graph.
+- distinguish documented participation, source assertions, inference and co-occurrence;
+- define directed, weighted, signed, multiplex, bipartite and temporal networks;
+- preserve identity decisions, source evidence, confidence and dates for edges;
+- compare a person–document network with projected and correspondence networks;
+- interpret centrality, components and communities under explicit construction rules;
+- test thresholds, projection choices and missing records, and publish non-visual results.
 
 ## Before you begin
 
-Two people occur in the same newspaper article. Are they connected? Perhaps they collaborated, opposed one another, were merely listed, or appear in unrelated paragraphs. A network edge is not found automatically in the source. It is created by a rule whose meaning must be defended.
+Four individually labelled people appear in one newspaper issue. Does that make them a connected political circle? Under a same-issue rule, they generate six undirected pairs. Under a correspondence rule, the same observations establish no letters between them. Neither result says that the people never interacted. The difference concerns what the selected records support.
 
-Node and edge rules are modelling choices that shape every metric and image. Use [Models, evidence and interpretation](models-evidence-interpretation.md) to keep construction, output and interpretation distinct, and [Infrastructures of digital humanities](critical-infrastructures.md) when source APIs or visualization platforms determine visibility and reuse.
+The authentic archival-friction packet supplies this starting problem. The [companion packet](../../assets/downloads/contested-models-v1.zip) preserves the original observation identifiers and source locators, then adds a clearly synthetic six-person dossier to make controlled comparisons possible. No invented letter or biography is attributed to a real newspaper subject. Before calculating anything, write one sentence defining the relation you want to investigate and another defining what your records actually observe.
 
-## A network is a data model
+## The argument: an edge is an accountable claim
 
-A graph contains **nodes** and **edges**. Nodes may represent people, texts, places, institutions or concepts. Edges may represent correspondence, citation, kinship, co-authorship, travel, co-occurrence or another relationship.
+A graph consists of nodes and edges, but historical relations arrive through sources and editorial work. A surviving letter might document an act of writing; its address might assert a recipient; the researcher may infer reception. These are different claims. A catalogue entry is an observation about a described object, not direct observation of a historical friendship.
 
-Specify whether an edge is:
+Distinguish four levels. An **observed record relation** links a named participant to an inspected document. An **asserted relation** reports what that document says. An **inferred relation** depends on an explicit interpretive rule. A **co-occurrence relation** joins entities sharing a chosen container, without asserting interaction. Even an inspected document can misidentify someone or report an event inaccurately.
 
-- directed or undirected;
-- weighted or unweighted;
-- dated or time-bounded;
-- observed directly or inferred;
-- positive, negative or typed;
-- supported by one or several sources.
+A useful edge record therefore includes endpoints, relation type, direction, evidence identifier, source locator, date interval, confidence and construction rule. Keep the source wording or a recoverable passage. A plotted line should lead back through these decisions. [Models, evidence and interpretation](models-evidence-interpretation.md) provides the broader framework for separating data construction from historical explanation.
 
-Different edge definitions create different networks. The definition belongs in the methods section and ideally in machine-readable data.
+## Choosing nodes and resolving identity
 
-## One-mode and bipartite networks
+Node identity determines the graph before any metric runs. Is a node a person, a signature, an institutional office, a collective character or an unresolved mention? Combining these without explanation makes the graph's population unstable. A node labelled “the editor” may represent successive officeholders, not one enduring person.
 
-A one-mode network links the same kind of node, such as person to person. A **bipartite** network links two kinds, such as people to organizations or characters to scenes.
+The dossier distinguishes person `SYN-A` from recorded name forms Anna Kovatsch and Ana Kovač. Their shared identity is stipulated for this synthetic exercise. In real work it would require evidence, not just spelling similarity. A false merge can give one node the neighbours of two people and create a fictitious bridge. A false split can hide continuity and make an actor appear peripheral.
 
-Projects often project a bipartite network into a one-mode co-occurrence network: two characters are linked if they appear in the same scene. Projection loses information and can create dense edges around large scenes. Preserve the original bipartite data and state the projection and weighting rule.
+Maintain an identity-decision table with evidence and alternatives. Test a consequential uncertain merge separately, preserving both versions. Do not exclude unresolved mentions merely to tidy the visualization: report how many remain and why they cannot safely enter person-level analysis. Stable identifiers help manage decisions; they do not prove identity.
 
-## Centrality is question-dependent
+## What different network types mean
 
-Common measures include:
+A **directed** edge distinguishes sender from recipient. An **undirected** edge can represent shared membership without assigning an initiator. A **weighted** edge carries a specified quantity, such as distinct documents, rather than a vague strength score. A **signed** edge distinguishes positive and negative relations under an independently justified coding scheme; criticism is not automatically the negative of friendship.
 
-- **degree:** number of immediate connections;
-- **weighted degree:** sum of edge weights;
-- **betweenness:** how often a node lies on shortest paths;
-- **closeness:** distance to other reachable nodes;
-- **eigenvector/PageRank-style measures:** connection to already well-connected nodes.
+A **multiplex** network retains separate relation layers, for example correspondence, employment and co-occurrence. Collapsing them makes a letter equivalent to shared employment unless a defensible combination rule is supplied. A **bipartite** network connects two node types, such as people and documents, with no within-type edges. A **temporal** network retains events or intervals so that paths can respect chronology.
 
-No measure equals “importance” in general. Degree may indicate visibility, opportunity or simply better documentation. Betweenness depends strongly on the assumption that shortest paths model the process. Disconnected and very small networks require special care.
+These properties can coexist. A correspondence layer may be directed, weighted and temporal. Before selecting software, state the unit of observation and whether repeated letters are separate events or aggregated weights. Preserve the event table even when an aggregate graph is useful for exploration.
 
-## Communities and clusters
+## Dates, confidence and relation semantics
 
-Community-detection algorithms partition networks into groups with dense internal connections. Results depend on algorithm, resolution and random initialization. A community is not automatically a historical faction or literary theme.
+A letter's date is an event time, not the duration of a social tie. The dossier's `SYN-D6` is dated only to February 1925, represented as the possible event window from 1 February inclusive to 1 March exclusive. This does not mean continuous communication throughout the month. A dated membership assertion can instead describe a duration, depending on its source wording.
 
-Compare multiple resolutions, inspect boundary nodes and relate groups to independent metadata. Report when several plausible partitions exist. A visually tidy modular graph may be produced by the layout even when evidence is weak.
+Aggregating 1910 and 1925 can create paths whose edges never coexisted. A temporal path also needs an ordering rule: a message cannot travel through an earlier event after a later one. Unknown dates complicate possible and certain reachability differently. Do not quietly assign undated material to the midpoint of your study period.
 
-## Time and change
+Confidence qualifies a particular assertion. In the example, the recipient of `SYN-D6` is probable; the existence of the synthetic document is not uncertain within the exercise. Keeping those distinctions allows a “certain recipients only” comparison without deleting the underlying record. Confidence categories are review conventions, not automatically calibrated probabilities.
 
-Aggregating decades of relationships into one graph can create connections that never coexisted. Build time slices, interval networks or event-based views when chronology matters.
+## One dossier, three representations
 
-Ask whether nodes can enter and leave, whether edge weights accumulate, and whether missing years reflect no activity or no surviving data. Animation can be attractive but hard to compare; small multiples or interactive filters often communicate change more clearly.
+The controlled dossier contains six people and six source records. Separate status notes used in the database chapter are not included in this network selection. Selection itself is documented, not an invisible preprocessing decision.
 
-## Missing data and unequal visibility
+| Document | Participants | Source genre and relation information |
+|---|---|---|
+| `SYN-D1` | A, B, C | municipal list; no interaction asserted |
+| `SYN-D2` | A, B | letter, A → B |
+| `SYN-D3` | C, D, E | association list |
+| `SYN-D4` | D, E | letter, D → E |
+| `SYN-D5` | A, B, C, D, E, F | press list; no interaction asserted |
+| `SYN-D6` | E, F | letter, E → F; probable recipient |
 
-Networks are especially sensitive to archival survival. A prolific correspondent may look peripheral because only one archive survives. Famous figures may have better cataloguing and entity resolution. Co-occurrence networks privilege long documents and common names.
+All labels abbreviate identifiers beginning `SYN-`. Build the bipartite graph directly from the 18 person–document participation rows. Project a person graph by linking people who share a document. Finally, construct a correspondence graph only from explicit sender and recipient roles in letter records. All three use the same selected records; their edges answer different questions.
 
-Represent coverage and source counts. Consider sensitivity analyses: remove uncertain edges, use alternative thresholds or compare archives. Absence of an edge often means “not observed under this procedure,” not “no relationship existed.”
+The original newspaper remains a separate evidence check: its four individually labelled people yield six same-issue pairs, but these selected observations do not establish correspondence. Do not add synthetic letters to improve the authentic graph's apparent completeness.
 
-## Visualization as analytical design
+## Projection changes the unit of evidence
 
-A network plot needs more than colourful nodes. Decisions include layout, node size, edge opacity, labels, filtering and colour categories. Force-directed layouts optimize readability, not geographical or chronological truth; repeated runs can place nodes differently.
+Projection replaces shared document participation with person–person edges. A document containing k people contributes k(k−1)/2 possible pairs. A six-person list therefore contributes fifteen pairs, although it remains one source record. A three-person list contributes three. This is projection inflation, not fifteen independent testimonies of association.
 
-Good practice:
+The discussion of two-mode networks by [Latapy, Magnien and Del Vecchio](https://doi.org/10.1016/j.socnet.2007.04.006) provides a formal basis for retaining the bipartite structure. In our example, `SYN-D5` alone connects every pair. The resulting complete graph conceals whether a pair shares one list or several distinct records.
 
-- label only when labels serve the question;
-- explain every visual encoding;
-- avoid scaling node area in a misleading way;
-- show isolated nodes when exclusion would hide coverage;
-- provide a table or searchable view for exact values;
-- preserve accessibility in colour and contrast;
-- include provenance and a downloadable edge list.
+Keep a support table with one row per pair and supporting document. Deduplicate repeated mentions within the same document before counting document support. Also inspect whether two documents copy a common source: distinct identifiers do not guarantee evidential independence. A projected edge is a derived summary with provenance, not a new archival fact.
 
-## Worked example: a literary character network
+## Thresholds and fractional weighting
 
-A defensible workflow might be:
+Let an edge weight equal the number of distinct shared documents. At threshold 1, retain any supported pair; at threshold 2, require two documents; at threshold 3, require three. These thresholds do not mean weak, reliable and certain friendship. They mean increasingly repeated co-documentation under this rule.
 
-1. Define character identity, aliases and collective characters.
-2. Choose an edge rule: shared scene, direct address or reported interaction.
-3. Segment the text and preserve passage references.
-4. Build a bipartite character-scene table.
-5. Project only if the research question requires a character-character graph.
-6. Test alternative scene definitions and edge thresholds.
-7. compare centrality with narrative point of view and amount of speech;
-8. inspect apparently central and surprisingly peripheral characters in the text;
-9. publish both the visualization and construction data.
+A second projection gives each shared document a contribution of 1/(k−1), where k is its number of participants. This reduces a large list's contribution to each pair: `SYN-D5` contributes 0.2 rather than 1. The normalization is an explicit analytical choice, not a universal correction. Other weighting conventions answer other questions.
 
-The graph summarizes one relational aspect of the novel. It does not model character depth, thematic importance or reader experience unless those have been operationalized separately.
+The packet retains all six people, including isolates, in every person-level comparison. Its metrics treat surviving edges as unit-length connections; document weights select edges but are not used as path lengths. Do not interpret a large document count as a large distance. If you convert strength to distance, justify that transformation and test its effect separately.
+
+## Worked comparison: structure and degree
+
+| Construction rule | Edges | Components | Highest person degree |
+|---|---:|---:|---|
+| Bipartite participation | 18 | 1 | E: 4 documents |
+| Projection, threshold 1 | 15 | 1 | all six: 5 people |
+| Projection, threshold 2 | 7 | 1 | C: 4 people |
+| Projection, threshold 3 | 2 | 4 | A, B, D, E: 1 person |
+| Fractional projection, weight ≥1 | 3 | 3 | E: 2 people |
+| Directed correspondence | 3 | 3 weak components | E: 2 incident edges |
+
+A bipartite degree counts documents, not people; compare its rankings cautiously with a projected degree. At threshold 1, the press list makes everybody equally connected. At threshold 2, the remaining pairs are AB, AC, BC, CD, CE, DE and EF. C now connects the ABC and CDE portions. At threshold 3, only AB and DE remain, while C and F are isolated.
+
+The correspondence graph contains A→B, D→E and E→F. Its weak components ignore direction when identifying connected sets; directed reachability remains different. E's total degree is two, but its in-degree and out-degree are each one. A highest degree claim must name both the graph and the meaning of degree.
+
+## Betweenness and closeness require assumptions
+
+**Betweenness** allocates credit to nodes on shortest paths between other nodes. The packet reports raw, unnormalized values and divides undirected pair counts by two. In the threshold-2 projection C has betweenness 6 and E has 4; everyone else has zero. In the complete threshold-1 graph every value is zero because each pair already has a direct edge.
+
+In the directed correspondence graph E has betweenness 1, from D to F through E. This is a graph-theoretic path across records, not proof that E transmitted a message, brokered influence or knew every sender. Temporal and contextual evidence would be needed for those interpretations.
+
+Ordinary **closeness** uses distances to other nodes and needs a convention for disconnected graphs. The packet instead reports outgoing harmonic closeness: sum reciprocal finite distances and divide by N−1; unreachable nodes contribute zero. At threshold 2 C scores 0.9 and E 0.8. In correspondence D scores 0.3, E 0.2 and B zero. A reachable-node convention or reversed direction would answer another question.
+
+These measures summarize a model. Before calling someone influential, explain why shortest paths or direct neighbours represent a plausible historical process and inspect the supporting passages.
+
+## Components and communities are not factions
+
+A component records reachability under the chosen direction convention. It is not necessarily a social group. **Community detection** seeks a partition according to a chosen objective; results depend on that objective, resolution and implementation. Layout clusters are yet another object.
+
+For six people, the packet evaluates all 203 set partitions using unweighted, undirected modularity at resolution 1 and retains every maximizing tie. This small exhaustive comparison avoids presenting one arbitrary algorithm run as definitive. It is not a scalable recommendation for large datasets. For correspondence, the community calculation explicitly discards direction; centrality calculations retain it.
+
+At threshold 1 the unique optimum places all six together, with modularity 0. At threshold 2 the unique optimum is ABC | DEF, with modularity approximately 0.204082. At threshold 3 there are ten tied optimal partitions: isolated nodes can move without changing the score. The correspondence structure has three tied optima.
+
+The [resolution-limit study by Fortunato and Barthélemy](https://doi.org/10.1073/pnas.0605965104) is a further reason not to equate modularity groups with historical communities. Validate proposed factions against independent evidence and report equally good alternatives. A mathematical optimum is not a source verdict.
+
+## Missing archives and ascertainment bias
+
+Missing data are often structured. Institutions preserve some correspondence and destroy other records; prominent individuals receive more cataloguing; language tools recognize some names better than others. **Ascertainment bias** concerns how the procedure makes particular people and relations observable. Random deletion alone cannot represent every archival mechanism.
+
+[Borgatti, Carley and Krackhardt](https://doi.org/10.1016/j.socnet.2005.05.001) study centrality robustness under imperfect data. Treat such research as motivation to specify an error process, not as a guarantee that your incomplete archive preserves rankings.
+
+In the packet, withholding `SYN-D6` before applying threshold 2 removes EF and isolates F. E's betweenness falls from 4 to 0, while C's falls from 6 to 4. An apparently distinctive intermediary role for E depends on one selected record. Removing probable recipient assertions also reduces correspondence from three edges to two.
+
+Report survival, selection, extraction and identity-resolution losses separately. A missing edge means “not observed under this construction and coverage,” not “these people had no relationship.”
+
+## Robustness as a research result
+
+A sensitivity analysis varies a defensible assumption while holding other choices explicit. Here, removing the large press list at threshold 1 produces the same seven edges as the original threshold-2 projection. Fractional weighting at weight ≥1 instead retains AB, DE and EF. Different corrections to projection inflation need not select the same graph.
+
+Record which conclusions survive. “C has the highest degree in the threshold-2 shared-document projection” is reproducible. “C was the most important person” is unsupported. “E's intermediary position is sensitive to `SYN-D6`” accurately reports the experiment. Do not average incompatible edge semantics into a supposedly more robust social network.
+
+The [comparison workflow](../workflows/networks/compare-bipartite-and-projected-networks.md) produces the tables, and the [claim-audit workflow](../workflows/networks/audit-a-network-claim-against-source-records.md) returns selected edges to the dossier. Include inconvenient counterexamples, not just the central node that fits your initial interpretation.
+
+## Visualization, accessibility and ethics
+
+Force-directed layouts arrange nodes according to an optimization procedure, often with arbitrary orientation and variable initialization. Distance on such a plot is not geographic distance, elapsed time or historical affinity unless explicitly encoded. Changing a random seed can move a cluster without changing any edge.
+
+State node-size, edge-width and colour rules. Size by area rather than an unexplained radius convention, distinguish isolates and explain filtering. Do not rely on colour alone to communicate relation types or confidence: provide labels, line patterns and a textual legend. Avoid using a striking cluster as evidence before inspecting its table.
+
+Every exercise here supports a non-visual submission: node metrics, component membership, edge provenance and a prose comparison. A readable table is essential for exact values and screen-reader access; an image description should summarize findings and exceptions. Sensitive relationships can also harm living people or communities. Consider consent, inference risks and access restrictions before publishing names or speculative ties, even when individual source records are public.
+
+## Hybrid modelling
+
+A relational database or event table is often the better primary representation when relations have multiple participants, changing roles, incompatible sources or uncertain dates. Generate a graph as a documented view. Retain TEI/XML for textual variation, GeoPackage for dated geometries, facsimiles and diplomatic transcription for evidence, and prose for distinctions that should resist categorical encoding.
+
+Ask which distinctions must be queryable, which must remain recoverable and which should resist formalization. Stable identifiers can connect these representations without pretending that every assertion is a timeless binary relation.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
+    - [How do I compare bipartite and projected networks?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/compare-bipartite-and-projected-networks/)
+    - [How do I audit a network claim against source records?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/audit-a-network-claim-against-source-records/)
     - [How do I summarize data with PivotTables and transparent charts?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts/)
     - [How do I build a source-linked co-occurrence network?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/build-a-cooccurrence-network/)
     - [How do I build a collocation graph from AntConc to Cytoscape?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape/)
@@ -3117,17 +3427,33 @@ The graph summarizes one relational aspect of the novel. It does not model chara
 
 ## Practice
 
-Construct a small network from at least ten source records. Write the edge rule in one sentence, keep an evidence field for every edge, calculate degree, and create two visualizations with different thresholds. Explain which relationships disappear and why.
+Unpack the companion archive and run:
+
+```bash
+python run.py --output output-first
+```
+
+Compare `bipartite-metrics.csv`, `projection_t1-metrics.csv`, `projection_t2-metrics.csv` and `correspondence-metrics.csv`. Use `projection-evidence.csv` to explain AB and CE, then inspect the probable recipient in `correspondence-edges.csv`. Check all alternative constructions in `results.json`.
+
+Submit the source-selection rule, a three-model comparison, a threshold table, one missing-record experiment and a corrected 150-word claim. Preserve isolates and give a source locator for every audited edge. A graph drawing is optional; the source-linked tables and interpretation are required.
 
 ## Reflection
 
-- What does an edge mean in source terms?
-- Which nodes are visible because their records survive or are easier to recognize?
-- Would a bipartite representation preserve distinctions hidden by projection?
+- What did the source assert, and what did your edge-construction rule add?
+- Which identity decision could create a false bridge?
+- Which ranking or community changes under another plausible rule?
+- What does your graph omit that the event table or source passage preserves?
 
 ## Summary
 
-Networks are explicit models of relationships, not transparent pictures of society or literature. Node and edge definitions, projection, time, missing data and algorithms shape every result. Centrality is not generic importance, communities are not self-interpreting groups and layouts are not evidence. Traceable construction rules and source-linked edges make network analysis suitable for humanistic interpretation.
+Networks formalize selected relations, not the social world in its entirety. Node identity, source selection, projection, thresholds, dates and missingness determine what a metric summarizes. Centrality does not establish generic importance, communities are not automatically factions, and layout is not evidence. Preserve bipartite participation and source-qualified events, test alternatives, and write conclusions that name the construction rule.
+
+## Further reading
+
+- Latapy, Matthieu, Clémence Magnien and Nathalie Del Vecchio. 2008. [“Basic notions for the analysis of large two-mode networks.”](https://doi.org/10.1016/j.socnet.2007.04.006) *Social Networks* 30(1): 31–48.
+- Borgatti, Stephen P., Kathleen M. Carley and David Krackhardt. 2006. [“On the robustness of centrality measures under conditions of imperfect data.”](https://doi.org/10.1016/j.socnet.2005.05.001) *Social Networks* 28(2): 124–136.
+- Fortunato, Santo, and Marc Barthélemy. 2007. [“Resolution limit in community detection.”](https://doi.org/10.1073/pnas.0605965104) *Proceedings of the National Academy of Sciences* 104(1): 36–41.
+- Drucker, Johanna. 2011. [“Humanities Approaches to Graphical Display.”](https://digitalhumanities.org/dhq/vol/5/1/000091/000091.html) *Digital Humanities Quarterly* 5(1). Read alongside the chapter's distinction between display and evidential claims.
 
 ---
 

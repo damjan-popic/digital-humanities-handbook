@@ -16,14 +16,14 @@ The Slovene edition contains the stable core and a growing curated set of transl
 - **Automation** — 3
 - **CAT tools** — 3
 - **Corpora** — 6
-- **Data** — 1
+- **Data** — 2
 - **Data wrangling** — 5
 - **Digital editions** — 1
 - **Ethics** — 1
 - **Foundations** — 6
-- **Mapping** — 2
+- **Mapping** — 4
 - **MT evaluation** — 2
-- **Networks** — 1
+- **Networks** — 3
 - **NLP** — 15
 - **PDF & OCR** — 2
 - **Publishing & FAIR data** — 2
@@ -68,6 +68,7 @@ The Slovene edition contains the stable core and a growing curated set of transl
 ### Data
 
 - [How do I build a small humanities database with SQLite?](data/build-a-humanities-database-with-sqlite.md) <span class="tiny">— intermediate</span>
+- [How do I model changing names, statuses and boundaries in SQLite?](data/model-changing-names-statuses-and-boundaries-in-sqlite.md) <span class="tiny">— intermediate</span>
 
 ### Data wrangling
 
@@ -97,7 +98,9 @@ The Slovene edition contains the stable core and a growing curated set of transl
 ### Mapping
 
 - [How do I build a simple cultural heritage map?](mapping/build-a-simple-cultural-heritage-map.md) <span class="tiny">— beginner</span>
+- [How do I georeference and check a historical map in QGIS?](mapping/georeference-and-check-a-historical-map-in-qgis.md) <span class="tiny">— intermediate</span>
 - [How do I map places mentioned in a text?](mapping/map-places-mentioned-in-a-text.md) <span class="tiny">— beginner</span>
+- [How do I model changing place names and boundaries?](mapping/model-changing-place-names-and-boundaries.md) <span class="tiny">— intermediate</span>
 
 ### MT evaluation
 
@@ -106,7 +109,9 @@ The Slovene edition contains the stable core and a growing curated set of transl
 
 ### Networks
 
+- [How do I audit a network claim against source records?](networks/audit-a-network-claim-against-source-records.md) <span class="tiny">— intermediate</span>
 - [How do I build a source-linked co-occurrence network?](networks/build-a-cooccurrence-network.md) <span class="tiny">— intermediate</span>
+- [How do I compare bipartite and projected networks?](networks/compare-bipartite-and-projected-networks.md) <span class="tiny">— intermediate</span>
 
 ### NLP
 

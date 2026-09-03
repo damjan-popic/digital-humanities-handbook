@@ -1,0 +1,6 @@
+name_id,place_id,name,language,context,valid_start,valid_end,source_id,synthetic
+SYN-T1,SYN-L1,St. Peter,de,fictional_gazetteer,1910-01-01,1930-01-01,SYN-NAMES,true
+SYN-T2,SYN-L1,Šent Peter,sl,fictional_gazetteer,1910-01-01,1920-01-01,SYN-NAMES,true
+SYN-T3,SYN-L1,Šentpeter,sl,fictional_gazetteer,1920-01-01,1930-01-01,SYN-NAMES,true
+SYN-T4,SYN-L2,St. Peter,de,fictional_gazetteer,1910-01-01,1930-01-01,SYN-NAMES,true
+SYN-T5,SYN-L2,Sveti Peter,sl,fictional_gazetteer,1910-01-01,1930-01-01,SYN-NAMES,true

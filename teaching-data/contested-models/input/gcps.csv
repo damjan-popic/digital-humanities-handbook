@@ -1,0 +1,7 @@
+gcp_id,label,source_x_px,source_y_px,use,latitude,longitude,wikidata_id,revision,reported_precision_degrees,selection_note,target_e_m,target_n_m
+G1,Dragon Bridge / Zmajski most,3066,3772,fit,46.051944444444445,14.510277777777778,Q660029,2496507216,0.0002777777777777778,Approximate centre of bridge deck on scan,462103.822,101466.064
+G2,Trnovo church / Trnovska cerkev,2143,5233,fit,46.042919444444,14.502158333333,Q12786851,2283288802,0.0000027777777777778,Approximate church footprint centre on scan,461469.241,100466.915
+G3,Ljubljana Castle / Ljubljanski grad,2824,4278,fit,46.048712065,14.508634679,Q2075156,2537158640,0.001,Approximate castle footprint centre; not a survey monument,461974.456,101107.598
+G4,Tivoli Castle / Tivolski grad,1123,3372,fit,46.05468928145596,14.492970280711761,Q3402462,2445573064,0.0000001,Approximate mansion footprint centre on scan,460766.461,101779.516
+G5,Railway station / Železniška postaja,3004,2838,check,46.058889,14.513056,Q1817806,2532059745,0.001,Audit whether station point identifies same part of station,462323.532,102236.570
+G6,Cathedral / Stolnica,3020,3959,check,46.050714261,14.508242129,Q1236564,2532079073,0.001,Approximate cathedral footprint centre on scan,461945.452,101330.311

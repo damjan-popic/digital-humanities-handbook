@@ -1,0 +1,7 @@
+document_id,genre,date_start,date_end,date_kind,source_locator,synthetic
+SYN-D1,list,1910-06-01,1910-06-02,event_window,input/dossier.md#syn-d1,true
+SYN-D2,letter,1910-06-15,1910-06-16,event_window,input/dossier.md#syn-d2,true
+SYN-D3,list,1925-01-20,1925-01-21,event_window,input/dossier.md#syn-d3,true
+SYN-D4,letter,1925-01-25,1925-01-26,event_window,input/dossier.md#syn-d4,true
+SYN-D5,press_list,1925-02-07,1925-02-08,event_window,input/dossier.md#syn-d5,true
+SYN-D6,letter,1925-02-01,1925-03-01,event_window,input/dossier.md#syn-d6,true
