@@ -29,7 +29,7 @@ Sledili boste verigi **vir → surovi zapis → odločitev → urejeni zapis →
 - izvorne zapiske ali izvoz in natančne oznake mest v viru;
 - preglednico ali urejevalnik datotek CSV;
 - izjavo o pravicah, zasebnosti in možnosti nadaljnjega razširjanja; ter
-- po želji odprto [učno gradivo Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction), zlasti `raw/messy-records.csv`.
+- po želji prenesite [ZIP učnega gradiva Arhivsko trenje](../../../assets/downloads/archival-friction-v1.zip), zlasti `raw/messy-records.csv`; vzdrževalci lahko pregledate tudi [izvorno drevo paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
 Pripravite delovno kopijo. Edine kopije svojih zapiskov ter plasti `source/` in `raw/` v učnem gradivu ne spreminjajte.
 
@@ -58,7 +58,10 @@ Vrednosti prekopirajte v plast `raw`, ne da bi potiho popravljali zapis, datume 
 | `value_as_printed` | prepis vidnega dokaza |
 | `provider_value` | kataloška vrednost ali OCR, če se razlikuje |
 | `normalized_value` | poznejša vrednost za raziskovalno rabo |
-| `certainty` | točno, izpeljano, približno, nerešeno ali ni relevantno |
+| `date_status` | točno, izpeljano po navedenem pravilu, neznano ali se ne uporablja |
+| `printed_person_or_group` | oznaka osebe ali skupine, ohranjena iz vira |
+| `entity_structure` | ali enota predstavlja nič, eno ali več oseb |
+| `authority_link_status` | rezultat povezovanja z zunanjim normativnim zapisom, ločen od natisnjene oznake |
 | `evidence_note` | utemeljitev in mesto dokaza |
 | `synthetic` | oznaka namerno dodane učne motnje |
 
@@ -93,7 +96,7 @@ Popolnoma enako dodatno vrstico odstranite šele, ko lahko navedete, zakaj je en
 
 Izpeljite samo tabelo ali povzetek, ki ga potrebujete: število po vrstah zapisov, seznam nerešenih identitet, datume po stopnji gotovosti ali pokritost virov po straneh. Rezultat naj bo ločen od urejenih zapisov. Grafikon ali povzetek je interpretacija izbranih polj, ne njihovo nadomestilo.
 
-V učnem gradivu `output/record-summary.csv` povzema vrste urejenih zapisov in stopnje negotovosti. Če se odločitve spremenijo, ga izdelajte znova; ne popravljajte ga ročno.
+V učnem gradivu `output/record-summary.csv` povzema popis, vrste zapisov, stanja datumov, strukture enot in stanja povezav z normativnimi zapisi. Če se odločitve spremenijo, ga izdelajte znova; ne popravljajte ga ročno.
 
 ### 8. Preverite celotno sled
 
@@ -104,7 +107,7 @@ V kontrolni preglednici primerjajte pričakovane in dejanske vrednosti. Preverit
 - ima vsaka spremenjena vrednost zapisano odločitev;
 - so sprejeti izvorni zapisi ohranjeni, razen kadar dokumentirano pravilo določa izločitev;
 - so sintetične vrstice označene in izključene iz stvarnih rezultatov;
-- točne, izpeljane, približne in nerešene vrednosti ostanejo razločljive;
+- točne, po pravilu izpeljane, neznane in neustrezne datumske vrednosti ostanejo razločljive;
 - se vsote v rezultatu ujemajo z urejeno tabelo; ter
 - lahko pet izbranih vrstic prek dnevnika odločitev povežete z virom.
 
@@ -114,11 +117,11 @@ Po vsakem delu z dvojniki ponovno preverite ohranjene identifikatorje in števil
 
 Oddajte nespremenjeni vir ali navedbo vira, surovo tabelo, dnevnik odločitev, urejene zapise, rezultat za raziskovalno vprašanje, poročilo o preverjanju in seznam znanih težav. Dodajte kratek podatkovni slovar z opredelitvijo polj in dovoljenih oznak.
 
-Postopek je uspešen, če lahko druga oseba pojasni eno vrstico od vira do rezultata, rekonstruira vse vsebinske popravke, ponovi štetje vrstic in prepozna nerešena vprašanja. Preverjeni rezultat učnega gradiva ima osem urejenih zapisov; deveta surova vrstica je ločeno označen sintetični dvojnik.
+Postopek je uspešen, če lahko druga oseba pojasni eno vrstico od vira do rezultata, rekonstruira vse vsebinske popravke, ponovi štetje vrstic in prepozna nerešena vprašanja. Paket vsebuje en pristen dvostranski predmet, osem priročniških referenčnih opazovanj (eno o številki in sedem o prispevkih), štiri prijavljene motnje, osem očiščenih vrstic opazovanj in enega dodatnega sintetičnega dvojnika v surovi tabeli.
 
 ## Vpliv na raziskovalno trditev
 
-Primerjajte eno trditev pred urejanjem podatkov in po njem. Kandidat v surovi tabeli bi lahko podprl napačno trditev, da je govornik na fotografiji identificiran. Dnevnik odločitev podpira ožjo trditev: napis vsebuje obliko »Mr. Meker«, identiteta osebe v normativni zbirki pa ostaja nerešena.
+Primerjajte eno trditev pred urejanjem podatkov in po njem. Sintetično stanje v surovi tabeli bi lahko podprlo napačno trditev, da je govornik na fotografiji identificiran. Dnevnik odločitev podpira ožjo trditev: napis vsebuje obliko »Mr. Meker«, enota predstavlja eno osebo, preizkušeni kandidat Ezra Meeker pa je glede na sedanje dokaze zavrnjen.
 
 ## Preverite se
 
@@ -142,7 +145,7 @@ Primerjajte eno trditev pred urejanjem podatkov in po njem. Kandidat v surovi ta
 
 ## Naloga
 
-Odprite `raw/messy-records.csv` in PDF iz učnega gradiva. Preden pogledate plast `cleaned/`, poiščite štiri označene sintetične motnje, za vsako zapišite odločitev in izdelajte urejeno tabelo. Rezultat primerjajte z `cleaned/records.csv` in `cleaned/decisions.csv`. Pojasnite, zakaj verjetna povezava osebe »Mr. Meker« ostane nerešena in zakaj je leto 1925 pri sliki struge Ljubljanice samo približno.
+V prenesenem paketu odprite `raw/messy-records.csv`, `reference/observations.csv` in PDF. Preden pogledate plast `cleaned/`, poiščite štiri označene sintetične motnje, za vsako zapišite odločitev in izdelajte urejeno tabelo. Rezultat primerjajte z `cleaned/records.csv` in `cleaned/decisions.csv`. Pojasnite, zakaj je natisnjeni »Mr. Meker« ločen od zavrnjenega normativnega kandidata in zakaj je datum nastanka fotografije struge prazen oziroma `unknown`, čeprav je datum številke 1925-02-07 zapisan kot kontekst.
 
 Nato zasnujte drugo shemo, v kateri ena vrstica predstavlja osebo in ne gradiva z napisom. Opišite, katera vprašanja postanejo lažja in za katera razmerja potrebujete dodatno tabelo.
 

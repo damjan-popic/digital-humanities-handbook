@@ -1,6 +1,6 @@
 # PDF in OCR
 
-Postopki za skenirane dokumente, optično razpoznavanje znakov, razpoznavanje rokopisa in preverljivo vrednotenje besedila.
+Postopki za skenirane dokumente, optično prepoznavanje znakov (OCR), prepoznavanje rokopisnega besedila (HTR) in preverljivo vrednotenje besedila.
 
 | Vprašanje | Zahtevnost | Čas | Oznake |
 |---|---|---|---|

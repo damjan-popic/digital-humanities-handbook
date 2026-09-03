@@ -1,6 +1,23 @@
-measure,value
-source_records,8
-raw_records,9
-synthetic_perturbations,4
-clean_records,8
-unresolved_or_unknown_identity_records,5
+dimension,category,count,notes
+inventory,authentic_historical_object,1,One two-page PDF.
+inventory,reference_observation,8,Handbook-created and source-grounded.
+inventory,issue_record,1,Issue-level reference observation.
+inventory,feature_record,7,Feature-level reference observations.
+inventory,synthetic_perturbation,4,Declared teaching disturbances.
+inventory,raw_row,9,Eight reference rows plus one duplicate.
+inventory,clean_row,8,Synthetic changes removed.
+inventory,unresolved_case,2,Field-specific open cases.
+record_kind,captioned_feature,4,Derived from cleaned/records.csv.
+record_kind,group_portrait,1,Derived from cleaned/records.csv.
+record_kind,issue,1,Derived from cleaned/records.csv.
+record_kind,portrait,2,Derived from cleaned/records.csv.
+date_status,derived_from_relative_date,2,Derived from cleaned/records.csv.
+date_status,exact,1,Derived from cleaned/records.csv.
+date_status,not_applicable,4,Derived from cleaned/records.csv.
+date_status,unknown,1,Derived from cleaned/records.csv.
+entity_structure,multiple_people,1,Derived from cleaned/records.csv.
+entity_structure,one_person,4,Derived from cleaned/records.csv.
+entity_structure,zero_people,3,Derived from cleaned/records.csv.
+authority_link_status,candidate_rejected,1,Derived from cleaned/records.csv.
+authority_link_status,not_applicable,4,Derived from cleaned/records.csv.
+authority_link_status,not_attempted,3,Derived from cleaned/records.csv.

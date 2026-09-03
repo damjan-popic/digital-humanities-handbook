@@ -51,7 +51,7 @@ Preberite [Kaj je digitalna humanistika?](../chapters/what-is-digital-humanities
 
 Uporabite poglavja [Modeli, dokazno gradivo in interpretacija](../chapters/models-evidence-interpretation.md), [Infrastrukture digitalne humanistike](../chapters/critical-infrastructures.md) ter [Od vprašanja do metode](../chapters/research-design.md). Široko temo spremenite v omejeno raziskovalno vprašanje ter določite predmet, obseg, možno dokazno gradivo, začasni model, drugačno razlago in eno infrastrukturno omejitev.
 
-Z [učnim gradivom Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) na videz smiselno vprašanje preizkusite ob dejanskem vzorčnem okviru, pravicah, datumih in enotah zapisa. Trditev zožite ali preoblikujte, kadar je dvostranski vir ne more podpreti.
+Prenesite [ZIP učnega gradiva Arhivsko trenje](../../assets/downloads/archival-friction-v1.zip) in z njim na videz smiselno vprašanje preizkusite ob dejanskem vzorčnem okviru, pravicah, datumih in enotah zapisa; [izvorno drevo paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) ostaja na voljo za pregled. Trditev zožite ali preoblikujte, kadar je dvostranski vir ne more podpreti.
 
 **Izhod:** oris vprašanja in dokaznega gradiva, ki loči opis, dokaz, interpretacijo in priporočilo.
 

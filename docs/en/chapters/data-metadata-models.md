@@ -29,8 +29,9 @@ catalogue record? If not, the table lacks semantics and provenance, not just
 tidiness.
 
 No database or coding experience is required. You need a small collection or
-the [*Archival friction* teaching
-packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+the [*Archival friction* teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip);
+the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction)
+is available for inspection.
 Your outputs will be a record model, data dictionary, correction log and
 quality report. A successful result preserves evidence even when a value is
 normalized or left unresolved. The central failure mode is silent
@@ -147,9 +148,9 @@ At least four values may legitimately differ:
 
 Store them in different fields or tables. For a caption printed as “Mr.
 Meker”, an OCR layer might agree, an authority-search layer might propose
-“Ezra Meeker”, and the audited status may remain `unresolved`. Replacing the
-printed form with the candidate makes the source appear more certain than it
-is and prevents later review.
+“Ezra Meeker”, and the audited authority-link status may be
+`candidate_rejected`. Replacing the printed form with the candidate makes the
+source appear more certain than it is and prevents later review.
 
 Keep four file or database layers even when you also separate values by
 field: a **source/raw layer** that is never silently changed; an **interim
@@ -158,6 +159,13 @@ layer** for candidates and repeatable transformations; a
 stated purpose; and a **decision layer** recording interventions, rejections
 and unresolved cases. The interim layer is not evidence merely because a
 tool produced it, and the processed layer never replaces the source.
+
+The teaching packet makes the directory roles still more explicit:
+`source/` contains only the unchanged PDF, captured provider records and
+unchanged provider OCR; `reference/` contains handbook-created observations,
+editorial decisions and reference transcription; `teaching/` declares
+synthetic disturbances; and `raw/`, `interim/`, `cleaned/`, `output/`,
+`validation/` and `known-problems/` preserve the subsequent evidence chain.
 
 A correction log should contain at least a decision identifier, record and
 field, previous and new value, action, evidence, responsible person or
@@ -203,16 +211,18 @@ certainty fields may be more interoperable in a small project. Never turn
 “probably 1925” into the exact date `1925-01-01` merely because a spreadsheet
 expects a day.
 
-## Names and authority reconciliation
+## Printed identity, entity structure and authority reconciliation
 
 Authority files can connect spelling variants and supply durable identifiers,
-but reconciliation is a research claim. Preserve:
+but reconciliation is a research claim. Preserve separately:
 
-- `name_as_printed`;
+- `printed_person_or_group`, the local label from the source;
+- `entity_structure` (`zero_people`, `one_person` or `multiple_people`);
 - a normalized display label, if needed;
-- the authority system and candidate URI;
-- match status (`accepted`, `possible`, `rejected`, `unresolved`);
-- evidence and reviewer;
+- the authority system and `authority_candidate` URI or label;
+- `authority_link_status` (`not_attempted`, `not_reconciled`,
+  `candidate_rejected`, `accepted`, `unresolved` or `not_applicable`);
+- authority evidence, decision and reviewer;
 - access date, because interfaces and records change.
 
 Do not accept the highest search result solely because the label matches. Test
@@ -223,8 +233,10 @@ persistent subject identifiers and variant names but describe an evolving,
 domain-bounded resource, not a universal list of people and places.[^getty]
 
 Treat reconciliation as **linking with evidence**, not replacing the local
-record. If no candidate is sufficiently supported, `unresolved` is a valid
-result.
+record. A clearly printed name is not an unresolved identity merely because
+no URI has been assigned, and a group portrait is not one unresolved person.
+If a tested candidate is insufficiently supported, `candidate_rejected` is a
+valid, auditable result.
 
 ## Missingness has meanings
 
@@ -307,30 +319,33 @@ Automated checks find structural contradictions. They cannot decide whether a
 caption is politically neutral, a person match is historically persuasive or
 a category is adequate. Combine them with source review.
 
-## Worked example: eight records under friction
+## Worked example: one object and eight reference observations
 
-The teaching packet records eight units from a two-page issue. The source
-table preserves transcribed labels, provider OCR, printed dates, normalized
-dates, certainty, names, candidate authorities, source locators and evidence
-notes. A separate perturbation table introduces four declared teaching
-problems. The generated raw table therefore contains nine rows: three altered
-fields and one duplicate row.
+The teaching packet contains one authentic two-page issue. In `reference/`,
+the handbook records eight source-grounded observations: one issue and seven
+features. The observation table preserves transcribed labels, provider OCR,
+date scope and status, a separate issue-context date, printed person/group
+labels, entity structure, authority candidates and statuses, source locators
+and evidence notes. `teaching/` introduces four declared problems. The
+generated raw table therefore contains nine rows: three altered fields and
+one duplicate row.
 
 The audit proceeds as follows:
 
 1. Verify the committed PDF against its provider and SHA-256.
-2. Confirm that all eight source identifiers resolve to a page and region.
+2. Confirm that all eight reference-observation identifiers resolve to a page and region.
 3. Compare each changed raw field with the facsimile, not only the clean
    answer table.
 4. Restore the caption's capitalization where the image decides the matter.
 5. Remove only the row explicitly declared as a synthetic duplicate; retain
    the underlying feature.
-6. Reject the silent change from “Meker” to “Meeker” and leave the authority
-   candidate blank because the packet supplies no independent evidence.
-7. Retain derived and approximate dates with their statuses rather than
-   converting them to unqualified exact dates.
-8. Verify eight clean record IDs, four logged decisions and no altered source
-   bytes.
+6. Reject the silent change from “Meker” to “Meeker”; retain Ezra Meeker as a
+   reviewed candidate with `candidate_rejected`, not as an accepted identity.
+7. Derive 1925-02-01 and 1925-01-27 under explicit rules, but leave the
+   riverbed photograph's creation date blank/`unknown`; its issue date is
+   context only.
+8. Verify eight clean IDs, eight authentic editorial decisions, four
+   synthetic reversals and no altered source bytes.
 
 The clean result is not a claim that all eight records are complete. It is a
 claim that every retained value has a declared evidential status and can be
@@ -338,7 +353,9 @@ audited.
 
 ## Practice: build and audit a record model
 
-Using the packet or five to ten records from your field, prepare:
+Using the [packet ZIP](../../assets/downloads/archival-friction-v1.zip)—with
+its [source tree available for audit](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction)—or
+five to ten records from your field, prepare:
 
 1. a conceptual sketch of entities and relations;
 2. a table or set of tables in which every row has one meaning;

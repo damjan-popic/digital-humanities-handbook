@@ -29,7 +29,7 @@ This workflow uses a **source → raw note → decision → clean record → out
 - your original notes or source export, plus locators back to the evidence;
 - a spreadsheet application or CSV-capable editor;
 - a statement about rights, privacy and redistribution; and
-- optionally, the open [Archival Friction teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction), especially `raw/messy-records.csv`.
+- optionally, download the [Archival Friction teaching packet ZIP](../../../assets/downloads/archival-friction-v1.zip), especially `raw/messy-records.csv`; maintainers can also inspect the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
 Make a working copy. Do not edit the only copy of your notes or the packet's `source/` and `raw/` layers.
 
@@ -58,7 +58,10 @@ Copy the relevant values into `raw` without silently correcting spelling, dates 
 | `value_as_printed` | transcription of visible evidence |
 | `provider_value` | catalogue or OCR value, if different |
 | `normalized_value` | later research-ready form |
-| `certainty` | exact, derived, approximate, unresolved or not applicable |
+| `date_status` | exact, derived from a stated rule, unknown or not applicable |
+| `printed_person_or_group` | local label preserved from the source |
+| `entity_structure` | whether the unit represents zero, one or multiple people |
+| `authority_link_status` | result of external authority reconciliation, kept separate from the printed label |
 | `evidence_note` | reason and supporting location |
 | `synthetic` | whether a teaching disturbance was deliberately added |
 
@@ -93,7 +96,7 @@ For exact duplicate rows, remove the declared extra row only after you can state
 
 Derive only the table or summary the research question needs: counts by record type, a list of unresolved identities, dates by certainty, or source coverage by page. Keep this output separate from the clean records. A chart or summary is an interpretation of selected fields, not a replacement for them.
 
-In the packet, `output/record-summary.csv` counts the clean record types and uncertainty states. It should be regenerated when decisions change, not corrected by hand.
+In the packet, `output/record-summary.csv` reports the inventory, record kinds, date states, entity structures and authority-link states. It should be regenerated when decisions change, not corrected by hand.
 
 ### 8. Validate the chain
 
@@ -104,7 +107,7 @@ Use a small validation sheet with expected and observed values. Check that:
 - every changed value has a decision row;
 - accepted source records remain present unless a documented rule excludes one;
 - synthetic rows are identified and absent from factual outputs;
-- exact, derived, approximate and unresolved values remain distinguishable;
+- exact, rule-derived, unknown and not-applicable date values remain distinguishable;
 - output totals equal clean-table totals; and
 - five sampled rows can be followed back through the decision log to the source.
 
@@ -114,11 +117,11 @@ Recheck retained identifiers and row counts after any duplicate operation. Save 
 
 Deliver an unchanged source or source reference, raw table, decision log, clean records, a question-shaped output, validation report and known-problems note. Include a small data dictionary defining each field and allowed status.
 
-The workflow passes when another person can explain one row from source to output, reconstruct every material correction, reproduce the row counts, and identify what remains unresolved. The packet's checked result contains eight clean records; the ninth raw row is a separately declared synthetic duplicate.
+The workflow passes when another person can explain one row from source to output, reconstruct every material correction, reproduce the row counts, and identify what remains unresolved. The packet contains one authentic two-page object, eight handbook-created reference observations (one issue and seven features), four declared perturbations, eight clean observation rows, and one additional synthetic duplicate in the raw table.
 
 ## Effect on a scholarly claim
 
-Compare one claim before and after cleaning. In the packet, the raw authority candidate could support the false claim that the photographed speaker has been identified. The decision log instead supports a narrower claim: the caption supplies the printed form “Mr. Meker,” while the person's authority identity remains unresolved.
+Compare one claim before and after cleaning. In the packet, a synthetic raw status could support the false claim that the photographed speaker has been identified. The decision log supports a narrower claim: the caption supplies the printed form “Mr. Meker,” the unit represents one person, and the tested Ezra Meeker authority candidate is rejected on current evidence.
 
 ## Check yourself
 
@@ -142,7 +145,7 @@ Compare one claim before and after cleaning. In the packet, the raw authority ca
 
 ## Practice task
 
-Open the packet's `raw/messy-records.csv` and the PDF. Without consulting `cleaned/` first, find the four declared synthetic disturbances, record a decision for each, and create a clean table. Compare your result with `cleaned/records.csv` and `cleaned/decisions.csv`. Explain why the tempting authority match for “Mr. Meker” remains unresolved and why the 1925 date on the riverbed image is approximate.
+Open the downloaded packet's `raw/messy-records.csv`, `reference/observations.csv` and PDF. Without consulting `cleaned/` first, find the four declared synthetic disturbances, record a decision for each, and create a clean table. Compare your result with `cleaned/records.csv` and `cleaned/decisions.csv`. Explain why the printed “Mr. Meker” remains distinct from the rejected authority candidate and why the riverbed photograph's creation date is blank/`unknown` even though its issue context is 1925-02-07.
 
 Then design a second schema in which one row represents a person rather than a captioned feature. State which questions become easier and which source relationships require an additional table.
 

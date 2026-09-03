@@ -29,8 +29,9 @@ delu slike ali kataloškemu zapisu? Če ne, tabeli ne manjka samo urejenost,
 temveč tudi pomen in provenienca.
 
 Poznavanje podatkovnih zbirk ali programiranja ni potrebno. Potrebujete majhno
-zbirko ali učni paket [*Arhivsko
-trenje*](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+zbirko ali [ZIP učnega paketa *Arhivsko
+trenje*](../../assets/downloads/archival-friction-v1.zip); za pregled zgradbe
+je na voljo tudi [izvorno drevo paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 Pripravili boste model zapisov, podatkovni slovar, dnevnik popravkov in
 poročilo o kakovosti. Dober rezultat ohrani dokazno gradivo tudi tedaj, ko
 vrednost normalizirate ali pustite nerazrešeno. Osrednja napaka je tiho
@@ -148,9 +149,9 @@ Utemeljeno se lahko razlikujejo vsaj štiri vrednosti:
 
 Hranite jih v različnih poljih ali tabelah. Če v napisu piše »Mr. Meker«, se
 lahko besedilo OCR z njim ujema, iskanje po normativnih zbirkah pa predlaga
-»Ezra Meeker«. Pregledano stanje je lahko še vedno `unresolved`. Če natisnjeno
-obliko nadomestite s kandidatom, je vir videti gotovejši, kot je v resnici,
-in poznejše preverjanje ni več mogoče.
+»Ezra Meeker«. Pregledano stanje povezave je lahko `candidate_rejected`. Če
+natisnjeno obliko nadomestite s kandidatom, je vir videti gotovejši, kot je v
+resnici, in poznejše preverjanje ni več mogoče.
 
 Tudi kadar vrednosti ločite po poljih, ohranite štiri datotečne ali
 podatkovne plasti: nespremenljivo **izvorno oziroma surovo plast**;
@@ -159,6 +160,13 @@ modelirano plast** s sprejeto razlago za določen namen; ter **odločitveno
 plast**, v kateri beležite posege, zavrnitve in nerešene primere. Vmesna plast
 ni dokaz že zato, ker jo je izdelalo orodje, obdelana plast pa ne nadomesti
 vira.
+
+Učni paket vloge map opredeli še natančneje. `source/` vsebuje samo
+nespremenjeni PDF, zajeta zapisa ponudnikov in nespremenjeni ponudnikov OCR;
+`reference/` vsebuje priročniška opazovanja, uredniške odločitve in
+referenčni prepis; `teaching/` prijavlja sintetične motnje; `raw/`,
+`interim/`, `cleaned/`, `output/`, `validation/` in `known-problems/` pa
+ohranjajo nadaljnjo sled dokazov.
 
 Dnevnik popravkov naj vsebuje vsaj identifikator odločitve, zapis in polje,
 prejšnjo in novo vrednost, dejanje, dokaz, odgovorno osebo ali postopek, datum
@@ -200,19 +208,22 @@ zapis za negotove (`1984?`), približne (`2004-06~`), nedoločene datume in
 intervale.[^edtf] Uporabite jo samo, če programska oprema podpira navedeno
 raven specifikacije in lahko bralci obnovijo izvirno obliko. Pri majhnem
 projektu je lahko preprost interval z ločenim poljem gotovosti bolj
-povezljiv. Zapisa »verjetno 1925« nikoli ne spreminjajte v natančni datum
+interoperabilen. Zapisa »verjetno 1925« nikoli ne spreminjajte v natančni datum
 `1925-01-01` zgolj zato, ker preglednica zahteva dan.
 
-## Imena in povezovanje z normativnimi zbirkami
+## Natisnjena identiteta, struktura enote in povezovanje z normativnimi zbirkami
 
 Normativne zbirke lahko povežejo zapisne različice in ponudijo trajne
-identifikatorje, vendar je vsaka povezava raziskovalna trditev. Ohranite:
+identifikatorje, vendar je vsaka povezava raziskovalna trditev. Ločeno
+ohranite:
 
-- `ime_iz_vira`;
+- `printed_person_or_group`, oznako osebe ali skupine iz vira;
+- `entity_structure` (`zero_people`, `one_person` ali `multiple_people`);
 - normalizirano prikazno ime, če ga potrebujete;
-- ime normativne zbirke in URI kandidata;
-- stanje povezave (`accepted`, `possible`, `rejected`, `unresolved`);
-- dokaz in ime pregledovalca;
+- ime normativne zbirke in `authority_candidate`, kandidatni URI ali oznako;
+- `authority_link_status` (`not_attempted`, `not_reconciled`,
+  `candidate_rejected`, `accepted`, `unresolved` ali `not_applicable`);
+- dokaze za povezavo, odločitev in ime pregledovalca;
 - datum dostopa, saj se vmesniki in zapisi spreminjajo.
 
 Ne sprejmite prvega iskalnega zadetka samo zato, ker se ime ujema. Preverite
@@ -224,8 +235,10 @@ spreminjajoč se in področno omejen vir, ne kot univerzalni seznam oseb in
 krajev.[^getty]
 
 Povezovanje razumite kot **dodajanje povezave z dokazom**, ne kot
-nadomeščanje lokalnega zapisa. Če noben kandidat ni dovolj dobro podprt, je
-`unresolved` veljaven rezultat.
+nadomeščanje zapisa iz vira. Jasno natisnjeno ime ni nerešena identiteta samo
+zato, ker mu niste dodali URI-ja, skupinski portret pa ni ena nerešena oseba.
+Če preizkušeni kandidat nima dovolj podpore, je `candidate_rejected`
+veljaven in preverljiv rezultat.
 
 ## Manjkajoče vrednosti imajo različne pomene
 
@@ -310,30 +323,34 @@ Samodejno preverjanje najde strukturna protislovja. Ne more odločiti, ali je
 slikovni napis politično nevtralen, povezava osebe zgodovinsko prepričljiva
 ali kategorija primerna. Združite ga s pregledom virov.
 
-## Razdelan primer: osem zapisov z motnjami
+## Razdelan primer: en predmet in osem referenčnih opazovanj
 
-Učni paket vsebuje osem enot iz dvostranske časopisne številke. Izvorna
-tabela hrani prepisane oznake, OCR ponudnika, natisnjene in normalizirane
-datume, stopnjo gotovosti, imena, kandidate iz normativnih zbirk, mesta v viru
-ter dokazne opombe. Ločena tabela motenj uvede štiri jasno označene učne
-težave. Izdelana surova tabela ima zato devet vrstic: tri spremenjena polja in
-eno podvojeno vrstico.
+Učni paket vsebuje en pristen predmet, dvostransko časopisno številko. V mapi
+`reference/` je osem priročniških, na viru utemeljenih opazovanj: eno o
+številki in sedem o prispevkih. Tabela hrani prepise oznak, OCR ponudnika,
+obseg in stanje datumov, ločeni datum številke, natisnjene oznake oseb ali
+skupin, strukturo enote, normativne kandidate in stanja povezav, mesta v viru
+ter opombe o dokazih. Mapa `teaching/` uvede štiri prijavljene učne težave.
+Izdelana surova tabela ima zato devet vrstic: tri spremenjena polja in eno
+podvojeno vrstico.
 
 Pregled opravite tako:
 
 1. Shranjeni PDF preverite pri ponudniku in s kontrolno vsoto SHA-256.
-2. Potrdite, da vseh osem izvornih identifikatorjev vodi do strani in območja.
+2. Potrdite, da vseh osem oznak referenčnih opazovanj vodi do strani in območja.
 3. Vsako spremenjeno surovo polje primerjajte s faksimilom, ne samo s tabelo
    pravilnih odgovorov.
 4. Velikost začetnice v slikovnem napisu popravite, kadar je podoba jasna.
 5. Izločite samo vrstico, ki je izrecno označena kot sintetični dvojnik;
    izvorno enoto ohranite.
-6. Zavrnite tiho spremembo »Meker« v »Meeker« in pustite kandidata normativne
-   zbirke praznega, ker paket ne vsebuje neodvisnega dokaza.
-7. Izpeljane in približne datume ohranite z njihovimi stanji, namesto da bi jih
-   spremenili v neoznačene natančne datume.
-8. Preverite osem očiščenih identifikatorjev, štiri zapisane odločitve in
-   nespremenjene bajte izvorne datoteke.
+6. Zavrnite tiho spremembo »Meker« v »Meeker«; Ezro Meekerja ohranite kot
+   pregledanega kandidata s stanjem `candidate_rejected`, ne kot sprejeto
+   identiteto.
+7. Datuma 1925-02-01 in 1925-01-27 izpeljite po izrecnih pravilih, datum
+   nastanka fotografije struge pa pustite prazen oziroma `unknown`; datum
+   številke je samo kontekst.
+8. Preverite osem očiščenih oznak, osem pristnih uredniških odločitev, štiri
+   razveljavitve sintetičnih motenj in nespremenjene bajte izvorne datoteke.
 
 Očiščeni rezultat ne trdi, da je vseh osem zapisov popolnih. Trdi, da ima
 vsaka ohranjena vrednost določeno dokazno stanje in da jo je mogoče
@@ -341,7 +358,9 @@ preveriti.
 
 ## Vaja: izdelajte in preverite model zapisov
 
-Z učnim paketom ali petimi do desetimi zapisi s svojega področja pripravite:
+Uporabite [ZIP učnega paketa](../../assets/downloads/archival-friction-v1.zip),
+katerega [izvorno drevo je na voljo za pregled](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction),
+ali pet do deset zapisov s svojega področja. Pripravite:
 
 1. konceptualno skico entitet in razmerij;
 2. eno ali več tabel, v katerih ima vsaka vrstica en sam pomen;

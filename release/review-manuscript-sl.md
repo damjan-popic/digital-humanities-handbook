@@ -721,7 +721,7 @@ Po tem poglavju boste znali:
 
 ## Pred začetkom: kaj omogoča navidezno preprosto iskanje?
 
-V zgodovinskem korpusu poiščemo besedo in hitro dobimo zadetke. Zdi se, da postopek vključuje le bralca, polje in indeks. V resnici je odvisen od nastanka in ohranitve zapisov, institucionalnega izbora in financiranja, katalogizacije, skeniranja, optičnega razpoznavanja znakov (OCR), členjenja člankov, identifikatorjev, metapodatkov, strežnikov, programske opreme, razvrščanja, odločitev o pravicah ter ljudi, ki vse našteto vzdržujejo. Kaj bi lahko spremenilo rezultat, ne da bi spremenili poizvedbo?
+V zgodovinskem korpusu poiščemo besedo in hitro dobimo zadetke. Zdi se, da postopek vključuje le bralca, polje in indeks. V resnici je odvisen od nastanka in ohranitve zapisov, institucionalnega izbora in financiranja, katalogizacije, skeniranja, optičnega prepoznavanja znakov (OCR), členjenja člankov, identifikatorjev, metapodatkov, strežnikov, programske opreme, razvrščanja, odločitev o pravicah ter ljudi, ki vse našteto vzdržujejo. Kaj bi lahko spremenilo rezultat, ne da bi spremenili poizvedbo?
 
 **Predznanje:** preberite poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md), zlasti razpravo o izboru, kategorijah in negotovosti. Programiranje ni potrebno. **Vhod za vajo:** digitalna zbirka ali raziskovalna storitev, ki jo smete javno opisati, ter predlagana humanistična trditev. **Rezultat:** presoja infrastrukture z razločenimi vrstami dokaznega gradiva. **Preverjanje:** drugi bralec mora ločiti vaša opažanja, navedbe ustanove, lastne preizkuse in interpretacije. **Omejitve:** ne obidite nadzora dostopa, ne razkrivajte občutljivih zapisov in pravne dostopnosti ne zamenjujte z etičnim dovoljenjem.
 
@@ -784,7 +784,7 @@ Vzdrževanje je znanstveno delo, ker ohranja razmere, v katerih je mogoče dokaz
 
 ## Jezik, geografija in domnevno »globalno« področje
 
-Izraz **jezik z manj viri** naj opisuje razmerje, ne pomanjkljivosti jezika ali njegovih govorcev. Razpoložljivost je odvisna od naloge, žanra, obdobja in področja ter od obsega in licenciranja korpusov, slovarjev, označenih primerov, modelov, računske zmogljivosti, vmesnikov in strokovnega časa. Jezik z dobro podporo za prevajanje sodobnih novic ima lahko slabo podporo za OCR tiska iz 18. stoletja ali razpoznavanje imen v narečnih besedilih. Pregled rabe poimenovanja *low-resource* ugotavlja več povezanih osi in malo soglasja o enem pragu.[^manj-virov]
+Izraz **jezik z manj viri** naj opisuje razmerje, ne pomanjkljivosti jezika ali njegovih govorcev. Razpoložljivost je odvisna od naloge, žanra, obdobja in področja ter od obsega in licenciranja korpusov, slovarjev, označenih primerov, modelov, računske zmogljivosti, vmesnikov in strokovnega časa. Jezik z dobro podporo za prevajanje sodobnih novic ima lahko slabo podporo za OCR tiska iz 18. stoletja ali prepoznavanje imen v narečnih besedilih. Pregled rabe poimenovanja *low-resource* ugotavlja več povezanih osi in malo soglasja o enem pragu.[^manj-virov]
 
 Orodje, naučeno na sodobni knjižni slovenščini, se morda ne bo zanesljivo preneslo na starejšo tipografijo, zgodovinsko oblikoslovje ali časopisje z regionalno mešanico jezikov. Večjezični katalog lahko prikazuje slovenske opise, zadetke pa razvršča z indeksom, osredinjenim na angleščino. To so preverljive infrastrukturne odvisnosti, ne trditve, da slovenščina ni dovolj razvita ali da vsa orodja delujejo slabo. Uspešnost merimo za dejansko obdobje, žanr in jezikovno različico, ohranimo jezikovne oznake in izvirno izrazje, vključimo ustrezno strokovno znanje ter primerjamo smiselna izhodišča.
 
@@ -815,7 +815,7 @@ Lastnost ene sestavine ne določa drugih. Odprtokodna koda lahko obdeluje omejen
 
 Načela FAIR iz leta 2016 zahtevajo, da so digitalni raziskovalni objekti **Findable (najdljivi), Accessible (dostopni), Interoperable (interoperabilni) in Reusable (ponovno uporabni)**. Dostop lahko po potrebi vključuje avtentikacijo in avtorizacijo; FAIR torej ne zahteva neomejenega javnega prenosa in samo po sebi ne zagotavlja kakovosti ali etične upravičenosti.[^fair] Načela CARE za upravljanje podatkov domorodnih skupnosti poudarjajo **Collective Benefit (kolektivno korist), Authority to Control (pristojnost za nadzor oziroma odločanje), Responsibility (odgovornost) in Ethics (etiko)**. Nastala so v mrežah za podatkovno suverenost domorodnih ljudstev in zadevajo njihove pravice ter interese v podatkih o njihovih skupnostih, ozemljih, znanju in kulturah.[^care][^gida]
 
-Načela FAIR zadevajo najdljivost, pridobivanje pod jasnimi pogoji, povezljivost in ponovno rabo podatkov ter metapodatkov. Načela CARE se osredotočajo na korist, odločanje in odgovornost v specifičnem kontekstu podatkov domorodnih ljudstev. Pristopa se lahko dopolnjujeta, vendar lahko objekt, tehnično skladen z načeli FAIR, krši načela CARE, legitimna pristojnost za nadzor pa omeji ponovno uporabo. Načela CARE niso omejena na eno državo, kratice pa ne smemo razumeti kot splošne etične oznake, ločene od domorodnega upravljanja podatkov. Drugi projekti se lahko učijo vprašanj o koristih in pristojnostih, ne da bi si prisvojili njihov izvor ali neutemeljeno zatrjevali skladnost.
+Načela FAIR zadevajo najdljivost, pridobivanje pod jasnimi pogoji, interoperabilnost in ponovno rabo podatkov ter metapodatkov. Načela CARE se osredotočajo na korist, odločanje in odgovornost v specifičnem kontekstu podatkov domorodnih ljudstev. Pristopa se lahko dopolnjujeta, vendar lahko objekt, tehnično skladen z načeli FAIR, krši načela CARE, legitimna pristojnost za nadzor pa omeji ponovno uporabo. Načela CARE niso omejena na eno državo, kratice pa ne smemo razumeti kot splošne etične oznake, ločene od domorodnega upravljanja podatkov. Drugi projekti se lahko učijo vprašanj o koristih in pristojnostih, ne da bi si prisvojili njihov izvor ali neutemeljeno zatrjevali skladnost.
 
 ## Vzdrževanje in okoljski stroški
 
@@ -831,7 +831,7 @@ Zamislimo si raziskavo uokvirjanja javnega strahu v stoletju časopisja v jeziku
 
 1. **Ohranjenost:** ohranili so se le nekateri naslovi, letniki in fizični izvodi, pri čemer se stanje lahko razlikuje po regijah in založnikih.
 2. **Izbor in financiranje digitalizacije:** ustanova izbere podmnožico glede na stanje, uporabo, pomen, pravice ali sredstva; razloge in zavrnjeno gradivo naj dokumentira.
-3. **Skeniranje:** vezani letniki, presevanje tiska, poškodbe, stolpci in oglasi vplivajo na kakovost slike ter razpoznavanje postavitve.
+3. **Skeniranje:** vezani letniki, presevanje tiska, poškodbe, stolpci in oglasi vplivajo na kakovost slike ter prepoznavanje postavitve.
 4. **OCR:** natančnost se spreminja z obdobjem, tipografijo, pravopisom, jezikovno različico in stanjem strani; ovrednotiti jo moramo po slojih, ne z eno skupno oceno.
 5. **Členjenje in metapodatki:** meje člankov, datumi, žanri, naslovi in identiteta časopisa so rezultat samodejnega sklepanja ali vnosa; stran še ni samodejno članek.
 6. **Pravice in posredovanje:** avtorske pravice, zasebnost ali pogodbe lahko dovolijo branje, ne pa množičnega prenosa, ali pa omejijo API; to vpliva na ponovljivost in vzorčenje.
@@ -1176,10 +1176,10 @@ Poglavje argument iz [Modelov, dokaznega gradiva in
 interpretacije](models-evidence-interpretation.md) prevede v izvedljiv
 raziskovalni načrt. [Podatki, metapodatki in
 modeli](data-metadata-models.md) obravnavajo zgradbo zapisov, [Besedila,
-korpusi ter optična in rokopisna razpoznava](texts-corpora-ocr.md) pa slike
-dokumentov, OCR/HTR in vzorčenje korpusa. Vsem trem poglavjem je namenjen
-majhen učni paket [*Arhivsko
-trenje*](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+korpusi in OCR](texts-corpora-ocr.md) pa slike dokumentov, OCR/HTR in
+vzorčenje korpusa. Vsem trem poglavjem je namenjen majhen [ZIP učnega paketa
+*Arhivsko trenje*](../../assets/downloads/archival-friction-v1.zip), njegovo
+[izvorno drevo pa ostaja na voljo za pregled](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
 ## Raziskovalna zasnova je vnaprej pripravljen argument
 
@@ -1268,7 +1268,7 @@ vprašanje še mogoče utemeljiti. Majhen zakonit projekt je trdnejši od velike
 zbirke, ki je nihče ne more pregledati ali deliti.
 
 »Odprto« ne pomeni samodejno etično neproblematično. Načela FAIR poudarjajo
-najdljivost, dostopnost, povezljivost in ponovno uporabljivost raziskovalnih
+najdljivost, dostopnost, interoperabilnost in ponovno uporabljivost raziskovalnih
 predmetov, vključno s provenienco in licencami.[^fair] Načela CARE k temu pri
 upravljanju podatkov domorodnih ljudstev dodajajo skupno korist, pristojnost
 za nadzor, odgovornost in etiko.[^care] Upoštevajte merila skupnosti, ki jih
@@ -1301,7 +1301,7 @@ razlikujejo, vendar morate razlike navesti.
 
 Če povedi iz istega članka obravnavate kot neodvisna opazovanja, lahko dolg
 članek prevlada v rezultatu, negotovost pa se navidezno zmanjša. Če osebo
-preštejete ob vsaki omembi, lahko en sam pogosto omenjeni javni delavec
+preštejete ob vsaki omembi, lahko ena sama pogosto omenjena politična osebnost
 oblikuje rezultat za celotno publikacijo. Odločite se, ali boste upoštevali
 povezanost zapisov po številki, avtorju ali viru.
 
@@ -1406,12 +1406,14 @@ pogoj dostopa do virov. Zapišite pravilo in podatek, ali je bilo izpolnjeno.
 
 ## Razdelan primer: *Arhivsko trenje*
 
-Učni paket se začne z dvostransko številko *Ilustriranega Slovenca* iz leta
-1925. Slikovni napisi vsebujejo relativne datume, zgodovinska imena,
-politično opredeljene opise in vabljivo, vendar nerazrešeno identiteto
-»Meker/Meeker«. OCR ponudnika napačno prepozna več besed in ločevalnih
-znamenj. Štiri dodatne motnje — dvojnik in nasprotujoče si vrednosti — so
-sintetične ter navedene ločeno.
+Učni paket se začne z enim pristnim zgodovinskim predmetom: dvostransko
+številko *Ilustriranega Slovenca* iz leta 1925. Priročnik iz njenih napisov
+pripravi osem na viru utemeljenih referenčnih opazovanj — eno o številki in
+sedem o prispevkih. Vsebujejo relativne datume, zgodovinska imena, politično
+opredeljene opise in vabljivega, vendar zavrnjenega normativnega kandidata za
+natisnjeni »Meker«. OCR ponudnika napačno prepozna več besed in ločil. Štiri
+dodatne motnje — dvojnik in nasprotujoče si vrednosti — so sintetične ter
+navedene ločeno.
 
 Zastavite si vprašanje: **Katere negotovosti vira in obdelave bi spremenile
 primerjavo poimenovanih političnih akterjev v slikovnih napisih?** Strnjena
@@ -1424,12 +1426,14 @@ zasnova je lahko takšna:
   ne morete ocenjevati porazdelitve v celotni številki.
 - **Enota opazovanja:** številka, portret, skupinski portret ali druga enota z
   napisom; razlike ohranja polje `record_kind`.
-- **Kazalniki:** ali je oseba poimenovana, kot je natisnjeno; ali je povezava
-  z normativno zbirko imen sprejeta; ali je datum natančen, izpeljan,
-  približen ali neznan.
+- **Kazalniki:** natisnjena oznaka osebe ali skupine; ali enota predstavlja
+  nič, eno ali več oseb; ločeno stanje povezave z normativnim zapisom; ter ali
+  je datum točen, po pravilu izpeljan, neznan ali se ne uporablja.
 - **Preverjanje:** vsako vrstico primerjajte z označenim mestom v PDF-ju;
-  ponudnikov OCR primerjajte z ročno preverjenim izsekom; potrdite osem
-  očiščenih identifikatorjev in izločite samo deklarirani sintetični dvojnik.
+  ponudnikov OCR primerjajte z dokumentiranim referenčnim izsekom; potrdite
+  osem očiščenih oznak opazovanj, dvanajst uredniških odločitev in izločitev
+  samo prijavljenega sintetičnega dvojnika. Fotografija struge ostane brez
+  datuma nastanka; datum številke je shranjen samo kot kontekst objave.
 - **Pravilo za ustavitev:** identifikatorja iz normativne zbirke ne dodajte,
   dokler povezave ne potrdi neodvisen vir; nerazrešeni primeri ostanejo
   nerazrešeni.
@@ -1441,8 +1445,10 @@ včasih prinese izrecen sklep »gradivo ne zadošča«.
 
 ## Vaja: zasnova in odločitev o nadaljevanju
 
-Uporabite učni paket ali majhen nabor virov s svojega področja. Pripravite
-enostranski zapis, ki vsebuje:
+Prenesite [ZIP učnega paketa](../../assets/downloads/archival-friction-v1.zip)
+ali uporabite majhen nabor virov s svojega področja; pri presoji zgradbe vaje
+lahko pregledate tudi [izvorno drevo](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+Pripravite enostranski zapis, ki vsebuje:
 
 1. omejeno raziskovalno vprašanje;
 2. zgodovinsko celoto virov, repozitorijsko zbirko, vzorčni okvir in
@@ -1568,8 +1574,9 @@ delu slike ali kataloškemu zapisu? Če ne, tabeli ne manjka samo urejenost,
 temveč tudi pomen in provenienca.
 
 Poznavanje podatkovnih zbirk ali programiranja ni potrebno. Potrebujete majhno
-zbirko ali učni paket [*Arhivsko
-trenje*](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+zbirko ali [ZIP učnega paketa *Arhivsko
+trenje*](../../assets/downloads/archival-friction-v1.zip); za pregled zgradbe
+je na voljo tudi [izvorno drevo paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 Pripravili boste model zapisov, podatkovni slovar, dnevnik popravkov in
 poročilo o kakovosti. Dober rezultat ohrani dokazno gradivo tudi tedaj, ko
 vrednost normalizirate ali pustite nerazrešeno. Osrednja napaka je tiho
@@ -1687,9 +1694,9 @@ Utemeljeno se lahko razlikujejo vsaj štiri vrednosti:
 
 Hranite jih v različnih poljih ali tabelah. Če v napisu piše »Mr. Meker«, se
 lahko besedilo OCR z njim ujema, iskanje po normativnih zbirkah pa predlaga
-»Ezra Meeker«. Pregledano stanje je lahko še vedno `unresolved`. Če natisnjeno
-obliko nadomestite s kandidatom, je vir videti gotovejši, kot je v resnici,
-in poznejše preverjanje ni več mogoče.
+»Ezra Meeker«. Pregledano stanje povezave je lahko `candidate_rejected`. Če
+natisnjeno obliko nadomestite s kandidatom, je vir videti gotovejši, kot je v
+resnici, in poznejše preverjanje ni več mogoče.
 
 Tudi kadar vrednosti ločite po poljih, ohranite štiri datotečne ali
 podatkovne plasti: nespremenljivo **izvorno oziroma surovo plast**;
@@ -1698,6 +1705,13 @@ modelirano plast** s sprejeto razlago za določen namen; ter **odločitveno
 plast**, v kateri beležite posege, zavrnitve in nerešene primere. Vmesna plast
 ni dokaz že zato, ker jo je izdelalo orodje, obdelana plast pa ne nadomesti
 vira.
+
+Učni paket vloge map opredeli še natančneje. `source/` vsebuje samo
+nespremenjeni PDF, zajeta zapisa ponudnikov in nespremenjeni ponudnikov OCR;
+`reference/` vsebuje priročniška opazovanja, uredniške odločitve in
+referenčni prepis; `teaching/` prijavlja sintetične motnje; `raw/`,
+`interim/`, `cleaned/`, `output/`, `validation/` in `known-problems/` pa
+ohranjajo nadaljnjo sled dokazov.
 
 Dnevnik popravkov naj vsebuje vsaj identifikator odločitve, zapis in polje,
 prejšnjo in novo vrednost, dejanje, dokaz, odgovorno osebo ali postopek, datum
@@ -1739,19 +1753,22 @@ zapis za negotove (`1984?`), približne (`2004-06~`), nedoločene datume in
 intervale.[^edtf] Uporabite jo samo, če programska oprema podpira navedeno
 raven specifikacije in lahko bralci obnovijo izvirno obliko. Pri majhnem
 projektu je lahko preprost interval z ločenim poljem gotovosti bolj
-povezljiv. Zapisa »verjetno 1925« nikoli ne spreminjajte v natančni datum
+interoperabilen. Zapisa »verjetno 1925« nikoli ne spreminjajte v natančni datum
 `1925-01-01` zgolj zato, ker preglednica zahteva dan.
 
-## Imena in povezovanje z normativnimi zbirkami
+## Natisnjena identiteta, struktura enote in povezovanje z normativnimi zbirkami
 
 Normativne zbirke lahko povežejo zapisne različice in ponudijo trajne
-identifikatorje, vendar je vsaka povezava raziskovalna trditev. Ohranite:
+identifikatorje, vendar je vsaka povezava raziskovalna trditev. Ločeno
+ohranite:
 
-- `ime_iz_vira`;
+- `printed_person_or_group`, oznako osebe ali skupine iz vira;
+- `entity_structure` (`zero_people`, `one_person` ali `multiple_people`);
 - normalizirano prikazno ime, če ga potrebujete;
-- ime normativne zbirke in URI kandidata;
-- stanje povezave (`accepted`, `possible`, `rejected`, `unresolved`);
-- dokaz in ime pregledovalca;
+- ime normativne zbirke in `authority_candidate`, kandidatni URI ali oznako;
+- `authority_link_status` (`not_attempted`, `not_reconciled`,
+  `candidate_rejected`, `accepted`, `unresolved` ali `not_applicable`);
+- dokaze za povezavo, odločitev in ime pregledovalca;
 - datum dostopa, saj se vmesniki in zapisi spreminjajo.
 
 Ne sprejmite prvega iskalnega zadetka samo zato, ker se ime ujema. Preverite
@@ -1763,8 +1780,10 @@ spreminjajoč se in področno omejen vir, ne kot univerzalni seznam oseb in
 krajev.[^getty]
 
 Povezovanje razumite kot **dodajanje povezave z dokazom**, ne kot
-nadomeščanje lokalnega zapisa. Če noben kandidat ni dovolj dobro podprt, je
-`unresolved` veljaven rezultat.
+nadomeščanje zapisa iz vira. Jasno natisnjeno ime ni nerešena identiteta samo
+zato, ker mu niste dodali URI-ja, skupinski portret pa ni ena nerešena oseba.
+Če preizkušeni kandidat nima dovolj podpore, je `candidate_rejected`
+veljaven in preverljiv rezultat.
 
 ## Manjkajoče vrednosti imajo različne pomene
 
@@ -1849,30 +1868,34 @@ Samodejno preverjanje najde strukturna protislovja. Ne more odločiti, ali je
 slikovni napis politično nevtralen, povezava osebe zgodovinsko prepričljiva
 ali kategorija primerna. Združite ga s pregledom virov.
 
-## Razdelan primer: osem zapisov z motnjami
+## Razdelan primer: en predmet in osem referenčnih opazovanj
 
-Učni paket vsebuje osem enot iz dvostranske časopisne številke. Izvorna
-tabela hrani prepisane oznake, OCR ponudnika, natisnjene in normalizirane
-datume, stopnjo gotovosti, imena, kandidate iz normativnih zbirk, mesta v viru
-ter dokazne opombe. Ločena tabela motenj uvede štiri jasno označene učne
-težave. Izdelana surova tabela ima zato devet vrstic: tri spremenjena polja in
-eno podvojeno vrstico.
+Učni paket vsebuje en pristen predmet, dvostransko časopisno številko. V mapi
+`reference/` je osem priročniških, na viru utemeljenih opazovanj: eno o
+številki in sedem o prispevkih. Tabela hrani prepise oznak, OCR ponudnika,
+obseg in stanje datumov, ločeni datum številke, natisnjene oznake oseb ali
+skupin, strukturo enote, normativne kandidate in stanja povezav, mesta v viru
+ter opombe o dokazih. Mapa `teaching/` uvede štiri prijavljene učne težave.
+Izdelana surova tabela ima zato devet vrstic: tri spremenjena polja in eno
+podvojeno vrstico.
 
 Pregled opravite tako:
 
 1. Shranjeni PDF preverite pri ponudniku in s kontrolno vsoto SHA-256.
-2. Potrdite, da vseh osem izvornih identifikatorjev vodi do strani in območja.
+2. Potrdite, da vseh osem oznak referenčnih opazovanj vodi do strani in območja.
 3. Vsako spremenjeno surovo polje primerjajte s faksimilom, ne samo s tabelo
    pravilnih odgovorov.
 4. Velikost začetnice v slikovnem napisu popravite, kadar je podoba jasna.
 5. Izločite samo vrstico, ki je izrecno označena kot sintetični dvojnik;
    izvorno enoto ohranite.
-6. Zavrnite tiho spremembo »Meker« v »Meeker« in pustite kandidata normativne
-   zbirke praznega, ker paket ne vsebuje neodvisnega dokaza.
-7. Izpeljane in približne datume ohranite z njihovimi stanji, namesto da bi jih
-   spremenili v neoznačene natančne datume.
-8. Preverite osem očiščenih identifikatorjev, štiri zapisane odločitve in
-   nespremenjene bajte izvorne datoteke.
+6. Zavrnite tiho spremembo »Meker« v »Meeker«; Ezro Meekerja ohranite kot
+   pregledanega kandidata s stanjem `candidate_rejected`, ne kot sprejeto
+   identiteto.
+7. Datuma 1925-02-01 in 1925-01-27 izpeljite po izrecnih pravilih, datum
+   nastanka fotografije struge pa pustite prazen oziroma `unknown`; datum
+   številke je samo kontekst.
+8. Preverite osem očiščenih oznak, osem pristnih uredniških odločitev, štiri
+   razveljavitve sintetičnih motenj in nespremenjene bajte izvorne datoteke.
 
 Očiščeni rezultat ne trdi, da je vseh osem zapisov popolnih. Trdi, da ima
 vsaka ohranjena vrednost določeno dokazno stanje in da jo je mogoče
@@ -1880,7 +1903,9 @@ preveriti.
 
 ## Vaja: izdelajte in preverite model zapisov
 
-Z učnim paketom ali petimi do desetimi zapisi s svojega področja pripravite:
+Uporabite [ZIP učnega paketa](../../assets/downloads/archival-friction-v1.zip),
+katerega [izvorno drevo je na voljo za pregled](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction),
+ali pet do deset zapisov s svojega področja. Pripravite:
 
 1. konceptualno skico entitet in razmerij;
 2. eno ali več tabel, v katerih ima vsaka vrstica en sam pomen;
@@ -1998,9 +2023,9 @@ in omejitve lahko vedno pregledate.
 
 ## Besedila, korpusi in OCR
 
-Zaradi iskalnega prepisa se lahko zdi, da je arhiv popoln. Toda prepis ni arhiv. Je ena od predstavitev, ki nastane iz izbranih predmetov, posnetkov strani, odločitev o postavitvi, sistema za razpoznavanje in uredniških pravil. Kaj lahko utemeljeno sklepate, če lahko vsaka od teh stopenj izpusti ali spremeni dokaz?
+Zaradi iskalnega prepisa se lahko zdi, da je arhiv popoln. Toda prepis ni arhiv. Je ena od predstavitev, ki nastane iz izbranih predmetov, posnetkov strani, odločitev o postavitvi, sistema za prepoznavanje in uredniških pravil. Kaj lahko utemeljeno sklepate, če lahko vsaka od teh stopenj izpusti ali spremeni dokaz?
 
-V tem poglavju boste korpus obravnavali kot raziskovalni instrument, ne kot mapo z besedilnimi datotekami. Poglavje se navezuje na [načrtovanje raziskave](research-design.md), [podatke, metapodatke in modele](data-metadata-models.md) ter [kritične infrastrukture](critical-infrastructures.md). Razdelani primer uporablja odprto [učno gradivo Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction), zato lahko skupaj pregledate posnetek, ponudnikov prepis, referenčni prepis, metapodatkovne odločitve in rezultate preverjanja.
+V tem poglavju boste korpus obravnavali kot raziskovalni instrument, ne kot mapo z besedilnimi datotekami. Poglavje se navezuje na [načrtovanje raziskave](research-design.md), [podatke, metapodatke in modele](data-metadata-models.md) ter [kritične infrastrukture](critical-infrastructures.md). Razdelani primer uporablja [ZIP učnega gradiva Arhivsko trenje](../../assets/downloads/archival-friction-v1.zip), [izvorno drevo paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) pa ostaja na voljo za pregled. Tako lahko skupaj pregledate posnetek, ponudnikov prepis, referenčni prepis, metapodatkovne odločitve in rezultate preverjanja.
 
 ## Učni cilji
 
@@ -2010,7 +2035,7 @@ Po tem poglavju boste znali:
 - napisati pravila za prepis zgodovinskega tiska ali rokopisa;
 - opredeliti ciljno populacijo, vzorčni okvir in utemeljen korpusni vzorec;
 - izračunati in razložiti stopnjo napak na znakih (CER) in besedah (WER) glede na referenčni prepis;
-- preveriti, ali napake razpoznavanja ogrožajo določeno iskanje, štetje ali interpretacijo;
+- preveriti, ali napake prepoznavanja ogrožajo določeno iskanje, štetje ali interpretacijo;
 - ohraniti podatke o viru, pravicah, obdelavi in popravkih skozi ves besedilni postopek; ter
 - opisati razmerja med dvojniki, ponatisi in različicami, ne da bi izbrisali zgodovinsko pomembno širjenje besedil.
 
@@ -2032,7 +2057,7 @@ Recimo, da želite raziskati, kako je ilustrirani časopis iz leta 1925 predstav
 
 Tako boste prepoznali tudi vprašanje, na katero razpoložljiva zbirka ne more odgovoriti. Douglas Biber pri zasnovi korpusa pokaže, da se reprezentativnost začne z opredeljeno populacijo in teoretično pomembnimi sloji, ne z velikim številom besed.
 
-## Pred razpoznavanjem preverite vir in pravice
+## Pred prepoznavanjem preverite vir in pravice
 
 Za vsak izvorni predmet najprej ustvarite zapis. Vključite vsaj:
 
@@ -2047,15 +2072,15 @@ Za vsak izvorni predmet najprej ustvarite zapis. Vključite vsaj:
 
 Ustavite se, če ne morete ugotoviti izvora, pridobiti ali dokumentirati dovoljenja oziroma pojasniti možnosti ponovne objave. Načrt prilagodite, če je raziskovalna uporaba dovoljena, objava posnetkov pa ne. Nadaljujte šele, ko so pridobitev, obdelava in načrtovana objava skladne z zapisom o pravicah. Beseda »spletno« ne pomeni »v javni domeni«.
 
-Učno gradivo pregled ponazori z zapisom o pravicah, izvoru in zgoščenih vrednostih. PDF je nespremenjena kopija časopisa *Ilustrirani Slovenec* z dne 7. februarja 1925 iz Wikimedijine zbirke. Dodani so kataložni zapis Digitalne knjižnice Slovenije, status javne domene, datum dostopa in prstni odtis datoteke. Majhen vzorec je primeren za preskus postopka, ne za predstavljanje celotnega časopisa.
+Učno gradivo pregled ponazori z `rights-and-provenance.sl.md`, `SOURCE_CITATION.sl.md`, `source/dlib-source.json`, `source/commons-source.json` in manifestom zgoščenih vrednosti. dLib zagotavlja trajni URN in bibliografski zapis prek NUK; prikazano polje o pravicah je bilo ob pregledu prazno. Wikimedia Commons navaja dLib kot vir in nespremenjeni kopiji PDF pripiše javno domeno. Majhen vzorec je primeren za preskus postopka, ne za predstavljanje celotnega časopisa.
 
 ## OCR in HTR rešujeta sorodna, vendar različna problema
 
-**Optično razpoznavanje znakov (OCR)** navadno pomeni samodejno razpoznavanje tiskanih znakov na posnetku strani. **Razpoznavanje rokopisa (HTR)** napoveduje zaporedja iz rokopisa, pogosto z modeli, ki so naučeni ali prilagojeni na slikah vrstic in prepisih. Meja ni vedno ostra: zgodovinski tisk, mešanica tiska in rokopisa, robni pripisi ter okrasni naslovi jo zabrišejo. Zato zapišite uporabljeni model in postopek, ne le oznake OCR ali HTR.
+**Optično prepoznavanje znakov (OCR)** navadno pomeni samodejno prepoznavanje tiskanih znakov na posnetku strani. **Prepoznavanje rokopisnega besedila (HTR)** napoveduje zaporedja iz rokopisa, pogosto z modeli, ki so naučeni ali prilagojeni na slikah vrstic in prepisih. Meja ni vedno ostra: zgodovinski tisk, mešanica tiska in rokopisa, robni pripisi ter okrasni naslovi jo zabrišejo. Zato zapišite uporabljeni model in postopek, ne le oznake OCR ali HTR.
 
 Če gradivo vsebuje več pisav oziroma rokopisnih rok, boste morda potrebovali ločene modele ali sloje vrednotenja. Ocena zaupanja je rezultat modela po njegovih predpostavkah, ne izmerjena stopnja napak; pred uporabo za filtriranje jo umerite s preverjenim besedilom.
 
-Razpoznavanje je samo ena stopnja. Segmentacija določi območja, stolpce, vrstni red branja in vrstice; prepisovanje napove znake ali besede; popravljanje spremeni napoved; izvoz pa lahko izgubi podatke o postavitvi. Navidez smiselno golo besedilo ima zato lahko pravilne besede v napačnem vrstnem redu ali pa izpusti napis pod sliko.
+Prepoznavanje je samo ena stopnja. Segmentacija določi območja, stolpce, vrstni red branja in vrstice; prepisovanje napove znake ali besede; popravljanje spremeni napoved; izvoz pa lahko izgubi podatke o postavitvi. Navidez smiselno golo besedilo ima zato lahko pravilne besede v napačnem vrstnem redu ali pa izpusti napis pod sliko.
 
 Uporabniški vmesniki, katalogi modelov in izvozni meniji se spreminjajo. Zabeležite storitev, različico ali datum dostopa, identifikator modela, nastavitve in izvozni format. Ohranite vhod ter preneseni rezultat. Če gostovana storitev nima stabilne različice, to izrecno navedite.
 
@@ -2066,17 +2091,17 @@ Dobro zasnovan besedilni predmet ima več nezamenljivih plasti:
 1. **izvorni predmet** — fizični ali izvorno digitalni predmet, ki ga opisuje repozitorij;
 2. **sliko strani** — posnetek ali fotografijo s stalnim identifikatorjem strani;
 3. **postavitev** — območja, stolpce, vrstice, vrstni red branja in koordinate;
-4. **ponudnikov prepis** — besedilo arhiva ali storitve za razpoznavanje;
+4. **ponudnikov prepis** — besedilo arhiva ali storitve za prepoznavanje;
 5. **referenčni ali popravljeni prepis** — človeško preverjeno besedilo po določenih pravilih;
 6. **normalizirano besedilo** — za določen namen poenotene zapise, presledke ali znake;
 7. **anotacijo** — pojavnice, entitete, teme, uredniške opombe ali jezikoslovne oznake; in
 8. **metapodatke ter provenienco** — identiteto, pravice, razmerja in zgodovino obdelave.
 
-Ene plasti nikoli ne prepišite z drugo. Popravek naj kaže na prejšnjo vrednost, mesto v viru, odgovorno osebo ali postopek, datum in pravilo. Element `<choice>` v smernicah TEI lahko na primer poveže izvorno in popravljeno obliko. ALTO XML lahko ohrani razpoznane nize in postavitev strani. Manifest IIIF Presentation lahko poveže urejene poglede strani, slike, pravice in anotacije. Teh standardov vam v razredni preglednici ni treba uporabiti, vendar je njihovo ločevanje predmeta, površine, besedila in opisa uporaben preskus zasnove.
+Ene plasti nikoli ne prepišite z drugo. Popravek naj kaže na prejšnjo vrednost, mesto v viru, odgovorno osebo ali postopek, datum in pravilo. Element `<choice>` v smernicah TEI lahko na primer poveže izvorno in popravljeno obliko. ALTO XML lahko ohrani prepoznane nize in postavitev strani. Manifest IIIF Presentation lahko poveže urejene poglede strani, slike, pravice in anotacije. Teh standardov vam v razredni preglednici ni treba uporabiti, vendar je njihovo ločevanje predmeta, površine, besedila in opisa uporaben preskus zasnove.
 
 ## Pravila prepisovanja napišite pred referenčnim prepisom
 
-**Referenčni prepis**, ki ga pri vrednotenju razpoznavanja pogosto imenujejo *ground truth*, ni neposredna resnica brez posredovanja. Je človeško pripravljen referenčni zapis po izrecnih dogovorih. Dve osebi se lahko ne strinjata, ker ena beleži vidne znake in prelome vrstic, druga pa besede za branje. Pravila napišite vnaprej, preizkusite jih na zahtevnih primerih in jih popravite pred prepisom celotnega vzorca.
+**Referenčni prepis**, ki ga pri vrednotenju prepoznavanja pogosto imenujejo *ground truth*, ni neposredna resnica brez posredovanja. Je človeško pripravljen referenčni zapis po izrecnih dogovorih. Dve osebi se lahko ne strinjata, ker ena beleži vidne znake in prelome vrstic, druga pa besede za branje. Pravila napišite vnaprej, preizkusite jih na zahtevnih primerih in jih popravite pred prepisom celotnega vzorca.
 
 Določite vsaj:
 
@@ -2104,7 +2129,7 @@ Razlikujte tri povezane lastnosti:
 
 Uravnotežen korpus ni samodejno reprezentativen: enako število enot po desetletjih se lahko razlikuje od zgodovinske populacije. Primerljivost odpove, če ima eno desetletje ponudnikov OCR, drugo pa na novo popravljeni HTR.
 
-Pripravite vzorčno tabelo z eno vrstico na kandidatni predmet ter polji za sloj, ustreznost, izbor, pravice, kakovost posnetka, način razpoznavanja in razlog za izločitev. Dokumente in besede preštejte po pomembnih slojih. Naključni izbor znotraj vnaprej določenih slojev lahko omeji pristranskost priročnosti. Za redke formate ali analizo napak boste morda potrebovali namenski izbor; tako ga tudi poimenujte.
+Pripravite vzorčno tabelo z eno vrstico na kandidatni predmet ter polji za sloj, ustreznost, izbor, pravice, kakovost posnetka, način prepoznavanja in razlog za izločitev. Dokumente in besede preštejte po pomembnih slojih. Naključni izbor znotraj vnaprej določenih slojev lahko omeji pristranskost priročnosti. Za redke formate ali analizo napak boste morda potrebovali namenski izbor; tako ga tudi poimenujte.
 
 ## Vzorec za vrednotenje mora razkriti napake
 
@@ -2120,11 +2145,11 @@ Učno gradivo se začne z dvostranskim ilustriranim časopisom in ponudnikovim O
 
 ### Ročni poseg
 
-Referenčni prepis sledi določenemu vrstnemu redu, ohrani zgodovinski zapis in ločila ter združi prelome, ki so samo posledica postavitve. Ponudnikov izvoz ostane nespremenjen v `raw/`, preverjeni odlomek pa je ločen predmet v `cleaned/`. Človek primerja sliko in besedilo, razvrsti napake, preveri sporna imena ter izračuna CER in WER po enem pravilu normalizacije.
+Referenčni prepis sledi določenemu vrstnemu redu, ohrani zgodovinski zapis in ločila ter združi prelome, ki so samo posledica postavitve. Ponudnikov izvoz ostane nespremenjen v `source/` in je kopiran v `raw/`; ročno preverjeni odlomek je ločena, dokumentirana datoteka v `reference/`. Človek primerja sliko in besedilo, razvrsti napake, preveri sporna imena ter izračuna CER in WER po enotnih pravilih normalizacije in poravnave.
 
 ### Kaj ostane negotovo
 
-Identiteta osebe »Mr. Meker« ni razrešena, datum ene fotografije je samo približen, neprepisana območja pa niso ovrednotena. Vaja ne ocenjuje razlik med številkami, postavitvami ali modeli.
+Natisnjena oblika »Mr. Meker« ostaja ločena od zavrnjenega normativnega kandidata Ezra Meeker, datum nastanka fotografije struge je neznan in ni prevzet iz datuma številke, neprepisana območja pa niso ovrednotena. Vaja ne ocenjuje razlik med številkami, postavitvami ali modeli.
 
 ### Vpliv na nadaljnjo trditev
 
@@ -2132,19 +2157,19 @@ Preverjeni odlomek ima CER 0,025381 in WER 0,096774, vendar poškodovano osebno 
 
 ## Izračunajte CER in WER
 
-Rezultat razpoznavanja poravnajte z referenčnim prepisom ter preštejte najmanjše število zamenjav \(S\), izpustov \(D\) in vrivanj \(I\). Če ima referenca \(N\) enot, velja:
+Rezultat prepoznavanja poravnajte z referenčnim prepisom ter preštejte najmanjše število zamenjav \(S\), izpustov \(D\) in vstavkov \(I\). Če ima referenca \(N\) enot, velja:
 
 \[
 \mathrm{stopnja\ napak}=\frac{S+D+I}{N}
 \]
 
-Za **stopnjo napak na znakih (CER)** so enote znaki, za **stopnjo napak na besedah (WER)** pa vnaprej določene besedne pojavnice. Navedite, ali med znake štejete presledke, ločila in razliko med velikimi ter malimi črkami, kako poenotite Unicode in kako razdelite besedilo na besede. Zaradi vrivanj je lahko stopnja napak večja od 1. Rezultata ne preimenujte v »odstotek natančnosti«, ne da bi to razmerje natančno opredelili.
+Za **stopnjo napak na znakih (CER)** so enote znaki, za **stopnjo napak na besedah (WER)** pa vnaprej določene besedne pojavnice. Navedite, ali med znake štejete presledke, ločila in razliko med velikimi ter malimi črkami, kako poenotite Unicode in kako razdelite besedilo na besede. Zaradi vstavkov je lahko stopnja napak večja od 1. Rezultata ne preimenujte v »odstotek natančnosti«, ne da bi to razmerje natančno opredelili.
 
-Učno gradivo vsebuje 591 referenčnih znakov in 15 posegov, zato je CER \(15/591=0{,}025381\). Pri 93 besedah, ločenih s presledki, in 9 posegih je WER \(9/93=0{,}096774\). Ponovljivi vrednosti opisujeta en odlomek, ne številke, časopisa, portala ali modela.
+Učno gradivo vsebuje 591 referenčnih znakov s 7 zamenjavami, 5 izpusti in 3 vstavki (skupaj 15), zato je CER \(15/591=0{,}025381\). Pri 93 besedah je 7 zamenjav, 2 izpusta in 0 vstavkov (skupaj 9), zato je WER \(9/93=0{,}096774\). Pri izenačenih najmanjših poravnavah imajo prednost ujemanje, zamenjava, izpust in vstavek v tem vrstnem redu; stopnji sta zaokroženi na šest decimalk po pravilu polovice k sodemu številu. Ponovljivi vrednosti opisujeta en odlomek, ne številke, časopisa, portala ali modela.
 
 ## Eno število razčlenite v profil napak
 
-CER in WER združita različne težave. Dodajte tabelo s položajem v viru, referenčno in razpoznano obliko, vrsto posega, kategorijo ter verjetno posledico. Koristne kategorije so:
+CER in WER združita različne težave. Dodajte tabelo s položajem v viru, referenčno in prepoznano obliko, vrsto posega, kategorijo ter verjetno posledico. Koristne kategorije so:
 
 - zamenjava znakov, zlasti diakritike in podobnih zgodovinskih črk;
 - napačno združene ali razdeljene besede;
@@ -2153,7 +2178,7 @@ CER in WER združita različne težave. Dodajte tabelo s položajem v viru, refe
 - ponovljeno besedilo ali napačen vrstni red branja;
 - razlika v ločilu ali veliki začetnici;
 - napaka v osebnem imenu, datumu ali številu; ter
-- razlika v uredniškem pravilu, ne napaka razpoznavanja.
+- razlika v uredniškem pravilu, ne napaka prepoznavanja.
 
 Kadar vzorec to dopušča, poročajte rezultate po pomembnih slojih. Nizek skupni CER se lahko pojavi hkrati s popolnim izpustom napisov ali s slabim priklicem imen. Zgodovinski zapis pa ni napaka OCR, če je tako zapisano na sliki.
 
@@ -2184,10 +2209,13 @@ Uporabljajte stabilne identifikatorje. Zgoščene vrednosti odkrijejo bitno enak
 Uporabite naslednje mape ali enakovredne plasti shranjevanja:
 
 ```text
-source/          datoteka repozitorija in izvorni metapodatki
-raw/             nespremenjeni ponudnikov izvoz OCR ali HTR
-cleaned/         preverjene ali normalizirane izpeljanke
-output/          metrike, korpusne tabele in analitični rezultati
+source/          nespremenjeni predmet, zapisa ponudnikov in ponudnikov OCR/izvoz
+reference/       priročniška opazovanja, referenčni prepis in pravila
+teaching/        prijavljene sintetične motnje
+raw/             namenoma neurejene izpeljane delovne vrstice
+interim/         kandidati, ki čakajo na pregled ob viru ali referenci
+cleaned/         preverjeni zapisi, kopija prepisa in odločitve
+output/          metrike, pregled napak in povzetki zapisov
 validation/      pričakovane vrednosti, zgoščene vrednosti in poročila
 known-problems/  nerešene napake in omejitve obsega
 ```
@@ -2198,13 +2226,13 @@ Preverjanje lahko avtomatizirate, vendar je to izbirna razširitev. Enako sled l
 
 ## Vaja: oblikujte eno utemeljeno trditev
 
-Odprite [učno gradivo Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+Prenesite [ZIP učnega gradiva Arhivsko trenje](../../assets/downloads/archival-friction-v1.zip). Zgradbo lahko pregledate v [izvornem drevesu paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
 1. Preberite zapis o pravicah in navedbo vira. Pojasnite, ali smete priloženi PDF razširjati naprej.
 2. Pred branjem prepisov preglejte obe strani. Poiščite dve postavitveni lastnosti, ki lahko vplivata na vrstni red branja.
-3. Primerjajte `raw/provider-ocr.txt` in `cleaned/gold-transcription.txt`. Razvrstite vsaj pet razlik.
-4. Preberite `source/transcription-note.md`. Presodite, ali je vsaka razlika napaka razpoznavanja, razlika v pravilu ali nerešeno branje.
-5. Potrdite navedeno število znakov in besed ter pojasnite razliko med stopnjama.
+3. Primerjajte `raw/provider-ocr.txt` in `reference/reference-transcription.txt`. Razvrstite vsaj pet razlik.
+4. Preberite `reference/transcription-policy.sl.md`. Presodite, ali je vsaka razlika napaka prepoznavanja, razlika v pravilu ali nerešeno branje.
+5. Potrdite vsako znakovno in besedno vrednost S/D/I, po objavljenem pravilu znova izračunajte stopnji ter svojo razvrstitev primerjajte z `output/ocr-error-audit.csv`.
 6. Izberite eno nalogo — iskanje imena, štetje oblike ali navajanje povedi — in jo preizkusite na obeh prepisih.
 7. Napišite trditev, ki velja samo za ta vzorec, nato pa dodajte poved o tem, česa ne morete posplošiti.
 
@@ -2212,7 +2240,7 @@ Vajo uspešno opravite, če lahko druga oseba vsako število in navedek poveže 
 
 ## Napake, ustavitev in popravki
 
-Ustavite se, kadar pravice niso skladne z načrtovanim rezultatom, izvor ni ugotovljen, manjkajoče strani onemogočijo primerjavo ali referenčnega prepisa ni mogoče preveriti. Načrt popravite, če manjkajo pomembni sloji, identifikatorji niso stabilni, so se pravila med delom spremenila, je bila postavitev napačno izravnana ali se rezultat po popravku bistveno spremeni. Z dokumentirano omejitvijo nadaljujte le, kadar ste napako izmerili, omejili njen možni vpliv in ohranili utemeljenost trditve.
+Ustavite se, kadar pravice niso skladne z načrtovanim rezultatom, izvor ni ugotovljen, manjkajoče strani onemogočijo primerjavo ali referenčnega prepisa ni mogoče preveriti. Načrt popravite, če manjkajo pomembni sloji, identifikatorji niso stabilni, so se pravila med delom spremenila, je postopek napačno določil območja ali vrstni red branja oziroma se rezultat po popravku bistveno spremeni. Z dokumentirano omejitvijo nadaljujte le, kadar ste napako izmerili, omejili njen možni vpliv in ohranili utemeljenost trditve.
 
 Surove datoteke ne prepišite. Neuspeli rezultat ohranite, popravke zabeležite in ustvarite novo izpeljanko. Ponovitev po spremembi modela ali vmesnika zapišite kot novo različico.
 
@@ -2224,7 +2252,7 @@ Skeniranje, katalogizacijo, prepisovanje, popravljanje in znanje skupnosti prizn
 
 ## Refleksija
 
-- Katera besedila manjkajo, še preden se razpoznavanje začne?
+- Katera besedila manjkajo, še preden se prepoznavanje začne?
 - Katero pravilo prepisovanja najbolj spremeni vašo načrtovano meritev?
 - Ali vzorec kakovosti predstavlja običajno gradivo, zahtevno gradivo ali oboje?
 - Bi isti profil napak dopuščal iskanje, ne pa tudi točnega navajanja?
@@ -3503,7 +3531,7 @@ Preberite [Kaj je digitalna humanistika?](../chapters/what-is-digital-humanities
 
 Uporabite poglavja [Modeli, dokazno gradivo in interpretacija](../chapters/models-evidence-interpretation.md), [Infrastrukture digitalne humanistike](../chapters/critical-infrastructures.md) ter [Od vprašanja do metode](../chapters/research-design.md). Široko temo spremenite v omejeno raziskovalno vprašanje ter določite predmet, obseg, možno dokazno gradivo, začasni model, drugačno razlago in eno infrastrukturno omejitev.
 
-Z [učnim gradivom Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) na videz smiselno vprašanje preizkusite ob dejanskem vzorčnem okviru, pravicah, datumih in enotah zapisa. Trditev zožite ali preoblikujte, kadar je dvostranski vir ne more podpreti.
+Prenesite [ZIP učnega gradiva Arhivsko trenje](../../assets/downloads/archival-friction-v1.zip) in z njim na videz smiselno vprašanje preizkusite ob dejanskem vzorčnem okviru, pravicah, datumih in enotah zapisa; [izvorno drevo paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) ostaja na voljo za pregled. Trditev zožite ali preoblikujte, kadar je dvostranski vir ne more podpreti.
 
 **Izhod:** oris vprašanja in dokaznega gradiva, ki loči opis, dokaz, interpretacijo in priporočilo.
 

@@ -39,10 +39,10 @@ Poglavje argument iz [Modelov, dokaznega gradiva in
 interpretacije](models-evidence-interpretation.md) prevede v izvedljiv
 raziskovalni načrt. [Podatki, metapodatki in
 modeli](data-metadata-models.md) obravnavajo zgradbo zapisov, [Besedila,
-korpusi ter optična in rokopisna razpoznava](texts-corpora-ocr.md) pa slike
-dokumentov, OCR/HTR in vzorčenje korpusa. Vsem trem poglavjem je namenjen
-majhen učni paket [*Arhivsko
-trenje*](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+korpusi in OCR](texts-corpora-ocr.md) pa slike dokumentov, OCR/HTR in
+vzorčenje korpusa. Vsem trem poglavjem je namenjen majhen [ZIP učnega paketa
+*Arhivsko trenje*](../../assets/downloads/archival-friction-v1.zip), njegovo
+[izvorno drevo pa ostaja na voljo za pregled](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
 ## Raziskovalna zasnova je vnaprej pripravljen argument
 
@@ -131,7 +131,7 @@ vprašanje še mogoče utemeljiti. Majhen zakonit projekt je trdnejši od velike
 zbirke, ki je nihče ne more pregledati ali deliti.
 
 »Odprto« ne pomeni samodejno etično neproblematično. Načela FAIR poudarjajo
-najdljivost, dostopnost, povezljivost in ponovno uporabljivost raziskovalnih
+najdljivost, dostopnost, interoperabilnost in ponovno uporabljivost raziskovalnih
 predmetov, vključno s provenienco in licencami.[^fair] Načela CARE k temu pri
 upravljanju podatkov domorodnih ljudstev dodajajo skupno korist, pristojnost
 za nadzor, odgovornost in etiko.[^care] Upoštevajte merila skupnosti, ki jih
@@ -164,7 +164,7 @@ razlikujejo, vendar morate razlike navesti.
 
 Če povedi iz istega članka obravnavate kot neodvisna opazovanja, lahko dolg
 članek prevlada v rezultatu, negotovost pa se navidezno zmanjša. Če osebo
-preštejete ob vsaki omembi, lahko en sam pogosto omenjeni javni delavec
+preštejete ob vsaki omembi, lahko ena sama pogosto omenjena politična osebnost
 oblikuje rezultat za celotno publikacijo. Odločite se, ali boste upoštevali
 povezanost zapisov po številki, avtorju ali viru.
 
@@ -269,12 +269,14 @@ pogoj dostopa do virov. Zapišite pravilo in podatek, ali je bilo izpolnjeno.
 
 ## Razdelan primer: *Arhivsko trenje*
 
-Učni paket se začne z dvostransko številko *Ilustriranega Slovenca* iz leta
-1925. Slikovni napisi vsebujejo relativne datume, zgodovinska imena,
-politično opredeljene opise in vabljivo, vendar nerazrešeno identiteto
-»Meker/Meeker«. OCR ponudnika napačno prepozna več besed in ločevalnih
-znamenj. Štiri dodatne motnje — dvojnik in nasprotujoče si vrednosti — so
-sintetične ter navedene ločeno.
+Učni paket se začne z enim pristnim zgodovinskim predmetom: dvostransko
+številko *Ilustriranega Slovenca* iz leta 1925. Priročnik iz njenih napisov
+pripravi osem na viru utemeljenih referenčnih opazovanj — eno o številki in
+sedem o prispevkih. Vsebujejo relativne datume, zgodovinska imena, politično
+opredeljene opise in vabljivega, vendar zavrnjenega normativnega kandidata za
+natisnjeni »Meker«. OCR ponudnika napačno prepozna več besed in ločil. Štiri
+dodatne motnje — dvojnik in nasprotujoče si vrednosti — so sintetične ter
+navedene ločeno.
 
 Zastavite si vprašanje: **Katere negotovosti vira in obdelave bi spremenile
 primerjavo poimenovanih političnih akterjev v slikovnih napisih?** Strnjena
@@ -287,12 +289,14 @@ zasnova je lahko takšna:
   ne morete ocenjevati porazdelitve v celotni številki.
 - **Enota opazovanja:** številka, portret, skupinski portret ali druga enota z
   napisom; razlike ohranja polje `record_kind`.
-- **Kazalniki:** ali je oseba poimenovana, kot je natisnjeno; ali je povezava
-  z normativno zbirko imen sprejeta; ali je datum natančen, izpeljan,
-  približen ali neznan.
+- **Kazalniki:** natisnjena oznaka osebe ali skupine; ali enota predstavlja
+  nič, eno ali več oseb; ločeno stanje povezave z normativnim zapisom; ter ali
+  je datum točen, po pravilu izpeljan, neznan ali se ne uporablja.
 - **Preverjanje:** vsako vrstico primerjajte z označenim mestom v PDF-ju;
-  ponudnikov OCR primerjajte z ročno preverjenim izsekom; potrdite osem
-  očiščenih identifikatorjev in izločite samo deklarirani sintetični dvojnik.
+  ponudnikov OCR primerjajte z dokumentiranim referenčnim izsekom; potrdite
+  osem očiščenih oznak opazovanj, dvanajst uredniških odločitev in izločitev
+  samo prijavljenega sintetičnega dvojnika. Fotografija struge ostane brez
+  datuma nastanka; datum številke je shranjen samo kot kontekst objave.
 - **Pravilo za ustavitev:** identifikatorja iz normativne zbirke ne dodajte,
   dokler povezave ne potrdi neodvisen vir; nerazrešeni primeri ostanejo
   nerazrešeni.
@@ -304,8 +308,10 @@ včasih prinese izrecen sklep »gradivo ne zadošča«.
 
 ## Vaja: zasnova in odločitev o nadaljevanju
 
-Uporabite učni paket ali majhen nabor virov s svojega področja. Pripravite
-enostranski zapis, ki vsebuje:
+Prenesite [ZIP učnega paketa](../../assets/downloads/archival-friction-v1.zip)
+ali uporabite majhen nabor virov s svojega področja; pri presoji zgradbe vaje
+lahko pregledate tudi [izvorno drevo](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+Pripravite enostranski zapis, ki vsebuje:
 
 1. omejeno raziskovalno vprašanje;
 2. zgodovinsko celoto virov, repozitorijsko zbirko, vzorčni okvir in

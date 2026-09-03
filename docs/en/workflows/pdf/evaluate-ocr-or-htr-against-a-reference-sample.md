@@ -26,7 +26,7 @@ No programming is required. The supplied teaching packet includes a tiny candida
 - a written transcription policy;
 - a human-checked reference transcription for a declared sample;
 - a spreadsheet or an edit-distance tool that reports substitutions, deletions and insertions; and
-- optionally, the open [Archival Friction teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction): `raw/provider-ocr.txt`, `cleaned/gold-transcription.txt`, `source/transcription-note.md` and `output/ocr-evaluation.csv`.
+- optionally, download the [Archival Friction teaching packet ZIP](../../../assets/downloads/archival-friction-v1.zip): use `raw/provider-ocr.txt`, `reference/reference-transcription.txt`, `reference/transcription-policy.md`, `output/ocr-evaluation.csv` and `output/ocr-error-audit.csv`; maintainers can inspect the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
 Check the source, rights and provenance record before copying images or text. Keep the candidate and reference in separate files.
 
@@ -75,18 +75,18 @@ Use minimum edit distance to count substitutions \(S\), deletions \(D\) and inse
 \mathrm{error\ rate}=\frac{S+D+I}{N}
 \]
 
-Calculate once with characters for CER and once with your defined word tokens for WER. Record the counts as well as the rates. Do not call \(1-\mathrm{CER}\) “accuracy” without defining it; insertions can make an error rate greater than 1.
+Calculate once with characters for CER and once with your defined word tokens for WER. Record substitutions, deletions and insertions separately as well as their sums and rates. Declare a tie-break rule for multiple minimum alignments. The packet prefers a match, then substitution, deletion and insertion. Do not call \(1-\mathrm{CER}\) “accuracy” without defining it; insertions can make an error rate greater than 1.
 
-The packet's sample `AF-OCR-P1-INTRO` contains 591 reference characters, 15 character edits, 93 reference words and 9 word edits. Therefore:
+The packet's sample `AF-OCR-P1-INTRO` contains 591 reference characters and 93 reference words. Its deterministic alignment reports 7 character substitutions, 5 deletions and 3 insertions (15 edits), plus 7 word substitutions, 2 deletions and 0 insertions (9 edits). Therefore:
 
 - CER = `15 / 591 = 0.025381` (about 2.54%);
 - WER = `9 / 93 = 0.096774` (about 9.68%).
 
-Enter the numerators and denominators in separate spreadsheet cells, calculate the divisions, and compare them byte-for-byte with `output/ocr-evaluation.csv` rather than rounding first.
+Enter the numerators and denominators in separate spreadsheet cells. Compare the exact S/D/I counts and recompute each rate as edits divided by its declared reference denominator; then compare the result numerically after round-half-even formatting to six decimal places. CSV bytes are not the numerical criterion.
 
 ### 7. Make manual decisions about consequential errors
 
-Make one audit row per aligned difference with the sample and page locator, reference string, candidate string, edit type, category and likely consequence. Include character confusion, diacritic, split/join, line-end hyphenation, punctuation, name, number, omitted region, duplicated region, reading order and transcription-policy difference.
+Make one audit row per aligned difference with the sample and page locator, reference string, candidate string, edit type, category and likely consequence. Include character confusion, diacritic, split/join, line-end hyphenation, punctuation, name, number, omitted region, duplicated region, reading order and transcription-policy difference. The packet's `output/ocr-error-audit.csv` includes all nine non-matching word operations. Its word-operation counts agree with the aggregate table; character S/D/I comes from a separate whole-string alignment and is not artificially allocated to word rows.
 
 Inspect omissions at the image level. Plain-text alignment cannot score a caption that neither file includes. Report error counts by stratum when the sample is large enough.
 
@@ -131,6 +131,6 @@ The workflow passes when another person can recover the same sample, apply the s
 
 ## Practice task
 
-Use the packet to verify the reported CER and WER. Classify five differences and test a search for one proper name in the provider and reference files. Write a two-sentence result: first the measured finding for sample `AF-OCR-P1-INTRO`, then the boundary beyond which it cannot be generalized.
+Use the packet to verify every reported character and word S/D/I count, then recompute CER and WER under the declared rounding rule. Classify five differences before comparing your work with `output/ocr-error-audit.csv`, and test a search in the provider and reference files. Write a two-sentence result: first the measured finding for sample `AF-OCR-P1-INTRO`, then the boundary beyond which it cannot be generalized.
 
 For the underlying concepts and references, read [Texts, corpora and OCR](../../chapters/texts-corpora-ocr.md). Current technical definitions are in the [OCR-D quality-assurance documentation](https://ocr-d.de/en/spec/ocrd_eval.html) and [Ground Truth Guidelines](https://ocr-d.de/en/gt-guidelines/trans/) (living documentation; accessed 2 September 2026).

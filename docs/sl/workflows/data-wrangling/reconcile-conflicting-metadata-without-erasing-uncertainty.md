@@ -18,7 +18,7 @@ tags: [metapodatki, provenienca, normativna-kontrola, negotovost, usklajevanje]
 
 Natisnjeni napis, kataloški zapis, OCR in normativna zbirka se ne ujemajo pri imenu ali datumu. Prvi rezultat, ki se opira samo na ponudnikov zapis, je nezadosten: z njegovim sprejetjem ali izborom najbolj urejene vrednosti bi prikrili, kaj dokazi podpirajo.
 
-Usklajevanje ni glasovanje z večino. Je dokumentirana primerjava trditev iz virov z različnimi nameni, bližino predmetu in pristojnostjo. V urejenem zapisu ohranite izvorne oblike, normalizirano vrednost navedite le tako natančno, kot dopuščajo dokazi, identiteto pa pustite nerešeno, kadar dokazov ni dovolj.
+Usklajevanje ni glasovanje z večino. Je dokumentirana primerjava trditev iz virov z različnimi nameni, različno neposrednim odnosom do predmeta in različnimi pristojnostmi. V urejenem zapisu ohranite izvorne oblike, normalizirano vrednost navedite le tako natančno, kot dopuščajo dokazi, povezavo z normativnim zapisom pa pustite nerešeno, kadar dokazov ni dovolj.
 
 ## Potrebujete
 
@@ -26,7 +26,7 @@ Usklajevanje ni glasovanje z večino. Je dokumentirana primerjava trditev iz vir
 - vse ponudnikove zapise ali izvoze, ki jih želite primerjati;
 - stalne povezave do pregledanih normativnih zapisov;
 - preglednico ali urejevalnik besedila; ter
-- po želji datoteke `raw/messy-records.csv`, `source/source-records.csv` in `cleaned/decisions.csv` iz odprtega [učnega gradiva Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+- po želji prenesite [ZIP učnega gradiva Arhivsko trenje](../../../assets/downloads/archival-friction-v1.zip) in uporabite `raw/messy-records.csv`, `reference/observations.csv` ter `cleaned/decisions.csv`; vzdrževalci lahko pregledate tudi [izvorno drevo paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
 Pred začetkom zabeležite vir in pravice. Ponudnikove izvoze ohranite nespremenjene.
 
@@ -73,9 +73,9 @@ Razmerja poimenujte izrecno: `same_as` uporabite samo ob zadostnih dokazih, `dup
 
 Pravilo napišite pred izborom vrednosti. Na primer:
 
-- **prepis:** kadar je zapis čitljiv, dajte prednost vidni obliki; nejasnih znakov ne posodabljajte;
+- **prepis:** kadar je zapis čitljiv, dajte prednost vidni obliki; nejasen zapis označite in ohranite, namesto da bi ga brez dokaza posodobili;
 - **ponudnikovi metapodatki:** ohranite jih kot ponudnikovo trditev tudi takrat, ko jim predmet nasprotuje;
-- **datum:** ohranite natisnjeni izraz ter dodajte točno, izpeljano, približno ali nerešeno normalizirano vrednost;
+- **datum:** ohranite natisnjeni izraz, določite, kaj datum opisuje, ter ločite točne, po pravilu izpeljane, neznane in neustrezne vrednosti od datuma številke, ki je samo kontekst;
 - **oseba:** pred povezavo z normativnim identifikatorjem zahtevajte skladnost kraja, vloge, dogodka, datuma ali razmerja;
 - **naslov:** ločite naslov na predmetu od naslova, ki ga je dodal repozitorij; ter
 - **jezik ali žanr:** navedite besednjak in čigavo razvrstitev predstavlja.
@@ -86,11 +86,11 @@ Pravilo napišite pred izborom vrednosti. Na primer:
 
 V dnevnik dodajte zapis, ki vsebuje identifikator zapisa, polje, surovo in sprejeto vrednost, ukrep, dokaz, odločevalca, datum ter različico pravila. Uporabite nadzorovan ukrep, na primer `correct_from_facsimile`, `retain_provider_variant`, `derive_date`, `accept_authority_match`, `reject_authority_match` ali `leave_unresolved`.
 
-Na sliki v *Ilustriranem Slovencu* je natisnjeno »Mr. Meker«. Sintetična učna vrstica zapis spremeni v »Mr. Meeker« in predlaga Ezro Meekerja. Podobnost imena, starosti in javne vloge je vabljiva, vendar gradivo ne vsebuje neodvisnega dokaza, ki bi fotografijo povezal s to osebo. Utemeljeni urejeni zapis obnovi natisnjeno obliko, kandidatno normativno polje pusti prazno, identiteto pa označi kot nerešeno.
+Na sliki v *Ilustriranem Slovencu* je natisnjeno »Mr. Meker«. Ena sintetična učna sprememba obliko potiho spremeni v »Mr. Meeker«, druga pa preizkušenemu kandidatu Ezra Meeker pripiše stanje `accepted`. Podobnost imena, starosti in javne vloge ni zadosten dokaz. Utemeljeni očiščeni zapis obnovi natisnjeno obliko, enoto označi kot `one_person`, kandidata ohrani za revizijsko sled in mu dodeli `candidate_rejected`. Tako ne zamenja oznake iz vira s povezavo do zunanjega normativnega zapisa.
 
 ### 6. Ohranite natančnost, negativne odločitve in nerešene primere
 
-Leta, izpeljanega iz konteksta številke, ne spremenite v popolni koledarski datum. Ohranite polja `date_as_printed`, `date_normalized`, `date_certainty` in `derivation_note`. Pri neuspešnem preverjanju identitete shranite zavrnjenega kandidata in razlog, da druga oseba brez novih dokazov ne ponovi istega iskanja.
+Datuma številke ne spremenite v datum nastanka posameznega prispevka. Ohranite polja `date_scope`, `printed_date`, `date_normalized`, `date_status`, `issue_context_date` in dokaz za izpeljavo. Datum nastanka fotografije struge v paketu ostane prazen oziroma `unknown`; 1925-02-07 je samo kontekst objave. Pri neuspešnem preverjanju povezave shranite zavrnjenega kandidata in razlog, da druga oseba brez novih dokazov ne ponovi istega iskanja.
 
 Oznako `unknown` uporabite, kadar vrednost ni znana, `unresolved`, kadar si dokazi nasprotujejo, in `not_applicable`, kadar polje za zapis ni smiselno. Prazna celica teh razlik ne ohrani.
 
@@ -104,7 +104,7 @@ Po obravnavi dvojnikov preverite natančne ohranjene identifikatorje ter števil
 
 Pripravite preglednico dokazov, tabelo usklajenih zapisov, po potrebi tabelo razmerij, dnevnik odločitev in seznam znanih težav. Pri spremenljivih katalogih in normativnih storitvah navedite različico pravila in datum dostopa.
 
-Postopek je uspešen, če lahko druga oseba najde vse različne vrednosti, razume, zakaj ste eno sprejeli ali nobene, odpre natančno mesto v viru in ponovi končno štetje zapisov. Uporabna nerešena identiteta je boljša od samozavestne napačne povezave.
+Postopek je uspešen, če lahko druga oseba najde vse različne vrednosti, razume, zakaj ste eno sprejeli ali nobene, odpre natančno mesto v viru in ponovi končno štetje zapisov. Dokumentirana nerešena ali zavrnjena povezava je boljša od samozavestne napačne povezave.
 
 ## Preverite se
 
@@ -127,6 +127,6 @@ Postopek je uspešen, če lahko druga oseba najde vse različne vrednosti, razum
 
 ## Naloga
 
-V učnem gradivu uporabite zapise `AF-P1-001`, `AF-P1-002`, `AF-P1-003` in `AF-P2-003`. Pri vsakem ločite natisnjeni izraz, ponudnikovo vrednost, normalizacijo ali izpeljavo, gotovost in status normativne povezave. Za vsako neskladje napišite eno odločitev. Rezultat primerjajte z `cleaned/decisions.csv` in navedite dokaze, ki bi jih potrebovali za potrditev nerešenih identitet.
+V učnem gradivu uporabite zapise `AF-P1-001`, `AF-P1-002`, `AF-P1-003`, `AF-P2-001` in `AF-P2-003`. Pri vsakem ločite natisnjeno oznako, strukturo enote, ponudnikovo vrednost, obseg in stanje datuma, zunanjega normativnega kandidata, stanje povezave ter dokaze. Za vsako neskladje napišite eno odločitev. Rezultat primerjajte z `cleaned/decisions.csv` in navedite dokaze, ki bi jih potrebovali za novega normativnega kandidata ali za datiranje fotografije struge.
 
 Za celotni večplastni postopek nadaljujte z navodili [za pretvorbo neurejenih zapiskov v ponovno uporabne podatke](turn-messy-humanities-notes-into-a-reusable-dataset.md). Poglavje [Podatki, metapodatki in modeli](../../chapters/data-metadata-models.md) pojasnjuje, zakaj so te odločitve modeliranje, ne nevtralno čiščenje.

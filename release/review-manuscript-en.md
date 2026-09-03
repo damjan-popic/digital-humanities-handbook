@@ -1170,7 +1170,8 @@ interpretation](models-evidence-interpretation.md) into a practical research
 plan. [Data, metadata and models](data-metadata-models.md) develops the record
 structure; [Texts, corpora and OCR](texts-corpora-ocr.md) addresses document
 images, OCR/HTR and corpus sampling. These chapters share the small
-[*Archival friction* teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+[*Archival friction* teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip),
+whose [source tree remains inspectable](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
 ## Research design is an argument in advance
 
@@ -1393,11 +1394,14 @@ gate. Record both the rule and whether it was met.
 
 ## Worked example: *Archival friction*
 
-The packet starts with a two-page 1925 issue of *Ilustrirani Slovenec*. Its
-captions contain relative dates, historical names, partisan description and
-a tempting but unresolved “Meker/Meeker” identity. The provider OCR corrupts
-several words and diacritics. Four additional disturbances—a duplicate and
-conflicting values—are synthetic and separately declared.
+The packet starts with one authentic historical object: a two-page 1925 issue
+of *Ilustrirani Slovenec*. The handbook creates eight source-grounded
+reference observations—one issue and seven features—from its captions.
+These contain relative dates, historical names, partisan description and a
+tempting but rejected authority candidate for the printed “Meker”. The
+provider OCR corrupts several words and diacritics. Four additional
+disturbances—a duplicate and conflicting values—are synthetic and separately
+declared.
 
 Suppose the question is: **Which source and processing uncertainties would
 change a comparison of named political actors in illustrated captions?** A
@@ -1410,12 +1414,14 @@ compact design is:
   distribution of the whole issue without completing the inventory.
 - **Observation unit:** one issue, portrait, group portrait or captioned
   feature; `record_kind` preserves the difference.
-- **Indicators:** whether a person is named as printed, whether an authority
-  match is accepted, and whether a date is exact, derived, approximate or
-  unknown.
+- **Indicators:** the printed person/group label, whether the unit represents
+  zero, one or multiple people, the separate authority-link status, and
+  whether a date is exact, rule-derived, unknown or not applicable.
 - **Validation:** return every row to its PDF locator; compare provider OCR
-  with the gold excerpt; verify eight clean identifiers and exclude only the
-  declared synthetic duplicate.
+  with the documented reference excerpt; verify eight clean observation
+  identifiers, twelve editorial decisions and exclusion of only the declared
+  synthetic duplicate. The riverbed photograph remains undated; the issue
+  date is stored only as publication context.
 - **Stopping rule:** no authority identifier is added until an independent
   source supports the match; unresolved cases remain unresolved.
 - **Claim limit:** the result evaluates record construction in this pilot. It
@@ -1426,8 +1432,9 @@ research design sometimes produces an explicit “not enough evidence”.
 
 ## Practice: a design and stop/go memo
 
-Use the packet or a small source set from your field. Produce a one-page memo
-with:
+Download the [packet ZIP](../../assets/downloads/archival-friction-v1.zip) or
+use a small source set from your field; consult the [source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction)
+when auditing how the exercise was assembled. Produce a one-page memo with:
 
 1. a bounded research question;
 2. source population, repository holdings, sampling frame and analytical
@@ -1554,8 +1561,9 @@ catalogue record? If not, the table lacks semantics and provenance, not just
 tidiness.
 
 No database or coding experience is required. You need a small collection or
-the [*Archival friction* teaching
-packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+the [*Archival friction* teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip);
+the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction)
+is available for inspection.
 Your outputs will be a record model, data dictionary, correction log and
 quality report. A successful result preserves evidence even when a value is
 normalized or left unresolved. The central failure mode is silent
@@ -1672,9 +1680,9 @@ At least four values may legitimately differ:
 
 Store them in different fields or tables. For a caption printed as “Mr.
 Meker”, an OCR layer might agree, an authority-search layer might propose
-“Ezra Meeker”, and the audited status may remain `unresolved`. Replacing the
-printed form with the candidate makes the source appear more certain than it
-is and prevents later review.
+“Ezra Meeker”, and the audited authority-link status may be
+`candidate_rejected`. Replacing the printed form with the candidate makes the
+source appear more certain than it is and prevents later review.
 
 Keep four file or database layers even when you also separate values by
 field: a **source/raw layer** that is never silently changed; an **interim
@@ -1683,6 +1691,13 @@ layer** for candidates and repeatable transformations; a
 stated purpose; and a **decision layer** recording interventions, rejections
 and unresolved cases. The interim layer is not evidence merely because a
 tool produced it, and the processed layer never replaces the source.
+
+The teaching packet makes the directory roles still more explicit:
+`source/` contains only the unchanged PDF, captured provider records and
+unchanged provider OCR; `reference/` contains handbook-created observations,
+editorial decisions and reference transcription; `teaching/` declares
+synthetic disturbances; and `raw/`, `interim/`, `cleaned/`, `output/`,
+`validation/` and `known-problems/` preserve the subsequent evidence chain.
 
 A correction log should contain at least a decision identifier, record and
 field, previous and new value, action, evidence, responsible person or
@@ -1728,16 +1743,18 @@ certainty fields may be more interoperable in a small project. Never turn
 “probably 1925” into the exact date `1925-01-01` merely because a spreadsheet
 expects a day.
 
-## Names and authority reconciliation
+## Printed identity, entity structure and authority reconciliation
 
 Authority files can connect spelling variants and supply durable identifiers,
-but reconciliation is a research claim. Preserve:
+but reconciliation is a research claim. Preserve separately:
 
-- `name_as_printed`;
+- `printed_person_or_group`, the local label from the source;
+- `entity_structure` (`zero_people`, `one_person` or `multiple_people`);
 - a normalized display label, if needed;
-- the authority system and candidate URI;
-- match status (`accepted`, `possible`, `rejected`, `unresolved`);
-- evidence and reviewer;
+- the authority system and `authority_candidate` URI or label;
+- `authority_link_status` (`not_attempted`, `not_reconciled`,
+  `candidate_rejected`, `accepted`, `unresolved` or `not_applicable`);
+- authority evidence, decision and reviewer;
 - access date, because interfaces and records change.
 
 Do not accept the highest search result solely because the label matches. Test
@@ -1748,8 +1765,10 @@ persistent subject identifiers and variant names but describe an evolving,
 domain-bounded resource, not a universal list of people and places.[^getty]
 
 Treat reconciliation as **linking with evidence**, not replacing the local
-record. If no candidate is sufficiently supported, `unresolved` is a valid
-result.
+record. A clearly printed name is not an unresolved identity merely because
+no URI has been assigned, and a group portrait is not one unresolved person.
+If a tested candidate is insufficiently supported, `candidate_rejected` is a
+valid, auditable result.
 
 ## Missingness has meanings
 
@@ -1832,30 +1851,33 @@ Automated checks find structural contradictions. They cannot decide whether a
 caption is politically neutral, a person match is historically persuasive or
 a category is adequate. Combine them with source review.
 
-## Worked example: eight records under friction
+## Worked example: one object and eight reference observations
 
-The teaching packet records eight units from a two-page issue. The source
-table preserves transcribed labels, provider OCR, printed dates, normalized
-dates, certainty, names, candidate authorities, source locators and evidence
-notes. A separate perturbation table introduces four declared teaching
-problems. The generated raw table therefore contains nine rows: three altered
-fields and one duplicate row.
+The teaching packet contains one authentic two-page issue. In `reference/`,
+the handbook records eight source-grounded observations: one issue and seven
+features. The observation table preserves transcribed labels, provider OCR,
+date scope and status, a separate issue-context date, printed person/group
+labels, entity structure, authority candidates and statuses, source locators
+and evidence notes. `teaching/` introduces four declared problems. The
+generated raw table therefore contains nine rows: three altered fields and
+one duplicate row.
 
 The audit proceeds as follows:
 
 1. Verify the committed PDF against its provider and SHA-256.
-2. Confirm that all eight source identifiers resolve to a page and region.
+2. Confirm that all eight reference-observation identifiers resolve to a page and region.
 3. Compare each changed raw field with the facsimile, not only the clean
    answer table.
 4. Restore the caption's capitalization where the image decides the matter.
 5. Remove only the row explicitly declared as a synthetic duplicate; retain
    the underlying feature.
-6. Reject the silent change from “Meker” to “Meeker” and leave the authority
-   candidate blank because the packet supplies no independent evidence.
-7. Retain derived and approximate dates with their statuses rather than
-   converting them to unqualified exact dates.
-8. Verify eight clean record IDs, four logged decisions and no altered source
-   bytes.
+6. Reject the silent change from “Meker” to “Meeker”; retain Ezra Meeker as a
+   reviewed candidate with `candidate_rejected`, not as an accepted identity.
+7. Derive 1925-02-01 and 1925-01-27 under explicit rules, but leave the
+   riverbed photograph's creation date blank/`unknown`; its issue date is
+   context only.
+8. Verify eight clean IDs, eight authentic editorial decisions, four
+   synthetic reversals and no altered source bytes.
 
 The clean result is not a claim that all eight records are complete. It is a
 claim that every retained value has a declared evidential status and can be
@@ -1863,7 +1885,9 @@ audited.
 
 ## Practice: build and audit a record model
 
-Using the packet or five to ten records from your field, prepare:
+Using the [packet ZIP](../../assets/downloads/archival-friction-v1.zip)—with
+its [source tree available for audit](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction)—or
+five to ten records from your field, prepare:
 
 1. a conceptual sketch of entities and relations;
 2. a table or set of tables in which every row has one meaning;
@@ -1983,7 +2007,7 @@ construction, uncertainty and limits remain inspectable.
 
 A searchable transcription can make an archive feel complete. It is not the archive. It is one representation produced from selected objects, page images, layout decisions, a recognition system and editorial rules. What can you responsibly infer when every one of those stages can omit or alter evidence?
 
-This chapter treats a corpus as a research instrument rather than a folder of text. It connects [research design](research-design.md), [data, metadata and models](data-metadata-models.md), and [critical infrastructures](critical-infrastructures.md). Its worked example uses the open [Archival Friction teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction), so you can inspect the scan, provider text, reference transcription, metadata decisions and validation results together.
+This chapter treats a corpus as a research instrument rather than a folder of text. It connects [research design](research-design.md), [data, metadata and models](data-metadata-models.md), and [critical infrastructures](critical-infrastructures.md). Its worked example uses the [Archival Friction teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip), while the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) remains inspectable, so you can examine the scan, provider text, reference transcription, metadata decisions and validation results together.
 
 ## Learning outcomes
 
@@ -2030,7 +2054,7 @@ Before running OCR or HTR, make one record for each source object. At minimum re
 
 Stop if you cannot identify the source, obtain or document permission, or explain whether redistribution is allowed. Revise the plan if research use is permitted but republishing images is not. Proceed only when the intended acquisition, processing and delivery are compatible with the rights record. “Online” does not mean public domain, and a public-domain work may still be delivered through a file with institutional terms or personal data concerns.
 
-The packet models this gate in `RIGHTS.md`, `SOURCE_CITATION.md`, `source/commons-source.json` and the checksum manifest. Its source PDF is an unchanged Wikimedia Commons copy of *Ilustrirani Slovenec* dated 7 February 1925, with its catalogue record, public-domain status, access date and digest. This tiny sample tests a method; it cannot represent the newspaper.
+The packet models this gate in `rights-and-provenance.md`, `SOURCE_CITATION.md`, `source/dlib-source.json`, `source/commons-source.json` and the checksum manifest. dLib supplies the stable URN and bibliographic record through NUK; its displayed rights field was blank at the audit date. Wikimedia Commons identifies dLib as source and applies the public-domain label to the unchanged PDF copy. This tiny sample tests a method; it cannot represent the newspaper.
 
 ## OCR and HTR solve related but different problems
 
@@ -2103,11 +2127,11 @@ The packet begins with a two-page illustrated newspaper and provider OCR. Treati
 
 ### Manual intervention
 
-The reference transcription follows a declared reading order, retains historical spelling and punctuation, and joins layout-only line breaks. The provider export stays unchanged in `raw/`; the checked passage is a separate `cleaned/` object. A human compares image and text, logs error categories, checks disputed names and calculates CER and WER under one normalization rule.
+The reference transcription follows a declared reading order, retains historical spelling and punctuation, and joins layout-only line breaks. The provider export stays unchanged in `source/` and is copied into `raw/`; the checked passage is a separate, documented `reference/` object. A human compares image and text, logs error categories, checks disputed names and calculates CER and WER under one normalization and alignment policy.
 
 ### What remains uncertain
 
-The identity behind “Mr. Meker” is unresolved, the date of one photograph is only approximate, and untranscribed regions have not been evaluated. The exercise does not estimate variation across issues, layouts or recognition models.
+The printed “Mr. Meker” remains distinct from a rejected Ezra Meeker authority candidate, the riverbed photograph's creation date is unknown rather than inherited from the issue, and untranscribed regions have not been evaluated. The exercise does not estimate variation across issues, layouts or recognition models.
 
 ### Effect on the downstream claim
 
@@ -2123,7 +2147,7 @@ Align the recognition output with the reference and count the minimum substituti
 
 Use characters for **CER** and defined word tokens for **WER**. State whether spaces, punctuation and case count as characters, how Unicode is normalized and how words are tokenized. Because insertions are possible, an error rate can exceed 1. Do not convert the score into “percent accuracy” without defining the relationship; the intuitive complement can be misleading when alignment contains insertions.
 
-The packet records 591 reference characters and 15 edits, hence CER \(15/591=0.025381\). Its 93 whitespace-delimited reference words and 9 edits give WER \(9/93=0.096774\). These deterministic values describe one passage, not an issue, title, platform or model.
+The packet records 591 reference characters with 7 substitutions, 5 deletions and 3 insertions (15 edits), hence CER \(15/591=0.025381\). Its 93 whitespace-delimited reference words have 7 substitutions, 2 deletions and 0 insertions (9 edits), giving WER \(9/93=0.096774\). Tied minimum alignments prefer match, substitution, deletion and insertion in that order; rates use round-half-even to six decimals. These deterministic values describe one passage, not an issue, title, platform or model.
 
 ## Turn one score into an error profile
 
@@ -2167,10 +2191,13 @@ If one record represents several manifestations, retain a relation table and exp
 Use directories or equivalent storage layers whose roles remain visible:
 
 ```text
-source/          repository file and source metadata
-raw/             unchanged provider OCR or HTR export
-cleaned/         checked or normalized derivatives
-output/          metrics, corpus tables and analytical results
+source/          unchanged object, provider records and provider OCR/export
+reference/       handbook observations, reference transcription and policy
+teaching/        declared synthetic disturbances
+raw/             deliberately awkward derived working rows
+interim/         candidates awaiting source/reference review
+cleaned/         audited records, transcription copy and decisions
+output/          metrics, error audit and record summaries
 validation/      expected values, checksums and test reports
 known-problems/  unresolved errors and scope limits
 ```
@@ -2181,13 +2208,13 @@ A script may automate these checks, but automation is an optional extension. A s
 
 ## Practice: make one defensible claim
 
-Download or open the [Archival Friction teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+Download the [Archival Friction teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip). Use the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) to inspect how it is assembled.
 
 1. Read the rights record and source citation. State whether you may redistribute the included PDF and why.
 2. Inspect both source pages before reading the transcriptions. Identify two layout features likely to affect reading order.
-3. Compare `raw/provider-ocr.txt` with `cleaned/gold-transcription.txt`. Classify at least five differences.
-4. Read `source/transcription-note.md`. Decide whether each difference is recognition error, policy difference or unresolved reading.
-5. Confirm the reported character and word counts and explain why the rates differ.
+3. Compare `raw/provider-ocr.txt` with `reference/reference-transcription.txt`. Classify at least five differences.
+4. Read `reference/transcription-policy.md`. Decide whether each difference is recognition error, policy difference or unresolved reading.
+5. Confirm every character and word S/D/I count, recompute the rates under the declared rounding rule, and compare your classification with `output/ocr-error-audit.csv`.
 6. Choose one task—search for a name, count a form or quote a sentence—and test it on both versions.
 7. Write a claim limited to this sample, followed by one sentence explaining what you cannot generalize.
 
@@ -3486,7 +3513,7 @@ Read [What is digital humanities?](../chapters/what-is-digital-humanities.md) an
 
 Use [Models, evidence and interpretation](../chapters/models-evidence-interpretation.md), [Infrastructures of digital humanities](../chapters/critical-infrastructures.md), and [From question to method](../chapters/research-design.md). Turn a broad topic into one bounded research question. Define the object, scope, possible evidence, provisional model, alternative explanation, and one infrastructural limit.
 
-Use the [Archival Friction teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) to test a plausible question against the actual sampling frame, source rights, dates and record units. Narrow or reformulate the claim when the two-page source cannot support it.
+Download the [Archival Friction teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip) to test a plausible question against the actual sampling frame, source rights, dates and record units; the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) remains available for inspection. Narrow or reformulate the claim when the two-page source cannot support it.
 
 **Output:** a question-and-evidence brief that distinguishes description, evidence, interpretation, and recommendation.
 

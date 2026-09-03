@@ -26,7 +26,7 @@ Reconciliation is not majority voting. It is a documented comparison of claims m
 - every provider record or export you intend to compare;
 - stable links to any authority records consulted;
 - a spreadsheet or text editor; and
-- optionally, `raw/messy-records.csv`, `source/source-records.csv` and `cleaned/decisions.csv` in the open [Archival Friction teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+- optionally, download the [Archival Friction teaching packet ZIP](../../../assets/downloads/archival-friction-v1.zip) and use `raw/messy-records.csv`, `reference/observations.csv` and `cleaned/decisions.csv`; maintainers can inspect the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
 Record source and rights information before beginning. Keep provider exports unchanged.
 
@@ -75,7 +75,7 @@ Write the rule before choosing a value. Examples:
 
 - **transcription:** prefer the visible form when legible; preserve unresolved characters rather than modernizing them;
 - **provider metadata:** retain it as a provider claim even when the object contradicts it;
-- **date:** retain the printed expression, then add an exact, derived, approximate or unresolved normalized value;
+- **date:** retain the printed expression, define what the date describes, and distinguish exact, rule-derived, unknown and not-applicable values from a separate issue-context date;
 - **person:** require corroborating place, role, event, date or relationship before linking an authority identifier;
 - **title:** distinguish the title printed on the item from a repository-supplied title; and
 - **language or genre:** state the vocabulary and whose classification it represents.
@@ -86,11 +86,11 @@ Do not use the number of agreeing sources as the rule unless their independence 
 
 Add a decision row containing the record, field, raw value, accepted value, action, evidence, decision maker, date and rule version. Use a controlled action such as `correct_from_facsimile`, `retain_provider_variant`, `derive_date`, `accept_authority_match`, `reject_authority_match` or `leave_unresolved`.
 
-For *Ilustrirani Slovenec*, the image prints “Mr. Meker.” A synthetic teaching row changes it to “Mr. Meeker” and proposes Ezra Meeker. Similarity of name, age and public role makes the candidate plausible, but the packet supplies no independent link between the photograph and that person. The defensible clean record restores the printed form and leaves the authority candidate empty and the identity unresolved.
+For *Ilustrirani Slovenec*, the image prints “Mr. Meker.” One synthetic teaching change silently rewrites it as “Mr. Meeker”; another sets the tested Ezra Meeker authority candidate to `accepted`. Similarity of name, age and public role is insufficient evidence. The defensible clean record restores the printed form, models the unit as `one_person`, retains Ezra Meeker as an audited candidate, and assigns `candidate_rejected` rather than confusing a printed label with an external authority link.
 
 ### 6. Preserve precision, negative decisions and unresolved cases
 
-Do not turn a year inferred from issue context into a complete calendar date. Keep fields such as `date_as_printed`, `date_normalized`, `date_certainty` and `derivation_note`. For an unsuccessful identity check, retain the rejected candidate and reason in the decision log so someone does not repeat the same search without new evidence.
+Do not turn an issue date into a feature's creation date. Keep fields such as `date_scope`, `printed_date`, `date_normalized`, `date_status`, `issue_context_date` and the derivation evidence. In the packet the riverbed photograph remains blank/`unknown`; 1925-02-07 is publication context only. For an unsuccessful authority check, retain the rejected candidate and reason so someone does not repeat the same search without new evidence.
 
 Use `unknown` when no value is known, `unresolved` when evidence conflicts, and `not_applicable` when the field does not describe that record. Empty strings alone erase those differences.
 
@@ -127,6 +127,6 @@ Validation passes when another reader can recover every competing value, see why
 
 ## Practice task
 
-Use records `AF-P1-001`, `AF-P1-002`, `AF-P1-003` and `AF-P2-003` from the packet. For each one, separate the printed expression, provider value, normalization or derivation, certainty and authority status. Write one decision row per conflict. Then compare your table with `cleaned/decisions.csv` and explain which evidence would be needed to confirm the unresolved identities.
+Use records `AF-P1-001`, `AF-P1-002`, `AF-P1-003`, `AF-P2-001` and `AF-P2-003` from the packet. For each one, separate the printed label, entity structure, provider value, date scope and status, external authority candidate, authority-link status and evidence. Write one decision row per conflict. Then compare your table with `cleaned/decisions.csv` and explain what evidence would be needed to replace the rejected authority candidate or date the riverbed photograph.
 
 Continue with [turning messy notes into reusable data](turn-messy-humanities-notes-into-a-reusable-dataset.md) for the complete layered process. [Data, metadata and models](../../chapters/data-metadata-models.md) explains why these decisions are acts of modelling rather than neutral cleanup.

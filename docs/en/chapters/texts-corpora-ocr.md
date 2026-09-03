@@ -9,7 +9,7 @@ status: draft
 
 A searchable transcription can make an archive feel complete. It is not the archive. It is one representation produced from selected objects, page images, layout decisions, a recognition system and editorial rules. What can you responsibly infer when every one of those stages can omit or alter evidence?
 
-This chapter treats a corpus as a research instrument rather than a folder of text. It connects [research design](research-design.md), [data, metadata and models](data-metadata-models.md), and [critical infrastructures](critical-infrastructures.md). Its worked example uses the open [Archival Friction teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction), so you can inspect the scan, provider text, reference transcription, metadata decisions and validation results together.
+This chapter treats a corpus as a research instrument rather than a folder of text. It connects [research design](research-design.md), [data, metadata and models](data-metadata-models.md), and [critical infrastructures](critical-infrastructures.md). Its worked example uses the [Archival Friction teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip), while the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) remains inspectable, so you can examine the scan, provider text, reference transcription, metadata decisions and validation results together.
 
 ## Learning outcomes
 
@@ -56,7 +56,7 @@ Before running OCR or HTR, make one record for each source object. At minimum re
 
 Stop if you cannot identify the source, obtain or document permission, or explain whether redistribution is allowed. Revise the plan if research use is permitted but republishing images is not. Proceed only when the intended acquisition, processing and delivery are compatible with the rights record. “Online” does not mean public domain, and a public-domain work may still be delivered through a file with institutional terms or personal data concerns.
 
-The packet models this gate in `RIGHTS.md`, `SOURCE_CITATION.md`, `source/commons-source.json` and the checksum manifest. Its source PDF is an unchanged Wikimedia Commons copy of *Ilustrirani Slovenec* dated 7 February 1925, with its catalogue record, public-domain status, access date and digest. This tiny sample tests a method; it cannot represent the newspaper.
+The packet models this gate in `rights-and-provenance.md`, `SOURCE_CITATION.md`, `source/dlib-source.json`, `source/commons-source.json` and the checksum manifest. dLib supplies the stable URN and bibliographic record through NUK; its displayed rights field was blank at the audit date. Wikimedia Commons identifies dLib as source and applies the public-domain label to the unchanged PDF copy. This tiny sample tests a method; it cannot represent the newspaper.
 
 ## OCR and HTR solve related but different problems
 
@@ -129,11 +129,11 @@ The packet begins with a two-page illustrated newspaper and provider OCR. Treati
 
 ### Manual intervention
 
-The reference transcription follows a declared reading order, retains historical spelling and punctuation, and joins layout-only line breaks. The provider export stays unchanged in `raw/`; the checked passage is a separate `cleaned/` object. A human compares image and text, logs error categories, checks disputed names and calculates CER and WER under one normalization rule.
+The reference transcription follows a declared reading order, retains historical spelling and punctuation, and joins layout-only line breaks. The provider export stays unchanged in `source/` and is copied into `raw/`; the checked passage is a separate, documented `reference/` object. A human compares image and text, logs error categories, checks disputed names and calculates CER and WER under one normalization and alignment policy.
 
 ### What remains uncertain
 
-The identity behind “Mr. Meker” is unresolved, the date of one photograph is only approximate, and untranscribed regions have not been evaluated. The exercise does not estimate variation across issues, layouts or recognition models.
+The printed “Mr. Meker” remains distinct from a rejected Ezra Meeker authority candidate, the riverbed photograph's creation date is unknown rather than inherited from the issue, and untranscribed regions have not been evaluated. The exercise does not estimate variation across issues, layouts or recognition models.
 
 ### Effect on the downstream claim
 
@@ -149,7 +149,7 @@ Align the recognition output with the reference and count the minimum substituti
 
 Use characters for **CER** and defined word tokens for **WER**. State whether spaces, punctuation and case count as characters, how Unicode is normalized and how words are tokenized. Because insertions are possible, an error rate can exceed 1. Do not convert the score into “percent accuracy” without defining the relationship; the intuitive complement can be misleading when alignment contains insertions.
 
-The packet records 591 reference characters and 15 edits, hence CER \(15/591=0.025381\). Its 93 whitespace-delimited reference words and 9 edits give WER \(9/93=0.096774\). These deterministic values describe one passage, not an issue, title, platform or model.
+The packet records 591 reference characters with 7 substitutions, 5 deletions and 3 insertions (15 edits), hence CER \(15/591=0.025381\). Its 93 whitespace-delimited reference words have 7 substitutions, 2 deletions and 0 insertions (9 edits), giving WER \(9/93=0.096774\). Tied minimum alignments prefer match, substitution, deletion and insertion in that order; rates use round-half-even to six decimals. These deterministic values describe one passage, not an issue, title, platform or model.
 
 ## Turn one score into an error profile
 
@@ -193,10 +193,13 @@ If one record represents several manifestations, retain a relation table and exp
 Use directories or equivalent storage layers whose roles remain visible:
 
 ```text
-source/          repository file and source metadata
-raw/             unchanged provider OCR or HTR export
-cleaned/         checked or normalized derivatives
-output/          metrics, corpus tables and analytical results
+source/          unchanged object, provider records and provider OCR/export
+reference/       handbook observations, reference transcription and policy
+teaching/        declared synthetic disturbances
+raw/             deliberately awkward derived working rows
+interim/         candidates awaiting source/reference review
+cleaned/         audited records, transcription copy and decisions
+output/          metrics, error audit and record summaries
 validation/      expected values, checksums and test reports
 known-problems/  unresolved errors and scope limits
 ```
@@ -207,13 +210,13 @@ A script may automate these checks, but automation is an optional extension. A s
 
 ## Practice: make one defensible claim
 
-Download or open the [Archival Friction teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+Download the [Archival Friction teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip). Use the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) to inspect how it is assembled.
 
 1. Read the rights record and source citation. State whether you may redistribute the included PDF and why.
 2. Inspect both source pages before reading the transcriptions. Identify two layout features likely to affect reading order.
-3. Compare `raw/provider-ocr.txt` with `cleaned/gold-transcription.txt`. Classify at least five differences.
-4. Read `source/transcription-note.md`. Decide whether each difference is recognition error, policy difference or unresolved reading.
-5. Confirm the reported character and word counts and explain why the rates differ.
+3. Compare `raw/provider-ocr.txt` with `reference/reference-transcription.txt`. Classify at least five differences.
+4. Read `reference/transcription-policy.md`. Decide whether each difference is recognition error, policy difference or unresolved reading.
+5. Confirm every character and word S/D/I count, recompute the rates under the declared rounding rule, and compare your classification with `output/ocr-error-audit.csv`.
 6. Choose one task—search for a name, count a form or quote a sentence—and test it on both versions.
 7. Write a claim limited to this sample, followed by one sentence explaining what you cannot generalize.
 

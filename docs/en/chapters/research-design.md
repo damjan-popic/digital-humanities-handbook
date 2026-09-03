@@ -39,7 +39,8 @@ interpretation](models-evidence-interpretation.md) into a practical research
 plan. [Data, metadata and models](data-metadata-models.md) develops the record
 structure; [Texts, corpora and OCR](texts-corpora-ocr.md) addresses document
 images, OCR/HTR and corpus sampling. These chapters share the small
-[*Archival friction* teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+[*Archival friction* teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip),
+whose [source tree remains inspectable](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
 ## Research design is an argument in advance
 
@@ -262,11 +263,14 @@ gate. Record both the rule and whether it was met.
 
 ## Worked example: *Archival friction*
 
-The packet starts with a two-page 1925 issue of *Ilustrirani Slovenec*. Its
-captions contain relative dates, historical names, partisan description and
-a tempting but unresolved “Meker/Meeker” identity. The provider OCR corrupts
-several words and diacritics. Four additional disturbances—a duplicate and
-conflicting values—are synthetic and separately declared.
+The packet starts with one authentic historical object: a two-page 1925 issue
+of *Ilustrirani Slovenec*. The handbook creates eight source-grounded
+reference observations—one issue and seven features—from its captions.
+These contain relative dates, historical names, partisan description and a
+tempting but rejected authority candidate for the printed “Meker”. The
+provider OCR corrupts several words and diacritics. Four additional
+disturbances—a duplicate and conflicting values—are synthetic and separately
+declared.
 
 Suppose the question is: **Which source and processing uncertainties would
 change a comparison of named political actors in illustrated captions?** A
@@ -279,12 +283,14 @@ compact design is:
   distribution of the whole issue without completing the inventory.
 - **Observation unit:** one issue, portrait, group portrait or captioned
   feature; `record_kind` preserves the difference.
-- **Indicators:** whether a person is named as printed, whether an authority
-  match is accepted, and whether a date is exact, derived, approximate or
-  unknown.
+- **Indicators:** the printed person/group label, whether the unit represents
+  zero, one or multiple people, the separate authority-link status, and
+  whether a date is exact, rule-derived, unknown or not applicable.
 - **Validation:** return every row to its PDF locator; compare provider OCR
-  with the gold excerpt; verify eight clean identifiers and exclude only the
-  declared synthetic duplicate.
+  with the documented reference excerpt; verify eight clean observation
+  identifiers, twelve editorial decisions and exclusion of only the declared
+  synthetic duplicate. The riverbed photograph remains undated; the issue
+  date is stored only as publication context.
 - **Stopping rule:** no authority identifier is added until an independent
   source supports the match; unresolved cases remain unresolved.
 - **Claim limit:** the result evaluates record construction in this pilot. It
@@ -295,8 +301,9 @@ research design sometimes produces an explicit “not enough evidence”.
 
 ## Practice: a design and stop/go memo
 
-Use the packet or a small source set from your field. Produce a one-page memo
-with:
+Download the [packet ZIP](../../assets/downloads/archival-friction-v1.zip) or
+use a small source set from your field; consult the [source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction)
+when auditing how the exercise was assembled. Produce a one-page memo with:
 
 1. a bounded research question;
 2. source population, repository holdings, sampling frame and analytical

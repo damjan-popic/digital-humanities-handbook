@@ -51,7 +51,7 @@ Read [What is digital humanities?](../chapters/what-is-digital-humanities.md) an
 
 Use [Models, evidence and interpretation](../chapters/models-evidence-interpretation.md), [Infrastructures of digital humanities](../chapters/critical-infrastructures.md), and [From question to method](../chapters/research-design.md). Turn a broad topic into one bounded research question. Define the object, scope, possible evidence, provisional model, alternative explanation, and one infrastructural limit.
 
-Use the [Archival Friction teaching packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) to test a plausible question against the actual sampling frame, source rights, dates and record units. Narrow or reformulate the claim when the two-page source cannot support it.
+Download the [Archival Friction teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip) to test a plausible question against the actual sampling frame, source rights, dates and record units; the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) remains available for inspection. Narrow or reformulate the claim when the two-page source cannot support it.
 
 **Output:** a question-and-evidence brief that distinguishes description, evidence, interpretation, and recommendation.
 

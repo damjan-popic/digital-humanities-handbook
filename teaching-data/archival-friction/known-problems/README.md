@@ -1,20 +1,19 @@
-# Known problems and unresolved questions
+# Known problems and bounded uncertainty
 
-- The PDF text layer was created with ABBYY FineReader 9.0. Dense columns,
-  display type, and image captions disrupt reading order.
-- The gold transcription was checked against the committed facsimile but is
-  not a complete diplomatic edition. It does not encode typeface, column
-  geometry, or illustrations.
-- Dates inferred from “this month” or “this year” depend on the issue date.
-  Photograph creation dates remain unknown unless the caption states one.
-- The issue is a partisan publication. Its labels and political claims
-  cannot be imported as neutral subject metadata.
-- “Mr. Meker” may invite an authority match, but this packet supplies no
-  independent evidence sufficient to accept one. The clean table therefore
-  leaves the authority candidate blank.
-- The synthetic duplicate and metadata conflicts are teaching devices, not
-  source facts. Their identifiers all begin with `AF-SYN-` or end with
-  `-DUP`, and every affected raw row is marked `synthetic=true`.
-- CER and WER depend on the declared transcription policy, Unicode
-  normalization, tokenization, and the chosen excerpt. A different defensible
-  policy can produce a different score.
+- The PDF has only two pages and the reference transcription covers one short
+  region. OCR rates must not be generalized beyond that sample.
+- The provider text layer does not preserve a reliable reading order for all
+  columns and captions.
+- The reference transcription is a documented scholarly intervention, not
+  unmediated “ground truth”. Some punctuation can still merit another review.
+- AF-P1-002's photograph-creation date is unknown. The issue date supplies
+  publication context only.
+- For AF-P2-003, the printed “Meker” is secure as a local label, but the tested Ezra Meeker
+  authority candidate is rejected on current evidence. Other candidates were
+  not exhaustively searched.
+- AF-P2-001 represents several people. Person-level authority reconciliation
+  would require separate relation rows and evidence for each person.
+- Captions use partisan and sometimes polemical language. The handbook does
+  not normalize that rhetoric into neutral description.
+- dLib and Commons interfaces, file availability and displayed rights fields
+  can change after the 3 September 2026 audit.
