@@ -1,125 +1,309 @@
 ---
 title: "Linguistic annotation and CLASSLA"
-description: "How automatic linguistic annotation turns text into analysable layers—and why every layer still needs validation."
-tags: [annotation, CLASSLA, lemma, POS, NER]
+description: "How predicted linguistic layers become usable evidence through task-specific, source-aware validation."
+tags: [annotation, CLASSLA, lemma, morphology, dependency-parsing, NER, validation]
 status: draft
 ---
 
 # Linguistic annotation and CLASSLA
 
+A historian asks who is represented as speaking in newspapers from two periods.
+Finding verbs is only the first problem. OCR may join words, historical forms may
+be unfamiliar to a contemporary model, a lemma may be wrong, and a dependency
+parse may connect the speaker to the wrong predicate. Which layer is reliable
+enough for the claim—and how would we know?
+
 ## Learning outcomes
 
 After this chapter, you should be able to:
 
-- distinguish tokenization, lemmatization, part-of-speech tagging, morphology, dependency parsing and named-entity recognition;
-- explain why linguistic annotation is a model-based interpretation rather than a neutral fact;
-- choose annotation layers that match a humanities research question;
-- run and document a basic CLASSLA workflow for Slovene or another supported South Slavic language;
-- validate automatic output with a task-specific sample and error analysis.
+- distinguish sentence segmentation, tokenization, lemmatization, UPOS,
+  morphology, dependency parsing and named-entity recognition;
+- explain why every annotation layer is a model-based claim;
+- choose only the layers required by a humanities research question;
+- document a CLASSLA run with package, processors, resources, environment and
+  input/output checksums;
+- construct a manually reviewed, contestable reference sample;
+- calculate layer-specific metrics with explicit denominators; and
+- trace annotation errors to source conditions and interpretive risk.
 
 ## Before you begin
 
-Take the sentence *Zala je v Novi Gorici predstavila novo Zalo.* Is *Zala* a person, a product, a place or something else? What evidence would a human use? An annotator has to make related decisions from form, context and patterns learned from data.
+Consider *Zala je v Novi Gorici predstavila novo Zalo.* Is each occurrence of
+*Zala* a person, a product, a place or something else? Which evidence would you
+use: capitalization, inflection, surrounding words, a catalogue, or knowledge
+of the event? Now imagine that OCR returned *Novl Gorici*. The entity error would
+begin before entity recognition ran.
 
-Treat annotation layers as models rather than recovered facts. [Models, evidence and interpretation](models-evidence-interpretation.md) provides the conceptual grounding for separating an annotation output from evidence warranted by task-specific validation.
+Write down one claim you hope to make from annotated text. Underline the exact
+annotation fields that the claim depends on. If you cannot name them, revisit
+[Models, evidence and interpretation](models-evidence-interpretation.md) before
+running a pipeline.
 
-## Annotation creates analytical layers
+## Core argument: annotation is an evidential chain
 
-Raw text contains characters and spacing. Most computational methods first create more explicit units:
+Linguistic annotation makes patterns queryable by adding explicit analytical
+layers to a text. It does not recover properties that were simply waiting in the
+file. A pipeline applies a segmentation policy, an annotation scheme and learned
+regularities to a particular textual representation. The result is a chain:
 
-- **tokens** divide running text into words, punctuation marks or other units;
-- **sentences** establish boundaries for local context;
-- **lemmas** group inflected forms under a dictionary-like base form;
-- **part-of-speech and morphological tags** describe grammatical category and features;
-- **dependency relations** represent syntactic links between words;
-- **named entities** identify spans such as people, organizations, locations or dates.
+> source object → transcription or OCR → normalized text → sentences and tokens
+> → lexical and grammatical labels → query → aggregation → interpretation
 
-These layers enable questions that surface forms alone cannot answer. Lemmas support comparisons across inflection. Morphological tags help examine case, number or tense. Entities can connect texts to databases and maps. Dependency relations can approximate who acts upon whom.
+An error or editorial decision at one stage constrains every later stage. A
+merged OCR form can change token count, lemma, part of speech and syntax at once.
+A normalized name can improve recognition while hiding historically meaningful
+spelling. A high aggregate score can conceal systematic failure in the very
+genre or social group being compared. Validation therefore has to follow the
+research claim through the chain, not merely report that software completed.
 
-## Every annotation is a claim
+## What the layers claim
 
-Automatic annotation is produced by rules or statistical models trained on previously annotated examples. The output therefore reflects:
+### Sentences and tokens
 
-- the annotation scheme used in training data;
-- the genres, periods and varieties represented there;
-- tokenization and normalization decisions;
-- model architecture and software version;
-- ambiguities that the available context cannot resolve.
+Sentence segmentation proposes where one local context ends and another begins.
+Tokenization proposes which strings count as words, punctuation or multiword
+units. These choices determine the denominator for most later measurements.
+Historical abbreviations, initials, hyphens, apostrophes and OCR-damaged spaces
+are common failure points. If *naroda in* becomes *narodain*, a later tagger sees
+one unknown word rather than a noun followed by a conjunction.
 
-A tag is not a discovered property in the same sense as a page number. It is a prediction under a particular representation. This distinction matters most when the research claim depends on a small category, unusual language, historical spelling, dialect, poetry or named entities absent from training data.
+Keep the original text and stable document identifier. Where possible, retain
+character offsets. CoNLL-U can represent a surface multiword token and its
+component words separately; a flattened spreadsheet often loses that relation.
 
-## CLASSLA in a South Slavic context
+### Lemmas
 
-CLASSLA provides linguistic processing pipelines and resources for Slovene and several other South Slavic languages. A typical pipeline can tokenize text, split sentences, assign lemmas and morphosyntactic descriptions, parse dependencies and recognize named entities, depending on language and model availability.
+A lemma groups inflected forms under a dictionary-like form. Lemmas are useful
+for tracing concepts across case, number, person or tense, but they can collapse
+distinctions and inherit dictionary conventions. Historical, dialectal and
+named forms are especially sensitive. A wrong lemma can remove a relevant
+occurrence from a query or add a homograph that does not belong.
 
-The practical advantage is not merely convenience. Using a documented regional infrastructure makes it easier to cite models, compare languages and understand tag sets. The methodological obligation remains the same: record the language, model or package version, processors used, input preparation and date of processing.
+Do not discard surface forms after lemmatization. Report whether counts use
+forms, lower-cased forms or lemmas, and inspect the contexts that carry the
+argument.
 
-CLASSLA is also a knowledge centre for documentation, support, training and resource publication. Its institutional role and relation to CLARIN.SI are explained in [Digital humanities in Slovenia](digital-humanities-in-slovenia.md).
+### UPOS and morphology
 
-## Choose only the layers you need
+Universal part-of-speech tags (UPOS) provide broad categories such as `NOUN`,
+`VERB`, `ADJ` and `PRON`. Morphological features add values such as case,
+gender, number, person, tense and polarity. The XPOS field can retain a
+language-specific tag. These are scheme-bound analyses, not universal labels
+that every linguist would assign identically.
 
-More annotation is not automatically better. Each layer introduces computation, storage and possible error.
+A humanities query must state its operationalization. “Agents” cannot simply be
+equated with nominative nouns; passive voice, ellipsis and non-human subjects
+complicate that shortcut. A morphology score should also say whether a token is
+correct only when its complete feature bundle matches or whether individual
+features are scored separately.
 
-For a study of lexical change, tokens, lemmas and metadata may be enough. A study of grammatical constructions may need morphology and dependencies. A map of institutions requires named entities plus entity resolution. Running every processor because it is available can make a workflow slower and harder to audit without improving the argument.
+### Dependencies
 
-Start with the research variable. Ask what observable feature is required, which annotation approximates it, and how errors in that layer would change the result.
+A dependency parse assigns each syntactic word a head and a relation such as
+`nsubj`, `obj` or `obl`. It can help find constructions rather than isolated
+words—for example, a person linked as subject to a reporting verb. But one wrong
+token boundary shifts identifiers, and one wrong predicate can change several
+arcs. Unlabelled attachment asks whether the head is correct; labelled
+attachment asks whether both head and relation are correct.
 
-## From output to a tidy table
+Dependencies approximate a syntactic reading. They do not by themselves
+identify historical agency, responsibility, quotation source or causal force.
+Those require contextual interpretation.
 
-A useful annotation table commonly contains one row per token and fields such as:
+### Named entities
 
-| document_id | sentence_id | token_id | form | lemma | upos | feats | head | deprel |
-|---|---:|---:|---|---|---|---|---:|---|
-| d001 | 1 | 1 | Raziskovalke | raziskovalka | NOUN | Case=Nom\|Gender=Fem\|Number=Plur | 2 | nsubj |
+Named-entity recognition (NER) proposes spans and categories such as person,
+organization or location. Measure exact spans as spans: token-level tag accuracy
+can look high because most tokens are not entities. Report precision as correct
+predicted spans divided by predicted spans, recall as correct predicted spans
+divided by reference spans, and F1 as their harmonic mean.
 
-Keep document metadata in a separate table linked by `document_id`. Preserve the original text and, where possible, character offsets that map annotations back to it. Exporting only a flattened spreadsheet can destroy sentence structure, multiword tokens or uncertainty.
+Recognition is not entity resolution. Tagging *Ljubljana* as a location does not
+link it to a stable authority record. *J. Novak*, *Janez Novak* and *Novak* may
+refer to one person or several. Preserve aliases, dates, source provenance and
+an unresolved state; a missing link is safer than a confident false identity.
 
-## Validation must match the research task
+## CLASSLA as regional infrastructure
 
-A global accuracy reported by a model author is not a validation of your corpus. Draw a sample from your own material and examine the layer your analysis uses.
+CLASSLA supplies pipelines and resources for Slovene and other South Slavic
+languages. Depending on language and model availability, a pipeline can perform
+tokenization, sentence segmentation, part-of-speech and morphological tagging,
+lemmatization, dependency parsing and NER. Its regional documentation and
+connection to CLARIN.SI make models and tag sets easier to locate and cite. The
+institutional context is discussed in
+[Digital humanities in Slovenia](digital-humanities-in-slovenia.md).
 
-A defensible procedure is:
+A reproducible citation needs more than the name CLASSLA. The frozen teaching
+run used CLASSLA `2.2.1`, Python `3.12.3`, CPU execution and the processors
+`tokenize,pos,lemma,depparse,ner` on 7 September 2026. Its metadata records the
+operating platform, Torch version, command, normalized input hashes, output
+hashes and the SHA-256 value and byte size of every downloaded resource file.
+Model files are not redistributed. Package and resource licences must be checked
+separately before redistribution or production use.
 
-1. stratify the sample by genre, period or other likely source of variation;
-2. manually annotate or verify the relevant features;
-3. compare automatic and reference labels;
-4. report precision, recall or agreement where appropriate;
-5. inspect recurring error types, not only one aggregate score;
-6. estimate whether errors are random or systematically related to the groups being compared.
+This detail does not imply that one frozen run is universally reproducible.
+Hardware, packages and resources change. It makes the run identifiable and
+allows a later researcher to distinguish a deliberate update from drift.
 
-If a named-entity recognizer misses historical women more often because names are abbreviated differently, a group comparison can be biased even when overall accuracy looks respectable.
+## Choose only the layers the question requires
 
-## Entity recognition is not entity resolution
+More processors do not automatically produce stronger evidence. Each adds time,
+storage and another opportunity for error.
 
-Recognizing the string *Ljubljana* as a location does not identify which database record it refers to. Likewise, *J. Novak*, *Janez Novak* and *Novak* may denote one person or several. **Entity resolution** links mentions to stable identities and records uncertainty.
+| Research operation | Likely minimum layers | Additional check |
+| --- | --- | --- |
+| Count variants of a word | tokens or lemmas | concordance and document distribution |
+| Compare case marking | tokens, UPOS, morphology | exact feature-bundle review |
+| Find speakers of reporting verbs | lemmas, UPOS, dependencies | quotation and voice review |
+| Map named institutions | tokens, NER | entity resolution and place/time disambiguation |
 
-Use identifiers, aliases, temporal information and provenance. Do not force a link when evidence is insufficient. An unresolved mention is better than a confident but false connection.
+Begin with the observable needed by the claim. Name the annotation that
+approximates it and imagine the most damaging plausible error. If the
+interpretation survives that error, the layer may be sufficient. If not,
+strengthen the sample, correction process or claim.
 
-## Worked example: verbs of speaking in newspapers
+## Build a manual reference, not an oracle
 
-Suppose we want to compare reporting verbs across two newspaper periods.
+A useful reference sample is manually annotated or reviewed according to an
+explicit policy. It is still a scholarly intervention. Record who reviewed it,
+when, which source layer they saw, how OCR errors were treated, which scheme was
+used and where reasonable disagreement remains. Independent double annotation
+and adjudication improve reliability; when they are absent, say so.
 
-1. Define and sample comparable newspaper material.
-2. Preserve article and date metadata.
-3. run tokenization, lemmatization, morphology and dependency parsing;
-4. identify candidate speech verbs by lemma and construction;
-5. manually check a stratified sample, including headlines and quotations;
-6. separate true reporting uses from homonyms and parsing errors;
-7. normalize counts by corpus size and article distribution;
-8. interpret differences alongside editorial and historical context.
+Sample for likely variation rather than selecting only easy prose. Include
+period, genre, document condition, named entities and phenomena central to the
+question. Keep source damage separate from model error. If a provider OCR file
+has already lost a word boundary, the tagger did not cause the recognition
+error, though its response to that error still matters.
 
-The annotation reduces the search space. It does not replace the interpretive distinction between quotation, reported speech, metaphor and formulaic language.
+## Report one denominator per layer
+
+“The model was 92% accurate” is incomplete. The unit and eligible set change by
+layer. A compact evaluation should publish the counts behind every value:
+
+| Layer | Example measure | Denominator |
+| --- | --- | --- |
+| sentence segmentation | exact sentence match | reference samples or sentences |
+| tokenization | aligned correct word tokens | reference word tokens, plus insertions/deletions reported |
+| lemma / UPOS | exact label accuracy | one-to-one aligned word tokens |
+| morphology | exact feature-bundle accuracy | aligned tokens eligible for morphology |
+| dependencies | UAS and LAS | aligned syntactic words whose heads are alignable |
+| NER | span precision / recall / F1 | predicted spans / reference spans |
+
+Do not average these into one prestige number. A perfect NER span score on two
+entities is not strong evidence, and a dependency denominator that silently
+excludes unaligned OCR tokens can flatter the result. Publish numerator,
+denominator, exclusions and an error log.
+
+## Preserve a result that can be audited
+
+A Python object in memory is not yet a research output. Export a structured form
+that preserves document, sentence and word identifiers; surface form and lemma;
+UPOS, language-specific tag and features; head and dependency relation; entity
+span; and a link to the source layer. CoNLL-U preserves linguistic structure
+well. A token table may be convenient for analysis, but document metadata should
+remain in a linked table rather than being copied inconsistently into every row.
+
+Record normalization separately from the source. If you lower-case text,
+standardize historical spelling or repair OCR before annotation, preserve the
+unaltered layer and a reproducible transformation or decision log. A result must
+not imply that edited characters came from the page. The same rule applies to
+excluded passages and failed documents: absence from the final table is itself a
+selection decision.
+
+A minimal run record contains timestamps, package and runtime versions,
+processor order and settings, model/resource identifiers or hashes, execution
+device, input identifiers and hashes, output hashes, and the command or script
+revision. A checksum proves byte identity, not correctness. Together with a
+reference policy and error log, however, it lets another scholar reconstruct
+which evidence was seen and which decisions intervened.
+
+Set a decision rule before seeing the score. You might require manual review of
+all named entities, reject a period comparison if recall differs materially by
+period, or use annotations only to retrieve candidates for close reading. If the
+denominator is too small or disagreement concentrates in the target category,
+stop, expand validation and narrow the claim. “Unable to validate” is a useful
+methodological result, not a failed software demonstration.
+
+## Worked example: clean, historical and provider OCR
+
+The [text and NLP validation packet](../../assets/downloads/text-nlp-validation-v1.zip)
+compares four purposively selected Slovene sentences. Two are handbook-authored
+contemporary examples. The other two are aligned textual realizations of one
+1925 newspaper passage from the archival-friction packet: a manually checked
+reference transcription and the declared provider OCR. They are not independent
+historical observations.
+
+The clean sentence beginning *Kustosinja Maja Kovač* produces plausible lemmas,
+syntax and exact entity spans for the person, museum and Ljubljana. That success
+is evidence for those selected items only. In the historical reference,
+substantival *vse* invites a documented disagreement between an adverbial model
+analysis and the reference reviewer’s pronoun/subject analysis. In the provider
+OCR, *naroda in* is merged as *narodain*, *stanovske* becomes *stavovske*,
+*kulturnega* becomes *kultrunega*, and relative *ki* becomes *i*. The last error
+is analysed as a noun and helps redirect the dependency structure.
+
+The comparison separates three descriptions:
+
+1. **source condition:** what the page, transcription or provider OCR contains;
+2. **annotation behaviour:** what the frozen pipeline predicts for that input;
+3. **interpretive consequence:** which query, count or attribution could change.
+
+This is more informative than saying that OCR is “bad”. A joined conjunction
+threatens word counts and syntax; a damaged relative marker threatens clause and
+speaker attribution; an entity that remains correct may be robust for this one
+passage. The error taxonomy does not excuse the output—it locates the point at
+which intervention is warranted.
+
+## Failure modes and responsible limits
+
+Common failures include processing a PDF rather than its documented text layer,
+normalizing away meaningful spelling, losing document IDs during export,
+flattening multiword tokens, validating only familiar contemporary prose,
+reporting a global score without denominators, and treating uncertain entity
+resolution as certain.
+
+Annotation can also amplify representational inequality. Names, varieties and
+genres underrepresented in training resources may fail systematically. A query
+about women, minority-language writers or regional institutions can therefore
+be biased even when the overall metric appears high. Inspect errors by the
+groups the research compares, protect sensitive personal data, and avoid
+inferring identity or mental state from grammatical or entity labels.
 
 ## Practice
 
-Choose one research question and create an annotation plan. Name the required layers, software and language model, input format, output fields, validation sample, expected errors and the point at which a human decision is required.
+Complete [How do I evaluate CLASSLA on a domain-specific sample?](../workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md).
+Recalculate one metric from its numerator and denominator, trace two logged
+errors back to the source layers, and write a claim that the evidence supports.
+Then write a stronger claim that it does not support and identify the missing
+validation.
 
 ## Reflection
 
-- Which categories in your material are poorly represented in standard training data?
-- Would an error affect all documents equally, or could it distort a comparison?
-- Which annotation layers can be omitted without weakening the argument?
+- Which layer carries the greatest interpretive risk in your project?
+- Does the validation sample include the periods, genres and social groups in
+  your comparison?
+- Which errors began in OCR or transcription rather than annotation?
+- What would another qualified reviewer reasonably annotate differently?
+- Which processors could you omit without weakening the argument?
 
 ## Summary
 
-Linguistic annotation makes textual patterns computable by adding predicted layers such as lemmas, grammatical tags, syntax and entities. CLASSLA offers a strong infrastructure for Slovene and South Slavic material, but its output remains model-dependent. Use only the layers demanded by the question, preserve links to source text, record versions and validate the exact feature on which the interpretation depends.
+Linguistic annotation is an evidential chain of predicted, scheme-dependent
+layers. CLASSLA provides valuable regional infrastructure, but a package name or
+global benchmark cannot validate a humanities claim. Preserve source layers,
+run only the processors you need, identify software and resources precisely,
+build a documented manual reference, report layer-specific denominators and
+connect every consequential error to the interpretation it could change.
+
+## Further reading
+
+- Ljubešić, Nikola, and Taja Kuzman. 2024. *CLASSLA-Stanza: The Next Step for
+  Linguistic Processing of South Slavic Languages*. [Archived release and
+  citation record](https://doi.org/10.5281/zenodo.13936406).
+- [CLASSLA source repository and usage documentation](https://github.com/clarinsi/classla).
+- Universal Dependencies. [CoNLL-U format](https://universaldependencies.org/format.html)
+  and [universal dependency relations](https://universaldependencies.org/u/dep/).
+- Revisit [OCR, HTR and noisy text](ocr-htr-noisy-text.md) for the distinction
+  between source images, recognition output, corrected text and downstream use.

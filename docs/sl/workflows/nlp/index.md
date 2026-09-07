@@ -15,6 +15,7 @@ Pri vajah uporabljajte **Python 3.12.x** kot preizkušeno predmetno izhodišče.
 7. [Namestite in preizkusite CLASSLA](install-and-test-classla.md).
 8. [Anotirajte majhno slovensko besedilo](annotate-a-small-text-with-classla.md).
 9. [Rezultate CLASSLA izvozite v CSV](export-classla-results-to-csv.md).
+10. [CLASSLA ovrednotite na domensko specifičnem vzorcu](evaluate-classla-on-a-domain-specific-sample.md).
 
 Pri vsakem projektu `.venv/` ohranite krajevno in nesledeno. V repozitorij vključite README, pregledane zahteve, ukaze za zagon ter podatke o različici in omejitvah.
 
