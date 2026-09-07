@@ -2,8 +2,15 @@
 
 The packet uses UTF-8, Unicode NFC and LF line endings. CSV files have one
 header row and RFC 4180-style quoting. Stable identifiers begin `TNLP-`.
-Generated files are sorted by their identifier fields; empty cells mean “not
-applicable”, never an inferred zero.
+Generated tables use a documented deterministic ordering appropriate to their
+contents: for example, error records follow their identifiers, while frequency
+output is ordered by descending frequency, with terms in ascending order to
+break ties.
+
+The meaning of an empty value is field-specific: it can mean “not applicable”,
+an undefined measure (such as a rate with denominator zero), or pending
+human-review metadata (reviewer, date or scope). An empty field must never be
+interpreted automatically as numeric zero.
 
 ## Source and extraction fields
 
@@ -43,9 +50,9 @@ integer-ID word rows only.
 | `substitutions` / `insertions` / `deletions` | Explicit alignment operations in the named unit |
 | `excluded_reference_items` / `excluded_predicted_items` | Side-specific items excluded from downstream scoring |
 | `exclusion_rule` | Reason those items do not enter the layer score |
-| `alignment_status` | Exact token match, substitution, insertion or deletion |
+| `alignment_status` | `equal_form` (exact word-form match), `substitution`, `insertion`, `deletion` or `aligned_span` (entity-span alignment), where applicable; the applicable values depend on the alignment unit or layer |
 | `reference_value` / `predicted_value` | Compared labels or structures |
-| `error_family` | `source`, `segmentation`, `lexical`, `morphosyntactic`, `dependency`, `entity` or `ambiguity` |
+| `error_family` | `segmentation`, `lexical`, `morphosyntactic`, `dependency`, `entity` or `ambiguity` |
 | `input_stratum` | Source condition; never treated as a causal conclusion by itself |
 | `immediate_disagreement` | Direct alignment/label contrast before causal interpretation |
 | `likely_causal_origin` | Machine-assisted causal draft from the explicit decision table |

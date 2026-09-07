@@ -6,8 +6,16 @@ translation_status: machine-assisted draft; requires human language review
 
 Paket uporablja UTF-8, Unicode NFC in konce vrstic LF. Datoteke CSV imajo eno
 glavo ter navajanje po načelih RFC 4180. Stabilni identifikatorji se začnejo z
-`TNLP-`. Ustvarjene datoteke so urejene po identifikatorjih; prazno polje
-pomeni »ni uporabljivo« in ne domnevne ničle.
+`TNLP-`. Ustvarjene tabele sledijo dokumentiranim pravilom determinističnega
+razvrščanja, ki ustrezajo njihovi vsebini: zapisi o napakah so na primer urejeni
+po identifikatorjih, frekvenčni izpis pa padajoče po frekvenci in pri enaki
+frekvenci naraščajoče po izrazih.
+
+Pomen prazne vrednosti je odvisen od posameznega polja: lahko pomeni »ni
+uporabljivo«, nedoločeno mero (na primer delež z imenovalcem nič) ali
+metapodatke o človeškem pregledu, ki še ni opravljen (ime pregledovalca, datum
+ali obseg pregleda). Praznega polja nikoli ne smemo samodejno razlagati kot
+številsko ničlo.
 
 ## Polja vira in izvlečka
 
@@ -47,9 +55,9 @@ vrstice s celoštevilčnim identifikatorjem.
 | `substitutions` / `insertions` / `deletions` | Izrecna števila zamenjav, vstavkov in izpustov v navedeni enoti |
 | `excluded_reference_items` / `excluded_predicted_items` | Ločeni števili izločenih referenčnih in napovedanih elementov |
 | `exclusion_rule` | Razlog, da elementi ne vstopijo v vrednotenje plasti |
-| `alignment_status` | Natančno ujemanje, zamenjava, vstavljanje ali brisanje pojavnice |
+| `alignment_status` | `equal_form` (natančno ujemanje besedne oblike), `substitution` (zamenjava), `insertion` (vstavek), `deletion` (izpust) ali `aligned_span` (poravnava entitetnega razpona); katere vrednosti so smiselne, je odvisno od enote ali plasti poravnave |
 | `reference_value` / `predicted_value` | Primerjani oznaki ali strukturi |
-| `error_family` | `source`, `segmentation`, `lexical`, `morphosyntactic`, `dependency`, `entity`, `ambiguity` |
+| `error_family` | `segmentation`, `lexical`, `morphosyntactic`, `dependency`, `entity`, `ambiguity` |
 | `input_stratum` | Stanje vhodnega vira, ki samo po sebi ni vzročni sklep |
 | `immediate_disagreement` | Neposredna razlika v poravnavi ali oznaki pred vzročno razlago |
 | `likely_causal_origin` | Strojno podprti osnutek vzročne razvrstitve iz izrecne odločitvene tabele |
