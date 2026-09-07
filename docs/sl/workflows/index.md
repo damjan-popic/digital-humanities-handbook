@@ -19,11 +19,12 @@ Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod
 - **Analiza besedil** — 5
 - **Kartiranje** — 3
 - **NLP** — 10
+- **Objavljanje in podatki FAIR** — 3
 - **Omrežja** — 3
 - **Osnove** — 6
 - **PDF in OCR** — 1
 - **Podatki** — 2
-- **UI** — 1
+- **UI** — 3
 - **Upravljanje virov** — 3
 - **Urejanje podatkov** — 5
 - **Znanstveno pisanje** — 3
@@ -57,6 +58,12 @@ Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod
 - [Kako ustvarim virtualno okolje Python 3.12?](nlp/create-a-python-312-virtual-environment.md) <span class="tiny">— začetno</span>
 - [Kako zaženem skripto Python iz terminala?](nlp/run-a-python-script-from-terminal.md) <span class="tiny">— začetno</span>
 
+### Objavljanje in podatki FAIR
+
+- [Kako popravite objavljeni digitalni vir, ne da bi izbrisali njegovo zgodovino?](publishing/correct-a-published-digital-resource-without-erasing-history.md) <span class="tiny">— srednje zahtevno</span>
+- [Kako pripravite načrt vzdrževanja in nasledstva?](publishing/prepare-a-maintenance-and-succession-plan.md) <span class="tiny">— srednje zahtevno</span>
+- [Kako pripravite oštevilčeno znanstveno izdajo?](publishing/create-a-versioned-scholarly-release.md) <span class="tiny">— srednje zahtevno</span>
+
 ### Omrežja
 
 - [Kako preverim omrežno trditev ob izvornih zapisih?](networks/audit-a-network-claim-against-source-records.md) <span class="tiny">— srednje</span>
@@ -83,6 +90,8 @@ Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod
 
 ### UI
 
+- [Kako dokumentiram in preverim analizo UI, utemeljeno v virih?](ai/document-and-audit-a-source-grounded-ai-analysis.md) <span class="tiny">— srednje zahtevno</span>
+- [Kako primerjam izhode UI med pozivi, modeli in zagoni?](ai/compare-ai-output-across-prompts-models-and-runs.md) <span class="tiny">— srednje zahtevno</span>
 - [Kako rezultat UI preverim ob izvornih dokumentih?](ai/audit-ai-output-against-source-documents.md) <span class="tiny">— začetno</span>
 
 ### Upravljanje virov

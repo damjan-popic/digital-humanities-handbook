@@ -84,10 +84,22 @@ Pretvorba teoretskega pojma v opazljive kategorije, spremenljivke ali postopke, 
 Zapis o izvoru podatkov, osebah, ki so jih spreminjale, uporabljenih pretvorbah in dokazih, ki podpirajo trditev.
 
 **Izdaja**  
-Poimenovana, verzionirana in zamrznjena različica digitalnega projekta. Izdajo lahko recenziramo, navedemo in arhiviramo, medtem ko se razvoj drugje nadaljuje.
+Oštevilčena znanstvena izdaja, ki jo obravnavamo kot zamrznjen objavljeni posnetek, medtem ko se razvoj drugje nadaljuje. Oznaka Git ali izdaja na GitHubu sama po sebi ne zagotavlja znanstvene recenzije, nespremenljivosti ali dolgoročne hrambe; za to potrebujemo izrecna pravila in dokazila.
 
 **Ponovljivost**  
-Možnost, da z istimi podatki, kodo in dokumentiranim okoljem dobimo isti ali sprejemljivo enakovreden rezultat.
+Ponovna izvedba postopka pod istimi navedenimi pogoji. Natančna ponovitev zahteva tudi povsem enak rezultat; nespremenjena navodila ali naključno seme pri gostovanem modelu sama po sebi tega ne zagotavljajo.
+
+**Reproducibilnost**
+
+V tem priročniku računalniška reproducibilnost pomeni rekonstrukcijo izračuna iz ohranjenih podatkov, kode in okolja ob vnaprej določenem pravilu sprejemljive enakovrednosti. Terminologija se med vedami razlikuje; [IV. del](../chapters/ai-ethics-reproducibility.md) zato izrecno opredeli izbrana razlikovanja.
+
+**Robustnost**
+
+Kako se sklep spremeni ob utemeljenih spremembah virov, predobdelave, pozivov, nastavitev ali modelov. Ujemanje med izvedbami še ne pomeni, da je skupni sklep podprt z dokazi.
+
+**Sledljivost in interpretativna odgovornost**
+
+Sledljivost poveže rezultat z izvornimi odlomki in zabeleženimi pretvorbami. Interpretativna odgovornost omogoča presojo razlogov, alternativ in odgovornih odločitev. Nobena od njiju ne zahteva, da vsi sprejmejo isto razlago.
 
 **Analiza sentimenta**  
 Klasifikacija vrednotenjske polarnosti, navadno glede na tarčo. Ni enakovredna čustvu, stališču ali psihološkemu stanju.

@@ -51,7 +51,7 @@ def main() -> int:
     if args.output:
         out = args.output if args.output.is_absolute() else ROOT / args.output
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(report, encoding="utf-8")
+        out.write_text(report, encoding="utf-8", newline="\n")
         print(f"Wrote {out.relative_to(ROOT)}")
     return 1 if args.strict and missing else 0
 

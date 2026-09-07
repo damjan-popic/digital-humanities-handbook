@@ -48,6 +48,9 @@ check: indexes manuscripts
 	python scripts/build_text_nlp_validation.py --check
 	python scripts/check_text_nlp_validation.py
 	python scripts/check_intertextuality.py
+	python scripts/check_ai_publication.py
+	python -m unittest discover -s scripts -p 'test_ai_publication.py'
+	python -m unittest discover -s scripts -p 'test_review_links.py'
 	python scripts/check_review_ecosystem.py
 	python scripts/check_answers.py
 	python scripts/check_projects.py

@@ -73,10 +73,22 @@ Turning a theoretical concept into observable categories, variables or procedure
 The record of where data came from, who changed it, which transformations were applied and which evidence supports a claim.
 
 **Release**  
-A named, versioned and frozen edition of a digital project. A release can be reviewed, cited and archived even while development continues elsewhere.
+A numbered scholarly edition treated as a frozen publication snapshot while development continues elsewhere. A Git tag or GitHub release does not itself establish scholarly review, immutability or preservation; those require explicit policies and records.
 
 **Reproducibility**  
-The ability to obtain the same or acceptably equivalent result from the same data, code and documented environment.
+Here, computational reproducibility means reconstructing the computation from preserved data, code and environment, with a declared rule for acceptable equivalence. Terminology varies across disciplines; [Part IV](../chapters/ai-ethics-reproducibility.md) states the handbook's distinctions explicitly.
+
+**Repeatability**
+
+Repeating a procedure under the same specified conditions. Exact repetition additionally demands identical outputs; fixed instructions or a random seed alone do not establish that property for a hosted model.
+
+**Robustness**
+
+How a conclusion changes under justified variations in sources, preprocessing, prompts, settings or models. Agreement across runs does not establish that the shared conclusion is supported.
+
+**Traceability and interpretive accountability**
+
+Traceability connects an output to source passages and recorded transformations. Interpretive accountability makes the reasoning, alternatives and responsible decisions open to challenge. Neither requires everyone to reach the same interpretation.
 
 **Sentiment analysis**  
 Classification of evaluative polarity, usually toward a target. It is not equivalent to emotion, stance or psychological state.

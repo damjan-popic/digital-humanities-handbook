@@ -1,2 +1,6 @@
+# Keep authored text and deterministic packet inputs byte-stable on every OS.
+# Git's automatic text detection leaves binary files unchanged.
+* text=auto eol=lf
+
 # Preserve the exact Windows-1250/CRLF dLib provider export as captured.
 teaching-data/archival-friction/source/provider-ocr.txt -text -diff

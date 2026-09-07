@@ -12,7 +12,7 @@ The Slovene edition contains the stable core and a growing curated set of transl
 
 ## Categories
 
-- **AI** — 1
+- **AI** — 3
 - **Audio** — 1
 - **Automation** — 3
 - **CAT tools** — 3
@@ -27,7 +27,7 @@ The Slovene edition contains the stable core and a growing curated set of transl
 - **Networks** — 3
 - **NLP** — 16
 - **PDF & OCR** — 2
-- **Publishing & FAIR data** — 2
+- **Publishing & FAIR data** — 5
 - **Reference management** — 3
 - **Scholarly writing** — 3
 - **Subtitling** — 5
@@ -40,6 +40,8 @@ The Slovene edition contains the stable core and a growing curated set of transl
 ### AI
 
 - [How do I audit AI output against source documents?](ai/audit-ai-output-against-source-documents.md) <span class="tiny">— beginner</span>
+- [How do I compare AI output across prompts, models and runs?](ai/compare-ai-output-across-prompts-models-and-runs.md) <span class="tiny">— intermediate</span>
+- [How do I document and audit a source-grounded AI analysis?](ai/document-and-audit-a-source-grounded-ai-analysis.md) <span class="tiny">— intermediate</span>
 
 ### Audio
 
@@ -140,7 +142,10 @@ The Slovene edition contains the stable core and a growing curated set of transl
 
 ### Publishing & FAIR data
 
+- [How do I correct a published digital resource without erasing history?](publishing/correct-a-published-digital-resource-without-erasing-history.md) <span class="tiny">— intermediate</span>
+- [How do I create a versioned scholarly release?](publishing/create-a-versioned-scholarly-release.md) <span class="tiny">— intermediate</span>
 - [How do I package a corpus with FAIR metadata?](publishing/package-a-corpus-with-fair-metadata.md) <span class="tiny">— intermediate</span>
+- [How do I prepare a maintenance and succession plan?](publishing/prepare-a-maintenance-and-succession-plan.md) <span class="tiny">— intermediate</span>
 - [How do I write a README for a humanities dataset?](publishing/write-a-readme-for-a-humanities-dataset.md) <span class="tiny">— beginner</span>
 
 ### Reference management

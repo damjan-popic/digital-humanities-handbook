@@ -1,9 +1,9 @@
 # Translation coverage
 
-- English Markdown pages: **158**
-- Slovene counterparts: **84**
-- Coverage: **53.2%**
-- English pages currently using fallback in Slovene: **74**
+- English Markdown pages: **163**
+- Slovene counterparts: **90**
+- Coverage: **55.2%**
+- English pages currently using fallback in Slovene: **73**
 
 The stable chapters and learning paths must remain fully paired. The inherited workflow library is translated incrementally; untranslated pages are served from the English default edition and are not counted as Slovene translations.
 
@@ -58,7 +58,6 @@ The stable chapters and learning paths must remain fully paired. The inherited w
 - `workflows/nlp/read-and-write-text-files-in-python.md`
 - `workflows/nlp/use-the-python-nlp-starter-project.md`
 - `workflows/pdf/bulk-download-pdfs-and-ocr-them.md`
-- `workflows/publishing/index.md`
 - `workflows/publishing/package-a-corpus-with-fair-metadata.md`
 - `workflows/publishing/write-a-readme-for-a-humanities-dataset.md`
 - `workflows/subtitling/auto-time-subtitles-with-whisper.md`
