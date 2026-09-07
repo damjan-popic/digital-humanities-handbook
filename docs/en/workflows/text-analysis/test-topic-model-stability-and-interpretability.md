@@ -59,7 +59,7 @@ frequency thresholds, segmentation tests and held-out interpretation.
 | `interim/topics/topic-documents.csv` | three high-weight documents per component |
 | `output/topic-stability.csv` | one-to-one topic matches across seeds within a component count |
 | `output/topic-count-sensitivity.csv` | best-overlap links showing split/merge sensitivity across 2, 3 and 4 components |
-| `reference/topic-interpretation.csv` | manually inspected passages, provisional labels and contradictions |
+| `reference/topic-interpretation.csv` | sentence-linked machine-assisted interpretation draft, pending human review, with provisional labels and contradictions |
 
 ## Workflow
 
@@ -104,7 +104,7 @@ read the named high-weight documents in `source/contemporary-sample.csv`, then
 read the contradictory document. Compare the provisional label with the actual
 passages.
 
-The reference review deliberately refuses a clean authored-theme label because
+The interpretation draft deliberately refuses a clean authored-theme label because
 components mix archive, museum, language, press and emotion cues. You may propose
 another label, but cite document IDs and a contradictory passage. Do not label
 from eight words alone.
@@ -137,7 +137,7 @@ than reporting only the most attractive output.
 Maintainers can install the pinned environment and run
 `make text-nlp-validation-models`. The command writes to a new `.cache/`
 directory and refuses replacement. Model generation is excluded from ordinary
-CI; only reviewed frozen outputs and deterministic summaries are validated.
+CI; only frozen outputs, recorded provenance and deterministic summaries are validated.
 
 ## Output
 

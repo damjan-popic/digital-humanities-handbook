@@ -44,7 +44,7 @@ seznam nepolnopomenskih besed, ohrani zaporedja najmanj dveh črk ter nastavi
 `min_df=1` in `max_df=1.0`. NMF uporabi naključno inicializacijo, multiplikativne
 posodobitve, Kullback-Leiblerjevo izgubo, največ 1.000 iteracij, 2, 3 in 4
 sestavine ter semena 7, 19 in 31. Za sestavino ohrani osem izrazov in tri
-dokumente z najvišjo utežjo. Različice ter zgoščene vrednosti korpusa in seznama
+dokumente z najvišjo utežjo. Različice ter kontrolne vsote SHA-256 korpusa in seznama
 so v `interim/topics/model-run.json`.
 
 Tako prepustne nastavitve besedišča so utemeljene le za prikaz nestabilnosti v
@@ -59,7 +59,7 @@ frekvence, preizkus segmentacije in neodvisno interpretacijo.
 | `interim/topics/topic-documents.csv` | trije najmočneje uteženi dokumenti na sestavino |
 | `output/topic-stability.csv` | enolične povezave tem med semeni pri istem številu sestavin |
 | `output/topic-count-sensitivity.csv` | najboljša prekrivanja, ki pokažejo razcepe in spoje med 2, 3 in 4 sestavinami |
-| `reference/topic-interpretation.sl.csv` | ročno pregledani odlomki, začasne oznake in nasprotja |
+| `reference/topic-interpretation.sl.csv` | na povedi vezani strojno podprti interpretacijski osnutek, ki čaka na človeški pregled, z začasnimi oznakami in nasprotji |
 
 ## Postopek
 
@@ -102,7 +102,7 @@ Odprite `reference/topic-interpretation.sl.csv`. Pri vsaki trikomponentni
 sestavini preberite imenovane dokumente v `source/contemporary-sample.csv` ter
 nasprotujoči dokument. Začasno oznako primerjajte z dejanskimi odlomki.
 
-Referenčni pregled namenoma zavrne čisto oznako avtorske teme, ker sestavine
+Interpretacijski osnutek namenoma zavrne čisto oznako avtorske teme, ker sestavine
 mešajo arhivske, muzejske, jezikovne, časopisne in čustvene namige. Predlagate
 lahko drugo oznako, vendar navedite identifikatorje in nasprotujoči odlomek.
 Osmih besed ne poimenujte brez branja.
@@ -134,7 +134,7 @@ Znova primerjajte vso mrežo, ne le najprivlačnejšega rezultata.
 
 Vzdrževalci lahko namestijo pripeto okolje in zaženejo
 `make text-nlp-validation-models`. Ukaz zapiše v novo mapo `.cache/` in zavrne
-prepis. Običajni CI modela ne ustvarja; preverja pregledane zamrznjene rezultate
+prepis. Običajni CI modela ne ustvarja; preverja zamrznjene rezultate, dokumentirano provenienco
 in deterministične povzetke.
 
 ## Rezultat

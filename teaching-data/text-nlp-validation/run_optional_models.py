@@ -6,11 +6,14 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import importlib.metadata
 import json
 import platform
 import re
+import subprocess
 import sys
 import unicodedata
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -24,6 +27,71 @@ TOP_WORDS = 8
 
 def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def utc_timestamp() -> str:
+    return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
+
+
+def package_version(name: str) -> str:
+    try:
+        return importlib.metadata.version(name)
+    except importlib.metadata.PackageNotFoundError:
+        return "not installed as a separate distribution"
+
+
+def json_safe(value: object) -> object:
+    if isinstance(value, type):
+        return f"{value.__module__}.{value.__qualname__}"
+    if isinstance(value, dict):
+        return {str(key): json_safe(item) for key, item in value.items()}
+    if isinstance(value, (list, tuple)):
+        return [json_safe(item) for item in value]
+    if value is None or isinstance(value, (str, int, float, bool)):
+        return value
+    return repr(value)
+
+
+def write_environment_snapshot(output: Path, run_timestamp: str) -> dict[str, str]:
+    freeze = subprocess.run(
+        [sys.executable, "-m", "pip", "freeze", "--all"],
+        check=True,
+        capture_output=True,
+        text=True,
+    ).stdout
+    if freeze and not freeze.endswith("\n"):
+        freeze += "\n"
+    lock_path = output / "model-environment.lock.txt"
+    lock_path.write_text(freeze, encoding="utf-8", newline="\n")
+    snapshot = {
+        "captured_at_utc": run_timestamp,
+        "python_version": platform.python_version(),
+        "python_implementation": platform.python_implementation(),
+        "platform": platform.platform(),
+        "packages": {
+            name: package_version(name)
+            for name in (
+                "classla",
+                "torch",
+                "numpy",
+                "scipy",
+                "scikit-learn",
+                "stanza",
+                "obeliks",
+            )
+        },
+        "lock_command": "python -m pip freeze --all",
+        "lock_path": "model-environment.lock.txt",
+        "lock_sha256": sha256(lock_path),
+        "note": "Stanza is recorded separately even when CLASSLA supplies the active Stanza-derived pipeline without a standalone stanza distribution.",
+    }
+    snapshot_path = output / "model-environment.json"
+    snapshot_path.write_text(
+        json.dumps(snapshot, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+    return {"path": "../model-environment.json", "sha256": sha256(snapshot_path)}
 
 
 def display_path(path: Path) -> str:
@@ -51,7 +119,12 @@ def extract_sentence(text: str, selector: str) -> str:
         return normalized(text[start:].splitlines()[0])
     if selector.startswith("sentence_index:"):
         index = int(selector.split(":", 1)[1]) - 1
-        sentences = re.split(r"(?<=[.!?])\s+(?=[A-ZČŠŽ»„])", text)
+        sentences = [
+            normalized(match.group(0))
+            for match in re.finditer(r".*?[.!?](?:[«»”\"])?(?=\s+|$)", text)
+        ]
+        if not sentences or normalized(" ".join(sentences)) != text:
+            raise ValueError("Sentence splitter could not account for the complete source text")
         return normalized(sentences[index])
     raise ValueError(f"Unsupported selector: {selector}")
 
@@ -86,13 +159,21 @@ def model_file_inventory(resource_dir: Path) -> list[dict[str, str | int]]:
     ]
 
 
-def run_classla(output: Path, resource_dir: Path, download: bool) -> None:
+def run_classla(
+    output: Path,
+    resource_dir: Path,
+    download: bool,
+    run_timestamp: str,
+    resource_acquired_at: str,
+    environment_snapshot: dict[str, str],
+) -> None:
     import classla
     import obeliks
     import torch
 
     if download:
         classla.download("sl", dir=str(resource_dir), type="default")
+        resource_acquired_at = utc_timestamp()
     if not resource_dir.exists():
         raise SystemExit(
             f"CLASSLA resources are absent at {resource_dir}; rerun with --download"
@@ -123,15 +204,31 @@ def run_classla(output: Path, resource_dir: Path, download: bool) -> None:
         path.write_text(payload, encoding="utf-8", newline="\n")
         output_hashes[path.name] = sha256(path)
 
+    resource_manifest = {
+        "acquisition_timestamp_utc": resource_acquired_at,
+        "acquisition_status": "unknown" if resource_acquired_at == "unknown" else "known",
+        "acquisition_basis": (
+            "download completed during this run"
+            if download
+            else "explicit CLI value" if resource_acquired_at != "unknown" else "pre-existing resource directory; acquisition time not recoverable"
+        ),
+        "manifest_recorded_at_utc": utc_timestamp(),
+        "resource_files": model_file_inventory(resource_dir),
+    }
+    resource_manifest_path = destination / "resource-acquisition.json"
+    resource_manifest_path.write_text(
+        json.dumps(resource_manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
     metadata = {
-        "run_date": "2026-09-07",
-        "resource_download_date": "2026-09-07",
+        "run_timestamp_utc": run_timestamp,
         "language": "sl",
         "pipeline_type": "default (standard Slovene)",
         "processors": PROCESSORS.split(","),
         "use_gpu": False,
         "classla_version": classla.__version__,
-        "obeliks_version": getattr(obeliks, "__version__", "not exposed"),
+        "obeliks_version": package_version("obeliks"),
         "torch_version": torch.__version__,
         "python_version": platform.python_version(),
         "platform": platform.platform(),
@@ -139,8 +236,14 @@ def run_classla(output: Path, resource_dir: Path, download: bool) -> None:
             "python teaching-data/text-nlp-validation/run_optional_models.py "
             f"--output {display_path(output)} --resources-dir {display_path(resource_dir)}"
             + (" --download" if download else "")
+            + (f" --resource-acquired-at {resource_acquired_at}" if not download and resource_acquired_at != "unknown" else "")
         ),
-        "resource_files": model_file_inventory(resource_dir),
+        "resource_acquisition_manifest": {
+            "path": resource_manifest_path.name,
+            "sha256": sha256(resource_manifest_path),
+        },
+        "resource_files": resource_manifest["resource_files"],
+        "environment_snapshot": environment_snapshot,
         "registry_sha256": sha256(PACKET / "source/extraction-registry.json"),
         "sample_text_sha256": sample_hashes,
         "output_sha256": output_hashes,
@@ -156,8 +259,13 @@ def run_classla(output: Path, resource_dir: Path, download: bool) -> None:
     )
 
 
-def run_topics(output: Path) -> None:
+def run_topics(
+    output: Path,
+    run_timestamp: str,
+    environment_snapshot: dict[str, str],
+) -> None:
     import numpy
+    import scipy
     import sklearn
     from sklearn.decomposition import NMF
     from sklearn.feature_extraction.text import TfidfVectorizer
@@ -181,6 +289,7 @@ def run_topics(output: Path) -> None:
     terms = vectorizer.get_feature_names_out()
     components_rows = []
     document_rows = []
+    effective_nmf_parameters = []
     for count in NMF_COMPONENTS:
         for seed in NMF_SEEDS:
             model = NMF(
@@ -191,6 +300,7 @@ def run_topics(output: Path) -> None:
                 solver="mu",
                 beta_loss="kullback-leibler",
             )
+            effective_nmf_parameters.append(json_safe(model.get_params(deep=False)))
             weights = model.fit_transform(matrix)
             for topic_id, component in enumerate(model.components_, start=1):
                 ranked = component.argsort()[::-1][:TOP_WORDS]
@@ -230,28 +340,24 @@ def run_topics(output: Path) -> None:
         "topic-documents.csv": write_csv("topic-documents.csv", document_rows),
     }
     metadata = {
-        "run_date": "2026-09-07",
-        "resource_download_date": "not applicable; scikit-learn package only",
+        "run_timestamp_utc": run_timestamp,
+        "resource_acquisition": "not applicable; scikit-learn package only",
         "scikit_learn_version": sklearn.__version__,
         "numpy_version": numpy.__version__,
+        "scipy_version": scipy.__version__,
         "python_version": platform.python_version(),
+        "environment_snapshot": environment_snapshot,
         "documents": len(documents),
         "synthetic_documents": len(documents),
         "vectorizer": {
-            "lowercase": True,
-            "min_df": 1,
-            "max_df": 1.0,
+            "effective_parameters": json_safe(vectorizer.get_params(deep=False)),
             "stopwords_sha256": sha256(PACKET / "source/stopwords-sl.txt"),
-            "token_pattern": r"(?u)\b[^\W\d_][^\W_]+\b",
         },
         "nmf": {
             "component_counts": NMF_COMPONENTS,
             "seeds": NMF_SEEDS,
-            "init": "random",
-            "max_iter": 1000,
-            "solver": "mu",
-            "beta_loss": "kullback-leibler",
             "top_words": TOP_WORDS,
+            "effective_parameters_by_run": effective_nmf_parameters,
         },
         "corpus_sha256": sha256(PACKET / "source/contemporary-sample.csv"),
         "output_sha256": output_hashes,
@@ -272,13 +378,31 @@ def main() -> int:
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--resources-dir", type=Path, required=True)
     parser.add_argument("--download", action="store_true")
+    parser.add_argument(
+        "--resource-acquired-at",
+        default="unknown",
+        help="UTC acquisition timestamp for a pre-existing resource directory, or 'unknown'",
+    )
     args = parser.parse_args()
+    if args.resource_acquired_at != "unknown" and not re.fullmatch(
+        r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z", args.resource_acquired_at
+    ):
+        raise SystemExit("--resource-acquired-at must be an ISO UTC timestamp ending in Z or 'unknown'")
     output = args.output.resolve()
     if output.exists():
         raise SystemExit(f"Refusing to overwrite existing model output: {output}")
     output.mkdir(parents=True)
-    run_classla(output, args.resources_dir.resolve(), args.download)
-    run_topics(output)
+    run_timestamp = utc_timestamp()
+    environment_snapshot = write_environment_snapshot(output, run_timestamp)
+    run_classla(
+        output,
+        args.resources_dir.resolve(),
+        args.download,
+        run_timestamp,
+        args.resource_acquired_at,
+        environment_snapshot,
+    )
+    run_topics(output, run_timestamp, environment_snapshot)
     print(f"Wrote CLASSLA and NMF candidates to {output}")
     return 0
 

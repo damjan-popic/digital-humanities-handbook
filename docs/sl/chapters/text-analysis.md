@@ -127,22 +127,25 @@ DF loči navzočnost od odsotnosti, vendar ne opiše koncentracije med dokumenti
 kjer je izraz navzoč. **Razpršenost** opiše porazdelitev pojavitev po dokumentih
 ali pomenljivih delih korpusa. Vedno navedite mero in razdelitev.
 
-Učni paket uporablja Juillandov D na štirih enako velikih avtorskih tematskih
-skupinah. Za skupinske frekvence \(f_i\), povprečje \(\bar f\), populacijski
-standardni odklon \(s\) in število skupin \(n\) velja:
+Učni paket uporablja Griesov DP, ker imajo štiri avtorske tematske skupine
+neenaka števila upravičenih pojavnic: 83, 68, 66 in 113. Za skupno frekvenco
+izraza \(F>0\), število izraza \(f_i\) v delu \(i\), velikost dela \(N_i\) in
+velikost korpusa \(N\) primerjajte opažene in pričakovane deleže:
 
 ```text
-D = 1 - (s / povprečje) / sqrt(n - 1)
+opaženi_i = f_i / F
+pričakovani_i = N_i / N
+DP = 0.5 * sum_i(abs(opaženi_i - pričakovani_i))
 ```
 
-Pri enakih skupinah se D približa 1 ob enakomerni porazdelitvi in 0 ob omejitvi
-v eno skupino. Pri ničelni skupni frekvenci ni določen. Neenaki deli zahtevajo
-prilagojeno mero ali pristop z deleži. Učilniškega izračuna ne prenašajte na
-neenake zbirke brez ponovne presoje predpostavk. Razpršenost opisuje razdelitev,
-ne prirojene splošnosti besede.
+DP je 0, kadar delež pojavitev izraza sledi deležem pojavnic v delih; višje
+vrednosti pomenijo večji odklon in koncentracijo. Pri ničelni skupni frekvenci
+ni določen. Pričakovani deleži upoštevajo neenako količino besedila, rezultat pa
+je še vedno odvisen od izbrane razdelitve in ni prirojena splošnost besede.
 
-Ob vrednosti D objavite števila po delih. En indeks prikrije vodilno skupino in
-vprašanje, ali razdelitev sploh ustreza zgodovinskemu problemu.
+Ob vrednosti DP objavite velikosti delov in števila izraza po delih. En indeks
+prikrije vodilno skupino in vprašanje, ali razdelitev sploh ustreza
+zgodovinskemu problemu.
 
 ## Konkordance povežejo vzorec z odlomkom
 
@@ -228,7 +231,7 @@ stabilni identifikator, navedbo vira, datum, avtorja oziroma stanje neznanega
 avtorstva, žanr, jezik, identifikator besedilne plasti, pravice, število
 upravičenih pojavnic, razpoložljivo mero kakovosti OCR ter odločitev o vključitvi
 z razlogom. Tabela poizvedb naj vsebuje niz ali vzorec, pravilo za črke in leme,
-različico skripte, čas ter zgoščeno vrednost vhoda. Izpeljane vrstice naj ohranijo
+različico skripte, čas ter kontrolno vsoto SHA-256 vhoda. Izpeljane vrstice naj ohranijo
 identifikator dokumenta, da lahko vsako skupno mero razgrnete.
 
 Negotovost se pojavi pred statističnim modeliranjem. Manjkajoča številka spremeni
@@ -304,14 +307,16 @@ katero neodvisno gradivo bi ga lahko ovrglo.
 ## Razdelan primer: frekvenca ni doseg
 
 [Učni paket za preverjanje besedilnih analiz in NLP](../../assets/downloads/text-nlp-validation-v1.zip)
-vsebuje dvanajst kratkih sintetičnih slovenskih dokumentov v štirih enako
-velikih avtorskih tematskih skupinah. Korpus je namenjen učenju in ne govori o
+vsebuje dvanajst kratkih sintetičnih slovenskih dokumentov v štirih avtorskih
+tematskih skupinah s po tremi dokumenti, vendar z neenakim številom pojavnic.
+Korpus je namenjen učenju in ne govori o
 resničnih arhivih, muzejih, jezikovni praksi ali časopisju.
 
 Izraz *arhiv* se ponovi večkrat, vendar je zgoščen v majhnem številu dokumentov
 arhivske skupine. *Korpus* se ponavlja v enem jezikovnem dokumentu. *Svoboda* je
 izrazita v enem časopisnem dokumentu, drugje pa je ni. Primerjava frekvence, DF,
-dokumentnega deleža, števil po temah in Juillandovega D pokaže različne oblike.
+dokumentnega deleža, velikosti delov, števil po temah in Griesovega DP pokaže
+različne oblike.
 Konkordanca nato razkrije, ali pojavitve izražajo isto trditev ali si delijo le
 obliko.
 

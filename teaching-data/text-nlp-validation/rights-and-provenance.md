@@ -1,6 +1,7 @@
 # Rights and provenance
 
-Audit date: **7 September 2026**.
+Provenance record updated: **7 September 2026**. This is not a human-review date
+for the reference annotations.
 
 ## Handbook-authored contemporary sample
 
@@ -52,7 +53,7 @@ must obtain it from its official page and assess the applicable licence.
 
 - Retain `synthetic=true` on all contemporary teaching documents.
 - Cite the historical issue and distinguish provider OCR, reference
-  transcription, manual annotation and model output.
-- Do not treat the manual annotation as neutral ground truth.
+  transcription, the machine-assisted annotation draft and model output.
+- Do not treat the draft annotation as a human-reviewed or neutral ground truth.
 - Do not represent the frozen run as current model performance.
 - Recheck package, model and external-resource licences before a new release.

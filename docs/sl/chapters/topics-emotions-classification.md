@@ -238,15 +238,15 @@ sintetičnih dokumentov. Nobeden ne ocenjuje zgodovinske populacije.
 
 | Metoda | Enota in vhod | Rezultat in preverjanje | Podprta trditev | Nepodprta trditev | Pridobitev, izguba in odpoved |
 | --- | --- | --- | --- | --- | --- |
-| natančni leksikon oblik | poved; površinske oblike | kategorijska ujemanja proti osmim pregledanim primerom | katere prijavljene oblike se ujemajo | kdo resnično čuti čustvo | pregledno; prezre pregibanje in kontekst |
-| ročna anotacija čustev | poved, sobesedilo in priročnik | čustvo, nosilec, cilj, glas, zanikanje, ironija, negotovost; en pregledovalec | kako je bil priročnik uporabljen | objektivna psihologija ali razširjenost v korpusu | kontekstualno; sporno in delovno zahtevno |
+| natančni leksikon oblik | poved; površinske oblike | kategorijska ujemanja s strojno podprtim osnutkom osmih primerov, ki čaka na človeški pregled | katere navedene oblike se ujemajo | kdo resnično čuti čustvo | pregledno; prezre pregibanje in kontekst |
+| kontekstualna referenčna anotacija | poved, sobesedilo in priročnik | čustvo, nosilec, cilj, glas, zanikanje, ironija in negotovost v osnutku, ki čaka na človeški pregled | kako je bil priročnik uporabljen v osnutku | objektivna psihologija ali razširjenost v korpusu | kontekstualno; sporno in delovno zahtevno |
 | nadzorovani klasifikator | zahteval bi označene učne, validacijske in testne enote | namenoma ni prilagojen: osem primerov ne zadostuje | nobena za ta paket | napovedna kakovost | opustitev prepreči okrasni model z uhajanjem |
 | raziskovalni NMF | dokument; vreča besed TF-IDF | 2, 3 in 4 sestavine × semena 7, 19 in 31; povezani izrazi in prebrani odlomki | občutljivost sintetične predstavitve | splošna tematska struktura | pokaže razcepe in nestabilnost; majhno in od besedišča odvisno |
 
 Čustveni primeri vključujejo navedek *obiskovalci se bojijo*, zanikano žalost,
 metajezikovno *jezo*, pripisani strah, ironično *čudovita* in preteklo obliko
 *bali*, ki nima natančnega ujemanja. Tako dobite vidne lažno pozitivne in lažno
-negativno napoved. Ročna anotacija določi nosilca in cilj, ironijo pa lahko pusti
+negativno napoved. Kontekstualni osnutek določi nosilca in cilj, ironijo pa lahko pusti
 nerazrešeno, namesto da bi si izmislila čustvo.
 
 Prikaz NMF ohrani vektorizacijo in spreminja seme ter število sestavin. Nekatere

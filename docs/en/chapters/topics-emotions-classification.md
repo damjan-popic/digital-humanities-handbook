@@ -237,15 +237,15 @@ has twelve synthetic documents. Neither estimates a historical population.
 
 | Method | Unit and input | Output and validation | Supported claim | Unsupported claim | Gain, loss and known failure |
 | --- | --- | --- | --- | --- | --- |
-| exact-form lexicon | sentence; surface forms | category hits compared with eight reviewed cases | which declared forms match | who truly feels an emotion | transparent; misses inflection and context |
-| manual emotion annotation | sentence plus context and codebook | emotion, experiencer, target, voice, negation, irony, uncertainty; one reviewer | how the codebook was applied | objective psychology or full-corpus prevalence | contextual; contestable and labour-intensive |
+| exact-form lexicon | sentence; surface forms | category hits compared with an eight-case machine-assisted reference draft pending human review | which declared forms match | who truly feels an emotion | transparent; misses inflection and context |
+| contextual reference annotation | sentence plus context and codebook | emotion, experiencer, target, voice, negation, irony and uncertainty in a draft pending human review | how the codebook was applied in the draft | objective psychology or full-corpus prevalence | contextual; contestable and labour-intensive |
 | supervised classifier | would require labelled train/validation/test units | deliberately not fitted: eight cases are inadequate | none for this packet | predictive performance | omission prevents a decorative, leaky model |
 | NMF topic exploration | document; TF-IDF bag of words | 2, 3 and 4 components × seeds 7, 19 and 31; matched terms and read passages | sensitivity of this synthetic representation | general thematic structure | shows splits and instability; tiny and vocabulary-bound |
 
 The emotion examples include quotation (*obiskovalci se bojijo*), negated
 sadness, metalinguistic *jeza*, attributed fear, ironic *čudovita* and a zero-match
 past-tense form *bali*. Exact matching therefore yields observable false positives
-and a false negative. Manual annotation identifies experiencer and target and may
+and a false negative. The contextual draft identifies experiencer and target and may
 leave irony unresolved rather than invent a feeling.
 
 The NMF demonstration holds vectorization fixed while changing seed and component

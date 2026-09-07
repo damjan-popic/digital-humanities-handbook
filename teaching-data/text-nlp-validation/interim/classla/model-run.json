@@ -1,9 +1,13 @@
 {
   "classla_version": "2.2.1",
   "command": "python teaching-data/text-nlp-validation/run_optional_models.py --output .cache/text-nlp-validation-models-v2 --resources-dir .cache/classla-resources",
+  "environment_snapshot": {
+    "path": "../model-environment.json",
+    "sha256": "ba827e0c8fdee030f3df3b5c2484036c31d28ee17306f215f62341175122e16f"
+  },
   "language": "sl",
   "note": "Frozen prediction evidence, not a benchmark or reference. Model files are not redistributed; hashes identify the local resources used.",
-  "obeliks_version": "not exposed",
+  "obeliks_version": "1.1.6",
   "output_sha256": {
     "TNLP-AF-OCR.conllu": "5402dc54b34cdf95fbe38b60581ec250f5976eedb13ecc2d8e6d7bbb68b119d4",
     "TNLP-AF-REF.conllu": "643ce0db521da72f80400356b8b1514388629c834683072a1eed71272030c14b",
@@ -21,7 +25,10 @@
   ],
   "python_version": "3.12.3",
   "registry_sha256": "d15d1f04966ca4a4e0646ed1e14a45e4ad0d38811fa22d9b495b9ad8092bf173",
-  "resource_download_date": "2026-09-07",
+  "resource_acquisition_manifest": {
+    "path": "resource-acquisition.json",
+    "sha256": "4d1ca0eef7489bfb68934bf552051428e9b3ce35c234bbd5ec3642625eaf79b0"
+  },
   "resource_files": [
     {
       "bytes": 15860,
@@ -54,7 +61,8 @@
       "sha256": "f187803fc86a953194b0ed2f9230e2f80828775349a7a6dcd551c19bfe9067aa"
     }
   ],
-  "run_date": "2026-09-07",
+  "run_timestamp_source": "UTC timestamp recovered from the preserved v2 candidate metadata-file mtime because the former runner recorded only a hard-coded date",
+  "run_timestamp_utc": "2026-09-07T12:06:30Z",
   "sample_text_sha256": {
     "TNLP-AF-OCR": "cffd9f375cb47666e780c437f8ab2363f3b8114c05e5db6acbdceb16b7f66a5d",
     "TNLP-AF-REF": "8a0f4ba3f104251483be92f25294b953ee54f6c203b78539cd14b91b2ee049bb",

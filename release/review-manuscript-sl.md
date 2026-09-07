@@ -2326,8 +2326,9 @@ Po tem poglavju boste znali:
 - pojasniti, zakaj je vsaka anotacijska plast modelska trditev;
 - izbrati le plasti, ki jih zahteva humanistično raziskovalno vprašanje;
 - dokumentirati izvedbo CLASSLA z različico paketa, procesorji, viri, okoljem
-  ter zgoščenimi vrednostmi vhodov in rezultatov;
-- sestaviti ročno pregledan referenčni vzorec, ki ostaja odprt za kritiko;
+  ter kontrolnimi vsotami SHA-256 vhodov in rezultatov;
+- zasnovati kritiki odprt referenčni osnutek in dokumentiran načrt človeškega
+  pregleda;
 - izračunati mere posameznih plasti z izrecnimi imenovalci; in
 - povezati anotacijske napake z lastnostmi vira in interpretativnim tveganjem.
 
@@ -2366,7 +2367,8 @@ program končal delo.
 
 ### Povedi in pojavnice
 
-Segmentacija povedi predlaga, kje se en krajevni kontekst konča in drugi začne.
+Segmentacija povedi predlaga, kje se en neposredni sobesedilni odsek konča in
+drugi začne.
 Tokenizacija predlaga, kateri nizi štejejo kot besede, ločila ali večbesedne
 enote. Odločitve določijo imenovalec večine poznejših mer. Zgodovinske krajšave,
 začetnice, vezaji, opuščaji in zaradi OCR poškodovani presledki so pogosta mesta
@@ -2441,13 +2443,16 @@ CLARIN.SI olajšata iskanje in navajanje modelov ter označevalnih shem.
 Institucionalni okvir obravnava poglavje
 [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md).
 
-Za ponovljivo navedbo ime CLASSLA ne zadostuje. Zamrznjena učna izvedba je 7.
-septembra 2026 uporabila CLASSLA `2.2.1`, Python `3.12.3`, izvajanje na CPE ter procesorje
-`tokenize,pos,lemma,depparse,ner`. Metapodatki navajajo operacijsko okolje,
-različico Torch, ukaz, zgoščene vrednosti normaliziranih vhodov in rezultatov
-ter SHA-256 in velikost vsake prenesene datoteke virov. Modelskih datotek ne
-razširjamo. Pred razširjanjem ali produkcijsko rabo preverite licenco paketa in
-vsakega vira posebej.
+Za ponovljivo navedbo ime CLASSLA ne zadostuje. Zamrznjena učna izvedba je
+uporabila CLASSLA `2.2.1`, Python `3.12.3`, izvajanje na CPE ter procesorje
+`tokenize,pos,lemma,depparse,ner`. Čas sklepanja v UTC je bil obnovljen iz
+časovnega žiga metapodatkovne datoteke ohranjenega kandidata; starejši zaganjalnik ni ohranil
+zanesljivega časa pridobitve virov, zato je ta vrednost `unknown`. Ločeni zapisi
+določajo operacijsko okolje, različice Python, Torch, NumPy, SciPy, scikit-learn,
+CLASSLA, Stanza in Obeliks, popoln seznam paketov v okolju, ukaz, kontrolne vsote SHA-256
+normaliziranih vhodov in rezultatov ter velikost in kontrolno vsoto vsake
+datoteke virov. Modelskih datotek ne razširjamo. Pred razširjanjem ali
+produkcijsko rabo preverite licenco paketa in vsakega vira posebej.
 
 Tak opis ne pomeni, da je posamezno zamrznjeno izvedbo mogoče povsod natančno
 ponoviti. Strojna oprema, paketi in viri se spreminjajo. Omogoča pa prepoznavo
@@ -2468,7 +2473,7 @@ rezultat prikrito prepisali.
 
 Pojmovno ločite tri nize: **izvorno obliko**, vidno na strani ali v izvirno
 digitalnem predmetu, morebitno **normalizirano obliko**, ustvarjeno z uredniškim
-pravilom, ter natančni **modelski vhod**. Lahko so enaki, vendar tega ne
+pravilom, ter **točno besedilo, posredovano modelu**. Lahko so enaki, vendar tega ne
 predpostavite. Shranite pretvorbe in odmike do vira ali drugo povratno poravnavo,
 da se pregledovalec lahko vrne od anotacije k dokazu. Če normalizacija spremeni
 dolžino ali meje besed, opišite pretvorbo odmikov.
@@ -2487,10 +2492,11 @@ normalizacije, vendar ga morate verzionirati, preizkusiti lažne popravke in
 uporabiti tudi na novem gradivu. **Prilagojeni leksikon** izboljša znana imena ali
 zgodovinske oblike, toda pokritost je izbirna, lažno pozitivne napovedi se lahko
 povečajo, seznam pa lahko utrdi zastarele normativne odločitve. Prilagajanje
-modela zahteva dovolj licenciranih anotacij in zadržano vrednotenje.
+modela zahteva dovolj licenciranih anotacij in vrednotenje na ločenem testnem
+naboru.
 
 Zamrznjenega samodejnega rezultata ne prepišite s popravljenimi oznakami. Vir,
-napoved in pregledano referenco ohranite kot ločene plasti. Objavite nadaljnji
+napoved in referenčni osnutek ohranite kot ločene plasti. Objavite nadaljnji
 izračun pred posegom in po njem; tehnično boljša oznaka sicer nima dokazane
 vrednosti za raziskovalno vprašanje.
 
@@ -2511,13 +2517,18 @@ jo približa, in si zamislite najbolj škodljivo verjetno napako. Če jo
 interpretacija prenese, plast morda zadostuje. Če je ne, okrepite vzorec,
 popravljalni postopek ali omejite trditev.
 
-## Ročna referenca ni razsodnik
+## Referenca ni razsodnik
 
 Uporabni referenčni vzorec je ročno anotiran ali pregledan po izrecnih pravilih.
 Še vedno je raziskovalni poseg. Zabeležite pregledovalca, datum, videno izvorno
 plast, ravnanje z napakami OCR, uporabljeno shemo in mesta razumnega nestrinjanja.
 Neodvisno dvojno anotiranje in razsojanje izboljšata zanesljivost; če ju ni,
 to povejte.
+
+V tem paketu postopek še ni končan. Oznake so strojno podprti referenčni osnutek,
+ki čaka na človeški pregled. Za prehod v stanje `human-reviewed` je treba navesti
+ime pregledovalca, datum pregleda v obliki ISO in obseg pregleda; do takrat
+osnutek beleži odločitve za preverjanje in ne dokončne referenčne resnice.
 
 Vzorčite pričakovano raznolikost in ne le lahkega sodobnega besedila. Vključite
 obdobje, žanr, stanje dokumenta, imenske entitete ter pojave, pomembne za
@@ -2533,7 +2544,7 @@ nabor se po plasteh spreminjata. Objavite števce za vsako mero:
 Pri segmentaciji povedi meje predstavite kot položaje ali razpone. Preciznost
 meje deli pravilne napovedane meje z vsemi napovedanimi, priklic pa z referenčnimi;
 F1 ju poveže. Natančno ujemanje povednih razponov je strožje in je v paketu
-uporabno, ker vsak vzorec vsebuje eno prijavljeno poved. Tudi pri ujemanju
+uporabno, ker vsak vzorec vsebuje eno navedeno poved. Tudi pri ujemanju
 pojavnic ali razponov povejte, ali so vključena ločila, razponi večbesednih
 pojavnic in odmiki znakov.
 
@@ -2571,9 +2582,9 @@ izločene odlomke in neuspele dokumente: odsotnost iz končne tabele je izborna
 odločitev.
 
 Najmanjši zapis izvedbe vsebuje datum in čas, različice paketa in izvajalnega
-okolja, vrstni red procesorjev z nastavitvami, identifikatorje ali zgoščene
-vrednosti modelov in virov, uporabljeno napravo, identifikatorje in zgoščene
-vrednosti vhodov, zgoščene vrednosti rezultatov ter ukaz ali različico skripte.
+okolja, vrstni red procesorjev z nastavitvami, identifikatorje ali kontrolne vsote
+SHA-256 modelov in virov, uporabljeno napravo, identifikatorje in kontrolne vsote
+SHA-256 vhodov in rezultatov ter ukaz ali različico skripte.
 Kontrolna vsota dokazuje enakost bajtov, ne pravilnosti. Skupaj z referenčnimi
 pravili in dnevnikom napak pa omogoči obnovo videnega gradiva in posegov.
 
@@ -2596,8 +2607,8 @@ opazovanji.
 Sodobna poved, ki se začne *Kustosinja Maja Kovač*, dobi verjetne leme, skladnjo
 in natančne razpone za osebo, muzej ter Ljubljano. Uspeh je dokaz le za izbrane
 primere. V zgodovinskem referenčnem prepisu posamostaljeni *vse* omogoči zapisano
-nestrinjanje med modelsko prislovno analizo in pregledovalčevo analizo zaimka ter
-osebka. V ponudnikovem OCR sta *naroda in* zlepljena v *narodain*, *stanovske*
+nestrinjanje med modelsko prislovno analizo in analizo zaimka ter osebka v
+referenčnem osnutku. V ponudnikovem OCR sta *naroda in* zlepljena v *narodain*, *stanovske*
 postane *stavovske*, *kulturnega* postane *kultrunega*, oziralni *ki* pa *i*.
 Zadnjo obliko model analizira kot samostalnik, zato preusmeri tudi odvisnostno
 strukturo.
@@ -2605,8 +2616,23 @@ strukturo.
 Primerjava loči tri opise:
 
 1. **stanje vira:** kaj vsebuje stran, prepis ali ponudnikov OCR;
-2. **vedenje anotacije:** kaj zamrznjena procesna veriga napove za vhod;
+2. **delovanje anotacijskega postopka:** kaj zamrznjena procesna veriga napove za vhod;
 3. **interpretativna posledica:** katera poizvedba, število ali pripis se spremeni.
+
+Po primerjavi s sedanjim referenčnim osnutkom so popravljene odvisnostne mere:
+
+| Vhodni vzorec | UAS | LAS |
+| --- | ---: | ---: |
+| sodobni čisti vzorec 1 | 11/11 | 11/11 |
+| sodobni čisti vzorec 2 | 9/9 | 9/9 |
+| zgodovinski referenčni prepis | 50/52 | 50/52 |
+| ponudnikov OCR | 43/46 | 42/46 |
+
+Ulomki opisujejo ujemanje z osnutkom, ki čaka na človeški pregled; ne merijo
+točnosti glede na človeško razsojeno resnico. Od 24 podrobnih nestrinjanj se jih
+14 ponovi v zgodovinskem prepisu in plasti OCR: deset polj za *vse* ter štiri odvisnostna
+polja za *stranko*. Preostalih deset je povezanih s stanjem ponudnikovega OCR.
+Vzročna razvrstitev temelji na tej primerjavi plasti in ne zgolj na vhodni plasti.
 
 Tak opis je uporabnejši od splošne trditve, da je OCR »slab«. Zlepljeni veznik
 ogrozi štetje in skladnjo; poškodovani oziralnik ogrozi pripis stavka ali govorca;
@@ -2667,12 +2693,14 @@ Jezikoslovna anotacija je dokazna veriga napovedanih in od sheme odvisnih plasti
 CLASSLA je pomembna regionalna infrastruktura, toda ime paketa ali splošna mera
 ne more preveriti humanistične trditve. Ohranite plasti vira, zaženite le potrebne
 procesorje, natančno identificirajte programsko opremo in vire, pripravite
-dokumentirano ročno referenco, poročajte o imenovalcih posameznih plasti ter
-vsako pomembno napako povežite z interpretacijo, ki jo lahko spremeni.
+referenčno anotacijo z dokumentiranim stanjem pregleda, poročajte o imenovalcih
+posameznih plasti ter vsako pomembno napako povežite z interpretacijo, ki jo
+lahko spremeni. Strojno podprti osnutek v tem paketu obravnavajte kot gradivo, ki
+čaka na človeški pregled, in ne kot razsojeno referenco.
 
 ## Nadaljnje branje
 
-- Ljubešić, Nikola, in Taja Kuzman. 2024. *CLASSLA-Stanza: The Next Step for
+- Ljubešić, Nikola, Luka Terčon in Kaja Dobrovoljc. 2024. *CLASSLA-Stanza: The Next Step for
   Linguistic Processing of South Slavic Languages*. [Arhivirana izdaja in
   bibliografski zapis](https://doi.org/10.5281/zenodo.13936406).
 - [Izvorni repozitorij CLASSLA z navodili za uporabo](https://github.com/clarinsi/classla).
@@ -2804,22 +2832,25 @@ DF loči navzočnost od odsotnosti, vendar ne opiše koncentracije med dokumenti
 kjer je izraz navzoč. **Razpršenost** opiše porazdelitev pojavitev po dokumentih
 ali pomenljivih delih korpusa. Vedno navedite mero in razdelitev.
 
-Učni paket uporablja Juillandov D na štirih enako velikih avtorskih tematskih
-skupinah. Za skupinske frekvence \(f_i\), povprečje \(\bar f\), populacijski
-standardni odklon \(s\) in število skupin \(n\) velja:
+Učni paket uporablja Griesov DP, ker imajo štiri avtorske tematske skupine
+neenaka števila upravičenih pojavnic: 83, 68, 66 in 113. Za skupno frekvenco
+izraza \(F>0\), število izraza \(f_i\) v delu \(i\), velikost dela \(N_i\) in
+velikost korpusa \(N\) primerjajte opažene in pričakovane deleže:
 
 ```text
-D = 1 - (s / povprečje) / sqrt(n - 1)
+opaženi_i = f_i / F
+pričakovani_i = N_i / N
+DP = 0.5 * sum_i(abs(opaženi_i - pričakovani_i))
 ```
 
-Pri enakih skupinah se D približa 1 ob enakomerni porazdelitvi in 0 ob omejitvi
-v eno skupino. Pri ničelni skupni frekvenci ni določen. Neenaki deli zahtevajo
-prilagojeno mero ali pristop z deleži. Učilniškega izračuna ne prenašajte na
-neenake zbirke brez ponovne presoje predpostavk. Razpršenost opisuje razdelitev,
-ne prirojene splošnosti besede.
+DP je 0, kadar delež pojavitev izraza sledi deležem pojavnic v delih; višje
+vrednosti pomenijo večji odklon in koncentracijo. Pri ničelni skupni frekvenci
+ni določen. Pričakovani deleži upoštevajo neenako količino besedila, rezultat pa
+je še vedno odvisen od izbrane razdelitve in ni prirojena splošnost besede.
 
-Ob vrednosti D objavite števila po delih. En indeks prikrije vodilno skupino in
-vprašanje, ali razdelitev sploh ustreza zgodovinskemu problemu.
+Ob vrednosti DP objavite velikosti delov in števila izraza po delih. En indeks
+prikrije vodilno skupino in vprašanje, ali razdelitev sploh ustreza
+zgodovinskemu problemu.
 
 ## Konkordance povežejo vzorec z odlomkom
 
@@ -2905,7 +2936,7 @@ stabilni identifikator, navedbo vira, datum, avtorja oziroma stanje neznanega
 avtorstva, žanr, jezik, identifikator besedilne plasti, pravice, število
 upravičenih pojavnic, razpoložljivo mero kakovosti OCR ter odločitev o vključitvi
 z razlogom. Tabela poizvedb naj vsebuje niz ali vzorec, pravilo za črke in leme,
-različico skripte, čas ter zgoščeno vrednost vhoda. Izpeljane vrstice naj ohranijo
+različico skripte, čas ter kontrolno vsoto SHA-256 vhoda. Izpeljane vrstice naj ohranijo
 identifikator dokumenta, da lahko vsako skupno mero razgrnete.
 
 Negotovost se pojavi pred statističnim modeliranjem. Manjkajoča številka spremeni
@@ -2981,14 +3012,16 @@ katero neodvisno gradivo bi ga lahko ovrglo.
 ## Razdelan primer: frekvenca ni doseg
 
 [Učni paket za preverjanje besedilnih analiz in NLP](../../assets/downloads/text-nlp-validation-v1.zip)
-vsebuje dvanajst kratkih sintetičnih slovenskih dokumentov v štirih enako
-velikih avtorskih tematskih skupinah. Korpus je namenjen učenju in ne govori o
+vsebuje dvanajst kratkih sintetičnih slovenskih dokumentov v štirih avtorskih
+tematskih skupinah s po tremi dokumenti, vendar z neenakim številom pojavnic.
+Korpus je namenjen učenju in ne govori o
 resničnih arhivih, muzejih, jezikovni praksi ali časopisju.
 
 Izraz *arhiv* se ponovi večkrat, vendar je zgoščen v majhnem številu dokumentov
 arhivske skupine. *Korpus* se ponavlja v enem jezikovnem dokumentu. *Svoboda* je
 izrazita v enem časopisnem dokumentu, drugje pa je ni. Primerjava frekvence, DF,
-dokumentnega deleža, števil po temah in Juillandovega D pokaže različne oblike.
+dokumentnega deleža, velikosti delov, števil po temah in Griesovega DP pokaže
+različne oblike.
 Konkordanca nato razkrije, ali pojavitve izražajo isto trditev ali si delijo le
 obliko.
 
@@ -3297,15 +3330,15 @@ sintetičnih dokumentov. Nobeden ne ocenjuje zgodovinske populacije.
 
 | Metoda | Enota in vhod | Rezultat in preverjanje | Podprta trditev | Nepodprta trditev | Pridobitev, izguba in odpoved |
 | --- | --- | --- | --- | --- | --- |
-| natančni leksikon oblik | poved; površinske oblike | kategorijska ujemanja proti osmim pregledanim primerom | katere prijavljene oblike se ujemajo | kdo resnično čuti čustvo | pregledno; prezre pregibanje in kontekst |
-| ročna anotacija čustev | poved, sobesedilo in priročnik | čustvo, nosilec, cilj, glas, zanikanje, ironija, negotovost; en pregledovalec | kako je bil priročnik uporabljen | objektivna psihologija ali razširjenost v korpusu | kontekstualno; sporno in delovno zahtevno |
+| natančni leksikon oblik | poved; površinske oblike | kategorijska ujemanja s strojno podprtim osnutkom osmih primerov, ki čaka na človeški pregled | katere navedene oblike se ujemajo | kdo resnično čuti čustvo | pregledno; prezre pregibanje in kontekst |
+| kontekstualna referenčna anotacija | poved, sobesedilo in priročnik | čustvo, nosilec, cilj, glas, zanikanje, ironija in negotovost v osnutku, ki čaka na človeški pregled | kako je bil priročnik uporabljen v osnutku | objektivna psihologija ali razširjenost v korpusu | kontekstualno; sporno in delovno zahtevno |
 | nadzorovani klasifikator | zahteval bi označene učne, validacijske in testne enote | namenoma ni prilagojen: osem primerov ne zadostuje | nobena za ta paket | napovedna kakovost | opustitev prepreči okrasni model z uhajanjem |
 | raziskovalni NMF | dokument; vreča besed TF-IDF | 2, 3 in 4 sestavine × semena 7, 19 in 31; povezani izrazi in prebrani odlomki | občutljivost sintetične predstavitve | splošna tematska struktura | pokaže razcepe in nestabilnost; majhno in od besedišča odvisno |
 
 Čustveni primeri vključujejo navedek *obiskovalci se bojijo*, zanikano žalost,
 metajezikovno *jezo*, pripisani strah, ironično *čudovita* in preteklo obliko
 *bali*, ki nima natančnega ujemanja. Tako dobite vidne lažno pozitivne in lažno
-negativno napoved. Ročna anotacija določi nosilca in cilj, ironijo pa lahko pusti
+negativno napoved. Kontekstualni osnutek določi nosilca in cilj, ironijo pa lahko pusti
 nerazrešeno, namesto da bi si izmislila čustvo.
 
 Prikaz NMF ohrani vektorizacijo in spreminja seme ter število sestavin. Nekatere

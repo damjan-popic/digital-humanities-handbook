@@ -1,8 +1,8 @@
 # packet_sample_id = TNLP-CLEAN-02
 # packet_stratum = contemporary_clean
-# reference_status = manually reviewed teaching reference; not a gold standard
-# reference_policy = TNLP-REF-1; annotate the research-intended linguistic reading while preserving observed token forms
-# reference_reviewer = handbook maintainers; 2026-09-03
+# reference_status = machine-assisted reference draft; pending human review
+# reference_policy = TNLP-REF-2; annotate the research-intended linguistic reading while preserving observed token forms
+# human_review = pending; reviewer, ISO date and scope not recorded
 # newpar id = 1
 # sent_id = 1.1
 # text = Raziskovalci skrbno preverjajo prepise in javno pojasnjujejo negotove odločitve.

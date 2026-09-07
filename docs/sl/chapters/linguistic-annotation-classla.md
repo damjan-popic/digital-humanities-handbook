@@ -27,8 +27,9 @@ Po tem poglavju boste znali:
 - pojasniti, zakaj je vsaka anotacijska plast modelska trditev;
 - izbrati le plasti, ki jih zahteva humanistično raziskovalno vprašanje;
 - dokumentirati izvedbo CLASSLA z različico paketa, procesorji, viri, okoljem
-  ter zgoščenimi vrednostmi vhodov in rezultatov;
-- sestaviti ročno pregledan referenčni vzorec, ki ostaja odprt za kritiko;
+  ter kontrolnimi vsotami SHA-256 vhodov in rezultatov;
+- zasnovati kritiki odprt referenčni osnutek in dokumentiran načrt človeškega
+  pregleda;
 - izračunati mere posameznih plasti z izrecnimi imenovalci; in
 - povezati anotacijske napake z lastnostmi vira in interpretativnim tveganjem.
 
@@ -67,7 +68,8 @@ program končal delo.
 
 ### Povedi in pojavnice
 
-Segmentacija povedi predlaga, kje se en krajevni kontekst konča in drugi začne.
+Segmentacija povedi predlaga, kje se en neposredni sobesedilni odsek konča in
+drugi začne.
 Tokenizacija predlaga, kateri nizi štejejo kot besede, ločila ali večbesedne
 enote. Odločitve določijo imenovalec večine poznejših mer. Zgodovinske krajšave,
 začetnice, vezaji, opuščaji in zaradi OCR poškodovani presledki so pogosta mesta
@@ -142,13 +144,16 @@ CLARIN.SI olajšata iskanje in navajanje modelov ter označevalnih shem.
 Institucionalni okvir obravnava poglavje
 [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md).
 
-Za ponovljivo navedbo ime CLASSLA ne zadostuje. Zamrznjena učna izvedba je 7.
-septembra 2026 uporabila CLASSLA `2.2.1`, Python `3.12.3`, izvajanje na CPE ter procesorje
-`tokenize,pos,lemma,depparse,ner`. Metapodatki navajajo operacijsko okolje,
-različico Torch, ukaz, zgoščene vrednosti normaliziranih vhodov in rezultatov
-ter SHA-256 in velikost vsake prenesene datoteke virov. Modelskih datotek ne
-razširjamo. Pred razširjanjem ali produkcijsko rabo preverite licenco paketa in
-vsakega vira posebej.
+Za ponovljivo navedbo ime CLASSLA ne zadostuje. Zamrznjena učna izvedba je
+uporabila CLASSLA `2.2.1`, Python `3.12.3`, izvajanje na CPE ter procesorje
+`tokenize,pos,lemma,depparse,ner`. Čas sklepanja v UTC je bil obnovljen iz
+časovnega žiga metapodatkovne datoteke ohranjenega kandidata; starejši zaganjalnik ni ohranil
+zanesljivega časa pridobitve virov, zato je ta vrednost `unknown`. Ločeni zapisi
+določajo operacijsko okolje, različice Python, Torch, NumPy, SciPy, scikit-learn,
+CLASSLA, Stanza in Obeliks, popoln seznam paketov v okolju, ukaz, kontrolne vsote SHA-256
+normaliziranih vhodov in rezultatov ter velikost in kontrolno vsoto vsake
+datoteke virov. Modelskih datotek ne razširjamo. Pred razširjanjem ali
+produkcijsko rabo preverite licenco paketa in vsakega vira posebej.
 
 Tak opis ne pomeni, da je posamezno zamrznjeno izvedbo mogoče povsod natančno
 ponoviti. Strojna oprema, paketi in viri se spreminjajo. Omogoča pa prepoznavo
@@ -169,7 +174,7 @@ rezultat prikrito prepisali.
 
 Pojmovno ločite tri nize: **izvorno obliko**, vidno na strani ali v izvirno
 digitalnem predmetu, morebitno **normalizirano obliko**, ustvarjeno z uredniškim
-pravilom, ter natančni **modelski vhod**. Lahko so enaki, vendar tega ne
+pravilom, ter **točno besedilo, posredovano modelu**. Lahko so enaki, vendar tega ne
 predpostavite. Shranite pretvorbe in odmike do vira ali drugo povratno poravnavo,
 da se pregledovalec lahko vrne od anotacije k dokazu. Če normalizacija spremeni
 dolžino ali meje besed, opišite pretvorbo odmikov.
@@ -188,10 +193,11 @@ normalizacije, vendar ga morate verzionirati, preizkusiti lažne popravke in
 uporabiti tudi na novem gradivu. **Prilagojeni leksikon** izboljša znana imena ali
 zgodovinske oblike, toda pokritost je izbirna, lažno pozitivne napovedi se lahko
 povečajo, seznam pa lahko utrdi zastarele normativne odločitve. Prilagajanje
-modela zahteva dovolj licenciranih anotacij in zadržano vrednotenje.
+modela zahteva dovolj licenciranih anotacij in vrednotenje na ločenem testnem
+naboru.
 
 Zamrznjenega samodejnega rezultata ne prepišite s popravljenimi oznakami. Vir,
-napoved in pregledano referenco ohranite kot ločene plasti. Objavite nadaljnji
+napoved in referenčni osnutek ohranite kot ločene plasti. Objavite nadaljnji
 izračun pred posegom in po njem; tehnično boljša oznaka sicer nima dokazane
 vrednosti za raziskovalno vprašanje.
 
@@ -212,13 +218,18 @@ jo približa, in si zamislite najbolj škodljivo verjetno napako. Če jo
 interpretacija prenese, plast morda zadostuje. Če je ne, okrepite vzorec,
 popravljalni postopek ali omejite trditev.
 
-## Ročna referenca ni razsodnik
+## Referenca ni razsodnik
 
 Uporabni referenčni vzorec je ročno anotiran ali pregledan po izrecnih pravilih.
 Še vedno je raziskovalni poseg. Zabeležite pregledovalca, datum, videno izvorno
 plast, ravnanje z napakami OCR, uporabljeno shemo in mesta razumnega nestrinjanja.
 Neodvisno dvojno anotiranje in razsojanje izboljšata zanesljivost; če ju ni,
 to povejte.
+
+V tem paketu postopek še ni končan. Oznake so strojno podprti referenčni osnutek,
+ki čaka na človeški pregled. Za prehod v stanje `human-reviewed` je treba navesti
+ime pregledovalca, datum pregleda v obliki ISO in obseg pregleda; do takrat
+osnutek beleži odločitve za preverjanje in ne dokončne referenčne resnice.
 
 Vzorčite pričakovano raznolikost in ne le lahkega sodobnega besedila. Vključite
 obdobje, žanr, stanje dokumenta, imenske entitete ter pojave, pomembne za
@@ -234,7 +245,7 @@ nabor se po plasteh spreminjata. Objavite števce za vsako mero:
 Pri segmentaciji povedi meje predstavite kot položaje ali razpone. Preciznost
 meje deli pravilne napovedane meje z vsemi napovedanimi, priklic pa z referenčnimi;
 F1 ju poveže. Natančno ujemanje povednih razponov je strožje in je v paketu
-uporabno, ker vsak vzorec vsebuje eno prijavljeno poved. Tudi pri ujemanju
+uporabno, ker vsak vzorec vsebuje eno navedeno poved. Tudi pri ujemanju
 pojavnic ali razponov povejte, ali so vključena ločila, razponi večbesednih
 pojavnic in odmiki znakov.
 
@@ -272,9 +283,9 @@ izločene odlomke in neuspele dokumente: odsotnost iz končne tabele je izborna
 odločitev.
 
 Najmanjši zapis izvedbe vsebuje datum in čas, različice paketa in izvajalnega
-okolja, vrstni red procesorjev z nastavitvami, identifikatorje ali zgoščene
-vrednosti modelov in virov, uporabljeno napravo, identifikatorje in zgoščene
-vrednosti vhodov, zgoščene vrednosti rezultatov ter ukaz ali različico skripte.
+okolja, vrstni red procesorjev z nastavitvami, identifikatorje ali kontrolne vsote
+SHA-256 modelov in virov, uporabljeno napravo, identifikatorje in kontrolne vsote
+SHA-256 vhodov in rezultatov ter ukaz ali različico skripte.
 Kontrolna vsota dokazuje enakost bajtov, ne pravilnosti. Skupaj z referenčnimi
 pravili in dnevnikom napak pa omogoči obnovo videnega gradiva in posegov.
 
@@ -297,8 +308,8 @@ opazovanji.
 Sodobna poved, ki se začne *Kustosinja Maja Kovač*, dobi verjetne leme, skladnjo
 in natančne razpone za osebo, muzej ter Ljubljano. Uspeh je dokaz le za izbrane
 primere. V zgodovinskem referenčnem prepisu posamostaljeni *vse* omogoči zapisano
-nestrinjanje med modelsko prislovno analizo in pregledovalčevo analizo zaimka ter
-osebka. V ponudnikovem OCR sta *naroda in* zlepljena v *narodain*, *stanovske*
+nestrinjanje med modelsko prislovno analizo in analizo zaimka ter osebka v
+referenčnem osnutku. V ponudnikovem OCR sta *naroda in* zlepljena v *narodain*, *stanovske*
 postane *stavovske*, *kulturnega* postane *kultrunega*, oziralni *ki* pa *i*.
 Zadnjo obliko model analizira kot samostalnik, zato preusmeri tudi odvisnostno
 strukturo.
@@ -306,8 +317,23 @@ strukturo.
 Primerjava loči tri opise:
 
 1. **stanje vira:** kaj vsebuje stran, prepis ali ponudnikov OCR;
-2. **vedenje anotacije:** kaj zamrznjena procesna veriga napove za vhod;
+2. **delovanje anotacijskega postopka:** kaj zamrznjena procesna veriga napove za vhod;
 3. **interpretativna posledica:** katera poizvedba, število ali pripis se spremeni.
+
+Po primerjavi s sedanjim referenčnim osnutkom so popravljene odvisnostne mere:
+
+| Vhodni vzorec | UAS | LAS |
+| --- | ---: | ---: |
+| sodobni čisti vzorec 1 | 11/11 | 11/11 |
+| sodobni čisti vzorec 2 | 9/9 | 9/9 |
+| zgodovinski referenčni prepis | 50/52 | 50/52 |
+| ponudnikov OCR | 43/46 | 42/46 |
+
+Ulomki opisujejo ujemanje z osnutkom, ki čaka na človeški pregled; ne merijo
+točnosti glede na človeško razsojeno resnico. Od 24 podrobnih nestrinjanj se jih
+14 ponovi v zgodovinskem prepisu in plasti OCR: deset polj za *vse* ter štiri odvisnostna
+polja za *stranko*. Preostalih deset je povezanih s stanjem ponudnikovega OCR.
+Vzročna razvrstitev temelji na tej primerjavi plasti in ne zgolj na vhodni plasti.
 
 Tak opis je uporabnejši od splošne trditve, da je OCR »slab«. Zlepljeni veznik
 ogrozi štetje in skladnjo; poškodovani oziralnik ogrozi pripis stavka ali govorca;
@@ -351,12 +377,14 @@ Jezikoslovna anotacija je dokazna veriga napovedanih in od sheme odvisnih plasti
 CLASSLA je pomembna regionalna infrastruktura, toda ime paketa ali splošna mera
 ne more preveriti humanistične trditve. Ohranite plasti vira, zaženite le potrebne
 procesorje, natančno identificirajte programsko opremo in vire, pripravite
-dokumentirano ročno referenco, poročajte o imenovalcih posameznih plasti ter
-vsako pomembno napako povežite z interpretacijo, ki jo lahko spremeni.
+referenčno anotacijo z dokumentiranim stanjem pregleda, poročajte o imenovalcih
+posameznih plasti ter vsako pomembno napako povežite z interpretacijo, ki jo
+lahko spremeni. Strojno podprti osnutek v tem paketu obravnavajte kot gradivo, ki
+čaka na človeški pregled, in ne kot razsojeno referenco.
 
 ## Nadaljnje branje
 
-- Ljubešić, Nikola, in Taja Kuzman. 2024. *CLASSLA-Stanza: The Next Step for
+- Ljubešić, Nikola, Luka Terčon in Kaja Dobrovoljc. 2024. *CLASSLA-Stanza: The Next Step for
   Linguistic Processing of South Slavic Languages*. [Arhivirana izdaja in
   bibliografski zapis](https://doi.org/10.5281/zenodo.13936406).
 - [Izvorni repozitorij CLASSLA z navodili za uporabo](https://github.com/clarinsi/classla).

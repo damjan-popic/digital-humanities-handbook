@@ -1,0 +1,38 @@
+{
+  "acquisition_basis": "The resource directory existed for the final candidate, but the former runner did not preserve a truthful acquisition timestamp.",
+  "acquisition_status": "unknown",
+  "acquisition_timestamp_utc": "unknown",
+  "manifest_recorded_at_utc": "2026-09-07T14:16:21Z",
+  "resource_files": [
+    {
+      "bytes": 15860,
+      "path": "resources.json",
+      "sha256": "03eb6811384b1a90f786cc5e77fbdd2a01cf060c97dae58c10073511b6ec47e7"
+    },
+    {
+      "bytes": 100340417,
+      "path": "sl/depparse/standard.pt",
+      "sha256": "fae51ebaf8e2ef99c2679b91fbd83b0af3d2e241c223b31b9644e4885d2d1c8a"
+    },
+    {
+      "bytes": 2387000,
+      "path": "sl/lemma/standard.pt",
+      "sha256": "9a397d4ccaa9e8fbd7ea1619d859b9646dfb2f9c17e3f4df53c45525b5f5b38d"
+    },
+    {
+      "bytes": 48344574,
+      "path": "sl/ner/standard.pt",
+      "sha256": "30e9efafdf991e60a31b8037f72e90ed4b7b3c942cc5a32fc47eeb280bbffa22"
+    },
+    {
+      "bytes": 1145031553,
+      "path": "sl/pos/standard.pt",
+      "sha256": "9865fbf5673de7ddeabf2f42cd75b3f522cc2ffe6f905d0a694939e3a68a94dd"
+    },
+    {
+      "bytes": 156748719,
+      "path": "sl/pretrain/standard.pt",
+      "sha256": "f187803fc86a953194b0ed2f9230e2f80828775349a7a6dcd551c19bfe9067aa"
+    }
+  ]
+}

@@ -4,14 +4,15 @@ translation_status: machine-assisted draft; requires human language review
 
 # Učni paket za preverjanje besedilnih analiz in NLP
 
-Raziskovalno vprašanje: koliko se jezikoslovni in besedilnoanalitični sklepi
-spremenijo, če isti slovenski odlomek obravnavate kot sodobno uredniško besedilo,
-zgodovinski referenčni prepis ali ponudnikov OCR?
+Raziskovalno vprašanje: kako se jezikoslovni in besedilnoanalitični sklepi
+razlikujejo med dvema kratkima sintetičnima sodobnima primeroma, zgodovinskim
+referenčnim prepisom in pripadajočo ponudnikovo različico OCR?
 
 Dvojezični paket povezuje 9.–11. poglavje priročnika s preglednim dokaznim
 gradivom. Vsebuje dvanajst kratkih sodobnih dokumentov, ki jih je priročnik
 napisal za pouk, dokumentirane izvlečke iz obstoječega paketa o arhivskem
-trenju, ročno pregledano referenčno anotacijo, zamrznjeni rezultat CLASSLA,
+trenju, strojno podprti osnutek referenčne anotacije, ki čaka na človeški
+pregled, zamrznjeni rezultat CLASSLA,
 majhno vajo s frekvenco, dokumentno frekvenco in razpršenostjo ter omejeni vaji
 o temah in čustvih. Sodobni dokumenti so sintetično učno gradivo in niso dokazi
 o resničnih ustanovah ali dogodkih.
@@ -21,7 +22,7 @@ o resničnih ustanovah ali dogodkih.
 | Plast | Vloga | Pravilo |
 | --- | --- | --- |
 | `source/` | Avtorski učni korpus in register izvlečkov | Ohranite; register kaže na arhivsko gradivo, namesto da bi ga tukaj podvajal |
-| `reference/` | Ročna anotacija, kodirni priročniki in pregledane razlage | Obravnavajte jih kot dokumentirano raziskovalno referenco, ne kot neposredno resnico |
+| `reference/` | Strojno podprti osnutki anotacije, kodirnih priročnikov in razlag | Obravnavajte jih kot gradivo, ki čaka na človeški pregled, ne kot neposredno resnico |
 | `raw/` | Deterministično izvlečeni vhodi | Ponovno ustvarite; ne urejajte ročno |
 | `interim/` | Zamrznjeni rezultati modelov CLASSLA in NMF | Ohranite kot dokaz izvedbe; osvežite jih samo z neobveznim ukazom in pregledom |
 | `output/` | Mere po plasteh, dnevnik napak, konkordance in analitične tabele | Ponovno ustvarite s standardno knjižnico |
@@ -31,7 +32,7 @@ o resničnih ustanovah ali dogodkih.
 ## Študentska pot
 
 1. Preberite `rights-and-provenance.sl.md` in `data-dictionary.sl.md`.
-2. Tri sloje v `raw/annotation-samples.csv` primerjajte z ročno referenco in
+2. Tri sloje v `raw/annotation-samples.csv` primerjajte z osnutkom reference in
    zamrznjenimi tabelami CLASSLA.
 3. Ponovno izračunajte en imenovalec posamezne plasti v
    `output/classla-evaluation.csv`, nato dve napaki povežite z
@@ -41,8 +42,9 @@ o resničnih ustanovah ali dogodkih.
    različna vprašanja.
 5. Pred previdno interpretacijsko tabelo preglejte ujemanje tem med naključnimi
    semeni in različnim številom sestavin.
-6. Pregledno izhodišče čustvenih besed primerjajte s kontekstualnimi ročnimi
-   oznakami. Določite nosilca čustva, tarčo, navedek, zanikanje in ironijo.
+6. Pregledno izhodišče čustvenih besed primerjajte s kontekstualnimi oznakami v
+   osnutku, ki čaka na človeški pregled. Določite nosilca čustva, cilj, navedek,
+   zanikanje in ironijo.
 
 Študentska vaja ne zahteva prenosa modela. Uporabite datoteko
 `text-nlp-validation-v1.zip` na strani priročnika ali to izvorno drevo.
@@ -70,6 +72,11 @@ Ukaz za modele zapiše kandidate v novo mapo `.cache/` in ne prepiše potrjenih
 dokazov. Primerjajte bajte in metapodatke, preglejte vsako spremenjeno anotacijo
 ali temo ter šele nato v ločeni uredniški potrditvi zamenjajte zamrznjene
 datoteke. Predpomnilnika modelov ne vključite v Git.
+
+Zamrznjeni izvedbi kažeta na `interim/model-environment.json` in popolni zapis
+`pip freeze --all`. Čas pridobitve virov CLASSLA je dokumentiran ločeno v
+`interim/classla/resource-acquisition.json`: manifest datotek je znan, prvotni
+čas pridobitve pa ostaja izrecno `unknown`.
 
 ## Meja interpretacije
 

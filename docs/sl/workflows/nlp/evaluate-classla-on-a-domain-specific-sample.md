@@ -23,8 +23,9 @@ translation_status: machine-assisted draft; requires human language review
 
 Ugotoviti želite, ali je jezikoslovna anotacija uporabna za določeno
 humanistično vprašanje, ne pa potrditi splošnega ugleda procesne verige. Eno
-zamrznjeno izvedbo CLASSLA boste primerjali z ročno pregledano slovensko
-referenco na sodobnem besedilu, zgodovinskem prepisu in ponudnikovem OCR. Za
+zamrznjeno izvedbo CLASSLA boste primerjali s strojno podprtim slovenskim
+referenčnim osnutkom, ki čaka na človeški pregled, na sodobnem besedilu,
+zgodovinskem prepisu in ponudnikovem OCR. Za
 vsako plast boste navedli poseben imenovalec in napake povezali z njihovim
 verjetnim učinkom na interpretacijo.
 
@@ -52,10 +53,11 @@ zamrznjeni rezultat in natančne metapodatke o izvedbi.
 | Vloga | Datoteka | Pomen |
 | --- | --- | --- |
 | pravila izvlečka | `source/extraction-registry.json` | določa izvorno plast, zapis in izbirnik povedi |
-| raziskovalni vhodi | `raw/annotation-samples.csv` | navaja normalizirano besedilo ter zgoščene vrednosti |
-| pregledana referenca | `reference/classla/*.conllu` | razkrije sporne pregledovalčeve odločitve |
+| raziskovalni vhodi | `raw/annotation-samples.csv` | navaja normalizirano besedilo ter kontrolne vsote SHA-256 |
+| referenčni osnutek | `reference/classla/*.conllu` | razkrije sporne strojno podprte odločitve, ki čakajo na človeški pregled |
+| vzročne odločitve | `reference/classla-causal-decisions.csv` | med izvornimi plastmi loči neposredno nestrinjanje od verjetnega vzroka |
 | modelske napovedi | `interim/classla/*.conllu` | nespremenjeno ohrani zamrznjeno izvedbo |
-| identiteta izvedbe | `interim/classla/model-run.json` | navaja paket, procesorje, okolje, vire in zgoščene vrednosti |
+| identiteta izvedbe | `interim/classla/model-run.json` | navaja paket, procesorje, okolje, vire in kontrolne vsote SHA-256 |
 | mere | `output/classla-evaluation.csv` | za vsako plast razkrije števec, imenovalec in upravičeni nabor |
 | nestrinjanja | `output/classla-error-log.csv` | razlike v oznakah poveže z družino napake in tveganjem |
 
@@ -87,7 +89,7 @@ make text-nlp-validation
 ```
 
 Ukaz uporablja standardno knjižnico Python. Izloči prijavljene odlomke, preveri
-zgoščene vrednosti zamrznjenih datotek, izračuna rezultate, pripravi študentski
+kontrolne vsote SHA-256 zamrznjenih datotek, izračuna rezultate, pripravi študentski
 ZIP in preveri njegovo kontrolno vsoto. Sprememba vira, modelskega artefakta ali
 pričakovane vrednosti mora povzročiti vidno napako, ne prikrite posodobitve.
 
@@ -109,8 +111,11 @@ Odprite `interim/classla/model-run.json` in odgovorite:
 
 - Kateri različici CLASSLA in Pythona sta ustvarili datoteke?
 - Kateri procesorji so se izvedli in ali je bil uporabljen grafični procesor?
-- Katere zgoščene vrednosti določajo normalizirane vhode in rezultate?
-- Kateri SHA-256 in velikosti določajo krajevne modelske vire?
+- Katere kontrolne vsote SHA-256 določajo normalizirane vhode in rezultate?
+- Kateri SHA-256 in velikosti določajo lokalne modelske vire ter kdaj je bil
+  zapisan manifest virov?
+- Kateri posnetek okolja določa Python, Torch, NumPy, SciPy, scikit-learn,
+  CLASSLA, Stanza in Obeliks?
 
 Metapodatki identificirajo eno izvedbo. Modelske napovedi ne spremenijo v
 referenčno oznako in ne jamčijo enakega vedenja prihodnjih namestitev.
@@ -139,6 +144,21 @@ oblikoslovje uporabljajo besedne pojavnice z enakovredno poravnavo. Odvisnostne
 mere uporabljajo poravnane skladenjske besede, katerih referenčna glava je prav
 tako poravnana. Preciznost in priklic NER namenoma uporabljata različna
 imenovalca. Vstavki in izpusti pojavnic ne smejo izginiti v odstotku druge plasti.
+Imenovalec uskladite z izrecnimi števili referenčnih, napovedanih, poravnanih,
+zamenjanih, vstavljenih, izpuščenih in izločenih enot. `excluded` ni splošni
+preostanek: izločitve na vsaki strani in pravilo izločitve so navedeni ločeno.
+
+Popravljene vrstice odvisnostnega vrednotenja morajo vsebovati:
+
+| Vzorec | UAS | LAS |
+| --- | ---: | ---: |
+| `TNLP-CLEAN-01` | 11/11 | 11/11 |
+| `TNLP-CLEAN-02` | 9/9 | 9/9 |
+| `TNLP-AF-REF` | 50/52 | 50/52 |
+| `TNLP-AF-OCR` | 43/46 | 42/46 |
+
+Mere obravnavajte kot ujemanje s sedanjim strojno podprtim osnutkom in ne kot
+oceno točnosti glede na človeško razsojeno referenco.
 
 ### 6. Dnevnik napak preberite po družinah
 
@@ -147,12 +167,20 @@ imenovalca. Vstavki in izpusti pojavnic ne smejo izginiti v odstotku druge plast
 
 1. izvorno obliko in plast;
 2. referenčno ter napovedano vrednost;
-3. razlog za referenčno odločitev ali preostalo dvoumnost;
-4. raziskovalno operacijo, ki bi se lahko spremenila.
+3. neposredno nestrinjanje med modelom in referenco;
+4. verjetni vzrok, vključno s podatkom, ali se pojavi tudi v referenčnem
+   prepisu;
+5. raziskovalno operacijo, ki bi se lahko spremenila.
 
 Napako razpoznavanja vira ločite od odziva označevalnika. Če trditev obravnava
 le natančne razpone krajev, je nestrinjanje o lemi morda nepomembno. Pri
 osebkih stavkov pa je odvisnostno nestrinjanje istega odlomka osrednje.
+V `reference/classla-causal-decisions.csv` preverite ponavljajoče se primere v
+prepisu in OCR. Nestrinjanja, ki se pojavijo v obeh plasteh, denimo vseh pet
+polj za `vse` v vsakem zgodovinskem vzorcu, ni povzročil OCR.
+Ponovno ustvarjeni dnevnik vsebuje 24 nestrinjanj: 14 ujemajočih se primerov med
+plastmi (deset polj za `vse` in štiri odvisnostna polja za `stranko`) ter deset
+primerov, povezanih s stanjem ponudnikovega OCR.
 
 ### 7. Plasti primerjajte brez pretiranega sklepa
 
@@ -205,7 +233,8 @@ spreminjajte, razen pri dokumentirani vzdrževalski osvežitvi.
 Postopek ste opravili, ko lahko:
 
 - vsak vzorec povežete z izvorno potjo in vrednostjo SHA-256;
-- pojasnite, zakaj je ročna referenca odprta za nestrinjanje;
+- pojasnite, zakaj je strojno podprti referenčni osnutek odprt za nestrinjanje
+  in še čaka na človeški pregled;
 - eno objavljeno mero ponovno izračunate iz njenih števcev;
 - pojasnite razliko med imenovalcema za odvisnosti in NER;
 - dve napaki povežete s konkretnim interpretativnim tveganjem; in

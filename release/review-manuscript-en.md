@@ -2303,7 +2303,7 @@ After this chapter, you should be able to:
 - choose only the layers required by a humanities research question;
 - document a CLASSLA run with package, processors, resources, environment and
   input/output checksums;
-- construct a manually reviewed, contestable reference sample;
+- design a contestable reference draft and a documented human-review plan;
 - calculate layer-specific metrics with explicit denominators; and
 - trace annotation errors to source conditions and interpretive risk.
 
@@ -2416,11 +2416,15 @@ institutional context is discussed in
 
 A reproducible citation needs more than the name CLASSLA. The frozen teaching
 run used CLASSLA `2.2.1`, Python `3.12.3`, CPU execution and the processors
-`tokenize,pos,lemma,depparse,ner` on 7 September 2026. Its metadata records the
-operating platform, Torch version, command, normalized input hashes, output
-hashes and the SHA-256 value and byte size of every downloaded resource file.
-Model files are not redistributed. Package and resource licences must be checked
-separately before redistribution or production use.
+`tokenize,pos,lemma,depparse,ner`. Its UTC inference timestamp was recovered from
+the preserved candidate metadata-file time; the older runner did not preserve a
+truthful resource-acquisition time, so that field remains `unknown`. Separate
+records identify the operating platform, Python, Torch, NumPy, SciPy,
+scikit-learn, CLASSLA, Stanza and Obeliks versions, the complete environment
+lock, the command, normalized input and output hashes, and the SHA-256 value and
+byte size of every resource file. Model files are not redistributed. Package
+and resource licences must be checked separately before redistribution or
+production use.
 
 This detail does not imply that one frozen run is universally reproducible.
 Hardware, packages and resources change. It makes the run identifiable and
@@ -2464,7 +2468,7 @@ false positives or encode outdated authority decisions. Retraining or adapting a
 model needs sufficient licensed annotations and a held-out evaluation.
 
 Never overwrite frozen automatic output with corrected labels. Preserve source,
-prediction and reviewed reference as distinct layers. Report the downstream
+prediction and reference draft as distinct layers. Report the downstream
 calculation before and after the intervention; otherwise a technically improved
 tag may have no demonstrated value for the research question.
 
@@ -2485,13 +2489,19 @@ approximates it and imagine the most damaging plausible error. If the
 interpretation survives that error, the layer may be sufficient. If not,
 strengthen the sample, correction process or claim.
 
-## Build a manual reference, not an oracle
+## Build a reference, not an oracle
 
 A useful reference sample is manually annotated or reviewed according to an
 explicit policy. It is still a scholarly intervention. Record who reviewed it,
 when, which source layer they saw, how OCR errors were treated, which scheme was
 used and where reasonable disagreement remains. Independent double annotation
 and adjudication improve reliability; when they are absent, say so.
+
+The packet used here has not completed that process. Its labels form a
+machine-assisted reference draft pending human review. Promotion to a
+`human-reviewed` state requires a named reviewer, an ISO review date and a
+declared review scope; until then, the draft records decisions to inspect rather
+than settled ground truth.
 
 Sample for likely variation rather than selecting only easy prose. Include
 period, genre, document condition, named entities and phenomena central to the
@@ -2571,7 +2581,7 @@ The clean sentence beginning *Kustosinja Maja Kovač* produces plausible lemmas,
 syntax and exact entity spans for the person, museum and Ljubljana. That success
 is evidence for those selected items only. In the historical reference,
 substantival *vse* invites a documented disagreement between an adverbial model
-analysis and the reference reviewer’s pronoun/subject analysis. In the provider
+analysis and the draft reference’s pronoun/subject analysis. In the provider
 OCR, *naroda in* is merged as *narodain*, *stanovske* becomes *stavovske*,
 *kulturnega* becomes *kultrunega*, and relative *ki* becomes *i*. The last error
 is analysed as a noun and helps redirect the dependency structure.
@@ -2581,6 +2591,22 @@ The comparison separates three descriptions:
 1. **source condition:** what the page, transcription or provider OCR contains;
 2. **annotation behaviour:** what the frozen pipeline predicts for that input;
 3. **interpretive consequence:** which query, count or attribution could change.
+
+Against the current reference draft, the corrected dependency results are:
+
+| Input sample | UAS | LAS |
+| --- | ---: | ---: |
+| contemporary clean 1 | 11/11 | 11/11 |
+| contemporary clean 2 | 9/9 | 9/9 |
+| historical reference transcription | 50/52 | 50/52 |
+| provider OCR | 43/46 | 42/46 |
+
+These fractions describe agreement with a pending draft, not accuracy against a
+human-adjudicated truth. Of 24 detailed disagreements, 14 recur across the
+historical transcription and OCR layers: ten fields for *vse* and four dependency
+fields for *stranko*. The remaining ten are provider-OCR-conditioned. This
+cross-layer comparison is the basis for causal attribution; the input stratum
+alone is not.
 
 This is more informative than saying that OCR is “bad”. A joined conjunction
 threatens word counts and syntax; a damaged relative marker threatens clause and
@@ -2643,12 +2669,14 @@ Linguistic annotation is an evidential chain of predicted, scheme-dependent
 layers. CLASSLA provides valuable regional infrastructure, but a package name or
 global benchmark cannot validate a humanities claim. Preserve source layers,
 run only the processors you need, identify software and resources precisely,
-build a documented manual reference, report layer-specific denominators and
-connect every consequential error to the interpretation it could change.
+build reference annotation with a documented review state, report layer-specific
+denominators and connect every consequential error to the interpretation it
+could change. In this packet, treat the machine-assisted draft as pending human
+review, not as an adjudicated reference.
 
 ## Further reading
 
-- Ljubešić, Nikola, and Taja Kuzman. 2024. *CLASSLA-Stanza: The Next Step for
+- Ljubešić, Nikola, Luka Terčon, and Kaja Dobrovoljc. 2024. *CLASSLA-Stanza: The Next Step for
   Linguistic Processing of South Slavic Languages*. [Archived release and
   citation record](https://doi.org/10.5281/zenodo.13936406).
 - [CLASSLA source repository and usage documentation](https://github.com/clarinsi/classla).
@@ -2780,23 +2808,26 @@ DF distinguishes presence from absence but ignores concentration among present
 documents. **Dispersion** describes how occurrences are distributed across
 documents or meaningful corpus parts. Always name the measure and partition.
 
-The teaching packet uses Juilland’s D across four equal authored theme groups.
-For group frequencies \(f_i\), mean \(\bar f\), population standard deviation
-\(s\), and \(n\) groups:
+The teaching packet uses Gries's DP because its four authored theme groups have
+unequal eligible-token totals: 83, 68, 66 and 113. For total term frequency
+\(F>0\), term count \(f_i\) in part \(i\), part size \(N_i\), and corpus size
+\(N\), compare the observed and expected proportions:
 
 ```text
-D = 1 - (s / mean) / sqrt(n - 1)
+observed_i = f_i / F
+expected_i = N_i / N
+DP = 0.5 * sum_i(abs(observed_i - expected_i))
 ```
 
-With equal groups, D approaches 1 when occurrences are evenly spread and 0 when
-they are confined to one group. The measure is undefined for zero total
-frequency. Unequal corpus parts require an adjusted measure or rate-based
-approach; do not apply this classroom calculation to uneven real collections
-without reconsidering its assumptions. A dispersion value describes a partition,
-not a word’s inherent generality.
+DP is 0 when a term's occurrence share follows the parts' token shares; larger
+values indicate greater departure and concentration. It is undefined for zero
+total frequency. Unlike an equal-part calculation on raw counts, the expected
+proportions account for unequal textual mass. The result still depends on the
+chosen partition and is not a word's inherent generality.
 
-Report the per-part counts beside D. A single index conceals which group drives
-the imbalance and whether the partition corresponds to the historical question.
+Report the per-part token totals and term counts beside DP. A single index
+conceals which group drives the imbalance and whether the partition corresponds
+to the historical question.
 
 ## Concordances reconnect pattern and passage
 
@@ -2959,14 +2990,14 @@ alternatives were tried and what independent material could challenge it.
 ## Worked example: frequency is not reach
 
 The [text and NLP validation packet](../../assets/downloads/text-nlp-validation-v1.zip)
-contains twelve short, synthetic Slovene documents in four equal authored theme
-groups. The corpus is designed for teaching and says nothing about real archives,
+contains twelve short, synthetic Slovene documents in four authored theme
+groups with three documents each but unequal token totals. The corpus is designed for teaching and says nothing about real archives,
 museums, language practice or newspapers.
 
 The term *arhiv* occurs several times but is concentrated in a small number of
 archive-themed documents. *Korpus* repeats within one language document.
 *Svoboda* is prominent in one press document but absent elsewhere. Comparing
-frequency, DF, document share, per-theme counts and Juilland’s D reveals these
+frequency, DF, document share, part sizes, per-theme counts and Gries's DP reveals these
 different shapes. A concordance then shows whether occurrences make the same
 claim or merely share a form.
 
@@ -3276,15 +3307,15 @@ has twelve synthetic documents. Neither estimates a historical population.
 
 | Method | Unit and input | Output and validation | Supported claim | Unsupported claim | Gain, loss and known failure |
 | --- | --- | --- | --- | --- | --- |
-| exact-form lexicon | sentence; surface forms | category hits compared with eight reviewed cases | which declared forms match | who truly feels an emotion | transparent; misses inflection and context |
-| manual emotion annotation | sentence plus context and codebook | emotion, experiencer, target, voice, negation, irony, uncertainty; one reviewer | how the codebook was applied | objective psychology or full-corpus prevalence | contextual; contestable and labour-intensive |
+| exact-form lexicon | sentence; surface forms | category hits compared with an eight-case machine-assisted reference draft pending human review | which declared forms match | who truly feels an emotion | transparent; misses inflection and context |
+| contextual reference annotation | sentence plus context and codebook | emotion, experiencer, target, voice, negation, irony and uncertainty in a draft pending human review | how the codebook was applied in the draft | objective psychology or full-corpus prevalence | contextual; contestable and labour-intensive |
 | supervised classifier | would require labelled train/validation/test units | deliberately not fitted: eight cases are inadequate | none for this packet | predictive performance | omission prevents a decorative, leaky model |
 | NMF topic exploration | document; TF-IDF bag of words | 2, 3 and 4 components × seeds 7, 19 and 31; matched terms and read passages | sensitivity of this synthetic representation | general thematic structure | shows splits and instability; tiny and vocabulary-bound |
 
 The emotion examples include quotation (*obiskovalci se bojijo*), negated
 sadness, metalinguistic *jeza*, attributed fear, ironic *čudovita* and a zero-match
 past-tense form *bali*. Exact matching therefore yields observable false positives
-and a false negative. Manual annotation identifies experiencer and target and may
+and a false negative. The contextual draft identifies experiencer and target and may
 leave irony unresolved rather than invent a feeling.
 
 The NMF demonstration holds vectorization fixed while changing seed and component

@@ -16,7 +16,7 @@ Application programming interface: a documented way for software to request data
 A documented collection of texts assembled for analysis. A corpus has scope, composition, metadata, transformations and limits; it is not merely a folder of files.
 
 **Dispersion**
-The distribution or concentration of occurrences across declared corpus parts. A dispersion value is meaningful only with its measure, partition and per-part counts.
+The distribution or concentration of occurrences across declared corpus parts. Gries's DP compares observed term proportions with proportions expected from part sizes: 0 is proportional spread and larger values mean greater concentration. Any dispersion value requires its measure, partition, part sizes and per-part term counts.
 
 **Document frequency**
 The number of eligible documents containing at least one occurrence of an item. It measures document reach, not total repetition.

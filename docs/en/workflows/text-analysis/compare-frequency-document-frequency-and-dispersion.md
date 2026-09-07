@@ -42,14 +42,15 @@ uneven and are not evidence about real institutions, genres or Slovene usage.
 | --- | --- |
 | `source/contemporary-sample.csv` | twelve source documents with stable IDs, authored theme and rights status |
 | `output/document-summary.csv` | eligible token totals by document |
-| `output/frequency-dispersion.csv` | frequency, DF, document share, Juilland’s D and four group counts |
+| `output/frequency-dispersion.csv` | frequency, DF, document share, Gries's DP, part sizes and term counts |
 | `output/concordance.csv` | every matched occurrence with bounded context |
 | `validation/expected-values.json` | selected invariant counts used by the checker |
 
 The deterministic builder lower-cases Unicode-NFC text and extracts sequences of
 letters of length two or more. It does not lemmatize. The four authored theme
-groups—archives, museums, language and press—each contain three documents, so
-the classroom Juilland calculation uses equal parts.
+groups—archives, museums, language and press—each contain three documents, but
+their eligible-token totals are 83, 68, 66 and 113. Gries's DP uses those unequal
+part sizes as its expectation.
 
 ## Workflow
 
@@ -83,8 +84,8 @@ For each term, record:
 - total frequency;
 - normalized frequency per 10,000 eligible tokens;
 - document frequency and document share;
-- counts in the four theme groups; and
-- Juilland’s D.
+- eligible-token totals and term counts in the four theme groups; and
+- Gries's DP.
 
 Do not rank the terms by a single column. State the question each column answers.
 A repeated word can have high frequency but low DF; a term can reach several
@@ -116,19 +117,21 @@ unit.
 
 ### 5. Recalculate dispersion
 
-Take the four theme counts for one non-zero term. Calculate their mean and
-population standard deviation, then:
+Take the four theme counts for one non-zero term. For each part calculate its
+expected corpus share from the eligible-token total and the term's observed
+share, then:
 
 ```text
-D = 1 - (population_standard_deviation / mean) / sqrt(4 - 1)
+expected_i = part_eligible_tokens_i / 330
+observed_i = part_term_count_i / total_term_frequency
+DP = 0.5 * sum_i(abs(observed_i - expected_i))
 ```
 
-Compare your value with the six-decimal value in the table. If all occurrences
-are in one theme, D is 0. If group counts are equal, D is 1. A middle value has
-meaning only together with the four counts.
-
-Do not reuse this simple formula when corpus parts differ in size. Choose a
-measure that accounts for part size or calculate document-level distributions.
+Compare your value with the six-decimal table value. DP=0 means that occurrence
+shares match token-mass shares; larger values indicate greater concentration.
+The measure is undefined when total term frequency is zero. Interpret it only
+with all four part sizes and term counts, and recalculate it if the partition or
+eligible-token rule changes.
 
 ### 6. Read every concordance line
 
@@ -168,7 +171,7 @@ Write a short evidence note containing:
 - Can another reader reconstruct each denominator?
 - Does frequency equal the number of concordance rows?
 - Does DF equal the number of distinct document IDs?
-- Is D accompanied by the partition and group counts?
+- Is DP accompanied by the partition, part sizes and term counts?
 - Did you describe only the synthetic dataset rather than Slovene discourse?
 
 ## Common traps
@@ -178,7 +181,7 @@ Write a short evidence note containing:
 - Comparing normalized rates that use different eligible-token rules.
 - Treating an arbitrary file boundary as a historical document boundary.
 - Reading a KWIC window as if it contained the whole argument.
-- Applying equal-part Juilland’s D to strongly unequal corpus parts.
+- Treating equal document counts as equal textual mass.
 
 ## Practice task
 

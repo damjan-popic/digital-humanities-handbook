@@ -41,27 +41,62 @@ vrstice s celoštevilčnim identifikatorjem.
 | `metric` | Ime mere; odstotkov ne primerjajte brez imenovalca |
 | `value` | Mera, zaokrožena na šest decimalk |
 | `eligible_rule` | Pravilo, po katerem so referenčni elementi vstopili v imenovalec |
+| `alignment_unit` | Besedilo povedi, oblika pojavnice ali označeni entitetni razpon za štetje |
+| `reference_item_count` / `predicted_item_count` | Skupno število elementov na vsaki strani pred poravnavo in izločitvami |
+| `aligned_reference_items` / `aligned_predicted_items` | Elementi, ki ustrezajo navedenemu predpogoju poravnave |
+| `substitutions` / `insertions` / `deletions` | Izrecna števila zamenjav, vstavkov in izpustov v navedeni enoti |
+| `excluded_reference_items` / `excluded_predicted_items` | Ločeni števili izločenih referenčnih in napovedanih elementov |
+| `exclusion_rule` | Razlog, da elementi ne vstopijo v vrednotenje plasti |
 | `alignment_status` | Natančno ujemanje, zamenjava, vstavljanje ali brisanje pojavnice |
 | `reference_value` / `predicted_value` | Primerjani oznaki ali strukturi |
 | `error_family` | `source`, `segmentation`, `lexical`, `morphosyntactic`, `dependency`, `entity`, `ambiguity` |
+| `input_stratum` | Stanje vhodnega vira, ki samo po sebi ni vzročni sklep |
+| `immediate_disagreement` | Neposredna razlika v poravnavi ali oznaki pred vzročno razlago |
+| `likely_causal_origin` | Strojno podprti osnutek vzročne razvrstitve iz izrecne odločitvene tabele |
+| `also_occurs_in_reference_transcription` | Ali je isto nestrinjanje oblike in plasti navzoče tudi brez ponudnikovega OCR |
+| `review_status` | Trenutno stanje pregleda vzročne oziroma referenčne odločitve |
+| `reviewer` / `reviewed_on` / `review_scope` | Prazno, dokler pregled ni opravljen; za prihodnje stanje `human-reviewed` so obvezni ime, datum ISO in obseg |
 | `interpretive_risk` | Raziskovalna posledica morebitno prezrte napake |
 
-Ročne datoteke so pregledana učna referenca. Politika anotiranja in zapisana
-nesoglasja so del podatkov in morajo spremljati rezultate.
+Referenčne datoteke so strojno podprti osnutek, ki čaka na strokovni človeški
+pregled. Pravila anotiranja, tabela vzročnih odločitev in zapisana nestrinjanja
+so del podatkov ter morajo spremljati rezultate. Datoteka
+`validation/expected-values.json` prav tako vsebuje trenutno stanje ter polja za
+ime pregledovalca, datum in obseg, ki so obvezna ob prihodnjem stanju
+`human-reviewed`.
 
 ## Polja besedilne analize, tem in čustev
 
 `frequency-dispersion.csv` navaja frekvenco pojavnice, dokumentno frekvenco,
-delež vseh dokumentov, Juillandov D po štirih enako velikih avtorskih tematskih
-skupinah in števila po skupinah. `concordance.csv` navaja omejeni levi in desni
-kontekst, zato ne nadomesti branja dokumenta.
+delež vseh dokumentov in Griesov DP po štirih avtorskih tematskih skupinah.
+Skupine vsebujejo 83, 68, 66 in 113 upravičenih pojavnic, zato vsaka vrstica
+objavi velikosti delov in števila izraza po delih. Za skupno frekvenco (F>0),
+velikost dela (N_i), velikost korpusa (N) in število izraza (f_i) velja:
+
+```text
+DP = 0.5 * sum_i(abs(f_i / F - N_i / N))
+```
+
+Pri `F=0` DP ni določen. Nižja vrednost pomeni porazdelitev bliže pričakovanju
+glede na velikost delov, višja pa večjo koncentracijo. `concordance.csv` navaja
+omejeni levi in desni sobesedilni kontekst, zato ne nadomesti branja dokumenta.
 
 Datoteke o temah navajajo število sestavin, seme, identifikator teme, urejene
 ključne izraze, najpomembnejše dokumente, ujemajočo osnovno temo, Jaccardovo
 prekrivanje in odločitev o stabilnosti. Številke tem med izvedbami nimajo
-identitete, dokler jih ne povežete.
+identitete, dokler jih ne povežete. Razlage uporabljajo stabilne identifikatorje
+povedi, na primer `TNLP-C11.s1`; gradilnik zahteva, da se vsak identifikator ter
+vsi pomembni in nasprotujoči dokumenti razrešijo v izvornem korpusu.
 
-Anotacije čustev ločijo kontekstualno navzočnost čustva, kategorijo, nosilca,
-tarčo, glas, zanikanje, ironijo in negotovost. Izhodišče poroča o natančnem
+Anotacije čustev izvorno poved določijo samo z `doc_id` in `sentence_index`;
+ustvarjeni rezultat razreši ter prenese točno izvorno besedilo, zato se podvojena
+različica ne more neopazno spremeniti. Anotacije ločijo kontekstualno navzočnost
+čustva, kategorijo, nosilca, cilj, glas, zanikanje, ironijo in negotovost. Izhodišče poroča o natančnem
 ujemanju oblik z leksikonom in ne sklepa o duševnem stanju osebe. Pravila so v
 `reference/emotion-codebook.sl.md`.
+
+Datoteki `interim/model-environment.json` in `model-environment.lock.txt`
+določata dejansko okolje neobvezne izvedbe. Datoteka
+`interim/classla/resource-acquisition.json` loči seznam modelskih virov od časa
+izvedbe modela; čas pridobitve je `unknown`, ker ga prejšnji zaganjalnik ni zanesljivo
+zabeležil.

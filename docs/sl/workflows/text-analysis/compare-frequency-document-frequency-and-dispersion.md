@@ -46,14 +46,14 @@ dokaz o resničnih ustanovah, žanrih ali slovenski rabi.
 | --- | --- |
 | `source/contemporary-sample.csv` | dvanajst dokumentov s stabilnimi identifikatorji, avtorsko temo in pravicami |
 | `output/document-summary.csv` | imenovalci upravičenih pojavnic po dokumentih |
-| `output/frequency-dispersion.csv` | frekvenca, DF, dokumentni delež, Juillandov D in štiri skupinska števila |
+| `output/frequency-dispersion.csv` | frekvenca, DF, dokumentni delež, Griesov DP, velikosti delov in števila izraza |
 | `output/concordance.csv` | vsaka ujemajoča se pojavitev z omejenim kontekstom |
 | `validation/expected-values.json` | izbrane nespremenljivke za preverjanje |
 
 Deterministični gradilnik uporabi Unicode NFC, male črke in zaporedja najmanj
 dveh črk. Ne lematizira. Štiri avtorske tematske skupine – arhivi, muzeji, jezik
-in časopisje – imajo po tri dokumente, zato učni izračun Juillandovega D
-uporablja enake dele.
+in časopisje – imajo po tri dokumente, vendar vsebujejo 83, 68, 66 in 113
+upravičenih pojavnic. Griesov DP te neenake velikosti uporabi kot pričakovanje.
 
 ## Postopek
 
@@ -87,8 +87,8 @@ vsak izraz zapišite:
 - skupno frekvenco;
 - normalizirano frekvenco na 10.000 upravičenih pojavnic;
 - dokumentno frekvenco in dokumentni delež;
-- števila v štirih tematskih skupinah; in
-- Juillandov D.
+- števila upravičenih pojavnic in izraza v štirih tematskih skupinah; in
+- Griesov DP.
 
 Izrazov ne razvrstite le po enem stolpcu. Povejte, na katero vprašanje odgovori
 posamezni stolpec. Ponavljana beseda ima lahko visoko frekvenco in nizko DF;
@@ -119,19 +119,21 @@ dvoumen: lahko govori o dokumentih, pojavnicah ali bajtih. Enoto poimenujte.
 
 ### 5. Ponovno izračunajte razpršenost
 
-Za en neničelni izraz vzemite štiri tematska števila. Izračunajte povprečje in
-populacijski standardni odklon, nato:
+Za en neničelni izraz vzemite štiri tematska števila. V vsakem delu izračunajte
+pričakovani delež korpusa iz števila upravičenih pojavnic in opaženi delež
+izraza, nato:
 
 ```text
-D = 1 - (populacijski_standardni_odklon / povprečje) / sqrt(4 - 1)
+pričakovani_i = upravičene_pojavnice_v_delu_i / 330
+opaženi_i = število_izraza_v_delu_i / skupna_frekvenca_izraza
+DP = 0.5 * sum_i(abs(opaženi_i - pričakovani_i))
 ```
 
-Rezultat primerjajte s šestdecimalno vrednostjo v tabeli. Če so vse pojavitve v
-eni temi, je D enak 0; pri enakih skupinskih številih je 1. Vmesna vrednost je
-pomenljiva le skupaj s štirimi števili.
-
-Preproste formule ne uporabite, kadar se deli korpusa razlikujejo po velikosti.
-Izberite prilagojeno mero ali dokumentne porazdelitve.
+Rezultat primerjajte s šestdecimalno vrednostjo v tabeli. DP=0 pomeni, da deleži
+pojavitev sledijo deležem besedilne mase; višje vrednosti pomenijo večjo
+koncentracijo. Pri ničelni skupni frekvenci mera ni določena. Razložite jo samo
+z vsemi štirimi velikostmi delov in števili izraza ter jo ponovno izračunajte ob
+spremembi razdelitve ali pravila upravičenih pojavnic.
 
 ### 6. Preberite vse konkordančne vrstice
 
@@ -171,7 +173,7 @@ Napišite kratko dokazno beležko, ki vsebuje:
 - Lahko drug bralec obnovi vsak imenovalec?
 - Je frekvenca enaka številu konkordančnih vrstic?
 - Je DF enaka številu različnih identifikatorjev dokumentov?
-- D spremljajo razdelitev in skupinska števila?
+- DP spremljajo razdelitev, velikosti delov in števila izraza?
 - Ste opisali sintetični nabor in ne slovenskega diskurza?
 
 ## Pogoste pasti
@@ -181,7 +183,7 @@ Napišite kratko dokazno beležko, ki vsebuje:
 - Primerjate normalizirane mere z različnimi pravili upravičenih pojavnic.
 - Poljubno datotečno mejo obravnavate kot zgodovinsko mejo dokumenta.
 - Okno KWIC berete, kot da vsebuje celoten argument.
-- Juillandov D za enake dele uporabite na močno neenakih delih korpusa.
+- Enako število dokumentov zamenjate za enako količino besedila.
 
 ## Naloga
 

@@ -61,7 +61,7 @@ provenienco in seznama ne predstavljajte kot preverjeno pokritost slovenščine.
 | --- | --- |
 | `reference/teaching-emotion-lexicon.csv` | izvirno izhodišče natančnih oblik |
 | `reference/emotion-sensitivity-additions.csv` | ena dokumentirana oblika po osnovnem preizkusu |
-| `reference/emotion-annotations.csv` | ročno pregledane kontekstualne oznake in lokatorji |
+| `reference/emotion-annotations.csv` | strojno podprti kontekstualni referenčni osnutek, ki čaka na človeški pregled, z lokatorji |
 | `reference/emotion-codebook.sl.md` | pravila navzočnosti, nosilca, cilja, glasu in negotovosti |
 | `output/emotion-baseline.csv` | ujemanja, ročna oznaka in izid TP/FP/TN/FN po povedi |
 | `output/emotion-sensitivity.csv` | primerjava izhodišča z enovrstično razširitvijo |
@@ -77,8 +77,9 @@ stališča pripovedovalca ali odziva bralca. Poved lahko izvaja negativno
 vrednotenje in vseeno dobi `emotion_present=false`.
 
 Preberite `reference/emotion-codebook.sl.md`. Vrednost `uncertain=true` ohrani
-presojo, namesto da bi jo prisilila v gotovost. Učni vzorec je pregledal en
-vzdrževalec, zato mere ujemanja označevalcev ni.
+presojo, namesto da bi jo prisilila v gotovost. Oznake so strojno podprti
+referenčni osnutek, ki čaka na človeški pregled; ime pregledovalca, datum in obseg
+končanega pregleda ter mera ujemanja označevalcev niso na voljo.
 
 ### 2. Ponovno zgradite pregledno izhodišče
 
@@ -128,10 +129,10 @@ Preglejte vsaj naslednje vrstice:
   upraviči varne oznake posameznega čustva;
 - `TNLP-E05`: dve pojavitvi *jeza* se ujemata z jezo, toda poved razpravlja o
   pripisovanju in izrecno prepreči sklep o avtorju;
-- `TNLP-E08`: navedeni *čudovito* se ujema z veseljem, ročna oznaka pa čustvo
+- `TNLP-E08`: navedeni *čudovito* se ujema z veseljem, oznaka v referenčnem osnutku pa čustvo
   pusti odsotno in ironično branje negotovo.
 
-Dvojiški izid poenostavi bogatejša nestrinjanja. Seznam ujemanj, ročni razlog in
+Dvojiški izid poenostavi bogatejša nestrinjanja. Seznam ujemanj, razlog iz referenčnega osnutka in
 negotovost ohranite ob TP/FP/TN/FN; kratica ni popolna interpretacija.
 
 ### 6. Primerjajte izraženo in pripisano čustvo
@@ -163,7 +164,7 @@ razvoj. Pred trditvijo o pričakovani kakovosti jo preverite na novem gradivu.
 ### 8. Napišite omejeno primerjavo metod
 
 Uporabite `output/emotion-method-comparison.csv`. Za leksikonsko ujemanje in
-ročno anotacijo navedite enoto, vhodno predstavitev, rezultat, dokazno gradivo,
+kontekstualno referenčno anotacijo navedite enoto, vhodno predstavitev, rezultat, dokazno gradivo,
 podprto in nepodprto trditev, pridobitev, izgubo in znano odpoved. Paket ne
 prilagodi nadzorovanega klasifikatorja: osem namenskih primerov ne dopušča
 ločitve učnih, validacijskih in testnih podatkov. Opustitev je metodološka

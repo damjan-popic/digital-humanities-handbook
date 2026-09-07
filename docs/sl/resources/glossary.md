@@ -21,7 +21,7 @@ Programski vmesnik: dokumentiran način, po katerem programska oprema od drugega
 Dokumentirana zbirka besedil, pripravljena za analizo. Korpus ima obseg, sestavo, metapodatke, pretvorbe in omejitve; ni zgolj mapa datotek.
 
 **Razpršenost (tudi disperzija)**
-Porazdelitev ali koncentracija pojavitev po prijavljenih delih korpusa. Izraz *razpršenost* je v priročniku prednostni, *disperzija* pa ostaja razširjena strokovna različica. Vrednost potrebuje ime mere, razdelitev in števila po delih.
+Porazdelitev ali koncentracija pojavitev po navedenih delih korpusa. Izraz *razpršenost* je v priročniku prednostni, *disperzija* pa ostaja razširjena strokovna različica. Griesov DP primerja opažene deleže izraza s pričakovanimi deleži glede na velikost delov: 0 pomeni sorazmerno porazdelitev, višje vrednosti pa večjo koncentracijo. Vrednost potrebuje ime mere, razdelitev, velikosti delov in števila izraza po delih.
 
 **Dokumentna frekvenca**
 Število upravičenih dokumentov z najmanj eno pojavitvijo izraza. Meri dokumentni doseg in ne skupnega ponavljanja.

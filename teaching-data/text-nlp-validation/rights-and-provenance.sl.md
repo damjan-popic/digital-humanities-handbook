@@ -4,7 +4,8 @@ translation_status: machine-assisted draft; requires human language review
 
 # Pravice in provenienca
 
-Datum pregleda: **7. september 2026**.
+Zapis o provenienci je bil posodobljen **7. septembra 2026**. To ni datum
+človeškega pregleda referenčnih anotacij.
 
 ## Sodobni vzorec, ki ga je napisal priročnik
 
@@ -35,8 +36,8 @@ dLib je `URN:NBN:SI:doc-YPI8OFSU`.
 
 Zamrznjeni rezultat v `interim/classla/` je ustvarjena anotacija, ne izvorni
 dokaz. `interim/classla/model-run.json` navaja paket CLASSLA, procesorje,
-manifest virov in zgoščene vrednosti modelskih datotek, okolje, ukaz ter
-zgoščene vrednosti vhodov in izhodov. CLASSLA je objavljena pod Apache-2.0;
+manifest virov in kontrolne vsote SHA-256 modelskih datotek, okolje, ukaz ter
+kontrolne vsote SHA-256 vhodov in izhodov. CLASSLA je objavljena pod Apache-2.0;
 modeli in njihovi izvorni viri imajo lahko druge licence. Paket modelskih
 datotek ne razširja. Pred razširjanjem ali produkcijsko rabo preglejte repozitorij
 CLASSLA in metapodatke vsakega prenesenega vira.
@@ -56,7 +57,8 @@ morajo vir pridobiti na uradni strani in presoditi veljavno licenco.
 
 - Pri vseh sodobnih učnih dokumentih ohranite `synthetic=true`.
 - Navedite zgodovinsko številko ter ločite ponudnikov OCR, referenčni prepis,
-  ročno anotacijo in rezultat modela.
-- Ročne anotacije ne obravnavajte kot nevtralno temeljno resnico.
+  strojno podprti osnutek anotacije in rezultat modela.
+- Osnutka anotacije ne predstavljajte kot človeško pregledano ali nevtralno
+  temeljno resnico.
 - Zamrznjene izvedbe ne predstavljajte kot trenutno kakovost modela.
 - Pred novo izdajo ponovno preverite licence paketov, modelov in zunanjih virov.

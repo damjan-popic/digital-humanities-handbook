@@ -1,3 +1,7 @@
+---
+reference_status: machine-assisted reference draft; pending human review
+---
+
 # Contextual emotion codebook
 
 Unit: one sentence from the synthetic contemporary teaching corpus.
@@ -17,4 +21,7 @@ Unit: one sentence from the synthetic contemporary teaching corpus.
   baseline table reports it separately.
 
 The scheme describes textual representation, not psychological state. All
-examples are handbook-authored and synthetic.
+examples are handbook-authored and synthetic. The current labels are a
+machine-assisted reference draft pending competent human review. A future
+`human-reviewed` state must name the reviewer, ISO date and review scope and
+retain disagreements or adjudication.

@@ -1,5 +1,6 @@
 ---
 translation_status: machine-assisted draft; requires human language review
+reference_status: machine-assisted reference draft; pending human review
 ---
 
 # Kodirni priročnik za kontekstualna čustva
@@ -20,4 +21,7 @@ Enota je ena poved iz sintetičnega sodobnega učnega korpusa.
   vrednotenju ga ne prisilite v negativni razred, temveč ga navedite ločeno.
 
 Shema opisuje besedilno reprezentacijo in ne duševnega stanja. Vsi primeri so
-sintetični in jih je napisal priročnik.
+sintetični in jih je napisal priročnik. Sedanje oznake so strojno podprti osnutek
+reference, ki čaka na strokovni človeški pregled. Pri prihodnjem stanju
+`human-reviewed` je treba navesti ime pregledovalca, datum po standardu ISO in
+obseg pregleda ter ohraniti nestrinjanja ali razsojanje.

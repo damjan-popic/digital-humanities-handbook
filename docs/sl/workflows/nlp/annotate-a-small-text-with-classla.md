@@ -97,7 +97,7 @@ Datoteka TSV z identifikatorjem povedi, identifikatorjem besede, besedilno oblik
 
 ## Pred raziskovalno uporabo
 
-Ohranite izvorno datoteko, natančni modelski vhod in nespremenjeni samodejni
+Ohranite izvorno datoteko, točno besedilo, posredovano modelu, in nespremenjeni samodejni
 rezultat. Dodajte stabilni identifikator dokumenta, različice paketa in virov,
 seznam procesorjev ter razpoložljive odmike do vira. Ročni pregled verjetnosti je
 le osnovni preizkus. Za razslojeno referenco, imenovalce posameznih plasti in

@@ -18,7 +18,8 @@ status: draft
 
 You want to know whether linguistic annotation is usable for one humanities
 question, not whether a pipeline has a good reputation in general. You will
-compare one frozen CLASSLA run with a manually reviewed Slovene reference across
+compare one frozen CLASSLA run with a machine-assisted Slovene reference draft
+that is pending human review, across
 clean contemporary text, a historical transcription and provider OCR. You will
 report a separate denominator for each layer and connect errors to their likely
 effect on interpretation.
@@ -48,7 +49,8 @@ frozen output and exact run metadata.
 | --- | --- | --- |
 | extraction rules | `source/extraction-registry.json` | identifies source layer, record and sentence selector |
 | research inputs | `raw/annotation-samples.csv` | records normalized text and source/input hashes |
-| reviewed reference | `reference/classla/*.conllu` | states the reviewer’s contestable decisions |
+| reference draft | `reference/classla/*.conllu` | states contestable machine-assisted decisions pending human review |
+| causal decisions | `reference/classla-causal-decisions.csv` | separates immediate disagreement from likely causal origin across source layers |
 | model predictions | `interim/classla/*.conllu` | preserves the frozen run unchanged |
 | run identity | `interim/classla/model-run.json` | names package, processors, environment, resources and hashes |
 | measures | `output/classla-evaluation.csv` | exposes numerator, denominator and eligible set per layer |
@@ -106,7 +108,10 @@ Open `interim/classla/model-run.json` and answer:
 - Which CLASSLA and Python versions produced the files?
 - Which processors ran, and was a GPU used?
 - Which hashes identify the normalized inputs and outputs?
-- Which hashes and byte counts identify local model resources?
+- Which hashes and byte counts identify local model resources, and when was the
+  resource manifest recorded?
+- Which environment snapshot identifies Python, Torch, NumPy, SciPy,
+  scikit-learn, CLASSLA, Stanza and Obeliks?
 
 The metadata identifies one run. It does not turn a model prediction into a
 reference label or prove that future installations behave identically.
@@ -135,6 +140,21 @@ UPOS and morphology use one-to-one aligned word tokens. Dependency scores use
 aligned syntactic words whose reference heads can also be aligned. NER precision
 and recall deliberately use different denominators. Token insertions and
 deletions are not allowed to disappear inside another layer’s percentage.
+Use the explicit reference, predicted, aligned, substituted, inserted, deleted
+and excluded counts to reconcile the denominator. `excluded` is never a generic
+remainder: each side and its exclusion rule are reported separately.
+
+The corrected dependency rows should read:
+
+| Sample | UAS | LAS |
+| --- | ---: | ---: |
+| `TNLP-CLEAN-01` | 11/11 | 11/11 |
+| `TNLP-CLEAN-02` | 9/9 | 9/9 |
+| `TNLP-AF-REF` | 50/52 | 50/52 |
+| `TNLP-AF-OCR` | 43/46 | 42/46 |
+
+Treat these as agreement with the current machine-assisted draft, not an
+accuracy estimate against a human-adjudicated reference.
 
 ### 6. Read the error log by family
 
@@ -143,13 +163,21 @@ For two rows, write a four-part note:
 
 1. source form and layer;
 2. reference and predicted values;
-3. reason for the reference decision or remaining ambiguity;
-4. research operation that could change.
+3. immediate model/reference disagreement;
+4. likely causal origin, including whether it also occurs in the reference
+   transcription; and
+5. research operation that could change.
 
 Distinguish a source-recognition error from the tagger’s response to it. If your
 claim concerns only exact location spans, a lemma disagreement may be irrelevant.
 If it concerns clause subjects, the same passage’s dependency disagreement is
 central.
+Use `reference/classla-causal-decisions.csv` to verify recurring cases across
+the transcription and OCR strata. A disagreement that appears in both layers,
+such as the five `vse` fields in each historical sample, is not caused by OCR.
+The regenerated log contains 24 disagreements: 14 matched cross-layer cases
+(ten `vse` fields and four `stranko` dependency fields) and ten cases conditioned
+by the provider OCR.
 
 ### 7. Compare strata without overclaiming
 
@@ -203,7 +231,8 @@ you are performing a documented maintainer refresh.
 You have completed the workflow when you can:
 
 - trace every sample to a source path and SHA-256 value;
-- state why the manual reference remains contestable;
+- state why the machine-assisted reference draft remains contestable and pending
+  human review;
 - recompute one reported value from its explicit counts;
 - explain why dependency and NER denominators differ;
 - connect two errors to concrete interpretive risks; and

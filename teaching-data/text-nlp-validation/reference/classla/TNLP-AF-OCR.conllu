@@ -1,8 +1,8 @@
 # packet_sample_id = TNLP-AF-OCR
 # packet_stratum = provider_ocr
-# reference_status = manually reviewed teaching reference; not a gold standard
-# reference_policy = TNLP-REF-1; annotate the research-intended linguistic reading while preserving observed token forms
-# reference_reviewer = handbook maintainers; 2026-09-03
+# reference_status = machine-assisted reference draft; pending human review
+# reference_policy = TNLP-REF-2; annotate the research-intended linguistic reading while preserving observed token forms
+# human_review = pending; reviewer, ISO date and scope not recorded
 # newpar id = 1
 # sent_id = 1.1
 # text = Tudi danes ne gre pri nas za svetovna naziranja in ne za kake stavovske interese, temveč za kulturno, politično in gospodarsko svobodo celokupnega slovenskega narodain zedinjene Slovenije, zato gre vse brez razlike kultrunega naziranja s Slovensko ljudsko stranko, i pozna in zastopa v teh usodepolnih časih samo splošne vsenarodne pravice.
@@ -48,7 +48,7 @@
 39	s	z	ADP	Si	Case=Ins	42	case	_	NER=O
 40	Slovensko	slovenski	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	NER=B-ORG
 41	ljudsko	ljudski	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	NER=I-ORG
-42	stranko	stranka	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	38	nmod	_	NER=I-ORG|SpaceAfter=No
+42	stranko	stranka	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	33	obl	_	NER=I-ORG|SpaceAfter=No
 43	,	,	PUNCT	Z	_	45	punct	_	NER=O
 44	i	ki	SCONJ	Cs	_	45	mark	_	NER=O
 45	pozna	poznati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	acl	_	NER=O

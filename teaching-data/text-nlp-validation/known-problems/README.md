@@ -2,9 +2,9 @@
 
 - The CLASSLA sample is purposive, small and partly selected for difficulty.
   Layer scores diagnose this sample only and have no confidence interval.
-- The manual reference annotation is a reviewed scholarly intervention. Another
-  qualified annotator may reasonably disagree, especially about dependency
-  heads, relations and historical lemmas.
+- The reference annotation is a machine-assisted scholarly draft pending
+  competent human review. A qualified annotator may reasonably disagree,
+  especially about dependency heads, relations and historical lemmas.
 - Provider OCR and historical reference are two textual realizations of one
   source passage. Comparing their downstream annotations mixes recognition
   damage with annotation behaviour; it is not an independent corpus contrast.
@@ -18,4 +18,6 @@
   be hidden.
 - Model versions, resource files and interfaces can change. Frozen output records
   one run and ordinary CI does not re-download it.
+- The final model resource files are hashed, but their acquisition timestamp
+  cannot be recovered and is explicitly `unknown`.
 - Slovene documentation is a machine-assisted draft pending specialist review.

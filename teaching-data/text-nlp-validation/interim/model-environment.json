@@ -1,0 +1,24 @@
+{
+  "applies_to_frozen_runs": {
+    "classla_run_timestamp_utc": "2026-09-07T12:06:30Z",
+    "topic_run_timestamp_utc": "2026-09-07T12:06:32Z"
+  },
+  "capture_basis": "Captured from the unchanged optional-run virtual environment after the final v2 candidate; run timestamps were recovered from the candidate metadata-file mtimes because the former runner recorded only a hard-coded date.",
+  "captured_at_utc": "2026-09-07T14:16:21Z",
+  "lock_command": "python -m pip freeze --all",
+  "lock_path": "model-environment.lock.txt",
+  "lock_sha256": "7039e17923c61a629680e6cba518b2c11f5f8230cc66b6766592c0b2760d6d20",
+  "packages": {
+    "classla": "2.2.1",
+    "numpy": "2.5.3",
+    "obeliks": "1.1.6",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.1",
+    "stanza": "not installed as a separate distribution; CLASSLA is the active Stanza-derived pipeline",
+    "torch_distribution": "2.6.0",
+    "torch_runtime": "2.6.0+cu124"
+  },
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python_implementation": "CPython",
+  "python_version": "3.12.3"
+}

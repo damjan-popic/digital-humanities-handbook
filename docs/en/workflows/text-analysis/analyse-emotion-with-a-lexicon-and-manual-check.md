@@ -56,9 +56,9 @@ provenance and must not advertise the list as validated Slovene coverage.
 | --- | --- |
 | `reference/teaching-emotion-lexicon.csv` | original exact-form baseline |
 | `reference/emotion-sensitivity-additions.csv` | one documented post-baseline form for sensitivity analysis |
-| `reference/emotion-annotations.csv` | manually reviewed contextual labels and source locators |
+| `reference/emotion-annotations.csv` | machine-assisted contextual reference draft, pending human review, with source locators |
 | `reference/emotion-codebook.md` | rules for presence, experiencer, target, voice and uncertainty |
-| `output/emotion-baseline.csv` | matches, manual label and TP/FP/TN/FN outcome per sentence |
+| `output/emotion-baseline.csv` | matches, draft reference label and TP/FP/TN/FN outcome per sentence |
 | `output/emotion-sensitivity.csv` | baseline versus one-entry extension comparison |
 | `output/emotion-method-comparison.csv` | unit, representation, evidence and claim boundaries |
 
@@ -72,8 +72,9 @@ general polarity, narrator stance or reader response. A sentence can perform
 negative evaluation while receiving `emotion_present=false`.
 
 Read `reference/emotion-codebook.md`. Note that `uncertain=true` preserves a
-judgement rather than forcing confidence. Only one maintainer reviewed this
-teaching sample; there is no inter-annotator agreement estimate.
+judgement rather than forcing confidence. The labels are a machine-assisted
+reference draft pending human review; no named reviewer, completed review date,
+review scope or inter-annotator agreement estimate is available.
 
 ### 2. Rebuild the transparent baseline
 
@@ -123,11 +124,11 @@ Inspect at least these rows:
   safely license a discrete emotion.
 - `TNLP-E05`: two occurrences of *jeza* match anger, but the sentence discusses
   attribution and explicitly blocks the author inference.
-- `TNLP-E08`: quoted *čudovito* matches joy, while the manually reviewed label
+- `TNLP-E08`: quoted *čudovito* matches joy, while the draft reference label
   leaves emotion absent and the ironic reading uncertain.
 
 A binary confusion outcome simplifies richer disagreements. Retain match lists,
-manual rationale and uncertainty beside TP/FP/TN/FN rather than treating the
+draft-reference rationale and uncertainty beside TP/FP/TN/FN rather than treating the
 acronym as a complete interpretation.
 
 ### 6. Compare expressed and attributed emotion
@@ -160,8 +161,8 @@ being reported as expected performance.
 
 ### 8. Write a bounded method comparison
 
-Use `output/emotion-method-comparison.csv`. For lexical matching and manual
-annotation, report unit, input representation, output, validation evidence,
+Use `output/emotion-method-comparison.csv`. For lexical matching and contextual
+reference annotation, report unit, input representation, output, validation evidence,
 supported and unsupported claim, gain, loss and known failure. The packet does
 not fit a supervised classifier: eight purpose-built cases cannot support
 train/validation/test separation. That omission is a methodological decision,

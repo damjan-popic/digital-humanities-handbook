@@ -126,23 +126,26 @@ DF distinguishes presence from absence but ignores concentration among present
 documents. **Dispersion** describes how occurrences are distributed across
 documents or meaningful corpus parts. Always name the measure and partition.
 
-The teaching packet uses Juilland’s D across four equal authored theme groups.
-For group frequencies \(f_i\), mean \(\bar f\), population standard deviation
-\(s\), and \(n\) groups:
+The teaching packet uses Gries's DP because its four authored theme groups have
+unequal eligible-token totals: 83, 68, 66 and 113. For total term frequency
+\(F>0\), term count \(f_i\) in part \(i\), part size \(N_i\), and corpus size
+\(N\), compare the observed and expected proportions:
 
 ```text
-D = 1 - (s / mean) / sqrt(n - 1)
+observed_i = f_i / F
+expected_i = N_i / N
+DP = 0.5 * sum_i(abs(observed_i - expected_i))
 ```
 
-With equal groups, D approaches 1 when occurrences are evenly spread and 0 when
-they are confined to one group. The measure is undefined for zero total
-frequency. Unequal corpus parts require an adjusted measure or rate-based
-approach; do not apply this classroom calculation to uneven real collections
-without reconsidering its assumptions. A dispersion value describes a partition,
-not a word’s inherent generality.
+DP is 0 when a term's occurrence share follows the parts' token shares; larger
+values indicate greater departure and concentration. It is undefined for zero
+total frequency. Unlike an equal-part calculation on raw counts, the expected
+proportions account for unequal textual mass. The result still depends on the
+chosen partition and is not a word's inherent generality.
 
-Report the per-part counts beside D. A single index conceals which group drives
-the imbalance and whether the partition corresponds to the historical question.
+Report the per-part token totals and term counts beside DP. A single index
+conceals which group drives the imbalance and whether the partition corresponds
+to the historical question.
 
 ## Concordances reconnect pattern and passage
 
@@ -305,14 +308,14 @@ alternatives were tried and what independent material could challenge it.
 ## Worked example: frequency is not reach
 
 The [text and NLP validation packet](../../assets/downloads/text-nlp-validation-v1.zip)
-contains twelve short, synthetic Slovene documents in four equal authored theme
-groups. The corpus is designed for teaching and says nothing about real archives,
+contains twelve short, synthetic Slovene documents in four authored theme
+groups with three documents each but unequal token totals. The corpus is designed for teaching and says nothing about real archives,
 museums, language practice or newspapers.
 
 The term *arhiv* occurs several times but is concentrated in a small number of
 archive-themed documents. *Korpus* repeats within one language document.
 *Svoboda* is prominent in one press document but absent elsewhere. Comparing
-frequency, DF, document share, per-theme counts and Juilland’s D reveals these
+frequency, DF, document share, part sizes, per-theme counts and Gries's DP reveals these
 different shapes. A concordance then shows whether occurrences make the same
 claim or merely share a form.
 
