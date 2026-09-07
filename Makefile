@@ -1,4 +1,4 @@
-.PHONY: install install-authoring serve indexes manuscripts scholarly-work-samples archival-friction-packet contested-models-packet check build preview clean
+.PHONY: install install-authoring serve indexes manuscripts scholarly-work-samples archival-friction-packet contested-models-packet text-nlp-validation text-nlp-validation-models check build preview clean
 
 install:
 	python -m pip install -r requirements.txt
@@ -27,6 +27,15 @@ archival-friction-packet:
 contested-models-packet:
 	python scripts/build_contested_models_packet.py
 
+text-nlp-validation:
+	python scripts/build_text_nlp_validation.py
+	python scripts/check_text_nlp_validation.py
+
+# Optional: downloads/uses heavyweight model resources and is deliberately not
+# part of ordinary CI or the Pages build.
+text-nlp-validation-models:
+	python teaching-data/text-nlp-validation/run_optional_models.py --output .cache/text-nlp-validation-models --resources-dir .cache/classla-resources --download
+
 check: indexes manuscripts
 	python scripts/check_handbook.py
 	python scripts/check_technical_foundations.py
@@ -36,6 +45,8 @@ check: indexes manuscripts
 	python scripts/check_archival_friction.py
 	python scripts/build_contested_models_packet.py --check
 	python scripts/check_contested_models.py
+	python scripts/build_text_nlp_validation.py --check
+	python scripts/check_text_nlp_validation.py
 	python scripts/check_intertextuality.py
 	python scripts/check_review_ecosystem.py
 	python scripts/check_answers.py

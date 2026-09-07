@@ -1,6 +1,6 @@
 {
   "classla_version": "2.2.1",
-  "command": "python teaching-data/text-nlp-validation/run_optional_models.py --output .cache/text-nlp-validation-models --resources-dir .cache/classla-resources --download",
+  "command": "python teaching-data/text-nlp-validation/run_optional_models.py --output .cache/text-nlp-validation-models-v2 --resources-dir .cache/classla-resources",
   "language": "sl",
   "note": "Frozen prediction evidence, not a benchmark or reference. Model files are not redistributed; hashes identify the local resources used.",
   "obeliks_version": "not exposed",
@@ -21,6 +21,7 @@
   ],
   "python_version": "3.12.3",
   "registry_sha256": "d15d1f04966ca4a4e0646ed1e14a45e4ad0d38811fa22d9b495b9ad8092bf173",
+  "resource_download_date": "2026-09-07",
   "resource_files": [
     {
       "bytes": 15860,

@@ -5,6 +5,7 @@ category: "NLP"
 difficulty: "beginner"
 time: "30–60 min"
 tags: [CLASSLA, Slovene, tokenization, lemmatization, POS tagging]
+status: draft
 ---
 
 # How do I annotate a small text with CLASSLA?
@@ -152,6 +153,14 @@ Write a short note listing:
 - three correct annotations,
 - one uncertain annotation,
 - one thing you would check before trusting the output.
+
+## Before research use
+
+Preserve the source file, exact model input and unedited automatic output. Add a
+stable document ID, package/resource versions, processor list and source offsets
+where available. This manual plausibility check is only a smoke test. For a
+stratified reference, layer-specific denominators and downstream pass/fail rule,
+use [the domain-specific CLASSLA evaluation workflow](evaluate-classla-on-a-domain-specific-sample.md).
 
 ## Useful extension
 

@@ -154,6 +154,47 @@ Tak opis ne pomeni, da je posamezno zamrznjeno izvedbo mogoče povsod natančno
 ponoviti. Strojna oprema, paketi in viri se spreminjajo. Omogoča pa prepoznavo
 izvedbe in razlikovanje namerne posodobitve od prikritega odklona.
 
+### Smernice, drevesnice in modelska praksa
+
+Universal Dependencies (UD) objavlja medjezikovne smernice, vendar procesna
+veriga ne anotira neposredno iz abstraktne smernice. Uči se iz določenih
+drevesnic, jezikovnih dogovorov, zgodovine pretvorb in modelskih ciljev. Zato se
+lahko model razlikuje od verjetnega branja smernice, dve drevesnici pa isto
+konstrukcijo razrešita drugače. Navedite dejanske modelske vire in dokumentacijo
+oznak, ne le »UD«. Pri pomembni razliki primerjajte primere v ustrezni drevesnici,
+zapišite projektno pravilo in ohranite nestrinjanje, namesto da bi modelski
+rezultat prikrito prepisali.
+
+## Domenska odvisnost in odgovorni posegi
+
+Pojmovno ločite tri nize: **izvorno obliko**, vidno na strani ali v izvirno
+digitalnem predmetu, morebitno **normalizirano obliko**, ustvarjeno z uredniškim
+pravilom, ter natančni **modelski vhod**. Lahko so enaki, vendar tega ne
+predpostavite. Shranite pretvorbe in odmike do vira ali drugo povratno poravnavo,
+da se pregledovalec lahko vrne od anotacije k dokazu. Če normalizacija spremeni
+dolžino ali meje besed, opišite pretvorbo odmikov.
+
+Zgodovinski zapis, narečna in druga nestandardna slovenščina ter kodno
+preklapljanje lahko odstopajo od prevladujočih učnih podatkov. Krajšave in imena
+so zahtevni drugače: redke oblike se prepletajo z ločili, velikimi črkami,
+mejami povedi in entitetnimi kategorijami. Pojave preverite kot poimenovane
+skupine. Ena »zgodovinska« mera lahko prikrije uspeh na urejeni prozi in odpoved
+pri oglasih, verzih, nemških vložkih ali okrajšanih imenih žensk.
+
+Posežete lahko na več načinov. **Ročni popravek** je primeren za omejen nabor z
+velikimi posledicami, če ostanejo odločitve in prejšnje vrednosti vidne.
+**Preslikavanje po pravilih** lahko odpravi sistematično neskladje oznake ali
+normalizacije, vendar ga morate verzionirati, preizkusiti lažne popravke in
+uporabiti tudi na novem gradivu. **Prilagojeni leksikon** izboljša znana imena ali
+zgodovinske oblike, toda pokritost je izbirna, lažno pozitivne napovedi se lahko
+povečajo, seznam pa lahko utrdi zastarele normativne odločitve. Prilagajanje
+modela zahteva dovolj licenciranih anotacij in zadržano vrednotenje.
+
+Zamrznjenega samodejnega rezultata ne prepišite s popravljenimi oznakami. Vir,
+napoved in pregledano referenco ohranite kot ločene plasti. Objavite nadaljnji
+izračun pred posegom in po njem; tehnično boljša oznaka sicer nima dokazane
+vrednosti za raziskovalno vprašanje.
+
 ## Izberite le plasti, ki jih zahteva vprašanje
 
 Več procesorjev ne daje samodejno močnejšega dokaznega gradiva. Vsak doda čas,
@@ -190,6 +231,13 @@ odziv na poškodbo še vedno pomemben.
 Trditev »model je dosegel 92-odstotno točnost« je nepopolna. Enota in upravičeni
 nabor se po plasteh spreminjata. Objavite števce za vsako mero:
 
+Pri segmentaciji povedi meje predstavite kot položaje ali razpone. Preciznost
+meje deli pravilne napovedane meje z vsemi napovedanimi, priklic pa z referenčnimi;
+F1 ju poveže. Natančno ujemanje povednih razponov je strožje in je v paketu
+uporabno, ker vsak vzorec vsebuje eno prijavljeno poved. Tudi pri ujemanju
+pojavnic ali razponov povejte, ali so vključena ločila, razponi večbesednih
+pojavnic in odmiki znakov.
+
 | Plast | Primer mere | Imenovalec |
 | --- | --- | --- |
 | segmentacija povedi | natančno ujemanje povedi | referenčni vzorci ali povedi |
@@ -203,6 +251,8 @@ Mer ne povprečite v eno prestižno številko. Popolna mera NER pri dveh entitet
 je skromen dokaz. Imenovalec odvisnosti, ki prikrito izloči neporavnane pojavnice
 OCR, lahko rezultat olepša. Objavite števec, imenovalec, izločitve in dnevnik
 napak.
+Mero celotnega oblikoslovnega svežnja lahko dopolnite z vrednotenjem posameznih
+lastnosti, vendar odgovarja na drugo vprašanje in potrebuje svoj imenovalec.
 
 ## Ohranite rezultat, ki ga je mogoče pregledati
 
@@ -313,4 +363,4 @@ vsako pomembno napako povežite z interpretacijo, ki jo lahko spremeni.
 - Universal Dependencies. [Oblika CoNLL-U](https://universaldependencies.org/format.html)
   in [univerzalna odvisnostna razmerja](https://universaldependencies.org/u/dep/).
 - Za razlikovanje izvorne slike, rezultata razpoznavanja, popravljenega besedila
-  in nadaljnje uporabe znova preberite [OCR, HTR in šumno besedilo](ocr-htr-noisy-text.md).
+  in nadaljnje uporabe znova preberite [Besedila, korpusi in OCR](texts-corpora-ocr.md).

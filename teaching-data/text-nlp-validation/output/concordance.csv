@@ -1,0 +1,331 @@
+term,occurrence_id,doc_id,title,theme,token_index,left_context,match,right_context,source_locator
+ali,ali-001,TNLP-C02,Preverjanje prepisa,archives,22,črka lahko spremeni osebno ime,ali,iskalni zadetek,source/contemporary-sample.csv#TNLP-C02
+arhiv,arhiv-001,TNLP-C01,Arhivski popis,archives,1,,arhiv,hrani pisma popise in fotografije,source/contemporary-sample.csv#TNLP-C01
+arhiv,arhiv-002,TNLP-C01,Arhivski popis,archives,17,slovenije opisuje zbirko iz ljubljane,arhiv,ni nevtralna shramba njegov popis,source/contemporary-sample.csv#TNLP-C01
+arhiv,arhiv-003,TNLP-C01,Arhivski popis,archives,25,shramba njegov popis usmerja iskanje,arhiv,zato preverjamo ob dokumentih arhiv,source/contemporary-sample.csv#TNLP-C01
+arhiv,arhiv-004,TNLP-C01,Arhivski popis,archives,30,arhiv zato preverjamo ob dokumentih,arhiv,pa opisujemo zgodovinskim kontekstom,source/contemporary-sample.csv#TNLP-C01
+arhiv,arhiv-005,TNLP-C02,Preverjanje prepisa,archives,10,in javno pojasnjujejo negotove odločitve,arhiv,omogoča primerjavo rokopisa uredniškim prepisom,source/contemporary-sample.csv#TNLP-C02
+avtorja,avtorja-001,TNLP-C06,Zamuda pri odprtju,museums,24,jeza zapisu ni nujno jeza,avtorja,poročila,source/contemporary-sample.csv#TNLP-C06
+bali,bali-001,TNLP-C10,Časopisni glas,press,8,zapisal da so se meščani,bali,spremembe navedek čustvo pripiše meščanom,source/contemporary-sample.csv#TNLP-C10
+beseda,beseda-001,TNLP-C09,Prevod in pomen,language,9,in hrvaško različico pisma podobna,beseda,ne zagotavlja istega pomena jezik,source/contemporary-sample.csv#TNLP-C09
+besede,besede-001,TNLP-C11,Iskanje besed,press,33,svoboda svoboda drugi članki pa,besede,svoboda ne uporabijo uvodnik ob,source/contemporary-sample.csv#TNLP-C11
+besede,besede-002,TNLP-C12,Negotova razlaga,press,21,po novi napaki dobesedno pozitivne,besede,lahko ironiji izražajo odklonilno vrednotenje,source/contemporary-sample.csv#TNLP-C12
+besedila,besedila-001,TNLP-C07,Jezikovni korpus,language,4,jezikovni korpus vsebuje,besedila,različnih žanrov raziskovalka primerja leme,source/contemporary-sample.csv#TNLP-C07
+besedilo,besedilo-001,TNLP-C10,Časopisni glas,press,22,potrjuje kot urednikovo notranje stanje,besedilo,zahteva pregled govorca in tarče,source/contemporary-sample.csv#TNLP-C10
+besedo,besedo-001,TNLP-C11,Iskanje besed,press,7,enem dolgem uvodniku večkrat ponovi,besedo,svoboda svoboda za ene svoboda,source/contemporary-sample.csv#TNLP-C11
+bi,bi-001,TNLP-C08,Narečni zapis,language,21,raziskovalci napako zabeležijo namesto da,bi,jo prikrili,source/contemporary-sample.csv#TNLP-C08
+bila,bila-001,TNLP-C12,Negotova razlaga,press,3,urednica ni,bila,žalostna zaradi kritike temveč zaskrbljena,source/contemporary-sample.csv#TNLP-C12
+bo,bo-001,TNLP-C06,Zamuda pri odprtju,museums,8,dejal obiskovalci se bojijo da,bo,zbirka zaprta izjemno še ena,source/contemporary-sample.csv#TNLP-C06
+bojijo,bojijo-001,TNLP-C06,Zamuda pri odprtju,museums,6,vodja je dejal obiskovalci se,bojijo,da bo zbirka zaprta izjemno,source/contemporary-sample.csv#TNLP-C06
+da,da-001,TNLP-C06,Zamuda pri odprtju,museums,7,je dejal obiskovalci se bojijo,da,bo zbirka zaprta izjemno še,source/contemporary-sample.csv#TNLP-C06
+da,da-002,TNLP-C08,Narečni zapis,language,20,napačno raziskovalci napako zabeležijo namesto,da,bi jo prikrili,source/contemporary-sample.csv#TNLP-C08
+da,da-003,TNLP-C10,Časopisni glas,press,4,časnik je zapisal,da,so se meščani bali spremembe,source/contemporary-sample.csv#TNLP-C10
+dejal,dejal-001,TNLP-C06,Zamuda pri odprtju,museums,3,vodja je,dejal,obiskovalci se bojijo da bo,source/contemporary-sample.csv#TNLP-C06
+delu,delu-001,TNLP-C11,Iskanje besed,press,44,tem razpravlja odgovornosti skupnosti pravicah,delu,izobraževanju jeziku javnih ustanovah in,source/contemporary-sample.csv#TNLP-C11
+digitalna,digitalna-001,TNLP-C03,Digitalna zbirka,archives,1,,digitalna,zbirka poveže sliko metapodatke in,source/contemporary-sample.csv#TNLP-C03
+dobesedno,dobesedno-001,TNLP-C12,Negotova razlaga,press,19,je zapisala po novi napaki,dobesedno,pozitivne besede lahko ironiji izražajo,source/contemporary-sample.csv#TNLP-C12
+dokumentih,dokumentih-001,TNLP-C01,Arhivski popis,archives,29,iskanje arhiv zato preverjamo ob,dokumentih,arhiv pa opisujemo zgodovinskim kontekstom,source/contemporary-sample.csv#TNLP-C01
+dokumentih,dokumentih-002,TNLP-C11,Iskanje besed,press,60,ne pomeni široke razpršenosti po,dokumentih,,source/contemporary-sample.csv#TNLP-C11
+dolgem,dolgem-001,TNLP-C11,Iskanje besed,press,3,časopis enem,dolgem,uvodniku večkrat ponovi besedo svoboda,source/contemporary-sample.csv#TNLP-C11
+druge,druge-001,TNLP-C11,Iskanje besed,press,14,svoboda za ene svoboda za,druge,svoboda mestu in svoboda kot,source/contemporary-sample.csv#TNLP-C11
+drugi,drugi-001,TNLP-C11,Iskanje besed,press,30,trikrat zapiše svoboda svoboda svoboda,drugi,članki pa besede svoboda ne,source/contemporary-sample.csv#TNLP-C11
+družbenih,družbenih-001,TNLP-C09,Prevod in pomen,language,21,spreminja po obdobjih krajih in,družbenih,položajih,source/contemporary-sample.csv#TNLP-C09
+ena,ena-001,TNLP-C06,Zamuda pri odprtju,museums,13,bo zbirka zaprta izjemno še,ena,čudovita zamuda pri odprtju razstave,source/contemporary-sample.csv#TNLP-C06
+ene,ene-001,TNLP-C11,Iskanje besed,press,11,ponovi besedo svoboda svoboda za,ene,svoboda za druge svoboda mestu,source/contemporary-sample.csv#TNLP-C11
+enem,enem-001,TNLP-C11,Iskanje besed,press,2,časopis,enem,dolgem uvodniku večkrat ponovi besedo,source/contemporary-sample.csv#TNLP-C11
+fotografije,fotografije-001,TNLP-C01,Arhivski popis,archives,6,arhiv hrani pisma popise in,fotografije,kustosinja maja kovač narodnem muzeju,source/contemporary-sample.csv#TNLP-C01
+frekvenca,frekvenca-001,TNLP-C07,Jezikovni korpus,language,18,korpus potrebuje metapodatke ker sama,frekvenca,ne pojasni rabe,source/contemporary-sample.csv#TNLP-C07
+frekvenca,frekvenca-002,TNLP-C11,Iskanje besed,press,53,ustanovah in političnem odločanju visoka,frekvenca,zato ne pomeni široke razpršenosti,source/contemporary-sample.csv#TNLP-C11
+ga,ga-001,TNLP-C10,Časopisni glas,press,15,navedek čustvo pripiše meščanom in,ga,ne potrjuje kot urednikovo notranje,source/contemporary-sample.csv#TNLP-C10
+geslo,geslo-001,TNLP-C11,Iskanje besed,press,21,mestu in svoboda kot sklepno,geslo,urednik nato še trikrat zapiše,source/contemporary-sample.csv#TNLP-C11
+glas,glas-001,TNLP-C08,Narečni zapis,language,4,narečni zapis ohrani,glas,govorca in uredniške opombe jezikovni,source/contemporary-sample.csv#TNLP-C08
+glasove,glasove-001,TNLP-C05,Predmeti in glasovi,museums,14,skupnost pa opozori na spregledane,glasove,muzej zapiše kdo je odločitev,source/contemporary-sample.csv#TNLP-C05
+govorca,govorca-001,TNLP-C08,Narečni zapis,language,5,narečni zapis ohrani glas,govorca,in uredniške opombe jezikovni model,source/contemporary-sample.csv#TNLP-C08
+govorca,govorca-002,TNLP-C10,Časopisni glas,press,25,notranje stanje besedilo zahteva pregled,govorca,in tarče,source/contemporary-sample.csv#TNLP-C10
+govori,govori-001,TNLP-C05,Predmeti in glasovi,museums,3,razstava ne,govori,sama zase kustos izbere predmete,source/contemporary-sample.csv#TNLP-C05
+hitro,hitro-001,TNLP-C03,Digitalna zbirka,archives,12,prepis obiskovalka je vesela ker,hitro,najde pismo vendar rezultat še,source/contemporary-sample.csv#TNLP-C03
+hrani,hrani-001,TNLP-C01,Arhivski popis,archives,2,arhiv,hrani,pisma popise in fotografije kustosinja,source/contemporary-sample.csv#TNLP-C01
+hrvaško,hrvaško-001,TNLP-C09,Prevod in pomen,language,5,prevajalka primerja slovensko in,hrvaško,različico pisma podobna beseda ne,source/contemporary-sample.csv#TNLP-C09
+ime,ime-001,TNLP-C02,Preverjanje prepisa,archives,21,napačna črka lahko spremeni osebno,ime,ali iskalni zadetek,source/contemporary-sample.csv#TNLP-C02
+in,in-001,TNLP-C01,Arhivski popis,archives,5,arhiv hrani pisma popise,in,fotografije kustosinja maja kovač narodnem,source/contemporary-sample.csv#TNLP-C01
+in,in-002,TNLP-C02,Preverjanje prepisa,archives,5,raziskovalci skrbno preverjajo prepise,in,javno pojasnjujejo negotove odločitve arhiv,source/contemporary-sample.csv#TNLP-C02
+in,in-003,TNLP-C03,Digitalna zbirka,archives,6,digitalna zbirka poveže sliko metapodatke,in,prepis obiskovalka je vesela ker,source/contemporary-sample.csv#TNLP-C03
+in,in-004,TNLP-C04,Muzejska razstava,museums,10,življenju razstava združi predmete pričevanja,in,kratke razlage navdušena kustosinja pokaže,source/contemporary-sample.csv#TNLP-C04
+in,in-005,TNLP-C05,Predmeti in glasovi,museums,21,zapiše kdo je odločitev sprejel,in,kateri vir ji nasprotuje,source/contemporary-sample.csv#TNLP-C05
+in,in-006,TNLP-C07,Jezikovni korpus,language,11,žanrov raziskovalka primerja leme pojavnice,in,povedi korpus potrebuje metapodatke ker,source/contemporary-sample.csv#TNLP-C07
+in,in-007,TNLP-C08,Narečni zapis,language,6,narečni zapis ohrani glas govorca,in,uredniške opombe jezikovni model lahko,source/contemporary-sample.csv#TNLP-C08
+in,in-008,TNLP-C09,Prevod in pomen,language,4,prevajalka primerja slovensko,in,hrvaško različico pisma podobna beseda,source/contemporary-sample.csv#TNLP-C09
+in,in-009,TNLP-C09,Prevod in pomen,language,20,se spreminja po obdobjih krajih,in,družbenih položajih,source/contemporary-sample.csv#TNLP-C09
+in,in-010,TNLP-C10,Časopisni glas,press,14,spremembe navedek čustvo pripiše meščanom,in,ga ne potrjuje kot urednikovo,source/contemporary-sample.csv#TNLP-C10
+in,in-011,TNLP-C10,Časopisni glas,press,26,stanje besedilo zahteva pregled govorca,in,tarče,source/contemporary-sample.csv#TNLP-C10
+in,in-012,TNLP-C11,Iskanje besed,press,17,svoboda za druge svoboda mestu,in,svoboda kot sklepno geslo urednik,source/contemporary-sample.csv#TNLP-C11
+in,in-013,TNLP-C11,Iskanje besed,press,49,delu izobraževanju jeziku javnih ustanovah,in,političnem odločanju visoka frekvenca zato,source/contemporary-sample.csv#TNLP-C11
+ironiji,ironiji-001,TNLP-C12,Negotova razlaga,press,23,napaki dobesedno pozitivne besede lahko,ironiji,izražajo odklonilno vrednotenje,source/contemporary-sample.csv#TNLP-C12
+iskalni,iskalni-001,TNLP-C02,Preverjanje prepisa,archives,23,lahko spremeni osebno ime ali,iskalni,zadetek,source/contemporary-sample.csv#TNLP-C02
+iskanje,iskanje-001,TNLP-C01,Arhivski popis,archives,24,nevtralna shramba njegov popis usmerja,iskanje,arhiv zato preverjamo ob dokumentih,source/contemporary-sample.csv#TNLP-C01
+istega,istega-001,TNLP-C09,Prevod in pomen,language,12,pisma podobna beseda ne zagotavlja,istega,pomena jezik se spreminja po,source/contemporary-sample.csv#TNLP-C09
+iz,iz-001,TNLP-C01,Arhivski popis,archives,15,narodnem muzeju slovenije opisuje zbirko,iz,ljubljane arhiv ni nevtralna shramba,source/contemporary-sample.csv#TNLP-C01
+izbere,izbere-001,TNLP-C05,Predmeti in glasovi,museums,7,ne govori sama zase kustos,izbere,predmete skupnost pa opozori na,source/contemporary-sample.csv#TNLP-C05
+izjemno,izjemno-001,TNLP-C06,Zamuda pri odprtju,museums,11,bojijo da bo zbirka zaprta,izjemno,še ena čudovita zamuda pri,source/contemporary-sample.csv#TNLP-C06
+izobraževanju,izobraževanju-001,TNLP-C11,Iskanje besed,press,45,razpravlja odgovornosti skupnosti pravicah delu,izobraževanju,jeziku javnih ustanovah in političnem,source/contemporary-sample.csv#TNLP-C11
+izražajo,izražajo-001,TNLP-C12,Negotova razlaga,press,24,dobesedno pozitivne besede lahko ironiji,izražajo,odklonilno vrednotenje,source/contemporary-sample.csv#TNLP-C12
+javnih,javnih-001,TNLP-C11,Iskanje besed,press,47,skupnosti pravicah delu izobraževanju jeziku,javnih,ustanovah in političnem odločanju visoka,source/contemporary-sample.csv#TNLP-C11
+javno,javno-001,TNLP-C02,Preverjanje prepisa,archives,6,raziskovalci skrbno preverjajo prepise in,javno,pojasnjujejo negotove odločitve arhiv omogoča,source/contemporary-sample.csv#TNLP-C02
+je,je-001,TNLP-C03,Digitalna zbirka,archives,9,sliko metapodatke in prepis obiskovalka,je,vesela ker hitro najde pismo,source/contemporary-sample.csv#TNLP-C03
+je,je-002,TNLP-C05,Predmeti in glasovi,museums,18,spregledane glasove muzej zapiše kdo,je,odločitev sprejel in kateri vir,source/contemporary-sample.csv#TNLP-C05
+je,je-003,TNLP-C06,Zamuda pri odprtju,museums,2,vodja,je,dejal obiskovalci se bojijo da,source/contemporary-sample.csv#TNLP-C06
+je,je-004,TNLP-C10,Časopisni glas,press,2,časnik,je,zapisal da so se meščani,source/contemporary-sample.csv#TNLP-C10
+je,je-005,TNLP-C12,Negotova razlaga,press,14,zaradi manjkajočega vira kako čudovito,je,zapisala po novi napaki dobesedno,source/contemporary-sample.csv#TNLP-C12
+jeza,jeza-001,TNLP-C06,Zamuda pri odprtju,museums,19,čudovita zamuda pri odprtju razstave,jeza,zapisu ni nujno jeza avtorja,source/contemporary-sample.csv#TNLP-C06
+jeza,jeza-002,TNLP-C06,Zamuda pri odprtju,museums,23,razstave jeza zapisu ni nujno,jeza,avtorja poročila,source/contemporary-sample.csv#TNLP-C06
+jezik,jezik-001,TNLP-C09,Prevod in pomen,language,14,beseda ne zagotavlja istega pomena,jezik,se spreminja po obdobjih krajih,source/contemporary-sample.csv#TNLP-C09
+jezikovni,jezikovni-001,TNLP-C07,Jezikovni korpus,language,1,,jezikovni,korpus vsebuje besedila različnih žanrov,source/contemporary-sample.csv#TNLP-C07
+jezikovni,jezikovni-002,TNLP-C08,Narečni zapis,language,9,glas govorca in uredniške opombe,jezikovni,model lahko neznano obliko označi,source/contemporary-sample.csv#TNLP-C08
+jeziku,jeziku-001,TNLP-C11,Iskanje besed,press,46,odgovornosti skupnosti pravicah delu izobraževanju,jeziku,javnih ustanovah in političnem odločanju,source/contemporary-sample.csv#TNLP-C11
+ji,ji-001,TNLP-C05,Predmeti in glasovi,museums,24,odločitev sprejel in kateri vir,ji,nasprotuje,source/contemporary-sample.csv#TNLP-C05
+jo,jo-001,TNLP-C08,Narečni zapis,language,22,napako zabeležijo namesto da bi,jo,prikrili,source/contemporary-sample.csv#TNLP-C08
+kako,kako-001,TNLP-C12,Negotova razlaga,press,12,temveč zaskrbljena zaradi manjkajočega vira,kako,čudovito je zapisala po novi,source/contemporary-sample.csv#TNLP-C12
+kateri,kateri-001,TNLP-C05,Predmeti in glasovi,museums,22,kdo je odločitev sprejel in,kateri,vir ji nasprotuje,source/contemporary-sample.csv#TNLP-C05
+kdo,kdo-001,TNLP-C05,Predmeti in glasovi,museums,17,na spregledane glasove muzej zapiše,kdo,je odločitev sprejel in kateri,source/contemporary-sample.csv#TNLP-C05
+ker,ker-001,TNLP-C03,Digitalna zbirka,archives,11,in prepis obiskovalka je vesela,ker,hitro najde pismo vendar rezultat,source/contemporary-sample.csv#TNLP-C03
+ker,ker-002,TNLP-C07,Jezikovni korpus,language,16,in povedi korpus potrebuje metapodatke,ker,sama frekvenca ne pojasni rabe,source/contemporary-sample.csv#TNLP-C07
+kontekstom,kontekstom-001,TNLP-C01,Arhivski popis,archives,34,dokumentih arhiv pa opisujemo zgodovinskim,kontekstom,,source/contemporary-sample.csv#TNLP-C01
+korpus,korpus-001,TNLP-C07,Jezikovni korpus,language,2,jezikovni,korpus,vsebuje besedila različnih žanrov raziskovalka,source/contemporary-sample.csv#TNLP-C07
+korpus,korpus-002,TNLP-C07,Jezikovni korpus,language,13,primerja leme pojavnice in povedi,korpus,potrebuje metapodatke ker sama frekvenca,source/contemporary-sample.csv#TNLP-C07
+kot,kot-001,TNLP-C10,Časopisni glas,press,18,meščanom in ga ne potrjuje,kot,urednikovo notranje stanje besedilo zahteva,source/contemporary-sample.csv#TNLP-C10
+kot,kot-002,TNLP-C11,Iskanje besed,press,19,druge svoboda mestu in svoboda,kot,sklepno geslo urednik nato še,source/contemporary-sample.csv#TNLP-C11
+kovač,kovač-001,TNLP-C01,Arhivski popis,archives,9,popise in fotografije kustosinja maja,kovač,narodnem muzeju slovenije opisuje zbirko,source/contemporary-sample.csv#TNLP-C01
+krajih,krajih-001,TNLP-C09,Prevod in pomen,language,19,jezik se spreminja po obdobjih,krajih,in družbenih položajih,source/contemporary-sample.csv#TNLP-C09
+kratke,kratke-001,TNLP-C04,Muzejska razstava,museums,11,razstava združi predmete pričevanja in,kratke,razlage navdušena kustosinja pokaže obiskovalcem,source/contemporary-sample.csv#TNLP-C04
+kritike,kritike-001,TNLP-C12,Negotova razlaga,press,6,urednica ni bila žalostna zaradi,kritike,temveč zaskrbljena zaradi manjkajočega vira,source/contemporary-sample.csv#TNLP-C12
+kustos,kustos-001,TNLP-C05,Predmeti in glasovi,museums,6,razstava ne govori sama zase,kustos,izbere predmete skupnost pa opozori,source/contemporary-sample.csv#TNLP-C05
+kustosinja,kustosinja-001,TNLP-C01,Arhivski popis,archives,7,hrani pisma popise in fotografije,kustosinja,maja kovač narodnem muzeju slovenije,source/contemporary-sample.csv#TNLP-C01
+kustosinja,kustosinja-002,TNLP-C04,Muzejska razstava,museums,14,pričevanja in kratke razlage navdušena,kustosinja,pokaže obiskovalcem obnovljeni plakat,source/contemporary-sample.csv#TNLP-C04
+lahko,lahko-001,TNLP-C02,Preverjanje prepisa,archives,18,rokopisa uredniškim prepisom napačna črka,lahko,spremeni osebno ime ali iskalni,source/contemporary-sample.csv#TNLP-C02
+lahko,lahko-002,TNLP-C08,Narečni zapis,language,11,in uredniške opombe jezikovni model,lahko,neznano obliko označi napačno raziskovalci,source/contemporary-sample.csv#TNLP-C08
+lahko,lahko-003,TNLP-C12,Negotova razlaga,press,22,novi napaki dobesedno pozitivne besede,lahko,ironiji izražajo odklonilno vrednotenje,source/contemporary-sample.csv#TNLP-C12
+leme,leme-001,TNLP-C07,Jezikovni korpus,language,9,besedila različnih žanrov raziskovalka primerja,leme,pojavnice in povedi korpus potrebuje,source/contemporary-sample.csv#TNLP-C07
+ljubljane,ljubljane-001,TNLP-C01,Arhivski popis,archives,16,muzeju slovenije opisuje zbirko iz,ljubljane,arhiv ni nevtralna shramba njegov,source/contemporary-sample.csv#TNLP-C01
+maja,maja-001,TNLP-C01,Arhivski popis,archives,8,pisma popise in fotografije kustosinja,maja,kovač narodnem muzeju slovenije opisuje,source/contemporary-sample.csv#TNLP-C01
+manjkajočega,manjkajočega-001,TNLP-C12,Negotova razlaga,press,10,zaradi kritike temveč zaskrbljena zaradi,manjkajočega,vira kako čudovito je zapisala,source/contemporary-sample.csv#TNLP-C12
+manjkajočih,manjkajočih-001,TNLP-C03,Digitalna zbirka,archives,24,ob posnetku skrbnik ne skriva,manjkajočih,strani,source/contemporary-sample.csv#TNLP-C03
+mestu,mestu-001,TNLP-C11,Iskanje besed,press,16,ene svoboda za druge svoboda,mestu,in svoboda kot sklepno geslo,source/contemporary-sample.csv#TNLP-C11
+metapodatke,metapodatke-001,TNLP-C03,Digitalna zbirka,archives,5,digitalna zbirka poveže sliko,metapodatke,in prepis obiskovalka je vesela,source/contemporary-sample.csv#TNLP-C03
+metapodatke,metapodatke-002,TNLP-C07,Jezikovni korpus,language,15,pojavnice in povedi korpus potrebuje,metapodatke,ker sama frekvenca ne pojasni,source/contemporary-sample.csv#TNLP-C07
+meščani,meščani-001,TNLP-C10,Časopisni glas,press,7,je zapisal da so se,meščani,bali spremembe navedek čustvo pripiše,source/contemporary-sample.csv#TNLP-C10
+meščanom,meščanom-001,TNLP-C10,Časopisni glas,press,13,bali spremembe navedek čustvo pripiše,meščanom,in ga ne potrjuje kot,source/contemporary-sample.csv#TNLP-C10
+model,model-001,TNLP-C08,Narečni zapis,language,10,govorca in uredniške opombe jezikovni,model,lahko neznano obliko označi napačno,source/contemporary-sample.csv#TNLP-C08
+muzej,muzej-001,TNLP-C04,Muzejska razstava,museums,1,,muzej,pripravlja razstavo vsakdanjem življenju razstava,source/contemporary-sample.csv#TNLP-C04
+muzej,muzej-002,TNLP-C05,Predmeti in glasovi,museums,15,pa opozori na spregledane glasove,muzej,zapiše kdo je odločitev sprejel,source/contemporary-sample.csv#TNLP-C05
+muzeju,muzeju-001,TNLP-C01,Arhivski popis,archives,11,fotografije kustosinja maja kovač narodnem,muzeju,slovenije opisuje zbirko iz ljubljane,source/contemporary-sample.csv#TNLP-C01
+na,na-001,TNLP-C05,Predmeti in glasovi,museums,12,izbere predmete skupnost pa opozori,na,spregledane glasove muzej zapiše kdo,source/contemporary-sample.csv#TNLP-C05
+najde,najde-001,TNLP-C03,Digitalna zbirka,archives,13,obiskovalka je vesela ker hitro,najde,pismo vendar rezultat še preveri,source/contemporary-sample.csv#TNLP-C03
+namesto,namesto-001,TNLP-C08,Narečni zapis,language,19,označi napačno raziskovalci napako zabeležijo,namesto,da bi jo prikrili,source/contemporary-sample.csv#TNLP-C08
+napaki,napaki-001,TNLP-C12,Negotova razlaga,press,18,čudovito je zapisala po novi,napaki,dobesedno pozitivne besede lahko ironiji,source/contemporary-sample.csv#TNLP-C12
+napako,napako-001,TNLP-C08,Narečni zapis,language,17,neznano obliko označi napačno raziskovalci,napako,zabeležijo namesto da bi jo,source/contemporary-sample.csv#TNLP-C08
+napačna,napačna-001,TNLP-C02,Preverjanje prepisa,archives,16,omogoča primerjavo rokopisa uredniškim prepisom,napačna,črka lahko spremeni osebno ime,source/contemporary-sample.csv#TNLP-C02
+napačno,napačno-001,TNLP-C08,Narečni zapis,language,15,model lahko neznano obliko označi,napačno,raziskovalci napako zabeležijo namesto da,source/contemporary-sample.csv#TNLP-C08
+narečni,narečni-001,TNLP-C08,Narečni zapis,language,1,,narečni,zapis ohrani glas govorca in,source/contemporary-sample.csv#TNLP-C08
+narodnem,narodnem-001,TNLP-C01,Arhivski popis,archives,10,in fotografije kustosinja maja kovač,narodnem,muzeju slovenije opisuje zbirko iz,source/contemporary-sample.csv#TNLP-C01
+nasprotuje,nasprotuje-001,TNLP-C05,Predmeti in glasovi,museums,25,sprejel in kateri vir ji,nasprotuje,,source/contemporary-sample.csv#TNLP-C05
+nato,nato-001,TNLP-C11,Iskanje besed,press,23,svoboda kot sklepno geslo urednik,nato,še trikrat zapiše svoboda svoboda,source/contemporary-sample.csv#TNLP-C11
+navdušena,navdušena-001,TNLP-C04,Muzejska razstava,museums,13,predmete pričevanja in kratke razlage,navdušena,kustosinja pokaže obiskovalcem obnovljeni plakat,source/contemporary-sample.csv#TNLP-C04
+navedek,navedek-001,TNLP-C10,Časopisni glas,press,10,so se meščani bali spremembe,navedek,čustvo pripiše meščanom in ga,source/contemporary-sample.csv#TNLP-C10
+ne,ne-001,TNLP-C03,Digitalna zbirka,archives,22,še preveri ob posnetku skrbnik,ne,skriva manjkajočih strani,source/contemporary-sample.csv#TNLP-C03
+ne,ne-002,TNLP-C05,Predmeti in glasovi,museums,2,razstava,ne,govori sama zase kustos izbere,source/contemporary-sample.csv#TNLP-C05
+ne,ne-003,TNLP-C07,Jezikovni korpus,language,19,potrebuje metapodatke ker sama frekvenca,ne,pojasni rabe,source/contemporary-sample.csv#TNLP-C07
+ne,ne-004,TNLP-C09,Prevod in pomen,language,10,hrvaško različico pisma podobna beseda,ne,zagotavlja istega pomena jezik se,source/contemporary-sample.csv#TNLP-C09
+ne,ne-005,TNLP-C10,Časopisni glas,press,16,čustvo pripiše meščanom in ga,ne,potrjuje kot urednikovo notranje stanje,source/contemporary-sample.csv#TNLP-C10
+ne,ne-006,TNLP-C11,Iskanje besed,press,35,drugi članki pa besede svoboda,ne,uporabijo uvodnik ob tem razpravlja,source/contemporary-sample.csv#TNLP-C11
+ne,ne-007,TNLP-C11,Iskanje besed,press,55,političnem odločanju visoka frekvenca zato,ne,pomeni široke razpršenosti po dokumentih,source/contemporary-sample.csv#TNLP-C11
+negotove,negotove-001,TNLP-C02,Preverjanje prepisa,archives,8,preverjajo prepise in javno pojasnjujejo,negotove,odločitve arhiv omogoča primerjavo rokopisa,source/contemporary-sample.csv#TNLP-C02
+nevtralna,nevtralna-001,TNLP-C01,Arhivski popis,archives,19,zbirko iz ljubljane arhiv ni,nevtralna,shramba njegov popis usmerja iskanje,source/contemporary-sample.csv#TNLP-C01
+neznano,neznano-001,TNLP-C08,Narečni zapis,language,12,uredniške opombe jezikovni model lahko,neznano,obliko označi napačno raziskovalci napako,source/contemporary-sample.csv#TNLP-C08
+ni,ni-001,TNLP-C01,Arhivski popis,archives,18,opisuje zbirko iz ljubljane arhiv,ni,nevtralna shramba njegov popis usmerja,source/contemporary-sample.csv#TNLP-C01
+ni,ni-002,TNLP-C06,Zamuda pri odprtju,museums,21,pri odprtju razstave jeza zapisu,ni,nujno jeza avtorja poročila,source/contemporary-sample.csv#TNLP-C06
+ni,ni-003,TNLP-C12,Negotova razlaga,press,2,urednica,ni,bila žalostna zaradi kritike temveč,source/contemporary-sample.csv#TNLP-C12
+njegov,njegov-001,TNLP-C01,Arhivski popis,archives,21,ljubljane arhiv ni nevtralna shramba,njegov,popis usmerja iskanje arhiv zato,source/contemporary-sample.csv#TNLP-C01
+notranje,notranje-001,TNLP-C10,Časopisni glas,press,20,ga ne potrjuje kot urednikovo,notranje,stanje besedilo zahteva pregled govorca,source/contemporary-sample.csv#TNLP-C10
+novi,novi-001,TNLP-C12,Negotova razlaga,press,17,kako čudovito je zapisala po,novi,napaki dobesedno pozitivne besede lahko,source/contemporary-sample.csv#TNLP-C12
+nujno,nujno-001,TNLP-C06,Zamuda pri odprtju,museums,22,odprtju razstave jeza zapisu ni,nujno,jeza avtorja poročila,source/contemporary-sample.csv#TNLP-C06
+ob,ob-001,TNLP-C01,Arhivski popis,archives,28,usmerja iskanje arhiv zato preverjamo,ob,dokumentih arhiv pa opisujemo zgodovinskim,source/contemporary-sample.csv#TNLP-C01
+ob,ob-002,TNLP-C03,Digitalna zbirka,archives,19,pismo vendar rezultat še preveri,ob,posnetku skrbnik ne skriva manjkajočih,source/contemporary-sample.csv#TNLP-C03
+ob,ob-003,TNLP-C11,Iskanje besed,press,38,besede svoboda ne uporabijo uvodnik,ob,tem razpravlja odgovornosti skupnosti pravicah,source/contemporary-sample.csv#TNLP-C11
+obdobjih,obdobjih-001,TNLP-C09,Prevod in pomen,language,18,pomena jezik se spreminja po,obdobjih,krajih in družbenih položajih,source/contemporary-sample.csv#TNLP-C09
+obiskovalcem,obiskovalcem-001,TNLP-C04,Muzejska razstava,museums,16,kratke razlage navdušena kustosinja pokaže,obiskovalcem,obnovljeni plakat,source/contemporary-sample.csv#TNLP-C04
+obiskovalci,obiskovalci-001,TNLP-C06,Zamuda pri odprtju,museums,4,vodja je dejal,obiskovalci,se bojijo da bo zbirka,source/contemporary-sample.csv#TNLP-C06
+obiskovalka,obiskovalka-001,TNLP-C03,Digitalna zbirka,archives,8,poveže sliko metapodatke in prepis,obiskovalka,je vesela ker hitro najde,source/contemporary-sample.csv#TNLP-C03
+obliko,obliko-001,TNLP-C08,Narečni zapis,language,13,opombe jezikovni model lahko neznano,obliko,označi napačno raziskovalci napako zabeležijo,source/contemporary-sample.csv#TNLP-C08
+obnovljeni,obnovljeni-001,TNLP-C04,Muzejska razstava,museums,17,razlage navdušena kustosinja pokaže obiskovalcem,obnovljeni,plakat,source/contemporary-sample.csv#TNLP-C04
+odgovornosti,odgovornosti-001,TNLP-C11,Iskanje besed,press,41,uporabijo uvodnik ob tem razpravlja,odgovornosti,skupnosti pravicah delu izobraževanju jeziku,source/contemporary-sample.csv#TNLP-C11
+odklonilno,odklonilno-001,TNLP-C12,Negotova razlaga,press,25,pozitivne besede lahko ironiji izražajo,odklonilno,vrednotenje,source/contemporary-sample.csv#TNLP-C12
+odločanju,odločanju-001,TNLP-C11,Iskanje besed,press,51,jeziku javnih ustanovah in političnem,odločanju,visoka frekvenca zato ne pomeni,source/contemporary-sample.csv#TNLP-C11
+odločitev,odločitev-001,TNLP-C05,Predmeti in glasovi,museums,19,glasove muzej zapiše kdo je,odločitev,sprejel in kateri vir ji,source/contemporary-sample.csv#TNLP-C05
+odločitve,odločitve-001,TNLP-C02,Preverjanje prepisa,archives,9,prepise in javno pojasnjujejo negotove,odločitve,arhiv omogoča primerjavo rokopisa uredniškim,source/contemporary-sample.csv#TNLP-C02
+odprtju,odprtju-001,TNLP-C06,Zamuda pri odprtju,museums,17,še ena čudovita zamuda pri,odprtju,razstave jeza zapisu ni nujno,source/contemporary-sample.csv#TNLP-C06
+ohrani,ohrani-001,TNLP-C08,Narečni zapis,language,3,narečni zapis,ohrani,glas govorca in uredniške opombe,source/contemporary-sample.csv#TNLP-C08
+omogoča,omogoča-001,TNLP-C02,Preverjanje prepisa,archives,11,javno pojasnjujejo negotove odločitve arhiv,omogoča,primerjavo rokopisa uredniškim prepisom napačna,source/contemporary-sample.csv#TNLP-C02
+opisuje,opisuje-001,TNLP-C01,Arhivski popis,archives,13,maja kovač narodnem muzeju slovenije,opisuje,zbirko iz ljubljane arhiv ni,source/contemporary-sample.csv#TNLP-C01
+opisujemo,opisujemo-001,TNLP-C01,Arhivski popis,archives,32,preverjamo ob dokumentih arhiv pa,opisujemo,zgodovinskim kontekstom,source/contemporary-sample.csv#TNLP-C01
+opombe,opombe-001,TNLP-C08,Narečni zapis,language,8,ohrani glas govorca in uredniške,opombe,jezikovni model lahko neznano obliko,source/contemporary-sample.csv#TNLP-C08
+opozori,opozori-001,TNLP-C05,Predmeti in glasovi,museums,11,kustos izbere predmete skupnost pa,opozori,na spregledane glasove muzej zapiše,source/contemporary-sample.csv#TNLP-C05
+osebno,osebno-001,TNLP-C02,Preverjanje prepisa,archives,20,prepisom napačna črka lahko spremeni,osebno,ime ali iskalni zadetek,source/contemporary-sample.csv#TNLP-C02
+označi,označi-001,TNLP-C08,Narečni zapis,language,14,jezikovni model lahko neznano obliko,označi,napačno raziskovalci napako zabeležijo namesto,source/contemporary-sample.csv#TNLP-C08
+pa,pa-001,TNLP-C01,Arhivski popis,archives,31,zato preverjamo ob dokumentih arhiv,pa,opisujemo zgodovinskim kontekstom,source/contemporary-sample.csv#TNLP-C01
+pa,pa-002,TNLP-C05,Predmeti in glasovi,museums,10,zase kustos izbere predmete skupnost,pa,opozori na spregledane glasove muzej,source/contemporary-sample.csv#TNLP-C05
+pa,pa-003,TNLP-C11,Iskanje besed,press,32,svoboda svoboda svoboda drugi članki,pa,besede svoboda ne uporabijo uvodnik,source/contemporary-sample.csv#TNLP-C11
+pisma,pisma-001,TNLP-C01,Arhivski popis,archives,3,arhiv hrani,pisma,popise in fotografije kustosinja maja,source/contemporary-sample.csv#TNLP-C01
+pisma,pisma-002,TNLP-C09,Prevod in pomen,language,7,primerja slovensko in hrvaško različico,pisma,podobna beseda ne zagotavlja istega,source/contemporary-sample.csv#TNLP-C09
+pismo,pismo-001,TNLP-C03,Digitalna zbirka,archives,14,je vesela ker hitro najde,pismo,vendar rezultat še preveri ob,source/contemporary-sample.csv#TNLP-C03
+plakat,plakat-001,TNLP-C04,Muzejska razstava,museums,18,navdušena kustosinja pokaže obiskovalcem obnovljeni,plakat,,source/contemporary-sample.csv#TNLP-C04
+po,po-001,TNLP-C09,Prevod in pomen,language,17,istega pomena jezik se spreminja,po,obdobjih krajih in družbenih položajih,source/contemporary-sample.csv#TNLP-C09
+po,po-002,TNLP-C11,Iskanje besed,press,59,zato ne pomeni široke razpršenosti,po,dokumentih,source/contemporary-sample.csv#TNLP-C11
+po,po-003,TNLP-C12,Negotova razlaga,press,16,vira kako čudovito je zapisala,po,novi napaki dobesedno pozitivne besede,source/contemporary-sample.csv#TNLP-C12
+podobna,podobna-001,TNLP-C09,Prevod in pomen,language,8,slovensko in hrvaško različico pisma,podobna,beseda ne zagotavlja istega pomena,source/contemporary-sample.csv#TNLP-C09
+pojasni,pojasni-001,TNLP-C07,Jezikovni korpus,language,20,metapodatke ker sama frekvenca ne,pojasni,rabe,source/contemporary-sample.csv#TNLP-C07
+pojasnjujejo,pojasnjujejo-001,TNLP-C02,Preverjanje prepisa,archives,7,skrbno preverjajo prepise in javno,pojasnjujejo,negotove odločitve arhiv omogoča primerjavo,source/contemporary-sample.csv#TNLP-C02
+pojavnice,pojavnice-001,TNLP-C07,Jezikovni korpus,language,10,različnih žanrov raziskovalka primerja leme,pojavnice,in povedi korpus potrebuje metapodatke,source/contemporary-sample.csv#TNLP-C07
+pokaže,pokaže-001,TNLP-C04,Muzejska razstava,museums,15,in kratke razlage navdušena kustosinja,pokaže,obiskovalcem obnovljeni plakat,source/contemporary-sample.csv#TNLP-C04
+političnem,političnem-001,TNLP-C11,Iskanje besed,press,50,izobraževanju jeziku javnih ustanovah in,političnem,odločanju visoka frekvenca zato ne,source/contemporary-sample.csv#TNLP-C11
+položajih,položajih-001,TNLP-C09,Prevod in pomen,language,22,po obdobjih krajih in družbenih,položajih,,source/contemporary-sample.csv#TNLP-C09
+pomena,pomena-001,TNLP-C09,Prevod in pomen,language,13,podobna beseda ne zagotavlja istega,pomena,jezik se spreminja po obdobjih,source/contemporary-sample.csv#TNLP-C09
+pomeni,pomeni-001,TNLP-C11,Iskanje besed,press,56,odločanju visoka frekvenca zato ne,pomeni,široke razpršenosti po dokumentih,source/contemporary-sample.csv#TNLP-C11
+ponovi,ponovi-001,TNLP-C11,Iskanje besed,press,6,časopis enem dolgem uvodniku večkrat,ponovi,besedo svoboda svoboda za ene,source/contemporary-sample.csv#TNLP-C11
+popis,popis-001,TNLP-C01,Arhivski popis,archives,22,arhiv ni nevtralna shramba njegov,popis,usmerja iskanje arhiv zato preverjamo,source/contemporary-sample.csv#TNLP-C01
+popise,popise-001,TNLP-C01,Arhivski popis,archives,4,arhiv hrani pisma,popise,in fotografije kustosinja maja kovač,source/contemporary-sample.csv#TNLP-C01
+poročila,poročila-001,TNLP-C06,Zamuda pri odprtju,museums,25,zapisu ni nujno jeza avtorja,poročila,,source/contemporary-sample.csv#TNLP-C06
+posnetku,posnetku-001,TNLP-C03,Digitalna zbirka,archives,20,vendar rezultat še preveri ob,posnetku,skrbnik ne skriva manjkajočih strani,source/contemporary-sample.csv#TNLP-C03
+potrebuje,potrebuje-001,TNLP-C07,Jezikovni korpus,language,14,leme pojavnice in povedi korpus,potrebuje,metapodatke ker sama frekvenca ne,source/contemporary-sample.csv#TNLP-C07
+potrjuje,potrjuje-001,TNLP-C10,Časopisni glas,press,17,pripiše meščanom in ga ne,potrjuje,kot urednikovo notranje stanje besedilo,source/contemporary-sample.csv#TNLP-C10
+povedi,povedi-001,TNLP-C07,Jezikovni korpus,language,12,raziskovalka primerja leme pojavnice in,povedi,korpus potrebuje metapodatke ker sama,source/contemporary-sample.csv#TNLP-C07
+poveže,poveže-001,TNLP-C03,Digitalna zbirka,archives,3,digitalna zbirka,poveže,sliko metapodatke in prepis obiskovalka,source/contemporary-sample.csv#TNLP-C03
+pozitivne,pozitivne-001,TNLP-C12,Negotova razlaga,press,20,zapisala po novi napaki dobesedno,pozitivne,besede lahko ironiji izražajo odklonilno,source/contemporary-sample.csv#TNLP-C12
+pravicah,pravicah-001,TNLP-C11,Iskanje besed,press,43,ob tem razpravlja odgovornosti skupnosti,pravicah,delu izobraževanju jeziku javnih ustanovah,source/contemporary-sample.csv#TNLP-C11
+predmete,predmete-001,TNLP-C04,Muzejska razstava,museums,8,razstavo vsakdanjem življenju razstava združi,predmete,pričevanja in kratke razlage navdušena,source/contemporary-sample.csv#TNLP-C04
+predmete,predmete-002,TNLP-C05,Predmeti in glasovi,museums,8,govori sama zase kustos izbere,predmete,skupnost pa opozori na spregledane,source/contemporary-sample.csv#TNLP-C05
+pregled,pregled-001,TNLP-C10,Časopisni glas,press,24,urednikovo notranje stanje besedilo zahteva,pregled,govorca in tarče,source/contemporary-sample.csv#TNLP-C10
+prepis,prepis-001,TNLP-C03,Digitalna zbirka,archives,7,zbirka poveže sliko metapodatke in,prepis,obiskovalka je vesela ker hitro,source/contemporary-sample.csv#TNLP-C03
+prepise,prepise-001,TNLP-C02,Preverjanje prepisa,archives,4,raziskovalci skrbno preverjajo,prepise,in javno pojasnjujejo negotove odločitve,source/contemporary-sample.csv#TNLP-C02
+prepisom,prepisom-001,TNLP-C02,Preverjanje prepisa,archives,15,arhiv omogoča primerjavo rokopisa uredniškim,prepisom,napačna črka lahko spremeni osebno,source/contemporary-sample.csv#TNLP-C02
+prevajalka,prevajalka-001,TNLP-C09,Prevod in pomen,language,1,,prevajalka,primerja slovensko in hrvaško različico,source/contemporary-sample.csv#TNLP-C09
+preveri,preveri-001,TNLP-C03,Digitalna zbirka,archives,18,najde pismo vendar rezultat še,preveri,ob posnetku skrbnik ne skriva,source/contemporary-sample.csv#TNLP-C03
+preverjajo,preverjajo-001,TNLP-C02,Preverjanje prepisa,archives,3,raziskovalci skrbno,preverjajo,prepise in javno pojasnjujejo negotove,source/contemporary-sample.csv#TNLP-C02
+preverjamo,preverjamo-001,TNLP-C01,Arhivski popis,archives,27,popis usmerja iskanje arhiv zato,preverjamo,ob dokumentih arhiv pa opisujemo,source/contemporary-sample.csv#TNLP-C01
+pri,pri-001,TNLP-C06,Zamuda pri odprtju,museums,16,izjemno še ena čudovita zamuda,pri,odprtju razstave jeza zapisu ni,source/contemporary-sample.csv#TNLP-C06
+prikrili,prikrili-001,TNLP-C08,Narečni zapis,language,23,zabeležijo namesto da bi jo,prikrili,,source/contemporary-sample.csv#TNLP-C08
+primerja,primerja-001,TNLP-C07,Jezikovni korpus,language,8,vsebuje besedila različnih žanrov raziskovalka,primerja,leme pojavnice in povedi korpus,source/contemporary-sample.csv#TNLP-C07
+primerja,primerja-002,TNLP-C09,Prevod in pomen,language,2,prevajalka,primerja,slovensko in hrvaško različico pisma,source/contemporary-sample.csv#TNLP-C09
+primerjavo,primerjavo-001,TNLP-C02,Preverjanje prepisa,archives,12,pojasnjujejo negotove odločitve arhiv omogoča,primerjavo,rokopisa uredniškim prepisom napačna črka,source/contemporary-sample.csv#TNLP-C02
+pripiše,pripiše-001,TNLP-C10,Časopisni glas,press,12,meščani bali spremembe navedek čustvo,pripiše,meščanom in ga ne potrjuje,source/contemporary-sample.csv#TNLP-C10
+pripravlja,pripravlja-001,TNLP-C04,Muzejska razstava,museums,2,muzej,pripravlja,razstavo vsakdanjem življenju razstava združi,source/contemporary-sample.csv#TNLP-C04
+pričevanja,pričevanja-001,TNLP-C04,Muzejska razstava,museums,9,vsakdanjem življenju razstava združi predmete,pričevanja,in kratke razlage navdušena kustosinja,source/contemporary-sample.csv#TNLP-C04
+rabe,rabe-001,TNLP-C07,Jezikovni korpus,language,21,ker sama frekvenca ne pojasni,rabe,,source/contemporary-sample.csv#TNLP-C07
+raziskovalci,raziskovalci-001,TNLP-C02,Preverjanje prepisa,archives,1,,raziskovalci,skrbno preverjajo prepise in javno,source/contemporary-sample.csv#TNLP-C02
+raziskovalci,raziskovalci-002,TNLP-C08,Narečni zapis,language,16,lahko neznano obliko označi napačno,raziskovalci,napako zabeležijo namesto da bi,source/contemporary-sample.csv#TNLP-C08
+raziskovalka,raziskovalka-001,TNLP-C07,Jezikovni korpus,language,7,korpus vsebuje besedila različnih žanrov,raziskovalka,primerja leme pojavnice in povedi,source/contemporary-sample.csv#TNLP-C07
+razlage,razlage-001,TNLP-C04,Muzejska razstava,museums,12,združi predmete pričevanja in kratke,razlage,navdušena kustosinja pokaže obiskovalcem obnovljeni,source/contemporary-sample.csv#TNLP-C04
+različico,različico-001,TNLP-C09,Prevod in pomen,language,6,prevajalka primerja slovensko in hrvaško,različico,pisma podobna beseda ne zagotavlja,source/contemporary-sample.csv#TNLP-C09
+različnih,različnih-001,TNLP-C07,Jezikovni korpus,language,5,jezikovni korpus vsebuje besedila,različnih,žanrov raziskovalka primerja leme pojavnice,source/contemporary-sample.csv#TNLP-C07
+razpravlja,razpravlja-001,TNLP-C11,Iskanje besed,press,40,ne uporabijo uvodnik ob tem,razpravlja,odgovornosti skupnosti pravicah delu izobraževanju,source/contemporary-sample.csv#TNLP-C11
+razpršenosti,razpršenosti-001,TNLP-C11,Iskanje besed,press,58,frekvenca zato ne pomeni široke,razpršenosti,po dokumentih,source/contemporary-sample.csv#TNLP-C11
+razstava,razstava-001,TNLP-C04,Muzejska razstava,museums,6,muzej pripravlja razstavo vsakdanjem življenju,razstava,združi predmete pričevanja in kratke,source/contemporary-sample.csv#TNLP-C04
+razstava,razstava-002,TNLP-C05,Predmeti in glasovi,museums,1,,razstava,ne govori sama zase kustos,source/contemporary-sample.csv#TNLP-C05
+razstave,razstave-001,TNLP-C06,Zamuda pri odprtju,museums,18,ena čudovita zamuda pri odprtju,razstave,jeza zapisu ni nujno jeza,source/contemporary-sample.csv#TNLP-C06
+razstavo,razstavo-001,TNLP-C04,Muzejska razstava,museums,3,muzej pripravlja,razstavo,vsakdanjem življenju razstava združi predmete,source/contemporary-sample.csv#TNLP-C04
+rezultat,rezultat-001,TNLP-C03,Digitalna zbirka,archives,16,ker hitro najde pismo vendar,rezultat,še preveri ob posnetku skrbnik,source/contemporary-sample.csv#TNLP-C03
+rokopisa,rokopisa-001,TNLP-C02,Preverjanje prepisa,archives,13,negotove odločitve arhiv omogoča primerjavo,rokopisa,uredniškim prepisom napačna črka lahko,source/contemporary-sample.csv#TNLP-C02
+sama,sama-001,TNLP-C05,Predmeti in glasovi,museums,4,razstava ne govori,sama,zase kustos izbere predmete skupnost,source/contemporary-sample.csv#TNLP-C05
+sama,sama-002,TNLP-C07,Jezikovni korpus,language,17,povedi korpus potrebuje metapodatke ker,sama,frekvenca ne pojasni rabe,source/contemporary-sample.csv#TNLP-C07
+se,se-001,TNLP-C06,Zamuda pri odprtju,museums,5,vodja je dejal obiskovalci,se,bojijo da bo zbirka zaprta,source/contemporary-sample.csv#TNLP-C06
+se,se-002,TNLP-C09,Prevod in pomen,language,15,ne zagotavlja istega pomena jezik,se,spreminja po obdobjih krajih in,source/contemporary-sample.csv#TNLP-C09
+se,se-003,TNLP-C10,Časopisni glas,press,6,časnik je zapisal da so,se,meščani bali spremembe navedek čustvo,source/contemporary-sample.csv#TNLP-C10
+shramba,shramba-001,TNLP-C01,Arhivski popis,archives,20,iz ljubljane arhiv ni nevtralna,shramba,njegov popis usmerja iskanje arhiv,source/contemporary-sample.csv#TNLP-C01
+sklepno,sklepno-001,TNLP-C11,Iskanje besed,press,20,svoboda mestu in svoboda kot,sklepno,geslo urednik nato še trikrat,source/contemporary-sample.csv#TNLP-C11
+skrbnik,skrbnik-001,TNLP-C03,Digitalna zbirka,archives,21,rezultat še preveri ob posnetku,skrbnik,ne skriva manjkajočih strani,source/contemporary-sample.csv#TNLP-C03
+skrbno,skrbno-001,TNLP-C02,Preverjanje prepisa,archives,2,raziskovalci,skrbno,preverjajo prepise in javno pojasnjujejo,source/contemporary-sample.csv#TNLP-C02
+skriva,skriva-001,TNLP-C03,Digitalna zbirka,archives,23,preveri ob posnetku skrbnik ne,skriva,manjkajočih strani,source/contemporary-sample.csv#TNLP-C03
+skupnost,skupnost-001,TNLP-C05,Predmeti in glasovi,museums,9,sama zase kustos izbere predmete,skupnost,pa opozori na spregledane glasove,source/contemporary-sample.csv#TNLP-C05
+skupnosti,skupnosti-001,TNLP-C11,Iskanje besed,press,42,uvodnik ob tem razpravlja odgovornosti,skupnosti,pravicah delu izobraževanju jeziku javnih,source/contemporary-sample.csv#TNLP-C11
+sliko,sliko-001,TNLP-C03,Digitalna zbirka,archives,4,digitalna zbirka poveže,sliko,metapodatke in prepis obiskovalka je,source/contemporary-sample.csv#TNLP-C03
+slovenije,slovenije-001,TNLP-C01,Arhivski popis,archives,12,kustosinja maja kovač narodnem muzeju,slovenije,opisuje zbirko iz ljubljane arhiv,source/contemporary-sample.csv#TNLP-C01
+slovensko,slovensko-001,TNLP-C09,Prevod in pomen,language,3,prevajalka primerja,slovensko,in hrvaško različico pisma podobna,source/contemporary-sample.csv#TNLP-C09
+so,so-001,TNLP-C10,Časopisni glas,press,5,časnik je zapisal da,so,se meščani bali spremembe navedek,source/contemporary-sample.csv#TNLP-C10
+spregledane,spregledane-001,TNLP-C05,Predmeti in glasovi,museums,13,predmete skupnost pa opozori na,spregledane,glasove muzej zapiše kdo je,source/contemporary-sample.csv#TNLP-C05
+sprejel,sprejel-001,TNLP-C05,Predmeti in glasovi,museums,20,muzej zapiše kdo je odločitev,sprejel,in kateri vir ji nasprotuje,source/contemporary-sample.csv#TNLP-C05
+spremembe,spremembe-001,TNLP-C10,Časopisni glas,press,9,da so se meščani bali,spremembe,navedek čustvo pripiše meščanom in,source/contemporary-sample.csv#TNLP-C10
+spremeni,spremeni-001,TNLP-C02,Preverjanje prepisa,archives,19,uredniškim prepisom napačna črka lahko,spremeni,osebno ime ali iskalni zadetek,source/contemporary-sample.csv#TNLP-C02
+spreminja,spreminja-001,TNLP-C09,Prevod in pomen,language,16,zagotavlja istega pomena jezik se,spreminja,po obdobjih krajih in družbenih,source/contemporary-sample.csv#TNLP-C09
+stanje,stanje-001,TNLP-C10,Časopisni glas,press,21,ne potrjuje kot urednikovo notranje,stanje,besedilo zahteva pregled govorca in,source/contemporary-sample.csv#TNLP-C10
+strani,strani-001,TNLP-C03,Digitalna zbirka,archives,25,posnetku skrbnik ne skriva manjkajočih,strani,,source/contemporary-sample.csv#TNLP-C03
+svoboda,svoboda-001,TNLP-C11,Iskanje besed,press,8,dolgem uvodniku večkrat ponovi besedo,svoboda,svoboda za ene svoboda za,source/contemporary-sample.csv#TNLP-C11
+svoboda,svoboda-002,TNLP-C11,Iskanje besed,press,9,uvodniku večkrat ponovi besedo svoboda,svoboda,za ene svoboda za druge,source/contemporary-sample.csv#TNLP-C11
+svoboda,svoboda-003,TNLP-C11,Iskanje besed,press,12,besedo svoboda svoboda za ene,svoboda,za druge svoboda mestu in,source/contemporary-sample.csv#TNLP-C11
+svoboda,svoboda-004,TNLP-C11,Iskanje besed,press,15,za ene svoboda za druge,svoboda,mestu in svoboda kot sklepno,source/contemporary-sample.csv#TNLP-C11
+svoboda,svoboda-005,TNLP-C11,Iskanje besed,press,18,za druge svoboda mestu in,svoboda,kot sklepno geslo urednik nato,source/contemporary-sample.csv#TNLP-C11
+svoboda,svoboda-006,TNLP-C11,Iskanje besed,press,27,urednik nato še trikrat zapiše,svoboda,svoboda svoboda drugi članki pa,source/contemporary-sample.csv#TNLP-C11
+svoboda,svoboda-007,TNLP-C11,Iskanje besed,press,28,nato še trikrat zapiše svoboda,svoboda,svoboda drugi članki pa besede,source/contemporary-sample.csv#TNLP-C11
+svoboda,svoboda-008,TNLP-C11,Iskanje besed,press,29,še trikrat zapiše svoboda svoboda,svoboda,drugi članki pa besede svoboda,source/contemporary-sample.csv#TNLP-C11
+svoboda,svoboda-009,TNLP-C11,Iskanje besed,press,34,svoboda drugi članki pa besede,svoboda,ne uporabijo uvodnik ob tem,source/contemporary-sample.csv#TNLP-C11
+tarče,tarče-001,TNLP-C10,Časopisni glas,press,27,besedilo zahteva pregled govorca in,tarče,,source/contemporary-sample.csv#TNLP-C10
+tem,tem-001,TNLP-C11,Iskanje besed,press,39,svoboda ne uporabijo uvodnik ob,tem,razpravlja odgovornosti skupnosti pravicah delu,source/contemporary-sample.csv#TNLP-C11
+temveč,temveč-001,TNLP-C12,Negotova razlaga,press,7,ni bila žalostna zaradi kritike,temveč,zaskrbljena zaradi manjkajočega vira kako,source/contemporary-sample.csv#TNLP-C12
+trikrat,trikrat-001,TNLP-C11,Iskanje besed,press,25,sklepno geslo urednik nato še,trikrat,zapiše svoboda svoboda svoboda drugi,source/contemporary-sample.csv#TNLP-C11
+uporabijo,uporabijo-001,TNLP-C11,Iskanje besed,press,36,članki pa besede svoboda ne,uporabijo,uvodnik ob tem razpravlja odgovornosti,source/contemporary-sample.csv#TNLP-C11
+urednica,urednica-001,TNLP-C12,Negotova razlaga,press,1,,urednica,ni bila žalostna zaradi kritike,source/contemporary-sample.csv#TNLP-C12
+urednik,urednik-001,TNLP-C11,Iskanje besed,press,22,in svoboda kot sklepno geslo,urednik,nato še trikrat zapiše svoboda,source/contemporary-sample.csv#TNLP-C11
+urednikovo,urednikovo-001,TNLP-C10,Časopisni glas,press,19,in ga ne potrjuje kot,urednikovo,notranje stanje besedilo zahteva pregled,source/contemporary-sample.csv#TNLP-C10
+uredniške,uredniške-001,TNLP-C08,Narečni zapis,language,7,zapis ohrani glas govorca in,uredniške,opombe jezikovni model lahko neznano,source/contemporary-sample.csv#TNLP-C08
+uredniškim,uredniškim-001,TNLP-C02,Preverjanje prepisa,archives,14,odločitve arhiv omogoča primerjavo rokopisa,uredniškim,prepisom napačna črka lahko spremeni,source/contemporary-sample.csv#TNLP-C02
+usmerja,usmerja-001,TNLP-C01,Arhivski popis,archives,23,ni nevtralna shramba njegov popis,usmerja,iskanje arhiv zato preverjamo ob,source/contemporary-sample.csv#TNLP-C01
+ustanovah,ustanovah-001,TNLP-C11,Iskanje besed,press,48,pravicah delu izobraževanju jeziku javnih,ustanovah,in političnem odločanju visoka frekvenca,source/contemporary-sample.csv#TNLP-C11
+uvodnik,uvodnik-001,TNLP-C11,Iskanje besed,press,37,pa besede svoboda ne uporabijo,uvodnik,ob tem razpravlja odgovornosti skupnosti,source/contemporary-sample.csv#TNLP-C11
+uvodniku,uvodniku-001,TNLP-C11,Iskanje besed,press,4,časopis enem dolgem,uvodniku,večkrat ponovi besedo svoboda svoboda,source/contemporary-sample.csv#TNLP-C11
+vendar,vendar-001,TNLP-C03,Digitalna zbirka,archives,15,vesela ker hitro najde pismo,vendar,rezultat še preveri ob posnetku,source/contemporary-sample.csv#TNLP-C03
+vesela,vesela-001,TNLP-C03,Digitalna zbirka,archives,10,metapodatke in prepis obiskovalka je,vesela,ker hitro najde pismo vendar,source/contemporary-sample.csv#TNLP-C03
+večkrat,večkrat-001,TNLP-C11,Iskanje besed,press,5,časopis enem dolgem uvodniku,večkrat,ponovi besedo svoboda svoboda za,source/contemporary-sample.csv#TNLP-C11
+vir,vir-001,TNLP-C05,Predmeti in glasovi,museums,23,je odločitev sprejel in kateri,vir,ji nasprotuje,source/contemporary-sample.csv#TNLP-C05
+vira,vira-001,TNLP-C12,Negotova razlaga,press,11,kritike temveč zaskrbljena zaradi manjkajočega,vira,kako čudovito je zapisala po,source/contemporary-sample.csv#TNLP-C12
+visoka,visoka-001,TNLP-C11,Iskanje besed,press,52,javnih ustanovah in političnem odločanju,visoka,frekvenca zato ne pomeni široke,source/contemporary-sample.csv#TNLP-C11
+vodja,vodja-001,TNLP-C06,Zamuda pri odprtju,museums,1,,vodja,je dejal obiskovalci se bojijo,source/contemporary-sample.csv#TNLP-C06
+vrednotenje,vrednotenje-001,TNLP-C12,Negotova razlaga,press,26,besede lahko ironiji izražajo odklonilno,vrednotenje,,source/contemporary-sample.csv#TNLP-C12
+vsakdanjem,vsakdanjem-001,TNLP-C04,Muzejska razstava,museums,4,muzej pripravlja razstavo,vsakdanjem,življenju razstava združi predmete pričevanja,source/contemporary-sample.csv#TNLP-C04
+vsebuje,vsebuje-001,TNLP-C07,Jezikovni korpus,language,3,jezikovni korpus,vsebuje,besedila različnih žanrov raziskovalka primerja,source/contemporary-sample.csv#TNLP-C07
+za,za-001,TNLP-C11,Iskanje besed,press,10,večkrat ponovi besedo svoboda svoboda,za,ene svoboda za druge svoboda,source/contemporary-sample.csv#TNLP-C11
+za,za-002,TNLP-C11,Iskanje besed,press,13,svoboda svoboda za ene svoboda,za,druge svoboda mestu in svoboda,source/contemporary-sample.csv#TNLP-C11
+zabeležijo,zabeležijo-001,TNLP-C08,Narečni zapis,language,18,obliko označi napačno raziskovalci napako,zabeležijo,namesto da bi jo prikrili,source/contemporary-sample.csv#TNLP-C08
+zadetek,zadetek-001,TNLP-C02,Preverjanje prepisa,archives,24,spremeni osebno ime ali iskalni,zadetek,,source/contemporary-sample.csv#TNLP-C02
+zagotavlja,zagotavlja-001,TNLP-C09,Prevod in pomen,language,11,različico pisma podobna beseda ne,zagotavlja,istega pomena jezik se spreminja,source/contemporary-sample.csv#TNLP-C09
+zahteva,zahteva-001,TNLP-C10,Časopisni glas,press,23,kot urednikovo notranje stanje besedilo,zahteva,pregled govorca in tarče,source/contemporary-sample.csv#TNLP-C10
+zamuda,zamuda-001,TNLP-C06,Zamuda pri odprtju,museums,15,zaprta izjemno še ena čudovita,zamuda,pri odprtju razstave jeza zapisu,source/contemporary-sample.csv#TNLP-C06
+zapis,zapis-001,TNLP-C08,Narečni zapis,language,2,narečni,zapis,ohrani glas govorca in uredniške,source/contemporary-sample.csv#TNLP-C08
+zapisal,zapisal-001,TNLP-C10,Časopisni glas,press,3,časnik je,zapisal,da so se meščani bali,source/contemporary-sample.csv#TNLP-C10
+zapisala,zapisala-001,TNLP-C12,Negotova razlaga,press,15,manjkajočega vira kako čudovito je,zapisala,po novi napaki dobesedno pozitivne,source/contemporary-sample.csv#TNLP-C12
+zapisu,zapisu-001,TNLP-C06,Zamuda pri odprtju,museums,20,zamuda pri odprtju razstave jeza,zapisu,ni nujno jeza avtorja poročila,source/contemporary-sample.csv#TNLP-C06
+zapiše,zapiše-001,TNLP-C05,Predmeti in glasovi,museums,16,opozori na spregledane glasove muzej,zapiše,kdo je odločitev sprejel in,source/contemporary-sample.csv#TNLP-C05
+zapiše,zapiše-002,TNLP-C11,Iskanje besed,press,26,geslo urednik nato še trikrat,zapiše,svoboda svoboda svoboda drugi članki,source/contemporary-sample.csv#TNLP-C11
+zaprta,zaprta-001,TNLP-C06,Zamuda pri odprtju,museums,10,se bojijo da bo zbirka,zaprta,izjemno še ena čudovita zamuda,source/contemporary-sample.csv#TNLP-C06
+zaradi,zaradi-001,TNLP-C12,Negotova razlaga,press,5,urednica ni bila žalostna,zaradi,kritike temveč zaskrbljena zaradi manjkajočega,source/contemporary-sample.csv#TNLP-C12
+zaradi,zaradi-002,TNLP-C12,Negotova razlaga,press,9,žalostna zaradi kritike temveč zaskrbljena,zaradi,manjkajočega vira kako čudovito je,source/contemporary-sample.csv#TNLP-C12
+zase,zase-001,TNLP-C05,Predmeti in glasovi,museums,5,razstava ne govori sama,zase,kustos izbere predmete skupnost pa,source/contemporary-sample.csv#TNLP-C05
+zaskrbljena,zaskrbljena-001,TNLP-C12,Negotova razlaga,press,8,bila žalostna zaradi kritike temveč,zaskrbljena,zaradi manjkajočega vira kako čudovito,source/contemporary-sample.csv#TNLP-C12
+zato,zato-001,TNLP-C01,Arhivski popis,archives,26,njegov popis usmerja iskanje arhiv,zato,preverjamo ob dokumentih arhiv pa,source/contemporary-sample.csv#TNLP-C01
+zato,zato-002,TNLP-C11,Iskanje besed,press,54,in političnem odločanju visoka frekvenca,zato,ne pomeni široke razpršenosti po,source/contemporary-sample.csv#TNLP-C11
+zbirka,zbirka-001,TNLP-C03,Digitalna zbirka,archives,2,digitalna,zbirka,poveže sliko metapodatke in prepis,source/contemporary-sample.csv#TNLP-C03
+zbirka,zbirka-002,TNLP-C06,Zamuda pri odprtju,museums,9,obiskovalci se bojijo da bo,zbirka,zaprta izjemno še ena čudovita,source/contemporary-sample.csv#TNLP-C06
+zbirko,zbirko-001,TNLP-C01,Arhivski popis,archives,14,kovač narodnem muzeju slovenije opisuje,zbirko,iz ljubljane arhiv ni nevtralna,source/contemporary-sample.csv#TNLP-C01
+združi,združi-001,TNLP-C04,Muzejska razstava,museums,7,pripravlja razstavo vsakdanjem življenju razstava,združi,predmete pričevanja in kratke razlage,source/contemporary-sample.csv#TNLP-C04
+zgodovinskim,zgodovinskim-001,TNLP-C01,Arhivski popis,archives,33,ob dokumentih arhiv pa opisujemo,zgodovinskim,kontekstom,source/contemporary-sample.csv#TNLP-C01
+časnik,časnik-001,TNLP-C10,Časopisni glas,press,1,,časnik,je zapisal da so se,source/contemporary-sample.csv#TNLP-C10
+časopis,časopis-001,TNLP-C11,Iskanje besed,press,1,,časopis,enem dolgem uvodniku večkrat ponovi,source/contemporary-sample.csv#TNLP-C11
+članki,članki-001,TNLP-C11,Iskanje besed,press,31,zapiše svoboda svoboda svoboda drugi,članki,pa besede svoboda ne uporabijo,source/contemporary-sample.csv#TNLP-C11
+črka,črka-001,TNLP-C02,Preverjanje prepisa,archives,17,primerjavo rokopisa uredniškim prepisom napačna,črka,lahko spremeni osebno ime ali,source/contemporary-sample.csv#TNLP-C02
+čudovita,čudovita-001,TNLP-C06,Zamuda pri odprtju,museums,14,zbirka zaprta izjemno še ena,čudovita,zamuda pri odprtju razstave jeza,source/contemporary-sample.csv#TNLP-C06
+čudovito,čudovito-001,TNLP-C12,Negotova razlaga,press,13,zaskrbljena zaradi manjkajočega vira kako,čudovito,je zapisala po novi napaki,source/contemporary-sample.csv#TNLP-C12
+čustvo,čustvo-001,TNLP-C10,Časopisni glas,press,11,se meščani bali spremembe navedek,čustvo,pripiše meščanom in ga ne,source/contemporary-sample.csv#TNLP-C10
+še,še-001,TNLP-C03,Digitalna zbirka,archives,17,hitro najde pismo vendar rezultat,še,preveri ob posnetku skrbnik ne,source/contemporary-sample.csv#TNLP-C03
+še,še-002,TNLP-C06,Zamuda pri odprtju,museums,12,da bo zbirka zaprta izjemno,še,ena čudovita zamuda pri odprtju,source/contemporary-sample.csv#TNLP-C06
+še,še-003,TNLP-C11,Iskanje besed,press,24,kot sklepno geslo urednik nato,še,trikrat zapiše svoboda svoboda svoboda,source/contemporary-sample.csv#TNLP-C11
+široke,široke-001,TNLP-C11,Iskanje besed,press,57,visoka frekvenca zato ne pomeni,široke,razpršenosti po dokumentih,source/contemporary-sample.csv#TNLP-C11
+žalostna,žalostna-001,TNLP-C12,Negotova razlaga,press,4,urednica ni bila,žalostna,zaradi kritike temveč zaskrbljena zaradi,source/contemporary-sample.csv#TNLP-C12
+žanrov,žanrov-001,TNLP-C07,Jezikovni korpus,language,6,jezikovni korpus vsebuje besedila različnih,žanrov,raziskovalka primerja leme pojavnice in,source/contemporary-sample.csv#TNLP-C07
+življenju,življenju-001,TNLP-C04,Muzejska razstava,museums,5,muzej pripravlja razstavo vsakdanjem,življenju,razstava združi predmete pričevanja in,source/contemporary-sample.csv#TNLP-C04

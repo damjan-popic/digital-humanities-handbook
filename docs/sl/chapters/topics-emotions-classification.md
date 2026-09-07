@@ -150,6 +150,12 @@ metapodatkih jo združujte šele po pregledu dolžine dokumentov, vzorčenja,
 negotovosti in odvisnosti virov. Sprememba ohranjenosti ali OCR se lahko kaže
 kot tematska sprememba.
 
+Vodite interpretacijski zapisnik, ki vsako oznako poveže z identifikatorjem
+izvedbe, številko sestavine, odlomki z visoko utežjo, nasprotnimi primeri in
+pregledovalcem. Če drugi bralec predlaga drugačno oznako, ohranite obe oznaki in
+dokaze, ki ju razločujejo. Tako interpretacija ostane preverljiva, ne da bi se
+pretvarjali, da je program odkril edino pravilno poimenovanje.
+
 ## Nadzorovano vrednotenje zahteva ločitev
 
 Začnite s kodirnim priročnikom, ki določi enoto, vključitve, izključitve, mešane

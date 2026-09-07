@@ -64,6 +64,20 @@ Pred interpretacijo preberite `rights-and-provenance.sl.md`,
 
 ## Postopek
 
+### 0. Napišite razslojeni vzorčni in odločitveni načrt
+
+Pred ogledom modela določite raziskovalno operacijo, potrebne plasti, vzorčni
+okvir in verjetne skupine težavnosti. Po potrebi navedite ciljna števila po
+žanru, obdobju, stanju vira, kodnem preklapljanju, nestandardnem jeziku,
+krajšavah in imenih. Določite pregled reference, shranjevanje nestrinjanj in
+nerazrešenih primerov ter nadaljnje število, ki ga boste ponovno izračunali.
+
+Vnaprej določite merilo za uspeh, pogojni uspeh ali neuspeh, vezano na trditev.
+Raziskava govorcev je na primer neuspešna, če napaka osebka spremeni vrstni red
+skupin; pogojno uspešna, če ročno pregledate vse kandidate; za raziskovalno
+iskanje pa uspešna ob zadostnem priklicu po prijavljenem pragu. Ne izmišljajte si
+univerzalnega praga CLASSLA.
+
 ### 1. Paket zgradite brez prenosa modelov
 
 V korenu repozitorija zaženite:
@@ -151,6 +165,16 @@ Oblikujte omejeno odločitev, na primer: »Pred združevanjem ročno preglejte v
 osebkova razmerja v ponudnikovem OCR.« Navedite preverjanje, ki bi ga potrebovali
 za posplošitev.
 
+### 8. Uporabite načrtovano merilo in ohranite nerazrešene primere
+
+Z `output/downstream-consequences.csv` primerjajte samodejno in referenčno
+število ter uporabite pravilo iz koraka 0. Zapišite `pass`, `conditional_pass`
+ali `fail`, opažena števila, zahtevani poseg in obseg. Dodajte tabelo nerazrešenih
+primerov z identifikatorjem vzorca, lokatorjem vira, plastjo, možnimi analizami,
+potrebnim dokazom in odločitvijo o izločitvi, ročnem pregledu ali ohranjeni
+negotovosti. Majhen imenovalec ali resnično jezikoslovno nestrinjanje naj ne
+postane gotova oznaka zgolj zato, da končate vajo.
+
 ## Neobvezna osvežitev modela za vzdrževalce
 
 Ponovni zagon je ločen od vaje, ker prenaša velike vire in se med izdajami lahko
@@ -167,7 +191,16 @@ Ukaz zapiše novega kandidata v `.cache/` in zavrne prepis potrjene izvedbe.
 Vzdrževalec mora primerjati metapodatke in anotacije, pregledati vsako spremembo
 ter pričakovane vrednosti posodobiti zavestno. Običajni CI modelov ne prenaša.
 
-## Preverjanje
+## Rezultat
+
+Pripravite kratko poročilo o preverjanju, ki vsebuje razslojeni vzorčni načrt,
+identifikator zamrznjene izvedbe, preverjeni imenovalec ene plasti, dve analizi
+napak s povezavo do vira, ponovno izračunano nadaljnjo posledico, odločitev
+`pass`, `conditional_pass` ali `fail` ter tabelo nerazrešenih primerov. Končajte
+z omejeno trditvijo in pogoji za njen ponovni pregled. Rezultatov v paketu ne
+spreminjajte, razen pri dokumentirani vzdrževalski osvežitvi.
+
+## Preverite se
 
 Postopek ste opravili, ko lahko:
 

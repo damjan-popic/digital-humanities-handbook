@@ -59,6 +59,20 @@ Read `rights-and-provenance.md`, `data-dictionary.md` and
 
 ## Workflow
 
+### 0. Write a stratified sample and decision plan
+
+Before opening model output, define the research operation, required layers,
+sampling frame and likely difficulty strata. State target counts for genre,
+period, source condition, code-switching, non-standard language, abbreviations
+and names where relevant. Define how references are reviewed, how disagreement
+and unresolved cases are stored, and which downstream count will be recalculated.
+
+Pre-register a pass, conditional-pass or fail rule tied to the claim. For
+example, a speaker-retrieval study might fail if any sampled subject error changes
+group ranking, pass conditionally if every candidate is manually reviewed, and
+pass for exploratory retrieval if recall is adequate under a declared threshold.
+Do not invent a universal CLASSLA threshold.
+
 ### 1. Rebuild without downloading models
 
 From the repository root, run:
@@ -148,6 +162,16 @@ Formulate a bounded decision such as: “For this query, manually review all
 subject relations in provider OCR before aggregation.” Name the validation that
 would be required to generalize it.
 
+### 8. Apply the planned decision and retain unresolved cases
+
+Use `output/downstream-consequences.csv` to compare one automatic and reference
+count, then apply the rule from step 0. Record `pass`, `conditional_pass` or
+`fail`, the observed counts, required intervention and scope. Add an unresolved
+table with sample ID, source locator, layer, competing analyses, evidence needed
+and whether the case is excluded, reviewed manually or carried into uncertainty.
+A small denominator or genuine linguistic disagreement is not converted to a
+confident label simply to complete the exercise.
+
 ## Optional maintainer-only model refresh
 
 Model regeneration is separate from the lesson because it downloads large
@@ -165,7 +189,16 @@ committed run. A maintainer must compare metadata and annotations, review every
 change, and update expected values deliberately. Ordinary CI never downloads
 models.
 
-## Checks
+## Output
+
+Produce a short validation note containing the stratified sample plan, frozen
+run identifier, one verified layer denominator, two source-linked error analyses,
+the recalculated downstream consequence, the pass/conditional-pass/fail decision
+and an unresolved-cases table. End with one bounded claim and the conditions
+under which it must be reviewed again. Keep the packet outputs unchanged unless
+you are performing a documented maintainer refresh.
+
+## Check yourself
 
 You have completed the workflow when you can:
 

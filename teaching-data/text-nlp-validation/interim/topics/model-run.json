@@ -1,5 +1,5 @@
 {
-  "corpus_sha256": "a0cf7e7cf9f4d0a26e92f10eb33855e58629a4be95b7304a15871a0b656ebd78",
+  "corpus_sha256": "6bb4a77389061909e5f94a2c680a094061f68214bf3e6e30f537d6062e093732",
   "documents": 12,
   "nmf": {
     "beta_loss": "kullback-leibler",
@@ -20,10 +20,11 @@
   },
   "numpy_version": "2.5.3",
   "output_sha256": {
-    "topic-components.csv": "278e4442c468648d8253a183172327f7750c143eb753d1aad942db426df9161a",
-    "topic-documents.csv": "38e69b2432a6a975adac3998ab3b34d9ca3f677ed19fd653d790b9b68e989f69"
+    "topic-components.csv": "a91e95045fcc01ddbbac8bc145b40fc0c117af92882bfdcc51989ed669564568",
+    "topic-documents.csv": "20e12c8d5e3923fbabbde74fd9a585afdae8e27fb248effc81fb396e5bb2ed22"
   },
   "python_version": "3.12.3",
+  "resource_download_date": "not applicable; scikit-learn package only",
   "run_date": "2026-09-07",
   "scikit_learn_version": "1.9.0",
   "synthetic_documents": 12,

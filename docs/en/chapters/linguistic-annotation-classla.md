@@ -146,6 +146,48 @@ This detail does not imply that one frozen run is universally reproducible.
 Hardware, packages and resources change. It makes the run identifiable and
 allows a later researcher to distinguish a deliberate update from drift.
 
+### Guidelines, treebanks and model practice
+
+Universal Dependencies (UD) publishes cross-linguistic guidelines, but an
+implemented pipeline does not annotate directly from the abstract guideline.
+It learns from particular treebanks, language-specific conventions, conversion
+histories and model objectives. A current model can therefore differ from a
+plausible guideline reading, and two treebanks can resolve a construction
+differently. Record the actual model resources and tag-set documentation, not
+only “UD”. When a distinction matters, compare examples in the relevant
+treebank, document your project rule and retain disagreement rather than quietly
+rewriting the model output.
+
+## Domain dependence and responsible intervention
+
+Keep three strings conceptually separate: the **source form** visible in a page
+or born-digital object, any **normalized form** produced by editorial policy, and
+the exact **model input**. They may coincide, but do not assume that they do.
+Store transformations and source offsets or another reversible alignment so a
+reviewer can return from annotation to evidence. If normalization changes word
+length or boundaries, document how offsets are translated.
+
+Historical spelling, dialectal and other non-standard Slovene, and code-switching
+can all fall outside the dominant training distribution. Abbreviations and names
+are difficult for a different reason: sparse forms interact with punctuation,
+capitalization, sentence boundaries and entity categories. Test these phenomena
+as named strata. A single “historical” score can hide that edited prose succeeds
+while advertisements, verse, German insertions or abbreviated women’s names fail.
+
+Intervention can take several forms. **Manual correction** is appropriate for a
+bounded, high-consequence set when decisions and earlier values remain visible.
+A **rule-based remapping** can repair a systematic tag or normalization mismatch,
+but it must be versioned, tested for false corrections and applied to new
+material—not only the examples that inspired it. A **custom lexicon** can improve
+known names or historical forms, but coverage is selective and may increase
+false positives or encode outdated authority decisions. Retraining or adapting a
+model needs sufficient licensed annotations and a held-out evaluation.
+
+Never overwrite frozen automatic output with corrected labels. Preserve source,
+prediction and reviewed reference as distinct layers. Report the downstream
+calculation before and after the intervention; otherwise a technically improved
+tag may have no demonstrated value for the research question.
+
 ## Choose only the layers the question requires
 
 More processors do not automatically produce stronger evidence. Each adds time,
@@ -182,6 +224,13 @@ error, though its response to that error still matters.
 “The model was 92% accurate” is incomplete. The unit and eligible set change by
 layer. A compact evaluation should publish the counts behind every value:
 
+For sentence segmentation, represent boundaries as positions or spans. Boundary
+precision divides correct predicted boundaries by predicted boundaries; recall
+divides them by reference boundaries; F1 combines the two. Exact sentence-span
+agreement is stricter and is useful in this packet because each sample contains
+one declared sentence. Token/span agreement should likewise say whether
+punctuation, multiword-token ranges and character offsets are eligible.
+
 | Layer | Example measure | Denominator |
 | --- | --- | --- |
 | sentence segmentation | exact sentence match | reference samples or sentences |
@@ -195,6 +244,9 @@ Do not average these into one prestige number. A perfect NER span score on two
 entities is not strong evidence, and a dependency denominator that silently
 excludes unaligned OCR tokens can flatter the result. Publish numerator,
 denominator, exclusions and an error log.
+Feature-level morphology can complement exact bundles by counting individual
+attribute/value decisions, but it answers a different question and must expose
+its own denominator.
 
 ## Preserve a result that can be audited
 
@@ -305,5 +357,5 @@ connect every consequential error to the interpretation it could change.
 - [CLASSLA source repository and usage documentation](https://github.com/clarinsi/classla).
 - Universal Dependencies. [CoNLL-U format](https://universaldependencies.org/format.html)
   and [universal dependency relations](https://universaldependencies.org/u/dep/).
-- Revisit [OCR, HTR and noisy text](ocr-htr-noisy-text.md) for the distinction
+- Revisit [Texts, corpora and OCR](texts-corpora-ocr.md) for the distinction
   between source images, recognition output, corrected text and downstream use.

@@ -90,6 +90,16 @@ Do not rank the terms by a single column. State the question each column answers
 A repeated word can have high frequency but low DF; a term can reach several
 documents yet remain confined to one theme group.
 
+The committed sensitivity table makes the reversal explicit:
+
+| Choice | `svoboda` | `raziskovalci` | Consequence |
+| --- | ---: | ---: | --- |
+| raw exact-form frequency | 9 / 330 tokens, rank 1 of four selected terms | 2 / 330, rank 4 | repetition in the long document dominates |
+| document frequency | 1 / 12 documents, rank 4 | 2 / 12, rank 2 | the less frequent term has wider document reach |
+
+These ranks use descending numerator and then Unicode term order for ties. They
+do not identify an intrinsically better term; they answer different questions.
+
 ### 4. Verify frequency and DF manually
 
 Filter `output/concordance.csv` to one term. Count rows to reproduce token
@@ -176,3 +186,7 @@ Choose two additional terms from the table with similar frequency but different
 DF or dispersion. Explain the difference with concordances. Then design a
 comparable real-corpus sample and list the metadata, OCR checks and rights review
 required before repeating the calculation.
+
+End with a claim that names both unit and measure, for example: “Within the twelve
+synthetic documents, exact lower-case *svoboda* has token frequency 9 but
+document frequency 1/12; it is repeated locally rather than widely distributed.”

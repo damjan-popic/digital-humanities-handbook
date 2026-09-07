@@ -26,6 +26,14 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def display_path(path: Path) -> str:
+    """Record repository-relative paths when possible, without hiding externals."""
+    try:
+        return path.resolve().relative_to(ROOT).as_posix()
+    except ValueError:
+        return path.resolve().as_posix()
+
+
 def normalized(text: str) -> str:
     return unicodedata.normalize("NFC", text).strip()
 
@@ -117,6 +125,7 @@ def run_classla(output: Path, resource_dir: Path, download: bool) -> None:
 
     metadata = {
         "run_date": "2026-09-07",
+        "resource_download_date": "2026-09-07",
         "language": "sl",
         "pipeline_type": "default (standard Slovene)",
         "processors": PROCESSORS.split(","),
@@ -128,8 +137,8 @@ def run_classla(output: Path, resource_dir: Path, download: bool) -> None:
         "platform": platform.platform(),
         "command": (
             "python teaching-data/text-nlp-validation/run_optional_models.py "
-            "--output .cache/text-nlp-validation-models --resources-dir "
-            ".cache/classla-resources --download"
+            f"--output {display_path(output)} --resources-dir {display_path(resource_dir)}"
+            + (" --download" if download else "")
         ),
         "resource_files": model_file_inventory(resource_dir),
         "registry_sha256": sha256(PACKET / "source/extraction-registry.json"),
@@ -222,6 +231,7 @@ def run_topics(output: Path) -> None:
     }
     metadata = {
         "run_date": "2026-09-07",
+        "resource_download_date": "not applicable; scikit-learn package only",
         "scikit_learn_version": sklearn.__version__,
         "numpy_version": numpy.__version__,
         "python_version": platform.python_version(),

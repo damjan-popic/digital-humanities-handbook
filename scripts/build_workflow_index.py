@@ -57,7 +57,24 @@ def build(lang: str) -> None:
         )
         coverage = "[Poročilo o prevodni pokritosti](../about.md#jeziki-in-prevajanje) se ob vsaki izdaji ustvari samodejno."
 
-    lines = ["---", f'title: "{title[2:]}"', 'description: "Generated catalogue of practical handbook workflows."', "---", "", title, "", intro, "", coverage, "", "## Categories" if lang == "en" else "## Kategorije", ""]
+    lines = [
+        "---",
+        f'title: "{title[2:]}"',
+        'description: "Generated catalogue of practical handbook workflows."',
+        "status: draft",
+    ]
+    if lang == "sl":
+        lines.append("translation_status: machine-assisted draft; requires human language review")
+    lines.extend(["---", "", title, ""])
+    if lang == "sl":
+        lines.extend(
+            [
+                '!!! warning "Stanje prevoda"',
+                "    Slovenski katalog je strojno podprti osnutek in pred formalno objavo potrebuje strokovni jezikovni pregled.",
+                "",
+            ]
+        )
+    lines.extend([intro, "", coverage, "", "## Categories" if lang == "en" else "## Kategorije", ""])
     for category in sorted(groups, key=str.casefold):
         lines.append(f"- **{category}** — {len(groups[category])}")
     lines.extend(["", "## All workflows" if lang == "en" else "## Vsi prevedeni postopki", ""])

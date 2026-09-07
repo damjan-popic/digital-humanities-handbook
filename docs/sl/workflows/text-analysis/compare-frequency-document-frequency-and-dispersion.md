@@ -94,6 +94,16 @@ Izrazov ne razvrstite le po enem stolpcu. Povejte, na katero vprašanje odgovori
 posamezni stolpec. Ponavljana beseda ima lahko visoko frekvenco in nizko DF;
 izraz lahko doseže več dokumentov, vendar ostane v eni tematski skupini.
 
+Potrjena tabela občutljivosti pokaže obrat:
+
+| Izbira | `svoboda` | `raziskovalci` | Posledica |
+| --- | ---: | ---: | --- |
+| frekvenca natančne oblike | 9 / 330 pojavnic, 1. mesto med štirimi izrazi | 2 / 330, 4. mesto | prevlada ponavljanje v dolgem dokumentu |
+| dokumentna frekvenca | 1 / 12 dokumentov, 4. mesto | 2 / 12, 2. mesto | manj pogosti izraz ima širši dokumentni doseg |
+
+Razvrstitev uporablja padajoči števec, izenačenja pa razreši po zapisu Unicode.
+Ne določa boljšega izraza, ampak odgovarja na različni vprašanji.
+
 ### 4. Frekvenco in DF preverite ročno
 
 `output/concordance.csv` filtrirajte na en izraz. Število vrstic mora ponoviti
@@ -179,3 +189,7 @@ Izberite dodatna izraza s podobno frekvenco, vendar različno DF ali
 razpršenostjo. Razliko pojasnite s konkordancami. Nato zasnujte primerljiv vzorec
 resničnega korpusa ter naštejte metapodatke, preglede OCR in presojo pravic, ki
 jih potrebujete pred ponovitvijo izračuna.
+
+Končajte s trditvijo, ki poimenuje enoto in mero, na primer: »V dvanajstih
+sintetičnih dokumentih ima natančna mala oblika *svoboda* frekvenco pojavnic 9,
+dokumentno frekvenco pa 1/12; ponavlja se krajevno in ni široko razporejena.«

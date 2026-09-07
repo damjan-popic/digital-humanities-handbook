@@ -5,9 +5,15 @@ category: "NLP"
 difficulty: "srednje"
 time: "45–90 min"
 tags: [CLASSLA, CSV, pandas, metapodatki]
+status: draft
+translation_status: machine-assisted draft; requires human language review
 ---
 
 # Kako rezultate CLASSLA izvozim v CSV?
+
+!!! warning "Stanje prevoda"
+    Slovensko besedilo je strojno podprti uredniški osnutek. Pred formalno
+    objavo potrebuje vsebinski in jezikovni pregled strokovnjaka za slovenščino.
 
 <div class="answer-meta" markdown>
 <span>NLP</span><span>srednje</span><span>45–90 min</span>
@@ -49,6 +55,15 @@ for path in sorted(Path("data/raw").glob("*.txt")):
 
 pd.DataFrame(rows).to_csv("output/tokens.csv", index=False, encoding="utf-8")
 ```
+
+## Pred sploščitvijo ohranite strukturo
+
+Ob priročnem CSV ohranite nespremenjeni CoNLL-U ali enakovredni strukturirani
+izvoz. Tabela besed lahko izgubi razpone večbesednih pojavnic, izboljšane
+odvisnosti, entitetne razpone, presledke in odmike znakov. Zapišite različice
+procesorja in virov ter preverite število vrstic po dokumentih. Plast, ki jo
+uporabljata frekvenčna ali relacijska poizvedba, ovrednotite s postopkom
+[vrednotenja CLASSLA na domensko specifičnem vzorcu](evaluate-classla-on-a-domain-specific-sample.md).
 
 ## Rezultat
 

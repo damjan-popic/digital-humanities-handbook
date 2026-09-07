@@ -63,6 +63,20 @@ Utemeljen rezultat zato poveže štiri dele:
 Ne dovolite, da programska oprema dele združi v razvrščeni seznam, ki je videti,
 kot da se razlaga sam.
 
+## Poimenujte opazovano in analizno enoto
+
+**Pojavnica** je ena pojavitev po tokenizaciji; **različnica** je različna
+površinska oblika ali lema po prijavljenem pravilu enakovrednosti. **Poved** in
+**odlomek** sta kontekstualni enoti, katerih meje so lahko uredniške ali modelske.
+**Dokument** je bibliografska ali analizna enota in ni samodejno ena datoteka.
+**Govorec** lahko prispeva več odlomkov, **korpus** pa je dokumentirana zbirka, iz
+katere ste jih izbrali.
+
+Opazovana enota je zapisani pojav, na primer pojavnica. Analizna enota je tisto,
+o čemer govori trditev, denimo govor, govorec ali časopisna številka. Zamenjava
+ustvari lažno natančnost: tisoči pojavnic enega govorca ne postanejo tisoči
+neodvisnih govorcev. Pred izbiro statistične metode navedite obe enoti.
+
 ## Frekvenca odgovori »kolikokrat?«
 
 **Frekvenca pojavnic** je število pojavitev določenega pojava. Lahko štejete
@@ -101,6 +115,11 @@ besedila.
 Kadar so resnične vzorčne enote avtorji, številke ali dogodki in ne datoteke,
 izračunajte tudi te enote. Obravnava vseh člankov istega plodovitega avtorja kot
 neodvisnih lahko napihne doseg osebne navade.
+
+**Razpon** je družina sorodnih mer za število delov korpusa, ki vsebujejo izraz.
+DF je dokumentni razpon, kadar so deli dokumenti; trditvi morda bolje ustreza
+razpon po avtorjih, številkah, žanrih ali obdobjih. Navedite delitev in imenovalec,
+namesto da bi objavili neopredeljeni odstotek razpona.
 
 ## Razpršenost odgovori »kako enakomerno?«
 
@@ -243,6 +262,19 @@ slog, register in slovnično strukturo. Odstranjevanje lahko pomaga tematskemu
 modelu, vendar uniči stilometrično vprašanje. Leme zmanjšajo redkost zaradi
 pregibanja, a vnesejo anotacijsko napako in lahko zabrišejo zgodovinsko pomembne
 oblike. Preizkusite občutljivost na verjetne alternative.
+
+Besedni in znakovni **n-grami** predstavljajo krajevna zaporedja. Besedni bigrami
+ohranijo obrazce, ki jih unigrami razdelijo; znakovni n-grami prenesejo del
+pregibanja in podprejo primerjavo sloga, vendar lahko modelirajo tudi sistem OCR,
+pravopis ali glave strani. Dokumentirajte dolžino, obravnavo mej, frekvenčni prag
+in število značilk. Značilke vrnite v odlomke; napovedni delček sam ni pomenljiv
+motiv.
+
+Graf frekvenc ali zemljevid zmanjšanja razsežnosti je raziskovalen, dokler
+vzorčenje in negotovost ne upravičita sklepanja. Osi, glajenje, širina razredov,
+barva in izpuščeni dokumenti lahko spremenijo vizualno trditev. Objavite tabelo
+za prikazom, pokažite dokumentno variabilnost in vzorec imenujte kandidat, dokler
+ne prestane prijavljenega preverjanja.
 
 ## Slog in stilometrija
 

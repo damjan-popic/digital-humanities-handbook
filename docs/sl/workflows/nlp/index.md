@@ -1,4 +1,15 @@
+---
+title: "Python, NLP in CLASSLA"
+description: "Slovenska učna pot za Python, jezikoslovno obdelavo in CLASSLA."
+status: draft
+translation_status: machine-assisted draft; requires human language review
+---
+
 # Python, NLP in CLASSLA
+
+!!! warning "Stanje prevoda"
+    Slovensko besedilo je strojno podprti uredniški osnutek. Pred formalno
+    objavo potrebuje vsebinski in jezikovni pregled strokovnjaka za slovenščino.
 
 Ta učna pot se začne s Pythonom, nato pa preide na datoteke, tabele in CLASSLA. Če terminala, lupine Bash ali Gita še ne poznate, začnite s [potjo temeljev tehničnega delovnega okolja](../../foundations/technical-workspace.md).
 

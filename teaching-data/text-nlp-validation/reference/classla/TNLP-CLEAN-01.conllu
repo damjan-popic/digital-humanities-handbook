@@ -18,4 +18,3 @@
 10	iz	iz	ADP	Sg	Case=Gen	11	case	_	NER=O
 11	Ljubljane	Ljubljana	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	NER=B-LOC|SpaceAfter=No
 12	.	.	PUNCT	Z	_	8	punct	_	NER=O
-

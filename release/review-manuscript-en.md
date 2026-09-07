@@ -111,19 +111,19 @@ The handbook is not four separate shelves. Chapters provide concepts and argumen
 | --- | --- | --- |
 | [What is digital humanities?](https://damjan-popic.github.io/digital-humanities-handbook/chapters/what-is-digital-humanities/) | [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/build-a-simple-cultural-heritage-map/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/) |
 | [Histories and genealogies of digital humanities](https://damjan-popic.github.io/digital-humanities-handbook/chapters/history-of-digital-humanities/) | [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/) | [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/) |
-| [Models, evidence and interpretation](https://damjan-popic.github.io/digital-humanities-handbook/chapters/models-evidence-interpretation/) | [How do I turn a research question into a scholarly paper plan?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/)<br>[How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
+| [Models, evidence and interpretation](https://damjan-popic.github.io/digital-humanities-handbook/chapters/models-evidence-interpretation/) | [How do I turn a research question into a scholarly paper plan?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/)<br>[How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[How do I test topic-model stability and interpretability?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/test-topic-model-stability-and-interpretability/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
 | [Infrastructures of digital humanities: power, access and maintenance](https://damjan-popic.github.io/digital-humanities-handbook/chapters/critical-infrastructures/) | [How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ethics/decide-whether-a-digitised-source-should-be-public/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/) |
 | [Digital humanities in Slovenia: infrastructures, languages and communities](https://damjan-popic.github.io/digital-humanities-handbook/chapters/digital-humanities-in-slovenia/) | [How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)<br>[How do I map places mentioned in a text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/map-places-mentioned-in-a-text/) | [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)<br>[Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/) |
-| [From question to method](https://damjan-popic.github.io/digital-humanities-handbook/chapters/research-design/) | [How do I build and clean a Zotero library?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/reference-management/build-and-clean-a-zotero-library/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)<br>[How do I audit AI output against source documents?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ai/audit-ai-output-against-source-documents/)<br>[How do I clone, run, change and commit a handbook project?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/foundations/clone-run-change-and-commit-a-handbook-project/) | [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
-| [Data, metadata and models](https://damjan-popic.github.io/digital-humanities-handbook/chapters/data-metadata-models/) | [How do I import and clean a small dataset in Excel?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I reconcile conflicting metadata without erasing uncertainty?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty/)<br>[How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)<br>[How do I structure a small Python NLP project?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/structure-a-small-python-nlp-project/) | [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/) |
-| [Texts, corpora and OCR](https://damjan-popic.github.io/digital-humanities-handbook/chapters/texts-corpora-ocr/) | [How do I evaluate OCR or HTR against a reference sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/bulk-download-pdfs-and-ocr-them/)<br>[How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/)<br>[How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/deduplicate-corpus-text-with-minhash/)<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) | [Web text harvesting](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/text-harvester/)<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
-| [Linguistic annotation and CLASSLA](https://damjan-popic.github.io/digital-humanities-handbook/chapters/linguistic-annotation-classla/) | [How do I evaluate OCR or HTR against a reference sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[How do I install and test CLASSLA with Python 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-and-test-classla/)<br>[How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)<br>[How do I export CLASSLA results to CSV?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/export-classla-results-to-csv/) | [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/) |
-| [Text analysis](https://damjan-popic.github.io/digital-humanities-handbook/chapters/text-analysis/) | [How do I query a corpus with CQPweb?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/query-a-corpus-with-cqpweb/)<br>[How do I compare style with function words?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-style-with-function-words/)<br>[How do I make a dispersion plot in LancsBox?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/make-a-dispersion-plot-in-lancsbox/)<br>[How do I visualise a frequency list with Voyant?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-a-frequency-list-with-voyant/) | [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
-| [Topics, sentiment and emotion](https://damjan-popic.github.io/digital-humanities-handbook/chapters/topics-emotions-classification/) | [How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[How do I explore recurring themes with NMF?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/explore-topics-with-nmf/)<br>[How do I create a sentence-similarity heat map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/create-a-sentence-similarity-heat-map/) | [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/createai/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
+| [From question to method](https://damjan-popic.github.io/digital-humanities-handbook/chapters/research-design/) | [How do I build and clean a Zotero library?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/reference-management/build-and-clean-a-zotero-library/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)<br>[How do I audit AI output against source documents?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ai/audit-ai-output-against-source-documents/)<br>[How do I clone, run, change and commit a handbook project?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/foundations/clone-run-change-and-commit-a-handbook-project/)<br>[How do I compare frequency, document frequency and dispersion?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/) | [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
+| [Data, metadata and models](https://damjan-popic.github.io/digital-humanities-handbook/chapters/data-metadata-models/) | [How do I import and clean a small dataset in Excel?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I reconcile conflicting metadata without erasing uncertainty?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty/)<br>[How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)<br>[How do I structure a small Python NLP project?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/structure-a-small-python-nlp-project/)<br>[How do I evaluate CLASSLA on a domain-specific sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/) | [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/) |
+| [Texts, corpora and OCR](https://damjan-popic.github.io/digital-humanities-handbook/chapters/texts-corpora-ocr/) | [How do I evaluate OCR or HTR against a reference sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/bulk-download-pdfs-and-ocr-them/)<br>[How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/)<br>[How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/deduplicate-corpus-text-with-minhash/)<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)<br>[How do I evaluate CLASSLA on a domain-specific sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)<br>[How do I compare frequency, document frequency and dispersion?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/) | [Web text harvesting](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/text-harvester/)<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
+| [Linguistic annotation and CLASSLA](https://damjan-popic.github.io/digital-humanities-handbook/chapters/linguistic-annotation-classla/) | [How do I evaluate OCR or HTR against a reference sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[How do I install and test CLASSLA with Python 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-and-test-classla/)<br>[How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)<br>[How do I export CLASSLA results to CSV?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/export-classla-results-to-csv/)<br>[How do I evaluate CLASSLA on a domain-specific sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/) | [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/) |
+| [Text analysis](https://damjan-popic.github.io/digital-humanities-handbook/chapters/text-analysis/) | [How do I query a corpus with CQPweb?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/query-a-corpus-with-cqpweb/)<br>[How do I compare style with function words?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-style-with-function-words/)<br>[How do I make a dispersion plot in LancsBox?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/make-a-dispersion-plot-in-lancsbox/)<br>[How do I visualise a frequency list with Voyant?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-a-frequency-list-with-voyant/)<br>[How do I compare frequency, document frequency and dispersion?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/) | [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
+| [Topics, sentiment and emotion](https://damjan-popic.github.io/digital-humanities-handbook/chapters/topics-emotions-classification/) | [How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[How do I explore recurring themes with NMF?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/explore-topics-with-nmf/)<br>[How do I create a sentence-similarity heat map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/create-a-sentence-similarity-heat-map/)<br>[How do I test topic-model stability and interpretability?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/test-topic-model-stability-and-interpretability/) | [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/createai/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
 | [Databases and SQL](https://damjan-popic.github.io/digital-humanities-handbook/chapters/databases-sql/) | [How do I model changing names, statuses and boundaries in SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/)<br>[How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
 | [GIS and spatial humanities](https://damjan-popic.github.io/digital-humanities-handbook/chapters/gis-spatial-humanities/) | [How do I georeference and check a historical map in QGIS?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/)<br>[How do I model changing place names and boundaries?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/model-changing-place-names-and-boundaries/)<br>[How do I map places mentioned in a text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/map-places-mentioned-in-a-text/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/build-a-simple-cultural-heritage-map/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
 | [Networks and visualization](https://damjan-popic.github.io/digital-humanities-handbook/chapters/networks-visualization/) | [How do I compare bipartite and projected networks?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/compare-bipartite-and-projected-networks/)<br>[How do I audit a network claim against source records?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/audit-a-network-claim-against-source-records/)<br>[How do I summarize data with PivotTables and transparent charts?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts/)<br>[How do I build a source-linked co-occurrence network?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/build-a-cooccurrence-network/)<br>[How do I build a collocation graph from AntConc to Cytoscape?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
-| [AI, ethics and reproducibility](https://damjan-popic.github.io/digital-humanities-handbook/chapters/ai-ethics-reproducibility/) | [How do I revise claims, evidence, and paragraphs?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs/)<br>[How do I audit AI output against source documents?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ai/audit-ai-output-against-source-documents/)<br>[How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ethics/decide-whether-a-digitised-source-should-be-public/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/)<br>[How do I install Python packages with pip?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-python-packages-with-pip/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/)<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/)<br>[User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/createai/)<br>[Slovenian comma-checking Word add-in](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/vejice-add-in/) |
+| [AI, ethics and reproducibility](https://damjan-popic.github.io/digital-humanities-handbook/chapters/ai-ethics-reproducibility/) | [How do I revise claims, evidence, and paragraphs?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs/)<br>[How do I audit AI output against source documents?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ai/audit-ai-output-against-source-documents/)<br>[How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ethics/decide-whether-a-digitised-source-should-be-public/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/)<br>[How do I install Python packages with pip?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-python-packages-with-pip/)<br>[How do I evaluate CLASSLA on a domain-specific sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)<br>[How do I test topic-model stability and interpretability?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/test-topic-model-stability-and-interpretability/)<br>[How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/)<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/)<br>[User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/createai/)<br>[Slovenian comma-checking Word add-in](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/vejice-add-in/) |
 | [The living open handbook](https://damjan-popic.github.io/digital-humanities-handbook/chapters/open-living-handbook/) | [How do I choose, apply, and audit a citation style?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/reference-management/choose-apply-and-audit-a-citation-style/)<br>[How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I version-control a termbase with Git?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/terminology/version-control-a-termbase-with-git/)<br>[How do I track a small project with Git?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/foundations/track-a-small-project-with-git/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/)<br>[Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/) |
 
 ## Connections work in both directions
@@ -688,6 +688,7 @@ An output becomes evidence only after checks of provenance, validity, comparison
     - [How do I turn a research question into a scholarly paper plan?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan/)
     - [How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/)
     - [How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
+    - [How do I test topic-model stability and interpretability?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/test-topic-model-stability-and-interpretability/)
     - [How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
 
     **Inspect a case study**
@@ -1529,6 +1530,7 @@ the selected evidence can and cannot support.
     - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)
     - [How do I audit AI output against source documents?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ai/audit-ai-output-against-source-documents/)
     - [How do I clone, run, change and commit a handbook project?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/foundations/clone-run-change-and-commit-a-handbook-project/)
+    - [How do I compare frequency, document frequency and dispersion?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/)
 
     **Inspect a case study**
 
@@ -1997,6 +1999,7 @@ construction, uncertainty and limits remain inspectable.
     - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)
     - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)
     - [How do I structure a small Python NLP project?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/structure-a-small-python-nlp-project/)
+    - [How do I evaluate CLASSLA on a domain-specific sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)
 
     **Inspect a case study**
 
@@ -2268,6 +2271,8 @@ Interfaces change. Record versions and access dates.
     - [How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/)
     - [How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/deduplicate-corpus-text-with-minhash/)
     - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)
+    - [How do I evaluate CLASSLA on a domain-specific sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)
+    - [How do I compare frequency, document frequency and dispersion?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/)
 
     **Inspect a case study**
 
@@ -2282,108 +2287,321 @@ Interfaces change. Record versions and access dates.
 
 ## Linguistic annotation and CLASSLA
 
+A historian asks who is represented as speaking in newspapers from two periods.
+Finding verbs is only the first problem. OCR may join words, historical forms may
+be unfamiliar to a contemporary model, a lemma may be wrong, and a dependency
+parse may connect the speaker to the wrong predicate. Which layer is reliable
+enough for the claim—and how would we know?
+
 ## Learning outcomes
 
 After this chapter, you should be able to:
 
-- distinguish tokenization, lemmatization, part-of-speech tagging, morphology, dependency parsing and named-entity recognition;
-- explain why linguistic annotation is a model-based interpretation rather than a neutral fact;
-- choose annotation layers that match a humanities research question;
-- run and document a basic CLASSLA workflow for Slovene or another supported South Slavic language;
-- validate automatic output with a task-specific sample and error analysis.
+- distinguish sentence segmentation, tokenization, lemmatization, UPOS,
+  morphology, dependency parsing and named-entity recognition;
+- explain why every annotation layer is a model-based claim;
+- choose only the layers required by a humanities research question;
+- document a CLASSLA run with package, processors, resources, environment and
+  input/output checksums;
+- construct a manually reviewed, contestable reference sample;
+- calculate layer-specific metrics with explicit denominators; and
+- trace annotation errors to source conditions and interpretive risk.
 
 ## Before you begin
 
-Take the sentence *Zala je v Novi Gorici predstavila novo Zalo.* Is *Zala* a person, a product, a place or something else? What evidence would a human use? An annotator has to make related decisions from form, context and patterns learned from data.
+Consider *Zala je v Novi Gorici predstavila novo Zalo.* Is each occurrence of
+*Zala* a person, a product, a place or something else? Which evidence would you
+use: capitalization, inflection, surrounding words, a catalogue, or knowledge
+of the event? Now imagine that OCR returned *Novl Gorici*. The entity error would
+begin before entity recognition ran.
 
-Treat annotation layers as models rather than recovered facts. [Models, evidence and interpretation](models-evidence-interpretation.md) provides the conceptual grounding for separating an annotation output from evidence warranted by task-specific validation.
+Write down one claim you hope to make from annotated text. Underline the exact
+annotation fields that the claim depends on. If you cannot name them, revisit
+[Models, evidence and interpretation](models-evidence-interpretation.md) before
+running a pipeline.
 
-## Annotation creates analytical layers
+## Core argument: annotation is an evidential chain
 
-Raw text contains characters and spacing. Most computational methods first create more explicit units:
+Linguistic annotation makes patterns queryable by adding explicit analytical
+layers to a text. It does not recover properties that were simply waiting in the
+file. A pipeline applies a segmentation policy, an annotation scheme and learned
+regularities to a particular textual representation. The result is a chain:
 
-- **tokens** divide running text into words, punctuation marks or other units;
-- **sentences** establish boundaries for local context;
-- **lemmas** group inflected forms under a dictionary-like base form;
-- **part-of-speech and morphological tags** describe grammatical category and features;
-- **dependency relations** represent syntactic links between words;
-- **named entities** identify spans such as people, organizations, locations or dates.
+> source object → transcription or OCR → normalized text → sentences and tokens
+> → lexical and grammatical labels → query → aggregation → interpretation
 
-These layers enable questions that surface forms alone cannot answer. Lemmas support comparisons across inflection. Morphological tags help examine case, number or tense. Entities can connect texts to databases and maps. Dependency relations can approximate who acts upon whom.
+An error or editorial decision at one stage constrains every later stage. A
+merged OCR form can change token count, lemma, part of speech and syntax at once.
+A normalized name can improve recognition while hiding historically meaningful
+spelling. A high aggregate score can conceal systematic failure in the very
+genre or social group being compared. Validation therefore has to follow the
+research claim through the chain, not merely report that software completed.
 
-## Every annotation is a claim
+## What the layers claim
 
-Automatic annotation is produced by rules or statistical models trained on previously annotated examples. The output therefore reflects:
+### Sentences and tokens
 
-- the annotation scheme used in training data;
-- the genres, periods and varieties represented there;
-- tokenization and normalization decisions;
-- model architecture and software version;
-- ambiguities that the available context cannot resolve.
+Sentence segmentation proposes where one local context ends and another begins.
+Tokenization proposes which strings count as words, punctuation or multiword
+units. These choices determine the denominator for most later measurements.
+Historical abbreviations, initials, hyphens, apostrophes and OCR-damaged spaces
+are common failure points. If *naroda in* becomes *narodain*, a later tagger sees
+one unknown word rather than a noun followed by a conjunction.
 
-A tag is not a discovered property in the same sense as a page number. It is a prediction under a particular representation. This distinction matters most when the research claim depends on a small category, unusual language, historical spelling, dialect, poetry or named entities absent from training data.
+Keep the original text and stable document identifier. Where possible, retain
+character offsets. CoNLL-U can represent a surface multiword token and its
+component words separately; a flattened spreadsheet often loses that relation.
 
-## CLASSLA in a South Slavic context
+### Lemmas
 
-CLASSLA provides linguistic processing pipelines and resources for Slovene and several other South Slavic languages. A typical pipeline can tokenize text, split sentences, assign lemmas and morphosyntactic descriptions, parse dependencies and recognize named entities, depending on language and model availability.
+A lemma groups inflected forms under a dictionary-like form. Lemmas are useful
+for tracing concepts across case, number, person or tense, but they can collapse
+distinctions and inherit dictionary conventions. Historical, dialectal and
+named forms are especially sensitive. A wrong lemma can remove a relevant
+occurrence from a query or add a homograph that does not belong.
 
-The practical advantage is not merely convenience. Using a documented regional infrastructure makes it easier to cite models, compare languages and understand tag sets. The methodological obligation remains the same: record the language, model or package version, processors used, input preparation and date of processing.
+Do not discard surface forms after lemmatization. Report whether counts use
+forms, lower-cased forms or lemmas, and inspect the contexts that carry the
+argument.
 
-CLASSLA is also a knowledge centre for documentation, support, training and resource publication. Its institutional role and relation to CLARIN.SI are explained in [Digital humanities in Slovenia](digital-humanities-in-slovenia.md).
+### UPOS and morphology
 
-## Choose only the layers you need
+Universal part-of-speech tags (UPOS) provide broad categories such as `NOUN`,
+`VERB`, `ADJ` and `PRON`. Morphological features add values such as case,
+gender, number, person, tense and polarity. The XPOS field can retain a
+language-specific tag. These are scheme-bound analyses, not universal labels
+that every linguist would assign identically.
 
-More annotation is not automatically better. Each layer introduces computation, storage and possible error.
+A humanities query must state its operationalization. “Agents” cannot simply be
+equated with nominative nouns; passive voice, ellipsis and non-human subjects
+complicate that shortcut. A morphology score should also say whether a token is
+correct only when its complete feature bundle matches or whether individual
+features are scored separately.
 
-For a study of lexical change, tokens, lemmas and metadata may be enough. A study of grammatical constructions may need morphology and dependencies. A map of institutions requires named entities plus entity resolution. Running every processor because it is available can make a workflow slower and harder to audit without improving the argument.
+### Dependencies
 
-Start with the research variable. Ask what observable feature is required, which annotation approximates it, and how errors in that layer would change the result.
+A dependency parse assigns each syntactic word a head and a relation such as
+`nsubj`, `obj` or `obl`. It can help find constructions rather than isolated
+words—for example, a person linked as subject to a reporting verb. But one wrong
+token boundary shifts identifiers, and one wrong predicate can change several
+arcs. Unlabelled attachment asks whether the head is correct; labelled
+attachment asks whether both head and relation are correct.
 
-## From output to a tidy table
+Dependencies approximate a syntactic reading. They do not by themselves
+identify historical agency, responsibility, quotation source or causal force.
+Those require contextual interpretation.
 
-A useful annotation table commonly contains one row per token and fields such as:
+### Named entities
 
-| document_id | sentence_id | token_id | form | lemma | upos | feats | head | deprel |
-|---|---:|---:|---|---|---|---|---:|---|
-| d001 | 1 | 1 | Raziskovalke | raziskovalka | NOUN | Case=Nom\|Gender=Fem\|Number=Plur | 2 | nsubj |
+Named-entity recognition (NER) proposes spans and categories such as person,
+organization or location. Measure exact spans as spans: token-level tag accuracy
+can look high because most tokens are not entities. Report precision as correct
+predicted spans divided by predicted spans, recall as correct predicted spans
+divided by reference spans, and F1 as their harmonic mean.
 
-Keep document metadata in a separate table linked by `document_id`. Preserve the original text and, where possible, character offsets that map annotations back to it. Exporting only a flattened spreadsheet can destroy sentence structure, multiword tokens or uncertainty.
+Recognition is not entity resolution. Tagging *Ljubljana* as a location does not
+link it to a stable authority record. *J. Novak*, *Janez Novak* and *Novak* may
+refer to one person or several. Preserve aliases, dates, source provenance and
+an unresolved state; a missing link is safer than a confident false identity.
 
-## Validation must match the research task
+## CLASSLA as regional infrastructure
 
-A global accuracy reported by a model author is not a validation of your corpus. Draw a sample from your own material and examine the layer your analysis uses.
+CLASSLA supplies pipelines and resources for Slovene and other South Slavic
+languages. Depending on language and model availability, a pipeline can perform
+tokenization, sentence segmentation, part-of-speech and morphological tagging,
+lemmatization, dependency parsing and NER. Its regional documentation and
+connection to CLARIN.SI make models and tag sets easier to locate and cite. The
+institutional context is discussed in
+[Digital humanities in Slovenia](digital-humanities-in-slovenia.md).
 
-A defensible procedure is:
+A reproducible citation needs more than the name CLASSLA. The frozen teaching
+run used CLASSLA `2.2.1`, Python `3.12.3`, CPU execution and the processors
+`tokenize,pos,lemma,depparse,ner` on 7 September 2026. Its metadata records the
+operating platform, Torch version, command, normalized input hashes, output
+hashes and the SHA-256 value and byte size of every downloaded resource file.
+Model files are not redistributed. Package and resource licences must be checked
+separately before redistribution or production use.
 
-1. stratify the sample by genre, period or other likely source of variation;
-2. manually annotate or verify the relevant features;
-3. compare automatic and reference labels;
-4. report precision, recall or agreement where appropriate;
-5. inspect recurring error types, not only one aggregate score;
-6. estimate whether errors are random or systematically related to the groups being compared.
+This detail does not imply that one frozen run is universally reproducible.
+Hardware, packages and resources change. It makes the run identifiable and
+allows a later researcher to distinguish a deliberate update from drift.
 
-If a named-entity recognizer misses historical women more often because names are abbreviated differently, a group comparison can be biased even when overall accuracy looks respectable.
+### Guidelines, treebanks and model practice
 
-## Entity recognition is not entity resolution
+Universal Dependencies (UD) publishes cross-linguistic guidelines, but an
+implemented pipeline does not annotate directly from the abstract guideline.
+It learns from particular treebanks, language-specific conventions, conversion
+histories and model objectives. A current model can therefore differ from a
+plausible guideline reading, and two treebanks can resolve a construction
+differently. Record the actual model resources and tag-set documentation, not
+only “UD”. When a distinction matters, compare examples in the relevant
+treebank, document your project rule and retain disagreement rather than quietly
+rewriting the model output.
 
-Recognizing the string *Ljubljana* as a location does not identify which database record it refers to. Likewise, *J. Novak*, *Janez Novak* and *Novak* may denote one person or several. **Entity resolution** links mentions to stable identities and records uncertainty.
+## Domain dependence and responsible intervention
 
-Use identifiers, aliases, temporal information and provenance. Do not force a link when evidence is insufficient. An unresolved mention is better than a confident but false connection.
+Keep three strings conceptually separate: the **source form** visible in a page
+or born-digital object, any **normalized form** produced by editorial policy, and
+the exact **model input**. They may coincide, but do not assume that they do.
+Store transformations and source offsets or another reversible alignment so a
+reviewer can return from annotation to evidence. If normalization changes word
+length or boundaries, document how offsets are translated.
 
-## Worked example: verbs of speaking in newspapers
+Historical spelling, dialectal and other non-standard Slovene, and code-switching
+can all fall outside the dominant training distribution. Abbreviations and names
+are difficult for a different reason: sparse forms interact with punctuation,
+capitalization, sentence boundaries and entity categories. Test these phenomena
+as named strata. A single “historical” score can hide that edited prose succeeds
+while advertisements, verse, German insertions or abbreviated women’s names fail.
 
-Suppose we want to compare reporting verbs across two newspaper periods.
+Intervention can take several forms. **Manual correction** is appropriate for a
+bounded, high-consequence set when decisions and earlier values remain visible.
+A **rule-based remapping** can repair a systematic tag or normalization mismatch,
+but it must be versioned, tested for false corrections and applied to new
+material—not only the examples that inspired it. A **custom lexicon** can improve
+known names or historical forms, but coverage is selective and may increase
+false positives or encode outdated authority decisions. Retraining or adapting a
+model needs sufficient licensed annotations and a held-out evaluation.
 
-1. Define and sample comparable newspaper material.
-2. Preserve article and date metadata.
-3. run tokenization, lemmatization, morphology and dependency parsing;
-4. identify candidate speech verbs by lemma and construction;
-5. manually check a stratified sample, including headlines and quotations;
-6. separate true reporting uses from homonyms and parsing errors;
-7. normalize counts by corpus size and article distribution;
-8. interpret differences alongside editorial and historical context.
+Never overwrite frozen automatic output with corrected labels. Preserve source,
+prediction and reviewed reference as distinct layers. Report the downstream
+calculation before and after the intervention; otherwise a technically improved
+tag may have no demonstrated value for the research question.
 
-The annotation reduces the search space. It does not replace the interpretive distinction between quotation, reported speech, metaphor and formulaic language.
+## Choose only the layers the question requires
+
+More processors do not automatically produce stronger evidence. Each adds time,
+storage and another opportunity for error.
+
+| Research operation | Likely minimum layers | Additional check |
+| --- | --- | --- |
+| Count variants of a word | tokens or lemmas | concordance and document distribution |
+| Compare case marking | tokens, UPOS, morphology | exact feature-bundle review |
+| Find speakers of reporting verbs | lemmas, UPOS, dependencies | quotation and voice review |
+| Map named institutions | tokens, NER | entity resolution and place/time disambiguation |
+
+Begin with the observable needed by the claim. Name the annotation that
+approximates it and imagine the most damaging plausible error. If the
+interpretation survives that error, the layer may be sufficient. If not,
+strengthen the sample, correction process or claim.
+
+## Build a manual reference, not an oracle
+
+A useful reference sample is manually annotated or reviewed according to an
+explicit policy. It is still a scholarly intervention. Record who reviewed it,
+when, which source layer they saw, how OCR errors were treated, which scheme was
+used and where reasonable disagreement remains. Independent double annotation
+and adjudication improve reliability; when they are absent, say so.
+
+Sample for likely variation rather than selecting only easy prose. Include
+period, genre, document condition, named entities and phenomena central to the
+question. Keep source damage separate from model error. If a provider OCR file
+has already lost a word boundary, the tagger did not cause the recognition
+error, though its response to that error still matters.
+
+## Report one denominator per layer
+
+“The model was 92% accurate” is incomplete. The unit and eligible set change by
+layer. A compact evaluation should publish the counts behind every value:
+
+For sentence segmentation, represent boundaries as positions or spans. Boundary
+precision divides correct predicted boundaries by predicted boundaries; recall
+divides them by reference boundaries; F1 combines the two. Exact sentence-span
+agreement is stricter and is useful in this packet because each sample contains
+one declared sentence. Token/span agreement should likewise say whether
+punctuation, multiword-token ranges and character offsets are eligible.
+
+| Layer | Example measure | Denominator |
+| --- | --- | --- |
+| sentence segmentation | exact sentence match | reference samples or sentences |
+| tokenization | aligned correct word tokens | reference word tokens, plus insertions/deletions reported |
+| lemma / UPOS | exact label accuracy | one-to-one aligned word tokens |
+| morphology | exact feature-bundle accuracy | aligned tokens eligible for morphology |
+| dependencies | UAS and LAS | aligned syntactic words whose heads are alignable |
+| NER | span precision / recall / F1 | predicted spans / reference spans |
+
+Do not average these into one prestige number. A perfect NER span score on two
+entities is not strong evidence, and a dependency denominator that silently
+excludes unaligned OCR tokens can flatter the result. Publish numerator,
+denominator, exclusions and an error log.
+Feature-level morphology can complement exact bundles by counting individual
+attribute/value decisions, but it answers a different question and must expose
+its own denominator.
+
+## Preserve a result that can be audited
+
+A Python object in memory is not yet a research output. Export a structured form
+that preserves document, sentence and word identifiers; surface form and lemma;
+UPOS, language-specific tag and features; head and dependency relation; entity
+span; and a link to the source layer. CoNLL-U preserves linguistic structure
+well. A token table may be convenient for analysis, but document metadata should
+remain in a linked table rather than being copied inconsistently into every row.
+
+Record normalization separately from the source. If you lower-case text,
+standardize historical spelling or repair OCR before annotation, preserve the
+unaltered layer and a reproducible transformation or decision log. A result must
+not imply that edited characters came from the page. The same rule applies to
+excluded passages and failed documents: absence from the final table is itself a
+selection decision.
+
+A minimal run record contains timestamps, package and runtime versions,
+processor order and settings, model/resource identifiers or hashes, execution
+device, input identifiers and hashes, output hashes, and the command or script
+revision. A checksum proves byte identity, not correctness. Together with a
+reference policy and error log, however, it lets another scholar reconstruct
+which evidence was seen and which decisions intervened.
+
+Set a decision rule before seeing the score. You might require manual review of
+all named entities, reject a period comparison if recall differs materially by
+period, or use annotations only to retrieve candidates for close reading. If the
+denominator is too small or disagreement concentrates in the target category,
+stop, expand validation and narrow the claim. “Unable to validate” is a useful
+methodological result, not a failed software demonstration.
+
+## Worked example: clean, historical and provider OCR
+
+The [text and NLP validation packet](../../assets/downloads/text-nlp-validation-v1.zip)
+compares four purposively selected Slovene sentences. Two are handbook-authored
+contemporary examples. The other two are aligned textual realizations of one
+1925 newspaper passage from the archival-friction packet: a manually checked
+reference transcription and the declared provider OCR. They are not independent
+historical observations.
+
+The clean sentence beginning *Kustosinja Maja Kovač* produces plausible lemmas,
+syntax and exact entity spans for the person, museum and Ljubljana. That success
+is evidence for those selected items only. In the historical reference,
+substantival *vse* invites a documented disagreement between an adverbial model
+analysis and the reference reviewer’s pronoun/subject analysis. In the provider
+OCR, *naroda in* is merged as *narodain*, *stanovske* becomes *stavovske*,
+*kulturnega* becomes *kultrunega*, and relative *ki* becomes *i*. The last error
+is analysed as a noun and helps redirect the dependency structure.
+
+The comparison separates three descriptions:
+
+1. **source condition:** what the page, transcription or provider OCR contains;
+2. **annotation behaviour:** what the frozen pipeline predicts for that input;
+3. **interpretive consequence:** which query, count or attribution could change.
+
+This is more informative than saying that OCR is “bad”. A joined conjunction
+threatens word counts and syntax; a damaged relative marker threatens clause and
+speaker attribution; an entity that remains correct may be robust for this one
+passage. The error taxonomy does not excuse the output—it locates the point at
+which intervention is warranted.
+
+## Failure modes and responsible limits
+
+Common failures include processing a PDF rather than its documented text layer,
+normalizing away meaningful spelling, losing document IDs during export,
+flattening multiword tokens, validating only familiar contemporary prose,
+reporting a global score without denominators, and treating uncertain entity
+resolution as certain.
+
+Annotation can also amplify representational inequality. Names, varieties and
+genres underrepresented in training resources may fail systematically. A query
+about women, minority-language writers or regional institutions can therefore
+be biased even when the overall metric appears high. Inspect errors by the
+groups the research compares, protect sensitive personal data, and avoid
+inferring identity or mental state from grammatical or entity labels.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Continue through the ecosystem"
@@ -2393,6 +2611,7 @@ The annotation reduces the search space. It does not replace the interpretive di
     - [How do I install and test CLASSLA with Python 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-and-test-classla/)
     - [How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)
     - [How do I export CLASSLA results to CSV?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/export-classla-results-to-csv/)
+    - [How do I evaluate CLASSLA on a domain-specific sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)
 
     **Inspect a case study**
 
@@ -2403,140 +2622,372 @@ The annotation reduces the search space. It does not replace the interpretive di
 
 ## Practice
 
-Choose one research question and create an annotation plan. Name the required layers, software and language model, input format, output fields, validation sample, expected errors and the point at which a human decision is required.
+Complete [How do I evaluate CLASSLA on a domain-specific sample?](../workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md).
+Recalculate one metric from its numerator and denominator, trace two logged
+errors back to the source layers, and write a claim that the evidence supports.
+Then write a stronger claim that it does not support and identify the missing
+validation.
 
 ## Reflection
 
-- Which categories in your material are poorly represented in standard training data?
-- Would an error affect all documents equally, or could it distort a comparison?
-- Which annotation layers can be omitted without weakening the argument?
+- Which layer carries the greatest interpretive risk in your project?
+- Does the validation sample include the periods, genres and social groups in
+  your comparison?
+- Which errors began in OCR or transcription rather than annotation?
+- What would another qualified reviewer reasonably annotate differently?
+- Which processors could you omit without weakening the argument?
 
 ## Summary
 
-Linguistic annotation makes textual patterns computable by adding predicted layers such as lemmas, grammatical tags, syntax and entities. CLASSLA offers a strong infrastructure for Slovene and South Slavic material, but its output remains model-dependent. Use only the layers demanded by the question, preserve links to source text, record versions and validate the exact feature on which the interpretation depends.
+Linguistic annotation is an evidential chain of predicted, scheme-dependent
+layers. CLASSLA provides valuable regional infrastructure, but a package name or
+global benchmark cannot validate a humanities claim. Preserve source layers,
+run only the processors you need, identify software and resources precisely,
+build a documented manual reference, report layer-specific denominators and
+connect every consequential error to the interpretation it could change.
+
+## Further reading
+
+- Ljubešić, Nikola, and Taja Kuzman. 2024. *CLASSLA-Stanza: The Next Step for
+  Linguistic Processing of South Slavic Languages*. [Archived release and
+  citation record](https://doi.org/10.5281/zenodo.13936406).
+- [CLASSLA source repository and usage documentation](https://github.com/clarinsi/classla).
+- Universal Dependencies. [CoNLL-U format](https://universaldependencies.org/format.html)
+  and [universal dependency relations](https://universaldependencies.org/u/dep/).
+- Revisit [Texts, corpora and OCR](texts-corpora-ocr.md) for the distinction
+  between source images, recognition output, corrected text and downstream use.
 
 ---
 
 ## Text analysis
 
+A newspaper uses *svoboda* repeatedly in one long editorial. Ten other articles
+never use it. Is freedom characteristic of the collection, or characteristic of
+one document? The answer changes when we count occurrences, documents or
+distribution—and changes again when OCR, genre and document length enter the
+comparison.
+
 ## Learning outcomes
 
 After this chapter, you should be able to:
 
-- distinguish counts, normalized frequencies, proportions and document frequency;
-- use concordances to connect quantitative patterns with textual context;
-- explain what keyword and collocation statistics compare;
-- design a comparison corpus and avoid common denominator errors;
-- combine exploratory computation with close reading and validation.
+- distinguish token frequency, normalized frequency, document frequency and
+  dispersion;
+- define the unit, denominator, query and corpus partition behind a count;
+- use concordances to audit meaning, quotation, negation and boilerplate;
+- explain why keywords require a comparable reference corpus;
+- interpret collocation as parameter-dependent association rather than meaning;
+- identify source, OCR, annotation and sampling effects in a quantitative result;
+- separate exploratory pattern finding from corroboration; and
+- preserve enough evidence to reproduce and challenge an analysis.
 
 ## Before you begin
 
-A word occurs 300 times in corpus A and 180 times in corpus B. Is it more characteristic of A? You cannot know until you know corpus sizes, document distribution, genre composition and how the word was counted. Numbers become evidence only after the denominator and comparison are defined.
+Suppose a word occurs 300 times in corpus A and 180 times in corpus B. Write down
+what you would need before calling it more characteristic of A. At minimum you
+need corpus sizes, document counts and distribution, genres, dates, duplicate
+policy, textual layers and a definition of the counted form. The two numbers
+alone are outputs, not evidence.
 
-For the distinction between a computational output and evidence for a humanities claim, and for the modelling choices hidden in units and categories, use [Models, evidence and interpretation](models-evidence-interpretation.md) as conceptual grounding.
+Return to [Models, evidence and interpretation](models-evidence-interpretation.md)
+if you need to distinguish a measured pattern from an interpretation. If your
+count uses lemmas or grammatical categories, read
+[Linguistic annotation and CLASSLA](linguistic-annotation-classla.md) as well.
 
-## Counting is a model of relevance
+## Core argument: every count embeds a corpus model
 
-Text analysis often begins with a count, but several counts answer different questions:
+Text analysis turns repeated textual features into structured comparisons. A
+count seems elementary, but it already embeds decisions about the source,
+document boundary, transcription, normalization, tokenization, query and
+denominator. These decisions determine what can be found.
 
-- **token frequency** counts every occurrence;
-- **document frequency** counts how many documents contain an item;
-- **normalized frequency** expresses occurrences per fixed number of tokens;
-- **proportion** expresses a category relative to an appropriate total;
-- **dispersion** describes how evenly occurrences are distributed.
+A defensible result therefore has four connected parts:
 
-A word used 100 times in one speech is not equivalent to a word used once in each of 100 speeches. Report both frequency and distribution when concentration matters.
+1. **description:** what the corpus, query and calculation contain;
+2. **evidence:** the counts, contexts, distributions and uncertainty relevant to
+   the stated question;
+3. **interpretation:** a historically and linguistically informed account of
+   what the pattern may mean; and
+4. **recommendation or decision:** the next sampling, reading or validation step.
 
-## Concordances reconnect pattern and context
+Do not let the software collapse these parts into a ranked list that appears to
+interpret itself.
 
-A keyword-in-context concordance places each occurrence in a short window. It is one of the most important bridges between distant and close reading.
+## Name the observation and analytical unit
+
+A **token** is one occurrence after tokenization; a **type** is a distinct token
+or lemma value under a declared equivalence rule. A **sentence** and **passage**
+are contextual units whose boundaries may be editorial or modelled. A
+**document** is a bibliographic or analytical unit, not automatically one file.
+A **speaker** may contribute several passages, and a **corpus** is the documented
+collection from which they were selected.
+
+The observation unit is the thing recorded—for example a token occurrence. The
+analytical unit is the thing about which the claim is made—for example a speech,
+speaker or newspaper issue. Confusing them produces false precision because
+thousands of tokens from one speaker do not become thousands of independent
+speakers. State both units before selecting a statistical method.
+
+## Frequency answers “how many times?”
+
+**Token frequency** is the number of occurrences of a defined item. The item may
+be an exact form, a case-folded form, a lemma, a phrase or an annotated pattern.
+State which. Counting `arhiv`, `Arhiv` and inflected forms together is not a
+neutral convenience; it is an operational definition.
+
+Raw counts are useful within one collection and for checking data. They are not
+directly comparable when corpus sizes differ. A **normalized frequency** uses a
+declared denominator, often:
+
+```text
+normalized frequency = item occurrences / all eligible tokens × 10,000
+```
+
+“Eligible” matters. Are punctuation, metadata, repeated headers and unreadable
+OCR fragments included? A rate per 10,000 tokens compares relative textual
+space, not the probability that a document or author uses the item. If documents
+vary greatly in length, one long text can dominate both numerator and denominator.
+
+## Document frequency answers “how widely?”
+
+**Document frequency (DF)** counts documents containing at least one occurrence.
+Its denominator is the number of eligible documents. Report both the count and
+share:
+
+```text
+document share = documents containing the item / eligible documents
+```
+
+Frequency and DF expose different corpus shapes. Ten uses in one editorial give
+frequency 10 and DF 1. One use in each of ten articles gives the same frequency
+but DF 10. Neither is inherently better. The first may signal an intensive local
+argument; the second may show wider circulation. Document boundaries must be
+meaningful: splitting one book into chapters changes DF without changing the
+text.
+
+When authors, issues or events—not files—are the real sampling units, calculate
+those units too. Treating every article by one prolific author as independent
+can exaggerate the reach of an individual habit.
+
+**Range** is a family of related measures for how many corpus subdivisions
+contain an item. DF is document range when documents are the subdivision; author,
+issue, genre or period range may better match a claim. Name the subdivision and
+its denominator rather than reporting an unqualified range percentage.
+
+## Dispersion answers “how evenly?”
+
+DF distinguishes presence from absence but ignores concentration among present
+documents. **Dispersion** describes how occurrences are distributed across
+documents or meaningful corpus parts. Always name the measure and partition.
+
+The teaching packet uses Juilland’s D across four equal authored theme groups.
+For group frequencies \(f_i\), mean \(\bar f\), population standard deviation
+\(s\), and \(n\) groups:
+
+```text
+D = 1 - (s / mean) / sqrt(n - 1)
+```
+
+With equal groups, D approaches 1 when occurrences are evenly spread and 0 when
+they are confined to one group. The measure is undefined for zero total
+frequency. Unequal corpus parts require an adjusted measure or rate-based
+approach; do not apply this classroom calculation to uneven real collections
+without reconsidering its assumptions. A dispersion value describes a partition,
+not a word’s inherent generality.
+
+Report the per-part counts beside D. A single index conceals which group drives
+the imbalance and whether the partition corresponds to the historical question.
+
+## Concordances reconnect pattern and passage
+
+A keyword-in-context (KWIC) concordance places each occurrence in a bounded left
+and right window. It bridges distant and close reading by making a query
+inspectable without pretending that a short window is the whole text.
 
 Use concordances to:
 
-- identify recurring meanings and constructions;
-- separate homographs or irrelevant uses;
-- inspect negation, quotation and irony;
-- check whether a numerical pattern is generated by boilerplate;
-- select passages for deeper reading without pretending they are statistically representative by themselves.
+- separate homographs, names and irrelevant senses;
+- inspect negation, reported speech, quotation and irony;
+- find repeated headers, advertisements or syndicated text;
+- compare grammatical constructions and nearby evaluative language;
+- locate passages for sustained reading; and
+- explain why a count changed after OCR correction or lemmatization.
 
-Sort by the words to the left or right, group by metadata and save the query definition. A screenshot of a concordance is not a reproducible result.
+Preserve document ID, occurrence number, query form, offsets or token positions,
+window size, sorting rule and source layer. A screenshot is not a reproducible
+concordance. Increase the window or open the document whenever interpretation
+depends on speaker, genre or argument beyond the snippet.
 
-## Keywords require a reference
+## Keywords require a reference corpus
 
-A **keyword** is not merely a frequent word. It is unusually frequent in a target corpus relative to a reference corpus. The result depends on both sides.
+A **keyword** is unusually frequent in a target corpus relative to a reference
+corpus. It is not merely a common or important-looking word. Both corpora define
+the result.
 
-Choose a reference corpus that controls the comparison you intend. To examine differences between political parties in the same election, use comparable genres and dates. Comparing one party's speeches with a general web corpus would mix political, genre, medium and period effects.
+The reference should control the contrast you intend. To compare two parties in
+one election, align period, genre, medium and document-selection rules. Comparing
+one party’s speeches with a general web corpus mixes party, politics, speech,
+period and medium effects. A “neutral” reference does not exist; there are only
+references suitable or unsuitable for a question.
 
-Statistical measures such as log-likelihood indicate evidence against equal relative frequency; effect-size measures such as log ratio indicate the magnitude and direction of difference. A very large corpus can make tiny, uninteresting differences statistically strong, so inspect both evidence and effect.
+Log-likelihood and related tests measure evidence against equal relative
+frequency under assumptions. Effect sizes such as log ratio describe magnitude
+and direction. Very large corpora can make tiny differences statistically strong.
+Publish target and reference counts, token totals, smoothing rule for zeros,
+statistic, effect size, multiple-comparison policy and concordances. A ranked
+keyword list is the beginning of interpretation, not its conclusion.
 
 ## Collocation measures association, not meaning
 
-Collocates are words that co-occur within a defined window or grammatical relation more than expected. Parameters matter:
+A **collocate** co-occurs with a node within a defined span or grammatical
+relation more than expected under a stated baseline. Results depend on:
 
-- node word or lemma;
-- window size and direction;
-- token or sentence boundaries;
-- minimum frequency;
-- association measure;
-- corpus subdivision and stop-list policy.
+- whether the node is a form, lemma or pattern;
+- window width, direction and sentence boundaries;
+- tokenization and stop-list policy;
+- minimum node, collocate and pair frequency;
+- association measure; and
+- corpus subdivision and metadata filters.
 
-Mutual information favours relatively exclusive, sometimes rare pairs. Frequency-based or likelihood measures tend to favour robust common patterns. No score directly proves semantic importance. Concordance inspection is essential.
+Pointwise mutual information tends to favour relatively exclusive and sometimes
+rare pairs. Frequency- or likelihood-oriented measures tend to favour robust,
+common patterns. LogDice offers a bounded association score useful for comparing
+pairs but still inherits preprocessing and sampling. No measure proves a semantic
+relation, evaluative stance or causal connection. Inspect concordances and the
+documents in which pairs cluster.
 
-## Comparability before calculation
+## Comparability comes before calculation
 
-Before comparing groups, inspect:
+Before comparing groups, audit document counts and lengths, authors, genres,
+dates, venues, duplicate and syndication patterns, missing material, OCR quality,
+language variety, annotation quality and selection rules. A difference in
+publication practice can masquerade as lexical change.
 
-- document counts and lengths;
-- genres, authors, dates and publication venues;
-- duplicate or syndicated texts;
-- OCR and annotation quality;
-- whether one author or document dominates;
-- missing categories and uneven sampling.
+Aggregates can produce Simpson’s paradox: an overall trend may reverse within
+genre, outlet or period. Produce document-level summaries and stratified results.
+A token is not an independent sample when thousands come from one document.
+Balance is not always historically desirable, but imbalance must be visible and
+interpreted rather than silently normalized away.
 
-Aggregate corpora can exhibit Simpson's paradox: a trend visible overall may reverse inside genres or time periods. Use metadata strata and document-level summaries rather than treating every token as independent.
+OCR deserves special attention. Recognition errors can reduce a word’s apparent
+frequency, create false rare words, damage function words and change corpus size.
+If one comparison group has worse OCR, a normalized rate may still be biased.
+Report quality by group, test a corrected sample and trace high-impact candidates
+to page images or reviewed transcriptions.
+
+## Preserve denominators and uncertainty
+
+Do not save only a final chart. A reusable document table should contain a stable
+ID, source citation, date, author or unresolved author status, genre, language,
+text-layer identifier, rights status, eligible-token count, OCR-quality measure
+where available, inclusion decision and reason. A query table should contain the
+query string or pattern, case and lemma policy, software/script revision,
+timestamp and input hash. Derived rows should retain the document ID so every
+aggregate can be unfolded.
+
+Uncertainty enters before statistical modelling. A missing issue changes the
+corpus denominator; uncertain dates change period strata; OCR confidence may not
+be calibrated; an ambiguous concordance changes the numerator. Record these as
+fields, ranges or alternative analyses rather than converting every uncertainty
+to a confident value. For a small corpus, showing all document counts can be more
+informative than an elaborate interval based on implausible independence.
+
+When sampling supports inference, choose an uncertainty method that respects the
+sampling unit. Resampling tokens from one article exaggerates information;
+resampling documents, authors or issues may better match the claim. Report the
+number of independent units and assumptions. A significance value cannot repair
+selection bias, unbalanced preservation or an inappropriate reference corpus.
+
+Before interpreting, establish stopping rules. Investigate if one document
+contributes more than a declared share, if OCR quality differs materially between
+groups, if top candidates vanish under a plausible preprocessing choice, or if
+concordance review rejects many matches. The remedy may be a corrected sample, a
+document-level analysis or a narrower claim—not another decorative statistic.
+
+## Preprocessing is part of the argument
+
+Case folding, Unicode normalization, punctuation removal, stop-word filtering,
+stemming and lemmatization change the analytical object. Preserve the source
+layer and record transformations in order. Apply the same declared rule across
+a comparison unless the research design justifies otherwise.
+
+Stop words are not inherently uninformative. Function words can carry style,
+register and grammatical structure. Removing them may help a topic model while
+destroying a stylometric question. Lemmas reduce inflectional sparsity but can
+import annotation error and erase historically meaningful forms. Run sensitivity
+checks with plausible alternatives instead of searching for one universally
+correct preprocessing pipeline.
+
+Word and character **n-grams** represent local sequences. Word bigrams can retain
+formulaic phrases that unigram counts split apart; character n-grams can tolerate
+some inflection and support style comparison, but can also model OCR systems,
+orthography or page furniture. Document n-gram length, boundary handling,
+frequency threshold and feature count. Interpret features by returning them to
+passages rather than treating a predictive fragment as a self-explanatory motif.
+
+A frequency plot or dimensionality-reduction map is exploratory unless the
+sampling design and uncertainty justify inference. Axes, smoothing, bin width,
+colour and omitted documents can all change the visual claim. Publish the table
+behind a visualization, show document-level variation, and describe a pattern as
+a candidate until it survives a declared check.
 
 ## Style and stylometry
 
-Stylometry compares texts through measurable features such as function-word frequencies, character n-grams, sentence lengths or grammatical patterns. It can support questions about authorship, genre, period or translation style.
+Stylometry compares documents through measurable features such as function-word
+frequencies, character n-grams, sentence length or grammatical patterns. It can
+support questions about authorship, genre, period and translation style, but a
+cluster does not name its cause.
 
-A sound workflow separates:
+Separate feature design, distance or model, evaluation and historical
+interpretation. Do not place chunks from the same work in both training and test
+sets. Repeat analyses across plausible chunk sizes, feature sets, OCR thresholds
+and metadata controls. Publication date, editor, genre and recognition quality
+can produce an apparent authorial signature.
 
-- **feature design:** what aspects of writing are represented;
-- **distance or model:** how texts are compared;
-- **evaluation:** whether the pattern generalizes beyond the sample;
-- **interpretation:** what historical or literary process could explain it.
+## From exploration to corroboration
 
-Clusters do not name their own causes. Publication date, OCR quality, editor, genre and text length can create apparent authorial groups.
+Exploration is valuable for discovering candidate patterns. It becomes circular
+when the same data select the pattern, tune the parameters and then appear to
+confirm it. Whenever possible, explore on one subset, state the claim and rule,
+then test on held-out documents or another collection. Archive unsuccessful
+queries and parameter choices as well as the attractive result.
 
-## From exploration to confirmation
+Humanities evidence does not require pretending that interpretation is a
+clinical trial. It does require honesty about when a pattern was noticed, which
+alternatives were tried and what independent material could challenge it.
 
-Exploratory analysis is valuable for finding candidate patterns. Problems arise when the same data are used to discover a pattern and then to present it as if it had been independently tested.
+## Worked example: frequency is not reach
 
-Whenever possible:
+The [text and NLP validation packet](../../assets/downloads/text-nlp-validation-v1.zip)
+contains twelve short, synthetic Slovene documents in four equal authored theme
+groups. The corpus is designed for teaching and says nothing about real archives,
+museums, language practice or newspapers.
 
-1. explore on one subset;
-2. formulate a clear claim and analysis rule;
-3. test it on held-out documents or a new corpus;
-4. report failed as well as successful comparisons;
-5. archive queries, scripts and intermediate tables.
+The term *arhiv* occurs several times but is concentrated in a small number of
+archive-themed documents. *Korpus* repeats within one language document.
+*Svoboda* is prominent in one press document but absent elsewhere. Comparing
+frequency, DF, document share, per-theme counts and Juilland’s D reveals these
+different shapes. A concordance then shows whether occurrences make the same
+claim or merely share a form.
 
-Humanities research does not need to imitate a clinical trial, but it should distinguish discovery from corroboration.
+The result supports statements about the constructed dataset: one term is
+repeated locally; another reaches more documents; both may be confined to one
+theme group. It does not support a claim about Slovene public discourse. The
+synthetic design makes the metric distinction visible precisely so that the
+student can test it before approaching consequential historical data.
 
-## Worked example: changing descriptions of migration
+## Failure modes and ethical limits
 
-A project might compare newspaper language around migration in two periods.
+Common failures include comparing raw counts across unequal corpora, using file
+names as meaningful documents, ignoring a dominant text, treating keywords as
+topics, interpreting collocation as sentiment, discarding contradictory
+concordances and reporting only a favourable parameter setting.
 
-1. Build comparable article sets and document the search strategy.
-2. Examine corpus balance and duplicates.
-3. calculate normalized lemma frequencies and document frequencies;
-4. generate keywords with effect sizes against the other period;
-5. inspect concordances for top candidates;
-6. calculate collocates for selected terms under fixed parameters;
-7. stratify by outlet and article genre;
-8. close-read representative and contradictory passages;
-9. interpret results in relation to policy events and editorial context.
-
-The output is not “the discourse” in full. It is a documented set of recurring textual contrasts in a defined collection.
+Counts can make harmful categories look objective. Search labels may reproduce
+historical slurs; entity and demographic inferences can expose people; a corpus
+may overrepresent preserved institutions and powerful speakers. Quote only what
+the argument needs, respect rights and privacy, preserve provenance and describe
+absence as a property of the collection rather than silence in the past.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Continue through the ecosystem"
@@ -2546,6 +2997,7 @@ The output is not “the discourse” in full. It is a documented set of recurri
     - [How do I compare style with function words?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-style-with-function-words/)
     - [How do I make a dispersion plot in LancsBox?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/make-a-dispersion-plot-in-lancsbox/)
     - [How do I visualise a frequency list with Voyant?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-a-frequency-list-with-voyant/)
+    - [How do I compare frequency, document frequency and dispersion?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/)
 
     **Inspect a case study**
 
@@ -2555,126 +3007,304 @@ The output is not “the discourse” in full. It is a documented set of recurri
 
 ## Practice
 
-Select two small text groups. Define a defensible denominator, calculate frequency and document frequency for five items, inspect every occurrence in context, and write one claim that the data support plus one claim they do not support.
+Complete [How do I compare frequency, document frequency and dispersion?](../workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md).
+Choose three terms with contrasting distributions. For each, write a description
+of the measure, one source-grounded interpretation and one claim the packet does
+not warrant. Inspect every concordance line before deciding.
 
 ## Reflection
 
-- What is the correct unit of analysis: token, sentence, document, author or event?
-- Could one document be driving the pattern?
-- What reference corpus would isolate the contrast you actually care about?
+- Is your unit a token, sentence, document, work, author, issue or event?
+- Could one document or duplicated passage generate the pattern?
+- Does the reference corpus isolate the contrast you intend?
+- Which preprocessing decision most changes the candidate list?
+- What passage contradicts the aggregate pattern, and why does it matter?
 
 ## Summary
 
-Text analysis turns repeated textual features into structured comparisons, but the calculations inherit every corpus and parameter choice. Counts need denominators, keywords need references, collocations need windows and stylometry needs evaluation. Concordance reading, metadata stratification and independent checking keep quantitative patterns connected to language, documents and interpretation.
+Frequency measures volume, document frequency measures reach and dispersion
+measures distribution across a declared partition. Normalization makes a chosen
+denominator explicit but does not repair an incomparable corpus. Concordances
+return counts to passages; keywords depend on a suitable reference; collocations
+depend on windows and association measures. Source criticism, metadata strata,
+sensitivity checks and close reading turn calculations into defensible evidence.
+
+## Further reading
+
+- Gries, Stefan Th. 2008. “Dispersions and Adjusted Frequencies in Corpora.”
+  *International Journal of Corpus Linguistics* 13 (4): 403–437.
+  [https://doi.org/10.1075/ijcl.13.4.02gri](https://doi.org/10.1075/ijcl.13.4.02gri).
+- Gries, Stefan Th. 2022. “Toward More Careful Corpus Statistics: Uncertainty
+  Estimates for Frequencies, Dispersion, Association, and Keyness.” *Research
+  Methods in Applied Linguistics* 1 (1).
+  [https://doi.org/10.1016/j.rmal.2021.100002](https://doi.org/10.1016/j.rmal.2021.100002).
+- Dunning, Ted. 1993. “Accurate Methods for the Statistics of Surprise and
+  Coincidence.” *Computational Linguistics* 19 (1): 61–74.
+  [ACL Anthology record](https://aclanthology.org/J93-1003/).
 
 ---
 
 ## Topics, sentiment and emotion
 
+A newspaper sentence says, “Wonderful—another delay.” A lexicon finds a positive
+word, a polarity classifier may predict negative sentiment, a topic model may
+place the sentence near museum administration, and a human reader may leave the
+speaker’s emotion unresolved. These outputs answer different questions. Which
+one could support the historical claim you want to make?
+
 ## Learning outcomes
 
 After this chapter, you should be able to:
 
-- distinguish supervised classification, unsupervised clustering and topic modelling;
-- explain the difference between sentiment, stance, affect and emotion;
-- design an annotation scheme and evaluate agreement;
-- interpret topic-model output as an exploratory representation rather than discovered truth;
-- validate model output against source texts, metadata and human judgement.
+- distinguish topic modelling, clustering and supervised classification;
+- compare bag-of-words and contextual representations;
+- explain how document segmentation, topic count, initialization and random seed
+  affect an exploratory topic solution;
+- match topics across runs and retain unstable or unmatched components;
+- design train, validation and test partitions without source leakage;
+- evaluate imbalanced classification against simple baselines and calibration;
+- distinguish lexical association, sentiment, stance, affect, expressed emotion,
+  attributed emotion and reader response; and
+- identify temporal, domain, multilingual, OCR and translation limits.
 
 ## Before you begin
 
-The sentence *Brilliant—another glorious delay* contains positive words but probably expresses negative evaluation. A model that scores vocabulary without context may fail. Before selecting a tool, decide what exactly the category means and which textual evidence licenses the label.
+For *Brilliant—another glorious delay*, list all text-supported statements you
+can make without knowing the author. The words have positive lexical associations.
+The utterance likely performs negative evaluation through irony. The target is a
+delay. The experiencer of a discrete emotion may remain unknown. The reader’s
+response is not contained in the sentence. This separation is the beginning of a
+codebook.
 
-Classification operationalizes a concept rather than discovering a self-evident category. Use [Models, evidence and interpretation](models-evidence-interpretation.md) to keep the codebook, model output, validation evidence and interpretive claim distinct.
+Classification operationalizes a concept rather than discovering a self-evident
+category. Use [Models, evidence and interpretation](models-evidence-interpretation.md)
+to keep codebook, input representation, output, validation evidence and claim
+distinct.
 
-## Classification starts with an operational definition
+## Three model families, three kinds of output
 
-A classifier assigns texts or passages to predefined categories. Examples include genre, period, author, stance, sentiment, emotion or relevance. The central research act is not choosing an algorithm; it is translating a concept into observable annotation rules.
+### Topic modelling
 
-A good codebook specifies:
+Topic models represent recurring co-occurrence patterns. Classical probabilistic
+models describe documents as mixtures of word distributions; non-negative matrix
+factorization (NMF) decomposes a non-negative document–term matrix into document
+weights and term components. Researchers may interpret a component as a theme
+after inspecting its terms and documents. The component is not an independently
+existing subject and does not arrive with a trustworthy name.
 
-- the unit to label: sentence, paragraph, document or event;
-- category definitions and boundaries;
-- inclusion and exclusion examples;
-- treatment of uncertainty, mixed cases and absence;
-- the intended use of the labels;
-- known cultural, historical and genre limitations.
+### Clustering
 
-If trained annotators cannot apply a category consistently, a model cannot repair the conceptual ambiguity.
+Clustering groups observations by similarity under a chosen representation and
+distance. A cluster usually assigns an observation to a group, whereas a topic
+model can give one document weights across multiple components. Boundaries,
+cluster shape and even the meaning of distance depend on the method. Calling a
+cluster a topic does not make its members share one historical cause.
 
-## Sentiment is not emotion
+### Supervised classification
 
-**Sentiment analysis** usually predicts evaluative polarity—positive, negative or neutral—toward a target. **Stance** concerns support, opposition or positioning toward a proposition or actor. **Emotion analysis** attempts categories or dimensions such as joy, fear, anger, sadness, arousal or valence. **Affect** may refer more broadly to expressed or evoked intensity.
+A classifier learns to predict categories already defined in labelled data:
+genre, relevance, sentiment, stance, emotion or another operational label. Its
+quality cannot exceed the coherence and coverage of the codebook and annotations.
+Unlike exploratory topics, supervised labels have declared targets, but they are
+still constructed research variables rather than natural kinds.
 
-These are not interchangeable. A historical letter may describe fear without the author being afraid; a tragedy may evoke sadness while containing little negative evaluation; satire may use praise to criticize. State whether the aim is to classify wording, narrator, character, speaker, target or reader response.
+## Units and representations change the question
 
-## Three common approaches
+A model cannot represent what segmentation removes. Whole books emphasize broad
+vocabulary; chapters or passages reveal local shifts; sentences help contextual
+classification but may lose speaker and argument. Sliding windows duplicate
+context and violate independence if they are treated as separate documents.
+Preserve the source document ID through every segment so train/test leakage and
+aggregation remain visible.
 
-### Lexicon-based methods
+A **bag-of-words** representation records forms, lemmas or n-grams while largely
+ignoring order. It is sparse and inspectable: top weights can be traced to exact
+terms. It struggles with long-distance context, word sense, negation and irony.
+A **contextual representation** maps a word or passage using a learned model that
+encodes surrounding language. It can capture distinctions missed by counts, but
+inherits opaque training data, model version, tokenization, language coverage and
+prompt or pooling decisions. Greater representational complexity does not remove
+the need for source reading.
 
-A lexicon maps words to scores or categories. It is transparent and easy to inspect, but context, negation, intensification, metaphor, domain shift and morphology can undermine it. For Slovene, inflection and lemmatization choices matter, and translated lexicons need cultural validation.
+For Slovene and code-switched material, test the exact language variety. A
+multilingual model may allocate capacity unevenly across languages; a
+Slovene-specific model may mishandle German, Italian, Croatian or dialectal
+passages. Translation is not a neutral preprocessing shortcut. It changes lexical
+choice, rhythm, named entities, sentiment cues and possibly topic structure, so a
+translated corpus is a new modelled layer with its own provenance.
 
-### Supervised models
+## Topic solutions are conditional
 
-A supervised model learns from labelled examples. Its ceiling is set by label quality and representativeness. Split data by document, author or source where leakage is possible. A random sentence split can make performance look excellent because nearly identical passages occur in both training and test sets.
+Results depend on document segmentation, vocabulary, normalization, stop list,
+minimum and maximum document frequency, weighting, component count, model family,
+initialization, random seed, convergence settings, corpus composition and
+duplicates. OCR errors may become high-weight rare terms; lemmatization may reduce
+inflectional sparsity while importing annotation error.
 
-### Prompted language models
+The **topic count** controls granularity. Too few components can merge distinct
+patterns; too many can split one pattern, isolate a document or model noise.
+There is rarely one hidden correct count. Compare several counts that correspond
+to plausible levels of inquiry and report splits, merges and disappearances.
 
-A language model can classify using instructions and examples, but its behaviour can vary with wording, model version and context length. Treat prompts as part of the method, preserve exact inputs and outputs, test stability and do not substitute fluent explanations for evaluation.
+Randomized initialization searches a solution space with multiple local optima.
+Setting a **random seed** makes one run repeatable, not stable. Repeat multiple
+seeds under the same settings. Then change topic count or segmentation to test a
+different source of sensitivity.
 
-## Evaluation beyond accuracy
+## Match topics before comparing them
 
-For imbalanced categories, accuracy can be misleading. Report a confusion matrix and class-specific precision, recall and F1 where appropriate. Compare against simple baselines: majority class, lexicon rule or metadata-only model.
+Topic number is arbitrary across runs: topic 1 in seed 7 need not be topic 1 in
+seed 19. Define a matching rule. A transparent teaching rule can compare sets of
+top terms using Jaccard overlap:
 
-Also ask:
+```text
+J(A, B) = |A ∩ B| / |A ∪ B|
+```
 
-- Are errors concentrated in one genre, period or social group?
-- Does the model learn document source rather than the intended concept?
-- Are uncertain human cases counted as model failures without acknowledging ambiguity?
-- Would the remaining error change the historical or literary conclusion?
+Pair topics one-to-one to maximize total overlap, using a documented assignment
+method and tie rule. Matching by document weights or a distributional distance
+may be preferable in a larger study. Whatever the rule, retain low-overlap and
+unmatched topics. They are evidence of instability, not inconvenient rows.
 
-## Topic models are lenses
+The issue is not whether a score crosses a universal threshold. Inspect whether
+the same terms and documents support a comparable reading. A numerically coherent
+topic can be boilerplate, OCR damage or one prolific source. Conversely, a
+historically meaningful pattern can use varied vocabulary and score modestly.
+Numerical coherence and interpretive validity are different judgments.
 
-Topic models and related clustering methods reduce a document-term or embedding space into recurring patterns. In a probabilistic topic model, a “topic” is a distribution over words and documents, not a ready-made subject with a natural name.
+## Human interpretation is part of the method
 
-Results depend on:
+For every reported component, read several high-weight documents, a middling
+document, a low or contradictory document, and documents from relevant metadata
+groups. Record a provisional label, evidence passages, exclusions, uncertainty
+and alternative labels. The label must be narrower than the observed pattern.
+“Archival description vocabulary in this synthetic set” is safer than “the
+archive topic in Slovene culture.”
 
-- preprocessing and vocabulary;
-- unit of analysis and document length;
-- number of topics or clusters;
-- random initialization and hyperparameters;
-- model family, such as LDA, NMF or embedding-based clustering;
-- corpus composition and duplicated text.
+Topic prevalence is a model weight, not the proportion of real-world attention.
+Aggregate it by metadata only after checking document length, sampling,
+uncertainty and source dependence. A change in preservation or OCR quality can
+appear as thematic change.
 
-Topic labels are supplied by researchers after inspecting words and documents. A label should therefore be accompanied by representative documents, negative cases and uncertainty—not merely a word cloud.
+Keep an interpretation ledger that joins each label to its run identifier,
+component number, high-weight passages, counterexamples and reviewer. If a
+second reader proposes a different label, preserve both labels and the evidence
+that distinguishes them. This makes interpretation auditable without pretending
+that the software discovered a uniquely correct name.
 
-## Stability and interpretability
+## Supervised evaluation requires separation
 
-A coherent-looking topic can be unstable across random seeds or minor corpus changes. Run multiple configurations and compare whether the pattern persists. Statistical coherence scores may help select candidates, but they do not replace domain interpretation.
+Begin with a codebook that defines unit, inclusion, exclusion, mixed and uncertain
+cases, intended use and consequences of false positives and false negatives.
+Pilot it with more than one annotator where feasible. Agreement is evidence about
+the codebook and task; disagreement can reveal genuine interpretive complexity.
+Do not erase it by forced adjudication without retaining the earlier decisions.
 
-A defensible topic-analysis report includes:
+Separate **training**, **validation** and **test** roles. Training fits parameters;
+validation selects features, thresholds or prompts; a held-out test estimates
+performance after those choices. Split by document, author, issue or source when
+segments could leak. Near duplicates in train and test can create impressive but
+meaningless scores.
 
-1. corpus and preprocessing decisions;
-2. model and parameter settings;
-3. selection process for the reported solution;
-4. representative and contradictory documents;
-5. topic prevalence by relevant metadata with uncertainty;
-6. sensitivity to another seed, model or topic count;
-7. an account of what the model excludes or conflates.
+Compare against simple baselines: majority class, stratified random prediction,
+a transparent lexical rule or metadata-only model. For imbalanced labels, report
+a confusion matrix and class-specific precision, recall and F1 rather than only
+accuracy. Macro averages weight classes equally; micro averages weight instances.
+State which question the average answers.
 
-## Worked example: emotional framing in parliamentary debate
+When a score is used as a probability or to set review priority, inspect
+**calibration**: among cases assigned probability 0.8, is the label correct about
+80% of the time on appropriate held-out data? Ranking can be useful even when
+calibration is poor, but the value must not be interpreted as confidence without
+evidence.
 
-Suppose we study emotional framing around climate policy.
+Temporal and domain shift limit every evaluation. A classifier trained on modern
+reviews may learn polarity words that do not transfer to historical letters.
+Party, genre, source platform, OCR system or annotation convention can change.
+Report performance by the strata relevant to the research and revalidate after a
+substantive shift.
 
-1. Define the target: emotion words used by speakers, attributed emotion, or emotional framing of policy.
-2. Sample debates and preserve speaker, party, date and agenda metadata.
-3. Develop a codebook on a pilot sample and revise ambiguous categories.
-4. Have at least two annotators label a subset and discuss disagreement.
-5. Compare a lexicon baseline, a supervised model and a prompted model if feasible.
-6. Test by party, period and speech type, not only overall.
-7. Read false positives, false negatives and high-confidence cases.
-8. Use topic or cluster analysis only as a complementary exploratory view.
-9. Present model output as evidence about language in the corpus, not direct access to speakers' inner states.
+## Sentiment, stance, affect and emotion are not synonyms
+
+**Sentiment** usually means positive, negative or neutral evaluation toward a
+target. **Stance** concerns support, opposition or positioning toward a
+proposition or actor. **Affect** can refer broadly to expressed or evoked valence
+and intensity. **Emotion** may use discrete categories such as joy, fear, anger
+and sadness or dimensional schemes such as valence and arousal. Define rather
+than interchange these terms.
+
+Emotion work needs further roles:
+
+- **lexical association:** a form is associated with a category in a lexicon;
+- **expressed emotion:** wording presents an emotion as currently expressed;
+- **attributed emotion:** narrator or speaker assigns emotion to someone else;
+- **experiencer:** the represented bearer of the emotion;
+- **target or stimulus:** the person, object, event or proposition toward which
+  the emotion is directed or which evokes it;
+- **quoted speech:** an embedded voice whose wording must not be transferred to
+  the reporter or author;
+- **narrator stance:** the narrator’s evaluative position, which may differ from
+  every character’s emotion; and
+- **reader response:** an empirical or theoretical claim about readers, not a
+  label recoverable directly from words on the page.
+
+Negation can cancel *sad*: “she was not sad.” Modality weakens commitment: “she
+may have feared” differs from “she feared.” Irony can reverse evaluative force
+without licensing a discrete emotion: “How wonderful” after another failure.
+Metalinguistic mention also matters: “anger in the record is not necessarily the
+author’s anger.” A lexicon hit proves lexical association only.
+
+## A transparent lexical baseline
+
+A lexicon is useful because every match can be inspected. Record language,
+version, source, construction method, categories, unit, matching rule, licence
+and redistribution terms. Do not copy a third-party lexicon into a teaching
+packet merely because it is downloadable. Inflection and lemmatization matter in
+Slovene, and translated categories need linguistic and cultural validation.
+
+A baseline should preserve zero-match cases, false positives and false negatives.
+Adjusting a lexicon after reading evaluation examples is model development; test
+the revision on different examples. Sensitivity to exact forms versus lemmas, or
+to adding one documented entry, reveals what the method gains and loses.
+
+## Recurring bounded comparison
+
+The [text and NLP validation packet](../../assets/downloads/text-nlp-validation-v1.zip)
+supports a deliberately small comparison. Its emotion sample has eight synthetic
+sentences and an original eight-entry teaching micro-lexicon. Its topic sample
+has twelve synthetic documents. Neither estimates a historical population.
+
+| Method | Unit and input | Output and validation | Supported claim | Unsupported claim | Gain, loss and known failure |
+| --- | --- | --- | --- | --- | --- |
+| exact-form lexicon | sentence; surface forms | category hits compared with eight reviewed cases | which declared forms match | who truly feels an emotion | transparent; misses inflection and context |
+| manual emotion annotation | sentence plus context and codebook | emotion, experiencer, target, voice, negation, irony, uncertainty; one reviewer | how the codebook was applied | objective psychology or full-corpus prevalence | contextual; contestable and labour-intensive |
+| supervised classifier | would require labelled train/validation/test units | deliberately not fitted: eight cases are inadequate | none for this packet | predictive performance | omission prevents a decorative, leaky model |
+| NMF topic exploration | document; TF-IDF bag of words | 2, 3 and 4 components × seeds 7, 19 and 31; matched terms and read passages | sensitivity of this synthetic representation | general thematic structure | shows splits and instability; tiny and vocabulary-bound |
+
+The emotion examples include quotation (*obiskovalci se bojijo*), negated
+sadness, metalinguistic *jeza*, attributed fear, ironic *čudovita* and a zero-match
+past-tense form *bali*. Exact matching therefore yields observable false positives
+and a false negative. Manual annotation identifies experiencer and target and may
+leave irony unresolved rather than invent a feeling.
+
+The NMF demonstration holds vectorization fixed while changing seed and component
+count. Some components retain related terms and documents; others merge archives,
+museums, language and press vocabulary differently. That is a lesson about
+sensitivity, not evidence that the authored themes were “discovered.”
+
+## Failure modes and ethical limits
+
+Common failures include naming topics from top words alone, choosing a topic count
+because the chart looks tidy, discarding unstable runs, splitting sentences from
+one source across train and test, reporting accuracy for an imbalanced task,
+treating model probability as calibrated confidence and translating material
+without recording the intervention.
+
+Emotion and stance labels can pathologize people, infer protected attributes or
+misrepresent quoted speakers. Historical vocabulary may encode violence and
+stigma. Minimize personal data, preserve voice and source context, document
+uncertainty, audit errors by relevant groups and avoid claims about inner states
+that the text cannot warrant. Check corpus, lexicon and model licences separately.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Continue through the ecosystem"
@@ -2683,6 +3313,7 @@ Suppose we study emotional framing around climate policy.
     - [How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
     - [How do I explore recurring themes with NMF?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/explore-topics-with-nmf/)
     - [How do I create a sentence-similarity heat map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/create-a-sentence-similarity-heat-map/)
+    - [How do I test topic-model stability and interpretability?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/test-topic-model-stability-and-interpretability/)
 
     **Inspect a case study**
 
@@ -2693,17 +3324,47 @@ Suppose we study emotional framing around climate policy.
 
 ## Practice
 
-Write a one-page codebook for one category: relevance, sentiment, stance or emotion. Include five positive examples, five exclusions, two uncertain cases, the unit of analysis and the consequences of a false positive and false negative.
+Complete both paired workflows:
+
+1. [How do I test topic-model stability and interpretability?](../workflows/text-analysis/test-topic-model-stability-and-interpretability.md)
+2. [How do I analyse emotion with a lexicon and a manual check?](../workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)
+
+For each, write one supported and one unsupported claim. Identify which change in
+source, representation or codebook would most threaten the supported claim.
 
 ## Reflection
 
-- Are you measuring language, an attributed state, or a psychological state?
-- Could a model predict the label from source or period without reading the relevant passage?
-- Which human disagreements reveal genuine conceptual complexity rather than poor annotation?
+- Are you organizing lexical patterns, predicting a codebook label or inferring a
+  human state?
+- Which documents or speakers could leak across evaluation partitions?
+- Which unstable topic was most tempting to name, and what contradicted it?
+- Does a quoted emotion belong to the quoted speaker, narrator, author or none of
+  these without more evidence?
+- What temporal, domain or language shift requires new validation?
 
 ## Summary
 
-Classification and topic analysis can organize large text collections, but labels and themes are constructed through operational definitions, data and modelling choices. Sentiment is not emotion, a topic is not an independently existing subject, and fluent model output is not validation. Codebooks, baselines, held-out evaluation, subgroup error analysis, sensitivity checks and close reading turn these methods into defensible humanities evidence.
+Topic modelling, clustering and supervised classification produce different
+representations and require different validation. Topic counts, seeds,
+initialization, segmentation and matching rules make stability an empirical
+question. Supervised labels require separated data, baselines, class-aware metrics
+and shift tests. Emotion analysis must distinguish words, evaluation, voice,
+experiencer, target and reader response. Source-linked examples, retained
+uncertainty and human reading keep these outputs within defensible claims.
+
+## Further reading
+
+- Su, Jinyu, David Greene, and Derek O’Callaghan. 2016. “Topic Stability over
+  Noisy Sources.” [ACL Anthology](https://aclanthology.org/W16-3913/).
+- Morstatter, Fred, and Huan Liu. 2018. “In Search of Coherence and Consensus:
+  Measuring the Interpretability of Statistical Topics.” *Journal of Machine
+  Learning Research* 18 (169): 1–32.
+  [JMLR article](https://jmlr.org/papers/v18/17-069.html).
+- Bostan, Laura Ana Maria, Evgeny Kim, and Roman Klinger. 2020. “GoodNewsEveryone:
+  A Corpus of News Headlines Annotated with Emotions, Semantic Roles, and Reader
+  Perception.” [ACL Anthology](https://aclanthology.org/2020.peoples-1.12/).
+- Reschke, Kevin, and Pranav Anand. 2011. “Extracting Contextual Evaluativity.”
+  [ACL Anthology](https://aclanthology.org/W11-1511/).
 
 ---
 
@@ -3611,6 +4272,9 @@ The system accelerates drafting; archivists remain responsible for description a
     - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)
     - [How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/)
     - [How do I install Python packages with pip?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-python-packages-with-pip/)
+    - [How do I evaluate CLASSLA on a domain-specific sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)
+    - [How do I test topic-model stability and interpretability?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/test-topic-model-stability-and-interpretability/)
+    - [How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
 
     **Inspect a case study**
 

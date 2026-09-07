@@ -5,6 +5,7 @@ category: "NLP"
 difficulty: "beginner"
 time: "30–60 min"
 tags: [Python, CLASSLA, Slovene, NLP, installation]
+status: draft
 ---
 
 # How do I install and test CLASSLA with Python 3.12?
@@ -174,6 +175,15 @@ For a teaching or starter project, a shorter hand-written file may be clearer:
 classla
 pandas
 ```
+
+## Record and validate the installed run
+
+A package lock does not identify downloaded model resources. Record the package
+and Python versions, processor list, model download date and directory, CPU/GPU
+setting, input/output hashes, and available resource-file hashes. Preserve the
+first automatic output rather than replacing it with corrections. Installation
+success is not research validation; continue with
+[the domain-specific CLASSLA evaluation workflow](evaluate-classla-on-a-domain-specific-sample.md).
 
 ## Further reading or useful links
 

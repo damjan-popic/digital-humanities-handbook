@@ -63,4 +63,3 @@
 55	vsenarodne	vsenaroden	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	56	amod	_	NER=O
 56	pravice	pravica	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	48	obj	_	NER=O|SpaceAfter=No
 57	.	.	PUNCT	Z	_	4	punct	_	NER=O
-

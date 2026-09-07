@@ -1,0 +1,13 @@
+doc_id,title,theme,eligible_tokens,synthetic,rights_status
+TNLP-C01,Arhivski popis,archives,34,true,handbook-authored CC BY 4.0 teaching text
+TNLP-C02,Preverjanje prepisa,archives,24,true,handbook-authored CC BY 4.0 teaching text
+TNLP-C03,Digitalna zbirka,archives,25,true,handbook-authored CC BY 4.0 teaching text
+TNLP-C04,Muzejska razstava,museums,18,true,handbook-authored CC BY 4.0 teaching text
+TNLP-C05,Predmeti in glasovi,museums,25,true,handbook-authored CC BY 4.0 teaching text
+TNLP-C06,Zamuda pri odprtju,museums,25,true,handbook-authored CC BY 4.0 teaching text
+TNLP-C07,Jezikovni korpus,language,21,true,handbook-authored CC BY 4.0 teaching text
+TNLP-C08,Narečni zapis,language,23,true,handbook-authored CC BY 4.0 teaching text
+TNLP-C09,Prevod in pomen,language,22,true,handbook-authored CC BY 4.0 teaching text
+TNLP-C10,Časopisni glas,press,27,true,handbook-authored CC BY 4.0 teaching text
+TNLP-C11,Iskanje besed,press,60,true,handbook-authored CC BY 4.0 teaching text
+TNLP-C12,Negotova razlaga,press,26,true,handbook-authored CC BY 4.0 teaching text

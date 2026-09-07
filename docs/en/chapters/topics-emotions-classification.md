@@ -147,6 +147,12 @@ Aggregate it by metadata only after checking document length, sampling,
 uncertainty and source dependence. A change in preservation or OCR quality can
 appear as thematic change.
 
+Keep an interpretation ledger that joins each label to its run identifier,
+component number, high-weight passages, counterexamples and reviewer. If a
+second reader proposes a different label, preserve both labels and the evidence
+that distinguishes them. This makes interpretation auditable without pretending
+that the software discovered a uniquely correct name.
+
 ## Supervised evaluation requires separation
 
 Begin with a codebook that defines unit, inclusion, exclusion, mixed and uncertain

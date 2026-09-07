@@ -59,6 +59,21 @@ A defensible result therefore has four connected parts:
 Do not let the software collapse these parts into a ranked list that appears to
 interpret itself.
 
+## Name the observation and analytical unit
+
+A **token** is one occurrence after tokenization; a **type** is a distinct token
+or lemma value under a declared equivalence rule. A **sentence** and **passage**
+are contextual units whose boundaries may be editorial or modelled. A
+**document** is a bibliographic or analytical unit, not automatically one file.
+A **speaker** may contribute several passages, and a **corpus** is the documented
+collection from which they were selected.
+
+The observation unit is the thing recorded—for example a token occurrence. The
+analytical unit is the thing about which the claim is made—for example a speech,
+speaker or newspaper issue. Confusing them produces false precision because
+thousands of tokens from one speaker do not become thousands of independent
+speakers. State both units before selecting a statistical method.
+
 ## Frequency answers “how many times?”
 
 **Token frequency** is the number of occurrences of a defined item. The item may
@@ -99,6 +114,11 @@ text.
 When authors, issues or events—not files—are the real sampling units, calculate
 those units too. Treating every article by one prolific author as independent
 can exaggerate the reach of an individual habit.
+
+**Range** is a family of related measures for how many corpus subdivisions
+contain an item. DF is document range when documents are the subdivision; author,
+issue, genre or period range may better match a claim. Name the subdivision and
+its denominator rather than reporting an unqualified range percentage.
 
 ## Dispersion answers “how evenly?”
 
@@ -243,6 +263,19 @@ destroying a stylometric question. Lemmas reduce inflectional sparsity but can
 import annotation error and erase historically meaningful forms. Run sensitivity
 checks with plausible alternatives instead of searching for one universally
 correct preprocessing pipeline.
+
+Word and character **n-grams** represent local sequences. Word bigrams can retain
+formulaic phrases that unigram counts split apart; character n-grams can tolerate
+some inflection and support style comparison, but can also model OCR systems,
+orthography or page furniture. Document n-gram length, boundary handling,
+frequency threshold and feature count. Interpret features by returning them to
+passages rather than treating a predictive fragment as a self-explanatory motif.
+
+A frequency plot or dimensionality-reduction map is exploratory unless the
+sampling design and uncertainty justify inference. Axes, smoothing, bin width,
+colour and omitted documents can all change the visual claim. Publish the table
+behind a visualization, show document-level variation, and describe a pattern as
+a candidate until it survives a declared check.
 
 ## Style and stylometry
 

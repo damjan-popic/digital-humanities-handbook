@@ -16,4 +16,3 @@
 8	negotove	negotov	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	NER=O
 9	odločitve	odločitev	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	NER=O|SpaceAfter=No
 10	.	.	PUNCT	Z	_	3	punct	_	NER=O
-

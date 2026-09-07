@@ -1,3 +1,9 @@
+---
+title: "Glossary"
+description: "Working definitions for the handbook's methods and research objects."
+status: draft
+---
+
 # Glossary
 
 **Annotation**  
@@ -8,6 +14,12 @@ Application programming interface: a documented way for software to request data
 
 **Corpus**  
 A documented collection of texts assembled for analysis. A corpus has scope, composition, metadata, transformations and limits; it is not merely a folder of files.
+
+**Dispersion**
+The distribution or concentration of occurrences across declared corpus parts. A dispersion value is meaningful only with its measure, partition and per-part counts.
+
+**Document frequency**
+The number of eligible documents containing at least one occurrence of an item. It measures document reach, not total repetition.
 
 **Data model**  
 An explicit representation of the entities, attributes, relationships and constraints relevant to a project.
@@ -69,6 +81,9 @@ The ability to obtain the same or acceptably equivalent result from the same dat
 **Sentiment analysis**  
 Classification of evaluative polarity, usually toward a target. It is not equivalent to emotion, stance or psychological state.
 
+**Stance**
+Support, opposition or positioning toward a proposition or actor. Stance is not interchangeable with sentiment or emotion.
+
 **SQL**  
 Structured Query Language, used to define, filter, join, aggregate and inspect tables in relational databases.
 
@@ -80,6 +95,12 @@ Text Encoding Initiative: a community and set of XML guidelines for representing
 
 **Topic model**  
 A model that represents recurring patterns of words or document features. A topic is a model component interpreted and labelled by researchers, not a naturally discovered subject.
+
+**Topic stability**
+The degree to which comparable components recur across model runs or plausible settings after topics have been matched by a declared rule. Stability does not establish interpretive validity.
+
+**Token and type**
+A token is one occurrence produced by a declared tokenization rule; a type is a distinct value under a declared equivalence rule, such as surface form or lemma.
 
 **Version control**  
 A system, such as Git, that records changes to files and supports comparison, review, branching and restoration.
