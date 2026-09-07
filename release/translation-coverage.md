@@ -1,8 +1,8 @@
 # Translation coverage
 
-- English Markdown pages: **155**
-- Slovene counterparts: **81**
-- Coverage: **52.3%**
+- English Markdown pages: **158**
+- Slovene counterparts: **84**
+- Coverage: **53.2%**
 - English pages currently using fallback in Slovene: **74**
 
 The stable chapters and learning paths must remain fully paired. The inherited workflow library is translated incrementally; untranslated pages are served from the English default edition and are not counted as Slovene translations.

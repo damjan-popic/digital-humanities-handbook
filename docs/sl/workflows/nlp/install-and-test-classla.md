@@ -5,9 +5,15 @@ category: "NLP"
 difficulty: "začetno"
 time: "30–60 min"
 tags: [CLASSLA, Python, slovenščina, namestitev]
+status: draft
+translation_status: machine-assisted draft; requires human language review
 ---
 
 # Kako namestim in preizkusim CLASSLA s Pythonom 3.12?
+
+!!! warning "Stanje prevoda"
+    Slovensko besedilo je strojno podprti uredniški osnutek. Pred formalno
+    objavo potrebuje vsebinski in jezikovni pregled strokovnjaka za slovenščino.
 
 <div class="answer-meta" markdown>
 <span>NLP</span><span>začetno</span><span>30–60 min</span>
@@ -76,6 +82,15 @@ python test_classla.py
 ### 4. Zabeležite okolje
 
 Shranite različico Pythona, seznam paketov, datum prenosa modela in operacijski sistem. Velikih modelskih datotek ne dodajajte v Git, temveč dokumentirajte postopek pridobitve.
+
+## Zabeležite in preverite nameščeno izvedbo
+
+Zaklenjeni paket še ne določa prenesenih modelskih virov. Zabeležite različici
+paketa in Pythona, seznam procesorjev, datum in mapo prenosa modela, nastavitev
+CPU/GPU, zgoščene vrednosti vhodov in rezultatov ter razpoložljive zgoščene
+vrednosti datotek virov. Prvi samodejni rezultat ohranite in ga ne prepišite s
+popravki. Uspešna namestitev ni raziskovalno preverjanje; nadaljujte s postopkom
+[vrednotenja CLASSLA na domensko specifičnem vzorcu](evaluate-classla-on-a-domain-specific-sample.md).
 
 ## Rezultat
 

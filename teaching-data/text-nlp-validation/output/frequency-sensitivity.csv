@@ -1,0 +1,9 @@
+setting,term,numerator,denominator,value,rank,tie_rule,interpretation
+raw_token_frequency,svoboda,9,330,0.027273,1,"descending numerator, then Unicode term",counts every exact lower-case surface-form token
+raw_token_frequency,arhiv,5,330,0.015152,2,"descending numerator, then Unicode term",counts every exact lower-case surface-form token
+raw_token_frequency,korpus,2,330,0.006061,3,"descending numerator, then Unicode term",counts every exact lower-case surface-form token
+raw_token_frequency,raziskovalci,2,330,0.006061,4,"descending numerator, then Unicode term",counts every exact lower-case surface-form token
+document_frequency,arhiv,2,12,0.166667,1,"descending numerator, then Unicode term",counts each document at most once
+document_frequency,raziskovalci,2,12,0.166667,2,"descending numerator, then Unicode term",counts each document at most once
+document_frequency,korpus,1,12,0.083333,3,"descending numerator, then Unicode term",counts each document at most once
+document_frequency,svoboda,1,12,0.083333,4,"descending numerator, then Unicode term",counts each document at most once

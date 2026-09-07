@@ -5,9 +5,15 @@ category: "NLP"
 difficulty: "začetno"
 time: "30–60 min"
 tags: [CLASSLA, slovenščina, tokenizacija, lematizacija, besedne-vrste]
+status: draft
+translation_status: machine-assisted draft; requires human language review
 ---
 
 # Kako s CLASSLA anotiram majhno besedilo?
+
+!!! warning "Stanje prevoda"
+    Slovensko besedilo je strojno podprti uredniški osnutek. Pred formalno
+    objavo potrebuje vsebinski in jezikovni pregled strokovnjaka za slovenščino.
 
 <div class="answer-meta" markdown>
 <span>NLP</span><span>začetno</span><span>30–60 min</span>
@@ -88,6 +94,15 @@ Datoteka TSV z identifikatorjem povedi, identifikatorjem besede, besedilno oblik
 - prvi rezultat razglasimo za pravilen;
 - velik korpus obdelamo pred pregledom vzorca;
 - pri združevanju datotek izgubimo identifikator dokumenta.
+
+## Pred raziskovalno uporabo
+
+Ohranite izvorno datoteko, točno besedilo, posredovano modelu, in nespremenjeni samodejni
+rezultat. Dodajte stabilni identifikator dokumenta, različice paketa in virov,
+seznam procesorjev ter razpoložljive odmike do vira. Ročni pregled verjetnosti je
+le osnovni preizkus. Za razslojeno referenco, imenovalce posameznih plasti in
+odločitveno merilo uporabite postopek
+[vrednotenja CLASSLA na domensko specifičnem vzorcu](evaluate-classla-on-a-domain-specific-sample.md).
 
 ## Naloga
 

@@ -1,4 +1,15 @@
+---
+title: "Slovar"
+description: "Delovne opredelitve metod in raziskovalnih predmetov v priročniku."
+status: draft
+translation_status: machine-assisted draft; requires human language review
+---
+
 # Slovar
+
+!!! warning "Stanje prevoda"
+    Slovensko besedilo je strojno podprti uredniški osnutek. Pred formalno
+    objavo potrebuje vsebinski in jezikovni pregled strokovnjaka za slovenščino.
 
 **Anotacija**  
 Strukturirana oznaka, dodana podatkom, na primer lema, besedna vrsta, imenska entiteta, čustvena kategorija ali uredniška opomba. Samodejna anotacija je rezultat modela in jo je treba preveriti.
@@ -8,6 +19,12 @@ Programski vmesnik: dokumentiran način, po katerem programska oprema od drugega
 
 **Korpus**  
 Dokumentirana zbirka besedil, pripravljena za analizo. Korpus ima obseg, sestavo, metapodatke, pretvorbe in omejitve; ni zgolj mapa datotek.
+
+**Razpršenost (tudi disperzija)**
+Porazdelitev ali koncentracija pojavitev po navedenih delih korpusa. Izraz *razpršenost* je v priročniku prednostni, *disperzija* pa ostaja razširjena strokovna različica. Griesov DP primerja opažene deleže izraza s pričakovanimi deleži glede na velikost delov: 0 pomeni sorazmerno porazdelitev, višje vrednosti pa večjo koncentracijo. Vrednost potrebuje ime mere, razdelitev, velikosti delov in števila izraza po delih.
+
+**Dokumentna frekvenca**
+Število upravičenih dokumentov z najmanj eno pojavitvijo izraza. Meri dokumentni doseg in ne skupnega ponavljanja.
 
 **Podatkovni model**  
 Izrecna predstavitev entitet, lastnosti, razmerij in omejitev, pomembnih za projekt.
@@ -39,6 +56,12 @@ Geografski informacijski sistem: orodja in podatkovne strukture za shranjevanje,
 **Lema**  
 Slovarska osnovna oblika, pod katero združimo pregibne oblike, denimo *hiša*, *hiše* in *hišo* pod *hiša*.
 
+**Nosilec ali izkuševalec čustva**
+Besedilno predstavljena oseba ali skupina, ki doživlja čustvo. Priročnik uporablja dostopnejši *nosilec*, v opisih semantičnih vlog pa dopušča *izkuševalec*; izbiro zapišite v kodirnem priročniku.
+
+**Cilj, tarča ali dražljaj čustva**
+Oseba, predmet, dogodek ali propozicija, h kateri je čustvo usmerjeno oziroma ki ga vzbudi. Izrazi niso vedno sopomenski, zato navedite uporabljeno vlogo.
+
 **Metapodatki**  
 Strukturirane informacije o drugem objektu: vir, ustvarjalec, datum, žanr, jezik, pravice, zgodovina obdelave, negotovost in drugo.
 
@@ -69,6 +92,9 @@ Možnost, da z istimi podatki, kodo in dokumentiranim okoljem dobimo isti ali sp
 **Analiza sentimenta**  
 Klasifikacija vrednotenjske polarnosti, navadno glede na tarčo. Ni enakovredna čustvu, stališču ali psihološkemu stanju.
 
+**Stališče**
+Podpora, nasprotovanje ali umeščanje do trditve oziroma akterja. Stališče ni zamenljivo s sentimentom ali čustvom.
+
 **SQL**  
 Structured Query Language, jezik za določanje, filtriranje, povezovanje, združevanje in pregledovanje tabel v relacijskih zbirkah.
 
@@ -80,6 +106,15 @@ Text Encoding Initiative: skupnost in smernice XML za predstavitev znanstvenih, 
 
 **Tematski model**  
 Model, ki predstavi ponavljajoče se vzorce besed ali dokumentnih značilk. Tema je modelska sestavina, ki jo razložijo in poimenujejo raziskovalci, ne naravno odkrit predmet.
+
+**Stabilnost tematskega modela**
+Stopnja, do katere se primerljive sestavine po povezovanju z izrecnim pravilom ponovijo med izvedbami ali verjetnimi nastavitvami. Stabilnost ne dokazuje interpretativne veljavnosti.
+
+**Pojavnica, besedna oblika in različnica**
+*Pojavnica* je ena pojavitev po prijavljenem pravilu tokenizacije. *Besedna oblika* poudari zapis pojavnice, *različnica* pa različne vrednosti po dogovorjenem pravilu, na primer površinske oblike ali leme. Raba se med strokami razlikuje, zato enoto opredelite.
+
+**Ujemanje označevalcev ali anotatorjev**
+Mera skladnosti med osebami, ki po istem kodirnem priročniku neodvisno označujejo gradivo. Priročnik daje prednost *označevalcem*, vendar dopušča ustaljeni tehnični izraz *anotatorji*; mera sama ne odpravi pojmovnega nestrinjanja.
 
 **Nadzor različic**  
 Sistem, kot je Git, ki beleži spremembe datotek ter podpira primerjavo, pregled, veje in obnovo.

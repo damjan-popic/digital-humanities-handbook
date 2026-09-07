@@ -1,0 +1,18 @@
+# packet_sample_id = TNLP-CLEAN-02
+# packet_stratum = contemporary_clean
+# reference_status = machine-assisted reference draft; pending human review
+# reference_policy = TNLP-REF-2; annotate the research-intended linguistic reading while preserving observed token forms
+# human_review = pending; reviewer, ISO date and scope not recorded
+# newpar id = 1
+# sent_id = 1.1
+# text = Raziskovalci skrbno preverjajo prepise in javno pojasnjujejo negotove odločitve.
+1	Raziskovalci	raziskovalec	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	NER=O
+2	skrbno	skrbno	ADV	Rgp	Degree=Pos	3	advmod	_	NER=O
+3	preverjajo	preverjati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+4	prepise	prepis	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	NER=O
+5	in	in	CCONJ	Cc	_	7	cc	_	NER=O
+6	javno	javno	ADV	Rgp	Degree=Pos	7	advmod	_	NER=O
+7	pojasnjujejo	pojasnjevati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	NER=O
+8	negotove	negotov	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	NER=O
+9	odločitve	odločitev	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	Z	_	3	punct	_	NER=O

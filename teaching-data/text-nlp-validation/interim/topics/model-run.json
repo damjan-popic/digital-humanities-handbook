@@ -1,0 +1,71 @@
+{
+  "corpus_sha256": "6bb4a77389061909e5f94a2c680a094061f68214bf3e6e30f537d6062e093732",
+  "documents": 12,
+  "environment_snapshot": {
+    "path": "../model-environment.json",
+    "sha256": "ba827e0c8fdee030f3df3b5c2484036c31d28ee17306f215f62341175122e16f"
+  },
+  "nmf": {
+    "component_counts": [
+      2,
+      3,
+      4
+    ],
+    "effective_parameters_by_run": [
+      {"alpha_H": "same", "alpha_W": 0.0, "beta_loss": "kullback-leibler", "init": "random", "l1_ratio": 0.0, "max_iter": 1000, "n_components": 2, "random_state": 7, "shuffle": false, "solver": "mu", "tol": 0.0001, "verbose": 0},
+      {"alpha_H": "same", "alpha_W": 0.0, "beta_loss": "kullback-leibler", "init": "random", "l1_ratio": 0.0, "max_iter": 1000, "n_components": 2, "random_state": 19, "shuffle": false, "solver": "mu", "tol": 0.0001, "verbose": 0},
+      {"alpha_H": "same", "alpha_W": 0.0, "beta_loss": "kullback-leibler", "init": "random", "l1_ratio": 0.0, "max_iter": 1000, "n_components": 2, "random_state": 31, "shuffle": false, "solver": "mu", "tol": 0.0001, "verbose": 0},
+      {"alpha_H": "same", "alpha_W": 0.0, "beta_loss": "kullback-leibler", "init": "random", "l1_ratio": 0.0, "max_iter": 1000, "n_components": 3, "random_state": 7, "shuffle": false, "solver": "mu", "tol": 0.0001, "verbose": 0},
+      {"alpha_H": "same", "alpha_W": 0.0, "beta_loss": "kullback-leibler", "init": "random", "l1_ratio": 0.0, "max_iter": 1000, "n_components": 3, "random_state": 19, "shuffle": false, "solver": "mu", "tol": 0.0001, "verbose": 0},
+      {"alpha_H": "same", "alpha_W": 0.0, "beta_loss": "kullback-leibler", "init": "random", "l1_ratio": 0.0, "max_iter": 1000, "n_components": 3, "random_state": 31, "shuffle": false, "solver": "mu", "tol": 0.0001, "verbose": 0},
+      {"alpha_H": "same", "alpha_W": 0.0, "beta_loss": "kullback-leibler", "init": "random", "l1_ratio": 0.0, "max_iter": 1000, "n_components": 4, "random_state": 7, "shuffle": false, "solver": "mu", "tol": 0.0001, "verbose": 0},
+      {"alpha_H": "same", "alpha_W": 0.0, "beta_loss": "kullback-leibler", "init": "random", "l1_ratio": 0.0, "max_iter": 1000, "n_components": 4, "random_state": 19, "shuffle": false, "solver": "mu", "tol": 0.0001, "verbose": 0},
+      {"alpha_H": "same", "alpha_W": 0.0, "beta_loss": "kullback-leibler", "init": "random", "l1_ratio": 0.0, "max_iter": 1000, "n_components": 4, "random_state": 31, "shuffle": false, "solver": "mu", "tol": 0.0001, "verbose": 0}
+    ],
+    "seeds": [
+      7,
+      19,
+      31
+    ],
+    "top_words": 8
+  },
+  "numpy_version": "2.5.3",
+  "output_sha256": {
+    "topic-components.csv": "a91e95045fcc01ddbbac8bc145b40fc0c117af92882bfdcc51989ed669564568",
+    "topic-documents.csv": "20e12c8d5e3923fbabbde74fd9a585afdae8e27fb248effc81fb396e5bb2ed22"
+  },
+  "python_version": "3.12.3",
+  "resource_acquisition": "not applicable; scikit-learn package only",
+  "run_timestamp_source": "UTC timestamp recovered from the preserved v2 candidate metadata-file mtime because the former runner recorded only a hard-coded date",
+  "run_timestamp_utc": "2026-09-07T12:06:32Z",
+  "scikit_learn_version": "1.9.0",
+  "scipy_version": "1.18.1",
+  "synthetic_documents": 12,
+  "vectorizer": {
+    "effective_parameters": {
+      "analyzer": "word",
+      "binary": false,
+      "decode_error": "strict",
+      "dtype": "numpy.float64",
+      "encoding": "utf-8",
+      "input": "content",
+      "lowercase": true,
+      "max_df": 1.0,
+      "max_features": null,
+      "min_df": 1,
+      "ngram_range": [1, 1],
+      "norm": "l2",
+      "preprocessor": null,
+      "smooth_idf": true,
+      "stop_words": ["ali", "bo", "da", "do", "ga", "in", "iz", "je", "ji", "jo", "ker", "ki", "lahko", "na", "ne", "ni", "ob", "pa", "po", "pri", "se", "so", "s", "še", "ta", "ter", "to", "v", "za", "z"],
+      "strip_accents": null,
+      "sublinear_tf": false,
+      "token_pattern": "(?u)\\b[^\\W\\d_][^\\W_]+\\b",
+      "tokenizer": null,
+      "use_idf": true,
+      "vocabulary": null
+    },
+    "stopwords_sha256": "7413623d8227143d7fbff5eecec96bff954ab0d671c6486528b95e29edcbb3cc"
+  },
+  "warning": "Twelve synthetic documents are too few for substantive topic inference; these runs exist only to teach matching and sensitivity."
+}

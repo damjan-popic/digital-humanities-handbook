@@ -1,127 +1,312 @@
 ---
 title: "Teme, sentiment in čustva"
-description: "Kako uporabiti klasifikacijo in raziskovalne modele, ne da bi oznake, teme ali ocene zamenjali za človeški pomen."
-tags: [klasifikacija, tematsko-modeliranje, sentiment, čustva, preverjanje]
+description: "Kako raziskovalne teme, gruče, nadzorovane oznake in kontekstualne trditve o čustvih ohranite metodološko ločene."
+tags: [klasifikacija, gručenje, tematsko-modeliranje, sentiment, stališče, čustva, stabilnost, preverjanje]
 status: draft
+translation_status: machine-assisted draft; requires human language review
 ---
 
 # Teme, sentiment in čustva
+
+!!! warning "Stanje prevoda"
+    Slovensko besedilo je strojno podprti uredniški osnutek. Pred formalno
+    objavo potrebuje vsebinski in jezikovni pregled strokovnjaka za slovenščino.
+
+Časopisna poved pravi: »Čudovito – še ena zamuda.« Leksikon najde pozitivno
+besedo, klasifikator polarnosti morda napove negativni sentiment, tematski model
+jo lahko postavi ob muzejsko upravo, človeški bralec pa čustvo govorca pusti
+nerazrešeno. Rezultati odgovarjajo na različna vprašanja. Kateri lahko podpre
+zgodovinsko trditev, ki jo želite oblikovati?
 
 ## Učni cilji
 
 Po tem poglavju boste znali:
 
-- razlikovati med nadzorovano klasifikacijo, nenadzorovanim gručenjem in tematskim modeliranjem;
-- pojasniti razliko med sentimentom, stališčem, afektom in čustvom;
-- pripraviti anotacijsko shemo in ovrednotiti ujemanje označevalcev;
-- rezultate tematskega modela razlagati kot raziskovalno predstavitev in ne odkrito resnico;
-- rezultate modela preveriti ob izvornih besedilih, metapodatkih in človeški presoji.
+- razlikovati tematsko modeliranje, gručenje in nadzorovano klasifikacijo;
+- primerjati vrečo besed s kontekstualnimi predstavitvami;
+- pojasniti vpliv segmentacije dokumentov, števila tem, inicializacije in
+  naključnega semena na raziskovalno tematsko rešitev;
+- povezati teme med izvedbami ter ohraniti nestabilne in nepovezane sestavine;
+- zasnovati učno, validacijsko in testno množico brez uhajanja vira;
+- neuravnoteženo klasifikacijo primerjati s preprostimi izhodišči in umerjenostjo;
+- ločiti leksikalno asociacijo, sentiment, stališče, afekt, izraženo in pripisano
+  čustvo ter odziv bralca; in
+- prepoznati časovne, domenske, večjezične, OCR- in prevodne omejitve.
 
 ## Pred začetkom
 
-Poved *Sijajno – spet čudovita zamuda* vsebuje pozitivne besede, vendar verjetno izraža negativno vrednotenje. Model, ki besedišče ocenjuje brez konteksta, lahko odpove. Pred izbiro orodja določite, kaj kategorija pomeni in kateri besedilni dokaz upraviči oznako.
+Za poved *Sijajno – spet čudovita zamuda* naštejte vse trditve, ki jih besedilo
+podpira brez poznavanja avtorja. Besedi imata pozitivno leksikalno asociacijo.
+Izjava verjetno z ironijo izvaja negativno vrednotenje. Cilj je zamuda. Nosilec
+določenega čustva lahko ostane neznan. Odziv bralca ni zapisan v povedi. Tako
+ločevanje je začetek kodirnega priročnika.
 
-Klasifikacija pojem operacionalizira, ne pa odkrije samoumevne kategorije. S poglavjem [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) ohranite razliko med kodirnim priročnikom, rezultatom modela, dokaznim gradivom preverjanja in interpretativno trditvijo.
+Klasifikacija pojem operacionalizira, ne pa odkrije samoumevne kategorije.
+Poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md)
+pomaga ločiti kodirni priročnik, vhodno predstavitev, rezultat, dokazno gradivo
+preverjanja in trditev.
 
-## Klasifikacija se začne z operacionalizacijo
+## Tri družine modelov, tri vrste rezultatov
 
-Klasifikator besedila ali odlomke razporedi v vnaprej določene kategorije. To so lahko žanr, obdobje, avtor, stališče, sentiment, čustvo ali relevantnost. Osrednje raziskovalno dejanje ni izbira algoritma, temveč prevod pojma v opazljiva anotacijska pravila.
+### Tematsko modeliranje
 
-Dober kodirni priročnik določi:
+Tematski modeli predstavijo ponavljajoče se vzorce sopojavljanja. Klasični
+verjetnostni modeli dokument opišejo kot mešanico porazdelitev besed;
+nenegativna matrična faktorizacija (NMF) nenegativno matriko dokumentov in
+izrazov razstavi na dokumentne uteži in izrazne sestavine. Raziskovalci lahko
+sestavino po pregledu izrazov ter dokumentov interpretirajo kot temo. Sestavina
+ni samostojno obstoječi predmet in nima sama po sebi zanesljivega imena.
 
-- enoto označevanja: poved, odstavek, dokument ali dogodek;
-- definicije in meje kategorij;
-- pozitivne in izključitvene primere;
-- obravnavo negotovosti, mešanih primerov in odsotnosti;
-- predvideno uporabo oznak;
-- znane kulturne, zgodovinske in žanrske omejitve.
+### Gručenje
 
-Če usposobljeni označevalci kategorije ne morejo dosledno uporabiti, model pojmovne dvoumnosti ne more popraviti.
+Gručenje opazovanja razporedi po podobnosti v izbrani predstavitvi in razdalji.
+Gruča navadno opazovanje umesti v eno skupino, tematski model pa dokumentu lahko
+pripiše uteži več sestavin. Meje, oblika gruč in pomen razdalje so odvisni od
+metode. Če gručo imenujete tema, s tem še ne dokažete skupnega zgodovinskega
+vzroka njenih članov.
 
-## Sentiment ni čustvo
+### Nadzorovana klasifikacija
 
-**Analiza sentimenta** navadno napoveduje vrednotenjsko polarnost – pozitivno, negativno ali nevtralno – do določene tarče. **Stališče** opisuje podporo, nasprotovanje ali umeščanje do trditve ali akterja. **Analiza čustev** poskuša določiti kategorije ali razsežnosti, kot so veselje, strah, jeza, žalost, vzburjenost ali valenca. **Afekt** se lahko širše nanaša na izraženo ali vzbujeno intenzivnost.
+Klasifikator se nauči napovedovati kategorije, ki so že opredeljene v označenih
+podatkih: žanr, relevantnost, sentiment, stališče, čustvo ali drugo raziskovalno
+oznako. Kakovost omejujeta skladnost in pokritost kodirnega priročnika ter
+anotacij. Nadzorovane oznake imajo za razliko od raziskovalnih tem prijavljeno
+tarčo, a so še vedno izdelane raziskovalne spremenljivke in ne naravne vrste.
 
-Pojmi niso zamenljivi. Zgodovinsko pismo lahko opisuje strah, ne da bi bil avtor prestrašen; tragedija lahko vzbuja žalost, čeprav vsebuje malo negativnega vrednotenja; satira lahko s hvalo kritizira. Določite, ali označujete besedilo, pripovedovalca, literarni lik, govorca, tarčo ali odziv bralca.
+## Enote in predstavitve spremenijo vprašanje
 
-## Trije pogosti pristopi
+Model ne more predstaviti konteksta, ki ga segmentacija odstrani. Celotne knjige
+poudarijo široko besedišče, poglavja ali odlomki krajevne premike, povedi pa
+olajšajo kontekstualno klasifikacijo, vendar lahko izgubijo govorca in argument.
+Drseča okna podvajajo kontekst in niso neodvisna. Skozi vse segmente ohranite
+identifikator izvornega dokumenta, da ostaneta vidna uhajanje in združevanje.
 
-### Leksikonske metode
+**Vreča besed** beleži oblike, leme ali n-grame in večinoma prezre vrstni red. Je
+redka in pregledna: najvišje uteži lahko povežete z natančnimi izrazi. Težko
+obravnava oddaljeni kontekst, večpomenskost, zanikanje in ironijo.
+**Kontekstualna predstavitev** besedo ali odlomek preslika z naučenim modelom,
+ki upošteva okolico. Lahko zajame več razlik, vendar podeduje nepregledne učne
+podatke, različico modela, tokenizacijo, jezikovno pokritost ter izbiro poziva ali
+združevanja. Večja zapletenost ne odpravi potrebe po branju virov.
 
-Leksikon besede poveže z ocenami ali kategorijami. Je pregleden in ga lahko pregledamo, vendar ga spodkopljejo kontekst, zanikanje, stopnjevanje, metafora, sprememba področja in oblikoslovje. Pri slovenščini so pomembne pregibne oblike in lematizacija, prevedene leksikone pa je treba kulturno preveriti.
+Pri slovenščini in kodnem preklapljanju preverite natančno jezikovno različico.
+Večjezični model lahko zmogljivost med jeziki porazdeli neenako, slovenski model
+pa lahko napačno obravnava nemške, italijanske, hrvaške ali narečne odlomke.
+Prevajanje ni nevtralna predobdelava. Spremeni besedišče, ritem, entitete,
+sentimentne namige in morebitno tematsko strukturo, zato je prevod nova modelska
+plast z lastno provenienco.
 
-### Nadzorovani modeli
+## Tematske rešitve so pogojne
 
-Nadzorovani model se uči iz označenih primerov. Njegovo zgornjo mejo določata kakovost in reprezentativnost oznak. Kadar lahko pride do uhajanja, podatke delite po dokumentih, avtorjih ali virih. Naključna delitev povedi lahko ustvari navidezno odličen rezultat, ker se skoraj enaki odlomki pojavijo v učni in testni množici.
+Rezultati so odvisni od segmentacije dokumentov, besedišča, normalizacije,
+seznama nepolnopomenskih besed, spodnje in zgornje dokumentne frekvence,
+uteževanja, števila sestavin, družine modela, inicializacije, naključnega semena,
+konvergenčnih nastavitev, sestave korpusa ter dvojnikov. Napake OCR lahko postanejo
+redki izrazi z visoko utežjo; lematizacija zmanjša razpršenost pregibnih oblik, a
+vnese anotacijske napake.
 
-### Jezikovni modeli z navodili
+**Število tem** nadzoruje zrnatost. Premalo sestavin združi različne vzorce,
+preveč jih lahko en vzorec razcepi, osami dokument ali modelira šum. Navadno ni
+ene skrite pravilne vrednosti. Primerjajte več števil, ki ustrezajo verjetnim
+ravnem raziskovanja, in poročajte o razcepih, spojih ter izginotjih.
 
-Jezikovni model lahko klasificira po navodilih in primerih, vendar se njegovo vedenje spreminja z formulacijo, različico modela in dolžino konteksta. Pozive obravnavajte kot del metode, shranite natančne vhode in izhode, preverite stabilnost in tekoče razlage ne zamenjujte za vrednotenje.
+Naključna inicializacija išče po prostoru z več krajevnimi optimumi. Nastavljeno
+**naključno seme** ponovi eno izvedbo, ne zagotovi njene stabilnosti. Izvedite več
+semen pri istih nastavitvah. Nato spremenite število tem ali segmentacijo, da
+preverite drug vir občutljivosti.
 
-## Vrednotenje onkraj točnosti
+## Pred primerjavo teme povežite
 
-Pri neuravnoteženih kategorijah je točnost lahko zavajajoča. Poročajte o matriki zamenjav ter po potrebi o preciznosti, priklicu in meri F1 za posamezne razrede. Primerjajte s preprostimi izhodišči: večinskim razredom, leksikonskim pravilom ali modelom samo z metapodatki.
+Številka teme je med izvedbami poljubna: tema 1 pri semenu 7 ni nujno tema 1 pri
+semenu 19. Določite pravilo povezovanja. Pregledno učno pravilo lahko primerja
+množice najpomembnejših izrazov z Jaccardovim prekrivanjem:
 
-Vprašajte tudi:
+```text
+J(A, B) = |A ∩ B| / |A ∪ B|
+```
 
-- Ali so napake skoncentrirane v enem žanru, obdobju ali družbeni skupini?
-- Ali se model nauči vira dokumenta namesto želenega pojma?
-- Ali negotove človeške primere štejemo kot napake modela, ne da bi priznali dvoumnost?
-- Bi preostala napaka spremenila zgodovinski ali literarni sklep?
+Teme povežite ena proti ena tako, da maksimizirate skupno prekrivanje, in navedite
+način prirejanja ter pravilo za izenačenje. V večji raziskavi sta morda boljša
+ujemanje dokumentnih uteži ali distribucijska razdalja. Ne glede na pravilo
+ohranite slabo ujemajoče se in nepovezane teme. So dokaz nestabilnosti.
 
-## Tematski modeli so leče
+Ne iščete univerzalnega praga. Preverite, ali isti izrazi in dokumenti podpirajo
+primerljivo branje. Številsko koherentno temo lahko sestavljajo obrazec, poškodbe
+OCR ali en plodovit vir. Zgodovinsko pomenljiv vzorec lahko uporablja raznoliko
+besedišče in doseže skromno mero. Številska koherentnost in interpretativna
+veljavnost sta različni presoji.
 
-Tematski modeli in sorodne metode gručenja prostor dokumentov in besed ali vektorskih vložitev skrčijo v ponavljajoče se vzorce. V verjetnostnem tematskem modelu je »tema« porazdelitev po besedah in dokumentih, ne vnaprej poimenovan predmet z naravno mejo.
+## Človeška interpretacija je del metode
 
-Rezultat je odvisen od:
+Za vsako objavljeno sestavino preberite več dokumentov z visoko utežjo, enega s
+srednjo, enega z nizko ali nasprotujočo utežjo ter dokumente iz pomembnih
+metapodatkovnih skupin. Zapišite začasno oznako, dokazne odlomke, izločitve,
+negotovost in alternativne oznake. Oznaka naj bo ožja od vzorca. »Besedišče
+arhivskega opisovanja v tem sintetičnem naboru« je varnejše kot »tema arhiva v
+slovenski kulturi«.
 
-- predobdelave in besedišča;
-- enote analize in dolžine dokumentov;
-- števila tem ali gruč;
-- naključne inicializacije in hiperparametrov;
-- vrste modela, denimo LDA, NMF ali gručenja vložitev;
-- sestave korpusa in podvojenega besedila.
+Tematska razširjenost je modelska utež, ne delež resnične pozornosti. Po
+metapodatkih jo združujte šele po pregledu dolžine dokumentov, vzorčenja,
+negotovosti in odvisnosti virov. Sprememba ohranjenosti ali OCR se lahko kaže
+kot tematska sprememba.
 
-Raziskovalci teme poimenujejo po pregledu besed in dokumentov. Oznako zato spremljajte z reprezentativnimi dokumenti, nasprotnimi primeri in negotovostjo, ne zgolj z besednim oblakom.
+Vodite interpretacijski zapisnik, ki vsako oznako poveže z identifikatorjem
+izvedbe, številko sestavine, odlomki z visoko utežjo, nasprotnimi primeri in
+pregledovalcem. Če drugi bralec predlaga drugačno oznako, ohranite obe oznaki in
+dokaze, ki ju razločujejo. Tako interpretacija ostane preverljiva, ne da bi se
+pretvarjali, da je program odkril edino pravilno poimenovanje.
 
-## Stabilnost in interpretabilnost
+## Nadzorovano vrednotenje zahteva ločitev
 
-Navidezno koherentna tema je lahko nestabilna med naključnimi semeni ali ob majhni spremembi korpusa. Izvedite več nastavitev in preverite, ali se vzorec ohrani. Statistične mere koherentnosti lahko pomagajo izbrati kandidate, ne morejo pa nadomestiti področne interpretacije.
+Začnite s kodirnim priročnikom, ki določi enoto, vključitve, izključitve, mešane
+in negotove primere, namen ter posledice lažno pozitivnih in negativnih napovedi.
+Kjer je mogoče, ga preizkusite z več označevalci. Ujemanje označevalcev je dokaz
+o priročniku in nalogi; nestrinjanje lahko razkrije resnično interpretativno
+zapletenost. Ob razsojanju ohranite tudi prvotne odločitve.
 
-Utemeljeno poročilo o tematski analizi vsebuje:
+Ločite **učno**, **validacijsko** in **testno** vlogo. Učna množica prilagodi
+parametre, validacijska izbere značilke, prag ali poziv, zadržani test pa oceni
+vedenje po teh odločitvah. Delite po dokumentu, avtorju, številki ali viru, kadar
+bi segmenti lahko uhajali. Skoraj enaki odlomki v učni in testni množici
+ustvarijo privlačne, a brezvredne ocene.
 
-1. korpus in odločitve o predobdelavi;
-2. model in parametre;
-3. postopek izbire prikazane rešitve;
-4. reprezentativne in nasprotujoče si dokumente;
-5. razširjenost tem po relevantnih metapodatkih z negotovostjo;
-6. občutljivost na drugo seme, model ali število tem;
-7. pojasnilo, kaj model izpusti ali združi.
+Primerjajte preprosta izhodišča: večinski razred, razslojeno naključno napoved,
+pregledno leksikonsko pravilo ali model samo z metapodatki. Pri neuravnoteženih
+razredih objavite matriko zamenjav ter preciznost, priklic in F1 po razredih.
+Makro povprečje razrede uteži enako, mikro povprečje pa primere. Povejte, na katero
+vprašanje odgovarja izbrano povprečje.
 
-## Razdelan primer: čustveno okvirjanje v parlamentarni razpravi
+Kadar rezultat uporabljate kot verjetnost ali za prednostni pregled, preverite
+**umerjenost**: ali je med primeri z verjetnostjo 0,8 oznaka na ustreznih
+zadržanih podatkih pravilna približno v 80 % primerov? Razvrščanje je lahko
+uporabno kljub slabi umerjenosti, vrednosti pa brez dokaza ne imenujte zaupanje.
 
-Predpostavimo, da raziskujemo čustveno okvirjanje podnebne politike.
+Časovni in domenski premik omejujeta vsako vrednotenje. Klasifikator sodobnih
+ocen izdelkov se nauči polarnosti, ki se ne prenese na zgodovinska pisma. Spremenijo
+se lahko stranka, žanr, platforma, sistem OCR ali anotacijski dogovor. Poročajte
+po skupinah, pomembnih za vprašanje, in po bistvenem premiku znova preverite.
 
-1. Določimo tarčo: čustvene besede govorcev, pripisana čustva ali čustveno okvirjanje politike.
-2. Vzorčimo razprave in ohranimo podatke o govorcu, stranki, datumu in dnevnem redu.
-3. Na poskusnem vzorcu oblikujemo kodirni priročnik in popravimo dvoumne kategorije.
-4. Vsaj dva označevalca označita del gradiva in razpravljata o nesoglasjih.
-5. Če je smiselno, primerjamo leksikonsko izhodišče, nadzorovani model in jezikovni model z navodili.
-6. Rezultat preverimo po strankah, obdobjih in vrstah govorov, ne le skupno.
-7. Preberemo lažno pozitivne, lažno negativne in zelo samozavestne primere.
-8. Tematsko ali gručilno analizo uporabimo le kot dopolnilni raziskovalni pogled.
-9. Rezultat predstavimo kot dokaz o jeziku korpusa, ne kot neposreden dostop do notranjih stanj govorcev.
+## Sentiment, stališče, afekt in čustvo niso sopomenke
+
+**Sentiment** navadno pomeni pozitivno, negativno ali nevtralno vrednotenje
+določenega cilja. **Stališče** zadeva podporo, nasprotovanje ali umeščanje do
+trditve ali akterja. **Afekt** se lahko širše nanaša na izraženo ali vzbujeno
+valenco in intenzivnost. **Čustvo** lahko uporablja ločene kategorije, kot so
+veselje, strah, jeza in žalost, ali razsežnosti, kot sta valenca in vzburjenost.
+Pojme opredelite in jih ne uporabljajte izmenično.
+
+Raziskava čustev zahteva dodatne vloge:
+
+- **leksikalna asociacija:** oblika je v leksikonu povezana s kategorijo;
+- **izraženo čustvo:** besedilo predstavi čustvo kot trenutno izraženo;
+- **pripisano čustvo:** pripovedovalec ali govorec čustvo pripiše drugemu;
+- **nosilec ali izkuševalec:** predstavljeni nosilec čustva;
+- **cilj ali dražljaj:** oseba, predmet, dogodek ali trditev, h kateri je čustvo
+  usmerjeno oziroma ki ga vzbudi;
+- **navedeni govor:** vstavljeni glas, ki ga ne smete samodejno pripisati
+  poročevalcu ali avtorju;
+- **stališče pripovedovalca:** vrednotenjska umestitev pripovedovalca, ki se lahko
+  razlikuje od čustev oseb; in
+- **odziv bralca:** empirična ali teoretična trditev o bralcih in ne oznaka, ki
+  bi bila neposredno zapisana v besedah.
+
+Zanikanje lahko razveljavi žalost: »ni bila žalostna«. Modalnost oslabi zavezo:
+»morda se je bala« ni enako kot »bala se je«. Ironija lahko obrne vrednotenje,
+ne da bi določila čustvo: »Kako čudovito« po novi napaki. Metajezikovna omemba
+prav tako ne zadostuje: »jeza v zapisu ni nujno jeza avtorja«. Leksikonsko
+ujemanje dokazuje le leksikalno asociacijo.
+
+## Pregledno leksikonsko izhodišče
+
+Leksikon je uporaben, ker lahko pregledate vsako ujemanje. Zabeležite jezik,
+različico, vir, način izdelave, kategorije, enoto, pravilo ujemanja, licenco in
+pogoje razširjanja. Tujega leksikona ne kopirajte v učni paket zgolj zato, ker ga
+lahko prenesete. Pri slovenščini sta pomembna pregibanje in lematizacija,
+prevedene kategorije pa zahtevajo jezikovni in kulturni pregled.
+
+Izhodišče mora ohraniti primere brez ujemanj ter lažno pozitivne in negativne
+napovedi. Popravljanje leksikona po branju primerov za vrednotenje je razvoj
+modela; spremembo preizkusite drugje. Primerjava natančnih oblik z lemami ali
+dodajanje enega dokumentiranega vnosa razkrije pridobitev in izgubo.
+
+## Ponavljajoča se omejena primerjava
+
+[Učni paket za preverjanje besedilnih analiz in NLP](../../assets/downloads/text-nlp-validation-v1.zip)
+omogoča namenoma majhno primerjavo. Vzorec čustev ima osem sintetičnih povedi in
+izvirni učni mikroleksikon z osmimi vnosi. Tematski vzorec ima dvanajst
+sintetičnih dokumentov. Nobeden ne ocenjuje zgodovinske populacije.
+
+| Metoda | Enota in vhod | Rezultat in preverjanje | Podprta trditev | Nepodprta trditev | Pridobitev, izguba in odpoved |
+| --- | --- | --- | --- | --- | --- |
+| natančni leksikon oblik | poved; površinske oblike | kategorijska ujemanja s strojno podprtim osnutkom osmih primerov, ki čaka na človeški pregled | katere navedene oblike se ujemajo | kdo resnično čuti čustvo | pregledno; prezre pregibanje in kontekst |
+| kontekstualna referenčna anotacija | poved, sobesedilo in priročnik | čustvo, nosilec, cilj, glas, zanikanje, ironija in negotovost v osnutku, ki čaka na človeški pregled | kako je bil priročnik uporabljen v osnutku | objektivna psihologija ali razširjenost v korpusu | kontekstualno; sporno in delovno zahtevno |
+| nadzorovani klasifikator | zahteval bi označene učne, validacijske in testne enote | namenoma ni prilagojen: osem primerov ne zadostuje | nobena za ta paket | napovedna kakovost | opustitev prepreči okrasni model z uhajanjem |
+| raziskovalni NMF | dokument; vreča besed TF-IDF | 2, 3 in 4 sestavine × semena 7, 19 in 31; povezani izrazi in prebrani odlomki | občutljivost sintetične predstavitve | splošna tematska struktura | pokaže razcepe in nestabilnost; majhno in od besedišča odvisno |
+
+Čustveni primeri vključujejo navedek *obiskovalci se bojijo*, zanikano žalost,
+metajezikovno *jezo*, pripisani strah, ironično *čudovita* in preteklo obliko
+*bali*, ki nima natančnega ujemanja. Tako dobite vidne lažno pozitivne in lažno
+negativno napoved. Kontekstualni osnutek določi nosilca in cilj, ironijo pa lahko pusti
+nerazrešeno, namesto da bi si izmislila čustvo.
+
+Prikaz NMF ohrani vektorizacijo in spreminja seme ter število sestavin. Nekatere
+sestavine ohranijo sorodne izraze in dokumente, druge besedišče arhivov, muzejev,
+jezika in časopisja združijo drugače. To je lekcija o občutljivosti, ne dokaz, da
+je model »odkril« avtorske teme.
+
+## Načini odpovedi in etične omejitve
+
+Pogoste napake so poimenovanje tem samo iz ključnih izrazov, izbira števila tem
+zaradi urejenega grafa, zavrženje nestabilnih izvedb, delitev povedi istega vira
+med učno in testno množico, poročanje o točnosti neuravnotežene naloge, razlaga
+modelske verjetnosti kot umerjenega zaupanja in prevajanje brez zapisa posega.
+
+Oznake čustev in stališč lahko patologizirajo ljudi, sklepajo o varovanih
+lastnostih ali napačno predstavijo navedene govorce. Zgodovinsko besedišče lahko
+vsebuje nasilje in stigmo. Zmanjšajte osebne podatke, ohranite glas in kontekst
+vira, dokumentirajte negotovost, preverite napake po skupinah ter ne trdite ničesar
+o notranjih stanjih, česar besedilo ne podpira. Ločeno preverite pravice korpusa,
+leksikona in modela.
 
 ## Vaja
 
-Napišite enostranski kodirni priročnik za eno kategorijo: relevantnost, sentiment, stališče ali čustvo. Dodajte pet pozitivnih primerov, pet izključitev, dva negotova primera, enoto analize ter posledice lažno pozitivne in lažno negativne napovedi.
+Izvedite oba postopka:
+
+1. [Kako preverim stabilnost in interpretabilnost tematskega modela?](../workflows/text-analysis/test-topic-model-stability-and-interpretability.md)
+2. [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](../workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)
+
+Za vsakega napišite eno podprto in nepodprto trditev. Določite spremembo vira,
+predstavitve ali kodirnega priročnika, ki bi podprto trditev najbolj ogrozila.
 
 ## Refleksija
 
-- Merite jezik, pripisano stanje ali psihološko stanje?
-- Bi model lahko oznako napovedal iz vira ali obdobja, ne da bi prebral pomembni odlomek?
-- Katera človeška nesoglasja razkrivajo resnično pojmovno kompleksnost in ne slabe anotacije?
+- Urejate leksikalne vzorce, napovedujete oznako priročnika ali sklepate o človeku?
+- Kateri dokumenti ali govorci bi lahko uhajali med evalvacijske množice?
+- Katero nestabilno temo je bilo najlaže poimenovati in kaj ji je nasprotovalo?
+- Komu pripada čustvo v navedku: navedenemu govorcu, pripovedovalcu, avtorju ali
+  nikomur brez dodatnih dokazov?
+- Kateri časovni, domenski ali jezikovni premik zahteva novo preverjanje?
 
 ## Povzetek
 
-Klasifikacija in tematska analiza lahko uredita velike zbirke besedil, vendar oznake in teme nastanejo skozi operacionalizacijo, podatke in modeliranje. Sentiment ni čustvo, tema ni samostojno obstoječ predmet, tekoč rezultat modela pa ni preverjanje. Kodirni priročniki, izhodišča, vrednotenje na zadržanih podatkih, analiza napak po skupinah, preverjanje občutljivosti in natančno branje te metode spremenijo v utemeljene humanistične dokaze.
+Tematsko modeliranje, gručenje in nadzorovana klasifikacija ustvarjajo različne
+predstavitve in zahtevajo različna preverjanja. Število tem, seme, inicializacija,
+segmentacija in pravilo povezovanja spremenijo stabilnost v empirično vprašanje.
+Nadzorovane oznake zahtevajo ločene podatke, izhodišča, razredno občutljive mere
+in preizkuse premika. Pri čustvih morate ločiti besedo, vrednotenje, glas,
+nosilca, cilj in odziv bralca. Primeri, povezani z virom, ohranjena negotovost in
+človeško branje omejijo rezultat na utemeljene trditve.
+
+## Nadaljnje branje
+
+- Su, Jinyu, David Greene, in Derek O’Callaghan. 2016. “Topic Stability over
+  Noisy Sources.” [ACL Anthology](https://aclanthology.org/W16-3913/).
+- Morstatter, Fred, in Huan Liu. 2018. “In Search of Coherence and Consensus:
+  Measuring the Interpretability of Statistical Topics.” *Journal of Machine
+  Learning Research* 18 (169): 1–32.
+  [Članek JMLR](https://jmlr.org/papers/v18/17-069.html).
+- Bostan, Laura Ana Maria, Evgeny Kim, in Roman Klinger. 2020. “GoodNewsEveryone:
+  A Corpus of News Headlines Annotated with Emotions, Semantic Roles, and Reader
+  Perception.” [ACL Anthology](https://aclanthology.org/2020.peoples-1.12/).
+- Reschke, Kevin, in Pranav Anand. 2011. “Extracting Contextual Evaluativity.”
+  [ACL Anthology](https://aclanthology.org/W11-1511/).

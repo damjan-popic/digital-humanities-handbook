@@ -1,9 +1,14 @@
 ---
 title: "Praktični postopki"
 description: "Generated catalogue of practical handbook workflows."
+status: draft
+translation_status: machine-assisted draft; requires human language review
 ---
 
 # Praktični postopki
+
+!!! warning "Stanje prevoda"
+    Slovenski katalog je strojno podprti osnutek in pred formalno objavo potrebuje strokovni jezikovni pregled.
 
 Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod še ne obstaja, je zaradi nastavitve nadomestnega jezika dostopna angleška privzeta stran; to ni prikazano kot dokončan prevod.
 
@@ -11,9 +16,9 @@ Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod
 
 ## Kategorije
 
-- **Analiza besedil** — 3
+- **Analiza besedil** — 5
 - **Kartiranje** — 3
-- **NLP** — 9
+- **NLP** — 10
 - **Omrežja** — 3
 - **Osnove** — 6
 - **PDF in OCR** — 1
@@ -28,6 +33,8 @@ Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod
 ### Analiza besedil
 
 - [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md) <span class="tiny">— srednje</span>
+- [Kako preverim stabilnost in interpretabilnost tematskega modela?](text-analysis/test-topic-model-stability-and-interpretability.md) <span class="tiny">— srednje</span>
+- [Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](text-analysis/compare-frequency-document-frequency-and-dispersion.md) <span class="tiny">— začetno</span>
 - [Kako primerjam slog s funkcijskimi besedami?](text-analysis/compare-style-with-function-words.md) <span class="tiny">— srednje</span>
 - [Kako z NMF raziščem ponavljajoče se teme?](text-analysis/explore-topics-with-nmf.md) <span class="tiny">— srednje</span>
 
@@ -39,6 +46,7 @@ Ta katalog vsebuje slovensko napisane in pregledane postopke. Ko ustrezni prevod
 
 ### NLP
 
+- [Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](nlp/evaluate-classla-on-a-domain-specific-sample.md) <span class="tiny">— srednje</span>
 - [Kako diagnosticiram težave s Pythonom, venv in pipom?](nlp/troubleshoot-python-venv-and-pip.md) <span class="tiny">— začetno</span>
 - [Kako namestim in preizkusim CLASSLA s Pythonom 3.12?](nlp/install-and-test-classla.md) <span class="tiny">— začetno</span>
 - [Kako namestim pakete Python s pipom?](nlp/install-python-packages-with-pip.md) <span class="tiny">— začetno</span>

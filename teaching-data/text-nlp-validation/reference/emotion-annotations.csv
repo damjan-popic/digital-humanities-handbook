@@ -1,0 +1,9 @@
+annotation_id,doc_id,sentence_index,emotion_present,emotion,experiencer,target,voice,quotation,negation,irony,uncertain,rationale,review_status,reviewer,reviewed_on,review_scope,synthetic
+TNLP-E01,TNLP-C03,2,true,joy,obiskovalka,najdeno pismo,narrator,false,false,false,false,The narrator explicitly attributes joy to the visitor.,machine-assisted reference draft; pending human review,,,,true
+TNLP-E02,TNLP-C04,3,true,joy,kustosinja,obnovljeni plakat,narrator,false,false,false,false,The adjective explicitly describes the curator.,machine-assisted reference draft; pending human review,,,,true
+TNLP-E03,TNLP-C06,1,true,fear,obiskovalci,zaprtje zbirke,quoted_speech,true,false,false,false,The report attributes fear to visitors inside a quotation.,machine-assisted reference draft; pending human review,,,,true
+TNLP-E04,TNLP-C06,2,false,none,unresolved,zamuda,narrator,false,false,true,true,Positive wording is an ironic negative evaluation; no discrete emotion is safely assigned.,machine-assisted reference draft; pending human review,,,,true
+TNLP-E05,TNLP-C06,3,false,none,unresolved,unresolved,narrator,false,true,false,false,The sentence discusses attribution and explicitly rejects the inference about the author.,machine-assisted reference draft; pending human review,,,,true
+TNLP-E06,TNLP-C10,1,true,fear,meščani,sprememba,reported_speech,false,false,false,false,Fear is attributed to townspeople rather than to the newspaper.,machine-assisted reference draft; pending human review,,,,true
+TNLP-E07,TNLP-C12,1,true,fear,urednica,manjkajoči vir,narrator,false,true,false,false,Negation cancels sadness while the second predicate attributes concern.,machine-assisted reference draft; pending human review,,,,true
+TNLP-E08,TNLP-C12,2,false,none,urednica,nova napaka,quoted_speech,true,false,true,true,The positive word is ironic; the passage licenses evaluation but not a discrete inner emotion.,machine-assisted reference draft; pending human review,,,,true

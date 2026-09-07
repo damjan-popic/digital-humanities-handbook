@@ -1,0 +1,3 @@
+variant,lexicon_entries,TP,FP,TN,FN,precision_numerator,precision_denominator,precision,recall_numerator,recall_denominator,recall,f1_numerator,f1_denominator,f1,zero_match_sentences,development_note
+baseline_exact_form,8,4,3,0,1,4,7,0.571429,4,5,0.800000,8,12,0.666667,1,predeclared eight-form teaching baseline
+add_documented_bali_form,9,5,3,0,0,5,8,0.625000,5,5,1.000000,10,13,0.769231,0,development variant designed after observing the baseline false negative; requires new-data evaluation

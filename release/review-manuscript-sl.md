@@ -111,19 +111,19 @@ Priročnik ni sestavljen iz štirih ločenih polic. Poglavja podajajo pojme in a
 | --- | --- | --- |
 | [Kaj je digitalna humanistika?](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/what-is-digital-humanities/) | [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/build-a-simple-cultural-heritage-map/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)* |
 | [Zgodovine in genealogije digitalne humanistike](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/history-of-digital-humanities/) | [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)* | [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/corpus-augmenter/) *(angleška nadomestna stran)* |
-| [Modeli, dokazno gradivo in interpretacija](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/models-evidence-interpretation/) | [Kako raziskovalno vprašanje pretvorim v načrt znanstvenega besedila?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)*<br>[Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
+| [Modeli, dokazno gradivo in interpretacija](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/models-evidence-interpretation/) | [Kako raziskovalno vprašanje pretvorim v načrt znanstvenega besedila?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)*<br>[Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[Kako preverim stabilnost in interpretabilnost tematskega modela?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
 | [Infrastrukture digitalne humanistike: moč, dostop in vzdrževanje](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/critical-infrastructures/) | [How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ethics/decide-whether-a-digitised-source-should-be-public/) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/fifi/) *(angleška nadomestna stran)* |
 | [Digitalna humanistika v Sloveniji: infrastrukture, jeziki in skupnosti](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/digital-humanities-in-slovenia/) | [Kako s CLASSLA anotiram majhno besedilo?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/annotate-a-small-text-with-classla/)<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*<br>[Kako kartiram kraje, omenjene v besedilu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/map-places-mentioned-in-a-text/) | [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/corpus-augmenter/) *(angleška nadomestna stran)*<br>[Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/jezikovni-svetovalec/) *(angleška nadomestna stran)* |
-| [Od vprašanja do metode](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/research-design/) | [Kako ustvarim in očistim knjižnico Zotero?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/reference-management/build-and-clean-a-zotero-library/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*<br>[Kako rezultat UI preverim ob izvornih dokumentih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ai/audit-ai-output-against-source-documents/)<br>[Kako kloniram, zaženem, spremenim in potrdim projekt priročnika?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/foundations/clone-run-change-and-commit-a-handbook-project/) | [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/fifi/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
-| [Podatki, metapodatki in modeli](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/data-metadata-models/) | [Kako manjši podatkovni nabor uvozim in očistim v Excelu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[Kako uskladim nasprotujoče si metapodatke in ohranim negotovost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty/)<br>[Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*<br>[Kako uredim manjši projekt Python za NLP?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/structure-a-small-python-nlp-project/) | [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)*<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)* |
-| [Besedila, korpusi in OCR](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/texts-corpora-ocr/) | [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/bulk-download-pdfs-and-ocr-them/) *(angleška nadomestna stran)*<br>[How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/) *(angleška nadomestna stran)*<br>[How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/deduplicate-corpus-text-with-minhash/) *(angleška nadomestna stran)*<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)* | [Web text harvesting](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/text-harvester/) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
-| [Jezikoslovna anotacija in CLASSLA](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/linguistic-annotation-classla/) | [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[Kako namestim in preizkusim CLASSLA s Pythonom 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-and-test-classla/)<br>[Kako s CLASSLA anotiram majhno besedilo?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/annotate-a-small-text-with-classla/)<br>[Kako rezultate CLASSLA izvozim v CSV?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/export-classla-results-to-csv/) | [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/corpus-augmenter/) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)* |
-| [Analiza besedil](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/text-analysis/) | [How do I query a corpus with CQPweb?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/query-a-corpus-with-cqpweb/) *(angleška nadomestna stran)*<br>[Kako primerjam slog s funkcijskimi besedami?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-style-with-function-words/)<br>[How do I make a dispersion plot in LancsBox?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/make-a-dispersion-plot-in-lancsbox/) *(angleška nadomestna stran)*<br>[How do I visualise a frequency list with Voyant?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-a-frequency-list-with-voyant/) *(angleška nadomestna stran)* | [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
-| [Teme, sentiment in čustva](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/topics-emotions-classification/) | [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[Kako z NMF raziščem ponavljajoče se teme?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/explore-topics-with-nmf/)<br>[How do I create a sentence-similarity heat map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/create-a-sentence-similarity-heat-map/) *(angleška nadomestna stran)* | [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/createai/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
+| [Od vprašanja do metode](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/research-design/) | [Kako ustvarim in očistim knjižnico Zotero?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/reference-management/build-and-clean-a-zotero-library/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*<br>[Kako rezultat UI preverim ob izvornih dokumentih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ai/audit-ai-output-against-source-documents/)<br>[Kako kloniram, zaženem, spremenim in potrdim projekt priročnika?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/foundations/clone-run-change-and-commit-a-handbook-project/)<br>[Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/) | [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/fifi/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
+| [Podatki, metapodatki in modeli](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/data-metadata-models/) | [Kako manjši podatkovni nabor uvozim in očistim v Excelu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[Kako uskladim nasprotujoče si metapodatke in ohranim negotovost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty/)<br>[Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*<br>[Kako uredim manjši projekt Python za NLP?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/structure-a-small-python-nlp-project/)<br>[Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/) | [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)*<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)* |
+| [Besedila, korpusi in OCR](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/texts-corpora-ocr/) | [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/bulk-download-pdfs-and-ocr-them/) *(angleška nadomestna stran)*<br>[How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/) *(angleška nadomestna stran)*<br>[How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/deduplicate-corpus-text-with-minhash/) *(angleška nadomestna stran)*<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*<br>[Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)<br>[Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/) | [Web text harvesting](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/text-harvester/) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
+| [Jezikoslovna anotacija in CLASSLA](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/linguistic-annotation-classla/) | [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[Kako namestim in preizkusim CLASSLA s Pythonom 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-and-test-classla/)<br>[Kako s CLASSLA anotiram majhno besedilo?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/annotate-a-small-text-with-classla/)<br>[Kako rezultate CLASSLA izvozim v CSV?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/export-classla-results-to-csv/)<br>[Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/) | [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/corpus-augmenter/) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)* |
+| [Analiza besedil](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/text-analysis/) | [How do I query a corpus with CQPweb?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/query-a-corpus-with-cqpweb/) *(angleška nadomestna stran)*<br>[Kako primerjam slog s funkcijskimi besedami?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-style-with-function-words/)<br>[How do I make a dispersion plot in LancsBox?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/make-a-dispersion-plot-in-lancsbox/) *(angleška nadomestna stran)*<br>[How do I visualise a frequency list with Voyant?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-a-frequency-list-with-voyant/) *(angleška nadomestna stran)*<br>[Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/) | [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
+| [Teme, sentiment in čustva](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/topics-emotions-classification/) | [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[Kako z NMF raziščem ponavljajoče se teme?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/explore-topics-with-nmf/)<br>[How do I create a sentence-similarity heat map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/create-a-sentence-similarity-heat-map/) *(angleška nadomestna stran)*<br>[Kako preverim stabilnost in interpretabilnost tematskega modela?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability/) | [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/createai/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
 | [Podatkovne zbirke in SQL](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/databases-sql/) | [Kako modeliram spreminjajoča se imena, statuse in meje v SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/)<br>[Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
 | [GIS in prostorska humanistika](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/gis-spatial-humanities/) | [Kako georeferenciram in preverim zgodovinski zemljevid v QGIS?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/)<br>[Kako modeliram spreminjajoča se krajevna imena in meje?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/model-changing-place-names-and-boundaries/)<br>[Kako kartiram kraje, omenjene v besedilu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/map-places-mentioned-in-a-text/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/build-a-simple-cultural-heritage-map/) *(angleška nadomestna stran)*<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
 | [Omrežja in vizualizacija](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/networks-visualization/) | [Kako primerjam dvodelna in projicirana omrežja?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/compare-bipartite-and-projected-networks/)<br>[Kako preverim omrežno trditev ob izvornih zapisih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/audit-a-network-claim-against-source-records/)<br>[Kako podatke povzamem z vrtilnimi tabelami in preglednimi grafikoni?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts/)<br>[Kako zgradim omrežje sopojavljanja, povezano z viri?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/build-a-cooccurrence-network/)<br>[How do I build a collocation graph from AntConc to Cytoscape?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape/) *(angleška nadomestna stran)*<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
-| [UI, etika in ponovljivost](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/ai-ethics-reproducibility/) | [Kako revidiram trditve, dokazno gradivo in odstavke?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs/)<br>[Kako rezultat UI preverim ob izvornih dokumentih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ai/audit-ai-output-against-source-documents/)<br>[How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ethics/decide-whether-a-digitised-source-should-be-public/) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*<br>[How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/) *(angleška nadomestna stran)*<br>[Kako namestim pakete Python s pipom?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-python-packages-with-pip/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/jezikovni-svetovalec/) *(angleška nadomestna stran)*<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/fifi/) *(angleška nadomestna stran)*<br>[User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/createai/) *(angleška nadomestna stran)*<br>[Slovenian comma-checking Word add-in](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/vejice-add-in/) *(angleška nadomestna stran)* |
+| [UI, etika in ponovljivost](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/ai-ethics-reproducibility/) | [Kako revidiram trditve, dokazno gradivo in odstavke?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs/)<br>[Kako rezultat UI preverim ob izvornih dokumentih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ai/audit-ai-output-against-source-documents/)<br>[How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ethics/decide-whether-a-digitised-source-should-be-public/) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*<br>[How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/) *(angleška nadomestna stran)*<br>[Kako namestim pakete Python s pipom?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-python-packages-with-pip/)<br>[Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)<br>[Kako preverim stabilnost in interpretabilnost tematskega modela?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability/)<br>[Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/jezikovni-svetovalec/) *(angleška nadomestna stran)*<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/fifi/) *(angleška nadomestna stran)*<br>[User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/createai/) *(angleška nadomestna stran)*<br>[Slovenian comma-checking Word add-in](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/vejice-add-in/) *(angleška nadomestna stran)* |
 | [Živi odprti priročnik](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/open-living-handbook/) | [Kako izberem sistem in citatni slog ter pregledam navedbe?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/reference-management/choose-apply-and-audit-a-citation-style/)<br>[How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/) *(angleška nadomestna stran)*<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*<br>[How do I version-control a termbase with Git?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/terminology/version-control-a-termbase-with-git/) *(angleška nadomestna stran)*<br>[Kako z Gitom sledim manjšemu projektu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/foundations/track-a-small-project-with-git/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/jezikovni-svetovalec/) *(angleška nadomestna stran)*<br>[Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)* |
 
 ## Povezave delujejo v obe smeri
@@ -694,6 +694,7 @@ Rezultat postane dokazno gradivo šele po preverjanju provenience, veljavnosti, 
     - [Kako raziskovalno vprašanje pretvorim v načrt znanstvenega besedila?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan/)
     - [How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)*
     - [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
+    - [Kako preverim stabilnost in interpretabilnost tematskega modela?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability/)
     - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
 
     **Oglejte si študijo primera**
@@ -1542,6 +1543,7 @@ prikaz tega, kaj izbrano gradivo podpira in česa ne.
     - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*
     - [Kako rezultat UI preverim ob izvornih dokumentih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ai/audit-ai-output-against-source-documents/)
     - [Kako kloniram, zaženem, spremenim in potrdim projekt priročnika?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/foundations/clone-run-change-and-commit-a-handbook-project/)
+    - [Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/)
 
     **Oglejte si študijo primera**
 
@@ -2017,6 +2019,7 @@ in omejitve lahko vedno pregledate.
     - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*
     - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*
     - [Kako uredim manjši projekt Python za NLP?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/structure-a-small-python-nlp-project/)
+    - [Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)
 
     **Oglejte si študijo primera**
 
@@ -2288,6 +2291,8 @@ Tehnične strani in vmesniki se spreminjajo. Zabeležite različice in datume do
     - [How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/) *(angleška nadomestna stran)*
     - [How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/deduplicate-corpus-text-with-minhash/) *(angleška nadomestna stran)*
     - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*
+    - [Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)
+    - [Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/)
 
     **Oglejte si študijo primera**
 
@@ -2302,108 +2307,352 @@ Tehnične strani in vmesniki se spreminjajo. Zabeležite različice in datume do
 
 ## Jezikoslovna anotacija in CLASSLA
 
+!!! warning "Stanje prevoda"
+    Slovensko besedilo je strojno podprti uredniški osnutek. Pred formalno
+    objavo potrebuje vsebinski in jezikovni pregled strokovnjaka za slovenščino.
+
+Zgodovinarko zanima, kdo je v časopisju dveh obdobij predstavljen kot govorec.
+Iskanje glagolov je šele prva težava. OCR lahko zlepi besedi, zgodovinske oblike
+so sodobnemu modelu morda neznane, lema je lahko napačna, odvisnostna analiza pa
+govorca poveže z napačnim povedkom. Katera plast je dovolj zanesljiva za
+raziskovalno trditev in kako bi to ugotovili?
+
 ## Učni cilji
 
 Po tem poglavju boste znali:
 
-- razlikovati med tokenizacijo, lematizacijo, označevanjem besednih vrst, morfološko analizo, odvisnostnim razčlenjevanjem in razpoznavanjem imenskih entitet;
-- pojasniti, zakaj je jezikoslovna anotacija modelska interpretacija in ne nevtralno dejstvo;
-- izbrati anotacijske plasti, ki ustrezajo humanističnemu raziskovalnemu vprašanju;
-- izvesti in dokumentirati osnovni postopek s CLASSLA za slovenščino ali drug podprt južnoslovanski jezik;
-- samodejni rezultat preveriti na namenskem vzorcu in z analizo napak.
+- razlikovati segmentacijo povedi, tokenizacijo, lematizacijo, oznake UPOS,
+  oblikoslovje, odvisnostno razčlenjevanje in razpoznavanje imenskih entitet;
+- pojasniti, zakaj je vsaka anotacijska plast modelska trditev;
+- izbrati le plasti, ki jih zahteva humanistično raziskovalno vprašanje;
+- dokumentirati izvedbo CLASSLA z različico paketa, procesorji, viri, okoljem
+  ter kontrolnimi vsotami SHA-256 vhodov in rezultatov;
+- zasnovati kritiki odprt referenčni osnutek in dokumentiran načrt človeškega
+  pregleda;
+- izračunati mere posameznih plasti z izrecnimi imenovalci; in
+- povezati anotacijske napake z lastnostmi vira in interpretativnim tveganjem.
 
 ## Pred začetkom
 
-Vzemite poved *Zala je v Novi Gorici predstavila novo Zalo.* Je *Zala* oseba, izdelek, kraj ali kaj drugega? Katere dokaze bi uporabil človek? Označevalnik mora sorodne odločitve sprejeti iz oblike, konteksta in vzorcev, naučenih iz podatkov.
+Premislite o povedi *Zala je v Novi Gorici predstavila novo Zalo.* Je posamezna
+pojavitev imena *Zala* oseba, izdelek, kraj ali kaj drugega? Bi uporabili veliko
+začetnico, pregibanje, sobesedilo, katalog ali poznavanje dogodka? Nato si
+zamislite, da OCR vrne *Novl Gorici*. Napaka imenske entitete se je začela že
+pred zagonom razpoznavalnika entitet.
 
-Anotacijske plasti obravnavajte kot modele, ne kot odkrita dejstva. Poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) ponuja pojmovno podlago za ločevanje rezultata anotacije od dokaznega gradiva, ki ga upravičuje preverjanje za konkretno nalogo.
+Zapišite trditev, ki jo želite oblikovati iz anotiranega besedila. Podčrtajte
+natančna anotacijska polja, od katerih je odvisna. Če jih ne morete imenovati,
+pred zagonom procesne verige znova preberite poglavje
+[Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md).
 
-## Anotacija ustvari analizne plasti
+## Osrednji argument: anotacija je dokazna veriga
 
-Neobdelano besedilo sestavljajo znaki in presledki. Večina računalniških metod najprej ustvari izrecnejše enote:
+Jezikoslovna anotacija besedilne vzorce pripravi za poizvedovanje tako, da
+besedilu doda izrecne analizne plasti. Ne odkriva lastnosti, ki bi v datoteki
+čakale že povsem določene. Procesna veriga uporabi pravilo segmentacije,
+anotacijsko shemo in naučene zakonitosti na določeni besedilni predstavitvi:
 
-- **pojavnice** razdelijo tekoče besedilo na besede, ločila ali druge enote;
-- **povedi** določijo meje lokalnega konteksta;
-- **leme** združijo pregibne oblike pod slovarsko osnovno obliko;
-- **oznake besednih vrst in morfološke oznake** opišejo slovnično kategorijo in lastnosti;
-- **odvisnostna razmerja** predstavijo skladenjske povezave med besedami;
-- **imenske entitete** označijo odseke, kot so osebe, organizacije, kraji ali datumi.
+> izvorni predmet → prepis ali OCR → normalizirano besedilo → povedi in pojavnice
+> → leksikalne in slovnične oznake → poizvedba → združevanje → interpretacija
 
-Te plasti omogočajo vprašanja, na katera zgolj površinske oblike ne odgovorijo. Leme podpirajo primerjave kljub pregibanju. Morfološke oznake omogočijo raziskovanje sklona, števila ali časa. Entitete lahko besedila povežejo s podatkovnimi zbirkami in zemljevidi. Odvisnostna razmerja lahko približno pokažejo, kdo deluje na koga.
+Napaka ali uredniška odločitev na eni stopnji omeji vse poznejše. Zlepljena
+oblika OCR lahko hkrati spremeni število pojavnic, lemo, besedno vrsto in
+skladnjo. Normalizirano ime lahko izboljša razpoznavanje, vendar prikrije
+zgodovinsko pomemben zapis. Visoka skupna mera lahko zakrije sistematično
+odpoved prav v žanru ali družbeni skupini, ki jo primerjate. Preverjanje mora
+zato slediti raziskovalni trditvi po celotni verigi in ne le potrditi, da je
+program končal delo.
 
-## Vsaka anotacija je trditev
+## Kaj trdijo posamezne plasti
 
-Samodejno anotacijo ustvarijo pravila ali statistični modeli, naučeni na že označenih primerih. Rezultat zato odraža:
+### Povedi in pojavnice
 
-- anotacijsko shemo v učnih podatkih;
-- žanre, obdobja in jezikovne različice, zastopane v njih;
-- odločitve o tokenizaciji in normalizaciji;
-- arhitekturo modela in različico programske opreme;
-- dvoumnosti, ki jih razpoložljivi kontekst ne razreši.
+Segmentacija povedi predlaga, kje se en neposredni sobesedilni odsek konča in
+drugi začne.
+Tokenizacija predlaga, kateri nizi štejejo kot besede, ločila ali večbesedne
+enote. Odločitve določijo imenovalec večine poznejših mer. Zgodovinske krajšave,
+začetnice, vezaji, opuščaji in zaradi OCR poškodovani presledki so pogosta mesta
+napak. Če *naroda in* postane *narodain*, označevalnik vidi eno neznano besedo
+namesto samostalnika in veznika.
 
-Oznaka ni odkrita lastnost v istem smislu kot številka strani. Je napoved znotraj določene predstavitve. Razlika je posebej pomembna, ko raziskovalna trditev temelji na majhni kategoriji, nenavadnem jeziku, zgodovinskem zapisu, narečju, poeziji ali imenih, ki jih v učnih podatkih ni.
+Ohranite izvirno besedilo in stabilni identifikator dokumenta. Kadar je mogoče,
+ohranite odmike znakov. CoNLL-U lahko ločeno predstavi površinsko večbesedno
+pojavnico in njene sestavne besede, sploščena preglednica pa to povezavo pogosto
+izgubi.
 
-## CLASSLA v južnoslovanskem prostoru
+### Leme
 
-CLASSLA ponuja jezikoslovne procesne verige in vire za slovenščino ter več drugih južnoslovanskih jezikov. Običajna veriga lahko besedilo tokenizira, razdeli na povedi, pripiše leme in oblikoskladenjske oznake, razčleni odvisnosti ter razpozna imenske entitete, odvisno od jezika in razpoložljivih modelov.
+Lema pregibne oblike združi pod slovarsko osnovno obliko. Omogoča sledenje
+pojmom prek sklona, števila, osebe ali časa, vendar lahko zabriše razlike in
+podeduje slovarske dogovore. Posebej občutljive so zgodovinske, narečne in
+imenske oblike. Napačna lema pomembno pojavitev odstrani iz poizvedbe ali doda
+enakozvočnico, ki tja ne spada.
 
-Prednost ni samo priročnost. Dokumentirana regionalna infrastruktura olajša navajanje modelov, primerjanje jezikov in razumevanje označevalnih shem. Metodološka obveznost ostane: zabeležimo jezik, različico modela ali paketa, uporabljene procesorje, pripravo vhodnih podatkov in datum obdelave.
+Po lematizaciji ne zavrzite površinskih oblik. Poročajte, ali štejete oblike,
+oblike z malimi črkami ali leme, ter preberite kontekste, na katerih temelji
+argument.
 
-CLASSLA je tudi središče znanja za dokumentacijo, svetovanje, izobraževanje in objavo virov. Njeno institucionalno vlogo in razmerje s CLARIN.SI pojasnjuje poglavje [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md).
+### UPOS in oblikoslovje
 
-## Izberite samo plasti, ki jih potrebujete
+Univerzalne oznake besednih vrst (UPOS) dajejo široke kategorije, kot so
+`NOUN`, `VERB`, `ADJ` in `PRON`. Oblikoslovne lastnosti dodajo vrednosti za
+sklon, spol, število, osebo, čas ali polarnost. Polje XPOS lahko ohrani oznako,
+specifično za jezik. Gre za analize znotraj sheme, ne za univerzalne oznake, ki
+bi jih vsi jezikoslovci pripisali enako.
 
-Več anotacije ni samodejno bolje. Vsaka plast prinaša računanje, shranjevanje in možne napake.
+Humanistična poizvedba mora navesti operacionalizacijo. »Akterjev« ne morete
+preprosto izenačiti s samostalniki v imenovalniku: trpnik, elipsa in neživi
+osebki bližnjico zapletejo. Tudi pri meri oblikoslovja povejte, ali je pojavnica
+pravilna šele ob ujemanju celotnega svežnja lastnosti ali ocenjujete posamezne
+lastnosti ločeno.
 
-Za raziskavo leksikalnih sprememb so morda dovolj pojavnice, leme in metapodatki. Raziskava slovničnih konstrukcij lahko potrebuje morfologijo in odvisnosti. Zemljevid ustanov zahteva imenske entitete in razreševanje identitet. Zagon vseh procesorjev zgolj zato, ker obstajajo, upočasni postopek in oteži presojo, ne da bi nujno izboljšal argument.
+### Odvisnosti
 
-Začnite pri raziskovalni spremenljivki. Vprašajte se, katero opazljivo značilnost potrebujete, katera anotacija jo približa in kako bi napake v tej plasti spremenile rezultat.
+Odvisnostna analiza vsaki skladenjski besedi pripiše glavo in razmerje, denimo
+`nsubj`, `obj` ali `obl`. Tako lahko iščete konstrukcije namesto osamljenih
+besed, na primer osebo, ki je kot osebek povezana s poročevalskim glagolom. Ena
+napačna meja pojavnice premakne identifikatorje, napačen povedek pa spremeni več
+lokov. Neoznačena pravilnost povezave vpraša, ali je pravilna glava; označena
+pravilnost povezave zahteva pravilno glavo in razmerje.
 
-## Od rezultata do urejene tabele
+Odvisnosti približajo skladenjsko branje. Same ne določijo zgodovinskega
+delovanja, odgovornosti, izvora navedka ali vzročne moči. Te zahtevajo
+kontekstualno interpretacijo.
 
-Uporabna anotacijska tabela ima navadno eno vrstico na pojavnico in polja, kot so:
+### Imenske entitete
 
-| document_id | sentence_id | token_id | form | lemma | upos | feats | head | deprel |
-|---|---:|---:|---|---|---|---|---:|---|
-| d001 | 1 | 1 | Raziskovalke | raziskovalka | NOUN | Case=Nom\|Gender=Fem\|Number=Plur | 2 | nsubj |
+Razpoznavanje imenskih entitet (NER) predlaga razpone in kategorije, kot so
+oseba, organizacija ali kraj. Ocenjujte natančne razpone kot razpone. Točnost
+oznak na ravni pojavnic je lahko visoka že zato, ker večina pojavnic ni entitet.
+Preciznost je število pravilno napovedanih razponov, deljeno z vsemi napovedanimi
+razponi; priklic uporablja referenčne razpone; F1 je njuna harmonična sredina.
 
-Metapodatke dokumentov hranite v ločeni tabeli, povezani z `document_id`. Ohranite izvirno besedilo in, kadar je mogoče, odmike znakov, ki anotacijo povežejo z njim. Izvoz zgolj v sploščeno preglednico lahko uniči strukturo povedi, večbesedne pojavnice ali negotovost.
+Razpoznavanje ni razreševanje entitet. Oznaka, da je *Ljubljana* kraj, je še ne
+poveže s stabilnim normativnim zapisom. *J. Novak*, *Janez Novak* in *Novak*
+lahko označujejo eno osebo ali več oseb. Ohranite različice imen, datume,
+provenienco vira in stanje nerazrešenosti. Manjkajoča povezava je varnejša od
+samozavestne napačne identitete.
 
-## Preverjanje mora ustrezati raziskovalni nalogi
+## CLASSLA kot regionalna infrastruktura
 
-Skupna točnost, ki jo navede avtor modela, ni preverjanje vašega korpusa. Iz lastnega gradiva izberite vzorec in preglejte plast, ki jo analiza dejansko uporablja.
+CLASSLA ponuja procesne verige in vire za slovenščino ter druge južnoslovanske
+jezike. Glede na jezik in razpoložljivost modelov lahko izvede tokenizacijo,
+segmentacijo povedi, označevanje besednih vrst in oblikoslovja, lematizacijo,
+odvisnostno razčlenjevanje ter NER. Regionalna dokumentacija in povezava s
+CLARIN.SI olajšata iskanje in navajanje modelov ter označevalnih shem.
+Institucionalni okvir obravnava poglavje
+[Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md).
 
-Utemeljen postopek je:
+Za ponovljivo navedbo ime CLASSLA ne zadostuje. Zamrznjena učna izvedba je
+uporabila CLASSLA `2.2.1`, Python `3.12.3`, izvajanje na CPE ter procesorje
+`tokenize,pos,lemma,depparse,ner`. Čas sklepanja v UTC je bil obnovljen iz
+časovnega žiga metapodatkovne datoteke ohranjenega kandidata; starejši zaganjalnik ni ohranil
+zanesljivega časa pridobitve virov, zato je ta vrednost `unknown`. Ločeni zapisi
+določajo operacijsko okolje, različice Python, Torch, NumPy, SciPy, scikit-learn,
+CLASSLA, Stanza in Obeliks, popoln seznam paketov v okolju, ukaz, kontrolne vsote SHA-256
+normaliziranih vhodov in rezultatov ter velikost in kontrolno vsoto vsake
+datoteke virov. Modelskih datotek ne razširjamo. Pred razširjanjem ali
+produkcijsko rabo preverite licenco paketa in vsakega vira posebej.
 
-1. vzorec stratificiramo po žanru, obdobju ali drugem verjetnem viru razlik;
-2. ročno anotiramo ali preverimo pomembne značilnosti;
-3. primerjamo samodejne in referenčne oznake;
-4. po potrebi poročamo o preciznosti, priklicu ali ujemanju;
-5. pregledamo ponavljajoče se tipe napak, ne le ene skupne ocene;
-6. ocenimo, ali so napake naključne ali sistematično povezane s primerjanimi skupinami.
+Tak opis ne pomeni, da je posamezno zamrznjeno izvedbo mogoče povsod natančno
+ponoviti. Strojna oprema, paketi in viri se spreminjajo. Omogoča pa prepoznavo
+izvedbe in razlikovanje namerne posodobitve od prikritega odklona.
 
-Če razpoznavalnik zaradi drugačnih okrajšav pogosteje spregleda zgodovinske ženske, je primerjava skupin lahko pristranska tudi ob navidezno dobri skupni točnosti.
+### Smernice, drevesnice in modelska praksa
 
-## Razpoznavanje entitet ni razreševanje identitet
+Universal Dependencies (UD) objavlja medjezikovne smernice, vendar procesna
+veriga ne anotira neposredno iz abstraktne smernice. Uči se iz določenih
+drevesnic, jezikovnih dogovorov, zgodovine pretvorb in modelskih ciljev. Zato se
+lahko model razlikuje od verjetnega branja smernice, dve drevesnici pa isto
+konstrukcijo razrešita drugače. Navedite dejanske modelske vire in dokumentacijo
+oznak, ne le »UD«. Pri pomembni razliki primerjajte primere v ustrezni drevesnici,
+zapišite projektno pravilo in ohranite nestrinjanje, namesto da bi modelski
+rezultat prikrito prepisali.
 
-Ko niz *Ljubljana* prepoznamo kot kraj, še ne vemo, na kateri zapis v podatkovni zbirki se nanaša. Podobno lahko *J. Novak*, *Janez Novak* in *Novak* označujejo eno osebo ali več oseb. **Razreševanje entitet** omembe poveže s stabilnimi identitetami in zabeleži negotovost.
+## Domenska odvisnost in odgovorni posegi
 
-Uporabite identifikatorje, različice imen, časovne podatke in provenienco. Povezave ne vsiljujte, če ni dovolj dokazov. Nerazrešena omemba je boljša od samozavestne napačne povezave.
+Pojmovno ločite tri nize: **izvorno obliko**, vidno na strani ali v izvirno
+digitalnem predmetu, morebitno **normalizirano obliko**, ustvarjeno z uredniškim
+pravilom, ter **točno besedilo, posredovano modelu**. Lahko so enaki, vendar tega ne
+predpostavite. Shranite pretvorbe in odmike do vira ali drugo povratno poravnavo,
+da se pregledovalec lahko vrne od anotacije k dokazu. Če normalizacija spremeni
+dolžino ali meje besed, opišite pretvorbo odmikov.
 
-## Razdelan primer: glagoli govorjenja v časopisju
+Zgodovinski zapis, narečna in druga nestandardna slovenščina ter kodno
+preklapljanje lahko odstopajo od prevladujočih učnih podatkov. Krajšave in imena
+so zahtevni drugače: redke oblike se prepletajo z ločili, velikimi črkami,
+mejami povedi in entitetnimi kategorijami. Pojave preverite kot poimenovane
+skupine. Ena »zgodovinska« mera lahko prikrije uspeh na urejeni prozi in odpoved
+pri oglasih, verzih, nemških vložkih ali okrajšanih imenih žensk.
 
-Predpostavimo, da želimo primerjati poročevalske glagole v dveh časopisnih obdobjih.
+Posežete lahko na več načinov. **Ročni popravek** je primeren za omejen nabor z
+velikimi posledicami, če ostanejo odločitve in prejšnje vrednosti vidne.
+**Preslikavanje po pravilih** lahko odpravi sistematično neskladje oznake ali
+normalizacije, vendar ga morate verzionirati, preizkusiti lažne popravke in
+uporabiti tudi na novem gradivu. **Prilagojeni leksikon** izboljša znana imena ali
+zgodovinske oblike, toda pokritost je izbirna, lažno pozitivne napovedi se lahko
+povečajo, seznam pa lahko utrdi zastarele normativne odločitve. Prilagajanje
+modela zahteva dovolj licenciranih anotacij in vrednotenje na ločenem testnem
+naboru.
 
-1. Določimo in vzorčimo primerljivo časopisno gradivo.
-2. Ohranimo metapodatke o članku in datumu.
-3. Izvedemo tokenizacijo, lematizacijo, morfološko in odvisnostno analizo.
-4. Po lemi in konstrukciji poiščemo možne glagole govorjenja.
-5. Ročno preverimo stratificiran vzorec, tudi naslove in navedke.
-6. Resnične poročevalske rabe ločimo od homonimije in napak razčlenjevanja.
-7. Števila normaliziramo glede na velikost korpusa in porazdelitev člankov.
-8. Razlike razlagamo skupaj z uredniškim in zgodovinskim kontekstom.
+Zamrznjenega samodejnega rezultata ne prepišite s popravljenimi oznakami. Vir,
+napoved in referenčni osnutek ohranite kot ločene plasti. Objavite nadaljnji
+izračun pred posegom in po njem; tehnično boljša oznaka sicer nima dokazane
+vrednosti za raziskovalno vprašanje.
 
-Anotacija zoži iskalni prostor. Ne nadomesti interpretativnega razlikovanja med navedkom, poročanim govorom, metaforo in obrazcem.
+## Izberite le plasti, ki jih zahteva vprašanje
+
+Več procesorjev ne daje samodejno močnejšega dokaznega gradiva. Vsak doda čas,
+prostor in novo možnost za napako.
+
+| Raziskovalno opravilo | Verjetne najmanjše plasti | Dodatno preverjanje |
+| --- | --- | --- |
+| Štetje različic besede | pojavnice ali leme | konkordanca in porazdelitev po dokumentih |
+| Primerjava sklonov | pojavnice, UPOS, oblikoslovje | pregled celotnega svežnja lastnosti |
+| Iskanje govorcev poročevalskih glagolov | leme, UPOS, odvisnosti | pregled navedkov in glasu |
+| Kartiranje imenovanih ustanov | pojavnice, NER | razreševanje entitet ter krajevna in časovna razločitev |
+
+Začnite pri opazljivi lastnosti, ki jo zahteva trditev. Poimenujte anotacijo, ki
+jo približa, in si zamislite najbolj škodljivo verjetno napako. Če jo
+interpretacija prenese, plast morda zadostuje. Če je ne, okrepite vzorec,
+popravljalni postopek ali omejite trditev.
+
+## Referenca ni razsodnik
+
+Uporabni referenčni vzorec je ročno anotiran ali pregledan po izrecnih pravilih.
+Še vedno je raziskovalni poseg. Zabeležite pregledovalca, datum, videno izvorno
+plast, ravnanje z napakami OCR, uporabljeno shemo in mesta razumnega nestrinjanja.
+Neodvisno dvojno anotiranje in razsojanje izboljšata zanesljivost; če ju ni,
+to povejte.
+
+V tem paketu postopek še ni končan. Oznake so strojno podprti referenčni osnutek,
+ki čaka na človeški pregled. Za prehod v stanje `human-reviewed` je treba navesti
+ime pregledovalca, datum pregleda v obliki ISO in obseg pregleda; do takrat
+osnutek beleži odločitve za preverjanje in ne dokončne referenčne resnice.
+
+Vzorčite pričakovano raznolikost in ne le lahkega sodobnega besedila. Vključite
+obdobje, žanr, stanje dokumenta, imenske entitete ter pojave, pomembne za
+vprašanje. Poškodbo vira ločite od napake modela. Če je ponudnikov OCR že izgubil
+mejo med besedama, je ni povzročil jezikoslovni označevalnik, čeprav je njegov
+odziv na poškodbo še vedno pomemben.
+
+## Za vsako plast navedite imenovalec
+
+Trditev »model je dosegel 92-odstotno točnost« je nepopolna. Enota in upravičeni
+nabor se po plasteh spreminjata. Objavite števce za vsako mero:
+
+Pri segmentaciji povedi meje predstavite kot položaje ali razpone. Preciznost
+meje deli pravilne napovedane meje z vsemi napovedanimi, priklic pa z referenčnimi;
+F1 ju poveže. Natančno ujemanje povednih razponov je strožje in je v paketu
+uporabno, ker vsak vzorec vsebuje eno navedeno poved. Tudi pri ujemanju
+pojavnic ali razponov povejte, ali so vključena ločila, razponi večbesednih
+pojavnic in odmiki znakov.
+
+| Plast | Primer mere | Imenovalec |
+| --- | --- | --- |
+| segmentacija povedi | natančno ujemanje povedi | referenčni vzorci ali povedi |
+| tokenizacija | pravilno poravnane besedne pojavnice | referenčne besede, z ločeno navedenimi vstavki in izpusti |
+| lema / UPOS | točnost natančne oznake | besede z enakovredno poravnavo |
+| oblikoslovje | točnost celotnega svežnja | poravnane pojavnice, primerne za oblikoslovje |
+| odvisnosti | UAS in LAS | poravnane skladenjske besede s poravnljivo glavo |
+| NER | preciznost / priklic / F1 razpona | napovedani razponi / referenčni razponi |
+
+Mer ne povprečite v eno prestižno številko. Popolna mera NER pri dveh entitetah
+je skromen dokaz. Imenovalec odvisnosti, ki prikrito izloči neporavnane pojavnice
+OCR, lahko rezultat olepša. Objavite števec, imenovalec, izločitve in dnevnik
+napak.
+Mero celotnega oblikoslovnega svežnja lahko dopolnite z vrednotenjem posameznih
+lastnosti, vendar odgovarja na drugo vprašanje in potrebuje svoj imenovalec.
+
+## Ohranite rezultat, ki ga je mogoče pregledati
+
+Pythonov predmet v pomnilniku še ni raziskovalni rezultat. Izvozite strukturirano
+obliko, ki ohrani identifikatorje dokumenta, povedi in besede; površinsko obliko
+in lemo; UPOS, jezikovno oznako in lastnosti; glavo in odvisnostno razmerje;
+razpon entitete ter povezavo z izvorno plastjo. CoNLL-U dobro ohrani jezikoslovno
+strukturo. Tabela pojavnic je priročna za analizo, vendar naj metapodatki
+dokumentov ostanejo v povezani tabeli in naj se ne prepisujejo nedosledno v
+vsako vrstico.
+
+Normalizacijo dokumentirajte ločeno od vira. Če besedilo pretvorite v male črke,
+poenotite zgodovinski zapis ali pred anotiranjem popravite OCR, ohranite
+nespremenjeno plast in ponovljivo pretvorbo ali dnevnik odločitev. Rezultat ne
+sme namigovati, da uredniško spremenjeni znaki izvirajo s strani. Enako velja za
+izločene odlomke in neuspele dokumente: odsotnost iz končne tabele je izborna
+odločitev.
+
+Najmanjši zapis izvedbe vsebuje datum in čas, različice paketa in izvajalnega
+okolja, vrstni red procesorjev z nastavitvami, identifikatorje ali kontrolne vsote
+SHA-256 modelov in virov, uporabljeno napravo, identifikatorje in kontrolne vsote
+SHA-256 vhodov in rezultatov ter ukaz ali različico skripte.
+Kontrolna vsota dokazuje enakost bajtov, ne pravilnosti. Skupaj z referenčnimi
+pravili in dnevnikom napak pa omogoči obnovo videnega gradiva in posegov.
+
+Merilo za odločitev določite pred ogledom rezultata. Lahko zahtevate ročni
+pregled vseh imenovanih entitet, zavrnete primerjavo obdobij ob pomembno
+različnem priklicu ali anotacije uporabite samo za iskanje kandidatov za bližnje
+branje. Če je imenovalec premajhen ali se nestrinjanje zgosti v ciljni kategoriji,
+ustavite postopek, razširite preverjanje in omejite trditev. »Ni mogoče preveriti«
+je uporaben metodološki izid in ne neuspešna programska predstavitev.
+
+## Razdelan primer: sodobno, zgodovinsko in OCR
+
+[Učni paket za preverjanje besedilnih analiz in NLP](../../assets/downloads/text-nlp-validation-v1.zip)
+primerja štiri namensko izbrane slovenske povedi. Dve sta sodobna primera, ki ju
+je napisal priročnik. Drugi dve sta usklajeni besedilni predstavitvi istega
+časopisnega odlomka iz leta 1925 v paketu o arhivskem trenju: ročno preverjeni
+referenčni prepis in dokumentirani ponudnikov OCR. Nista neodvisni zgodovinski
+opazovanji.
+
+Sodobna poved, ki se začne *Kustosinja Maja Kovač*, dobi verjetne leme, skladnjo
+in natančne razpone za osebo, muzej ter Ljubljano. Uspeh je dokaz le za izbrane
+primere. V zgodovinskem referenčnem prepisu posamostaljeni *vse* omogoči zapisano
+nestrinjanje med modelsko prislovno analizo in analizo zaimka ter osebka v
+referenčnem osnutku. V ponudnikovem OCR sta *naroda in* zlepljena v *narodain*, *stanovske*
+postane *stavovske*, *kulturnega* postane *kultrunega*, oziralni *ki* pa *i*.
+Zadnjo obliko model analizira kot samostalnik, zato preusmeri tudi odvisnostno
+strukturo.
+
+Primerjava loči tri opise:
+
+1. **stanje vira:** kaj vsebuje stran, prepis ali ponudnikov OCR;
+2. **delovanje anotacijskega postopka:** kaj zamrznjena procesna veriga napove za vhod;
+3. **interpretativna posledica:** katera poizvedba, število ali pripis se spremeni.
+
+Po primerjavi s sedanjim referenčnim osnutkom so popravljene odvisnostne mere:
+
+| Vhodni vzorec | UAS | LAS |
+| --- | ---: | ---: |
+| sodobni čisti vzorec 1 | 11/11 | 11/11 |
+| sodobni čisti vzorec 2 | 9/9 | 9/9 |
+| zgodovinski referenčni prepis | 50/52 | 50/52 |
+| ponudnikov OCR | 43/46 | 42/46 |
+
+Ulomki opisujejo ujemanje z osnutkom, ki čaka na človeški pregled; ne merijo
+točnosti glede na človeško razsojeno resnico. Od 24 podrobnih nestrinjanj se jih
+14 ponovi v zgodovinskem prepisu in plasti OCR: deset polj za *vse* ter štiri odvisnostna
+polja za *stranko*. Preostalih deset je povezanih s stanjem ponudnikovega OCR.
+Vzročna razvrstitev temelji na tej primerjavi plasti in ne zgolj na vhodni plasti.
+
+Tak opis je uporabnejši od splošne trditve, da je OCR »slab«. Zlepljeni veznik
+ogrozi štetje in skladnjo; poškodovani oziralnik ogrozi pripis stavka ali govorca;
+pravilno ohranjena entiteta je morda robustna le v tej povedi. Taksonomija napak
+rezultata ne opravičuje, ampak pokaže točko potrebnega posega.
+
+## Načini odpovedi in odgovorne omejitve
+
+Pogoste napake so obdelava PDF namesto dokumentirane besedilne plasti,
+normaliziranje pomenljivega zgodovinskega zapisa, izguba identifikatorjev pri
+izvozu, sploščitev večbesednih pojavnic, preverjanje samo na lahkem sodobnem
+besedilu, objava skupne mere brez imenovalca in prikaz negotovega razreševanja
+entitet kot gotovega.
+
+Anotacija lahko okrepi reprezentacijsko neenakost. Imena, jezikovne različice in
+žanri, ki so v učnih virih slabo zastopani, lahko odpovedujejo sistematično.
+Poizvedba o ženskah, manjšinskojezičnih avtorjih ali regionalnih ustanovah je
+zato lahko pristranska tudi ob visoki skupni meri. Napake preglejte po skupinah,
+ki jih raziskava primerja, zaščitite občutljive osebne podatke ter iz slovničnih
+ali entitetnih oznak ne sklepajte o identiteti ali duševnem stanju.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Sprehodite se po ekosistemu"
@@ -2413,6 +2662,7 @@ Anotacija zoži iskalni prostor. Ne nadomesti interpretativnega razlikovanja med
     - [Kako namestim in preizkusim CLASSLA s Pythonom 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-and-test-classla/)
     - [Kako s CLASSLA anotiram majhno besedilo?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/annotate-a-small-text-with-classla/)
     - [Kako rezultate CLASSLA izvozim v CSV?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/export-classla-results-to-csv/)
+    - [Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)
 
     **Oglejte si študijo primera**
 
@@ -2423,140 +2673,375 @@ Anotacija zoži iskalni prostor. Ne nadomesti interpretativnega razlikovanja med
 
 ## Vaja
 
-Izberite raziskovalno vprašanje in pripravite načrt anotacije. Navedite potrebne plasti, programsko opremo in jezikovni model, vhodni format, izhodna polja, vzorec za preverjanje, pričakovane napake in točko, na kateri je potrebna človeška odločitev.
+Izvedite postopek [Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](../workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md).
+Ponovno izračunajte eno mero iz števca in imenovalca, dve zapisani napaki
+povežite z izvornima plastema in zapišite trditev, ki jo dokazno gradivo podpira.
+Nato oblikujte močnejšo trditev, ki je ne podpira, ter navedite manjkajoče
+preverjanje.
 
 ## Refleksija
 
-- Katere kategorije v vašem gradivu so slabo zastopane v običajnih učnih podatkih?
-- Bi napaka enako prizadela vse dokumente ali bi lahko izkrivila primerjavo?
-- Katere anotacijske plasti lahko izpustite, ne da bi oslabili argument?
+- Katera plast ima v vašem projektu največje interpretativno tveganje?
+- Ali vzorec vključuje obdobja, žanre in družbene skupine iz vaše primerjave?
+- Katere napake so nastale v OCR ali prepisu in ne v anotaciji?
+- Kaj bi drug usposobljen pregledovalec lahko utemeljeno anotiral drugače?
+- Katere procesorje lahko izpustite, ne da bi oslabili argument?
 
 ## Povzetek
 
-Jezikoslovna anotacija besedilne vzorce naredi računalniško obdelovalne z napovedanimi plastmi, kot so leme, slovnične oznake, skladnja in entitete. CLASSLA ponuja močno infrastrukturo za slovenščino in južnoslovansko gradivo, vendar je rezultat še vedno odvisen od modela. Uporabite le plasti, ki jih zahteva vprašanje, ohranite povezavo z izvirnim besedilom, zabeležite različice in preverite ravno tisto značilnost, na kateri temelji interpretacija.
+Jezikoslovna anotacija je dokazna veriga napovedanih in od sheme odvisnih plasti.
+CLASSLA je pomembna regionalna infrastruktura, toda ime paketa ali splošna mera
+ne more preveriti humanistične trditve. Ohranite plasti vira, zaženite le potrebne
+procesorje, natančno identificirajte programsko opremo in vire, pripravite
+referenčno anotacijo z dokumentiranim stanjem pregleda, poročajte o imenovalcih
+posameznih plasti ter vsako pomembno napako povežite z interpretacijo, ki jo
+lahko spremeni. Strojno podprti osnutek v tem paketu obravnavajte kot gradivo, ki
+čaka na človeški pregled, in ne kot razsojeno referenco.
+
+## Nadaljnje branje
+
+- Ljubešić, Nikola, Luka Terčon in Kaja Dobrovoljc. 2024. *CLASSLA-Stanza: The Next Step for
+  Linguistic Processing of South Slavic Languages*. [Arhivirana izdaja in
+  bibliografski zapis](https://doi.org/10.5281/zenodo.13936406).
+- [Izvorni repozitorij CLASSLA z navodili za uporabo](https://github.com/clarinsi/classla).
+- Universal Dependencies. [Oblika CoNLL-U](https://universaldependencies.org/format.html)
+  in [univerzalna odvisnostna razmerja](https://universaldependencies.org/u/dep/).
+- Za razlikovanje izvorne slike, rezultata razpoznavanja, popravljenega besedila
+  in nadaljnje uporabe znova preberite [Besedila, korpusi in OCR](texts-corpora-ocr.md).
 
 ---
 
 ## Analiza besedil
 
+!!! warning "Stanje prevoda"
+    Slovensko besedilo je strojno podprti uredniški osnutek. Pred formalno
+    objavo potrebuje vsebinski in jezikovni pregled strokovnjaka za slovenščino.
+
+Časopis besedo *svoboda* večkrat uporabi v enem dolgem uvodniku, v desetih
+drugih člankih pa je ni. Je svoboda značilna za zbirko ali za en dokument?
+Odgovor se spremeni, če štejete pojavitve, dokumente ali razpršenost, ter znova,
+ko v primerjavo vključite OCR, žanr in dolžino dokumentov.
+
 ## Učni cilji
 
 Po tem poglavju boste znali:
 
-- razlikovati med absolutnim številom, normalizirano frekvenco, deležem in dokumentno frekvenco;
-- s konkordancami povezati količinske vzorce z besedilnim kontekstom;
-- pojasniti, kaj primerjajo statistike ključnih besed in kolokacij;
-- zasnovati primerjalni korpus in se izogniti napačnim imenovalcem;
-- združiti raziskovalno računanje, natančno branje in preverjanje.
+- razlikovati frekvenco pojavnic, normalizirano frekvenco, dokumentno frekvenco
+  in razpršenost;
+- določiti enoto, imenovalec, poizvedbo in razdelitev korpusa za posamezno štetje;
+- s konkordancami preveriti pomen, navedek, zanikanje in ponavljajoče se predloge;
+- pojasniti, zakaj ključne besede zahtevajo primerljiv referenčni korpus;
+- kolokacijo razlagati kot od parametrov odvisno povezanost in ne kot pomen;
+- v količinskem rezultatu prepoznati učinke vira, OCR, anotacije in vzorčenja;
+- ločiti raziskovalno iskanje vzorcev od njihove podkrepitve; in
+- ohraniti dovolj dokazov za ponovitev in kritiko analize.
 
 ## Pred začetkom
 
-Beseda se v korpusu A pojavi 300-krat, v korpusu B pa 180-krat. Je značilnejša za A? Tega ne morete vedeti brez velikosti korpusov, porazdelitve po dokumentih, žanrske sestave in načina štetja. Število postane dokaz šele, ko določimo imenovalec in primerjavo.
+Beseda se v korpusu A pojavi 300-krat, v korpusu B pa 180-krat. Zapišite, kaj
+potrebujete, preden jo razglasite za značilnejšo za A. Potrebujete vsaj velikost
+in število dokumentov, porazdelitev, žanre, datume, pravilo za dvojnike,
+besedilne plasti in opredelitev štete oblike. Sami števili sta rezultata, ne
+dokazno gradivo.
 
-Za razlikovanje med računalniškim rezultatom in dokaznim gradivom za humanistično trditev ter za modelske odločitve, skrite v enotah in kategorijah, uporabite pojmovno podlago poglavja [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md).
+Če morate ločiti izmerjeni vzorec od interpretacije, se vrnite k poglavju
+[Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md).
+Če štetje uporablja leme ali slovnične kategorije, preberite tudi
+[Jezikoslovna anotacija in CLASSLA](linguistic-annotation-classla.md).
 
-## Štetje je model pomembnosti
+## Osrednji argument: vsako štetje vsebuje model korpusa
 
-Analiza besedil se pogosto začne s štetjem, vendar različna štetja odgovarjajo na različna vprašanja:
+Analiza besedil ponavljajoče se značilnosti spremeni v strukturirane primerjave.
+Štetje se zdi preprosto, vendar že vsebuje odločitve o viru, meji dokumenta,
+prepisu, normalizaciji, tokenizaciji, poizvedbi in imenovalcu. Te odločitve
+določijo, kaj lahko najdete.
 
-- **frekvenca pojavnic** šteje vsako pojavitev;
-- **dokumentna frekvenca** šteje dokumente, v katerih se pojav pojavi;
-- **normalizirana frekvenca** izrazi število pojavitev na določeno število pojavnic;
-- **delež** kategorijo izrazi glede na ustrezno celoto;
-- **razpršenost** opiše, kako enakomerno so pojavitve porazdeljene.
+Utemeljen rezultat zato poveže štiri dele:
 
-Beseda, uporabljena stokrat v enem govoru, ni enakovredna besedi, uporabljeni po enkrat v stotih govorih. Kadar je koncentracija pomembna, poročajte o frekvenci in porazdelitvi.
+1. **opis:** kaj vsebujejo korpus, poizvedba in izračun;
+2. **dokazno gradivo:** števila, kontekste, porazdelitve in negotovost, pomembne
+   za navedeno vprašanje;
+3. **interpretacijo:** zgodovinsko in jezikoslovno utemeljeno razlago možnega
+   pomena vzorca; in
+4. **priporočilo ali odločitev:** naslednji korak vzorčenja, branja ali preverjanja.
 
-## Konkordance ponovno povežejo vzorec in kontekst
+Ne dovolite, da programska oprema dele združi v razvrščeni seznam, ki je videti,
+kot da se razlaga sam.
 
-Konkordanca KWIC vsako pojavitev postavi v kratek levi in desni kontekst. Je eden najpomembnejših mostov med oddaljenim in natančnim branjem.
+## Poimenujte opazovano in analizno enoto
 
-S konkordancami lahko:
+**Pojavnica** je ena pojavitev po tokenizaciji; **različnica** je različna
+površinska oblika ali lema po prijavljenem pravilu enakovrednosti. **Poved** in
+**odlomek** sta kontekstualni enoti, katerih meje so lahko uredniške ali modelske.
+**Dokument** je bibliografska ali analizna enota in ni samodejno ena datoteka.
+**Govorec** lahko prispeva več odlomkov, **korpus** pa je dokumentirana zbirka, iz
+katere ste jih izbrali.
 
-- prepoznamo ponavljajoče se pomene in konstrukcije;
-- ločimo homografe in nepomembne rabe;
-- pregledamo zanikanje, navajanje in ironijo;
-- preverimo, ali številski vzorec ustvarja ponavljajoča se predloga;
-- izberemo odlomke za globlje branje, ne da bi jih zato razglasili za statistično reprezentativne.
+Opazovana enota je zapisani pojav, na primer pojavnica. Analizna enota je tisto,
+o čemer govori trditev, denimo govor, govorec ali časopisna številka. Zamenjava
+ustvari lažno natančnost: tisoči pojavnic enega govorca ne postanejo tisoči
+neodvisnih govorcev. Pred izbiro statistične metode navedite obe enoti.
 
-Razvrščajte po levem ali desnem kontekstu, združujte po metapodatkih in shranite definicijo poizvedbe. Posnetek zaslona konkordance ni ponovljiv rezultat.
+## Frekvenca odgovori »kolikokrat?«
 
-## Ključne besede potrebujejo referenco
+**Frekvenca pojavnic** je število pojavitev določenega pojava. Lahko štejete
+natančno obliko, obliko brez razlikovanja velikosti črk, lemo, besedno zvezo ali
+anotirani vzorec. Povejte, kaj ste izbrali. Skupno štetje oblik `arhiv`, `Arhiv`
+in pregibnih različic je operacionalizacija in ne nevtralna priročnost.
 
-**Ključna beseda** ni zgolj pogosta beseda. V ciljnem korpusu je nenavadno pogosta glede na referenčni korpus. Rezultat je odvisen od obeh strani.
+Absolutna števila so uporabna znotraj ene zbirke in za preverjanje podatkov, niso
+pa neposredno primerljiva pri različnih velikostih korpusa. **Normalizirana
+frekvenca** uporabi prijavljeni imenovalec, pogosto:
 
-Izberite referenčni korpus, ki nadzoruje primerjavo, ki jo želite izvesti. Za raziskavo razlik med političnimi strankami v istih volitvah uporabite primerljive žanre in datume. Primerjava govorov ene stranke s splošnim spletnim korpusom bi pomešala politične, žanrske, medijske in časovne učinke.
+```text
+normalizirana frekvenca = pojavitve izraza / vse upravičene pojavnice × 10.000
+```
 
-Statistične mere, kot je logaritemsko razmerje verjetij, kažejo moč dokazov proti enaki relativni frekvenci; mere učinka, kot je logaritemsko razmerje frekvenc, pa velikost in smer razlike. V zelo velikem korpusu so lahko tudi drobne in nezanimive razlike statistično močne, zato preglejte dokaz in učinek.
+»Upravičene« je pomembna beseda. Ali štejete ločila, metapodatke, ponovljene
+glave in neberljive odlomke OCR? Mera na 10.000 pojavnic primerja relativni
+besedilni prostor, ne verjetnosti, da izraz uporabi dokument ali avtor. Če se
+dolžine zelo razlikujejo, en dolg dokument prevlada v števcu in imenovalcu.
+
+## Dokumentna frekvenca odgovori »kako široko?«
+
+**Dokumentna frekvenca (DF)** šteje dokumente z vsaj eno pojavitvijo. Imenovalec
+je število upravičenih dokumentov. Objavite število in delež:
+
+```text
+dokumentni delež = dokumenti z izrazom / upravičeni dokumenti
+```
+
+Frekvenca in DF razkrijeta različni obliki korpusa. Deset rab v enem uvodniku
+daje frekvenco 10 in DF 1. Po ena raba v desetih člankih daje isto frekvenco in
+DF 10. Prva lahko kaže močan krajevni argument, druga širše kroženje. Meje
+dokumentov morajo biti pomenljive: delitev knjige na poglavja spremeni DF, ne pa
+besedila.
+
+Kadar so resnične vzorčne enote avtorji, številke ali dogodki in ne datoteke,
+izračunajte tudi te enote. Obravnava vseh člankov istega plodovitega avtorja kot
+neodvisnih lahko napihne doseg osebne navade.
+
+**Razpon** je družina sorodnih mer za število delov korpusa, ki vsebujejo izraz.
+DF je dokumentni razpon, kadar so deli dokumenti; trditvi morda bolje ustreza
+razpon po avtorjih, številkah, žanrih ali obdobjih. Navedite delitev in imenovalec,
+namesto da bi objavili neopredeljeni odstotek razpona.
+
+## Razpršenost odgovori »kako enakomerno?«
+
+DF loči navzočnost od odsotnosti, vendar ne opiše koncentracije med dokumenti,
+kjer je izraz navzoč. **Razpršenost** opiše porazdelitev pojavitev po dokumentih
+ali pomenljivih delih korpusa. Vedno navedite mero in razdelitev.
+
+Učni paket uporablja Griesov DP, ker imajo štiri avtorske tematske skupine
+neenaka števila upravičenih pojavnic: 83, 68, 66 in 113. Za skupno frekvenco
+izraza \(F>0\), število izraza \(f_i\) v delu \(i\), velikost dela \(N_i\) in
+velikost korpusa \(N\) primerjajte opažene in pričakovane deleže:
+
+```text
+opaženi_i = f_i / F
+pričakovani_i = N_i / N
+DP = 0.5 * sum_i(abs(opaženi_i - pričakovani_i))
+```
+
+DP je 0, kadar delež pojavitev izraza sledi deležem pojavnic v delih; višje
+vrednosti pomenijo večji odklon in koncentracijo. Pri ničelni skupni frekvenci
+ni določen. Pričakovani deleži upoštevajo neenako količino besedila, rezultat pa
+je še vedno odvisen od izbrane razdelitve in ni prirojena splošnost besede.
+
+Ob vrednosti DP objavite velikosti delov in števila izraza po delih. En indeks
+prikrije vodilno skupino in vprašanje, ali razdelitev sploh ustreza
+zgodovinskemu problemu.
+
+## Konkordance povežejo vzorec z odlomkom
+
+Konkordanca KWIC vsako pojavitev postavi v omejeni levi in desni kontekst. Med
+oddaljenim in natančnim branjem zgradi most, ne da bi kratko okno predstavljala
+kot celotno besedilo.
+
+S konkordanco lahko:
+
+- ločite homografe, imena in nepomembne pomene;
+- pregledate zanikanje, poročani govor, navedke in ironijo;
+- najdete ponovljene glave, oglase ali agencijska besedila;
+- primerjate slovnične konstrukcije in bližnje vrednotenjsko izrazje;
+- poiščete odlomke za poglobljeno branje; in
+- pojasnite spremembo števila po popravi OCR ali lematizaciji.
+
+Ohranite identifikator dokumenta in pojavitve, poizvedovano obliko, odmike ali
+položaje pojavnic, velikost okna, pravilo razvrščanja in izvorno plast. Posnetek
+zaslona ni ponovljiva konkordanca. Ko je razlaga odvisna od govorca, žanra ali
+argumenta zunaj izseka, okno povečajte oziroma odprite dokument.
+
+## Ključne besede potrebujejo referenčni korpus
+
+**Ključna beseda** je v ciljnem korpusu nenavadno pogosta glede na referenčni
+korpus. Ni zgolj pogosta ali zanimivo zveneča beseda. Rezultat določata oba
+korpusa.
+
+Referenca naj nadzoruje nameravano razliko. Pri primerjavi dveh strank v istih
+volitvah uskladite obdobje, žanr, medij in pravila izbora. Primerjava govorov ene
+stranke s splošnim spletnim korpusom pomeša učinke stranke, politike, govora,
+obdobja in medija. »Nevtralne« reference ni; obstajajo primerne ali neprimerne
+reference za določeno vprašanje.
+
+Logaritemsko razmerje verjetij in sorodne statistike merijo moč dokaza proti
+enaki relativni frekvenci pod določenimi predpostavkami. Mere učinka, na primer
+logaritemsko razmerje frekvenc, opišejo velikost in smer. V zelo velikem korpusu
+je lahko drobna razlika statistično močna. Objavite ciljno in referenčno število,
+velikosti korpusov, pravilo glajenja ničel, statistiko, mero učinka, pravilo
+večkratnega primerjanja in konkordance. Razvrščeni seznam je začetek razlage.
 
 ## Kolokacija meri povezanost, ne pomena
 
-Kolokati so besede, ki se z iskano besedo pojavljajo znotraj določenega okna ali slovničnega razmerja pogosteje od pričakovanja. Pomembni so parametri:
+**Kolokat** se z iskano besedo pojavlja znotraj določenega okna ali slovničnega
+razmerja pogosteje od pričakovanja po navedeni osnovi. Rezultat je odvisen od:
 
-- iskana beseda ali lema;
-- velikost in smer okna;
-- meje pojavnic ali povedi;
-- najmanjša frekvenca;
-- mera povezanosti;
-- delitev korpusa in pravilo za seznam nepolnopomenskih besed.
+- obravnave iskane besede kot oblike, leme ali vzorca;
+- širine in smeri okna ter meja povedi;
+- tokenizacije in pravil za seznam nepolnopomenskih besed;
+- najmanjše frekvence iskane besede, kolokata in para;
+- mere povezanosti; in
+- delitve korpusa ter metapodatkovnih filtrov.
 
-Vzajemna informacija daje prednost razmeroma izključnim, včasih redkim parom. Frekvenčne in verjetnostne mere navadno poudarijo trdnejše pogoste vzorce. Nobena ocena sama ne dokaže pomenske pomembnosti. Pregled konkordanc je nujen.
+Vzajemna informacija daje prednost razmeroma izključnim in včasih redkim parom.
+Frekvenčne ali verjetnostne mere navadno poudarijo trdne pogoste vzorce. LogDice
+daje omejeno mero, priročno za primerjavo parov, vendar še vedno podeduje
+predobdelavo in vzorčenje. Nobena mera ne dokaže pomenskega razmerja,
+vrednotenjskega stališča ali vzroka. Preberite konkordance in dokumente, kjer se
+pari kopičijo.
 
-## Primerljivost pred računanjem
+## Primerljivost je pred izračunom
 
-Pred primerjavo skupin preverite:
+Pred primerjavo skupin preverite število in dolžino dokumentov, avtorje, žanre,
+datume, mesta objave, dvojnike in agencijska besedila, manjkajoče gradivo,
+kakovost OCR, jezikovno različico, kakovost anotacije in pravila izbora. Razlika
+v založniški praksi se lahko pokaže kot navidezna leksikalna sprememba.
 
-- število in dolžino dokumentov;
-- žanre, avtorje, datume in mesta objave;
-- dvojnike in agencijska besedila;
-- kakovost OCR in anotacije;
-- ali prevladuje en avtor ali dokument;
-- manjkajoče kategorije in neenakomerno vzorčenje.
+Združeni podatki lahko ustvarijo Simpsonov paradoks: splošni trend se znotraj
+žanra, medija ali obdobja obrne. Pripravite dokumentne povzetke in razslojene
+rezultate. Pojavnica ni neodvisni vzorec, kadar jih na tisoče prihaja iz enega
+dokumenta. Uravnoteženost ni vedno zgodovinsko zaželena, mora pa biti neenakost
+vidna in interpretirana, ne prikrito normalizirana.
 
-Združeni korpusi lahko pokažejo Simpsonov paradoks: splošni trend se znotraj žanrov ali obdobij obrne. Uporabite metapodatkovne sloje in povzetke na ravni dokumentov, namesto da bi vsako pojavnico obravnavali kot neodvisno.
+Posebej preglejte OCR. Napake razpoznavanja lahko zmanjšajo navidezno frekvenco,
+ustvarijo lažne redke besede, poškodujejo funkcijske besede in spremenijo velikost
+korpusa. Če ima ena skupina slabši OCR, je lahko pristranska tudi normalizirana
+mera. Poročajte o kakovosti po skupinah, preizkusite popravljeni vzorec ter
+pomembne kandidate povežite s posnetki strani ali pregledanimi prepisi.
+
+## Ohranite imenovalce in negotovost
+
+Ne shranite le končnega grafa. Ponovno uporabna dokumentna tabela naj vsebuje
+stabilni identifikator, navedbo vira, datum, avtorja oziroma stanje neznanega
+avtorstva, žanr, jezik, identifikator besedilne plasti, pravice, število
+upravičenih pojavnic, razpoložljivo mero kakovosti OCR ter odločitev o vključitvi
+z razlogom. Tabela poizvedb naj vsebuje niz ali vzorec, pravilo za črke in leme,
+različico skripte, čas ter kontrolno vsoto SHA-256 vhoda. Izpeljane vrstice naj ohranijo
+identifikator dokumenta, da lahko vsako skupno mero razgrnete.
+
+Negotovost se pojavi pred statističnim modeliranjem. Manjkajoča številka spremeni
+imenovalec korpusa; negotovi datumi spremenijo časovne skupine; zaupanje OCR
+morda ni umerjeno; dvoumna konkordanca spremeni števec. Te podatke zapišite kot
+polja, razpone ali alternativne analize, namesto da bi vsako negotovost pretvorili
+v gotovo vrednost. Pri majhnem korpusu so vsa dokumentna števila lahko
+povednejša od zapletenega intervala z neverjetno predpostavko neodvisnosti.
+
+Kadar vzorčenje dopušča sklepanje, naj metoda negotovosti spoštuje vzorčno enoto.
+Vnovično vzorčenje pojavnic enega članka pretirano poveča količino informacij;
+ustreznejši so morda dokumenti, avtorji ali številke. Navedite število neodvisnih
+enot in predpostavke. Statistična značilnost ne popravi pristranskega izbora,
+neenake ohranjenosti ali neprimernega referenčnega korpusa.
+
+Pred razlago določite pravila za zaustavitev. Rezultat raziščite, če en dokument
+prispeva več od določenega deleža, če se kakovost OCR med skupinama pomembno
+razlikuje, če glavni kandidati izginejo ob verjetni predobdelavi ali če pregled
+konkordanc zavrne veliko ujemanj. Rešitev je lahko popravljeni vzorec, analiza na
+ravni dokumentov ali ožja trditev, ne dodatna okrasna statistika.
+
+## Predobdelava je del argumenta
+
+Neupoštevanje velikosti črk, normalizacija Unicode, odstranjevanje ločil,
+filtriranje nepolnopomenskih besed, krnjenje in lematizacija spremenijo predmet
+analize. Ohranite izvorno plast in zabeležite vrstni red pretvorb. V primerjavi
+uporabite isto prijavljeno pravilo, razen če drugače zahteva raziskovalna zasnova.
+
+Nepolnopomenske besede niso nujno nepomembne. Funkcijske besede lahko izražajo
+slog, register in slovnično strukturo. Odstranjevanje lahko pomaga tematskemu
+modelu, vendar uniči stilometrično vprašanje. Leme zmanjšajo redkost zaradi
+pregibanja, a vnesejo anotacijsko napako in lahko zabrišejo zgodovinsko pomembne
+oblike. Preizkusite občutljivost na verjetne alternative.
+
+Besedni in znakovni **n-grami** predstavljajo krajevna zaporedja. Besedni bigrami
+ohranijo obrazce, ki jih unigrami razdelijo; znakovni n-grami prenesejo del
+pregibanja in podprejo primerjavo sloga, vendar lahko modelirajo tudi sistem OCR,
+pravopis ali glave strani. Dokumentirajte dolžino, obravnavo mej, frekvenčni prag
+in število značilk. Značilke vrnite v odlomke; napovedni delček sam ni pomenljiv
+motiv.
+
+Graf frekvenc ali zemljevid zmanjšanja razsežnosti je raziskovalen, dokler
+vzorčenje in negotovost ne upravičita sklepanja. Osi, glajenje, širina razredov,
+barva in izpuščeni dokumenti lahko spremenijo vizualno trditev. Objavite tabelo
+za prikazom, pokažite dokumentno variabilnost in vzorec imenujte kandidat, dokler
+ne prestane prijavljenega preverjanja.
 
 ## Slog in stilometrija
 
-Stilometrija besedila primerja z merljivimi značilnostmi, kot so frekvence funkcijskih besed, znakovni n-grami, dolžine povedi ali slovnični vzorci. Podpre lahko vprašanja o avtorstvu, žanru, obdobju ali prevodnem slogu.
+Stilometrija primerja dokumente z merljivimi značilkami, kot so frekvence
+funkcijskih besed, znakovni n-grami, dolžina povedi ali slovnični vzorci. Podpre
+vprašanja o avtorstvu, žanru, obdobju in prevodnem slogu, gruča pa sama ne
+poimenuje vzroka.
 
-Utemeljen postopek loči:
+Ločite zasnovo značilk, razdaljo ali model, vrednotenje in zgodovinsko
+interpretacijo. Delov istega dela ne razporedite v učno in testno množico.
+Analizo ponovite pri verjetnih velikostih odsekov, naborih značilk, pragih OCR in
+metapodatkovnih nadzorih. Datum, urednik, žanr in kakovost razpoznavanja lahko
+ustvarijo navidezni avtorski podpis.
 
-- **zasnovo značilk:** katere vidike pisanja predstavimo;
-- **razdaljo ali model:** kako besedila primerjamo;
-- **vrednotenje:** ali se vzorec posploši zunaj vzorca;
-- **interpretacijo:** kateri zgodovinski ali literarni proces bi ga lahko pojasnil.
+## Od raziskovanja do podkrepitve
 
-Gruče same ne poimenujejo svojih vzrokov. Datum objave, OCR, urednik, žanr in dolžina besedila lahko ustvarijo navidezne avtorske skupine.
+Raziskovanje je dragoceno za odkrivanje možnih vzorcev. Krožno postane, ko isti
+podatki izberejo vzorec in parametre ter ga nato navidezno potrdijo. Kadar je
+mogoče, raziskujte na enem delu, zapišite trditev in pravilo, nato pa preizkusite
+zadržane dokumente ali drugo zbirko. Arhivirajte neuspešne poizvedbe in izbire
+parametrov skupaj s privlačnim rezultatom.
 
-## Od raziskovanja do potrjevanja
+Humanističnemu dokazovanju se ni treba pretvarjati, da je klinični preizkus. Mora
+pa iskreno povedati, kdaj ste vzorec opazili, katere možnosti ste preizkusili in
+katero neodvisno gradivo bi ga lahko ovrglo.
 
-Raziskovalna analiza je dragocena pri odkrivanju možnih vzorcev. Težava nastane, ko z istimi podatki vzorec odkrijemo in ga nato predstavimo, kot da je bil neodvisno preverjen.
+## Razdelan primer: frekvenca ni doseg
 
-Kadar je mogoče:
+[Učni paket za preverjanje besedilnih analiz in NLP](../../assets/downloads/text-nlp-validation-v1.zip)
+vsebuje dvanajst kratkih sintetičnih slovenskih dokumentov v štirih avtorskih
+tematskih skupinah s po tremi dokumenti, vendar z neenakim številom pojavnic.
+Korpus je namenjen učenju in ne govori o
+resničnih arhivih, muzejih, jezikovni praksi ali časopisju.
 
-1. raziskujemo na enem delu podatkov;
-2. oblikujemo jasno trditev in pravilo analize;
-3. trditev preverimo na zadržanih dokumentih ali novem korpusu;
-4. poročamo o neuspelih in uspešnih primerjavah;
-5. arhiviramo poizvedbe, skripte in vmesne tabele.
+Izraz *arhiv* se ponovi večkrat, vendar je zgoščen v majhnem številu dokumentov
+arhivske skupine. *Korpus* se ponavlja v enem jezikovnem dokumentu. *Svoboda* je
+izrazita v enem časopisnem dokumentu, drugje pa je ni. Primerjava frekvence, DF,
+dokumentnega deleža, velikosti delov, števil po temah in Griesovega DP pokaže
+različne oblike.
+Konkordanca nato razkrije, ali pojavitve izražajo isto trditev ali si delijo le
+obliko.
 
-Humanistika se ne rabi pretvarjati, da izvaja klinično raziskavo, mora pa razlikovati med odkritjem in podkrepitvijo.
+Rezultat podpira trditve o izdelanem učnem naboru: neki izraz se ponavlja
+krajevno, drugi doseže več dokumentov, oba sta morda omejena na eno tematsko
+skupino. Ne podpira trditve o slovenskem javnem diskurzu. Sintetična zasnova
+razlike med merami prikaže pred uporabo na posledičnem zgodovinskem gradivu.
 
-## Razdelan primer: spreminjanje opisov migracij
+## Načini odpovedi in etične omejitve
 
-Projekt bi lahko primerjal časopisni jezik o migracijah v dveh obdobjih.
+Pogoste napake so primerjava absolutnih števil v neenakih korpusih, uporaba imen
+datotek kot pomenljivih dokumentov, prezrtje prevladujočega besedila, zamenjava
+ključnih besed s temami, razlaga kolokacije kot sentimenta, izločitev
+nasprotujočih konkordanc in poročanje le o ugodnih parametrih.
 
-1. Zgradimo primerljiva niza člankov in dokumentiramo strategijo iskanja.
-2. Pregledamo uravnoteženost korpusa in dvojnike.
-3. Izračunamo normalizirane frekvence lem in dokumentne frekvence.
-4. Glede na drugo obdobje izračunamo ključne besede in mere učinka.
-5. Za najvišje kandidate pregledamo konkordance.
-6. Za izbrane izraze pod stalnimi parametri izračunamo kolokate.
-7. Rezultate razdelimo po mediju in žanru članka.
-8. Natančno preberemo reprezentativne in nasprotujoče si odlomke.
-9. Rezultate razlagamo v povezavi s političnimi dogodki in uredniškim kontekstom.
-
-Rezultat ni celoten »diskurz«. Je dokumentiran niz ponavljajočih se besedilnih razlik v določeni zbirki.
+Števila lahko škodljive kategorije predstavijo kot objektivne. Iskalne oznake
+lahko ponovijo zgodovinske žaljivke; entitetno in demografsko sklepanje lahko
+razkrije ljudi; korpus lahko nadzastopa ohranjene ustanove in vplivne govorce.
+Navajajte le, kar zahteva argument, spoštujte pravice in zasebnost, ohranite
+provenienco ter odsotnost opišite kot lastnost zbirke, ne kot molk preteklosti.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Sprehodite se po ekosistemu"
@@ -2566,6 +3051,7 @@ Rezultat ni celoten »diskurz«. Je dokumentiran niz ponavljajočih se besedilni
     - [Kako primerjam slog s funkcijskimi besedami?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-style-with-function-words/)
     - [How do I make a dispersion plot in LancsBox?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/make-a-dispersion-plot-in-lancsbox/) *(angleška nadomestna stran)*
     - [How do I visualise a frequency list with Voyant?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-a-frequency-list-with-voyant/) *(angleška nadomestna stran)*
+    - [Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/)
 
     **Oglejte si študijo primera**
 
@@ -2575,126 +3061,304 @@ Rezultat ni celoten »diskurz«. Je dokumentiran niz ponavljajočih se besedilni
 
 ## Vaja
 
-Izberite dve majhni skupini besedil. Določite utemeljen imenovalec, za pet pojavov izračunajte frekvenco in dokumentno frekvenco, preglejte vse pojavitve v kontekstu ter zapišite eno trditev, ki jo podatki podpirajo, in eno, ki je ne podpirajo.
+Izvedite postopek [Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](../workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md).
+Izberite tri izraze z različnimi porazdelitvami. Za vsakega napišite opis mere,
+eno z virom utemeljeno razlago in trditev, ki je paket ne dovoljuje. Pred
+odločitvijo preberite vse konkordančne vrstice.
 
 ## Refleksija
 
-- Katera je prava enota analize: pojavnica, poved, dokument, avtor ali dogodek?
-- Bi vzorec lahko povzročal en sam dokument?
-- Kateri referenčni korpus bi osamil ravno razliko, ki vas zanima?
+- Je vaša enota pojavnica, poved, dokument, delo, avtor, številka ali dogodek?
+- Bi vzorec lahko ustvaril en dokument ali podvojeni odlomek?
+- Ali referenčni korpus osami nameravano razliko?
+- Katera odločitev predobdelave najbolj spremeni seznam kandidatov?
+- Kateri odlomek nasprotuje skupnemu vzorcu in zakaj je pomemben?
 
 ## Povzetek
 
-Analiza besedil ponavljajoče se značilnosti spremeni v strukturirane primerjave, vendar izračuni podedujejo vse odločitve o korpusu in parametrih. Štetje potrebuje imenovalce, ključne besede reference, kolokacije okna, stilometrija pa vrednotenje. Branje konkordanc, metapodatkovno razslojevanje in neodvisno preverjanje ohranjajo količinske vzorce povezane z jezikom, dokumenti in interpretacijo.
+Frekvenca meri količino, dokumentna frekvenca doseg, razpršenost pa porazdelitev
+po prijavljenih delih. Normalizacija razkrije izbrani imenovalec, vendar ne
+popravi neprimerljivega korpusa. Konkordance vrnejo števila v odlomke; ključne
+besede so odvisne od primerne reference; kolokacije od oken in mer povezanosti.
+Kritika vira, metapodatkovno razslojevanje, analiza občutljivosti in natančno
+branje spremenijo izračune v utemeljeno dokazno gradivo.
+
+## Nadaljnje branje
+
+- Gries, Stefan Th. 2008. “Dispersions and Adjusted Frequencies in Corpora.”
+  *International Journal of Corpus Linguistics* 13 (4): 403–437.
+  [https://doi.org/10.1075/ijcl.13.4.02gri](https://doi.org/10.1075/ijcl.13.4.02gri).
+- Gries, Stefan Th. 2022. “Toward More Careful Corpus Statistics: Uncertainty
+  Estimates for Frequencies, Dispersion, Association, and Keyness.” *Research
+  Methods in Applied Linguistics* 1 (1).
+  [https://doi.org/10.1016/j.rmal.2021.100002](https://doi.org/10.1016/j.rmal.2021.100002).
+- Dunning, Ted. 1993. “Accurate Methods for the Statistics of Surprise and
+  Coincidence.” *Computational Linguistics* 19 (1): 61–74.
+  [Bibliografski zapis ACL Anthology](https://aclanthology.org/J93-1003/).
 
 ---
 
 ## Teme, sentiment in čustva
 
+!!! warning "Stanje prevoda"
+    Slovensko besedilo je strojno podprti uredniški osnutek. Pred formalno
+    objavo potrebuje vsebinski in jezikovni pregled strokovnjaka za slovenščino.
+
+Časopisna poved pravi: »Čudovito – še ena zamuda.« Leksikon najde pozitivno
+besedo, klasifikator polarnosti morda napove negativni sentiment, tematski model
+jo lahko postavi ob muzejsko upravo, človeški bralec pa čustvo govorca pusti
+nerazrešeno. Rezultati odgovarjajo na različna vprašanja. Kateri lahko podpre
+zgodovinsko trditev, ki jo želite oblikovati?
+
 ## Učni cilji
 
 Po tem poglavju boste znali:
 
-- razlikovati med nadzorovano klasifikacijo, nenadzorovanim gručenjem in tematskim modeliranjem;
-- pojasniti razliko med sentimentom, stališčem, afektom in čustvom;
-- pripraviti anotacijsko shemo in ovrednotiti ujemanje označevalcev;
-- rezultate tematskega modela razlagati kot raziskovalno predstavitev in ne odkrito resnico;
-- rezultate modela preveriti ob izvornih besedilih, metapodatkih in človeški presoji.
+- razlikovati tematsko modeliranje, gručenje in nadzorovano klasifikacijo;
+- primerjati vrečo besed s kontekstualnimi predstavitvami;
+- pojasniti vpliv segmentacije dokumentov, števila tem, inicializacije in
+  naključnega semena na raziskovalno tematsko rešitev;
+- povezati teme med izvedbami ter ohraniti nestabilne in nepovezane sestavine;
+- zasnovati učno, validacijsko in testno množico brez uhajanja vira;
+- neuravnoteženo klasifikacijo primerjati s preprostimi izhodišči in umerjenostjo;
+- ločiti leksikalno asociacijo, sentiment, stališče, afekt, izraženo in pripisano
+  čustvo ter odziv bralca; in
+- prepoznati časovne, domenske, večjezične, OCR- in prevodne omejitve.
 
 ## Pred začetkom
 
-Poved *Sijajno – spet čudovita zamuda* vsebuje pozitivne besede, vendar verjetno izraža negativno vrednotenje. Model, ki besedišče ocenjuje brez konteksta, lahko odpove. Pred izbiro orodja določite, kaj kategorija pomeni in kateri besedilni dokaz upraviči oznako.
+Za poved *Sijajno – spet čudovita zamuda* naštejte vse trditve, ki jih besedilo
+podpira brez poznavanja avtorja. Besedi imata pozitivno leksikalno asociacijo.
+Izjava verjetno z ironijo izvaja negativno vrednotenje. Cilj je zamuda. Nosilec
+določenega čustva lahko ostane neznan. Odziv bralca ni zapisan v povedi. Tako
+ločevanje je začetek kodirnega priročnika.
 
-Klasifikacija pojem operacionalizira, ne pa odkrije samoumevne kategorije. S poglavjem [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) ohranite razliko med kodirnim priročnikom, rezultatom modela, dokaznim gradivom preverjanja in interpretativno trditvijo.
+Klasifikacija pojem operacionalizira, ne pa odkrije samoumevne kategorije.
+Poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md)
+pomaga ločiti kodirni priročnik, vhodno predstavitev, rezultat, dokazno gradivo
+preverjanja in trditev.
 
-## Klasifikacija se začne z operacionalizacijo
+## Tri družine modelov, tri vrste rezultatov
 
-Klasifikator besedila ali odlomke razporedi v vnaprej določene kategorije. To so lahko žanr, obdobje, avtor, stališče, sentiment, čustvo ali relevantnost. Osrednje raziskovalno dejanje ni izbira algoritma, temveč prevod pojma v opazljiva anotacijska pravila.
+### Tematsko modeliranje
 
-Dober kodirni priročnik določi:
+Tematski modeli predstavijo ponavljajoče se vzorce sopojavljanja. Klasični
+verjetnostni modeli dokument opišejo kot mešanico porazdelitev besed;
+nenegativna matrična faktorizacija (NMF) nenegativno matriko dokumentov in
+izrazov razstavi na dokumentne uteži in izrazne sestavine. Raziskovalci lahko
+sestavino po pregledu izrazov ter dokumentov interpretirajo kot temo. Sestavina
+ni samostojno obstoječi predmet in nima sama po sebi zanesljivega imena.
 
-- enoto označevanja: poved, odstavek, dokument ali dogodek;
-- definicije in meje kategorij;
-- pozitivne in izključitvene primere;
-- obravnavo negotovosti, mešanih primerov in odsotnosti;
-- predvideno uporabo oznak;
-- znane kulturne, zgodovinske in žanrske omejitve.
+### Gručenje
 
-Če usposobljeni označevalci kategorije ne morejo dosledno uporabiti, model pojmovne dvoumnosti ne more popraviti.
+Gručenje opazovanja razporedi po podobnosti v izbrani predstavitvi in razdalji.
+Gruča navadno opazovanje umesti v eno skupino, tematski model pa dokumentu lahko
+pripiše uteži več sestavin. Meje, oblika gruč in pomen razdalje so odvisni od
+metode. Če gručo imenujete tema, s tem še ne dokažete skupnega zgodovinskega
+vzroka njenih članov.
 
-## Sentiment ni čustvo
+### Nadzorovana klasifikacija
 
-**Analiza sentimenta** navadno napoveduje vrednotenjsko polarnost – pozitivno, negativno ali nevtralno – do določene tarče. **Stališče** opisuje podporo, nasprotovanje ali umeščanje do trditve ali akterja. **Analiza čustev** poskuša določiti kategorije ali razsežnosti, kot so veselje, strah, jeza, žalost, vzburjenost ali valenca. **Afekt** se lahko širše nanaša na izraženo ali vzbujeno intenzivnost.
+Klasifikator se nauči napovedovati kategorije, ki so že opredeljene v označenih
+podatkih: žanr, relevantnost, sentiment, stališče, čustvo ali drugo raziskovalno
+oznako. Kakovost omejujeta skladnost in pokritost kodirnega priročnika ter
+anotacij. Nadzorovane oznake imajo za razliko od raziskovalnih tem prijavljeno
+tarčo, a so še vedno izdelane raziskovalne spremenljivke in ne naravne vrste.
 
-Pojmi niso zamenljivi. Zgodovinsko pismo lahko opisuje strah, ne da bi bil avtor prestrašen; tragedija lahko vzbuja žalost, čeprav vsebuje malo negativnega vrednotenja; satira lahko s hvalo kritizira. Določite, ali označujete besedilo, pripovedovalca, literarni lik, govorca, tarčo ali odziv bralca.
+## Enote in predstavitve spremenijo vprašanje
 
-## Trije pogosti pristopi
+Model ne more predstaviti konteksta, ki ga segmentacija odstrani. Celotne knjige
+poudarijo široko besedišče, poglavja ali odlomki krajevne premike, povedi pa
+olajšajo kontekstualno klasifikacijo, vendar lahko izgubijo govorca in argument.
+Drseča okna podvajajo kontekst in niso neodvisna. Skozi vse segmente ohranite
+identifikator izvornega dokumenta, da ostaneta vidna uhajanje in združevanje.
 
-### Leksikonske metode
+**Vreča besed** beleži oblike, leme ali n-grame in večinoma prezre vrstni red. Je
+redka in pregledna: najvišje uteži lahko povežete z natančnimi izrazi. Težko
+obravnava oddaljeni kontekst, večpomenskost, zanikanje in ironijo.
+**Kontekstualna predstavitev** besedo ali odlomek preslika z naučenim modelom,
+ki upošteva okolico. Lahko zajame več razlik, vendar podeduje nepregledne učne
+podatke, različico modela, tokenizacijo, jezikovno pokritost ter izbiro poziva ali
+združevanja. Večja zapletenost ne odpravi potrebe po branju virov.
 
-Leksikon besede poveže z ocenami ali kategorijami. Je pregleden in ga lahko pregledamo, vendar ga spodkopljejo kontekst, zanikanje, stopnjevanje, metafora, sprememba področja in oblikoslovje. Pri slovenščini so pomembne pregibne oblike in lematizacija, prevedene leksikone pa je treba kulturno preveriti.
+Pri slovenščini in kodnem preklapljanju preverite natančno jezikovno različico.
+Večjezični model lahko zmogljivost med jeziki porazdeli neenako, slovenski model
+pa lahko napačno obravnava nemške, italijanske, hrvaške ali narečne odlomke.
+Prevajanje ni nevtralna predobdelava. Spremeni besedišče, ritem, entitete,
+sentimentne namige in morebitno tematsko strukturo, zato je prevod nova modelska
+plast z lastno provenienco.
 
-### Nadzorovani modeli
+## Tematske rešitve so pogojne
 
-Nadzorovani model se uči iz označenih primerov. Njegovo zgornjo mejo določata kakovost in reprezentativnost oznak. Kadar lahko pride do uhajanja, podatke delite po dokumentih, avtorjih ali virih. Naključna delitev povedi lahko ustvari navidezno odličen rezultat, ker se skoraj enaki odlomki pojavijo v učni in testni množici.
+Rezultati so odvisni od segmentacije dokumentov, besedišča, normalizacije,
+seznama nepolnopomenskih besed, spodnje in zgornje dokumentne frekvence,
+uteževanja, števila sestavin, družine modela, inicializacije, naključnega semena,
+konvergenčnih nastavitev, sestave korpusa ter dvojnikov. Napake OCR lahko postanejo
+redki izrazi z visoko utežjo; lematizacija zmanjša razpršenost pregibnih oblik, a
+vnese anotacijske napake.
 
-### Jezikovni modeli z navodili
+**Število tem** nadzoruje zrnatost. Premalo sestavin združi različne vzorce,
+preveč jih lahko en vzorec razcepi, osami dokument ali modelira šum. Navadno ni
+ene skrite pravilne vrednosti. Primerjajte več števil, ki ustrezajo verjetnim
+ravnem raziskovanja, in poročajte o razcepih, spojih ter izginotjih.
 
-Jezikovni model lahko klasificira po navodilih in primerih, vendar se njegovo vedenje spreminja z formulacijo, različico modela in dolžino konteksta. Pozive obravnavajte kot del metode, shranite natančne vhode in izhode, preverite stabilnost in tekoče razlage ne zamenjujte za vrednotenje.
+Naključna inicializacija išče po prostoru z več krajevnimi optimumi. Nastavljeno
+**naključno seme** ponovi eno izvedbo, ne zagotovi njene stabilnosti. Izvedite več
+semen pri istih nastavitvah. Nato spremenite število tem ali segmentacijo, da
+preverite drug vir občutljivosti.
 
-## Vrednotenje onkraj točnosti
+## Pred primerjavo teme povežite
 
-Pri neuravnoteženih kategorijah je točnost lahko zavajajoča. Poročajte o matriki zamenjav ter po potrebi o preciznosti, priklicu in meri F1 za posamezne razrede. Primerjajte s preprostimi izhodišči: večinskim razredom, leksikonskim pravilom ali modelom samo z metapodatki.
+Številka teme je med izvedbami poljubna: tema 1 pri semenu 7 ni nujno tema 1 pri
+semenu 19. Določite pravilo povezovanja. Pregledno učno pravilo lahko primerja
+množice najpomembnejših izrazov z Jaccardovim prekrivanjem:
 
-Vprašajte tudi:
+```text
+J(A, B) = |A ∩ B| / |A ∪ B|
+```
 
-- Ali so napake skoncentrirane v enem žanru, obdobju ali družbeni skupini?
-- Ali se model nauči vira dokumenta namesto želenega pojma?
-- Ali negotove človeške primere štejemo kot napake modela, ne da bi priznali dvoumnost?
-- Bi preostala napaka spremenila zgodovinski ali literarni sklep?
+Teme povežite ena proti ena tako, da maksimizirate skupno prekrivanje, in navedite
+način prirejanja ter pravilo za izenačenje. V večji raziskavi sta morda boljša
+ujemanje dokumentnih uteži ali distribucijska razdalja. Ne glede na pravilo
+ohranite slabo ujemajoče se in nepovezane teme. So dokaz nestabilnosti.
 
-## Tematski modeli so leče
+Ne iščete univerzalnega praga. Preverite, ali isti izrazi in dokumenti podpirajo
+primerljivo branje. Številsko koherentno temo lahko sestavljajo obrazec, poškodbe
+OCR ali en plodovit vir. Zgodovinsko pomenljiv vzorec lahko uporablja raznoliko
+besedišče in doseže skromno mero. Številska koherentnost in interpretativna
+veljavnost sta različni presoji.
 
-Tematski modeli in sorodne metode gručenja prostor dokumentov in besed ali vektorskih vložitev skrčijo v ponavljajoče se vzorce. V verjetnostnem tematskem modelu je »tema« porazdelitev po besedah in dokumentih, ne vnaprej poimenovan predmet z naravno mejo.
+## Človeška interpretacija je del metode
 
-Rezultat je odvisen od:
+Za vsako objavljeno sestavino preberite več dokumentov z visoko utežjo, enega s
+srednjo, enega z nizko ali nasprotujočo utežjo ter dokumente iz pomembnih
+metapodatkovnih skupin. Zapišite začasno oznako, dokazne odlomke, izločitve,
+negotovost in alternativne oznake. Oznaka naj bo ožja od vzorca. »Besedišče
+arhivskega opisovanja v tem sintetičnem naboru« je varnejše kot »tema arhiva v
+slovenski kulturi«.
 
-- predobdelave in besedišča;
-- enote analize in dolžine dokumentov;
-- števila tem ali gruč;
-- naključne inicializacije in hiperparametrov;
-- vrste modela, denimo LDA, NMF ali gručenja vložitev;
-- sestave korpusa in podvojenega besedila.
+Tematska razširjenost je modelska utež, ne delež resnične pozornosti. Po
+metapodatkih jo združujte šele po pregledu dolžine dokumentov, vzorčenja,
+negotovosti in odvisnosti virov. Sprememba ohranjenosti ali OCR se lahko kaže
+kot tematska sprememba.
 
-Raziskovalci teme poimenujejo po pregledu besed in dokumentov. Oznako zato spremljajte z reprezentativnimi dokumenti, nasprotnimi primeri in negotovostjo, ne zgolj z besednim oblakom.
+Vodite interpretacijski zapisnik, ki vsako oznako poveže z identifikatorjem
+izvedbe, številko sestavine, odlomki z visoko utežjo, nasprotnimi primeri in
+pregledovalcem. Če drugi bralec predlaga drugačno oznako, ohranite obe oznaki in
+dokaze, ki ju razločujejo. Tako interpretacija ostane preverljiva, ne da bi se
+pretvarjali, da je program odkril edino pravilno poimenovanje.
 
-## Stabilnost in interpretabilnost
+## Nadzorovano vrednotenje zahteva ločitev
 
-Navidezno koherentna tema je lahko nestabilna med naključnimi semeni ali ob majhni spremembi korpusa. Izvedite več nastavitev in preverite, ali se vzorec ohrani. Statistične mere koherentnosti lahko pomagajo izbrati kandidate, ne morejo pa nadomestiti področne interpretacije.
+Začnite s kodirnim priročnikom, ki določi enoto, vključitve, izključitve, mešane
+in negotove primere, namen ter posledice lažno pozitivnih in negativnih napovedi.
+Kjer je mogoče, ga preizkusite z več označevalci. Ujemanje označevalcev je dokaz
+o priročniku in nalogi; nestrinjanje lahko razkrije resnično interpretativno
+zapletenost. Ob razsojanju ohranite tudi prvotne odločitve.
 
-Utemeljeno poročilo o tematski analizi vsebuje:
+Ločite **učno**, **validacijsko** in **testno** vlogo. Učna množica prilagodi
+parametre, validacijska izbere značilke, prag ali poziv, zadržani test pa oceni
+vedenje po teh odločitvah. Delite po dokumentu, avtorju, številki ali viru, kadar
+bi segmenti lahko uhajali. Skoraj enaki odlomki v učni in testni množici
+ustvarijo privlačne, a brezvredne ocene.
 
-1. korpus in odločitve o predobdelavi;
-2. model in parametre;
-3. postopek izbire prikazane rešitve;
-4. reprezentativne in nasprotujoče si dokumente;
-5. razširjenost tem po relevantnih metapodatkih z negotovostjo;
-6. občutljivost na drugo seme, model ali število tem;
-7. pojasnilo, kaj model izpusti ali združi.
+Primerjajte preprosta izhodišča: večinski razred, razslojeno naključno napoved,
+pregledno leksikonsko pravilo ali model samo z metapodatki. Pri neuravnoteženih
+razredih objavite matriko zamenjav ter preciznost, priklic in F1 po razredih.
+Makro povprečje razrede uteži enako, mikro povprečje pa primere. Povejte, na katero
+vprašanje odgovarja izbrano povprečje.
 
-## Razdelan primer: čustveno okvirjanje v parlamentarni razpravi
+Kadar rezultat uporabljate kot verjetnost ali za prednostni pregled, preverite
+**umerjenost**: ali je med primeri z verjetnostjo 0,8 oznaka na ustreznih
+zadržanih podatkih pravilna približno v 80 % primerov? Razvrščanje je lahko
+uporabno kljub slabi umerjenosti, vrednosti pa brez dokaza ne imenujte zaupanje.
 
-Predpostavimo, da raziskujemo čustveno okvirjanje podnebne politike.
+Časovni in domenski premik omejujeta vsako vrednotenje. Klasifikator sodobnih
+ocen izdelkov se nauči polarnosti, ki se ne prenese na zgodovinska pisma. Spremenijo
+se lahko stranka, žanr, platforma, sistem OCR ali anotacijski dogovor. Poročajte
+po skupinah, pomembnih za vprašanje, in po bistvenem premiku znova preverite.
 
-1. Določimo tarčo: čustvene besede govorcev, pripisana čustva ali čustveno okvirjanje politike.
-2. Vzorčimo razprave in ohranimo podatke o govorcu, stranki, datumu in dnevnem redu.
-3. Na poskusnem vzorcu oblikujemo kodirni priročnik in popravimo dvoumne kategorije.
-4. Vsaj dva označevalca označita del gradiva in razpravljata o nesoglasjih.
-5. Če je smiselno, primerjamo leksikonsko izhodišče, nadzorovani model in jezikovni model z navodili.
-6. Rezultat preverimo po strankah, obdobjih in vrstah govorov, ne le skupno.
-7. Preberemo lažno pozitivne, lažno negativne in zelo samozavestne primere.
-8. Tematsko ali gručilno analizo uporabimo le kot dopolnilni raziskovalni pogled.
-9. Rezultat predstavimo kot dokaz o jeziku korpusa, ne kot neposreden dostop do notranjih stanj govorcev.
+## Sentiment, stališče, afekt in čustvo niso sopomenke
+
+**Sentiment** navadno pomeni pozitivno, negativno ali nevtralno vrednotenje
+določenega cilja. **Stališče** zadeva podporo, nasprotovanje ali umeščanje do
+trditve ali akterja. **Afekt** se lahko širše nanaša na izraženo ali vzbujeno
+valenco in intenzivnost. **Čustvo** lahko uporablja ločene kategorije, kot so
+veselje, strah, jeza in žalost, ali razsežnosti, kot sta valenca in vzburjenost.
+Pojme opredelite in jih ne uporabljajte izmenično.
+
+Raziskava čustev zahteva dodatne vloge:
+
+- **leksikalna asociacija:** oblika je v leksikonu povezana s kategorijo;
+- **izraženo čustvo:** besedilo predstavi čustvo kot trenutno izraženo;
+- **pripisano čustvo:** pripovedovalec ali govorec čustvo pripiše drugemu;
+- **nosilec ali izkuševalec:** predstavljeni nosilec čustva;
+- **cilj ali dražljaj:** oseba, predmet, dogodek ali trditev, h kateri je čustvo
+  usmerjeno oziroma ki ga vzbudi;
+- **navedeni govor:** vstavljeni glas, ki ga ne smete samodejno pripisati
+  poročevalcu ali avtorju;
+- **stališče pripovedovalca:** vrednotenjska umestitev pripovedovalca, ki se lahko
+  razlikuje od čustev oseb; in
+- **odziv bralca:** empirična ali teoretična trditev o bralcih in ne oznaka, ki
+  bi bila neposredno zapisana v besedah.
+
+Zanikanje lahko razveljavi žalost: »ni bila žalostna«. Modalnost oslabi zavezo:
+»morda se je bala« ni enako kot »bala se je«. Ironija lahko obrne vrednotenje,
+ne da bi določila čustvo: »Kako čudovito« po novi napaki. Metajezikovna omemba
+prav tako ne zadostuje: »jeza v zapisu ni nujno jeza avtorja«. Leksikonsko
+ujemanje dokazuje le leksikalno asociacijo.
+
+## Pregledno leksikonsko izhodišče
+
+Leksikon je uporaben, ker lahko pregledate vsako ujemanje. Zabeležite jezik,
+različico, vir, način izdelave, kategorije, enoto, pravilo ujemanja, licenco in
+pogoje razširjanja. Tujega leksikona ne kopirajte v učni paket zgolj zato, ker ga
+lahko prenesete. Pri slovenščini sta pomembna pregibanje in lematizacija,
+prevedene kategorije pa zahtevajo jezikovni in kulturni pregled.
+
+Izhodišče mora ohraniti primere brez ujemanj ter lažno pozitivne in negativne
+napovedi. Popravljanje leksikona po branju primerov za vrednotenje je razvoj
+modela; spremembo preizkusite drugje. Primerjava natančnih oblik z lemami ali
+dodajanje enega dokumentiranega vnosa razkrije pridobitev in izgubo.
+
+## Ponavljajoča se omejena primerjava
+
+[Učni paket za preverjanje besedilnih analiz in NLP](../../assets/downloads/text-nlp-validation-v1.zip)
+omogoča namenoma majhno primerjavo. Vzorec čustev ima osem sintetičnih povedi in
+izvirni učni mikroleksikon z osmimi vnosi. Tematski vzorec ima dvanajst
+sintetičnih dokumentov. Nobeden ne ocenjuje zgodovinske populacije.
+
+| Metoda | Enota in vhod | Rezultat in preverjanje | Podprta trditev | Nepodprta trditev | Pridobitev, izguba in odpoved |
+| --- | --- | --- | --- | --- | --- |
+| natančni leksikon oblik | poved; površinske oblike | kategorijska ujemanja s strojno podprtim osnutkom osmih primerov, ki čaka na človeški pregled | katere navedene oblike se ujemajo | kdo resnično čuti čustvo | pregledno; prezre pregibanje in kontekst |
+| kontekstualna referenčna anotacija | poved, sobesedilo in priročnik | čustvo, nosilec, cilj, glas, zanikanje, ironija in negotovost v osnutku, ki čaka na človeški pregled | kako je bil priročnik uporabljen v osnutku | objektivna psihologija ali razširjenost v korpusu | kontekstualno; sporno in delovno zahtevno |
+| nadzorovani klasifikator | zahteval bi označene učne, validacijske in testne enote | namenoma ni prilagojen: osem primerov ne zadostuje | nobena za ta paket | napovedna kakovost | opustitev prepreči okrasni model z uhajanjem |
+| raziskovalni NMF | dokument; vreča besed TF-IDF | 2, 3 in 4 sestavine × semena 7, 19 in 31; povezani izrazi in prebrani odlomki | občutljivost sintetične predstavitve | splošna tematska struktura | pokaže razcepe in nestabilnost; majhno in od besedišča odvisno |
+
+Čustveni primeri vključujejo navedek *obiskovalci se bojijo*, zanikano žalost,
+metajezikovno *jezo*, pripisani strah, ironično *čudovita* in preteklo obliko
+*bali*, ki nima natančnega ujemanja. Tako dobite vidne lažno pozitivne in lažno
+negativno napoved. Kontekstualni osnutek določi nosilca in cilj, ironijo pa lahko pusti
+nerazrešeno, namesto da bi si izmislila čustvo.
+
+Prikaz NMF ohrani vektorizacijo in spreminja seme ter število sestavin. Nekatere
+sestavine ohranijo sorodne izraze in dokumente, druge besedišče arhivov, muzejev,
+jezika in časopisja združijo drugače. To je lekcija o občutljivosti, ne dokaz, da
+je model »odkril« avtorske teme.
+
+## Načini odpovedi in etične omejitve
+
+Pogoste napake so poimenovanje tem samo iz ključnih izrazov, izbira števila tem
+zaradi urejenega grafa, zavrženje nestabilnih izvedb, delitev povedi istega vira
+med učno in testno množico, poročanje o točnosti neuravnotežene naloge, razlaga
+modelske verjetnosti kot umerjenega zaupanja in prevajanje brez zapisa posega.
+
+Oznake čustev in stališč lahko patologizirajo ljudi, sklepajo o varovanih
+lastnostih ali napačno predstavijo navedene govorce. Zgodovinsko besedišče lahko
+vsebuje nasilje in stigmo. Zmanjšajte osebne podatke, ohranite glas in kontekst
+vira, dokumentirajte negotovost, preverite napake po skupinah ter ne trdite ničesar
+o notranjih stanjih, česar besedilo ne podpira. Ločeno preverite pravice korpusa,
+leksikona in modela.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Sprehodite se po ekosistemu"
@@ -2703,6 +3367,7 @@ Predpostavimo, da raziskujemo čustveno okvirjanje podnebne politike.
     - [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
     - [Kako z NMF raziščem ponavljajoče se teme?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/explore-topics-with-nmf/)
     - [How do I create a sentence-similarity heat map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/create-a-sentence-similarity-heat-map/) *(angleška nadomestna stran)*
+    - [Kako preverim stabilnost in interpretabilnost tematskega modela?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability/)
 
     **Oglejte si študijo primera**
 
@@ -2713,17 +3378,46 @@ Predpostavimo, da raziskujemo čustveno okvirjanje podnebne politike.
 
 ## Vaja
 
-Napišite enostranski kodirni priročnik za eno kategorijo: relevantnost, sentiment, stališče ali čustvo. Dodajte pet pozitivnih primerov, pet izključitev, dva negotova primera, enoto analize ter posledice lažno pozitivne in lažno negativne napovedi.
+Izvedite oba postopka:
+
+1. [Kako preverim stabilnost in interpretabilnost tematskega modela?](../workflows/text-analysis/test-topic-model-stability-and-interpretability.md)
+2. [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](../workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)
+
+Za vsakega napišite eno podprto in nepodprto trditev. Določite spremembo vira,
+predstavitve ali kodirnega priročnika, ki bi podprto trditev najbolj ogrozila.
 
 ## Refleksija
 
-- Merite jezik, pripisano stanje ali psihološko stanje?
-- Bi model lahko oznako napovedal iz vira ali obdobja, ne da bi prebral pomembni odlomek?
-- Katera človeška nesoglasja razkrivajo resnično pojmovno kompleksnost in ne slabe anotacije?
+- Urejate leksikalne vzorce, napovedujete oznako priročnika ali sklepate o človeku?
+- Kateri dokumenti ali govorci bi lahko uhajali med evalvacijske množice?
+- Katero nestabilno temo je bilo najlaže poimenovati in kaj ji je nasprotovalo?
+- Komu pripada čustvo v navedku: navedenemu govorcu, pripovedovalcu, avtorju ali
+  nikomur brez dodatnih dokazov?
+- Kateri časovni, domenski ali jezikovni premik zahteva novo preverjanje?
 
 ## Povzetek
 
-Klasifikacija in tematska analiza lahko uredita velike zbirke besedil, vendar oznake in teme nastanejo skozi operacionalizacijo, podatke in modeliranje. Sentiment ni čustvo, tema ni samostojno obstoječ predmet, tekoč rezultat modela pa ni preverjanje. Kodirni priročniki, izhodišča, vrednotenje na zadržanih podatkih, analiza napak po skupinah, preverjanje občutljivosti in natančno branje te metode spremenijo v utemeljene humanistične dokaze.
+Tematsko modeliranje, gručenje in nadzorovana klasifikacija ustvarjajo različne
+predstavitve in zahtevajo različna preverjanja. Število tem, seme, inicializacija,
+segmentacija in pravilo povezovanja spremenijo stabilnost v empirično vprašanje.
+Nadzorovane oznake zahtevajo ločene podatke, izhodišča, razredno občutljive mere
+in preizkuse premika. Pri čustvih morate ločiti besedo, vrednotenje, glas,
+nosilca, cilj in odziv bralca. Primeri, povezani z virom, ohranjena negotovost in
+človeško branje omejijo rezultat na utemeljene trditve.
+
+## Nadaljnje branje
+
+- Su, Jinyu, David Greene, in Derek O’Callaghan. 2016. “Topic Stability over
+  Noisy Sources.” [ACL Anthology](https://aclanthology.org/W16-3913/).
+- Morstatter, Fred, in Huan Liu. 2018. “In Search of Coherence and Consensus:
+  Measuring the Interpretability of Statistical Topics.” *Journal of Machine
+  Learning Research* 18 (169): 1–32.
+  [Članek JMLR](https://jmlr.org/papers/v18/17-069.html).
+- Bostan, Laura Ana Maria, Evgeny Kim, in Roman Klinger. 2020. “GoodNewsEveryone:
+  A Corpus of News Headlines Annotated with Emotions, Semantic Roles, and Reader
+  Perception.” [ACL Anthology](https://aclanthology.org/2020.peoples-1.12/).
+- Reschke, Kevin, in Pranav Anand. 2011. “Extracting Contextual Evaluativity.”
+  [ACL Anthology](https://aclanthology.org/W11-1511/).
 
 ---
 
@@ -3641,6 +4335,9 @@ Sistem pospeši pripravo osnutka; arhivisti ostanejo odgovorni za opis in odloč
     - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*
     - [How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/) *(angleška nadomestna stran)*
     - [Kako namestim pakete Python s pipom?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-python-packages-with-pip/)
+    - [Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)
+    - [Kako preverim stabilnost in interpretabilnost tematskega modela?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability/)
+    - [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
 
     **Oglejte si študijo primera**
 

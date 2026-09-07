@@ -64,6 +64,7 @@ Use **Python 3.12.x** as the course-tested baseline for this path. Later version
 | 10 | [How do I install and test CLASSLA with Python 3.12?](install-and-test-classla.md) | CLASSLA installed and tested on one sentence |
 | 11 | [How do I annotate a small text with CLASSLA?](annotate-a-small-text-with-classla.md) | A token/lemma/POS TSV file |
 | 12 | [How do I export CLASSLA results to CSV?](export-classla-results-to-csv.md) | A token-level CSV for several texts |
+| 13 | [How do I evaluate CLASSLA on a domain-specific sample?](evaluate-classla-on-a-domain-specific-sample.md) | Layer metrics and an error log for a Slovene sample |
 
 ## Starter code
 

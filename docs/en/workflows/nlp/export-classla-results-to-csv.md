@@ -5,6 +5,7 @@ category: "NLP"
 difficulty: "intermediate"
 time: "45–75 min"
 tags: [CLASSLA, CSV, pandas, annotation, Slovene]
+status: draft
 ---
 
 # How do I export CLASSLA results to CSV?
@@ -160,6 +161,15 @@ lemma_counts.to_csv("output/lemma-counts.csv", index=False)
 ```
 
 Function words will probably dominate. That is not a failure; it is a reminder that frequency is not interpretation.
+
+## Preserve structure before flattening
+
+Keep an unedited CoNLL-U or equivalent structured export beside the convenience
+CSV. A word-only table can lose multiword-token ranges, enhanced dependencies,
+entity spans, whitespace and character offsets. Record the exact processor and
+resource versions and check row counts by document. Evaluate the layer used by
+your frequency or relation query with
+[the domain-specific CLASSLA workflow](evaluate-classla-on-a-domain-specific-sample.md).
 
 ## Output
 

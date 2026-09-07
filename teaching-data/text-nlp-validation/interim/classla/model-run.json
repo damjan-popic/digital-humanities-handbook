@@ -1,0 +1,74 @@
+{
+  "classla_version": "2.2.1",
+  "command": "python teaching-data/text-nlp-validation/run_optional_models.py --output .cache/text-nlp-validation-models-v2 --resources-dir .cache/classla-resources",
+  "environment_snapshot": {
+    "path": "../model-environment.json",
+    "sha256": "ba827e0c8fdee030f3df3b5c2484036c31d28ee17306f215f62341175122e16f"
+  },
+  "language": "sl",
+  "note": "Frozen prediction evidence, not a benchmark or reference. Model files are not redistributed; hashes identify the local resources used.",
+  "obeliks_version": "1.1.6",
+  "output_sha256": {
+    "TNLP-AF-OCR.conllu": "5402dc54b34cdf95fbe38b60581ec250f5976eedb13ecc2d8e6d7bbb68b119d4",
+    "TNLP-AF-REF.conllu": "643ce0db521da72f80400356b8b1514388629c834683072a1eed71272030c14b",
+    "TNLP-CLEAN-01.conllu": "d5c64064b84692463092fc7c8c835ecce11a84d46456b616d04ea55f0764211e",
+    "TNLP-CLEAN-02.conllu": "db61ff9dcf8525755fe2a6fb25dfad7ed79f6ea9b9a62d6dba74aef524c5b319"
+  },
+  "pipeline_type": "default (standard Slovene)",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "processors": [
+    "tokenize",
+    "pos",
+    "lemma",
+    "depparse",
+    "ner"
+  ],
+  "python_version": "3.12.3",
+  "registry_sha256": "d15d1f04966ca4a4e0646ed1e14a45e4ad0d38811fa22d9b495b9ad8092bf173",
+  "resource_acquisition_manifest": {
+    "path": "resource-acquisition.json",
+    "sha256": "4d1ca0eef7489bfb68934bf552051428e9b3ce35c234bbd5ec3642625eaf79b0"
+  },
+  "resource_files": [
+    {
+      "bytes": 15860,
+      "path": "resources.json",
+      "sha256": "03eb6811384b1a90f786cc5e77fbdd2a01cf060c97dae58c10073511b6ec47e7"
+    },
+    {
+      "bytes": 100340417,
+      "path": "sl/depparse/standard.pt",
+      "sha256": "fae51ebaf8e2ef99c2679b91fbd83b0af3d2e241c223b31b9644e4885d2d1c8a"
+    },
+    {
+      "bytes": 2387000,
+      "path": "sl/lemma/standard.pt",
+      "sha256": "9a397d4ccaa9e8fbd7ea1619d859b9646dfb2f9c17e3f4df53c45525b5f5b38d"
+    },
+    {
+      "bytes": 48344574,
+      "path": "sl/ner/standard.pt",
+      "sha256": "30e9efafdf991e60a31b8037f72e90ed4b7b3c942cc5a32fc47eeb280bbffa22"
+    },
+    {
+      "bytes": 1145031553,
+      "path": "sl/pos/standard.pt",
+      "sha256": "9865fbf5673de7ddeabf2f42cd75b3f522cc2ffe6f905d0a694939e3a68a94dd"
+    },
+    {
+      "bytes": 156748719,
+      "path": "sl/pretrain/standard.pt",
+      "sha256": "f187803fc86a953194b0ed2f9230e2f80828775349a7a6dcd551c19bfe9067aa"
+    }
+  ],
+  "run_timestamp_source": "UTC timestamp recovered from the preserved v2 candidate metadata-file mtime because the former runner recorded only a hard-coded date",
+  "run_timestamp_utc": "2026-09-07T12:06:30Z",
+  "sample_text_sha256": {
+    "TNLP-AF-OCR": "cffd9f375cb47666e780c437f8ab2363f3b8114c05e5db6acbdceb16b7f66a5d",
+    "TNLP-AF-REF": "8a0f4ba3f104251483be92f25294b953ee54f6c203b78539cd14b91b2ee049bb",
+    "TNLP-CLEAN-01": "9d2c1668abe9d4511a64b8134abf4ecd3f118483724418fa10a54dc5d588a087",
+    "TNLP-CLEAN-02": "2ee4464af1b52c008698a5812a3d5f0216e6f50cc906ed205e109dcba921667a"
+  },
+  "torch_version": "2.6.0+cu124",
+  "use_gpu": false
+}

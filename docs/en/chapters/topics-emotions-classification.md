@@ -1,127 +1,312 @@
 ---
 title: "Topics, sentiment and emotion"
-description: "How to use classification and exploratory models without confusing labels, themes or scores with human meaning."
-tags: [classification, topic-modeling, sentiment, emotion, validation]
+description: "How to keep exploratory topics, clusters, supervised labels and contextual emotion claims methodologically distinct."
+tags: [classification, clustering, topic-modeling, sentiment, stance, emotion, stability, validation]
 status: draft
 ---
 
 # Topics, sentiment and emotion
 
+A newspaper sentence says, “Wonderful—another delay.” A lexicon finds a positive
+word, a polarity classifier may predict negative sentiment, a topic model may
+place the sentence near museum administration, and a human reader may leave the
+speaker’s emotion unresolved. These outputs answer different questions. Which
+one could support the historical claim you want to make?
+
 ## Learning outcomes
 
 After this chapter, you should be able to:
 
-- distinguish supervised classification, unsupervised clustering and topic modelling;
-- explain the difference between sentiment, stance, affect and emotion;
-- design an annotation scheme and evaluate agreement;
-- interpret topic-model output as an exploratory representation rather than discovered truth;
-- validate model output against source texts, metadata and human judgement.
+- distinguish topic modelling, clustering and supervised classification;
+- compare bag-of-words and contextual representations;
+- explain how document segmentation, topic count, initialization and random seed
+  affect an exploratory topic solution;
+- match topics across runs and retain unstable or unmatched components;
+- design train, validation and test partitions without source leakage;
+- evaluate imbalanced classification against simple baselines and calibration;
+- distinguish lexical association, sentiment, stance, affect, expressed emotion,
+  attributed emotion and reader response; and
+- identify temporal, domain, multilingual, OCR and translation limits.
 
 ## Before you begin
 
-The sentence *Brilliant—another glorious delay* contains positive words but probably expresses negative evaluation. A model that scores vocabulary without context may fail. Before selecting a tool, decide what exactly the category means and which textual evidence licenses the label.
+For *Brilliant—another glorious delay*, list all text-supported statements you
+can make without knowing the author. The words have positive lexical associations.
+The utterance likely performs negative evaluation through irony. The target is a
+delay. The experiencer of a discrete emotion may remain unknown. The reader’s
+response is not contained in the sentence. This separation is the beginning of a
+codebook.
 
-Classification operationalizes a concept rather than discovering a self-evident category. Use [Models, evidence and interpretation](models-evidence-interpretation.md) to keep the codebook, model output, validation evidence and interpretive claim distinct.
+Classification operationalizes a concept rather than discovering a self-evident
+category. Use [Models, evidence and interpretation](models-evidence-interpretation.md)
+to keep codebook, input representation, output, validation evidence and claim
+distinct.
 
-## Classification starts with an operational definition
+## Three model families, three kinds of output
 
-A classifier assigns texts or passages to predefined categories. Examples include genre, period, author, stance, sentiment, emotion or relevance. The central research act is not choosing an algorithm; it is translating a concept into observable annotation rules.
+### Topic modelling
 
-A good codebook specifies:
+Topic models represent recurring co-occurrence patterns. Classical probabilistic
+models describe documents as mixtures of word distributions; non-negative matrix
+factorization (NMF) decomposes a non-negative document–term matrix into document
+weights and term components. Researchers may interpret a component as a theme
+after inspecting its terms and documents. The component is not an independently
+existing subject and does not arrive with a trustworthy name.
 
-- the unit to label: sentence, paragraph, document or event;
-- category definitions and boundaries;
-- inclusion and exclusion examples;
-- treatment of uncertainty, mixed cases and absence;
-- the intended use of the labels;
-- known cultural, historical and genre limitations.
+### Clustering
 
-If trained annotators cannot apply a category consistently, a model cannot repair the conceptual ambiguity.
+Clustering groups observations by similarity under a chosen representation and
+distance. A cluster usually assigns an observation to a group, whereas a topic
+model can give one document weights across multiple components. Boundaries,
+cluster shape and even the meaning of distance depend on the method. Calling a
+cluster a topic does not make its members share one historical cause.
 
-## Sentiment is not emotion
+### Supervised classification
 
-**Sentiment analysis** usually predicts evaluative polarity—positive, negative or neutral—toward a target. **Stance** concerns support, opposition or positioning toward a proposition or actor. **Emotion analysis** attempts categories or dimensions such as joy, fear, anger, sadness, arousal or valence. **Affect** may refer more broadly to expressed or evoked intensity.
+A classifier learns to predict categories already defined in labelled data:
+genre, relevance, sentiment, stance, emotion or another operational label. Its
+quality cannot exceed the coherence and coverage of the codebook and annotations.
+Unlike exploratory topics, supervised labels have declared targets, but they are
+still constructed research variables rather than natural kinds.
 
-These are not interchangeable. A historical letter may describe fear without the author being afraid; a tragedy may evoke sadness while containing little negative evaluation; satire may use praise to criticize. State whether the aim is to classify wording, narrator, character, speaker, target or reader response.
+## Units and representations change the question
 
-## Three common approaches
+A model cannot represent what segmentation removes. Whole books emphasize broad
+vocabulary; chapters or passages reveal local shifts; sentences help contextual
+classification but may lose speaker and argument. Sliding windows duplicate
+context and violate independence if they are treated as separate documents.
+Preserve the source document ID through every segment so train/test leakage and
+aggregation remain visible.
 
-### Lexicon-based methods
+A **bag-of-words** representation records forms, lemmas or n-grams while largely
+ignoring order. It is sparse and inspectable: top weights can be traced to exact
+terms. It struggles with long-distance context, word sense, negation and irony.
+A **contextual representation** maps a word or passage using a learned model that
+encodes surrounding language. It can capture distinctions missed by counts, but
+inherits opaque training data, model version, tokenization, language coverage and
+prompt or pooling decisions. Greater representational complexity does not remove
+the need for source reading.
 
-A lexicon maps words to scores or categories. It is transparent and easy to inspect, but context, negation, intensification, metaphor, domain shift and morphology can undermine it. For Slovene, inflection and lemmatization choices matter, and translated lexicons need cultural validation.
+For Slovene and code-switched material, test the exact language variety. A
+multilingual model may allocate capacity unevenly across languages; a
+Slovene-specific model may mishandle German, Italian, Croatian or dialectal
+passages. Translation is not a neutral preprocessing shortcut. It changes lexical
+choice, rhythm, named entities, sentiment cues and possibly topic structure, so a
+translated corpus is a new modelled layer with its own provenance.
 
-### Supervised models
+## Topic solutions are conditional
 
-A supervised model learns from labelled examples. Its ceiling is set by label quality and representativeness. Split data by document, author or source where leakage is possible. A random sentence split can make performance look excellent because nearly identical passages occur in both training and test sets.
+Results depend on document segmentation, vocabulary, normalization, stop list,
+minimum and maximum document frequency, weighting, component count, model family,
+initialization, random seed, convergence settings, corpus composition and
+duplicates. OCR errors may become high-weight rare terms; lemmatization may reduce
+inflectional sparsity while importing annotation error.
 
-### Prompted language models
+The **topic count** controls granularity. Too few components can merge distinct
+patterns; too many can split one pattern, isolate a document or model noise.
+There is rarely one hidden correct count. Compare several counts that correspond
+to plausible levels of inquiry and report splits, merges and disappearances.
 
-A language model can classify using instructions and examples, but its behaviour can vary with wording, model version and context length. Treat prompts as part of the method, preserve exact inputs and outputs, test stability and do not substitute fluent explanations for evaluation.
+Randomized initialization searches a solution space with multiple local optima.
+Setting a **random seed** makes one run repeatable, not stable. Repeat multiple
+seeds under the same settings. Then change topic count or segmentation to test a
+different source of sensitivity.
 
-## Evaluation beyond accuracy
+## Match topics before comparing them
 
-For imbalanced categories, accuracy can be misleading. Report a confusion matrix and class-specific precision, recall and F1 where appropriate. Compare against simple baselines: majority class, lexicon rule or metadata-only model.
+Topic number is arbitrary across runs: topic 1 in seed 7 need not be topic 1 in
+seed 19. Define a matching rule. A transparent teaching rule can compare sets of
+top terms using Jaccard overlap:
 
-Also ask:
+```text
+J(A, B) = |A ∩ B| / |A ∪ B|
+```
 
-- Are errors concentrated in one genre, period or social group?
-- Does the model learn document source rather than the intended concept?
-- Are uncertain human cases counted as model failures without acknowledging ambiguity?
-- Would the remaining error change the historical or literary conclusion?
+Pair topics one-to-one to maximize total overlap, using a documented assignment
+method and tie rule. Matching by document weights or a distributional distance
+may be preferable in a larger study. Whatever the rule, retain low-overlap and
+unmatched topics. They are evidence of instability, not inconvenient rows.
 
-## Topic models are lenses
+The issue is not whether a score crosses a universal threshold. Inspect whether
+the same terms and documents support a comparable reading. A numerically coherent
+topic can be boilerplate, OCR damage or one prolific source. Conversely, a
+historically meaningful pattern can use varied vocabulary and score modestly.
+Numerical coherence and interpretive validity are different judgments.
 
-Topic models and related clustering methods reduce a document-term or embedding space into recurring patterns. In a probabilistic topic model, a “topic” is a distribution over words and documents, not a ready-made subject with a natural name.
+## Human interpretation is part of the method
 
-Results depend on:
+For every reported component, read several high-weight documents, a middling
+document, a low or contradictory document, and documents from relevant metadata
+groups. Record a provisional label, evidence passages, exclusions, uncertainty
+and alternative labels. The label must be narrower than the observed pattern.
+“Archival description vocabulary in this synthetic set” is safer than “the
+archive topic in Slovene culture.”
 
-- preprocessing and vocabulary;
-- unit of analysis and document length;
-- number of topics or clusters;
-- random initialization and hyperparameters;
-- model family, such as LDA, NMF or embedding-based clustering;
-- corpus composition and duplicated text.
+Topic prevalence is a model weight, not the proportion of real-world attention.
+Aggregate it by metadata only after checking document length, sampling,
+uncertainty and source dependence. A change in preservation or OCR quality can
+appear as thematic change.
 
-Topic labels are supplied by researchers after inspecting words and documents. A label should therefore be accompanied by representative documents, negative cases and uncertainty—not merely a word cloud.
+Keep an interpretation ledger that joins each label to its run identifier,
+component number, high-weight passages, counterexamples and reviewer. If a
+second reader proposes a different label, preserve both labels and the evidence
+that distinguishes them. This makes interpretation auditable without pretending
+that the software discovered a uniquely correct name.
 
-## Stability and interpretability
+## Supervised evaluation requires separation
 
-A coherent-looking topic can be unstable across random seeds or minor corpus changes. Run multiple configurations and compare whether the pattern persists. Statistical coherence scores may help select candidates, but they do not replace domain interpretation.
+Begin with a codebook that defines unit, inclusion, exclusion, mixed and uncertain
+cases, intended use and consequences of false positives and false negatives.
+Pilot it with more than one annotator where feasible. Agreement is evidence about
+the codebook and task; disagreement can reveal genuine interpretive complexity.
+Do not erase it by forced adjudication without retaining the earlier decisions.
 
-A defensible topic-analysis report includes:
+Separate **training**, **validation** and **test** roles. Training fits parameters;
+validation selects features, thresholds or prompts; a held-out test estimates
+performance after those choices. Split by document, author, issue or source when
+segments could leak. Near duplicates in train and test can create impressive but
+meaningless scores.
 
-1. corpus and preprocessing decisions;
-2. model and parameter settings;
-3. selection process for the reported solution;
-4. representative and contradictory documents;
-5. topic prevalence by relevant metadata with uncertainty;
-6. sensitivity to another seed, model or topic count;
-7. an account of what the model excludes or conflates.
+Compare against simple baselines: majority class, stratified random prediction,
+a transparent lexical rule or metadata-only model. For imbalanced labels, report
+a confusion matrix and class-specific precision, recall and F1 rather than only
+accuracy. Macro averages weight classes equally; micro averages weight instances.
+State which question the average answers.
 
-## Worked example: emotional framing in parliamentary debate
+When a score is used as a probability or to set review priority, inspect
+**calibration**: among cases assigned probability 0.8, is the label correct about
+80% of the time on appropriate held-out data? Ranking can be useful even when
+calibration is poor, but the value must not be interpreted as confidence without
+evidence.
 
-Suppose we study emotional framing around climate policy.
+Temporal and domain shift limit every evaluation. A classifier trained on modern
+reviews may learn polarity words that do not transfer to historical letters.
+Party, genre, source platform, OCR system or annotation convention can change.
+Report performance by the strata relevant to the research and revalidate after a
+substantive shift.
 
-1. Define the target: emotion words used by speakers, attributed emotion, or emotional framing of policy.
-2. Sample debates and preserve speaker, party, date and agenda metadata.
-3. Develop a codebook on a pilot sample and revise ambiguous categories.
-4. Have at least two annotators label a subset and discuss disagreement.
-5. Compare a lexicon baseline, a supervised model and a prompted model if feasible.
-6. Test by party, period and speech type, not only overall.
-7. Read false positives, false negatives and high-confidence cases.
-8. Use topic or cluster analysis only as a complementary exploratory view.
-9. Present model output as evidence about language in the corpus, not direct access to speakers' inner states.
+## Sentiment, stance, affect and emotion are not synonyms
+
+**Sentiment** usually means positive, negative or neutral evaluation toward a
+target. **Stance** concerns support, opposition or positioning toward a
+proposition or actor. **Affect** can refer broadly to expressed or evoked valence
+and intensity. **Emotion** may use discrete categories such as joy, fear, anger
+and sadness or dimensional schemes such as valence and arousal. Define rather
+than interchange these terms.
+
+Emotion work needs further roles:
+
+- **lexical association:** a form is associated with a category in a lexicon;
+- **expressed emotion:** wording presents an emotion as currently expressed;
+- **attributed emotion:** narrator or speaker assigns emotion to someone else;
+- **experiencer:** the represented bearer of the emotion;
+- **target or stimulus:** the person, object, event or proposition toward which
+  the emotion is directed or which evokes it;
+- **quoted speech:** an embedded voice whose wording must not be transferred to
+  the reporter or author;
+- **narrator stance:** the narrator’s evaluative position, which may differ from
+  every character’s emotion; and
+- **reader response:** an empirical or theoretical claim about readers, not a
+  label recoverable directly from words on the page.
+
+Negation can cancel *sad*: “she was not sad.” Modality weakens commitment: “she
+may have feared” differs from “she feared.” Irony can reverse evaluative force
+without licensing a discrete emotion: “How wonderful” after another failure.
+Metalinguistic mention also matters: “anger in the record is not necessarily the
+author’s anger.” A lexicon hit proves lexical association only.
+
+## A transparent lexical baseline
+
+A lexicon is useful because every match can be inspected. Record language,
+version, source, construction method, categories, unit, matching rule, licence
+and redistribution terms. Do not copy a third-party lexicon into a teaching
+packet merely because it is downloadable. Inflection and lemmatization matter in
+Slovene, and translated categories need linguistic and cultural validation.
+
+A baseline should preserve zero-match cases, false positives and false negatives.
+Adjusting a lexicon after reading evaluation examples is model development; test
+the revision on different examples. Sensitivity to exact forms versus lemmas, or
+to adding one documented entry, reveals what the method gains and loses.
+
+## Recurring bounded comparison
+
+The [text and NLP validation packet](../../assets/downloads/text-nlp-validation-v1.zip)
+supports a deliberately small comparison. Its emotion sample has eight synthetic
+sentences and an original eight-entry teaching micro-lexicon. Its topic sample
+has twelve synthetic documents. Neither estimates a historical population.
+
+| Method | Unit and input | Output and validation | Supported claim | Unsupported claim | Gain, loss and known failure |
+| --- | --- | --- | --- | --- | --- |
+| exact-form lexicon | sentence; surface forms | category hits compared with an eight-case machine-assisted reference draft pending human review | which declared forms match | who truly feels an emotion | transparent; misses inflection and context |
+| contextual reference annotation | sentence plus context and codebook | emotion, experiencer, target, voice, negation, irony and uncertainty in a draft pending human review | how the codebook was applied in the draft | objective psychology or full-corpus prevalence | contextual; contestable and labour-intensive |
+| supervised classifier | would require labelled train/validation/test units | deliberately not fitted: eight cases are inadequate | none for this packet | predictive performance | omission prevents a decorative, leaky model |
+| NMF topic exploration | document; TF-IDF bag of words | 2, 3 and 4 components × seeds 7, 19 and 31; matched terms and read passages | sensitivity of this synthetic representation | general thematic structure | shows splits and instability; tiny and vocabulary-bound |
+
+The emotion examples include quotation (*obiskovalci se bojijo*), negated
+sadness, metalinguistic *jeza*, attributed fear, ironic *čudovita* and a zero-match
+past-tense form *bali*. Exact matching therefore yields observable false positives
+and a false negative. The contextual draft identifies experiencer and target and may
+leave irony unresolved rather than invent a feeling.
+
+The NMF demonstration holds vectorization fixed while changing seed and component
+count. Some components retain related terms and documents; others merge archives,
+museums, language and press vocabulary differently. That is a lesson about
+sensitivity, not evidence that the authored themes were “discovered.”
+
+## Failure modes and ethical limits
+
+Common failures include naming topics from top words alone, choosing a topic count
+because the chart looks tidy, discarding unstable runs, splitting sentences from
+one source across train and test, reporting accuracy for an imbalanced task,
+treating model probability as calibrated confidence and translating material
+without recording the intervention.
+
+Emotion and stance labels can pathologize people, infer protected attributes or
+misrepresent quoted speakers. Historical vocabulary may encode violence and
+stigma. Minimize personal data, preserve voice and source context, document
+uncertainty, audit errors by relevant groups and avoid claims about inner states
+that the text cannot warrant. Check corpus, lexicon and model licences separately.
 
 ## Practice
 
-Write a one-page codebook for one category: relevance, sentiment, stance or emotion. Include five positive examples, five exclusions, two uncertain cases, the unit of analysis and the consequences of a false positive and false negative.
+Complete both paired workflows:
+
+1. [How do I test topic-model stability and interpretability?](../workflows/text-analysis/test-topic-model-stability-and-interpretability.md)
+2. [How do I analyse emotion with a lexicon and a manual check?](../workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)
+
+For each, write one supported and one unsupported claim. Identify which change in
+source, representation or codebook would most threaten the supported claim.
 
 ## Reflection
 
-- Are you measuring language, an attributed state, or a psychological state?
-- Could a model predict the label from source or period without reading the relevant passage?
-- Which human disagreements reveal genuine conceptual complexity rather than poor annotation?
+- Are you organizing lexical patterns, predicting a codebook label or inferring a
+  human state?
+- Which documents or speakers could leak across evaluation partitions?
+- Which unstable topic was most tempting to name, and what contradicted it?
+- Does a quoted emotion belong to the quoted speaker, narrator, author or none of
+  these without more evidence?
+- What temporal, domain or language shift requires new validation?
 
 ## Summary
 
-Classification and topic analysis can organize large text collections, but labels and themes are constructed through operational definitions, data and modelling choices. Sentiment is not emotion, a topic is not an independently existing subject, and fluent model output is not validation. Codebooks, baselines, held-out evaluation, subgroup error analysis, sensitivity checks and close reading turn these methods into defensible humanities evidence.
+Topic modelling, clustering and supervised classification produce different
+representations and require different validation. Topic counts, seeds,
+initialization, segmentation and matching rules make stability an empirical
+question. Supervised labels require separated data, baselines, class-aware metrics
+and shift tests. Emotion analysis must distinguish words, evaluation, voice,
+experiencer, target and reader response. Source-linked examples, retained
+uncertainty and human reading keep these outputs within defensible claims.
+
+## Further reading
+
+- Su, Jinyu, David Greene, and Derek O’Callaghan. 2016. “Topic Stability over
+  Noisy Sources.” [ACL Anthology](https://aclanthology.org/W16-3913/).
+- Morstatter, Fred, and Huan Liu. 2018. “In Search of Coherence and Consensus:
+  Measuring the Interpretability of Statistical Topics.” *Journal of Machine
+  Learning Research* 18 (169): 1–32.
+  [JMLR article](https://jmlr.org/papers/v18/17-069.html).
+- Bostan, Laura Ana Maria, Evgeny Kim, and Roman Klinger. 2020. “GoodNewsEveryone:
+  A Corpus of News Headlines Annotated with Emotions, Semantic Roles, and Reader
+  Perception.” [ACL Anthology](https://aclanthology.org/2020.peoples-1.12/).
+- Reschke, Kevin, and Pranav Anand. 2011. “Extracting Contextual Evaluativity.”
+  [ACL Anthology](https://aclanthology.org/W11-1511/).

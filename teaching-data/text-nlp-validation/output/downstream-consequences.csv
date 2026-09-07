@@ -1,0 +1,5 @@
+consequence_id,operation,layer,automatic_count,reference_count,delta_reference_minus_automatic,interpretation,scope
+TNLP-DOWN-01,count vse as a pronominal subject in the two historical layers,UPOS+dependency,0,2,2,The automatic query omits both draft-reference subject readings.,four purposive teaching sentences; no population inference
+TNLP-DOWN-02,count relative acl relations in the provider-OCR sentence,dependency,0,1,1,OCR damage to ki changes the clause attachment in this sentence.,four purposive teaching sentences; no population inference
+TNLP-DOWN-03,count exact typed entity spans across all four samples,NER,7,7,0,The entity-span conclusion survives the draft-reference corrections in this tiny sample.,four purposive teaching sentences; no population inference
+TNLP-DOWN-04,count instrumental stranko as an oblique in the two historical layers,dependency,0,2,2,The frozen parser attaches stranko to naziranja in both layers and misses both draft-reference clause-level obliques.,four purposive teaching sentences; no population inference

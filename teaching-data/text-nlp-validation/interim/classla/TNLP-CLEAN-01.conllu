@@ -1,0 +1,17 @@
+# packet_sample_id = TNLP-CLEAN-01
+# packet_stratum = contemporary_clean
+# newpar id = 1
+# sent_id = 1.1
+# text = Kustosinja Maja Kovač v Narodnem muzeju Slovenije opisuje zbirko iz Ljubljane.
+1	Kustosinja	kustosinja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	NER=O
+2	Maja	Maja	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	NER=B-PER
+3	Kovač	Kovač	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	flat:name	_	NER=I-PER
+4	v	v	ADP	Sl	Case=Loc	6	case	_	NER=O
+5	Narodnem	naroden	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	NER=B-ORG
+6	muzeju	muzej	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	NER=I-ORG
+7	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	NER=I-ORG
+8	opisuje	opisovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+9	zbirko	zbirka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	NER=O
+10	iz	iz	ADP	Sg	Case=Gen	11	case	_	NER=O
+11	Ljubljane	Ljubljana	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	NER=B-LOC|SpaceAfter=No
+12	.	.	PUNCT	Z	_	8	punct	_	NER=O

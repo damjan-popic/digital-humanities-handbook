@@ -1,141 +1,376 @@
 ---
 title: "Text analysis"
-description: "How frequencies, concordances, keywords, collocations and style measures become defensible humanities evidence."
-tags: [frequency, concordance, keywords, collocation, stylometry]
+description: "How frequency, distribution, concordance, keyness and collocation become source-aware humanities evidence."
+tags: [frequency, document-frequency, dispersion, concordance, keyness, collocation, stylometry]
 status: draft
 ---
 
 # Text analysis
 
+A newspaper uses *svoboda* repeatedly in one long editorial. Ten other articles
+never use it. Is freedom characteristic of the collection, or characteristic of
+one document? The answer changes when we count occurrences, documents or
+distribution—and changes again when OCR, genre and document length enter the
+comparison.
+
 ## Learning outcomes
 
 After this chapter, you should be able to:
 
-- distinguish counts, normalized frequencies, proportions and document frequency;
-- use concordances to connect quantitative patterns with textual context;
-- explain what keyword and collocation statistics compare;
-- design a comparison corpus and avoid common denominator errors;
-- combine exploratory computation with close reading and validation.
+- distinguish token frequency, normalized frequency, document frequency and
+  dispersion;
+- define the unit, denominator, query and corpus partition behind a count;
+- use concordances to audit meaning, quotation, negation and boilerplate;
+- explain why keywords require a comparable reference corpus;
+- interpret collocation as parameter-dependent association rather than meaning;
+- identify source, OCR, annotation and sampling effects in a quantitative result;
+- separate exploratory pattern finding from corroboration; and
+- preserve enough evidence to reproduce and challenge an analysis.
 
 ## Before you begin
 
-A word occurs 300 times in corpus A and 180 times in corpus B. Is it more characteristic of A? You cannot know until you know corpus sizes, document distribution, genre composition and how the word was counted. Numbers become evidence only after the denominator and comparison are defined.
+Suppose a word occurs 300 times in corpus A and 180 times in corpus B. Write down
+what you would need before calling it more characteristic of A. At minimum you
+need corpus sizes, document counts and distribution, genres, dates, duplicate
+policy, textual layers and a definition of the counted form. The two numbers
+alone are outputs, not evidence.
 
-For the distinction between a computational output and evidence for a humanities claim, and for the modelling choices hidden in units and categories, use [Models, evidence and interpretation](models-evidence-interpretation.md) as conceptual grounding.
+Return to [Models, evidence and interpretation](models-evidence-interpretation.md)
+if you need to distinguish a measured pattern from an interpretation. If your
+count uses lemmas or grammatical categories, read
+[Linguistic annotation and CLASSLA](linguistic-annotation-classla.md) as well.
 
-## Counting is a model of relevance
+## Core argument: every count embeds a corpus model
 
-Text analysis often begins with a count, but several counts answer different questions:
+Text analysis turns repeated textual features into structured comparisons. A
+count seems elementary, but it already embeds decisions about the source,
+document boundary, transcription, normalization, tokenization, query and
+denominator. These decisions determine what can be found.
 
-- **token frequency** counts every occurrence;
-- **document frequency** counts how many documents contain an item;
-- **normalized frequency** expresses occurrences per fixed number of tokens;
-- **proportion** expresses a category relative to an appropriate total;
-- **dispersion** describes how evenly occurrences are distributed.
+A defensible result therefore has four connected parts:
 
-A word used 100 times in one speech is not equivalent to a word used once in each of 100 speeches. Report both frequency and distribution when concentration matters.
+1. **description:** what the corpus, query and calculation contain;
+2. **evidence:** the counts, contexts, distributions and uncertainty relevant to
+   the stated question;
+3. **interpretation:** a historically and linguistically informed account of
+   what the pattern may mean; and
+4. **recommendation or decision:** the next sampling, reading or validation step.
 
-## Concordances reconnect pattern and context
+Do not let the software collapse these parts into a ranked list that appears to
+interpret itself.
 
-A keyword-in-context concordance places each occurrence in a short window. It is one of the most important bridges between distant and close reading.
+## Name the observation and analytical unit
+
+A **token** is one occurrence after tokenization; a **type** is a distinct token
+or lemma value under a declared equivalence rule. A **sentence** and **passage**
+are contextual units whose boundaries may be editorial or modelled. A
+**document** is a bibliographic or analytical unit, not automatically one file.
+A **speaker** may contribute several passages, and a **corpus** is the documented
+collection from which they were selected.
+
+The observation unit is the thing recorded—for example a token occurrence. The
+analytical unit is the thing about which the claim is made—for example a speech,
+speaker or newspaper issue. Confusing them produces false precision because
+thousands of tokens from one speaker do not become thousands of independent
+speakers. State both units before selecting a statistical method.
+
+## Frequency answers “how many times?”
+
+**Token frequency** is the number of occurrences of a defined item. The item may
+be an exact form, a case-folded form, a lemma, a phrase or an annotated pattern.
+State which. Counting `arhiv`, `Arhiv` and inflected forms together is not a
+neutral convenience; it is an operational definition.
+
+Raw counts are useful within one collection and for checking data. They are not
+directly comparable when corpus sizes differ. A **normalized frequency** uses a
+declared denominator, often:
+
+```text
+normalized frequency = item occurrences / all eligible tokens × 10,000
+```
+
+“Eligible” matters. Are punctuation, metadata, repeated headers and unreadable
+OCR fragments included? A rate per 10,000 tokens compares relative textual
+space, not the probability that a document or author uses the item. If documents
+vary greatly in length, one long text can dominate both numerator and denominator.
+
+## Document frequency answers “how widely?”
+
+**Document frequency (DF)** counts documents containing at least one occurrence.
+Its denominator is the number of eligible documents. Report both the count and
+share:
+
+```text
+document share = documents containing the item / eligible documents
+```
+
+Frequency and DF expose different corpus shapes. Ten uses in one editorial give
+frequency 10 and DF 1. One use in each of ten articles gives the same frequency
+but DF 10. Neither is inherently better. The first may signal an intensive local
+argument; the second may show wider circulation. Document boundaries must be
+meaningful: splitting one book into chapters changes DF without changing the
+text.
+
+When authors, issues or events—not files—are the real sampling units, calculate
+those units too. Treating every article by one prolific author as independent
+can exaggerate the reach of an individual habit.
+
+**Range** is a family of related measures for how many corpus subdivisions
+contain an item. DF is document range when documents are the subdivision; author,
+issue, genre or period range may better match a claim. Name the subdivision and
+its denominator rather than reporting an unqualified range percentage.
+
+## Dispersion answers “how evenly?”
+
+DF distinguishes presence from absence but ignores concentration among present
+documents. **Dispersion** describes how occurrences are distributed across
+documents or meaningful corpus parts. Always name the measure and partition.
+
+The teaching packet uses Gries's DP because its four authored theme groups have
+unequal eligible-token totals: 83, 68, 66 and 113. For total term frequency
+\(F>0\), term count \(f_i\) in part \(i\), part size \(N_i\), and corpus size
+\(N\), compare the observed and expected proportions:
+
+```text
+observed_i = f_i / F
+expected_i = N_i / N
+DP = 0.5 * sum_i(abs(observed_i - expected_i))
+```
+
+DP is 0 when a term's occurrence share follows the parts' token shares; larger
+values indicate greater departure and concentration. It is undefined for zero
+total frequency. Unlike an equal-part calculation on raw counts, the expected
+proportions account for unequal textual mass. The result still depends on the
+chosen partition and is not a word's inherent generality.
+
+Report the per-part token totals and term counts beside DP. A single index
+conceals which group drives the imbalance and whether the partition corresponds
+to the historical question.
+
+## Concordances reconnect pattern and passage
+
+A keyword-in-context (KWIC) concordance places each occurrence in a bounded left
+and right window. It bridges distant and close reading by making a query
+inspectable without pretending that a short window is the whole text.
 
 Use concordances to:
 
-- identify recurring meanings and constructions;
-- separate homographs or irrelevant uses;
-- inspect negation, quotation and irony;
-- check whether a numerical pattern is generated by boilerplate;
-- select passages for deeper reading without pretending they are statistically representative by themselves.
+- separate homographs, names and irrelevant senses;
+- inspect negation, reported speech, quotation and irony;
+- find repeated headers, advertisements or syndicated text;
+- compare grammatical constructions and nearby evaluative language;
+- locate passages for sustained reading; and
+- explain why a count changed after OCR correction or lemmatization.
 
-Sort by the words to the left or right, group by metadata and save the query definition. A screenshot of a concordance is not a reproducible result.
+Preserve document ID, occurrence number, query form, offsets or token positions,
+window size, sorting rule and source layer. A screenshot is not a reproducible
+concordance. Increase the window or open the document whenever interpretation
+depends on speaker, genre or argument beyond the snippet.
 
-## Keywords require a reference
+## Keywords require a reference corpus
 
-A **keyword** is not merely a frequent word. It is unusually frequent in a target corpus relative to a reference corpus. The result depends on both sides.
+A **keyword** is unusually frequent in a target corpus relative to a reference
+corpus. It is not merely a common or important-looking word. Both corpora define
+the result.
 
-Choose a reference corpus that controls the comparison you intend. To examine differences between political parties in the same election, use comparable genres and dates. Comparing one party's speeches with a general web corpus would mix political, genre, medium and period effects.
+The reference should control the contrast you intend. To compare two parties in
+one election, align period, genre, medium and document-selection rules. Comparing
+one party’s speeches with a general web corpus mixes party, politics, speech,
+period and medium effects. A “neutral” reference does not exist; there are only
+references suitable or unsuitable for a question.
 
-Statistical measures such as log-likelihood indicate evidence against equal relative frequency; effect-size measures such as log ratio indicate the magnitude and direction of difference. A very large corpus can make tiny, uninteresting differences statistically strong, so inspect both evidence and effect.
+Log-likelihood and related tests measure evidence against equal relative
+frequency under assumptions. Effect sizes such as log ratio describe magnitude
+and direction. Very large corpora can make tiny differences statistically strong.
+Publish target and reference counts, token totals, smoothing rule for zeros,
+statistic, effect size, multiple-comparison policy and concordances. A ranked
+keyword list is the beginning of interpretation, not its conclusion.
 
 ## Collocation measures association, not meaning
 
-Collocates are words that co-occur within a defined window or grammatical relation more than expected. Parameters matter:
+A **collocate** co-occurs with a node within a defined span or grammatical
+relation more than expected under a stated baseline. Results depend on:
 
-- node word or lemma;
-- window size and direction;
-- token or sentence boundaries;
-- minimum frequency;
-- association measure;
-- corpus subdivision and stop-list policy.
+- whether the node is a form, lemma or pattern;
+- window width, direction and sentence boundaries;
+- tokenization and stop-list policy;
+- minimum node, collocate and pair frequency;
+- association measure; and
+- corpus subdivision and metadata filters.
 
-Mutual information favours relatively exclusive, sometimes rare pairs. Frequency-based or likelihood measures tend to favour robust common patterns. No score directly proves semantic importance. Concordance inspection is essential.
+Pointwise mutual information tends to favour relatively exclusive and sometimes
+rare pairs. Frequency- or likelihood-oriented measures tend to favour robust,
+common patterns. LogDice offers a bounded association score useful for comparing
+pairs but still inherits preprocessing and sampling. No measure proves a semantic
+relation, evaluative stance or causal connection. Inspect concordances and the
+documents in which pairs cluster.
 
-## Comparability before calculation
+## Comparability comes before calculation
 
-Before comparing groups, inspect:
+Before comparing groups, audit document counts and lengths, authors, genres,
+dates, venues, duplicate and syndication patterns, missing material, OCR quality,
+language variety, annotation quality and selection rules. A difference in
+publication practice can masquerade as lexical change.
 
-- document counts and lengths;
-- genres, authors, dates and publication venues;
-- duplicate or syndicated texts;
-- OCR and annotation quality;
-- whether one author or document dominates;
-- missing categories and uneven sampling.
+Aggregates can produce Simpson’s paradox: an overall trend may reverse within
+genre, outlet or period. Produce document-level summaries and stratified results.
+A token is not an independent sample when thousands come from one document.
+Balance is not always historically desirable, but imbalance must be visible and
+interpreted rather than silently normalized away.
 
-Aggregate corpora can exhibit Simpson's paradox: a trend visible overall may reverse inside genres or time periods. Use metadata strata and document-level summaries rather than treating every token as independent.
+OCR deserves special attention. Recognition errors can reduce a word’s apparent
+frequency, create false rare words, damage function words and change corpus size.
+If one comparison group has worse OCR, a normalized rate may still be biased.
+Report quality by group, test a corrected sample and trace high-impact candidates
+to page images or reviewed transcriptions.
+
+## Preserve denominators and uncertainty
+
+Do not save only a final chart. A reusable document table should contain a stable
+ID, source citation, date, author or unresolved author status, genre, language,
+text-layer identifier, rights status, eligible-token count, OCR-quality measure
+where available, inclusion decision and reason. A query table should contain the
+query string or pattern, case and lemma policy, software/script revision,
+timestamp and input hash. Derived rows should retain the document ID so every
+aggregate can be unfolded.
+
+Uncertainty enters before statistical modelling. A missing issue changes the
+corpus denominator; uncertain dates change period strata; OCR confidence may not
+be calibrated; an ambiguous concordance changes the numerator. Record these as
+fields, ranges or alternative analyses rather than converting every uncertainty
+to a confident value. For a small corpus, showing all document counts can be more
+informative than an elaborate interval based on implausible independence.
+
+When sampling supports inference, choose an uncertainty method that respects the
+sampling unit. Resampling tokens from one article exaggerates information;
+resampling documents, authors or issues may better match the claim. Report the
+number of independent units and assumptions. A significance value cannot repair
+selection bias, unbalanced preservation or an inappropriate reference corpus.
+
+Before interpreting, establish stopping rules. Investigate if one document
+contributes more than a declared share, if OCR quality differs materially between
+groups, if top candidates vanish under a plausible preprocessing choice, or if
+concordance review rejects many matches. The remedy may be a corrected sample, a
+document-level analysis or a narrower claim—not another decorative statistic.
+
+## Preprocessing is part of the argument
+
+Case folding, Unicode normalization, punctuation removal, stop-word filtering,
+stemming and lemmatization change the analytical object. Preserve the source
+layer and record transformations in order. Apply the same declared rule across
+a comparison unless the research design justifies otherwise.
+
+Stop words are not inherently uninformative. Function words can carry style,
+register and grammatical structure. Removing them may help a topic model while
+destroying a stylometric question. Lemmas reduce inflectional sparsity but can
+import annotation error and erase historically meaningful forms. Run sensitivity
+checks with plausible alternatives instead of searching for one universally
+correct preprocessing pipeline.
+
+Word and character **n-grams** represent local sequences. Word bigrams can retain
+formulaic phrases that unigram counts split apart; character n-grams can tolerate
+some inflection and support style comparison, but can also model OCR systems,
+orthography or page furniture. Document n-gram length, boundary handling,
+frequency threshold and feature count. Interpret features by returning them to
+passages rather than treating a predictive fragment as a self-explanatory motif.
+
+A frequency plot or dimensionality-reduction map is exploratory unless the
+sampling design and uncertainty justify inference. Axes, smoothing, bin width,
+colour and omitted documents can all change the visual claim. Publish the table
+behind a visualization, show document-level variation, and describe a pattern as
+a candidate until it survives a declared check.
 
 ## Style and stylometry
 
-Stylometry compares texts through measurable features such as function-word frequencies, character n-grams, sentence lengths or grammatical patterns. It can support questions about authorship, genre, period or translation style.
+Stylometry compares documents through measurable features such as function-word
+frequencies, character n-grams, sentence length or grammatical patterns. It can
+support questions about authorship, genre, period and translation style, but a
+cluster does not name its cause.
 
-A sound workflow separates:
+Separate feature design, distance or model, evaluation and historical
+interpretation. Do not place chunks from the same work in both training and test
+sets. Repeat analyses across plausible chunk sizes, feature sets, OCR thresholds
+and metadata controls. Publication date, editor, genre and recognition quality
+can produce an apparent authorial signature.
 
-- **feature design:** what aspects of writing are represented;
-- **distance or model:** how texts are compared;
-- **evaluation:** whether the pattern generalizes beyond the sample;
-- **interpretation:** what historical or literary process could explain it.
+## From exploration to corroboration
 
-Clusters do not name their own causes. Publication date, OCR quality, editor, genre and text length can create apparent authorial groups.
+Exploration is valuable for discovering candidate patterns. It becomes circular
+when the same data select the pattern, tune the parameters and then appear to
+confirm it. Whenever possible, explore on one subset, state the claim and rule,
+then test on held-out documents or another collection. Archive unsuccessful
+queries and parameter choices as well as the attractive result.
 
-## From exploration to confirmation
+Humanities evidence does not require pretending that interpretation is a
+clinical trial. It does require honesty about when a pattern was noticed, which
+alternatives were tried and what independent material could challenge it.
 
-Exploratory analysis is valuable for finding candidate patterns. Problems arise when the same data are used to discover a pattern and then to present it as if it had been independently tested.
+## Worked example: frequency is not reach
 
-Whenever possible:
+The [text and NLP validation packet](../../assets/downloads/text-nlp-validation-v1.zip)
+contains twelve short, synthetic Slovene documents in four authored theme
+groups with three documents each but unequal token totals. The corpus is designed for teaching and says nothing about real archives,
+museums, language practice or newspapers.
 
-1. explore on one subset;
-2. formulate a clear claim and analysis rule;
-3. test it on held-out documents or a new corpus;
-4. report failed as well as successful comparisons;
-5. archive queries, scripts and intermediate tables.
+The term *arhiv* occurs several times but is concentrated in a small number of
+archive-themed documents. *Korpus* repeats within one language document.
+*Svoboda* is prominent in one press document but absent elsewhere. Comparing
+frequency, DF, document share, part sizes, per-theme counts and Gries's DP reveals these
+different shapes. A concordance then shows whether occurrences make the same
+claim or merely share a form.
 
-Humanities research does not need to imitate a clinical trial, but it should distinguish discovery from corroboration.
+The result supports statements about the constructed dataset: one term is
+repeated locally; another reaches more documents; both may be confined to one
+theme group. It does not support a claim about Slovene public discourse. The
+synthetic design makes the metric distinction visible precisely so that the
+student can test it before approaching consequential historical data.
 
-## Worked example: changing descriptions of migration
+## Failure modes and ethical limits
 
-A project might compare newspaper language around migration in two periods.
+Common failures include comparing raw counts across unequal corpora, using file
+names as meaningful documents, ignoring a dominant text, treating keywords as
+topics, interpreting collocation as sentiment, discarding contradictory
+concordances and reporting only a favourable parameter setting.
 
-1. Build comparable article sets and document the search strategy.
-2. Examine corpus balance and duplicates.
-3. calculate normalized lemma frequencies and document frequencies;
-4. generate keywords with effect sizes against the other period;
-5. inspect concordances for top candidates;
-6. calculate collocates for selected terms under fixed parameters;
-7. stratify by outlet and article genre;
-8. close-read representative and contradictory passages;
-9. interpret results in relation to policy events and editorial context.
-
-The output is not “the discourse” in full. It is a documented set of recurring textual contrasts in a defined collection.
+Counts can make harmful categories look objective. Search labels may reproduce
+historical slurs; entity and demographic inferences can expose people; a corpus
+may overrepresent preserved institutions and powerful speakers. Quote only what
+the argument needs, respect rights and privacy, preserve provenance and describe
+absence as a property of the collection rather than silence in the past.
 
 ## Practice
 
-Select two small text groups. Define a defensible denominator, calculate frequency and document frequency for five items, inspect every occurrence in context, and write one claim that the data support plus one claim they do not support.
+Complete [How do I compare frequency, document frequency and dispersion?](../workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md).
+Choose three terms with contrasting distributions. For each, write a description
+of the measure, one source-grounded interpretation and one claim the packet does
+not warrant. Inspect every concordance line before deciding.
 
 ## Reflection
 
-- What is the correct unit of analysis: token, sentence, document, author or event?
-- Could one document be driving the pattern?
-- What reference corpus would isolate the contrast you actually care about?
+- Is your unit a token, sentence, document, work, author, issue or event?
+- Could one document or duplicated passage generate the pattern?
+- Does the reference corpus isolate the contrast you intend?
+- Which preprocessing decision most changes the candidate list?
+- What passage contradicts the aggregate pattern, and why does it matter?
 
 ## Summary
 
-Text analysis turns repeated textual features into structured comparisons, but the calculations inherit every corpus and parameter choice. Counts need denominators, keywords need references, collocations need windows and stylometry needs evaluation. Concordance reading, metadata stratification and independent checking keep quantitative patterns connected to language, documents and interpretation.
+Frequency measures volume, document frequency measures reach and dispersion
+measures distribution across a declared partition. Normalization makes a chosen
+denominator explicit but does not repair an incomparable corpus. Concordances
+return counts to passages; keywords depend on a suitable reference; collocations
+depend on windows and association measures. Source criticism, metadata strata,
+sensitivity checks and close reading turn calculations into defensible evidence.
+
+## Further reading
+
+- Gries, Stefan Th. 2008. “Dispersions and Adjusted Frequencies in Corpora.”
+  *International Journal of Corpus Linguistics* 13 (4): 403–437.
+  [https://doi.org/10.1075/ijcl.13.4.02gri](https://doi.org/10.1075/ijcl.13.4.02gri).
+- Gries, Stefan Th. 2022. “Toward More Careful Corpus Statistics: Uncertainty
+  Estimates for Frequencies, Dispersion, Association, and Keyness.” *Research
+  Methods in Applied Linguistics* 1 (1).
+  [https://doi.org/10.1016/j.rmal.2021.100002](https://doi.org/10.1016/j.rmal.2021.100002).
+- Dunning, Ted. 1993. “Accurate Methods for the Statistics of Surprise and
+  Coincidence.” *Computational Linguistics* 19 (1): 61–74.
+  [ACL Anthology record](https://aclanthology.org/J93-1003/).

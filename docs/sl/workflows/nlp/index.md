@@ -1,4 +1,15 @@
+---
+title: "Python, NLP in CLASSLA"
+description: "Slovenska učna pot za Python, jezikoslovno obdelavo in CLASSLA."
+status: draft
+translation_status: machine-assisted draft; requires human language review
+---
+
 # Python, NLP in CLASSLA
+
+!!! warning "Stanje prevoda"
+    Slovensko besedilo je strojno podprti uredniški osnutek. Pred formalno
+    objavo potrebuje vsebinski in jezikovni pregled strokovnjaka za slovenščino.
 
 Ta učna pot se začne s Pythonom, nato pa preide na datoteke, tabele in CLASSLA. Če terminala, lupine Bash ali Gita še ne poznate, začnite s [potjo temeljev tehničnega delovnega okolja](../../foundations/technical-workspace.md).
 
@@ -15,6 +26,7 @@ Pri vajah uporabljajte **Python 3.12.x** kot preizkušeno predmetno izhodišče.
 7. [Namestite in preizkusite CLASSLA](install-and-test-classla.md).
 8. [Anotirajte majhno slovensko besedilo](annotate-a-small-text-with-classla.md).
 9. [Rezultate CLASSLA izvozite v CSV](export-classla-results-to-csv.md).
+10. [CLASSLA ovrednotite na domensko specifičnem vzorcu](evaluate-classla-on-a-domain-specific-sample.md).
 
 Pri vsakem projektu `.venv/` ohranite krajevno in nesledeno. V repozitorij vključite README, pregledane zahteve, ukaze za zagon ter podatke o različici in omejitvah.
 

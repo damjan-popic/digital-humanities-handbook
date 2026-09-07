@@ -1,6 +1,7 @@
 ---
 title: "Workflows"
 description: "Generated catalogue of practical handbook workflows."
+status: draft
 ---
 
 # Workflows
@@ -24,14 +25,14 @@ The Slovene edition contains the stable core and a growing curated set of transl
 - **Mapping** — 4
 - **MT evaluation** — 2
 - **Networks** — 3
-- **NLP** — 15
+- **NLP** — 16
 - **PDF & OCR** — 2
 - **Publishing & FAIR data** — 2
 - **Reference management** — 3
 - **Scholarly writing** — 3
 - **Subtitling** — 5
 - **Terminology** — 8
-- **Text analysis** — 3
+- **Text analysis** — 5
 - **Visualization** — 6
 
 ## All workflows
@@ -119,6 +120,7 @@ The Slovene edition contains the stable core and a growing curated set of transl
 - [How do I annotate a small text with CLASSLA?](nlp/annotate-a-small-text-with-classla.md) <span class="tiny">— beginner</span>
 - [How do I compare meanings across languages with fastText embeddings?](nlp/compare-meanings-across-languages-with-fasttext-embeddings.md) <span class="tiny">— advanced</span>
 - [How do I create a Python 3.12 virtual environment?](nlp/create-a-python-312-virtual-environment.md) <span class="tiny">— beginner</span>
+- [How do I evaluate CLASSLA on a domain-specific sample?](nlp/evaluate-classla-on-a-domain-specific-sample.md) <span class="tiny">— intermediate</span>
 - [How do I export CLASSLA results to CSV?](nlp/export-classla-results-to-csv.md) <span class="tiny">— intermediate</span>
 - [How do I extract named entities with spaCy?](nlp/extract-named-entities-with-spacy.md) <span class="tiny">— intermediate</span>
 - [How do I install and test CLASSLA with Python 3.12?](nlp/install-and-test-classla.md) <span class="tiny">— beginner</span>
@@ -175,8 +177,10 @@ The Slovene edition contains the stable core and a growing curated set of transl
 ### Text analysis
 
 - [How do I analyse emotion with a lexicon and a manual check?](text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md) <span class="tiny">— intermediate</span>
+- [How do I compare frequency, document frequency and dispersion?](text-analysis/compare-frequency-document-frequency-and-dispersion.md) <span class="tiny">— beginner</span>
 - [How do I compare style with function words?](text-analysis/compare-style-with-function-words.md) <span class="tiny">— intermediate</span>
 - [How do I explore recurring themes with NMF?](text-analysis/explore-topics-with-nmf.md) <span class="tiny">— intermediate</span>
+- [How do I test topic-model stability and interpretability?](text-analysis/test-topic-model-stability-and-interpretability.md) <span class="tiny">— intermediate</span>
 
 ### Visualization
 

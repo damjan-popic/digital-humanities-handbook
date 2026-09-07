@@ -1,0 +1,38 @@
+{
+  "extractions": [
+    {
+      "sample_id": "TNLP-CLEAN-01",
+      "stratum": "contemporary_clean",
+      "source_path": "teaching-data/text-nlp-validation/source/contemporary-sample.csv",
+      "source_record_id": "TNLP-C01",
+      "selector": "sentence_index:2",
+      "synthetic": true
+    },
+    {
+      "sample_id": "TNLP-CLEAN-02",
+      "stratum": "contemporary_clean",
+      "source_path": "teaching-data/text-nlp-validation/source/contemporary-sample.csv",
+      "source_record_id": "TNLP-C02",
+      "selector": "sentence_index:1",
+      "synthetic": true
+    },
+    {
+      "sample_id": "TNLP-AF-REF",
+      "stratum": "historical_reference",
+      "source_path": "teaching-data/archival-friction/reference/reference-transcription.txt",
+      "source_record_id": "AF-OCR-P1-INTRO",
+      "selector": "sentence_prefix:Tudi danes",
+      "synthetic": false
+    },
+    {
+      "sample_id": "TNLP-AF-OCR",
+      "stratum": "provider_ocr",
+      "source_path": "teaching-data/archival-friction/raw/provider-ocr.txt",
+      "source_record_id": "AF-OCR-P1-INTRO",
+      "selector": "sentence_prefix:Tudi danes",
+      "synthetic": false
+    }
+  ],
+  "normalization": "UTF-8 decode; Unicode NFC; preserve case and punctuation; strip surrounding whitespace only",
+  "version": 1
+}
