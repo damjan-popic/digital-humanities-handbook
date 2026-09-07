@@ -1,0 +1,66 @@
+# packet_sample_id = TNLP-AF-OCR
+# packet_stratum = provider_ocr
+# reference_status = manually reviewed teaching reference; not a gold standard
+# reference_policy = TNLP-REF-1; annotate the research-intended linguistic reading while preserving observed token forms
+# reference_reviewer = handbook maintainers; 2026-09-03
+# newpar id = 1
+# sent_id = 1.1
+# text = Tudi danes ne gre pri nas za svetovna naziranja in ne za kake stavovske interese, temveč za kulturno, politično in gospodarsko svobodo celokupnega slovenskega narodain zedinjene Slovenije, zato gre vse brez razlike kultrunega naziranja s Slovensko ljudsko stranko, i pozna in zastopa v teh usodepolnih časih samo splošne vsenarodne pravice.
+1	Tudi	tudi	PART	Q	_	2	advmod	_	NER=O
+2	danes	danes	ADV	Rgp	Degree=Pos	4	advmod	_	NER=O
+3	ne	ne	PART	Q	Polarity=Neg	4	advmod	_	NER=O
+4	gre	iti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+5	pri	pri	ADP	Sl	Case=Loc	6	case	_	NER=O
+6	nas	jaz	PRON	Pp1-pl	Case=Loc|Number=Plur|Person=1|PronType=Prs	4	obl	_	NER=O
+7	za	za	ADP	Sa	Case=Acc	9	case	_	NER=O
+8	svetovna	svetoven	ADJ	Agpnpa	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	NER=O
+9	naziranja	naziranje	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	NER=O
+10	in	in	CCONJ	Cc	_	15	cc	_	NER=O
+11	ne	ne	PART	Q	Polarity=Neg	15	advmod	_	NER=O
+12	za	za	ADP	Sa	Case=Acc	15	case	_	NER=O
+13	kake	kak	DET	Pq-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Int	15	det	_	NER=O
+14	stavovske	stanovski	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	NER=O
+15	interese	interes	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	9	conj	_	NER=O|SpaceAfter=No
+16	,	,	PUNCT	Z	_	24	punct	_	NER=O
+17	temveč	temveč	CCONJ	Cc	_	24	cc	_	NER=O
+18	za	za	ADP	Sa	Case=Acc	24	case	_	NER=O
+19	kulturno	kulturen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	NER=O|SpaceAfter=No
+20	,	,	PUNCT	Z	_	21	punct	_	NER=O
+21	politično	političen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	conj	_	NER=O
+22	in	in	CCONJ	Cc	_	23	cc	_	NER=O
+23	gospodarsko	gospodarski	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	conj	_	NER=O
+24	svobodo	svoboda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	NER=O
+25	celokupnega	celokupen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	NER=O
+26	slovenskega	slovenski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	NER=O
+27-28	narodain	_	_	_	_	_	_	_	_
+27	naroda	narod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	NER=O|SpaceAfter=No
+28	in	in	CCONJ	Cc	_	30	cc	_	NER=O
+29	zedinjene	zedinjen	ADJ	Appfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	30	amod	_	NER=O
+30	Slovenije	Slovenija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	27	conj	_	NER=B-LOC|SpaceAfter=No
+31	,	,	PUNCT	Z	_	33	punct	_	NER=O
+32	zato	zato	CCONJ	Cc	_	33	cc	_	NER=O
+33	gre	iti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	NER=O
+34	vse	ves	PRON	Pg-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	33	nsubj	_	NER=O
+35	brez	brez	ADP	Sg	Case=Gen	36	case	_	NER=O
+36	razlike	razlika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	33	obl	_	NER=O
+37	kultrunega	kulturen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	NER=O
+38	naziranja	naziranje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	36	nmod	_	NER=O
+39	s	z	ADP	Si	Case=Ins	42	case	_	NER=O
+40	Slovensko	slovenski	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	NER=B-ORG
+41	ljudsko	ljudski	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	NER=I-ORG
+42	stranko	stranka	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	38	nmod	_	NER=I-ORG|SpaceAfter=No
+43	,	,	PUNCT	Z	_	45	punct	_	NER=O
+44	i	ki	SCONJ	Cs	_	45	mark	_	NER=O
+45	pozna	poznati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	acl	_	NER=O
+46	in	in	CCONJ	Cc	_	47	cc	_	NER=O
+47	zastopa	zastopati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	conj	_	NER=O
+48	v	v	ADP	Sl	Case=Loc	51	case	_	NER=O
+49	teh	ta	DET	Pd-mpl	Case=Loc|Gender=Masc|Number=Plur|PronType=Dem	51	det	_	NER=O
+50	usodepolnih	usodepolen	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	51	amod	_	NER=O
+51	časih	čas	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	47	obl	_	NER=O
+52	samo	samo	PART	Q	_	55	advmod	_	NER=O
+53	splošne	splošen	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	55	amod	_	NER=O
+54	vsenarodne	vsenaroden	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	55	amod	_	NER=O
+55	pravice	pravica	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	47	obj	_	NER=O|SpaceAfter=No
+56	.	.	PUNCT	Z	_	4	punct	_	NER=O
+

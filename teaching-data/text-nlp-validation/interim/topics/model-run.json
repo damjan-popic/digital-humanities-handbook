@@ -1,0 +1,38 @@
+{
+  "corpus_sha256": "a0cf7e7cf9f4d0a26e92f10eb33855e58629a4be95b7304a15871a0b656ebd78",
+  "documents": 12,
+  "nmf": {
+    "beta_loss": "kullback-leibler",
+    "component_counts": [
+      2,
+      3,
+      4
+    ],
+    "init": "random",
+    "max_iter": 1000,
+    "seeds": [
+      7,
+      19,
+      31
+    ],
+    "solver": "mu",
+    "top_words": 8
+  },
+  "numpy_version": "2.5.3",
+  "output_sha256": {
+    "topic-components.csv": "278e4442c468648d8253a183172327f7750c143eb753d1aad942db426df9161a",
+    "topic-documents.csv": "38e69b2432a6a975adac3998ab3b34d9ca3f677ed19fd653d790b9b68e989f69"
+  },
+  "python_version": "3.12.3",
+  "run_date": "2026-09-07",
+  "scikit_learn_version": "1.9.0",
+  "synthetic_documents": 12,
+  "vectorizer": {
+    "lowercase": true,
+    "max_df": 1.0,
+    "min_df": 1,
+    "stopwords_sha256": "7413623d8227143d7fbff5eecec96bff954ab0d671c6486528b95e29edcbb3cc",
+    "token_pattern": "(?u)\\b[^\\W\\d_][^\\W_]+\\b"
+  },
+  "warning": "Twelve synthetic documents are too few for substantive topic inference; these runs exist only to teach matching and sensitivity."
+}
