@@ -5,3 +5,4 @@ Ti postopki pojmovna poglavja pretvorijo v majhne in pregledne izvedbe. Najprej 
 - [Raziskovanje ponavljajočih se tem z NMF](explore-topics-with-nmf.md)
 - [Analiza čustev z leksikonom in ročnim preverjanjem](analyse-emotion-with-a-lexicon-and-manual-check.md)
 - [Primerjava sloga s funkcijskimi besedami](compare-style-with-function-words.md)
+- [Primerjava frekvence, dokumentne frekvence in razpršenosti](compare-frequency-document-frequency-and-dispersion.md)

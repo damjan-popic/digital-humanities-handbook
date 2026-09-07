@@ -5,3 +5,4 @@ These workflows turn the conceptual chapters into small, inspectable procedures.
 - [Explore recurring themes with NMF](explore-topics-with-nmf.md)
 - [Analyse emotion with a lexicon and manual check](analyse-emotion-with-a-lexicon-and-manual-check.md)
 - [Compare style with function words](compare-style-with-function-words.md)
+- [Compare frequency, document frequency and dispersion](compare-frequency-document-frequency-and-dispersion.md)
