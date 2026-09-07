@@ -120,9 +120,9 @@ Priročnik ni sestavljen iz štirih ločenih polic. Poglavja podajajo pojme in a
 | [Jezikoslovna anotacija in CLASSLA](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/linguistic-annotation-classla/) | [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[Kako namestim in preizkusim CLASSLA s Pythonom 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-and-test-classla/)<br>[Kako s CLASSLA anotiram majhno besedilo?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/annotate-a-small-text-with-classla/)<br>[Kako rezultate CLASSLA izvozim v CSV?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/export-classla-results-to-csv/) | [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/corpus-augmenter/) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)* |
 | [Analiza besedil](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/text-analysis/) | [How do I query a corpus with CQPweb?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/query-a-corpus-with-cqpweb/) *(angleška nadomestna stran)*<br>[Kako primerjam slog s funkcijskimi besedami?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-style-with-function-words/)<br>[How do I make a dispersion plot in LancsBox?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/make-a-dispersion-plot-in-lancsbox/) *(angleška nadomestna stran)*<br>[How do I visualise a frequency list with Voyant?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-a-frequency-list-with-voyant/) *(angleška nadomestna stran)* | [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
 | [Teme, sentiment in čustva](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/topics-emotions-classification/) | [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[Kako z NMF raziščem ponavljajoče se teme?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/explore-topics-with-nmf/)<br>[How do I create a sentence-similarity heat map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/create-a-sentence-similarity-heat-map/) *(angleška nadomestna stran)* | [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/createai/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
-| [Podatkovne zbirke in SQL](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/databases-sql/) | [Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
-| [GIS in prostorska humanistika](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/gis-spatial-humanities/) | [Kako kartiram kraje, omenjene v besedilu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/map-places-mentioned-in-a-text/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/build-a-simple-cultural-heritage-map/) *(angleška nadomestna stran)*<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
-| [Omrežja in vizualizacija](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/networks-visualization/) | [Kako podatke povzamem z vrtilnimi tabelami in preglednimi grafikoni?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts/)<br>[Kako zgradim omrežje sopojavljanja, povezano z viri?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/build-a-cooccurrence-network/)<br>[How do I build a collocation graph from AntConc to Cytoscape?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape/) *(angleška nadomestna stran)*<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
+| [Podatkovne zbirke in SQL](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/databases-sql/) | [Kako modeliram spreminjajoča se imena, statuse in meje v SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/)<br>[Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
+| [GIS in prostorska humanistika](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/gis-spatial-humanities/) | [Kako georeferenciram in preverim zgodovinski zemljevid v QGIS?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/)<br>[Kako modeliram spreminjajoča se krajevna imena in meje?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/model-changing-place-names-and-boundaries/)<br>[Kako kartiram kraje, omenjene v besedilu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/map-places-mentioned-in-a-text/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/build-a-simple-cultural-heritage-map/) *(angleška nadomestna stran)*<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
+| [Omrežja in vizualizacija](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/networks-visualization/) | [Kako primerjam dvodelna in projicirana omrežja?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/compare-bipartite-and-projected-networks/)<br>[Kako preverim omrežno trditev ob izvornih zapisih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/audit-a-network-claim-against-source-records/)<br>[Kako podatke povzamem z vrtilnimi tabelami in preglednimi grafikoni?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts/)<br>[Kako zgradim omrežje sopojavljanja, povezano z viri?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/build-a-cooccurrence-network/)<br>[How do I build a collocation graph from AntConc to Cytoscape?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape/) *(angleška nadomestna stran)*<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
 | [UI, etika in ponovljivost](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/ai-ethics-reproducibility/) | [Kako revidiram trditve, dokazno gradivo in odstavke?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs/)<br>[Kako rezultat UI preverim ob izvornih dokumentih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ai/audit-ai-output-against-source-documents/)<br>[How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ethics/decide-whether-a-digitised-source-should-be-public/) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*<br>[How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/) *(angleška nadomestna stran)*<br>[Kako namestim pakete Python s pipom?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-python-packages-with-pip/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/jezikovni-svetovalec/) *(angleška nadomestna stran)*<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/fifi/) *(angleška nadomestna stran)*<br>[User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/createai/) *(angleška nadomestna stran)*<br>[Slovenian comma-checking Word add-in](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/vejice-add-in/) *(angleška nadomestna stran)* |
 | [Živi odprti priročnik](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/open-living-handbook/) | [Kako izberem sistem in citatni slog ter pregledam navedbe?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/reference-management/choose-apply-and-audit-a-citation-style/)<br>[How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/) *(angleška nadomestna stran)*<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*<br>[How do I version-control a termbase with Git?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/terminology/version-control-a-termbase-with-git/) *(angleška nadomestna stran)*<br>[Kako z Gitom sledim manjšemu projektu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/foundations/track-a-small-project-with-git/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/jezikovni-svetovalec/) *(angleška nadomestna stran)*<br>[Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)* |
 
@@ -2733,134 +2733,321 @@ Klasifikacija in tematska analiza lahko uredita velike zbirke besedil, vendar oz
 
 Po tem poglavju boste znali:
 
-- razlikovati med preglednico in relacijsko podatkovno zbirko;
-- prepoznati entitete, lastnosti, razmerja, ključe in kardinalnosti;
-- zasnovati normalizirano shemo za manjši humanistični projekt;
-- napisati osnovne poizvedbe SQL za filtriranje, povezovanje, združevanje in štetje zapisov;
-- izrecno predstaviti negotovost, provenienco in spreminjajoče se interpretacije.
+- razlikovati med entiteto, lastnostjo, razmerjem, opazovanjem, trditvijo in dogodkom;
+- primerjati ravno tabelo, normalizirano shemo in model trditev, povezanih z viri;
+- predstaviti spremembe imen, statusov, jezikovnih razmerij in ozemeljske pripadnosti;
+- ločiti čas veljavnosti od časa zapisa oziroma spremembe uredniške trditve;
+- izvesti in preveriti časovno občutljive poizvedbe SQL, tudi ob nesoglasju med viri;
+- pojasniti, česa omejitve zbirke, normalizacija in izvoz ne morejo zagotoviti.
 
 ## Pred začetkom
 
-Predstavljajte si tabelo s stolpci `avtor_1`, `avtor_2`, `avtor_3`, `kraj_1`, `kraj_2` in več celicami, v katerih so imena ločena z vejicami. Morda je videti priročno, toda kako bi zanesljivo vprašali, kateri avtorji so objavljali v istem kraju, ali eno ime popravili povsod? Struktura določa, katera vprašanja ostanejo mogoča.
+Ali lahko oseba zamenja državo, ne da bi se preselila? Ali lahko uporablja dva
+jezika, ne da bi ji zato pripisali en sam trajni »jezik«? Kaj pomeni, če jo en
+vir označi za služkinjo, drugi pa za šiviljo? Zbirka s polji `person.status`,
+`person.language` in `place.country` lahko ponudi nedvoumen odgovor zato, ker
+je razlike, potrebne za dobro vprašanje, že odstranila. Pred uporabo programske
+opreme zapišite eno želeno poizvedbo in eno razlikovanje, ki ga ne želite izgubiti.
 
-Shema je model izbranih entitet in razmerij, ne nevtralna posoda. Poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) pomaga razkriti te odločitve, poglavje [Infrastrukture digitalne humanistike](critical-infrastructures.md) pa je pomembno, kadar so dostop do zbirke, identifikatorji ali vzdrževanje odvisni od zunanje storitve.
+Predpostavljeno je osnovno poznavanje vrstic, stolpcev in navajanja virov. Znanje
+SQL je koristno, za konceptualno primerjavo pa ni nujno. Najprej preberite poglavje
+[Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md).
+Za izvedbo vaje morate znati ohraniti vhodno datoteko in zagnati priloženo skripto
+Python. Strežnika, plačljive storitve ali osebnih podatkov ne potrebujete.
+Besedilo je strojno podprt osnutek; pred potrditvijo je potreben jezikovni pregled.
 
 ## Podatkovna zbirka je trditev o svetu
 
-Podatkovna zbirka ne hrani samo dejstev. Njena shema določi, katere vrste stvari v projektu obstajajo in kako so povezane. Pri projektu literarne zgodovine lahko modeliramo osebe, dela, izdaje, založnike, kraje in dogodke. Že ločitev *dela* od *izdaje* je interpretativna odločitev.
+Shema določi, kaj šteje za stvar, katere razlike je mogoče ponavljajoče opisovati
+in po katerih razmerjih lahko poizvedujemo. Coddov relacijski model loči logično
+organizacijo podatkov od njihovega fizičnega shranjevanja ter obravnava podvajanje
+in skladnost. Ne določi pa, kaj je zgodovinska oseba, skupnost ali dogodek.
+To ostajajo raziskovalne odločitve. [Codd 1970](https://doi.org/10.1145/362384.362685)
+je tehnično izhodišče, ne zagotovilo, da je uspešna poizvedba tudi zgodovinski dokaz.
 
-Relacijsko modeliranje sprašuje:
+V avtentičnem [paketu arhivskih zapletov](../../assets/downloads/archival-friction-v1.zip)
+referenčno opazovanje `AF-P1-003` prepiše natisnjeno oznako »Dr. Ante Trumbić«.
+Najprej gre za opazovanje napisa v določeni časopisni številki, ne za neodvisno
+potrjeno biografijo. Zapis `AF-P2-003` ohrani »Mr. Meker«, čeprav je bil predlagani
+normativni kandidat zavrnjen. Zbirka mora omogočiti, da zavrnitev ostane vidna,
+ne da bi s tem izbrisala osebo, ki jo vir poimenuje.
 
-- Kaj je ena prepoznavna stvar?
-- Katere lastnosti ji pripadajo?
-- Ali ima lahko ena stvar več vrednosti iste lastnosti?
-- Katera razmerja povezujejo entitete?
-- Kateri dokaz podpira posamezno trditev?
+Uporaben zgled ponuja prozopografija, usmerjena k virom: razmerje med virom, osebo
+in trditvijo postane predmet raziskovanja. Bradley in Short utemeljujeta razlikovanje
+med strukturiranim delom zgodovinarja in zgodovinskim svetom, ki ga opisuje.
+Učna shema prevzame to razlikovanje, ne predstavlja pa izvedbe celotne
+prozopografske ontologije. [Bradley in Short 2005](https://doi.org/10.1093/llc/fqi022).
 
-Shema naj sledi raziskovalnim potrebam in hkrati ostane dovolj izrecna, da jo lahko popravimo.
+## Entitete, razmerja in raven trditve
 
-## Tabele, vrstice, stolpci in ključi
+**Entiteta** ima projektno identiteto: lahko je oseba, dokument, kraj ali ustanova.
+**Lastnost** opisuje zapis v opredeljenem okviru. **Razmerje** poveže entitete,
+na primer osebo in dokument. **Opazovanje** zabeleži, kaj je raziskovalec pregledal.
+**Trditev** nekaj pove o entiteti in navede dokazno podlago. **Dogodek** modelira
+pojav z udeleženci, vlogami in časom. To so različne odločitve pri modeliranju, ne stopnje
+na poti do vse bolj resnične predstavitve.
 
-Relacijska zbirka zapise hrani v tabelah:
+Pismo je dokument, njegovo pošiljanje dogodek, zapisano naslovnikovo ime opazovanje,
+identifikacija naslovnika pa trditev. Pismo je lahko ohranjeno brez dokaza, da je
+bilo dostavljeno. Povezava pošiljatelj–prejemnik zato še ne pomeni uspešne komunikacije.
+Tabela dogodkov omogoči takšna razlikovanja, vendar zahteva dodatno odločitev:
+kaj v projektu sploh šteje za en dogodek in po katerih virih ga prepoznamo?
 
-- **vrstica** predstavlja en zapis;
-- **stolpec** predstavlja eno opredeljeno lastnost;
-- **primarni ključ** enolično določi vrstico;
-- **tuji ključ** kaže na vrstico v drugi tabeli.
+Primarni ključ enolično določi vrstico, tuji ključ pa kaže na drugo vrstico.
+Imena so slabi ključi, saj se zapis, jezik in identifikacija spreminjajo. Za
+razmerje mnogo proti mnogo uporabite **povezovalno tabelo**:
+`participation(document_id, person_id, role)` omogoča več oseb v enem dokumentu
+in več dokumentov pri eni osebi. Tudi vloga ima lahko svoj dokaz. Skupinski portret
+ni ena neidentificirana oseba, ustanove pa ne shranjujte med osebe samo zato,
+da bi poenostavili povezovanje tabel.
 
-Kot ključe uporabljajte stabilne notranje identifikatorje in ne imen. Imena se spreminjajo, podvajajo in zapisujejo različno. `person_id = 1042` lahko ostane stabilen, medtem ko zbirka hrani več oblik imena in njihove vire.
+## Razdelan primer: en dosje, trije modeli
 
-## Razmerja in kardinalnost
+[Učni dodatek o spornih modelih](../../assets/downloads/contested-models-v1.zip)
+vsebuje namenoma **sintetični** dosje za daljše obdobje. Ana Kovač oziroma Anna
+Kovatsch (`SYN-A`) je izmišljena oseba, ne identifikacija osebe iz časopisa.
+Paket arhivskih zapletov, ki temelji na avtentični časopisni številki, ostaja
+nespremenjen. Dodatek preizkuša težave, ki jih ena sama številka ne more
+dokumentirati. Pred tabelami preberite dvojezični dosje.
+Če izhod preverjamo samo proti drugi izpeljani tabeli, lahko zgolj ponavljamo
+iste predpostavke; zato potrebujemo tudi berljive izvorne zapise preizkusa.
 
-Pogosta razmerja so:
+V izmišljenem dokumentu D1 upravni seznam uporabi obliko Anna Kovatsch in osebo
+A razvrsti med služkinje. V D2, slovenskem pismu s podpisom Ana Kovač, se oseba
+opiše kot šivilja in navede, da bere nemško. Poznejša društvena opomba jo opredeli
+kot samostojno obrtnico; institucionalna vloga iz leta 1925 beleži rabo nemščine.
+Njeno po predpostavki nespremenjeno bivališče zamenja okraj, ko se premakne
+sintetična meja. To so pogoji preizkusa, ne rekonstrukcija slovenske upravne zgodovine.
 
-- ena proti mnogo: en časopis ima veliko številk;
-- mnogo proti mnogo: veliko oseb sodeluje pri veliko delih;
-- ena proti ena: redkejše in pogosto znak, da bi lahko dve tabeli združili.
+### Model 1: priročna ravna preglednica
 
-Razmerje mnogo proti mnogo zahteva povezovalno tabelo. Namesto stolpcev `avtor_1`, `avtor_2` in `avtor_3` uporabimo tabelo `sodelovanje` s polji `person_id`, `work_id`, vloga, vrstni red in dokaz. Razmerje samo lahko tako nosi zgodovinsko pomembne podatke.
+| Oseba | Ime | Status | Jezik | Okraj |
+| --- | --- | --- | --- | --- |
+| SYN-A | Ana Kovač | šivilja | slovenščina | Zahod |
 
-## Normalizacija brez dogmatizma
+Za ozko določen prikaz je vrstica pregledna, za glavni raziskovalni zapis pa je
+nevarna. Prikrije zgodnejšo obliko imena, upravno kategorijo, nemško vlogo in obdobje
+ozemeljske pripadnosti. Če vrednosti v celicah razširimo z vejicami, dobimo nazaj
+nekaj besedila, ne pa razmerij: kateri jezik je bil uporabljen kdaj in kdo je
+pripisal posamezni status? Imena stolpcev sama ne odpravijo te izgube.
 
-Normalizacija zmanjša podvajanje in protislovne popravke. Uporabno osnovno pravilo je: ena celica, ena vrednost; ena tabela, ena vrsta entitete; vsako dejstvo shranimo tam, kamor sodi.
+Ravni model omogoča hitro razvrščanje in berljiv učni list. Spremembe zakrije,
+nesoglasje med viri pa podraži: raziskovalec mora za vsako štetje znova prebrati
+opombe. Preglednica ni neustrezna zato, ker je preglednica. Neustrezna je takrat,
+ko opredelitev ene vrstice ne more izraziti zastavljenega raziskovalnega vprašanja.
 
-Naslova založnika ne ponavljajte v vsaki vrstici izdaje. Založnika shranite enkrat in izdaje povežite z njim. Leta rojstva osebe ne hranite hkrati v tabeli oseb in v vsakem zapisu avtorstva.
+### Model 2: normalizirane entitete in razmerja
 
-Humanistični podatki vendar niso vedno urejeni. Negotovega datuma »med 1848 in 1851« ne smemo prisiliti v eno natančno leto. Ločeno modelirajte najzgodnejši in najpoznejši datum, prikazno besedilo in stopnjo gotovosti ali ustvarite tabelo datumskih trditev z dokazi.
+Ločite osebe, imena, kraje, dokumente in sodelovanja. Imensko različico shranite
+za posamezno pojavitev ali poimenovalni kontekst ter jo povežite z osebo in virom.
+Tako odpravite ponavljajoče se stolpce za osebe in lahko poiščete vse dokumente,
+povezane z A. Tudi normaliziran model je lahko časoven: normalizacija ne prepoveduje
+datumov ali nasprotujočih si trditev. Omejitev v tej primerjavi je zavestno preprosta
+shema, ki razmerja še vedno obravnava kot dejstva brez dodatnih opredelitev.
 
-## Provenienca in trditve
-
-Vrednost je lahko prepisana iz arhiva, sklep urednika, uvožena iz Wikidate ali predlog študenta. Provenienco hranite na ravni, ki jo zahteva trditev.
-
-Pri spornih podatkih modelirajte **trditve**, namesto da bi eno vrednost prepisali:
-
-| assertion_id | subject | property | value | source | certainty | contributor |
-|---:|---|---|---|---|---|---|
-| 81 | person_1042 | birth_place | place_17 | archive_A_52 | verjetno | dp |
-
-Tako nesoglasje postane poizvedljivo, zgodovina uredniških odločitev pa ostane ohranjena.
-
-## SQL kot raziskovalni jezik
-
-Structured Query Language izraža vprašanja o tabelah. Nekaj osnovnih vzorcev zadostuje za veliko nalog:
-
-```sql
-SELECT title, year
-FROM work
-WHERE year BETWEEN 1900 AND 1918
-ORDER BY year;
+```text
+person 1 -- mnogo name_attestation mnogo -- 1 document
+person 1 -- mnogo participation    mnogo -- 1 document
+person 1 -- mnogo residence        mnogo -- 1 place
 ```
 
-Povezovanje sledi razmerjem:
+Ta predstavitev olajša vzdrževanje identifikatorjev in preprečevanje nedoslednih
+popravkov. Sama po sebi pa ne loči uredniške identifikacije od samoopisa v viru.
+Provenienca, pripeta zgolj celotnemu dokumentu, ni dovolj, kadar dve trditvi v istem
+dokumentu dobita različni uredniški oceni. Razmislite, na kateri ravni potrebujete
+avtorja odločitve, datum pregleda in utemeljitev povezave.
 
-```sql
-SELECT p.preferred_name, COUNT(*) AS works
-FROM person AS p
-JOIN contribution AS c ON c.person_id = p.person_id
-WHERE c.role = 'author'
-GROUP BY p.person_id
-ORDER BY works DESC;
+### Model 3: trditve in dogodki
+
+Izvedljiva shema loči `entity`, `source` in `assertion`. Vsaka trditev vsebuje
+subjekt, predikat, besedilno vrednost ali povezano entiteto, kontekst, zgodovinski
+interval, vrsto intervala, čas zapisa, izvorno besedilo, opredeljeno razmerje do
+vira (`exact`, `translation` ali `summary`) in stopnjo gotovosti. Popis
+desetih virov D1–D6, N1, N2, BORDER in NAMES kaže na označene odseke berljivega
+dosjeja. Ločena tabela sodelovanja hrani dokumentne vloge za poznejše grafe
+dogodkov. Koda uporablja enake identifikatorje v obeh jezikovnih izdajah.
+
+```text
+entity 1 -- mnogo assertion mnogo -- 1 source
+entity 1 -- mnogo assertion.object_id      (trditve o entitetah)
+assertion 1 -- nič-ali-ena assertion.supersedes (uredniški popravek)
 ```
 
-Poizvedbe shranjujte kot projektne datoteke in jih ne sestavljajte ročno za vsako objavo. Poizvedba je del analitične metode.
+| Model | Kaj omogoči | Kaj zakrije ali podraži |
+| --- | --- | --- |
+| Ravna tabela za prikaz | Berljiv posnetek; preprosto razvrščanje | Časovno in izvorno opredeljeno povezovanje |
+| Normalizirane entitete in razmerja | Ponovno uporabo istih identifikatorjev; poizvedbe o razmerjih mnogo proti mnogo | Nesoglasje, če razmerja niso dodatno opredeljena |
+| Opredeljene trditve in dogodki | Časovne poizvedbe; pretekle različice uredniškega zapisa | Več povezovanj; zahtevnejšo interpretacijo in vzdrževanje besednjakov |
 
-## Celovitost in preverjanje
+Tretji model ohrani več razlik, vendar brez povezave s faksimilom in prozo izgubi
+postavitev, ton in zaporedje dokumenta. Splošni stolpec za predikat oteži tudi
+nekatere omejitve tipov, ki bi jih v specializiranih tabelah lažje uveljavili.
+To ceno sprejmite zavestno. Tabela trditev ni univerzalno nadomestilo za premišljeno
+modeliranje posameznega raziskovalnega področja in njegovega gradiva.
 
-Podatkovne zbirke lahko uveljavijo koristne omejitve:
+## Imena, status in jezik kot kontekstualna razmerja
 
-- ključi morajo biti enolični;
-- obvezna polja ne smejo biti prazna;
-- tuji ključi morajo kazati na obstoječe zapise;
-- kategorije lahko omejimo na nadzorovane vrednosti;
-- datume in številske razpone lahko preverimo.
+**Večjezična različica imena** naj ohrani izvorni zapis, jezik, kadar je znan,
+pisavo, kontekst in datum izpričanosti. Upravni zapis ne sme samodejno nadomestiti
+podpisa. Prednostno ime za prikaz je uredniško pravilo vmesnika ali izdaje, ne
+brezčasna lastnost osebe. Normalizacijo za iskanje hranite ločeno: odstranjevanje
+diakritičnih znamenj pomaga najti kandidate, ne upraviči pa združitve identitet
+ali tihega posega v citirano besedilo.
 
-Omejitve preprečujejo naključno nedoslednost, ne morejo pa odločiti, ali je zgodovinska trditev pravilna. Preverjanje zahteva tudi pregled virov, odkrivanje dvojnikov, normativno kontrolo imen in dokumentirano uredniško politiko.
+Družbeni, pravni in institucionalni status zahtevajo različne predikate ali
+opredeljen besednjak. Poklic, državljanstvo, članstvo in institucionalna kategorija
+upravičenosti niso zamenljivi. V dosjeju se oznaki služkinja in šivilja časovno
+prekrivata. Razlog je lahko sočasno delo, samopredstavitev ali razlika med sistemi
+razvrščanja. Zbirka razliko izpiše, ne more pa je razsoditi. Oznaka `certain`
+pomeni, da sintetični dokument jasno vsebuje navedbo; ne pomeni, da navedba
+izčrpno in nevtralno opiše človeka.
 
-## SQLite za manjše humanistične projekte
+Prav tako ločite **znanje jezika**, **rabo jezika** in **jezik, ki ga pripiše
+ustanova**. Nemška kategorija v registru, slovensko pismo in navedba o branju
+nemščine lahko veljajo hkrati. Nobena ne določi maternega jezika, nacionalne
+identitete ali izključnega znanja. Institucionalno vlogo je lahko prevedel ali
+napisal posrednik; jezik dokumenta sam zato ne dokazuje osebnega avtorstva.
+Učni dosje rabo določi kot pogoj preizkusa, pravi projekt pa bi potreboval
+preverljivo podlago o nastanku vsakega dokumenta.
 
-SQLite celotno relacijsko zbirko shrani v eni prenosljivi datoteki in podpira običajni SQL brez strežnika. Je odličen korak naprej od preglednic za poučevanje, prototipe in številne raziskovalne zbirke.
+Spreminjajo se tudi besednjaki vlog. Član, poslanec ali samostojni delavec ima
+lahko v različnih obdobjih in ustanovah različne pogoje pripadnosti. Ohranite
+izvorno izrazje in verzionirajte preslikavo v analitične kategorije. Povezovalni
+slovar lahko označi delno ustreznost ali odsotnost ustreznice. Zgodovinskih oznak
+ne silite v najbližji sodobni poklic samo zato, da bo graf brez praznih kategorij.
 
-Ob njej hranite:
+## Zgodovinski čas in čas zapisa
 
-- datoteko sheme, ki zbirko ponovno ustvari;
-- uvozne skripte ali dokumentirane postopke;
-- nadzorovane slovarje;
-- podatkovni slovar in definicije polj;
-- shranjene analitične poizvedbe;
-- verzionirane izvoze v odprtih formatih, kot je CSV.
+**Čas veljavnosti** se nanaša na obdobje, ki ga trditev opisuje. **Čas zapisa oziroma
+spremembe** pove, kdaj je trditev vstopila v zbirko ali se v njej spremenila.
+Današnji popravek imena iz leta 1910 spremeni uredniški zapis, ne zgodovinskega
+imena na današnji dan. Izhodišče za to razlikovanje pojasnita
+[Snodgrass in Ahn 1986](https://doi.org/10.1109/MC.1986.1663327).
 
-Datoteka zbirke je priročna; dokumentiran postopek jo naredi ponovljivo.
+Dodatek uporablja polodprte intervale `[start,end)`: leto 1910 je predstavljeno
+od `1910-01-01` do `1911-01-01`, pri čemer zadnji datum ni vključen. Tako mejnega
+dneva ne štejemo dvakrat v zaporednih obdobjih. Datumi ISO v vaji so gregorijanska
+učna konvencija. V pravem projektu zabeležite koledar, pravilo pretvorbe in izvorni
+datumski izraz; ne predpostavite, da so vsi viri uporabljali isti koledar.
 
-## Razdelan primer: omrežje korespondence
+**Časovno okno dogodka** ni trajanje. Izraz nekega dne v februarju pomeni en
+dogodek znotraj razpona, zaposlena ves februar pa stanje skozi razpon. Poizvedba
+za dan znotraj prvega intervala najde možni dogodek, ne dokaza, da se je zgodil
+prav takrat. Približen datum zahteva izrecno pravilo in ohranjen izvorni izraz.
+Neznanih meja ne nadomeščajte z izmišljenimi zgodnjimi ali poznimi datumi.
+Izvedljivi vzorec namenoma uporablja omejene intervale; produkcijska shema mora
+posebej obravnavati odprte, neznane in sporne časovne meje.
 
-Za raziskavo dopisovanja ustvarimo tabele za osebe, pisma, kraje in sodelovanje. Pismo ima datum, arhivski identifikator in morda negotovost. Tabela sodelovanja osebo poveže s pismom v vlogi pošiljatelja, prejemnika, omenjene osebe ali urednika. Povezava s krajem lahko določi izvor, cilj ali omenjeni kraj.
+Pri uredniškem popravku dodajte novo trditev s povezavo `supersedes`. Vzorec ohrani
+napačni prepis Ana Kovać in popravljeno obliko Ana Kovač. Popravek je dovoljen le,
+če ohrani isti vir, subjekt, predikat, kontekst, interval
+veljavnosti in vrsto intervala; ena trditev ima lahko največ enega neposrednega
+naslednika. Ozko pravilo predstavlja zamenjavo iste uredniške trditve, ne spremembe
+zgodovinskega obdobja. Poklicni oznaki pa nista
+popravek druga druge, zato nobena ne nadomesti druge. Dnevnik z dodajanjem
+novih zapisov omogoča stare poglede, vendar mora za zaupanja vreden časovni žig
+skrbeti aplikacija. Ročno vneseni datum ni neodvisno zavarovana revizijska sled
+transakcij; zbirka sama ne potrdi, kdo ga je vnesel.
 
-Struktura podpira vprašanja o izmenjavi, mobilnosti in posredovanju, ne da bi vsa razmerja skrčila na eno samo povezavo. Jasno tudi loči razmerja iz metapodatkov dokumenta od tistih, ki so bila izluščena iz besedila pisma.
+## Poizvedovanje za določen datum
+
+SQL naredi izbirna pravila izrecna. Shranjena poizvedba `queries/at-date.sql`
+sprejme subjekt, zgodovinski datum in čas uredniškega posnetka. Osrednji pogoj je:
+
+```sql
+a.valid_start <= :as_of AND :as_of < a.valid_end
+AND a.recorded_at <= :known_at
+```
+
+Izloči tudi trditve, ki so bile do izbranega uredniškega trenutka že nadomeščene.
+Branje samo trenutnega pogleda bi bilo napačno pri vprašanju, kaj je zbirka
+trdila prejšnji teden. Python posreduje parametre; SQL ne sestavljajte z neposrednim
+lepljenjem nepreverjenega imena v ukaz. Skupaj z rezultatom shranite poizvedbo
+in različico vhodnih podatkov, da bo izbor mogoče ponoviti.
+
+Dodatek ustvari trinajst vrstic trditev, dvanajst v trenutnem pogledu in en par
+potencialno nasprotujočih si statusov, `SYN-A04` / `SYN-A05`. Zgodnejši uredniški
+posnetek za leto 1910 pokaže Ana Kovać, popravljeni pa Ana Kovač. Oba še vedno
+vsebujeta poklicni oznaki. Poizvedba za leto 1925 pokaže poznejši status in dogodek
+rabe nemščine; pisma iz leta 1910 ne spremeni v trajno jezikovno oznako osebe.
+
+Tudi štetje zahteva natančno enoto. Povezovanje ene osebe s tremi imenskimi
+izpričbami in dvema vlogama lahko vrne šest vrstic. `COUNT(*)` tedaj šteje
+kombinacije povezovanja, ne šestih oseb. Pred uporabo `COUNT(DISTINCT person_id)`
+preglejte povezane vrstice. Z levim povezovanjem ohranite entitete brez dokaza
+za izbrano razmerje. Nič opažanj razlikujte od opažene ničle: prvo je lahko
+posledica vrzeli v dokumentaciji, drugo pa trditev določenega vira.
+
+## Meje, hierarhije in razreševanje entitet
+
+Ozemeljsko pripadnost shranite kot razmerje med krajem in upravno enoto, opredeljeno
+s časom in virom. V sintetični vaji nespremenjeno bivališče pri x=550 najprej leži
+vzhodno od meje pri x=500, pozneje pa zahodno od meje pri x=600. Gre za spremembo
+pristojnosti brez selitve. Tudi resnični ljubljanski kontekst sega čez razpad
+Avstro-Ogrske leta 1918, toda izmišljene okrajne črte niso dokaz za ta prehod.
+[Zgodovina Mestne občine Ljubljana](https://www.ljubljana.si/sl/mestna-obcina/o-ljubljani/zgodovina-ljubljane/nemirno-20-stoletje).
+
+Upravna pripadnost je lahko hierarhična: župnija znotraj okraja znotraj dežele.
+Rekurzivna poizvedba sledi nadrejenim razmerjem, vendar mora vsaka povezava veljati
+za izbrano obdobje. Današnja hierarhija ni bližnjica do zgodovinske. Preverjajte
+cikle in več nadrejenih enot; prekrivanje civilnih in cerkvenih pristojnosti je
+lahko pomembna lastnost gradiva, ne napaka za izbris.
+[Rekurzivne poizvedbe SQLite](https://www.sqlite.org/lang_with.html).
+
+**Razreševanje entitet** presoja, kateri zapisi se nanašajo na isto entiteto.
+Namesto združevanja po podobnosti imen ohranite kandidate, dokaze in odločitve.
+Predlagano združitev preverite z datumi, kraji, vlogami in neodvisnostjo virov.
+Napačna združitev poveže dve biografiji ter prenese napako v zemljevide in omrežja.
+Zavrnjena povezava Meker/Meeker iz referenčne plasti paketa arhivskih zapletov je
+uporaben opomin, da
+podobnost zapisa ni dovolj za identifikacijo. Tudi nezdružitev naj ima utemeljitev.
+
+## Preverjanje, občutljivost in izgube pri izvozu
+
+Normalizacija zmanjša anomalije pri popravljanju; namerna denormalizacija lahko
+ustvari dokumentiran analitični posnetek. Izvedite jo s shranjeno poizvedbo, ki
+navede datum, pravilo izbire in različico vhodov. Normalizirane tabele oziroma
+raven trditev naj ostanejo izhodišče. Sicer ročno spremenjeni izvoz in zbirka
+postopoma postaneta dve tekmovalni izdaji brez pojasnjene uredniške odgovornosti.
+
+Omejitve zaznajo podvojene ključe, manjkajoče sklice in obrnjene intervale.
+Pri vsaki povezavi s SQLite pred uvozom vključite tuje ključe in preverite,
+ali nastavitev učinkuje. Nato preverite celovitost zbirke in sklice tujih ključev.
+Ti testi ne preverijo resničnosti napisa pod fotografijo ali ustreznosti kategorije.
+[Dokumentacija tujih ključev SQLite](https://www.sqlite.org/foreignkeys.html).
+
+Za analizo občutljivosti primerjajte vse prekrivajoče se trditve o statusu s
+pravilom, ki izbere samo občinski register. Za 1910-06-15 prvo pravilo vrne dve
+oznaki, drugo eno. Število oseb ostane ena. Poklicna porazdelitev se spremeni
+zaradi drugačnega pravila izbire dokazov, ne zato, ker bi oseba zamenjala delo.
+Objavite oba rezultata in identifikator izločene trditve. Poizvedbo o ozemeljski
+pripadnosti ponovite tik pred 1920-01-01 in na ta dan, da preverite meji intervalov.
+
+Ravni CSV ne more uveljavljati tujih ključev, ohraniti pogledov zbirke ali vseh
+razmerij mnogo proti mnogo spraviti v eno osebno vrstico brez podvajanja oziroma
+združevanja. Izvozite povezane tabele s stabilnimi identifikatorji, slovarjem in
+poizvedbami. Kjer je pomembno, vključite izvorno besedilo in uredniške časovne žige.
+Ločite prazno, neznano, neuporabljivo in zadržano vrednost. Na majhnem vzorcu
+preverite ponovni uvoz. Dostopna tabela za branje je analitični izdelek, ne
+varnostna kopija brez izgub.
+
+## Hibridno modeliranje
+
+Vsega ni treba zaupati eni predstavitvi. Relacijske tabele hranijo entitete in
+poizvedljive trditve; TEI/XML besedilne različice in uredniško zgradbo; GeoPackage
+časovno opredeljene geometrije; graf pa omogoči raziskovanje razmerij. Faksimili
+in diplomatski prepis ohranijo dokazno gradivo, prozne opombe pa razlike, ki jih
+ni smiselno siliti v nadzorovana polja. Predstavitve povežite s skupnimi identifikatorji
+in verzioniranimi povezavami. Vprašajte se: katere razlike morajo biti poizvedljive,
+katere morajo ostati obnovljive iz gradiva in katere naj se uprejo formalizaciji?
+Isti dosje nadaljujeta poglavji [GIS](gis-spatial-humanities.md) in
+[Omrežja](networks-visualization.md).
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
+    - [Kako modeliram spreminjajoča se imena, statuse in meje v SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/)
     - [Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)
     - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
 
@@ -2872,17 +3059,41 @@ Struktura podpira vprašanja o izmenjavi, mobilnosti in posredovanju, ne da bi v
 
 ## Vaja
 
-Zasnovajte shemo za en projekt: bibliografijo, arhiv ustne zgodovine, literarni korpus, popis kulturne dediščine ali zbirko korespondence. Narišite entitete in razmerja, določite ključe, poiščite eno razmerje mnogo proti mnogo ter pokažite, kako boste zabeležili negotovost in provenienco.
+Uporabite parni [postopek za trditve v SQLite](../workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite.md).
+Prenesite dodatek, preberite pregled pravic in v razširjeni mapi zaženite
+`python run.py --output output`. Pri ponovitvi izberite novo izhodno mapo.
+Datoteke `assertions-1910_early.csv`, `assertions-1910_corrected.csv` in
+`status-conflicts.csv` primerjajte z dosjejem. Ločeno pojasnite popravek zapisa
+in nesoglasje, ki po popravku ostaja. Pri tem izrecno navedite oba časa poizvedbe.
+
+Oddajte skico sheme, obe štetji statusov, tabelo rezultatov s sklici na vire in
+kratko pojasnilo izvoznih izgub. Ročno sledite vsakemu rezultatu za A do dokumenta
+ali opombe. V ločeni delovni kopiji kot negativni preizkus poskusite vnesti
+osiroteli tuji ključ. Ne spreminjajte ohranjenega vira in izmišljenih identitet
+ne objavljajte kot zgodovinske ugotovitve. Tudi po uspešnih samodejnih testih
+ostajata potrebna človeški metodološki in slovenski jezikovni pregled.
 
 ## Refleksija
 
-- Katere kategorije v vaši shemi so analitične interpretacije in ne dejstva iz vira?
-- Katere informacije bi izgubili z izvozom zbirke v eno samo ravno tabelo?
-- Katera poizvedba bi razkrila največjo slabost pokritosti vaših podatkov?
+- Katera navidezna protislovja izvirajo iz različnih kontekstov in ne napačnih navedb?
+- Kaj vaša poizvedba pomeni za dogodek z negotovim datumom?
+- Katera oseba izgine, če levo povezovanje zamenjate z notranjim?
+- Ali lahko bralec samo iz izvoza razbere pravilo izbire dokazov?
 
 ## Povzetek
 
-Relacijska podatkovna zbirka je formalen in popravljiv model entitet in razmerij. Ključi in normalizirane tabele zmanjšajo dvoumnost, povezovalne tabele izrazijo razmerja mnogo proti mnogo, SQL pa analitične korake naredi izrecne. Humanistična zbirka postane zaupanja vredna, ko ohranja tudi negotovost, provenienco, sporne trditve, uredniška pravila in ponovno ustvarljivo strukturo.
+Relacijska zbirka omogoči poizvedovanje po izbranih razlikah, trditev pa ne spremeni
+v resnico. Stabilni identifikatorji, kontekstualna imena, opredeljena razmerja,
+zgodovinski intervali in uredniška zgodovina pomagajo ohraniti spremembe in nesoglasja.
+Prepričljiv argument vključuje poizvedbo, sled do vira, primerjavo občutljivosti
+in izrecno pojasnilo, kaj ostaja zunaj sheme.
+
+## Nadaljnje branje
+
+- Codd, E. F. 1970. »A Relational Model of Data for Large Shared Data Banks.« *Communications of the ACM* 13(6): 377–387. [DOI](https://doi.org/10.1145/362384.362685). Relacijska organizacija in skladnost.
+- Bradley, John, in Harold Short. 2005. »Texts into Databases: The Evolving Field of New-style Prosopography.« *Literary and Linguistic Computing* 20(Suppl): 3–24. [DOI](https://doi.org/10.1093/llc/fqi022). Trditve, povezane z zgodovinskimi viri.
+- Snodgrass, Richard, in Ilsoo Ahn. 1986. »Temporal Databases.« *Computer* 19(9): 35–42. [DOI](https://doi.org/10.1109/MC.1986.1663327). Različne časovne razsežnosti.
+- SQLite. [Tuji ključi](https://www.sqlite.org/foreignkeys.html), [datumske funkcije](https://www.sqlite.org/lang_datefunc.html) in [WITH oziroma rekurzivne poizvedbe](https://www.sqlite.org/lang_with.html). Operativni viri preverjeni 3. septembra 2026; vzorec uporablja lastno pravilo omejenih intervalov.
 
 ---
 
@@ -2892,109 +3103,154 @@ Relacijska podatkovna zbirka je formalen in popravljiv model entitet in razmerij
 
 Po tem poglavju boste znali:
 
-- razlikovati med omembo kraja, identiteto kraja in koordinato;
-- pojasniti geokodiranje, koordinatne referenčne sisteme, sloje in prostorsko povezovanje;
-- zasnovati tabelo krajev, ki ohranja imena, čas in negotovost;
-- prepoznati, kako digitalizacija, merilo in kartografska zasnova oblikujejo prostorske trditve;
-- zemljevid ovrednotiti kot analitično trditev in ne zgolj ilustracijo.
+- razlikovati med krajem, njegovimi imeni, geometrijami in upravno pripadnostjo;
+- ločiti datum vira, predstavljeni čas in datum prostorske identifikacije;
+- pojasniti koordinatni referenčni sistem, georeferenciranje, merilo in položajno točnost;
+- ohraniti nerazrešene kandidate ter preveriti identifikacijo z neodvisnimi dokazi;
+- preveriti, kako meje, imenovalci, manjkajoči zapisi in prometne predpostavke vplivajo na sklep;
+- objaviti dostopen zemljevid s tabelaričnim prikazom dokazov in omejitev.
 
 ## Pred začetkom
 
-Dnevnik iz 19. stoletja pravi, da je avtor potoval v *Sveti Peter*. Kateri kraj je mišljen? Odgovor je lahko odvisen od jezika, obdobja, poti, upravnih meja in pisčevih navad. Dodelitev koordinat ni pisarniško opravilo, temveč interpretacija, ki potrebuje dokaze.
+Je človek prestopil mejo ali je meja prešla prek njegovega bivališča? Zapis o drugačni upravni pripadnosti prebivalca sam po sebi ne dokazuje selitve. Tudi pismo z navedbo »St. Peter« ne določa ene same nedvoumne točke. Preden odprete zemljevid, zapišite, kateri dokazi bi omogočili razlikovanje med gibanjem, upravno spremembo in napačno uredniško identifikacijo. Katere možnosti lahko ohranjeni viri sploh pomagajo preveriti?
 
-Geokodiranje zgodovinske opise pretvori v modelirane prostorske entitete. S poglavjem [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) dokumentirajte to preoblikovanje, s poglavjem [Infrastrukture digitalne humanistike](critical-infrastructures.md) pa presodite imenike krajev, kartografske storitve in pogoje dostopa, od katerih je odvisno.
+Spremljevalni dosje iz poglavja [Podatkovne zbirke in SQL](databases-sql.md) obravnava imena, status, jezikovno rabo in ozemeljsko pripadnost. Osebe in poskus s spreminjajočo se mejo so izrecno sintetični. Ne gre za rekonstruirane življenjepise oseb iz avtentičnega časopisnega gradiva. [Prenosljivi paket](../../assets/downloads/contested-models-v1.zip) vsebuje tudi pravi načrt Ljubljane in današnje koordinate orientacijskih točk. Te ravni dokazov ločujte: zgodovinski načrt ne potrjuje izmišljene upravne meje.
 
-## Prostor je več kot zemljepisna širina in dolžina
+Besedilo je strojno podprt prevodni osnutek; pred potrditvijo je potreben strokovni pregled slovenskega jezika in terminologije.
 
-Humanistični viri kraje omenjajo z imeni, opisi, ustanovami, pokrajinami, potmi in zamišljenimi geografijami. Kraj lahko spremeni ime, meje, funkcijo in politično pripadnost. Eno ime lahko označuje več lokacij, ena lokacija pa ima več imen.
+## Osrednji argument: koordinate so opredeljene trditve
 
-Ločeno hranite:
+Prostorska humanistika raziskuje, kako lokacija, razdalja, ozemlje in doživljanje kraja prispevajo k interpretaciji. Točkovni zemljevid lahko pokaže razporeditev, ne more pa sam ugotoviti, kaj je kraj pomenil prebivalcu ali zakaj ga je vir imenoval. Zbornik [The Spatial Humanities](https://iupress.org/9780253222176/the-spatial-humanities/) obravnava GIS kot raziskovalno orodje, katerega predstavitve morajo odgovarjati zgodovinskim in interpretativnim vprašanjem, ne pa jih nadomeščati.
 
-- **omembo**, kot se pojavi v viru;
-- **normalizirano ime** za iskanje ali prikaz;
-- **entiteto kraja** s stabilnim projektnim identifikatorjem;
-- **geometrijo**, uporabljeno na zemljevidu;
-- **časovno obdobje**, za katero identifikacija velja;
-- **dokaz in stopnjo gotovosti**, ki povezavo podpirata.
+Praktično načelo je zato naslednje: odlomek, odločitev o identifikaciji, geometrijo in časovno opredelitev ohranite kot ločljive zapise. Upravna oznaka priča o razvrščanju; koordinata je uredniška prostorska predstavitev. Nobena nujno ne izraža samoopredelitve prebivalca. Tudi zgodovinski zemljevid zahteva kritiko vira. Harley v razpravi [»Deconstructing the Map«](https://doi.org/10.3138/E635-7827-1757-9T53) v analizo vključuje družbene in politične okoliščine kartografije. Vprašajte se, kdo je načrt naročil, kaj je naredil vidno in kaj so njegove konvencije izključile.
 
-Ločitev omogoča popravek identifikacije, ne da bi spreminjali prepis vira.
+## Kraj, toponim, geometrija in ozemlje
 
-## Imeniki krajev in geokodiranje
+**Toponim** je zemljepisno ime. **Entiteta kraja** je referent, ki ga projekt obravnava kot istega skozi zapise; tudi njegovo kontinuiteto je včasih treba utemeljiti. **Geometrija** je prostorska predstavitev za določen namen. **Upravna enota** je institucionalno opredeljeno ozemlje; njeno ime, pristojnosti in meja se ne spreminjajo nujno hkrati. **Pot** predstavlja zaporedje ali možen potek gibanja. **Regija** je lahko upravna, okoljska ali opredeljena z vsakdanjo rabo. Zamišljene domovine ali spominske soseske morda ni mogoče upravičeno zapreti v poligon.
 
-**Imenik krajev** je strukturiran vir z identifikatorji, imeni, tipi, koordinatami ter pogosto zgodovinskimi ali upravnimi podatki. **Geokodiranje** naslov ali krajevni niz poveže s prostorsko lokacijo.
+Za dosje vodite tabelo krajev, tabelo trditev o imenih in časovno omejeno ozemeljsko pripadnost. Ko sodobni normativni vir določi prednostno ime, ne preimenujte vseh zgodovinskih pojavitev. Izvirni zapis »St. Peter« ohranite poleg kandidatov `SYN-L1` in `SYN-L2`. Oba sta izmišljena za vajo; ne dokazujeta, da sta konkretna resnična kraja nosila to ime.
 
-Komercialni in sodobni geokodirniki so prilagojeni današnjim naslovom. Zgodovinska imena lahko tiho povežejo s sodobnimi središči, izberejo najbolj naseljeni kraj ali odpovejo pri narečnih in večjezičnih oblikah. Zabeležite storitev, datum, poizvedbeni niz, vrnjeni identifikator, oceno in ročno odločitev. Kjer licenca dopušča, rezultate shranite, da projekt ni odvisen od spremenljivega zunanjega odziva.
+Točka lahko zadošča za približen prikaz soseske. Tloris stavbe podpira drugačno vprašanje. Težišče regije ne pokaže, kje so živeli njeni prebivalci. Pri vsaki geometriji utemeljite ustreznost in navedite, katerih sklepov ne dovoljuje.
 
-## Geometrija in negotovost
+## Imeniki zemljepisnih imen brez samodejne gotovosti
 
-Točka ni vedno prava predstavitev. Zgodovinska pokrajina lahko zahteva poligon, potovanje črto, negotova lokacija pa več kandidatov ali približno območje.
+Zgodovinski imeniki zemljepisnih imen povezujejo imena, identifikatorje in opise v različnih časovnih ter jezikovnih okoliščinah. [Southall, Mostern in Berman](https://doi.org/10.3366/ijhac.2011.0028) pojasnjujejo, zakaj zgodovinski imenik potrebuje več kot seznam koordinat. Normativni identifikator pomaga razlikovati zapise, vendar ne razreši vsakega zgodovinskega vprašanja istovetnosti.
 
-Uporabna polja so:
+Pri poizvedbi shranite izvirno iskalno obliko, jezik, datum vira, uporabljeni imenik, različico ali datum dostopa, vrnjeni identifikator, alternative in pregledovalčevo odločitev. Preizkusite več imenskih oblik. Preverite sosednje kraje, institucionalno okolje in sočasni opis. Ocena storitve lahko meri podobnost nizov ali vrstni red zadetkov; brez umerjene validacijske raziskave je ne preimenujte v »90-odstotno zgodovinsko pravilnost«.
 
-| mention_id | place_id | geometry_type | certainty | start_date | end_date | source |
-|---|---|---|---|---|---|---|
-| m18 | p204 | point | verjetno | 1849 | 1851 | diary_7_f12 |
+Ohranite zavrnjene in nerazrešene kandidate. Zabeležite razlog zavrnitve, namesto da kandidata neopazno izbrišete. Ime, ki ga sodobni imenik ne pozna, lahko označuje izginulo naselje, neuradno četrt, preimenovano ulico ali napako v prepisu. Uspešen zadetek pa lahko kaže na oddaljen današnji kraj z enakim imenom. Preglejte tudi vzorec navidezno zanesljivih ujemanj, ne samo neuspešnih poizvedb.
 
-Ne izmišljajte si natančnosti. Koordinata s šestimi decimalkami namiguje na metrsko gotovost, čeprav vir morda določa le dolino. Negotovost predstavite z razponi, stopnjami gotovosti, več kandidati, pasovi ali opisnimi opombami ter konvencijo pojasnite v legendi.
+## Časovno opredeljen model kraja
 
-## Koordinatni referenčni sistemi
+Vir, identifikacija kraja in prostorski pripis ozemlju odgovarjajo na različna vprašanja:
 
-Koordinate razlagamo znotraj **koordinatnega referenčnega sistema** (CRS). Geografske koordinate, kot je WGS 84, uporabljajo zemljepisno širino in dolžino; projicirani sistemi zemeljsko površje preslikajo na ravnino za določena območja in meritve.
+| Zapis | Bližnjica s sodobno točko | Opredeljena alternativa |
+|---|---|---|
+| »St. Peter« v `SYN-D2` | prvi zadetek v iskalniku | ohranite `SYN-L1` in `SYN-L2`; odločitev ostaja odprta |
+| Bivališče A v `SYN-L1` | ena koordinata in današnja država | datirana trditev o bivališču, geometrija in pripadnost |
+| Poznejša upravna oznaka | sklep o selitvi | primerjava stalnosti bivališča z različicami meje |
+| Načrt, izdan leta 1910 | vse pojave datirajte v leto 1910 | ločite izdajo od predstavljenega časa in izmere |
 
-Zemljevid je lahko videti verjeten tudi ob neujemajočih se sistemih slojev. Za vsak prostorski nabor zabeležite CRS. Pred merjenjem razdalje ali površine sloje zavestno pretvorite in izberite projekcijo, primerno obsegu območja in analitičnemu cilju.
+Zgodovinski vir lahko opisuje starejše potovanje, ponatisne starejši načrt ali predlaga prihodnjo cesto. Datum objave hranite ločeno od predstavljenega časa ter podatkov o izmeri in popravkih, kadar so znani. Neznani datumi naj ostanejo neznani. Ne ustvarjajte navidezno natančnega intervala samo zato, ker časovno filtriranje v programu zahteva dve datumski polji.
 
-## Sloji in prostorsko povezovanje
+Pri nerazrešeni identifikaciji sta dve vrstici s pojasnilom lahko ustreznejši rezultat kot dve prepričljivo izrisani bivališči. Število kandidatov ni število dejansko naseljenih krajev. Paket hrani časovno okno omembe ločeno od veljavnosti meje in imena. Primerjalno obdobje je dejanski polodprti presek ene različice meje in ene različice imena ter je izrecno označeno kot zgodovina možnega kraja, ne trajanje omembe. Zato sprememba imena leta 1917 znotraj iste različice meje ne izgine. To razliko pojasnite tudi bralcu, ki vidi samo izvoženo tabelo.
 
-GIS informacije organizira v sloje: kraje, meje, ceste, rabo tal, dogodke, dokumente ali demografske kazalnike. **Prostorsko povezovanje** zapise poveže po razmerjih, kot so znotraj, seka ali najbližje.
+## Koordinatni referenčni sistemi in transformacije
 
-Tako lahko vprašamo:
+Koordinate razlagamo znotraj **koordinatnega referenčnega sistema**, ki opredeli tudi enote in referenčni okvir položaja. Zemljepisna dolžina in širina sta kotni koordinati. Projicirane koordinate omogočajo ravninske izračune na določenem območju uporabe. Površina, izračunana v kvadratnih stopinjah, ni površina v kvadratnih metrih.
 
-- Katera pisma so nastala znotraj zgodovinske meje?
-- Katera arheološka najdišča ležijo blizu rimske ceste?
-- Katera narečna opazovanja sodijo v današnje in zgodovinske upravne regije?
+Dodelitev sistema pove, kaj obstoječa števila pomenijo; transformacija izračuna druga števila za drug sistem. Če ti operaciji zamenjate, se lahko sloj premakne, njegova oblika pa ostane prepričljiva. Pred razlago prekrivanja preverite razpone koordinat, vrstni red osi in enote. Paket predpomnjene koordinate iz zemljepisne dolžine in širine pretvori v EPSG:3794, pri čemer izrecno določi dolžino kot prvo os. Geodetska uprava opisuje državni referenčni okvir in poimenovanje [D96-17/TM](https://www.e-prostor.gov.si/podrocja/drzavni-koordinatni-sistem/horizontalna-sestavina/); programska oprema lahko uporablja tudi oznako D96/TM.
 
-Razmerje je smiselno le toliko, kolikor so smiselne geometrije in časovna uskladitev. Povezava dogodka iz leta 1850 z občinsko mejo iz leta 2026 lahko odgovori na upravno priročnost, ne na zgodovinsko vprašanje.
+Zabeležite izvorni in ciljni sistem, izvedbo transformacije ter potrebne transformacijske mreže. Sprotna projekcija za prikaz ne spremeni shranjenih izvornih koordinat. Za programske korake uporabite dokumentacijo [QGIS 3.40 o projekcijah](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_projections/working_with_projections.html). Dokumentirana različica ni trditev o najnovejši izdaji.
 
-## Zemljevidi so argumenti
+## Merilo, ločljivost in položajna točnost
 
-Vsak zemljevid izbere obseg, merilo, projekcijo, razrede, simbole, oznake in izpuste. Točke lahko prikrijejo gostoto, veliki poligoni vizualno prevladajo, razredi barv lahko napihnejo prag, manjkajoči podatki pa so videti kot odsotnost.
+Merilo povezuje razdaljo na zemljevidu z razdaljo na terenu. Ločljivost opisuje najmanjšo predstavljeno ali vzorčeno enoto. Položajna točnost se nanaša na ujemanje z utemeljeno referenčno lokacijo. Natančnost zapisa opisuje drobnost številskega izraza. Lastnosti so povezane, vendar niso zamenljive.
 
-Znanstveni zemljevid naj navede:
+Avtentični načrt v paketu je Kochova *Ljubljana* iz leta 1910 v merilu 1 : 8.200, kakor ga opisuje [dLib.si](https://dlib.si/details/URN:NBN:SI:IMG-132KCU7C). Pri tem nominalnem merilu milimeter na tisku pomeni 8,2 metra na terenu. Znak za stavbo je lahko kljub temu posplošen ali premaknjen. Višja ločljivost skena ne povrne podrobnosti, ki jih kartograf ni zapisal.
 
-- vir podatkov in pokritost;
-- enoto analize;
-- časovni obseg;
-- prostorsko ločljivost in negotovost;
-- pravila pretvorbe in razvrščanja;
-- manjkajoče ali izločene zapise;
-- ali je zemljevid raziskovalen, opisen ali inferenčen.
+Prav tako šest decimalnih mest pri današnji orientacijski točki ne pomeni geodetske točnosti. Paket ločeno beleži natančnost, navedeno v Wikidata, in ročno izbrane slikovne točke. Nekatere koordinate označujejo objekt na splošno, ne določljivega vogala. Če takšno neskladje prezrete, primerjate različne prostorske referente, ne pa napake pri istem položaju.
 
-Toplotnega zemljevida ne uporabite samo zato, ker je dramatičen. Ocena gostote uvede širino pasu in robne odločitve, ki jih je treba razložiti.
+## Georeferenciranje kot preverljiv postopek
 
-## Besedila in prostorsko izluščanje
+Georeferenciranje oceni transformacijo med slikovnimi in referenčnimi koordinatami. Izberite kontrolne točke, ki v obeh virih označujejo isti fizični element, ter jih razporedite po celotnem območju. Izračuna transformacije ne naslonite na eno samo ulico ali tesno skupino objektov. Vogal je lahko bolj ponovljiv kot približno središče, če se stavba medtem ni spremenila.
 
-Za kartiranje krajev v besedilih postopek navadno združi razpoznavanje imenskih entitet, ročni pregled, razreševanje identitet in geokodiranje. Frekvenca omemb ni prisotnost, bivanje ali pomembnost. Časopis lahko pogosto omenja prestolnico, ker je politično središče; potopis lahko poimenuje le nenavadne postanke, domače kraje pa izpusti.
+Afina transformacija omogoča premik, zasuk, spremembo merila in strig. Ne odpravi vsake lokalne deformacije. Prožnejša transformacija lahko zmanjša odstopanja pri kontrolnih točkah, hkrati pa povzroči neutemeljeno ukrivljanje med njimi. Izberite jo glede na predpostavke in neodvisno preverjanje, ne samo glede na privlačen rezultat.
 
-Vsako točko povežite z odlomkom in dokumentom. Bralec lahko tako preveri, ali je kraj dobeseden, metaforičen, poročan, zamišljen ali negotov.
+Nekaj točk izločite iz izračuna in jih namenite neodvisnemu preverjanju. Odstopanje je razlika med napovedanim in referenčnim položajem. Koren povprečne kvadratne napake (RMSE) povzema razdalje, vendar je njegova razlaga odvisna od enot, kakovosti in razporeditve točk. [Dokumentacija georeferencerja QGIS](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/georeferencer.html) pojasni transformacije in obravnavo kontrolnih točk; program ne potrjuje njihove zgodovinske ustreznosti.
 
-## Razdelan primer: literarna mobilnost
+## Izdelani primer: neuspešno preverjanje poravnave
 
-Predpostavimo, da raziskujemo gibanje v romanu in njegovem zgodovinskem kontekstu.
+Paket vsebuje sken dLib z oznako javne domene, šest prvih ročnih izbir orientacijskih točk, predpomnjene današnje koordinate in ponovljiv afini izračun. Štiri točke določajo transformacijo, železniška postaja in stolnica pa sta izločeni za preverjanje. Gre za namenoma ohranjen pilot, ne za potrjene geodetske kontrolne točke. Središča objektov in slikovne izbire zahtevajo ročni pregled.
 
-1. Določimo, ali je enota omemba, prizor, odsek poti ali prisotnost literarnega lika.
-2. Izluščimo možne krajevne omembe in ohranimo identifikatorje odlomkov.
-3. Imena razrešimo z obdobju primernimi imeniki in strokovnimi viri.
-4. Dodelimo geometrijo in gotovost, ne da bi prisilno razrešili dvoumne primere.
-5. Ločimo pripovedovane, spominjane, zamišljene in zgolj omenjene kraje.
-6. Poti zgradimo le, kjer besedilo podpira zaporedje in gibanje.
-7. Literarno geografijo previdno primerjamo z zgodovinskim prometom ali mejami.
-8. Objavimo zemljevid s filtri, izvornimi odlomki in legendo negotovosti.
-9. Odsotnosti razlagamo kot možne pripovedne izbire in ne samodejen dokaz nepomembnosti.
+| Preverjanje | Rezultat v metrih | Razlaga |
+|---|---:|---|
+| RMSE štirih uporabljenih kontrolnih točk | 15,231 | opisuje le prileganje pri izbranih kontrolah |
+| RMSE dveh neodvisnih točk | 220,063 | ne podpira trditve o približno 15-metrski točnosti |
+| Izločitev zahodne kontrolne točke in naknadno preverjanje | 1.090,241 | razkrije šibko prostorsko oporo in ekstrapolacijo |
+| Samostojno preverjanje stolnice | 142,481 | ponovno preverite slikovni element in referent koordinate |
+
+Rezultate lahko ponovite brez QGIS. Povezani [postopek georeferenciranja](../workflows/mapping/georeference-and-check-a-historical-map-in-qgis.md) dodaja navodila za grafični vmesnik, shranjevanje transformacije in primerjavo s sodobnim slojem. Postopek v vmesniku še potrebuje dokumentiran pregled v QGIS. Številski pilot ne pomeni, da je bil dobljeni raster tudi vizualno potrjen.
+
+Slabe kontrolne točke ne izbrišite samo zato, da izboljšate oceno. Ponovno odprite sliko in referenčni opis ter zabeležite, ali je bila točka napačno prepoznana, premaknjena, posplošena ali premalo natančno določena. Popravljeni poskus shranite ločeno. Majhno odstopanje pri prileganju in veliko pri neodvisnem preverjanju skupaj koristno opišeta meje modela.
+
+## Izdelani primer: premakne se meja
+
+Poskus z mejo uporablja izrecno izmišljen kvadrat s stranico 1.000 metrov v lokalnem inženirskem koordinatnem sistemu. To ni EPSG:3794 in ne gre za zgodovinske ljubljanske meje. Navpična ločnica se leta 1920 premakne z x=500 na x=600. Bivališče A ostane pri x=550; dosje predpostavi kontinuiteto do konca leta 1925. Vzhodno ozemlje vključuje samo ločnico, zato je pravilo pripisa jasno.
+
+| Kandidat | Središčni x | Pripadnost leta 1910 | Pripadnost leta 1925 | Ob položajni negotovosti ±75 m |
+|---|---:|---|---|---|
+| `SYN-L1` | 550 m | `SYN-EAST` | `SYN-W` | obe ozemlji v obeh obdobjih |
+| `SYN-L2` | 800 m | `SYN-EAST` | `SYN-EAST` | vzhodno ozemlje v obeh obdobjih |
+
+Pri razvrščanju po središčni točki se ozemeljska pripadnost A spremeni brez selitve. Če upoštevate območje negotovosti, same geometrije ne zadoščajo za enolično pripadnost. Razpon ±75 metrov je predpostavka analize občutljivosti, ne izmerjen interval zaupanja. Nerazrešena omemba delovnega kraja ne sme nadomestiti trditve o bivališču.
+
+[Povezani postopek](../workflows/mapping/model-changing-place-names-and-boundaries.md) ponovi to tabelo. Resnična zgodovinska raziskava bi potrebovala še dokaze o datumu in geometriji meje, stalnosti bivališča ter upravnem pomenu spremembe. Sintetični izračun pokaže logične posledice predpostavk, ne zgodovinskih dejstev.
+
+## Prostorsko združevanje in manjkajoči podatki
+
+Prostorsko združevanje pripiše atribute glede na vsebovanost, presečišče ali bližino. Prostorski pogoj združite s časovnim: točka in poligon, ki se na zaslonu prekrivata, se lahko nanašata na različni stoletji. Navedite, kako obravnavate točke na meji, prekrivajoče se pristojnosti in negotove intervale. Možno pripadnost ločite od pripadnosti pri vseh dovoljenih položajih.
+
+Nelocirane omembe vključite v imenovalec poročila o pokritosti. Če lahko umestite deset od dvajsetih pisem, zemljevid teh desetih ne opiše nujno geografije celotne korespondence. Manjkajoči podatki so lahko povezani z jezikom, katalogizacijo, razpoložljivostjo mestnih naslovov ali selektivnim ohranjanjem. Prazna regija lahko kaže pomanjkanje virov, digitalizacije ali uspešnih identifikacij, ne odsotnosti zgodovinskega dogajanja.
+
+Pred razlago gostote primerjajte ujemajoče se in neujemajoče se zapise po obdobju, vrsti vira in jeziku. Objavite tabelo nerazrešenih zapisov z razlogi in dovoljenimi kratkimi odlomki. Koordinate ne določite na silo samo zato, da bi bila pokritost videti popolna.
+
+## Kartogrami, imenovalci in problem prostorskih enot
+
+Kartogram obarva območja glede na vrednost. Število dogodkov odgovarja na drugačno vprašanje kot stopnja glede na prebivalstvo. Dva izmišljena okraja imata denimo 20 in 10 ohranjenih pisem, vendar 2.000 in 500 relevantnih prebivalcev. Po številu pisem vodi prvi; stopnji pa sta 10 in 20 pisem na tisoč prebivalcev. Nobena vrednost sama ne meri pismenosti brez predpostavk o avtorstvu, ohranjenosti in ustrezni populaciji.
+
+Rezultati se spreminjajo tudi z mejami in velikostjo združenih območij. To je **problem spremenljive prostorske enote** oziroma MAUP. [Fotheringham in Wong](https://doi.org/10.1068/a231025) obravnavata njegove posledice za večspremenljivostno analizo. Pri preprostejši vaji primerjajte števila in stopnje ob drugačnem združevanju ter pojasnite, kateri prebivalci in zapisi sestavljajo imenovalec.
+
+Števca iz leta 1850 brez utemeljitve ne delite z današnjim prebivalstvom. Manjkajoče vrednosti ločite od ničel. Objavite števec, imenovalec, obdobje in meje razredov, da bo mogoče obarvanost rekonstruirati tudi brez zemljevida.
+
+## Poti, razdalja in dostopnost
+
+Ravna črta med omenjenima krajema ni dokaz potovanja. Vir lahko opisuje spomin, posredno poročanje ali zamišljeni cilj. Tudi pri dokumentirani poti je najkrajša današnja cestna povezava lahko zgodovinsko nemogoča. Na dostopnost vplivajo mostovi, mejni nadzor, naklon, letni čas in razpoložljivi načini prevoza.
+
+Določite, ali ocenjujete geometrijsko razdaljo, razdaljo po omrežju, potovalni čas ali dokumentirani itinerar. Omrežje poti potrebuje datirane odseke in izrecne predpostavke o stroških prehoda. Preverite vsaj eno verjetno alternativo: odstranite nepotrjeni most ali spremenite hitrost hoje, namesto da objavite en sam navidezno točen čas.
+
+Pri dvoumnem »St. Peter« primerjajte posledice obeh kandidatov, vendar ne izmišljajte poti, da bi z njo krožno dokazali identifikacijo. Argument o verjetnosti poti je uporaben le, če so njegove zgodovinske prometne predpostavke neodvisno utemeljene. Besedilno zaporedje ohranite tudi takrat, ko ni mogoče narisati upravičene povezave.
+
+## Oblikovanje, dostopnost in občutljive lokacije
+
+Izrez, oznake, razredi in izpusti vplivajo na kartografski argument. Za urejene količine uporabite zaporedno barvno lestvico; manjkajoče podatke prikažite nevtralno in jasno. Ne zanašajte se samo na barvo. Simbole kandidatov povežite z identifikatorji, kategorijami negotovosti in razlago. Sintetični model meje mora biti vidno označen.
+
+Priložite tabelo vseh prikazanih identifikatorjev, obdobij, pripadnosti, negotovosti in povezav do virov. Besedilni opis naj pove vzorec in izjeme, ne samo tega, da zemljevid obstaja. Oznake naj ostanejo berljive pri predvideni velikosti izpisa; preverite svetlo in temno ozadje. Interaktivni zemljevid potrebuje tudi tipkovnični dostop in prenosljivo alternativo.
+
+Natančne lokacije lahko ogrozijo ranljive žive skupnosti, sveta mesta ali arheološka najdišča. Javna dostopnost podatkov ne odpravi odgovornosti. Pred objavo presodite soglasje, omejitve in predvidljive zlorabe; razmislite o posplošitvi ali omejenem dostopu. Kjer je dovoljeno, varno ohranite izvorni zapis ter pojasnite javno posplošitev, ne da bi razkrili varovane koordinate.
+
+## Hibridno modeliranje
+
+Vseh razlik ni treba prenesti v eno predstavitev. Relacijske tabele ohranijo poizvedljive trditve o krajih; TEI/XML besedilne različice in uredniško strukturo; GeoPackage datirane geometrije; graf pa omogoča raziskovanje povezav ali poti. Faksimili in diplomatski prepis ohranijo dokazno gradivo. Prozne opombe hranijo razlike, ki jih ne smemo prisiliti v kategorije.
+
+Vprašajte se, katere razlike morajo biti poizvedljive, katere morajo ostati obnovljive in katere naj se upirajo formalizaciji. Stabilni identifikatorji povezujejo predstavitve, ne da bi jim vsilili enako notranjo strukturo. Pri izvozu preverite, ali lahko bralec iz točke še vedno pride do konkretnega odlomka in uredniške odločitve.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
+    - [Kako georeferenciram in preverim zgodovinski zemljevid v QGIS?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/)
+    - [Kako modeliram spreminjajoča se krajevna imena in meje?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/model-changing-place-names-and-boundaries/)
     - [Kako kartiram kraje, omenjene v besedilu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/map-places-mentioned-in-a-text/)
     - [How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/build-a-simple-cultural-heritage-map/) *(angleška nadomestna stran)*
     - [How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)*
@@ -3007,17 +3263,34 @@ Predpostavimo, da raziskujemo gibanje v romanu in njegovem zgodovinskem kontekst
 
 ## Vaja
 
-Iz besedila ali seznama dediščine pripravite tabelo desetih krajev. Ohranite izvorno obliko, normalizirano ime, identifikator, koordinate ali geometrijo, datum, gotovost, dokaz in opombe. Tabelo prikažite na zemljevidu, nato poiščite tri načine, kako bi zemljevid lahko zavedel bralca.
+Razpakirajte spremljevalni arhiv in izvedite:
+
+```bash
+python run.py --output output-first
+```
+
+Za vsak poskus uporabite novo izhodno mapo. Pred kartiranjem preglejte `membership.csv`, `gcp-residuals.csv` in `gcp-leave-one-out.csv`. Primerjajte pripadnost po središčni točki s pripadnostjo ob negotovosti ter pojasnite, zakaj dveh kandidatov za isto ime ne smete šteti kot dve bivališči. Nato ob sliki in predpomnjenem referenčnem zapisu preverite eno uporabljeno in eno izločeno orientacijsko točko.
+
+Oddajte tabele, opombo o virih in pravicah, zapis koordinatnega sistema in transformacije, dnevnik odločitev o kandidatih ter interpretacijo v približno 200 besedah. Navedite sklep, ki analizo občutljivosti prestane, in sklep, ki je ne. Če GIS ne morete uporabiti, tabele z izrecnimi pravili pripisa pomenijo celovito ne-grafično oddajo.
 
 ## Refleksija
 
-- Zemljevid predstavlja omembe, dogodke, ljudi, dokumente ali sklepano gibanje?
-- Katera zgodovinska meja ali odločitev o krajevnem imenu je najbolj sporna?
-- Kaj je videti prazno zato, ker vaši viri ali geokodirnik tega ne pokrivajo?
+- Katera navidezna selitev bi bila lahko sprememba meje ali razvrščanja?
+- Kaj dejansko meri ocena zanesljivosti uporabljenega geokodirnika?
+- Bi drug imenovalec, referenčna točka ali verjeten kandidat obrnil sklep?
+- Katere lokacije naj ostanejo približne ali neobjavljene in kdo naj o tem odloča?
 
 ## Povzetek
 
-Prostorska humanistika dokaze o krajih pretvori v povezane, časovno občutljive in interpretabilne prostorske podatke. Omemba ni koordinata, sodobno geokodiranje ni zgodovinska identifikacija, zemljevid pa ni nevtralno okno. Imeniki, stabilni identifikatorji, koordinatni sistemi, provenienca in izrecna negotovost prostorske prikaze spremenijo v uporabne humanistične argumente.
+Prostorski dokaz postane verodostojen z opredeljeno identifikacijo, ne z dovršenim izrisom. Imena, kraji, geometrije, pristojnosti in poti potrebujejo ločene zapise ter izrecne datume. Neodvisno preverjanje lahko razkrije zavajajoče dobro prileganje. Ohranjanje kandidatov, prostorsko združevanje z negotovostjo, utemeljeni imenovalci in zgodovinske prometne predpostavke omogočajo preverjanje argumenta. Tabela, ki pošteno ohrani dvoumnost, je lahko močnejši rezultat kot brezhiben zemljevid.
+
+## Nadaljnje branje
+
+- Bodenhamer, David J., John Corrigan in Trevor M. Harris, ur. 2010. [*The Spatial Humanities: GIS and the Future of Humanities Scholarship*](https://iupress.org/9780253222176/the-spatial-humanities/). Indiana University Press.
+- Harley, J. B. 1989. [»Deconstructing the Map.«](https://doi.org/10.3138/E635-7827-1757-9T53) *Cartographica* 26(2): 1–20.
+- Southall, Humphrey, Ruth Mostern in Merrick Lex Berman. 2011. [»On historical gazetteers.«](https://doi.org/10.3366/ijhac.2011.0028) *International Journal of Humanities and Arts Computing* 5(2): 127–145.
+- Fotheringham, A. S., in D. W. S. Wong. 1991. [»The Modifiable Areal Unit Problem in Multivariate Statistical Analysis.«](https://doi.org/10.1068/a231025) *Environment and Planning A* 23(7): 1025–1044.
+- QGIS Documentation. [Georeferencer, različica 3.40](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/georeferencer.html). Različici prilagojen operativni vir, ne trditev o najnovejši izdaji.
 
 ---
 
@@ -3027,103 +3300,164 @@ Prostorska humanistika dokaze o krajih pretvori v povezane, časovno občutljive
 
 Po tem poglavju boste znali:
 
-- opredeliti vozlišča, povezave, smer, utež in dvodelna omrežja;
-- razlikovati med opazovanimi razmerji in razmerji, izpeljanimi s konstrukcijskim pravilom;
-- previdno razlagati osnovne mere centralnosti in skupnosti;
-- zasnovati vizualizacijo, ki razkrije merilo, negotovost in manjkajoče podatke;
-- dokumentirati pretvorbe od izvornih zapisov do grafa.
+- ločiti dokumentirano udeležbo, trditve vira, sklepanje in sopojavljanje;
+- opredeliti usmerjena, utežena, predznačena, večplastna, dvodelna in časovna omrežja;
+- pri povezavah ohraniti odločitve o identiteti, dokaze, zanesljivost in datume;
+- primerjati omrežje oseb in dokumentov s projekcijo ter omrežjem korespondence;
+- razlagati centralnost, komponente in skupnosti ob izrecnem pravilu gradnje;
+- preveriti vpliv pragov, projekcij in manjkajočih zapisov ter objaviti tabelarične rezultate.
 
 ## Pred začetkom
 
-Dve osebi se pojavita v istem časopisnem članku. Sta povezani? Morda sodelujeta, si nasprotujeta, sta zgolj navedeni ali se pojavita v nepovezanih odstavkih. Omrežna povezava ni samodejno najdena v viru. Ustvari jo pravilo, katerega pomen moramo utemeljiti.
+V isti časopisni številki se pojavijo štiri posamično poimenovane osebe. Ali zato sestavljajo povezan politični krog? Pravilo sopojavljanja v isti številki ustvari šest neusmerjenih parov. Pravilo dokumentirane korespondence iz istih opazovanj ne izpelje nobenega pisma med njimi. Noben rezultat ne pomeni, da osebe niso nikoli sodelovale. Razlika zadeva to, kaj izbrani zapisi podpirajo.
 
-Pravila za vozlišča in povezave so modelske odločitve, ki oblikujejo vsako mero in prikaz. S poglavjem [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) ločite konstrukcijo, rezultat in interpretacijo, s poglavjem [Infrastrukture digitalne humanistike](critical-infrastructures.md) pa presodite primere, ko izvorni API-ji ali vizualizacijske platforme določajo vidnost in možnosti ponovne uporabe.
+Avtentični paket o arhivskem trenju ponuja to izhodiščno težavo. [Spremljevalni paket](../../assets/downloads/contested-models-v1.zip) ohranja identifikatorje opazovanj in lokatorje virov ter za nadzorovano primerjavo dodaja jasno označen sintetični dosje šestih oseb. Nobeno izmišljeno pismo ali življenjepis ni pripisan resnični časopisni osebi. Pred računanjem zapišite stavek o razmerju, ki ga želite raziskati, in stavek o tem, kaj zapisi dejansko omogočajo opazovati.
 
-## Omrežje je podatkovni model
+Besedilo je strojno podprt prevodni osnutek; pred potrditvijo je potreben strokovni pregled slovenskega jezika in terminologije.
 
-Graf vsebuje **vozlišča** in **povezave**. Vozlišča lahko predstavljajo osebe, besedila, kraje, ustanove ali pojme. Povezave lahko predstavljajo dopisovanje, citiranje, sorodstvo, soavtorstvo, potovanje, sopojavljanje ali drugo razmerje.
+## Osrednji argument: povezavo je treba utemeljiti
 
-Določite, ali je povezava:
+Graf sestavljajo vozlišča in povezave, vendar zgodovinska razmerja spoznavamo prek virov in uredniškega dela. Ohranjeno pismo lahko dokumentira dejanje pisanja; naslov lahko zatrjuje prejemnika; raziskovalec pa sklepa o prejemu. To niso enake trditve. Kataložni zapis je opazovanje opisanega predmeta, ne neposredno opazovanje zgodovinskega prijateljstva.
 
-- usmerjena ali neusmerjena;
-- utežena ali neutežena;
-- datirana ali časovno omejena;
-- neposredno opažena ali izpeljana;
-- pozitivna, negativna ali tipizirana;
-- podprta z enim ali več viri.
+Ločite štiri ravni. **Opazovano razmerje v zapisu** poveže imenovanega udeleženca s pregledanim dokumentom. **Zatrjevano razmerje** povzame, kaj dokument trdi. **Izpeljano razmerje** je odvisno od izrecnega interpretativnega pravila. **Sopojavljanje** poveže entitete znotraj izbrane enote besedila, ne da bi dokazovalo medsebojno delovanje. Tudi pregledani dokument lahko osebo napačno prepozna ali dogodek opiše netočno.
 
-Različne definicije povezav ustvarijo različna omrežja. Definicija sodi v opis metode in po možnosti tudi v strojno berljive podatke.
+Uporaben zapis povezave zato vsebuje obe krajišči, vrsto razmerja, smer, identifikator dokaza, lokator vira, časovni interval, zanesljivost in pravilo gradnje. Ohranite besedilo vira ali obnovljivo pot do odlomka. Izrisana črta mora omogočiti vrnitev skozi te odločitve. Poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) umešča razlikovanje med gradnjo podatkov in zgodovinsko razlago v širši okvir.
 
-## Enovrstna in dvodelna omrežja
+## Izbira vozlišč in razreševanje entitet
 
-Enovrstno omrežje povezuje isto vrsto vozlišč, denimo osebo z osebo. **Dvodelno** omrežje povezuje dve vrsti, denimo osebe z ustanovami ali literarne like s prizori.
+Identiteta vozlišča določi graf še pred izračunom mer. Ali vozlišče pomeni osebo, podpis, institucionalno funkcijo, kolektivnega literarnega junaka ali nerazrešeno omembo? Če te vrste združite brez pojasnila, populacija grafa ni stabilna. Vozlišče »urednik« lahko združuje zaporedne nosilce funkcije in ne ene trajne osebe.
 
-Projekti dvodelno omrežje pogosto projicirajo v enovrstno omrežje sopojavljanja: dva lika sta povezana, če nastopita v istem prizoru. Projekcija izgubi informacije in lahko okoli velikih prizorov ustvari zelo goste povezave. Ohranite izvirne dvodelne podatke ter navedite pravilo projekcije in uteževanja.
+Dosje loči osebo `SYN-A` od zapisanih imenskih oblik Anna Kovatsch in Ana Kovač. Njuna skupna identiteta je predpostavka sintetične vaje. V resnični raziskavi bi potrebovala dokaz, ne samo podobnega zapisa. Napačna združitev lahko enemu vozlišču pripiše sosede dveh oseb in ustvari izmišljen most. Napačna razdelitev lahko skrije kontinuiteto in osebo prikaže kot obrobno.
 
-## Centralnost je odvisna od vprašanja
+Vodite tabelo odločitev o identiteti z dokazi in alternativami. Negotovo združitev, ki pomembno vpliva na sklep, preizkusite ločeno ter ohranite obe različici. Nerazrešenih omemb ne izločite zgolj zaradi lepše slike. Poročajte, koliko jih je in zakaj ne morejo varno v analizo oseb. Stabilni identifikatorji pomagajo upravljati odločitve, vendar ne dokazujejo identitete.
 
-Pogoste mere so:
+## Kaj pomenijo različne vrste omrežij
 
-- **stopnja:** število neposrednih povezav;
-- **utežena stopnja:** vsota uteži povezav;
-- **vmesnost:** kako pogosto vozlišče leži na najkrajših poteh;
-- **bližina:** oddaljenost do drugih dosegljivih vozlišč;
-- **lastni vektor ali PageRank:** povezanost z že dobro povezanimi vozlišči.
+**Usmerjena povezava** razlikuje pošiljatelja od prejemnika. **Neusmerjena povezava** lahko predstavlja skupno članstvo brez določenega pobudnika. **Utežena povezava** nosi opredeljeno količino, na primer število različnih dokumentov, ne nedoločene »moči«. **Predznačena povezava** razlikuje pozitivna in negativna razmerja na podlagi utemeljenega kodiranja. Kritika ni samodejno negativna vrednost prijateljstva.
 
-Nobena mera na splošno ne pomeni »pomembnosti«. Stopnja lahko kaže vidnost, priložnost ali le boljšo dokumentiranost. Vmesnost je močno odvisna od predpostavke, da najkrajše poti predstavljajo raziskovani proces. Nepovezana in zelo majhna omrežja zahtevajo posebno previdnost.
+**Večplastno omrežje** ohrani ločene plasti razmerij, denimo korespondenco, zaposlitev in sopojavljanje. Če jih združite, postane pismo enakovredno skupni zaposlitvi, razen če določite utemeljeno pravilo kombiniranja. **Dvodelno omrežje** povezuje dve vrsti vozlišč, denimo osebe in dokumente, brez povezav znotraj iste vrste. **Časovno omrežje** ohrani dogodke ali intervale, da lahko poti upoštevajo kronologijo.
 
-## Skupnosti in gruče
+Lastnosti se lahko kombinirajo. Korespondenčna plast je lahko hkrati usmerjena, utežena in časovna. Pred izbiro programa opredelite enoto opazovanja in določite, ali so ponovljena pisma samostojni dogodki ali združena utež. Tabelo dogodkov ohranite tudi takrat, ko je agregirani graf uporaben za raziskovanje vzorcev.
 
-Algoritmi za odkrivanje skupnosti omrežje razdelijo v skupine z gostimi notranjimi povezavami. Rezultat je odvisen od algoritma, ločljivosti in naključne inicializacije. Skupnost ni samodejno zgodovinska frakcija ali literarna tema.
+## Datumi, zanesljivost in pomen povezave
 
-Primerjajte več ločljivosti, preglejte mejna vozlišča in skupine povežite z neodvisnimi metapodatki. Poročajte, kadar obstaja več verjetnih razdelitev. Vizualno urejen modularen graf lahko ustvari že postavitev, čeprav so dokazi šibki.
+Datum pisma je čas dogodka, ne trajanje družbene vezi. `SYN-D6` je datiran samo v februar 1925. Predstavljen je z možnim časovnim oknom od vključno 1. februarja do izključno 1. marca. To ne pomeni neprekinjenega komuniciranja ves mesec. Datirana trditev o članstvu lahko nasprotno opisuje trajanje, če to podpira besedilo vira.
 
-## Čas in sprememba
+Združevanje let 1910 in 1925 lahko ustvari poti, katerih povezave nikoli niso obstajale hkrati. Časovna pot potrebuje tudi pravilo zaporedja: sporočilo po poznejšem dogodku ne more potovati prek zgodnejšega. Neznani datumi različno vplivajo na možno in gotovo dosegljivost. Nedatiranega gradiva neopazno ne postavite na sredino raziskovanega obdobja.
 
-Združevanje več desetletij odnosov v en graf lahko ustvari povezave, ki nikoli niso sočasno obstajale. Kadar je kronologija pomembna, zgradite časovne rezine, intervalna omrežja ali poglede dogodkov.
+Zanesljivost opredeljuje konkretno trditev. V primeru je prejemnik `SYN-D6` verjeten; obstoj sintetičnega dokumenta znotraj vaje ni negotov. Takšno razlikovanje omogoča primerjavo samo zanesljivo določenih prejemnikov brez brisanja izvornega zapisa. Oznake zanesljivosti so dogovor za uredniški pregled, ne samodejno umerjene verjetnosti.
 
-Vprašajte se, ali vozlišča vstopajo in izstopajo, ali se uteži povezav seštevajo ter ali manjkajoča leta pomenijo brez dejavnosti ali brez ohranjenih podatkov. Animacija je privlačna, a jo je težko primerjati; majhni večkratniki ali interaktivni filtri spremembo pogosto pokažejo jasneje.
+## En dosje, tri predstavitve
 
-## Manjkajoči podatki in neenaka vidnost
+Nadzorovani dosje vsebuje šest oseb in šest dokumentov. Ločene opombe o statusu iz poglavja o podatkovnih zbirkah niso vključene v izbor virov za omrežje. Tudi izbor je dokumentirana odločitev, ne nevidno predhodno čiščenje.
 
-Omrežja so posebej občutljiva na ohranjenost arhivov. Ploden korespondent je lahko videti obroben, ker je ohranjen le en arhiv. Znane osebe imajo morda boljše kataloge in razrešene identitete. Omrežja sopojavljanja privilegirajo dolge dokumente in pogosta imena.
+| Dokument | Udeleženci | Vrsta vira in podatki o razmerju |
+|---|---|---|
+| `SYN-D1` | A, B, C | občinski seznam; brez trditve o interakciji |
+| `SYN-D2` | A, B | pismo, A → B |
+| `SYN-D3` | C, D, E | društveni seznam |
+| `SYN-D4` | D, E | pismo, D → E |
+| `SYN-D5` | A, B, C, D, E, F | časopisni seznam; brez trditve o interakciji |
+| `SYN-D6` | E, F | pismo, E → F; verjetni prejemnik |
 
-Prikažite pokritost in število virov. Razmislite o analizah občutljivosti: odstranite negotove povezave, uporabite druge pragove ali primerjajte arhive. Odsotnost povezave navadno pomeni »ni opažena s tem postopkom«, ne »razmerje ni obstajalo«.
+Črke so okrajšave identifikatorjev s predpono `SYN-`. Dvodelni graf zgradite neposredno iz 18 vrstic udeležbe oseb v dokumentih. Projicirani graf oseb poveže osebe, ki imajo skupen dokument. Omrežje korespondence pa zgradite samo iz izrecnih vlog pošiljatelja in prejemnika v pismih. Vse tri predstavitve uporabljajo iste izbrane zapise, vendar odgovarjajo na različna vprašanja.
 
-## Vizualizacija kot analitična zasnova
+Izvirni časopis ostaja ločeno preverjanje dokazov: štiri posamično poimenovane osebe ustvarijo šest parov iste številke, vendar izbrana opazovanja ne dokazujejo korespondence. Sintetičnih pisem ne dodajajte avtentičnemu grafu, da bi bil videti popolnejši.
 
-Omrežni prikaz potrebuje več kot pisana vozlišča. Odločitve vključujejo postavitev, velikost vozlišč, prosojnost povezav, oznake, filtriranje in barvne kategorije. Silno usmerjene postavitve optimizirajo berljivost, ne geografske ali kronološke resnice; ponovni zagoni lahko vozlišča postavijo drugače.
+## Projekcija spremeni dokazno enoto
 
-Dobra praksa:
+Projekcija skupno udeležbo v dokumentu zamenja s povezavami med osebami. Dokument s k osebami prispeva k(k−1)/2 možnih parov. Seznam šestih oseb zato prispeva petnajst parov, čeprav ostaja en sam vir. Seznam treh oseb prispeva tri. To je napihovanje števila povezav pri projekciji, ne petnajst neodvisnih pričevanj o povezanosti.
 
-- označujte le, kadar oznake služijo vprašanju;
-- pojasnite vsako vizualno kodiranje;
-- površine vozlišč ne povečujte zavajajoče;
-- prikažite osamljena vozlišča, če bi njihov izbris prikril pokritost;
-- za natančne vrednosti ponudite tabelo ali iskalni pogled;
-- poskrbite za dostopnost barv in kontrasta;
-- dodajte provenienco in prenosljiv seznam povezav.
+Dokument z eno samo izbrano osebo ostane veljavna povezava med osebo in dokumentom
+v dvodelnem grafu, v projekciji oseb pa ne ustvari para. Zabeležite ga med
+kontrolami projekcije, namesto da ga neopazno izpustite. Ker para ni, dokument
+prav tako ne prispeva člena `1/(k−1)` in ne povzroči deljenja z nič.
 
-## Razdelan primer: omrežje literarnih likov
+Razprava [Latapyja, Magnien in Del Vecchia](https://doi.org/10.1016/j.socnet.2007.04.006) o dvodelnih omrežjih daje formalno izhodišče za ohranitev dvodelne strukture. V našem primeru `SYN-D5` sam poveže vsak par. Nastali polni graf prikrije razliko med parom iz enega seznama in parom, podprtim z več zapisi.
 
-Utemeljen postopek bi bil:
+Ohranite tabelo dokazne podlage z eno vrstico za vsak par in vsak pripadajoči dokument. Pred štetjem dokumentov odstranite podvojene omembe iste osebe znotraj istega dokumenta. Preverite tudi, ali dokumenta prepisujeta skupen vir: različna identifikatorja ne zagotavljata neodvisnosti dokazov. Projicirana povezava je izpeljani povzetek s provenienco, ne novo arhivsko dejstvo.
 
-1. Določimo identiteto likov, različice imen in kolektivne like.
-2. Izberemo pravilo povezave: skupni prizor, neposredni nagovor ali poročana interakcija.
-3. Besedilo razdelimo in ohranimo sklice na odlomke.
-4. Zgradimo dvodelno tabelo likov in prizorov.
-5. Projekcijo izvedemo le, če vprašanje zahteva graf lik-lik.
-6. Preverimo druge definicije prizorov in pragove povezav.
-7. Centralnost primerjamo s pripovednim glediščem in količino govora.
-8. V besedilu pregledamo navidezno središčne in presenetljivo obrobne like.
-9. Objavimo vizualizacijo in podatke o konstrukciji.
+## Pragovi in uteži glede na velikost dokumenta
 
-Graf povzema en razmernostni vidik romana. Ne modelira globine lika, tematske pomembnosti ali bralske izkušnje, če tega nismo posebej operacionalizirali.
+Utež naj pomeni število različnih skupnih dokumentov. Pri pragu 1 ohranite vsak podprti par; pri pragu 2 zahtevajte dva dokumenta; pri pragu 3 tri. Pragovi ne pomenijo šibkega, zanesljivega in gotovega prijateljstva. Pomenijo različno pogosto skupno dokumentiranost po izbranem pravilu.
+
+Druga projekcija vsakemu skupnemu dokumentu dodeli prispevek 1/(k−1), kjer je k število njegovih udeležencev. Tako velik seznam k posameznemu paru prispeva manj: `SYN-D5` doda 0,2 namesto 1. Normalizacija je izrecna analitična odločitev, ne univerzalni popravek. Druge utežitve odgovarjajo na druga vprašanja.
+
+Paket v vsaki primerjavi oseb ohrani vseh šest vozlišč, tudi izolirana. Mere obravnavajo preostale povezave kot enotske dolžine; uteži glede na število dokumentov določajo izbor povezav, niso pa dolžine poti. Večjega števila dokumentov ne razlagajte kot večjo oddaljenost. Če moč pretvarjate v razdaljo, pretvorbo utemeljite in njen vpliv preverite posebej.
+
+## Primerjalni primer: zgradba omrežja in prag
+
+| Pravilo gradnje | Povezave | Komponente | Največja stopnja med osebami |
+|---|---:|---:|---|
+| Dvodelna udeležba | 18 | 1 | E: 4 dokumenti |
+| Projekcija, prag 1 | 15 | 1 | vseh šest: 5 oseb |
+| Projekcija, prag 2 | 7 | 1 | C: 4 osebe |
+| Projekcija, prag 3 | 2 | 4 | A, B, D, E: 1 oseba |
+| Utež 1/(k−1), vsaj 1 | 3 | 3 | E: 2 osebi |
+| Usmerjena korespondenca | 3 | 3 šibke komponente | E: 2 pripadajoči povezavi |
+
+Stopnja v dvodelnem grafu šteje dokumente, ne ljudi. Vrstni red zato previdno primerjajte s projicirano stopnjo. Pri pragu 1 časopisni seznam vse izenači. Pri pragu 2 ostanejo pari AB, AC, BC, CD, CE, DE in EF. C zdaj povezuje dela ABC in CDE. Pri pragu 3 ostaneta samo AB in DE, C in F pa sta izolirana.
+
+Korespondenčni graf vsebuje A→B, D→E in E→F. Šibke komponente pri ugotavljanju povezanih množic zanemarijo smer; usmerjena dosegljivost ostaja drugačna. Skupna stopnja E je dve, vhodna in izhodna pa sta vsaka ena. Trditev o največji stopnji mora poimenovati graf in povedati, kaj stopnja šteje. Sicer primerjate različne enote, kot da bi bile ista lastnost oseb.
+
+## Vmesnost in bližina zahtevata predpostavke
+
+**Središčnost po vmesnosti** pripisuje deleže vozliščem na najkrajših poteh med drugimi vozlišči. Paket poroča nenormalizirane vrednosti; pri neusmerjenem grafu dvojno štetje parov deli z dve. V projekciji s pragom 2 ima C vrednost 6, E pa 4; druge osebe imajo nič. V polnem grafu pri pragu 1 so vse vrednosti nič, saj vsak par že povezuje neposredna povezava.
+
+V usmerjeni korespondenci ima E vrednost 1 zaradi poti od D do F prek E. To je pot v grafu, izpeljana iz zapisov, ne dokaz, da je E prenesel sporočilo, posredoval vpliv ali poznal vse pošiljatelje. Takšne razlage potrebujejo časovne in kontekstualne dokaze.
+
+Običajna **središčnost po bližini** uporablja razdalje do drugih vozlišč in pri nepovezanem grafu zahteva dodatno konvencijo. Paket uporablja harmonično bližino po izhodnih poteh: sešteje obratne vrednosti končnih razdalj in deli z N−1; nedosegljiva vozlišča prispevajo nič. Pri pragu 2 C doseže 0,9, E pa 0,8. V korespondenci D doseže 0,3, E 0,2 in B nič. Omejitev na dosegljiva vozlišča ali obrat smeri bi odgovorila na drugo vprašanje.
+
+Mere povzemajo model. Preden nekoga označite za vplivnega, pojasnite, zakaj najkrajše poti ali neposredni sosedje predstavljajo verjeten zgodovinski proces, ter preglejte odlomke, ki trditev podpirajo.
+
+## Komponente in skupnosti niso politične skupine
+
+Komponenta opisuje dosegljivost ob določeni obravnavi smeri. Ni nujno družbena skupina. **Odkrivanje skupnosti** išče razdelitev po izbranem cilju; rezultat je odvisen od ciljne funkcije, ločljivosti in izvedbe. Skupki, ki nastanejo zaradi razporeditve slike, so še nekaj drugega.
+
+Za šest oseb paket ovrednoti vseh 203 razdelitev množice z neuteženo, neusmerjeno modularnostjo pri ločljivosti 1 ter ohrani vse izenačene maksimume. Ta majhna izčrpna primerjava prepreči, da bi eno poljubno programsko izvedbo predstavili kot dokončno. Ni priporočilo za velike zbirke. Pri korespondenci izračun skupnosti izrecno zanemari smer; izračuni centralnosti jo ohranijo.
+
+Pri pragu 1 edini optimum združi vseh šest oseb in ima modularnost 0. Pri pragu 2 je edini optimum ABC | DEF z modularnostjo približno 0,204082. Pri pragu 3 je deset enakovrednih optimalnih razdelitev: izolirana vozlišča lahko premikamo, ne da bi spremenili oceno. Korespondenčna struktura ima tri izenačene optimume.
+
+Raziskava [Fortunata in Barthélemyja o ločljivostni meji](https://doi.org/10.1073/pnas.0605965104) dodatno opozarja pred enačenjem modularnih skupin z zgodovinskimi skupnostmi. Predlagane politične skupine preverite z neodvisnimi viri in poročajte o enako dobrih alternativah. Matematični optimum ni sodba vira.
+
+## Manjkajoči arhivi in pristranskost zajema
+
+Manjkajoči podatki imajo pogosto sistematičen vzorec. Institucije del korespondence ohranijo, drugo gradivo uničijo; znane osebe so podrobneje katalogizirane; jezikovna orodja nekatera imena prepoznajo bolje. **Pristranskost zajema** označuje, kako postopek omogoča opazovanje določenih oseb in razmerij. Naključno brisanje ne more predstavljati vseh arhivskih mehanizmov.
+
+[Borgatti, Carley in Krackhardt](https://doi.org/10.1016/j.socnet.2005.05.001) raziskujejo robustnost centralnosti pri nepopolnih podatkih. Takšno raziskavo uporabite kot spodbudo za opredelitev procesa napak, ne kot jamstvo, da nepopolni arhiv ohranja vrstni red oseb.
+
+Če v paketu pred uporabo praga 2 izločite `SYN-D6`, izgine EF in F postane izoliran. Vmesnost E pade s 4 na 0, vmesnost C pa s 6 na 4. Navidezno izrazita posredniška vloga E je odvisna od enega izbranega zapisa. Tudi izločitev verjetnih prejemnikov zmanjša korespondenco s treh povezav na dve.
+
+Ločeno poročajte o izgubah zaradi ohranjenosti, izbora, izluščanja in razreševanja entitet. Manjkajoča povezava pomeni »ni opažena pri tem pravilu in pokritosti«, ne »med osebama ni bilo razmerja«.
+
+## Robustnost kot raziskovalni rezultat
+
+Analiza občutljivosti spremeni utemeljeno predpostavko, druge odločitve pa ohrani izrecne. Če pri pragu 1 odstranite veliki časopisni seznam, dobite istih sedem povezav kot v izvirni projekciji s pragom 2. Delno uteževanje pri uteži vsaj 1 pa ohrani AB, DE in EF. Različni popravki projekcijskega napihovanja zato ne izberejo nujno istega grafa.
+
+Zapišite, kateri sklepi obstanejo. Trditev »C ima največjo stopnjo v projekciji skupnih dokumentov pri pragu 2« je ponovljiva. Trditev »C je bil najpomembnejša oseba« ni podprta. Trditev »posredniški položaj E je občutljiv za vključitev SYN-D6« ustrezno opiše poskus. Ne združujte nezdružljivih pomenov povezav v domnevno robustnejše družbeno omrežje.
+
+[Postopek primerjave](../workflows/networks/compare-bipartite-and-projected-networks.md) izdela tabele, [postopek preverjanja trditve](../workflows/networks/audit-a-network-claim-against-source-records.md) pa izbrane povezave vrne k dosjeju. Vključite neprijetne nasprotne primere, ne le osrednjega vozlišča, ki ustreza začetni razlagi. Stabilnost rezultata je raziskovalno vprašanje, ne naknadna okrasna statistika.
+
+## Vizualizacija, dostopnost in etika
+
+Razporeditve na podlagi sil postavijo vozlišča po optimizacijskem postopku, pogosto s poljubno orientacijo in spremenljivo začetno postavitvijo. Razdalja na takšni sliki ni zemljepisna razdalja, pretečeni čas ali zgodovinska bližina, razen če je to izrecno kodirano. Drugo naključno seme lahko premakne skupek brez spremembe ene same povezave.
+
+Navedite pravila velikosti vozlišč, debeline povezav in barv. Količine izražajte s površino znaka, ne z nepojasnjeno konvencijo polmera. Prikažite izolirana vozlišča in pojasnite filtriranje. Vrste razmerij in zanesljivosti ne označujte samo z barvo: dodajte oznake, različne črte in besedilno legendo. Prepričljivega skupka ne uporabite kot dokaz, dokler ne pregledate tabele.
+
+Vsaka vaja omogoča ne-grafično oddajo: mere vozlišč, članstvo v komponentah, provenienco povezav in prozno primerjavo. Berljiva tabela omogoča dostop do točnih vrednosti in uporabo bralnika zaslona; opis slike naj povzame ugotovitve in izjeme. Občutljive povezave lahko škodujejo živim ljudem ali skupnostim. Pred objavo imen ali domnevnih vezi presodite soglasje, tveganja sklepanja in omejitve dostopa, tudi če so posamezni viri javni.
+
+## Hibridno modeliranje
+
+Relacijska zbirka ali tabela dogodkov je pogosto ustreznejša osnovna predstavitev, kadar imajo razmerja več udeležencev, spreminjajoče se vloge, nezdružljive vire ali negotove datume. Graf ustvarite kot dokumentirani pogled. TEI/XML ohrani besedilne različice, GeoPackage datirane geometrije, faksimili in diplomatski prepis dokazno gradivo, proza pa razlike, ki se upirajo kategoričnemu kodiranju.
+
+Vprašajte se, katere razlike morajo biti poizvedljive, katere morajo ostati obnovljive in katere naj se upirajo formalizaciji. Stabilni identifikatorji lahko povežejo predstavitve, ne da bi vsako trditev spremenili v brezčasno binarno razmerje. Izvoz grafa naj vedno navede izvorno različico in pravilo, po katerem je nastal.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
+    - [Kako primerjam dvodelna in projicirana omrežja?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/compare-bipartite-and-projected-networks/)
+    - [Kako preverim omrežno trditev ob izvornih zapisih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/audit-a-network-claim-against-source-records/)
     - [Kako podatke povzamem z vrtilnimi tabelami in preglednimi grafikoni?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts/)
     - [Kako zgradim omrežje sopojavljanja, povezano z viri?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/build-a-cooccurrence-network/)
     - [How do I build a collocation graph from AntConc to Cytoscape?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape/) *(angleška nadomestna stran)*
@@ -3137,17 +3471,33 @@ Graf povzema en razmernostni vidik romana. Ne modelira globine lika, tematske po
 
 ## Vaja
 
-Iz vsaj desetih izvornih zapisov zgradite majhno omrežje. Pravilo povezave napišite v eni povedi, za vsako povezavo ohranite polje z dokazom, izračunajte stopnjo in ustvarite dva prikaza z različnima pragoma. Pojasnite, katera razmerja izginejo in zakaj.
+Razpakirajte spremljevalni arhiv in izvedite:
+
+```bash
+python run.py --output output-first
+```
+
+Primerjajte `bipartite-metrics.csv`, `projection_t1-metrics.csv`, `projection_t2-metrics.csv` in `correspondence-metrics.csv`. S tabelo `projection-evidence.csv` pojasnite AB in CE, nato preglejte verjetnega prejemnika v `correspondence-edges.csv`. Vse alternativne gradnje preverite v `results.json`.
+
+Oddajte pravilo izbora virov, primerjavo treh modelov, tabelo pragov, poskus z manjkajočim zapisom in popravljeno trditev v približno 150 besedah. Ohranite izolirana vozlišča ter za vsako preverjeno povezavo navedite lokator vira. Risba grafa ni obvezna; tabele s povezavami do virov in interpretacija pa so.
 
 ## Refleksija
 
-- Kaj povezava pomeni v jeziku virov?
-- Katera vozlišča so vidna zato, ker so se njihovi zapisi ohranili ali jih je lažje prepoznati?
-- Bi dvodelna predstavitev ohranila razlike, ki jih projekcija skrije?
+- Kaj je zatrjeval vir in kaj je dodalo pravilo gradnje povezave?
+- Katera odločitev o identiteti bi lahko ustvarila lažen most?
+- Katera razvrstitev ali skupnost se spremeni ob drugem verjetnem pravilu?
+- Kaj graf izpusti, čeprav tabela dogodkov ali odlomek to ohrani?
 
 ## Povzetek
 
-Omrežja so izrecni modeli razmerij, ne prosojne slike družbe ali književnosti. Definicije vozlišč in povezav, projekcija, čas, manjkajoči podatki in algoritmi oblikujejo vsak rezultat. Centralnost ni splošna pomembnost, skupnosti niso samorazlagalne skupine, postavitve pa niso dokaz. Sledljiva konstrukcijska pravila in z viri povezane povezave omrežno analizo naredijo primerno za humanistično interpretacijo.
+Omrežja formalizirajo izbrana razmerja, ne družbenega sveta v celoti. Identiteta vozlišč, izbor virov, projekcija, pragovi, datumi in manjkajoči podatki določajo pomen mere. Centralnost ne dokazuje splošne pomembnosti, skupnosti niso samodejno politične skupine, razporeditev pa ni dokaz. Ohranite dvodelno udeležbo in dogodke z viri, preverite alternative ter sklepe zapišite tako, da poimenujete pravilo gradnje.
+
+## Nadaljnje branje
+
+- Latapy, Matthieu, Clémence Magnien in Nathalie Del Vecchio. 2008. [»Basic notions for the analysis of large two-mode networks.«](https://doi.org/10.1016/j.socnet.2007.04.006) *Social Networks* 30(1): 31–48.
+- Borgatti, Stephen P., Kathleen M. Carley in David Krackhardt. 2006. [»On the robustness of centrality measures under conditions of imperfect data.«](https://doi.org/10.1016/j.socnet.2005.05.001) *Social Networks* 28(2): 124–136.
+- Fortunato, Santo, in Marc Barthélemy. 2007. [»Resolution limit in community detection.«](https://doi.org/10.1073/pnas.0605965104) *Proceedings of the National Academy of Sciences* 104(1): 36–41.
+- Drucker, Johanna. 2011. [»Humanities Approaches to Graphical Display.«](https://digitalhumanities.org/dhq/vol/5/1/000091/000091.html) *Digital Humanities Quarterly* 5(1). Preberite ob razlikovanju med prikazom in dokazno trditvijo.
 
 ---
 

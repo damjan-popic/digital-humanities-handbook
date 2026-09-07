@@ -1,0 +1,5 @@
+boundary_id,place_id,centre_membership,possible_memberships,boundary_valid_start,boundary_valid_end,boundary_source_id,synthetic
+SYN-B1910,SYN-L1,SYN-EAST,SYN-W|SYN-EAST,1910-01-01,1920-01-01,SYN-BORDER,true
+SYN-B1910,SYN-L2,SYN-EAST,SYN-EAST,1910-01-01,1920-01-01,SYN-BORDER,true
+SYN-B1925,SYN-L1,SYN-W,SYN-W|SYN-EAST,1920-01-01,1930-01-01,SYN-BORDER,true
+SYN-B1925,SYN-L2,SYN-EAST,SYN-EAST,1920-01-01,1930-01-01,SYN-BORDER,true

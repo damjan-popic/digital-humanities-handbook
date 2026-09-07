@@ -1,0 +1,36 @@
+{
+  "record_type": "dlib_item_provenance",
+  "record_version": 1,
+  "accessed_at": "2026-09-07",
+  "urn": "URN:NBN:SI:IMG-132KCU7C",
+  "canonical_url": "https://dlib.si/details/URN:NBN:SI:IMG-132KCU7C",
+  "provider": "Narodna in univerzitetna knjižnica",
+  "bibliographic_record": {
+    "title": "Ljubljana",
+    "creator": "Koch, Ciril Metod",
+    "source_collection": "Zemljevidi slovenskega ozemlja",
+    "year": "1910",
+    "publishers": ["J. Blasnika nasl.", "Katoliška bukvarna"],
+    "format": "1 načrt, 45 x 59 cm na listu 47 x 61 cm, zložen na 13 x 21 cm",
+    "scale": "1:8.200",
+    "cobiss_id": "49514240",
+    "provider_publication_date": "2009-09-17"
+  },
+  "download": {
+    "url": "https://dlib.si/stream/URN:NBN:SI:IMG-132KCU7C/70a09865-89e6-4365-97b8-76d9697c2884/IMAGE",
+    "preserved_filename": "ljubljana-1910.jpg",
+    "pixel_dimensions": {"width": 5747, "height": 7287},
+    "sha256": "d3c6c0475a6976c69c99065b7b9df1ae57a5fe6416a9acc858ef0cf75aebf21c",
+    "transformations": []
+  },
+  "item_specific_rights": {
+    "provider_label": "javna domena",
+    "badge_alt": "javna domena",
+    "badge_title": "javna domena",
+    "badge_image_url": "https://www.dlib.si/images/icons/rights/pdm_button.png",
+    "link_url": "https://www.dlib.si/Rights.aspx?q=PDM",
+    "link_target": "_blank",
+    "association_observed_in": "the rights block of the canonical item page",
+    "interpretive_limit": "Provider-supplied item metadata, recorded for audit; not independent legal advice."
+  }
+}

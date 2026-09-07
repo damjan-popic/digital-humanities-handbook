@@ -1,0 +1,11 @@
+source_id,source_kind,locator,content_status,synthetic
+SYN-D1,synthetic_document,input/dossier.md#syn-d1,authored_synthetic_source_record,true
+SYN-D2,synthetic_document,input/dossier.md#syn-d2,authored_synthetic_source_record,true
+SYN-D3,synthetic_document,input/dossier.md#syn-d3,authored_synthetic_source_record,true
+SYN-D4,synthetic_document,input/dossier.md#syn-d4,authored_synthetic_source_record,true
+SYN-D5,synthetic_document,input/dossier.md#syn-d5,authored_synthetic_source_record,true
+SYN-D6,synthetic_document,input/dossier.md#syn-d6,authored_synthetic_source_record,true
+SYN-N1,synthetic_note,input/dossier.md#syn-n1,authored_synthetic_source_record,true
+SYN-N2,synthetic_note,input/dossier.md#syn-n2,authored_synthetic_source_record,true
+SYN-BORDER,synthetic_model,input/dossier.md#syn-border,authored_synthetic_source_record,true
+SYN-NAMES,synthetic_gazetteer_note,input/dossier.md#syn-names,authored_synthetic_source_record,true

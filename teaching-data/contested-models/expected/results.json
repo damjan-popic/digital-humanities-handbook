@@ -1,0 +1,1773 @@
+{
+  "database": {
+    "assertion_count": 13,
+    "current_assertion_count": 12,
+    "conflicts": [
+      {
+        "assertion_a": "SYN-A04",
+        "assertion_b": "SYN-A05",
+        "context_a": "municipal_register",
+        "context_b": "self_description",
+        "value_a": "servant",
+        "value_b": "seamstress",
+        "source_a": "SYN-D1",
+        "source_b": "SYN-D2"
+      }
+    ],
+    "snapshots": {
+      "1910_early": [
+        {
+          "assertion_id": "SYN-A09",
+          "predicate": "language_knowledge",
+          "value_text": "de_reading",
+          "object_id": null,
+          "context": "self_report",
+          "date_kind": "event_window",
+          "source_id": "SYN-D2",
+          "source_wording": "read German",
+          "source_wording_relation": "exact",
+          "confidence": "probable"
+        },
+        {
+          "assertion_id": "SYN-A08",
+          "predicate": "language_used",
+          "value_text": "sl",
+          "object_id": null,
+          "context": "private_letter",
+          "date_kind": "event_window",
+          "source_id": "SYN-D2",
+          "source_wording": "Slovene",
+          "source_wording_relation": "exact",
+          "confidence": "certain"
+        },
+        {
+          "assertion_id": "SYN-A02",
+          "predicate": "name",
+          "value_text": "Ana Kovać",
+          "object_id": null,
+          "context": "signature",
+          "date_kind": "event_window",
+          "source_id": "SYN-D2",
+          "source_wording": "Ana Kovač",
+          "source_wording_relation": "exact",
+          "confidence": "probable"
+        },
+        {
+          "assertion_id": "SYN-A11",
+          "predicate": "residence",
+          "value_text": null,
+          "object_id": "SYN-L1",
+          "context": "registered_residence",
+          "date_kind": "duration",
+          "source_id": "SYN-D1",
+          "source_wording": "registered residence",
+          "source_wording_relation": "summary",
+          "confidence": "certain"
+        },
+        {
+          "assertion_id": "SYN-A04",
+          "predicate": "status",
+          "value_text": "servant",
+          "object_id": null,
+          "context": "municipal_register",
+          "date_kind": "duration",
+          "source_id": "SYN-D1",
+          "source_wording": "Dienstbotin",
+          "source_wording_relation": "exact",
+          "confidence": "certain"
+        },
+        {
+          "assertion_id": "SYN-A05",
+          "predicate": "status",
+          "value_text": "seamstress",
+          "object_id": null,
+          "context": "self_description",
+          "date_kind": "duration",
+          "source_id": "SYN-D2",
+          "source_wording": "šivilja",
+          "source_wording_relation": "exact",
+          "confidence": "certain"
+        }
+      ],
+      "1910_corrected": [
+        {
+          "assertion_id": "SYN-A09",
+          "predicate": "language_knowledge",
+          "value_text": "de_reading",
+          "object_id": null,
+          "context": "self_report",
+          "date_kind": "event_window",
+          "source_id": "SYN-D2",
+          "source_wording": "read German",
+          "source_wording_relation": "exact",
+          "confidence": "probable"
+        },
+        {
+          "assertion_id": "SYN-A08",
+          "predicate": "language_used",
+          "value_text": "sl",
+          "object_id": null,
+          "context": "private_letter",
+          "date_kind": "event_window",
+          "source_id": "SYN-D2",
+          "source_wording": "Slovene",
+          "source_wording_relation": "exact",
+          "confidence": "certain"
+        },
+        {
+          "assertion_id": "SYN-A03",
+          "predicate": "name",
+          "value_text": "Ana Kovač",
+          "object_id": null,
+          "context": "signature",
+          "date_kind": "event_window",
+          "source_id": "SYN-D2",
+          "source_wording": "Ana Kovač",
+          "source_wording_relation": "exact",
+          "confidence": "certain"
+        },
+        {
+          "assertion_id": "SYN-A11",
+          "predicate": "residence",
+          "value_text": null,
+          "object_id": "SYN-L1",
+          "context": "registered_residence",
+          "date_kind": "duration",
+          "source_id": "SYN-D1",
+          "source_wording": "registered residence",
+          "source_wording_relation": "summary",
+          "confidence": "certain"
+        },
+        {
+          "assertion_id": "SYN-A04",
+          "predicate": "status",
+          "value_text": "servant",
+          "object_id": null,
+          "context": "municipal_register",
+          "date_kind": "duration",
+          "source_id": "SYN-D1",
+          "source_wording": "Dienstbotin",
+          "source_wording_relation": "exact",
+          "confidence": "certain"
+        },
+        {
+          "assertion_id": "SYN-A05",
+          "predicate": "status",
+          "value_text": "seamstress",
+          "object_id": null,
+          "context": "self_description",
+          "date_kind": "duration",
+          "source_id": "SYN-D2",
+          "source_wording": "šivilja",
+          "source_wording_relation": "exact",
+          "confidence": "certain"
+        }
+      ],
+      "1925": [
+        {
+          "assertion_id": "SYN-A10",
+          "predicate": "language_used",
+          "value_text": "de",
+          "object_id": null,
+          "context": "institutional_application",
+          "date_kind": "event_window",
+          "source_id": "SYN-N2",
+          "source_wording": "German",
+          "source_wording_relation": "exact",
+          "confidence": "certain"
+        },
+        {
+          "assertion_id": "SYN-A11",
+          "predicate": "residence",
+          "value_text": null,
+          "object_id": "SYN-L1",
+          "context": "registered_residence",
+          "date_kind": "duration",
+          "source_id": "SYN-D1",
+          "source_wording": "registered residence",
+          "source_wording_relation": "summary",
+          "confidence": "certain"
+        },
+        {
+          "assertion_id": "SYN-A06",
+          "predicate": "status",
+          "value_text": "independent_craft_worker",
+          "object_id": null,
+          "context": "association_v2",
+          "date_kind": "duration",
+          "source_id": "SYN-N1",
+          "source_wording": "samostojna obrtnica",
+          "source_wording_relation": "exact",
+          "confidence": "certain"
+        }
+      ]
+    },
+    "integrity_check": "ok",
+    "foreign_key_errors": 0
+  },
+  "authentic": {
+    "reference_observations": 8,
+    "individually_labelled_people": 4,
+    "same_issue_edges": 6,
+    "correspondence_edges_evidenced": 0
+  },
+  "networks": {
+    "bipartite": {
+      "node_count": 12,
+      "edge_count": 18,
+      "directed": false,
+      "components": [
+        [
+          "SYN-A",
+          "SYN-B",
+          "SYN-C",
+          "SYN-D",
+          "SYN-D1",
+          "SYN-D2",
+          "SYN-D3",
+          "SYN-D4",
+          "SYN-D5",
+          "SYN-D6",
+          "SYN-E",
+          "SYN-F"
+        ]
+      ],
+      "metrics": [
+        {
+          "node": "SYN-A",
+          "degree": 3,
+          "in_degree": 3,
+          "out_degree": 3,
+          "betweenness_raw": 6.202381,
+          "harmonic_closeness": 0.590909
+        },
+        {
+          "node": "SYN-B",
+          "degree": 3,
+          "in_degree": 3,
+          "out_degree": 3,
+          "betweenness_raw": 6.202381,
+          "harmonic_closeness": 0.590909
+        },
+        {
+          "node": "SYN-C",
+          "degree": 3,
+          "in_degree": 3,
+          "out_degree": 3,
+          "betweenness_raw": 5.678571,
+          "harmonic_closeness": 0.590909
+        },
+        {
+          "node": "SYN-D",
+          "degree": 3,
+          "in_degree": 3,
+          "out_degree": 3,
+          "betweenness_raw": 5.166667,
+          "harmonic_closeness": 0.590909
+        },
+        {
+          "node": "SYN-D1",
+          "degree": 3,
+          "in_degree": 3,
+          "out_degree": 3,
+          "betweenness_raw": 2.583333,
+          "harmonic_closeness": 0.545455
+        },
+        {
+          "node": "SYN-D2",
+          "degree": 2,
+          "in_degree": 2,
+          "out_degree": 2,
+          "betweenness_raw": 0.333333,
+          "harmonic_closeness": 0.462121
+        },
+        {
+          "node": "SYN-D3",
+          "degree": 3,
+          "in_degree": 3,
+          "out_degree": 3,
+          "betweenness_raw": 3.309524,
+          "harmonic_closeness": 0.568182
+        },
+        {
+          "node": "SYN-D4",
+          "degree": 2,
+          "in_degree": 2,
+          "out_degree": 2,
+          "betweenness_raw": 0.583333,
+          "harmonic_closeness": 0.484848
+        },
+        {
+          "node": "SYN-D5",
+          "degree": 6,
+          "in_degree": 6,
+          "out_degree": 6,
+          "betweenness_raw": 30.107143,
+          "harmonic_closeness": 0.772727
+        },
+        {
+          "node": "SYN-D6",
+          "degree": 2,
+          "in_degree": 2,
+          "out_degree": 2,
+          "betweenness_raw": 1.083333,
+          "harmonic_closeness": 0.484848
+        },
+        {
+          "node": "SYN-E",
+          "degree": 4,
+          "in_degree": 4,
+          "out_degree": 4,
+          "betweenness_raw": 11.738095,
+          "harmonic_closeness": 0.651515
+        },
+        {
+          "node": "SYN-F",
+          "degree": 2,
+          "in_degree": 2,
+          "out_degree": 2,
+          "betweenness_raw": 3.011905,
+          "harmonic_closeness": 0.530303
+        }
+      ],
+      "communities": {
+        "method": "not applied to bipartite graph"
+      },
+      "singleton_documents": []
+    },
+    "projection_t1": {
+      "node_count": 6,
+      "edge_count": 15,
+      "directed": false,
+      "components": [
+        [
+          "SYN-A",
+          "SYN-B",
+          "SYN-C",
+          "SYN-D",
+          "SYN-E",
+          "SYN-F"
+        ]
+      ],
+      "metrics": [
+        {
+          "node": "SYN-A",
+          "degree": 5,
+          "in_degree": 5,
+          "out_degree": 5,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 1.0
+        },
+        {
+          "node": "SYN-B",
+          "degree": 5,
+          "in_degree": 5,
+          "out_degree": 5,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 1.0
+        },
+        {
+          "node": "SYN-C",
+          "degree": 5,
+          "in_degree": 5,
+          "out_degree": 5,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 1.0
+        },
+        {
+          "node": "SYN-D",
+          "degree": 5,
+          "in_degree": 5,
+          "out_degree": 5,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 1.0
+        },
+        {
+          "node": "SYN-E",
+          "degree": 5,
+          "in_degree": 5,
+          "out_degree": 5,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 1.0
+        },
+        {
+          "node": "SYN-F",
+          "degree": 5,
+          "in_degree": 5,
+          "out_degree": 5,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 1.0
+        }
+      ],
+      "communities": {
+        "method": "exact unweighted undirected modularity; resolution=1; all ties",
+        "modularity": 0.0,
+        "partitions": [
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-C",
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ]
+        ]
+      }
+    },
+    "projection_t2": {
+      "node_count": 6,
+      "edge_count": 7,
+      "directed": false,
+      "components": [
+        [
+          "SYN-A",
+          "SYN-B",
+          "SYN-C",
+          "SYN-D",
+          "SYN-E",
+          "SYN-F"
+        ]
+      ],
+      "metrics": [
+        {
+          "node": "SYN-A",
+          "degree": 2,
+          "in_degree": 2,
+          "out_degree": 2,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.666667
+        },
+        {
+          "node": "SYN-B",
+          "degree": 2,
+          "in_degree": 2,
+          "out_degree": 2,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.666667
+        },
+        {
+          "node": "SYN-C",
+          "degree": 4,
+          "in_degree": 4,
+          "out_degree": 4,
+          "betweenness_raw": 6.0,
+          "harmonic_closeness": 0.9
+        },
+        {
+          "node": "SYN-D",
+          "degree": 2,
+          "in_degree": 2,
+          "out_degree": 2,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.7
+        },
+        {
+          "node": "SYN-E",
+          "degree": 3,
+          "in_degree": 3,
+          "out_degree": 3,
+          "betweenness_raw": 4.0,
+          "harmonic_closeness": 0.8
+        },
+        {
+          "node": "SYN-F",
+          "degree": 1,
+          "in_degree": 1,
+          "out_degree": 1,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.533333
+        }
+      ],
+      "communities": {
+        "method": "exact unweighted undirected modularity; resolution=1; all ties",
+        "modularity": 0.20408163265306123,
+        "partitions": [
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ]
+        ]
+      }
+    },
+    "projection_t3": {
+      "node_count": 6,
+      "edge_count": 2,
+      "directed": false,
+      "components": [
+        [
+          "SYN-A",
+          "SYN-B"
+        ],
+        [
+          "SYN-C"
+        ],
+        [
+          "SYN-D",
+          "SYN-E"
+        ],
+        [
+          "SYN-F"
+        ]
+      ],
+      "metrics": [
+        {
+          "node": "SYN-A",
+          "degree": 1,
+          "in_degree": 1,
+          "out_degree": 1,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.2
+        },
+        {
+          "node": "SYN-B",
+          "degree": 1,
+          "in_degree": 1,
+          "out_degree": 1,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.2
+        },
+        {
+          "node": "SYN-C",
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.0
+        },
+        {
+          "node": "SYN-D",
+          "degree": 1,
+          "in_degree": 1,
+          "out_degree": 1,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.2
+        },
+        {
+          "node": "SYN-E",
+          "degree": 1,
+          "in_degree": 1,
+          "out_degree": 1,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.2
+        },
+        {
+          "node": "SYN-F",
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.0
+        }
+      ],
+      "communities": {
+        "method": "exact unweighted undirected modularity; resolution=1; all ties",
+        "modularity": 0.5,
+        "partitions": [
+          [
+            [
+              "SYN-A",
+              "SYN-B"
+            ],
+            [
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E"
+            ],
+            [
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B"
+            ],
+            [
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B"
+            ],
+            [
+              "SYN-C",
+              "SYN-D",
+              "SYN-E"
+            ],
+            [
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B"
+            ],
+            [
+              "SYN-C",
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B"
+            ],
+            [
+              "SYN-C",
+              "SYN-F"
+            ],
+            [
+              "SYN-D",
+              "SYN-E"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E"
+            ],
+            [
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-C",
+              "SYN-F"
+            ],
+            [
+              "SYN-D",
+              "SYN-E"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-F"
+            ],
+            [
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-F"
+            ],
+            [
+              "SYN-C",
+              "SYN-D",
+              "SYN-E"
+            ]
+          ]
+        ]
+      }
+    },
+    "without_press_list": {
+      "node_count": 6,
+      "edge_count": 7,
+      "directed": false,
+      "components": [
+        [
+          "SYN-A",
+          "SYN-B",
+          "SYN-C",
+          "SYN-D",
+          "SYN-E",
+          "SYN-F"
+        ]
+      ],
+      "metrics": [
+        {
+          "node": "SYN-A",
+          "degree": 2,
+          "in_degree": 2,
+          "out_degree": 2,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.666667
+        },
+        {
+          "node": "SYN-B",
+          "degree": 2,
+          "in_degree": 2,
+          "out_degree": 2,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.666667
+        },
+        {
+          "node": "SYN-C",
+          "degree": 4,
+          "in_degree": 4,
+          "out_degree": 4,
+          "betweenness_raw": 6.0,
+          "harmonic_closeness": 0.9
+        },
+        {
+          "node": "SYN-D",
+          "degree": 2,
+          "in_degree": 2,
+          "out_degree": 2,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.7
+        },
+        {
+          "node": "SYN-E",
+          "degree": 3,
+          "in_degree": 3,
+          "out_degree": 3,
+          "betweenness_raw": 4.0,
+          "harmonic_closeness": 0.8
+        },
+        {
+          "node": "SYN-F",
+          "degree": 1,
+          "in_degree": 1,
+          "out_degree": 1,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.533333
+        }
+      ],
+      "communities": {
+        "method": "exact unweighted undirected modularity; resolution=1; all ties",
+        "modularity": 0.20408163265306123,
+        "partitions": [
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ]
+        ]
+      }
+    },
+    "fractional_ge_1": {
+      "node_count": 6,
+      "edge_count": 3,
+      "directed": false,
+      "components": [
+        [
+          "SYN-A",
+          "SYN-B"
+        ],
+        [
+          "SYN-C"
+        ],
+        [
+          "SYN-D",
+          "SYN-E",
+          "SYN-F"
+        ]
+      ],
+      "metrics": [
+        {
+          "node": "SYN-A",
+          "degree": 1,
+          "in_degree": 1,
+          "out_degree": 1,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.2
+        },
+        {
+          "node": "SYN-B",
+          "degree": 1,
+          "in_degree": 1,
+          "out_degree": 1,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.2
+        },
+        {
+          "node": "SYN-C",
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.0
+        },
+        {
+          "node": "SYN-D",
+          "degree": 1,
+          "in_degree": 1,
+          "out_degree": 1,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.3
+        },
+        {
+          "node": "SYN-E",
+          "degree": 2,
+          "in_degree": 2,
+          "out_degree": 2,
+          "betweenness_raw": 1.0,
+          "harmonic_closeness": 0.4
+        },
+        {
+          "node": "SYN-F",
+          "degree": 1,
+          "in_degree": 1,
+          "out_degree": 1,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.3
+        }
+      ],
+      "communities": {
+        "method": "exact unweighted undirected modularity; resolution=1; all ties",
+        "modularity": 0.4444444444444444,
+        "partitions": [
+          [
+            [
+              "SYN-A",
+              "SYN-B"
+            ],
+            [
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B"
+            ],
+            [
+              "SYN-C",
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ]
+        ]
+      }
+    },
+    "correspondence": {
+      "node_count": 6,
+      "edge_count": 3,
+      "directed": true,
+      "components": [
+        [
+          "SYN-A",
+          "SYN-B"
+        ],
+        [
+          "SYN-C"
+        ],
+        [
+          "SYN-D",
+          "SYN-E",
+          "SYN-F"
+        ]
+      ],
+      "metrics": [
+        {
+          "node": "SYN-A",
+          "degree": 1,
+          "in_degree": 0,
+          "out_degree": 1,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.2
+        },
+        {
+          "node": "SYN-B",
+          "degree": 1,
+          "in_degree": 1,
+          "out_degree": 0,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.0
+        },
+        {
+          "node": "SYN-C",
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.0
+        },
+        {
+          "node": "SYN-D",
+          "degree": 1,
+          "in_degree": 0,
+          "out_degree": 1,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.3
+        },
+        {
+          "node": "SYN-E",
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1,
+          "betweenness_raw": 1.0,
+          "harmonic_closeness": 0.2
+        },
+        {
+          "node": "SYN-F",
+          "degree": 1,
+          "in_degree": 1,
+          "out_degree": 0,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.0
+        }
+      ],
+      "communities": {
+        "method": "exact unweighted undirected modularity; resolution=1; all ties",
+        "modularity": 0.4444444444444444,
+        "partitions": [
+          [
+            [
+              "SYN-A",
+              "SYN-B"
+            ],
+            [
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B"
+            ],
+            [
+              "SYN-C",
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ]
+        ]
+      }
+    },
+    "correspondence_certain": {
+      "node_count": 6,
+      "edge_count": 2,
+      "directed": true,
+      "components": [
+        [
+          "SYN-A",
+          "SYN-B"
+        ],
+        [
+          "SYN-C"
+        ],
+        [
+          "SYN-D",
+          "SYN-E"
+        ],
+        [
+          "SYN-F"
+        ]
+      ],
+      "metrics": [
+        {
+          "node": "SYN-A",
+          "degree": 1,
+          "in_degree": 0,
+          "out_degree": 1,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.2
+        },
+        {
+          "node": "SYN-B",
+          "degree": 1,
+          "in_degree": 1,
+          "out_degree": 0,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.0
+        },
+        {
+          "node": "SYN-C",
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.0
+        },
+        {
+          "node": "SYN-D",
+          "degree": 1,
+          "in_degree": 0,
+          "out_degree": 1,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.2
+        },
+        {
+          "node": "SYN-E",
+          "degree": 1,
+          "in_degree": 1,
+          "out_degree": 0,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.0
+        },
+        {
+          "node": "SYN-F",
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.0
+        }
+      ],
+      "communities": {
+        "method": "exact unweighted undirected modularity; resolution=1; all ties",
+        "modularity": 0.5,
+        "partitions": [
+          [
+            [
+              "SYN-A",
+              "SYN-B"
+            ],
+            [
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E"
+            ],
+            [
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B"
+            ],
+            [
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B"
+            ],
+            [
+              "SYN-C",
+              "SYN-D",
+              "SYN-E"
+            ],
+            [
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B"
+            ],
+            [
+              "SYN-C",
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B"
+            ],
+            [
+              "SYN-C",
+              "SYN-F"
+            ],
+            [
+              "SYN-D",
+              "SYN-E"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E"
+            ],
+            [
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-C",
+              "SYN-F"
+            ],
+            [
+              "SYN-D",
+              "SYN-E"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-F"
+            ],
+            [
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-F"
+            ],
+            [
+              "SYN-C",
+              "SYN-D",
+              "SYN-E"
+            ]
+          ]
+        ]
+      }
+    },
+    "missing_D6": {
+      "node_count": 6,
+      "edge_count": 6,
+      "directed": false,
+      "components": [
+        [
+          "SYN-A",
+          "SYN-B",
+          "SYN-C",
+          "SYN-D",
+          "SYN-E"
+        ],
+        [
+          "SYN-F"
+        ]
+      ],
+      "metrics": [
+        {
+          "node": "SYN-A",
+          "degree": 2,
+          "in_degree": 2,
+          "out_degree": 2,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.6
+        },
+        {
+          "node": "SYN-B",
+          "degree": 2,
+          "in_degree": 2,
+          "out_degree": 2,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.6
+        },
+        {
+          "node": "SYN-C",
+          "degree": 4,
+          "in_degree": 4,
+          "out_degree": 4,
+          "betweenness_raw": 4.0,
+          "harmonic_closeness": 0.8
+        },
+        {
+          "node": "SYN-D",
+          "degree": 2,
+          "in_degree": 2,
+          "out_degree": 2,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.6
+        },
+        {
+          "node": "SYN-E",
+          "degree": 2,
+          "in_degree": 2,
+          "out_degree": 2,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.6
+        },
+        {
+          "node": "SYN-F",
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "betweenness_raw": 0.0,
+          "harmonic_closeness": 0.0
+        }
+      ],
+      "communities": {
+        "method": "exact unweighted undirected modularity; resolution=1; all ties",
+        "modularity": 0.1111111111111111,
+        "partitions": [
+          [
+            [
+              "SYN-A",
+              "SYN-B"
+            ],
+            [
+              "SYN-C",
+              "SYN-D",
+              "SYN-E"
+            ],
+            [
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B"
+            ],
+            [
+              "SYN-C",
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E"
+            ],
+            [
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-C"
+            ],
+            [
+              "SYN-D",
+              "SYN-E",
+              "SYN-F"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-C",
+              "SYN-F"
+            ],
+            [
+              "SYN-D",
+              "SYN-E"
+            ]
+          ],
+          [
+            [
+              "SYN-A",
+              "SYN-B",
+              "SYN-F"
+            ],
+            [
+              "SYN-C",
+              "SYN-D",
+              "SYN-E"
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  "gis": {
+    "memberships": [
+      {
+        "boundary_id": "SYN-B1910",
+        "place_id": "SYN-L1",
+        "centre_membership": "SYN-EAST",
+        "possible_memberships": "SYN-W|SYN-EAST",
+        "boundary_valid_start": "1910-01-01",
+        "boundary_valid_end": "1920-01-01",
+        "boundary_source_id": "SYN-BORDER",
+        "synthetic": "true"
+      },
+      {
+        "boundary_id": "SYN-B1910",
+        "place_id": "SYN-L2",
+        "centre_membership": "SYN-EAST",
+        "possible_memberships": "SYN-EAST",
+        "boundary_valid_start": "1910-01-01",
+        "boundary_valid_end": "1920-01-01",
+        "boundary_source_id": "SYN-BORDER",
+        "synthetic": "true"
+      },
+      {
+        "boundary_id": "SYN-B1925",
+        "place_id": "SYN-L1",
+        "centre_membership": "SYN-W",
+        "possible_memberships": "SYN-W|SYN-EAST",
+        "boundary_valid_start": "1920-01-01",
+        "boundary_valid_end": "1930-01-01",
+        "boundary_source_id": "SYN-BORDER",
+        "synthetic": "true"
+      },
+      {
+        "boundary_id": "SYN-B1925",
+        "place_id": "SYN-L2",
+        "centre_membership": "SYN-EAST",
+        "possible_memberships": "SYN-EAST",
+        "boundary_valid_start": "1920-01-01",
+        "boundary_valid_end": "1930-01-01",
+        "boundary_source_id": "SYN-BORDER",
+        "synthetic": "true"
+      }
+    ],
+    "candidate_places": [
+      {
+        "mention_id": "SYN-M1",
+        "mention_source_id": "SYN-D2",
+        "mention_source_locator": "input/dossier.md#syn-d2",
+        "source_form": "St. Peter",
+        "mention_date_start": "1910-06-15",
+        "mention_date_end": "1910-06-16",
+        "mention_date_kind": "event_window",
+        "place_id": "SYN-L1",
+        "review_status": "unresolved",
+        "confidence": "possible",
+        "evidence": "Workplace description insufficient to select candidate 1",
+        "boundary_id": "SYN-B1910",
+        "boundary_valid_start": "1910-01-01",
+        "boundary_valid_end": "1920-01-01",
+        "boundary_source_id": "SYN-BORDER",
+        "centre_membership": "SYN-EAST",
+        "possible_memberships": "SYN-W|SYN-EAST",
+        "name_id": "SYN-T1",
+        "toponym": "St. Peter",
+        "language": "de",
+        "name_context": "fictional_gazetteer",
+        "name_source_id": "SYN-NAMES",
+        "name_source_locator": "input/dossier.md#syn-names",
+        "name_valid_start": "1910-01-01",
+        "name_valid_end": "1930-01-01",
+        "comparison_interval_start": "1910-01-01",
+        "comparison_interval_end": "1920-01-01",
+        "comparison_scope": "candidate_place_history_not_mention_duration",
+        "synthetic": "true"
+      },
+      {
+        "mention_id": "SYN-M1",
+        "mention_source_id": "SYN-D2",
+        "mention_source_locator": "input/dossier.md#syn-d2",
+        "source_form": "St. Peter",
+        "mention_date_start": "1910-06-15",
+        "mention_date_end": "1910-06-16",
+        "mention_date_kind": "event_window",
+        "place_id": "SYN-L1",
+        "review_status": "unresolved",
+        "confidence": "possible",
+        "evidence": "Workplace description insufficient to select candidate 1",
+        "boundary_id": "SYN-B1910",
+        "boundary_valid_start": "1910-01-01",
+        "boundary_valid_end": "1920-01-01",
+        "boundary_source_id": "SYN-BORDER",
+        "centre_membership": "SYN-EAST",
+        "possible_memberships": "SYN-W|SYN-EAST",
+        "name_id": "SYN-T2",
+        "toponym": "Šent Peter",
+        "language": "sl",
+        "name_context": "fictional_gazetteer",
+        "name_source_id": "SYN-NAMES",
+        "name_source_locator": "input/dossier.md#syn-names",
+        "name_valid_start": "1910-01-01",
+        "name_valid_end": "1917-01-01",
+        "comparison_interval_start": "1910-01-01",
+        "comparison_interval_end": "1917-01-01",
+        "comparison_scope": "candidate_place_history_not_mention_duration",
+        "synthetic": "true"
+      },
+      {
+        "mention_id": "SYN-M1",
+        "mention_source_id": "SYN-D2",
+        "mention_source_locator": "input/dossier.md#syn-d2",
+        "source_form": "St. Peter",
+        "mention_date_start": "1910-06-15",
+        "mention_date_end": "1910-06-16",
+        "mention_date_kind": "event_window",
+        "place_id": "SYN-L1",
+        "review_status": "unresolved",
+        "confidence": "possible",
+        "evidence": "Workplace description insufficient to select candidate 1",
+        "boundary_id": "SYN-B1910",
+        "boundary_valid_start": "1910-01-01",
+        "boundary_valid_end": "1920-01-01",
+        "boundary_source_id": "SYN-BORDER",
+        "centre_membership": "SYN-EAST",
+        "possible_memberships": "SYN-W|SYN-EAST",
+        "name_id": "SYN-T3",
+        "toponym": "Šentpeter",
+        "language": "sl",
+        "name_context": "fictional_gazetteer",
+        "name_source_id": "SYN-NAMES",
+        "name_source_locator": "input/dossier.md#syn-names",
+        "name_valid_start": "1917-01-01",
+        "name_valid_end": "1930-01-01",
+        "comparison_interval_start": "1917-01-01",
+        "comparison_interval_end": "1920-01-01",
+        "comparison_scope": "candidate_place_history_not_mention_duration",
+        "synthetic": "true"
+      },
+      {
+        "mention_id": "SYN-M1",
+        "mention_source_id": "SYN-D2",
+        "mention_source_locator": "input/dossier.md#syn-d2",
+        "source_form": "St. Peter",
+        "mention_date_start": "1910-06-15",
+        "mention_date_end": "1910-06-16",
+        "mention_date_kind": "event_window",
+        "place_id": "SYN-L2",
+        "review_status": "unresolved",
+        "confidence": "possible",
+        "evidence": "Workplace description insufficient to select candidate 2",
+        "boundary_id": "SYN-B1910",
+        "boundary_valid_start": "1910-01-01",
+        "boundary_valid_end": "1920-01-01",
+        "boundary_source_id": "SYN-BORDER",
+        "centre_membership": "SYN-EAST",
+        "possible_memberships": "SYN-EAST",
+        "name_id": "SYN-T4",
+        "toponym": "St. Peter",
+        "language": "de",
+        "name_context": "fictional_gazetteer",
+        "name_source_id": "SYN-NAMES",
+        "name_source_locator": "input/dossier.md#syn-names",
+        "name_valid_start": "1910-01-01",
+        "name_valid_end": "1930-01-01",
+        "comparison_interval_start": "1910-01-01",
+        "comparison_interval_end": "1920-01-01",
+        "comparison_scope": "candidate_place_history_not_mention_duration",
+        "synthetic": "true"
+      },
+      {
+        "mention_id": "SYN-M1",
+        "mention_source_id": "SYN-D2",
+        "mention_source_locator": "input/dossier.md#syn-d2",
+        "source_form": "St. Peter",
+        "mention_date_start": "1910-06-15",
+        "mention_date_end": "1910-06-16",
+        "mention_date_kind": "event_window",
+        "place_id": "SYN-L2",
+        "review_status": "unresolved",
+        "confidence": "possible",
+        "evidence": "Workplace description insufficient to select candidate 2",
+        "boundary_id": "SYN-B1910",
+        "boundary_valid_start": "1910-01-01",
+        "boundary_valid_end": "1920-01-01",
+        "boundary_source_id": "SYN-BORDER",
+        "centre_membership": "SYN-EAST",
+        "possible_memberships": "SYN-EAST",
+        "name_id": "SYN-T5",
+        "toponym": "Sveti Peter",
+        "language": "sl",
+        "name_context": "fictional_gazetteer",
+        "name_source_id": "SYN-NAMES",
+        "name_source_locator": "input/dossier.md#syn-names",
+        "name_valid_start": "1910-01-01",
+        "name_valid_end": "1930-01-01",
+        "comparison_interval_start": "1910-01-01",
+        "comparison_interval_end": "1920-01-01",
+        "comparison_scope": "candidate_place_history_not_mention_duration",
+        "synthetic": "true"
+      },
+      {
+        "mention_id": "SYN-M1",
+        "mention_source_id": "SYN-D2",
+        "mention_source_locator": "input/dossier.md#syn-d2",
+        "source_form": "St. Peter",
+        "mention_date_start": "1910-06-15",
+        "mention_date_end": "1910-06-16",
+        "mention_date_kind": "event_window",
+        "place_id": "SYN-L1",
+        "review_status": "unresolved",
+        "confidence": "possible",
+        "evidence": "Workplace description insufficient to select candidate 1",
+        "boundary_id": "SYN-B1925",
+        "boundary_valid_start": "1920-01-01",
+        "boundary_valid_end": "1930-01-01",
+        "boundary_source_id": "SYN-BORDER",
+        "centre_membership": "SYN-W",
+        "possible_memberships": "SYN-W|SYN-EAST",
+        "name_id": "SYN-T1",
+        "toponym": "St. Peter",
+        "language": "de",
+        "name_context": "fictional_gazetteer",
+        "name_source_id": "SYN-NAMES",
+        "name_source_locator": "input/dossier.md#syn-names",
+        "name_valid_start": "1910-01-01",
+        "name_valid_end": "1930-01-01",
+        "comparison_interval_start": "1920-01-01",
+        "comparison_interval_end": "1930-01-01",
+        "comparison_scope": "candidate_place_history_not_mention_duration",
+        "synthetic": "true"
+      },
+      {
+        "mention_id": "SYN-M1",
+        "mention_source_id": "SYN-D2",
+        "mention_source_locator": "input/dossier.md#syn-d2",
+        "source_form": "St. Peter",
+        "mention_date_start": "1910-06-15",
+        "mention_date_end": "1910-06-16",
+        "mention_date_kind": "event_window",
+        "place_id": "SYN-L1",
+        "review_status": "unresolved",
+        "confidence": "possible",
+        "evidence": "Workplace description insufficient to select candidate 1",
+        "boundary_id": "SYN-B1925",
+        "boundary_valid_start": "1920-01-01",
+        "boundary_valid_end": "1930-01-01",
+        "boundary_source_id": "SYN-BORDER",
+        "centre_membership": "SYN-W",
+        "possible_memberships": "SYN-W|SYN-EAST",
+        "name_id": "SYN-T3",
+        "toponym": "Šentpeter",
+        "language": "sl",
+        "name_context": "fictional_gazetteer",
+        "name_source_id": "SYN-NAMES",
+        "name_source_locator": "input/dossier.md#syn-names",
+        "name_valid_start": "1917-01-01",
+        "name_valid_end": "1930-01-01",
+        "comparison_interval_start": "1920-01-01",
+        "comparison_interval_end": "1930-01-01",
+        "comparison_scope": "candidate_place_history_not_mention_duration",
+        "synthetic": "true"
+      },
+      {
+        "mention_id": "SYN-M1",
+        "mention_source_id": "SYN-D2",
+        "mention_source_locator": "input/dossier.md#syn-d2",
+        "source_form": "St. Peter",
+        "mention_date_start": "1910-06-15",
+        "mention_date_end": "1910-06-16",
+        "mention_date_kind": "event_window",
+        "place_id": "SYN-L2",
+        "review_status": "unresolved",
+        "confidence": "possible",
+        "evidence": "Workplace description insufficient to select candidate 2",
+        "boundary_id": "SYN-B1925",
+        "boundary_valid_start": "1920-01-01",
+        "boundary_valid_end": "1930-01-01",
+        "boundary_source_id": "SYN-BORDER",
+        "centre_membership": "SYN-EAST",
+        "possible_memberships": "SYN-EAST",
+        "name_id": "SYN-T4",
+        "toponym": "St. Peter",
+        "language": "de",
+        "name_context": "fictional_gazetteer",
+        "name_source_id": "SYN-NAMES",
+        "name_source_locator": "input/dossier.md#syn-names",
+        "name_valid_start": "1910-01-01",
+        "name_valid_end": "1930-01-01",
+        "comparison_interval_start": "1920-01-01",
+        "comparison_interval_end": "1930-01-01",
+        "comparison_scope": "candidate_place_history_not_mention_duration",
+        "synthetic": "true"
+      },
+      {
+        "mention_id": "SYN-M1",
+        "mention_source_id": "SYN-D2",
+        "mention_source_locator": "input/dossier.md#syn-d2",
+        "source_form": "St. Peter",
+        "mention_date_start": "1910-06-15",
+        "mention_date_end": "1910-06-16",
+        "mention_date_kind": "event_window",
+        "place_id": "SYN-L2",
+        "review_status": "unresolved",
+        "confidence": "possible",
+        "evidence": "Workplace description insufficient to select candidate 2",
+        "boundary_id": "SYN-B1925",
+        "boundary_valid_start": "1920-01-01",
+        "boundary_valid_end": "1930-01-01",
+        "boundary_source_id": "SYN-BORDER",
+        "centre_membership": "SYN-EAST",
+        "possible_memberships": "SYN-EAST",
+        "name_id": "SYN-T5",
+        "toponym": "Sveti Peter",
+        "language": "sl",
+        "name_context": "fictional_gazetteer",
+        "name_source_id": "SYN-NAMES",
+        "name_source_locator": "input/dossier.md#syn-names",
+        "name_valid_start": "1910-01-01",
+        "name_valid_end": "1930-01-01",
+        "comparison_interval_start": "1920-01-01",
+        "comparison_interval_end": "1930-01-01",
+        "comparison_scope": "candidate_place_history_not_mention_duration",
+        "synthetic": "true"
+      }
+    ],
+    "affine_coefficients_scaled_pixels": [
+      [
+        459982.1249783489,
+        696.9583137646359,
+        0.24795951818892423
+      ],
+      [
+        104147.66176338187,
+        -20.778826713997404,
+        -695.3049003983256
+      ]
+    ],
+    "fit_rmse_m": 15.231,
+    "independent_check_rmse_m": 220.063,
+    "residuals": [
+      {
+        "gcp_id": "G1",
+        "use": "fit",
+        "residual_m": 16.812
+      },
+      {
+        "gcp_id": "G2",
+        "use": "fit",
+        "residual_m": 8.1
+      },
+      {
+        "gcp_id": "G3",
+        "use": "fit",
+        "residual_m": 24.062
+      },
+      {
+        "gcp_id": "G4",
+        "use": "fit",
+        "residual_m": 0.851
+      },
+      {
+        "gcp_id": "G5",
+        "use": "check",
+        "residual_m": 276.686
+      },
+      {
+        "gcp_id": "G6",
+        "use": "check",
+        "residual_m": 142.481
+      }
+    ],
+    "leave_one_out": [
+      {
+        "withheld": "G1",
+        "check_residual_m": 55.195
+      },
+      {
+        "withheld": "G2",
+        "check_residual_m": 114.556
+      },
+      {
+        "withheld": "G3",
+        "check_residual_m": 38.566
+      },
+      {
+        "withheld": "G4",
+        "check_residual_m": 1090.241
+      }
+    ],
+    "warning": "Pilot landmark centres are not survey controls; synthetic boundaries are unrelated to this real map."
+  }
+}
