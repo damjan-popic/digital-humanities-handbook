@@ -1,15 +1,19 @@
 ---
 title: "How do I georeference and check a historical map in QGIS?"
-description: "georeference and check a historical map in QGIS with explicit sources, checks and uncertainty."
+description: "Georeference a rights-documented historical plan, reserve check points and report residual uncertainty."
 category: "Mapping"
 category_id: "Mapping"
 difficulty: "intermediate"
 time: "90–120 min"
-tags: [modelling, provenance, uncertainty]
+tags: [QGIS, georeferencing, control-points, CRS, spatial-uncertainty]
 status: draft
 ---
 
 # How do I georeference and check a historical map in QGIS?
+
+<div class="answer-meta" markdown>
+<span>Mapping</span><span>intermediate</span><span>90–120 min</span>
+</div>
 
 ## What you are trying to do
 
@@ -20,6 +24,10 @@ Test whether a historical plan and a current reference layer locate the same fea
 Unpack the [companion ZIP](../../../assets/downloads/contested-models-v1.zip), with Koch's 1910 Ljubljana scan, source-rights notes and cached current landmark coordinates. dLib labels this scan public domain; current structured coordinates derive from Wikidata's CC0 data. Read the precise attribution and limitations in `rights-and-provenance.md`.
 
 Use Python 3.10+ for the numerical route and QGIS for the raster exercise. Interface steps follow the [QGIS 3.40 manual](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/georeferencer.html). The numerical pilot is tested; this GUI procedure has not yet received a recorded QGIS session review. Record your installed version and any menu differences. Do not treat 3.40 as the newest release.
+
+Repository maintainers should complete `release/issue-25-qgis-review-checklist.md`,
+which records the exact environment, point, residual, visual-inspection and
+decision fields. Its pending state is not evidence that this procedure was run.
 
 ## Workflow
 

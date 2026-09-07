@@ -1,14 +1,14 @@
-assertion_id,subject_id,predicate,value_text,object_id,context,valid_start,valid_end,date_kind,recorded_at,supersedes,source_id,source_wording,confidence,synthetic
-SYN-A01,SYN-A,name,Anna Kovatsch,,municipal_register,1910-06-01,1910-06-02,event_window,2026-09-01T10:00:00Z,,SYN-D1,Anna Kovatsch,certain,true
-SYN-A02,SYN-A,name,Ana Kovać,,signature,1910-06-15,1910-06-16,event_window,2026-09-01T10:00:00Z,,SYN-D2,Ana Kovač,probable,true
-SYN-A03,SYN-A,name,Ana Kovač,,signature,1910-06-15,1910-06-16,event_window,2026-09-02T10:00:00Z,SYN-A02,SYN-D2,Ana Kovač,certain,true
-SYN-A04,SYN-A,status,servant,,municipal_register,1910-01-01,1911-01-01,duration,2026-09-01T10:00:00Z,,SYN-D1,Dienstbotin,certain,true
-SYN-A05,SYN-A,status,seamstress,,self_description,1910-01-01,1911-01-01,duration,2026-09-01T10:00:00Z,,SYN-D2,šivilja,certain,true
-SYN-A06,SYN-A,status,independent_craft_worker,,association_v2,1925-01-01,1926-01-01,duration,2026-09-01T10:00:00Z,,SYN-N1,samostojna obrtnica,certain,true
-SYN-A07,SYN-A,language_assigned,de,,municipal_register,1910-06-01,1910-06-02,event_window,2026-09-01T10:00:00Z,,SYN-D1,German,certain,true
-SYN-A08,SYN-A,language_used,sl,,private_letter,1910-06-15,1910-06-16,event_window,2026-09-01T10:00:00Z,,SYN-D2,Slovene,certain,true
-SYN-A09,SYN-A,language_knowledge,de_reading,,self_report,1910-06-15,1910-06-16,event_window,2026-09-01T10:00:00Z,,SYN-D2,reads German,probable,true
-SYN-A10,SYN-A,language_used,de,,institutional_application,1925-01-25,1925-01-26,event_window,2026-09-01T10:00:00Z,,SYN-N2,German,certain,true
-SYN-A11,SYN-A,residence,,SYN-L1,registered_residence,1910-01-01,1926-01-01,duration,2026-09-01T10:00:00Z,,SYN-D1,registered residence,certain,true
-SYN-A12,SYN-L1,territorial_membership,,SYN-EAST,synthetic_boundary,1910-01-01,1920-01-01,duration,2026-09-01T10:00:00Z,,SYN-BORDER,division at x=500,certain,true
-SYN-A13,SYN-L1,territorial_membership,,SYN-W,synthetic_boundary,1920-01-01,1930-01-01,duration,2026-09-01T10:00:00Z,,SYN-BORDER,division at x=600,certain,true
+assertion_id,subject_id,predicate,value_text,object_id,context,valid_start,valid_end,date_kind,recorded_at,supersedes,source_id,source_wording,source_wording_relation,confidence,synthetic
+SYN-A01,SYN-A,name,Anna Kovatsch,,municipal_register,1910-06-01,1910-06-02,event_window,2026-09-01T10:00:00Z,,SYN-D1,Anna Kovatsch,exact,certain,true
+SYN-A02,SYN-A,name,Ana Kovać,,signature,1910-06-15,1910-06-16,event_window,2026-09-01T10:00:00Z,,SYN-D2,Ana Kovač,exact,probable,true
+SYN-A03,SYN-A,name,Ana Kovač,,signature,1910-06-15,1910-06-16,event_window,2026-09-02T10:00:00Z,SYN-A02,SYN-D2,Ana Kovač,exact,certain,true
+SYN-A04,SYN-A,status,servant,,municipal_register,1910-01-01,1911-01-01,duration,2026-09-01T10:00:00Z,,SYN-D1,Dienstbotin,exact,certain,true
+SYN-A05,SYN-A,status,seamstress,,self_description,1910-01-01,1911-01-01,duration,2026-09-01T10:00:00Z,,SYN-D2,šivilja,exact,certain,true
+SYN-A06,SYN-A,status,independent_craft_worker,,association_v2,1925-01-01,1926-01-01,duration,2026-09-01T10:00:00Z,,SYN-N1,samostojna obrtnica,exact,certain,true
+SYN-A07,SYN-A,language_assigned,de,,municipal_register,1910-06-01,1910-06-02,event_window,2026-09-01T10:00:00Z,,SYN-D1,German,exact,certain,true
+SYN-A08,SYN-A,language_used,sl,,private_letter,1910-06-15,1910-06-16,event_window,2026-09-01T10:00:00Z,,SYN-D2,Slovene,exact,certain,true
+SYN-A09,SYN-A,language_knowledge,de_reading,,self_report,1910-06-15,1910-06-16,event_window,2026-09-01T10:00:00Z,,SYN-D2,read German,exact,probable,true
+SYN-A10,SYN-A,language_used,de,,institutional_application,1925-01-25,1925-01-26,event_window,2026-09-01T10:00:00Z,,SYN-N2,German,exact,certain,true
+SYN-A11,SYN-A,residence,,SYN-L1,registered_residence,1910-01-01,1926-01-01,duration,2026-09-01T10:00:00Z,,SYN-D1,registered residence,summary,certain,true
+SYN-A12,SYN-L1,territorial_membership,,SYN-EAST,synthetic_boundary,1910-01-01,1920-01-01,duration,2026-09-01T10:00:00Z,,SYN-BORDER,division at x=500,summary,certain,true
+SYN-A13,SYN-L1,territorial_membership,,SYN-W,synthetic_boundary,1920-01-01,1930-01-01,duration,2026-09-01T10:00:00Z,,SYN-BORDER,division at x=600,summary,certain,true

@@ -1,3 +1,3 @@
-boundary_id,valid_start,valid_end,divider_x_m,coordinate_system,synthetic
-SYN-B1910,1910-01-01,1920-01-01,500,local_engineering_not_geographic,true
-SYN-B1925,1920-01-01,1930-01-01,600,local_engineering_not_geographic,true
+boundary_id,valid_start,valid_end,divider_x_m,coordinate_system,source_id,synthetic
+SYN-B1910,1910-01-01,1920-01-01,500,local_engineering_not_geographic,SYN-BORDER,true
+SYN-B1925,1920-01-01,1930-01-01,600,local_engineering_not_geographic,SYN-BORDER,true

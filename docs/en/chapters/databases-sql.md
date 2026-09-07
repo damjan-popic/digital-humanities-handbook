@@ -83,8 +83,9 @@ and an institution should not be silently stored as a person to simplify a join.
 The [contested-models companion](../../assets/downloads/contested-models-v1.zip)
 contains a deliberately **synthetic** longitudinal dossier. Its Ana Kovač / Anna
 Kovatsch (`SYN-A`) is fictional, not a person identified in the newspaper. The
-authentic packet remains unchanged; the companion tests difficulties that one
-newspaper issue cannot itself document. Read the bilingual dossier before its
+archival-friction packet, built around an authentic newspaper issue, remains
+unchanged; the companion tests difficulties that one issue cannot itself
+document. Read the bilingual dossier before its
 tables. Source-readable test records are essential: otherwise validating a query
 against another generated table merely repeats the same assumptions.
 
@@ -136,13 +137,16 @@ when two claims in that document receive different editorial assessments.
 
 The executable schema separates `entity`, `source` and `assertion`. Each assertion
 has a subject, predicate, text value or entity object, context, historical interval,
-interval kind, record timestamp, source wording and confidence. The separate
-participation table supplies document roles for later event-oriented graphs.
+interval kind, record timestamp, source wording, its declared relation to the
+source (`exact`, `translation` or `summary`) and confidence. The exact
+source inventory links D1–D6, N1, N2, BORDER and NAMES to anchored blocks in the
+readable dossier. The separate participation table supplies document roles for
+later event-oriented graphs.
 
 ```text
 entity 1 -- many assertion many -- 1 source
 entity 1 -- many assertion.object_id       (entity-valued claims)
-assertion 1 -- many assertion.supersedes  (editorial revision)
+assertion 1 -- zero-or-one assertion.supersedes  (editorial revision)
 ```
 
 | Model | Enables | Obscures or makes expensive |
@@ -212,6 +216,10 @@ a production schema needs explicit handling for open, unknown and contested boun
 
 For editorial change, insert a new assertion linked by `supersedes`. The sample
 retains both the mistaken Ana Kovać and its corrected transcription Ana Kovač.
+The teaching schema permits this only when source, subject, predicate, context,
+valid interval and interval kind are identical; it also prevents two rows from
+claiming to be the direct successor of one assertion. That narrow rule models a
+replacement of the same editorial claim, not a change in the historical period.
 By contrast, the occupational disagreement is not a correction and neither source
 supersedes the other. An append-only ledger supports reconstruction of earlier
 views, but timestamps must be controlled by the application to be trustworthy;
@@ -265,7 +273,8 @@ and ecclesiastical jurisdictions may be meaningful, not errors to delete.
 candidate links, evidence and decisions rather than merging on a similar name.
 Test a proposed merge by inspecting dates, places, roles and source independence.
 A false merge creates connections between two biographies and contaminates both
-maps and networks. In the authentic packet, the rejected Meker/Meeker match is
+maps and networks. In the archival-friction packet's reference layer, the
+rejected Meker/Meeker match is
 a useful counterexample to automatic spelling-based identity.
 
 ## Validation, sensitivity and export loss

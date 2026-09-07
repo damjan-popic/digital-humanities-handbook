@@ -1,15 +1,19 @@
 ---
 title: "How do I model changing place names and boundaries?"
-description: "model changing place names and boundaries with explicit sources, checks and uncertainty."
+description: "Preserve multilingual place names, unresolved candidates and dated boundaries in a time-qualified spatial model."
 category: "Mapping"
 category_id: "Mapping"
 difficulty: "intermediate"
 time: "60–90 min"
-tags: [modelling, provenance, uncertainty]
+tags: [historical-GIS, toponyms, boundaries, temporal-data, uncertainty]
 status: draft
 ---
 
 # How do I model changing place names and boundaries?
+
+<div class="answer-meta" markdown>
+<span>Mapping</span><span>intermediate</span><span>60–90 min</span>
+</div>
 
 ## What you are trying to do
 
@@ -51,7 +55,14 @@ The ±75 m range is a sensitivity assumption, not a probability distribution. Ge
 
 ### 4. Preserve ambiguity in an output view
 
-Produce one row per candidate and period with source wording, candidate ID, geometry basis, centre membership, possible memberships and decision status. Count the unresolved mention once, not as two workplaces or two residents. Record what new evidence could distinguish the candidates: a dated street description, surrounding names or a source-specific itinerary.
+Inspect `candidate-places.csv`. Each row keeps the mention source and event window,
+the boundary-validity interval and the toponym-validity interval in different
+fields. `comparison_interval_start` and `_end` are their true boundary/name
+intersection; the scope label says this is candidate-place history, not mention
+duration. Confirm that the 1917 `SYN-L1` name change appears within the still-active
+1910 boundary. Count the unresolved mention once, not as two workplaces or two
+residents. Record what new evidence could distinguish the candidates: a dated
+street description, surrounding names or a source-specific itinerary.
 
 If you draw a diagram, label it synthetic and include the table. A real GeoPackage adaptation should retain separate dated boundary features and identifiers linked to the assertion table. Do not overwrite the old polygon with the new one.
 

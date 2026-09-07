@@ -16,7 +16,8 @@ PACKET = ROOT / 'teaching-data/contested-models'
 ARCHIVE = ROOT / 'docs/assets/downloads/contested-models-v1.zip'
 PREFIX = 'contested-models-v1/'
 EXPECTED = ('results.json', 'membership.csv', 'candidate-places.csv',
-            'gcp-residuals.csv', 'gcp-leave-one-out.csv', 'projection-evidence.csv')
+            'gcp-residuals.csv', 'gcp-leave-one-out.csv', 'projection-evidence.csv',
+            'projection-singletons.csv')
 
 
 def build(check=False):
@@ -31,7 +32,7 @@ def build(check=False):
             relative = path.relative_to(PACKET)
             if not path.is_file() or any(part in ('expected', '__pycache__') for part in relative.parts):
                 continue
-            if path.suffix not in ('.py', '.md', '.sql', '.csv', '.txt', '.jpg'):
+            if path.suffix not in ('.py', '.md', '.sql', '.csv', '.json', '.txt', '.jpg'):
                 continue
             members.append((PREFIX + relative.as_posix(), path.read_bytes()))
         members.extend((PREFIX + 'expected/' + name, generated[PACKET / 'expected' / name]) for name in EXPECTED)

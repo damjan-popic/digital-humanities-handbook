@@ -99,22 +99,47 @@ def graph_metrics(nodes, edges, directed=False):
             'components': components, 'metrics': metrics, 'communities': communities(nodes, edges)}
 
 
+def projection_inputs(participation):
+    """Separate singleton documents before forming any one-mode pairs."""
+    by_document = defaultdict(list)
+    for row in participation:
+        by_document[row['document_id']].append(row)
+    support = defaultdict(list)
+    singletons = []
+    for document, participants in sorted(by_document.items()):
+        people = sorted({row['person_id'] for row in participants})
+        if len(people) == 1:
+            singletons.append({'document_id': document, 'person_id': people[0],
+                               'projection_effect': 'retained_bipartite_no_projected_pair'})
+        for pair in combinations(people, 2):
+            support[pair].append(document)
+    return by_document, support, singletons
+
+
+def fractional_weights(support, by_document):
+    """Weight pair support by 1/(unique participants - 1); singleton documents form no pair."""
+    return {pair: sum(Fraction(1, len({row['person_id'] for row in by_document[document]}) - 1)
+                           for document in documents)
+            for pair, documents in support.items()}
+
+
 def compare(root, output, read_csv, write_csv):
     documents = {row['document_id']: row for row in read_csv(root / 'input/documents.csv')}
     people = [row['entity_id'] for row in read_csv(root / 'input/entities.csv') if row['kind'] == 'person']
     participation = read_csv(root / 'input/participation.csv')
-    by_document = defaultdict(list)
-    for row in participation:
-        by_document[row['document_id']].append(row)
+    by_document, support, singletons = projection_inputs(participation)
     result = {}
     bipartite = [(row['person_id'], row['document_id']) for row in participation]
     result['bipartite'] = graph_metrics(people + list(documents), bipartite)
+    result['bipartite']['singleton_documents'] = singletons
     write_csv(output / 'bipartite-edges.csv', participation)
-    support = defaultdict(list)
-    for document, participants in sorted(by_document.items()):
-        for pair in combinations(sorted({row['person_id'] for row in participants}), 2):
-            support[pair].append(document)
+    write_csv(output / 'projection-singletons.csv',
+              [{**row, 'source_id': documents[row['document_id']]['source_id'],
+                'source_locator': documents[row['document_id']]['source_locator'], 'synthetic': 'true'}
+               for row in singletons],
+              fields=('document_id', 'person_id', 'projection_effect', 'source_id', 'source_locator', 'synthetic'))
     evidence = [{'person_a': a, 'person_b': b, 'document_id': doc,
+                 'source_id': documents[doc]['source_id'],
                  'source_locator': documents[doc]['source_locator'], 'synthetic': 'true'}
                 for (a, b), docs in sorted(support.items()) for doc in docs]
     write_csv(output / 'projection-evidence.csv', evidence)
@@ -127,8 +152,7 @@ def compare(root, output, read_csv, write_csv):
                     'evidence_ids': '|'.join(support[a, b]), 'synthetic': 'true'} for a, b in selected])
     no_press = [pair for pair, docs in sorted(support.items()) if any(doc != 'SYN-D5' for doc in docs)]
     result['without_press_list'] = graph_metrics(people, no_press)
-    fractional = {pair: sum(Fraction(1, len(by_document[doc]) - 1) for doc in docs)
-                  for pair, docs in support.items()}
+    fractional = fractional_weights(support, by_document)
     result['fractional_ge_1'] = graph_metrics(people, [pair for pair in sorted(fractional) if fractional[pair] >= 1])
     write_csv(output / 'fractional-weights.csv',
               [{'person_a': a, 'person_b': b, 'weight': float(value)}
@@ -146,6 +170,7 @@ def compare(root, output, read_csv, write_csv):
                                        'date_start': documents[document]['date_start'],
                                        'date_end': documents[document]['date_end'],
                                        'date_kind': 'event_window', 'relation': 'asserted_correspondence',
+                                       'source_id': documents[document]['source_id'],
                                        'source_locator': documents[document]['source_locator'], 'synthetic': 'true'})
     write_csv(output / 'correspondence-edges.csv', correspondence)
     for name, rows in [('correspondence', correspondence),

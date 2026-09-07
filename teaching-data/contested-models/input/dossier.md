@@ -30,17 +30,15 @@ SYN-L1 and SYN-L2. It does not say she moved from her registered residence.
 ## SYN-D3 — invented association list, 1925-01-20
 
 C, Dora Hribar (D) and Eva Marin (E) are listed together. A is NOT on this
-document. A separate status note attached to this dossier (SYN-N1) describes A
-as an independent craft worker (samostojna obrtnica) during 1925, using a new
-association vocabulary. The status note is not a seventh network document.
+document. The separate status note SYN-N1 concerns A but is not a seventh
+network document.
 
 <a id="syn-d4"></a>
 
 ## SYN-D4 — invented letter, 1925-01-25
 
-D writes to E. A separate enclosure (SYN-N2, not a network document) records
-A using German in an institutional application on that date. The enclosure
-does not reverse the observed Slovene use in SYN-D2.
+D writes to E. The separate enclosure SYN-N2 concerns A but is not a network
+document.
 
 <a id="syn-d5"></a>
 
@@ -58,7 +56,21 @@ E writes to F. The editorial interval is 1925-02-01 to 1925-03-01, exclusive
 at the upper end. This means a single uncertain event within the month, not
 daily correspondence throughout it. The addressee identification is probable.
 
-## Names, editorial time and boundaries
+<a id="syn-n1"></a>
+
+## SYN-N1 — invented status note, 1925
+
+The note describes A as an independent craft worker (samostojna obrtnica)
+during 1925, using a new association vocabulary.
+
+<a id="syn-n2"></a>
+
+## SYN-N2 — invented institutional enclosure, 1925-01-25
+
+The enclosure records A using German in an institutional application on that
+date. It does not reverse the observed Slovene use in SYN-D2.
+
+## Editorial correction and parallel descriptions
 
 A's administrative form Anna Kovatsch is attested by SYN-D1; her signature
 Ana Kovač by SYN-D2. Neither is declared the person's timeless preferred name.
@@ -66,6 +78,10 @@ An editor first transcribes the signature as Ana Kovać on 2026-09-01, then
 supersedes that assertion with Ana Kovač on 2026-09-02. Both states are retained.
 The two occupational descriptions remain parallel, not superseded: their
 different institutional contexts may explain an apparent contradiction.
+
+<a id="syn-border"></a>
+
+## SYN-BORDER — invented boundary model
 
 For a spatial stress test only, a square territory 0–1000 m in each direction
 is divided at x=500 before 1920 and x=600 from 1920. SYN-W is west and SYN-EAST
@@ -78,10 +94,12 @@ devices, not a historical gazetteer. The authentic map's printed St. Peter
 district is inspected separately; shared wording does not identify the fictional
 workplace. Dates below use half-open intervals [start,end).
 
+<a id="syn-names"></a>
+
 ## SYN-NAMES — invented multilingual gazetteer note
 
 The fictional gazetteer uses German St. Peter for both L1 and L2 throughout
-1910–1929. For L1 it uses Slovene Šent Peter in 1910–1919 and Šentpeter in
-1920–1929; for L2 it uses Sveti Peter throughout. These spellings and validity
+1910–1929. For L1 it uses Slovene Šent Peter in 1910–1916 and Šentpeter in
+1917–1929; for L2 it uses Sveti Peter throughout. These spellings and validity
 dates are stipulated test records, not claims about historical naming practice.
 They do not resolve which place the workplace mention identifies.

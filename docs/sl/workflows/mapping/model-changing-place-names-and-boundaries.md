@@ -1,16 +1,20 @@
 ---
 title: "Kako modeliram spreminjajoča se krajevna imena in meje?"
-description: "Preverljiv postopek z izrecnimi viri, modelnimi odločitvami in negotovostjo."
+description: "Večjezična krajevna imena, nerazrešene kandidate in datirane meje ohranite v časovno opredeljenem prostorskem modelu."
 category: "Kartiranje"
 category_id: "Mapping"
 difficulty: "srednje"
 time: "60–90 min"
-tags: [modeliranje, provenienca, negotovost]
+tags: [zgodovinski-GIS, toponimi, meje, časovni-podatki, negotovost]
 status: draft
 translation_status: machine-assisted draft; requires human language review
 ---
 
 # Kako modeliram spreminjajoča se krajevna imena in meje?
+
+<div class="answer-meta" markdown>
+<span>Kartiranje</span><span>srednje</span><span>60–90 min</span>
+</div>
 
 Strojno podprt prevodni osnutek; potreben je strokovni jezikovni pregled.
 
@@ -54,13 +58,20 @@ Razpon ±75 m je predpostavka občutljivosti, ne verjetnostna porazdelitev. Mož
 
 ### 4. Ohranite dvoumnost v rezultatu
 
-Za vsakega kandidata in obdobje pripravite vrstico z izvirnim imenom, identifikatorjem, podlago geometrije, središčno pripadnostjo, možnimi pripadnostmi in stanjem odločitve. Nerazrešeno omembo štejte enkrat, ne kot dve delovišči ali dve osebi. Navedite dokaz, ki bi kandidata ločil: datirani opis ulice, okoliška imena ali itinerar konkretnega vira.
+Preglejte `candidate-places.csv`. Vsaka vrstica v ločenih poljih ohrani vir in
+časovno okno omembe, veljavnost meje ter veljavnost toponima. Polji
+`comparison_interval_start` in `_end` vsebujeta dejanski presek intervalov meje
+in imena; oznaka namena pojasnjuje, da gre za zgodovino možnega kraja, ne trajanje
+omembe. Preverite, da se sprememba imena `SYN-L1` leta 1917 pojavi znotraj še
+veljavne meje iz leta 1910. Nerazrešeno omembo štejte enkrat, ne kot dve delovišči
+ali dve osebi. Navedite dokaz, ki bi kandidata ločil: datirani opis ulice, okoliška
+imena ali itinerar konkretnega vira.
 
 Če narišete shemo, jo označite kot sintetično in priložite tabelo. Pri resnični prilagoditvi v GeoPackage ohranite ločene datirane mejne objekte z identifikatorji, povezanimi s tabelo trditev. Starega poligona ne prepišite z novim.
 
 ### 5. Preverite drugo predpostavko
 
-V kopiji paketa negotovost L1 spremenite na nič in ponovite izračun v novi mapi. Pripadnost postane enolična v vsakem obdobju, sprememba po središčni točki pa ostane. Vrnite izvirnik in pojasnite, zakaj poskus ne dokazuje natančnega resničnega položaja. Ločeno preverite 1919-12-31 in 1920-01-01 za kontrolo krajišč intervala.
+V kopiji paketa negotovost L1 spremenite na nič in ponovite izračun v novi mapi. Pripadnost postane enolična v vsakem obdobju, sprememba po središčni točki pa ostane. Vrnite izvirnik in pojasnite, zakaj poskus ne dokazuje natančnega resničnega položaja. Datuma 1919-12-31 in 1920-01-01 preverite ločeno, da preizkusite robni vrednosti intervala.
 
 ## Rezultat
 

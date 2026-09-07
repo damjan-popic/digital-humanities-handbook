@@ -33,7 +33,7 @@ Graf sestavljajo vozlišča in povezave, vendar zgodovinska razmerja spoznavamo 
 
 Ločite štiri ravni. **Opazovano razmerje v zapisu** poveže imenovanega udeleženca s pregledanim dokumentom. **Zatrjevano razmerje** povzame, kaj dokument trdi. **Izpeljano razmerje** je odvisno od izrecnega interpretativnega pravila. **Sopojavljanje** poveže entitete znotraj izbrane enote besedila, ne da bi dokazovalo medsebojno delovanje. Tudi pregledani dokument lahko osebo napačno prepozna ali dogodek opiše netočno.
 
-Uporaben zapis povezave zato vsebuje obe krajišči, vrsto razmerja, smer, identifikator dokaza, lokator vira, časovni interval, zanesljivost in pravilo gradnje. Ohranite besedilo vira ali obnovljivo pot do odlomka. Izrisana črta mora omogočiti vrnitev skozi te odločitve. Poglavje [Modeli, dokazi in interpretacija](models-evidence-interpretation.md) umešča razlikovanje med gradnjo podatkov in zgodovinsko razlago v širši okvir.
+Uporaben zapis povezave zato vsebuje obe krajišči, vrsto razmerja, smer, identifikator dokaza, lokator vira, časovni interval, zanesljivost in pravilo gradnje. Ohranite besedilo vira ali obnovljivo pot do odlomka. Izrisana črta mora omogočiti vrnitev skozi te odločitve. Poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) umešča razlikovanje med gradnjo podatkov in zgodovinsko razlago v širši okvir.
 
 ## Izbira vozlišč in razreševanje entitet
 
@@ -57,11 +57,11 @@ Datum pisma je čas dogodka, ne trajanje družbene vezi. `SYN-D6` je datiran sam
 
 Združevanje let 1910 in 1925 lahko ustvari poti, katerih povezave nikoli niso obstajale hkrati. Časovna pot potrebuje tudi pravilo zaporedja: sporočilo po poznejšem dogodku ne more potovati prek zgodnejšega. Neznani datumi različno vplivajo na možno in gotovo dosegljivost. Nedatiranega gradiva neopazno ne postavite na sredino raziskovanega obdobja.
 
-Zanesljivost opredeljuje konkretno trditev. V primeru je prejemnik `SYN-D6` verjeten; obstoj sintetičnega dokumenta znotraj vaje ni negotov. Takšno razlikovanje omogoča primerjavo samo zanesljivo določenih prejemnikov brez brisanja izvornega zapisa. Kategorije zanesljivosti so pregledovalne konvencije, ne samodejno umerjene verjetnosti.
+Zanesljivost opredeljuje konkretno trditev. V primeru je prejemnik `SYN-D6` verjeten; obstoj sintetičnega dokumenta znotraj vaje ni negotov. Takšno razlikovanje omogoča primerjavo samo zanesljivo določenih prejemnikov brez brisanja izvornega zapisa. Oznake zanesljivosti so dogovor za uredniški pregled, ne samodejno umerjene verjetnosti.
 
 ## En dosje, tri predstavitve
 
-Nadzorovani dosje vsebuje šest oseb in šest dokumentov. Ločene opombe o statusu iz poglavja o podatkovnih zbirkah niso vključene v omrežno izbiro. Tudi izbor je dokumentirana odločitev, ne nevidno predhodno čiščenje.
+Nadzorovani dosje vsebuje šest oseb in šest dokumentov. Ločene opombe o statusu iz poglavja o podatkovnih zbirkah niso vključene v izbor virov za omrežje. Tudi izbor je dokumentirana odločitev, ne nevidno predhodno čiščenje.
 
 | Dokument | Udeleženci | Vrsta vira in podatki o razmerju |
 |---|---|---|
@@ -80,19 +80,24 @@ Izvirni časopis ostaja ločeno preverjanje dokazov: štiri posamično poimenova
 
 Projekcija skupno udeležbo v dokumentu zamenja s povezavami med osebami. Dokument s k osebami prispeva k(k−1)/2 možnih parov. Seznam šestih oseb zato prispeva petnajst parov, čeprav ostaja en sam vir. Seznam treh oseb prispeva tri. To je napihovanje števila povezav pri projekciji, ne petnajst neodvisnih pričevanj o povezanosti.
 
+Dokument z eno samo izbrano osebo ostane veljavna povezava med osebo in dokumentom
+v dvodelnem grafu, v projekciji oseb pa ne ustvari para. Zabeležite ga med
+kontrolami projekcije, namesto da ga neopazno izpustite. Ker para ni, dokument
+prav tako ne prispeva člena `1/(k−1)` in ne povzroči deljenja z nič.
+
 Razprava [Latapyja, Magnien in Del Vecchia](https://doi.org/10.1016/j.socnet.2007.04.006) o dvodelnih omrežjih daje formalno izhodišče za ohranitev dvodelne strukture. V našem primeru `SYN-D5` sam poveže vsak par. Nastali polni graf prikrije razliko med parom iz enega seznama in parom, podprtim z več zapisi.
 
-Ohranite podporno tabelo z eno vrstico za vsak par in vsak pripadajoči dokument. Pred štetjem dokumentov odstranite podvojene omembe iste osebe znotraj istega dokumenta. Preverite tudi, ali dokumenta prepisujeta skupen vir: različna identifikatorja ne zagotavljata neodvisnosti dokazov. Projicirana povezava je izpeljani povzetek s provenienco, ne novo arhivsko dejstvo.
+Ohranite tabelo dokazne podlage z eno vrstico za vsak par in vsak pripadajoči dokument. Pred štetjem dokumentov odstranite podvojene omembe iste osebe znotraj istega dokumenta. Preverite tudi, ali dokumenta prepisujeta skupen vir: različna identifikatorja ne zagotavljata neodvisnosti dokazov. Projicirana povezava je izpeljani povzetek s provenienco, ne novo arhivsko dejstvo.
 
-## Pragovi in delne uteži
+## Pragovi in uteži glede na velikost dokumenta
 
 Utež naj pomeni število različnih skupnih dokumentov. Pri pragu 1 ohranite vsak podprti par; pri pragu 2 zahtevajte dva dokumenta; pri pragu 3 tri. Pragovi ne pomenijo šibkega, zanesljivega in gotovega prijateljstva. Pomenijo različno pogosto skupno dokumentiranost po izbranem pravilu.
 
 Druga projekcija vsakemu skupnemu dokumentu dodeli prispevek 1/(k−1), kjer je k število njegovih udeležencev. Tako velik seznam k posameznemu paru prispeva manj: `SYN-D5` doda 0,2 namesto 1. Normalizacija je izrecna analitična odločitev, ne univerzalni popravek. Druge utežitve odgovarjajo na druga vprašanja.
 
-Paket v vsaki primerjavi oseb ohrani vseh šest vozlišč, tudi izolirana. Mere obravnavajo preostale povezave kot enotske dolžine; dokumentne uteži določajo izbor povezav, niso pa dolžine poti. Večjega števila dokumentov ne razlagajte kot večjo oddaljenost. Če moč pretvarjate v razdaljo, pretvorbo utemeljite in njen vpliv preverite posebej.
+Paket v vsaki primerjavi oseb ohrani vseh šest vozlišč, tudi izolirana. Mere obravnavajo preostale povezave kot enotske dolžine; uteži glede na število dokumentov določajo izbor povezav, niso pa dolžine poti. Večjega števila dokumentov ne razlagajte kot večjo oddaljenost. Če moč pretvarjate v razdaljo, pretvorbo utemeljite in njen vpliv preverite posebej.
 
-## Izdelana primerjava: struktura in stopnja
+## Primerjalni primer: zgradba omrežja in prag
 
 | Pravilo gradnje | Povezave | Komponente | Največja stopnja med osebami |
 |---|---:|---:|---|
@@ -100,7 +105,7 @@ Paket v vsaki primerjavi oseb ohrani vseh šest vozlišč, tudi izolirana. Mere 
 | Projekcija, prag 1 | 15 | 1 | vseh šest: 5 oseb |
 | Projekcija, prag 2 | 7 | 1 | C: 4 osebe |
 | Projekcija, prag 3 | 2 | 4 | A, B, D, E: 1 oseba |
-| Delna utež, vsaj 1 | 3 | 3 | E: 2 osebi |
+| Utež 1/(k−1), vsaj 1 | 3 | 3 | E: 2 osebi |
 | Usmerjena korespondenca | 3 | 3 šibke komponente | E: 2 pripadajoči povezavi |
 
 Stopnja v dvodelnem grafu šteje dokumente, ne ljudi. Vrstni red zato previdno primerjajte s projicirano stopnjo. Pri pragu 1 časopisni seznam vse izenači. Pri pragu 2 ostanejo pari AB, AC, BC, CD, CE, DE in EF. C zdaj povezuje dela ABC in CDE. Pri pragu 3 ostaneta samo AB in DE, C in F pa sta izolirana.
@@ -109,13 +114,13 @@ Korespondenčni graf vsebuje A→B, D→E in E→F. Šibke komponente pri ugotav
 
 ## Vmesnost in bližina zahtevata predpostavke
 
-**Vmesnost** pripisuje deleže vozliščem na najkrajših poteh med drugimi vozlišči. Paket poroča surove, nenormalizirane vrednosti; pri neusmerjenem grafu dvojno štetje parov deli z dve. V projekciji s pragom 2 ima C vmesnost 6, E pa 4; druge osebe imajo nič. V polnem grafu pri pragu 1 so vse vrednosti nič, saj vsak par že povezuje neposredna povezava.
+**Središčnost po vmesnosti** pripisuje deleže vozliščem na najkrajših poteh med drugimi vozlišči. Paket poroča nenormalizirane vrednosti; pri neusmerjenem grafu dvojno štetje parov deli z dve. V projekciji s pragom 2 ima C vrednost 6, E pa 4; druge osebe imajo nič. V polnem grafu pri pragu 1 so vse vrednosti nič, saj vsak par že povezuje neposredna povezava.
 
-V usmerjeni korespondenci ima E vmesnost 1 zaradi poti od D do F prek E. To je grafovska pot prek zapisov, ne dokaz, da je E prenesel sporočilo, posredoval vpliv ali poznal vse pošiljatelje. Takšne razlage potrebujejo časovne in kontekstualne dokaze.
+V usmerjeni korespondenci ima E vrednost 1 zaradi poti od D do F prek E. To je pot v grafu, izpeljana iz zapisov, ne dokaz, da je E prenesel sporočilo, posredoval vpliv ali poznal vse pošiljatelje. Takšne razlage potrebujejo časovne in kontekstualne dokaze.
 
-Običajna **centralnost bližine** uporablja razdalje do drugih vozlišč in pri nepovezanem grafu zahteva dodatno konvencijo. Paket uporablja izhodno harmonično bližino: sešteje obratne vrednosti končnih razdalj in deli z N−1; nedosegljiva vozlišča prispevajo nič. Pri pragu 2 C doseže 0,9, E pa 0,8. V korespondenci D doseže 0,3, E 0,2 in B nič. Omejitev na dosegljiva vozlišča ali obrat smeri bi odgovorila na drugo vprašanje.
+Običajna **središčnost po bližini** uporablja razdalje do drugih vozlišč in pri nepovezanem grafu zahteva dodatno konvencijo. Paket uporablja harmonično bližino po izhodnih poteh: sešteje obratne vrednosti končnih razdalj in deli z N−1; nedosegljiva vozlišča prispevajo nič. Pri pragu 2 C doseže 0,9, E pa 0,8. V korespondenci D doseže 0,3, E 0,2 in B nič. Omejitev na dosegljiva vozlišča ali obrat smeri bi odgovorila na drugo vprašanje.
 
-Mere povzemajo model. Preden nekoga označite za vplivnega, pojasnite, zakaj najkrajše poti ali neposredni sosedje predstavljajo verjeten zgodovinski proces, ter preglejte podporne odlomke.
+Mere povzemajo model. Preden nekoga označite za vplivnega, pojasnite, zakaj najkrajše poti ali neposredni sosedje predstavljajo verjeten zgodovinski proces, ter preglejte odlomke, ki trditev podpirajo.
 
 ## Komponente in skupnosti niso politične skupine
 

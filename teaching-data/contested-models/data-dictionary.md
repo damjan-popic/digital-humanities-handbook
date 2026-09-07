@@ -8,24 +8,29 @@ YYYY-MM-DD and half-open intervals [start,end). Record times use canonical UTC.
 | Input | Row and important fields |
 |---|---|
 | `entities.csv` | person, place or territory; stable `entity_id`, display label, `synthetic` |
-| `documents.csv` | one selected network document; genre, possible event window, source locator |
-| `participation.csv` | one unique person–document pair; role, confidence, synthetic flag |
-| `assertions.csv` | subject, predicate, text XOR entity object, context, interval kind, recorded time, superseded assertion, source wording and confidence |
+| `sources.csv` | the exact ten-source inventory D1–D6, N1, N2, BORDER and NAMES; source type, anchored dossier locator and content status |
+| `documents.csv` | one selected network document; genre, possible event window, source ID and locator |
+| `participation.csv` | one unique person–document pair; role, confidence, source ID and synthetic flag |
+| `assertions.csv` | subject, predicate, text XOR entity object, context, interval kind, recorded time, superseded assertion, source wording, wording relation and confidence |
 | `candidates.csv` | one mention–candidate pair; original wording, source, unresolved decision and reason |
 | `toponyms.csv` | one source-qualified name variant; language, context and validity interval; all fictional |
 | `places.csv` | invented point in the local engineering square; x/y metres and stipulated ±75 m positional uncertainty |
-| `boundaries.csv` | one dated divider version; west is x below divider, east includes divider |
+| `boundaries.csv` | one source-qualified dated divider version; west is x below divider, east includes divider |
 | `landmarks.csv` | authentic-map pixel candidate and current Wikidata coordinate/revision; reported precision is not verified accuracy |
 | `gcps.csv` | same landmark rows plus cached EPSG:3794 easting/northing in metres |
 
-`source_wording` in the synthetic assertion table can be a translated summary
-of the fictional record, not an archival quotation. The readable dossier states
-the test conditions. A02's value contains the deliberately mistaken transcription
+`source_wording_relation` says exactly whether `source_wording` is an
+`exact`, `translation` or `summary`; it must not be inferred from the
+wording itself. All are statements about the fictional dossier, not quotations
+from an archive. A02's value contains the deliberately mistaken transcription
 while its source wording retains the stipulated signature. A03 supersedes A02.
 Status assertions A04 and A05 remain parallel. Prefix all shortened IDs with SYN-.
 
 The schema checks referential consistency and append-only assertions. The importer
-checks canonical dates and unique participation. It is not a complete temporal
+checks canonical dates, the exact anchored source inventory and unique
+participation. A superseding row must keep the earlier assertion's subject,
+predicate, context, source, interval and date kind; a row can have at most one
+direct successor. It is not a complete temporal
 ontology: no unknown endpoints, calendar conversions or secured transaction
 timestamps are implemented. Predicate/object type compatibility still needs
 domain review. The conflict query reports overlapping different status labels,
@@ -35,13 +40,19 @@ it does not apply the entity/date filters of the ordinary query.
 ## Output conventions
 
 - `assertions-*.csv`: snapshots with source and date qualification.
-- `membership.csv`: four centre/possible membership rows for two places and periods.
-- `candidate-places.csv`: the same periods with unresolved mention candidates and
-  dated multilingual names; do not count these rows as residents.
+- `membership.csv`: four centre/possible membership rows with explicitly named
+  boundary-validity fields for two places and periods.
+- `candidate-places.csv`: unresolved mention candidates joined to the historical
+  states of each candidate place. Mention dates, boundary dates and name dates
+  remain separate; `comparison_interval_*` is the true half-open intersection of
+  a boundary version and name version, not the duration of the mention. Do not
+  count these rows as residents.
 - `authentic-issue-cooccurrence.csv`: six pairs from the four individually labelled
   reference observations; source locators are retained. No interaction is inferred.
 - `projection-evidence.csv`: one row per pair and supporting document. Projection
   weights count distinct documents, not independent historical testimonies.
+- `projection-singletons.csv`: documents with exactly one participant. They remain
+  in `bipartite-edges.csv` but produce no projected pair and no fractional divisor.
 - `*-metrics.csv`: degree, in/out degree, raw betweenness and outgoing harmonic
   closeness divided by N−1. Undirected in/out columns both equal ordinary degree.
   Edge weights select edges, but all retained paths have unit length.

@@ -1,15 +1,19 @@
 ---
 title: "How do I compare bipartite and projected networks?"
-description: "compare bipartite and projected networks with explicit sources, checks and uncertainty."
+description: "Compare person–document evidence with projected networks, thresholds and source-preserving weights."
 category: "Networks"
 category_id: "Networks"
 difficulty: "intermediate"
 time: "60–90 min"
-tags: [modelling, provenance, uncertainty]
+tags: [bipartite-networks, projection, thresholds, centrality, provenance]
 status: draft
 ---
 
 # How do I compare bipartite and projected networks?
+
+<div class="answer-meta" markdown>
+<span>Networks</span><span>intermediate</span><span>60–90 min</span>
+</div>
 
 ## What you are trying to do
 
@@ -34,6 +38,11 @@ python run.py --output output-first
 The bipartite graph connects people only to documents. The projected graph links pairs sharing a document, with weight equal to distinct shared documents. The correspondence graph uses only letter records with explicit sender and recipient roles.
 
 Open `bipartite-edges.csv`, `projection-evidence.csv` and `correspondence-edges.csv`. A projected pair retains every supporting document; it does not become a new independent source.
+
+Also inspect `projection-singletons.csv`. A document with one selected person
+must remain in the bipartite edge list, create no projected pair and contribute
+no fractional divisor. The current fixture has no singleton, so the file
+contains its auditable header; the regression check exercises the rule directly.
 
 ### 3. Compare thresholds and rankings
 

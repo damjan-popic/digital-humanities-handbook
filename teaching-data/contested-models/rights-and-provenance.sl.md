@@ -1,6 +1,10 @@
+---
+translation_status: machine-assisted draft; requires human language review
+---
+
 # Pregled virov in pravic
 
-Preverjeno 2026-09-03. Beležimo ponudnikove navedbe in svoje pretvorbe, ne
+Preverjeno 2026-09-07. Beležimo ponudnikove navedbe in svoje pretvorbe, ne
 splošne pravne presoje za vse jurisdikcije. Besedilo je strojno podprt prevodni
 osnutek, ki potrebuje strokovni jezikovni pregled.
 
@@ -13,9 +17,13 @@ dLib URN:NBN:SI:IMG-132KCU7C.
 
 - [Primarni katalog](https://dlib.si/details/URN:NBN:SI:IMG-132KCU7C).
 - [Prenesena slika](https://dlib.si/stream/URN:NBN:SI:IMG-132KCU7C/70a09865-89e6-4365-97b8-76d9697c2884/IMAGE).
+- Strojno berljivi zapis `source/dlib-ljubljana-1910.json` hrani URN,
+  kataloške podatke, naslov za prenos, mere, kontrolno vsoto, datum dostopa in
+  povezavo do pravic za ta predmet.
 - Katalog oznako »javna domena« povezuje s
   [ponudnikovo izjavo o pravicah](https://www.dlib.si/Rights.aspx?q=PDM).
-  Na to presojo se opiramo pri razširjanju učnega skena. Izvornega načrta
+  Povezavo smo v bloku s pravicami tega predmeta ponovno preverili 2026-09-07.
+  Na ponudnikovo presojo se opiramo pri razširjanju učnega skena. Izvornega načrta
   ne označujte z novo licenco CC BY.
 - Ohranjen JPEG ima 5747 × 7287 pikslov in SHA256
   `d3c6c0475a6976c69c99065b7b9df1ae57a5fe6416a9acc858ef0cf75aebf21c`.
@@ -49,8 +57,9 @@ ne pomeni milimetrske točnosti.
 Ročne slikovne izbire so nepotrjeni prvi kandidati. Koordinata postaje lahko
 označuje drug del kompleksa, izbiro stolnice pa je treba ponovno identificirati.
 RMSE štirih kontrol je 15,231 m, neodvisnih točk pa 220,063 m. Neuspeh ohranite;
-potrjen georeferencirani raster ni priložen. Postopek v vmesniku QGIS čaka
-dokumentirani ročni preizkus in metodološki pregled.
+potrjen georeferencirani raster ni priložen. Postopek v QGIS čaka dokumentirani
+ročni preizkus in metodološki pregled; kontrolni seznam v repozitoriju je zato
+namenoma označen kot nedokončan.
 
 ## Časopis in sintetični zapisi
 

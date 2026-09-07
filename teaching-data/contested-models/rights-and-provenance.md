@@ -1,6 +1,6 @@
 # Source and rights audit
 
-Checked 2026-09-03. This records provider statements and our transformations,
+Checked 2026-09-07. This records provider statements and our transformations,
 not a general legal determination for every jurisdiction.
 
 ## Authentic map
@@ -12,9 +12,13 @@ COBISS 49514240; dLib URN:NBN:SI:IMG-132KCU7C.
 
 - [Primary catalogue](https://dlib.si/details/URN:NBN:SI:IMG-132KCU7C).
 - [Downloaded image](https://dlib.si/stream/URN:NBN:SI:IMG-132KCU7C/70a09865-89e6-4365-97b8-76d9697c2884/IMAGE).
+- The machine-readable item record is preserved as
+  `source/dlib-ljubljana-1910.json`, including the URN, catalogue fields,
+  download URL, dimensions, digest, access date and item-level rights link.
 - The catalogue links a “javna domena” Public Domain Mark badge to
   [dLib's public-domain rights statement](https://www.dlib.si/Rights.aspx?q=PDM).
-  We rely on that provider assessment for redistribution of this teaching scan.
+  The association was rechecked in this item's rights block on 2026-09-07. We
+  rely on that provider assessment for redistribution of this teaching scan.
   Do not relabel the underlying map as newly licensed CC BY.
 - Preserved JPEG: 5747 × 7287 pixels; SHA256
   `d3c6c0475a6976c69c99065b7b9df1ae57a5fe6416a9acc858ef0cf75aebf21c`.
@@ -50,7 +54,8 @@ particular the station's coordinate may refer to another part of the complex,
 and the cathedral selection requires re-identification. The four-control fit
 has 15.231 m RMSE but the independent checks have 220.063 m RMSE. Retain this
 failure; no approved georeferenced raster is supplied. The QGIS GUI procedure
-awaits recorded manual testing and methodological review.
+awaits recorded manual testing and methodological review; the repository
+checklist deliberately leaves that review pending.
 
 ## Newspaper reuse and synthetic records
 

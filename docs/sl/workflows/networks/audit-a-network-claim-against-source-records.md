@@ -1,16 +1,20 @@
 ---
 title: "Kako preverim omrežno trditev ob izvornih zapisih?"
-description: "Preverljiv postopek z izrecnimi viri, modelnimi odločitvami in negotovostjo."
+description: "Omrežne trditve povežite z izvornimi zapisi in jih preizkusite z alternativnimi pravili za razmerja."
 category: "Omrežja"
 category_id: "Networks"
 difficulty: "srednje"
 time: "45–60 min"
-tags: [modeliranje, provenienca, negotovost]
+tags: [presoja-omrežja, pomen-povezav, kritika-virov, robustnost, provenienca]
 status: draft
 translation_status: machine-assisted draft; requires human language review
 ---
 
 # Kako preverim omrežno trditev ob izvornih zapisih?
+
+<div class="answer-meta" markdown>
+<span>Omrežja</span><span>srednje</span><span>45–60 min</span>
+</div>
 
 Strojno podprt prevodni osnutek; potreben je strokovni jezikovni pregled.
 
@@ -51,9 +55,9 @@ Dosje predpostavi identiteto A prek imenskih različic. Pojasnite, katere dodatn
 
 Pri D6 ohranite polodprti februarski interval in verjetnega prejemnika. Interval naj ne postane enomesečno razmerje. Agregirani graf zajema leti 1910 in 1925; ne dokazuje sočasne razpoložljivosti vseh poti.
 
-### 4. Preverite konkurenčna pravila
+### 4. Preverite alternativna pravila
 
-Primerjajte `projection-evidence.csv` in `correspondence-edges.csv`: CE pri pravilu korespondence izgine. Primerjajte vse prejemnike s samo zanesljivo določenimi: izgine E→F. Pri pragu 2 brez D6 postane surova vmesnost E nič namesto štiri. Spremembe zabeležite, namesto da izberete najprepričljivejšo sliko.
+Primerjajte `projection-evidence.csv` in `correspondence-edges.csv`: CE pri pravilu korespondence izgine. Primerjajte vse prejemnike s samo zanesljivo določenimi: izgine E→F. Pri pragu 2 brez D6 postane nenormalizirana središčnost E po vmesnosti nič namesto štiri. Spremembe zabeležite, namesto da izberete najprepričljivejšo sliko.
 
 Odprite `authentic-issue-cooccurrence.csv` in izvleček izvirnih opazovanj. Štiri posamično poimenovane osebe ustvarijo šest parov samo zato, ker celotna številka velja za eno enoto. Opazovanja podpirajo nič korespondenčnih povezav, ne pa odsotnosti vse resnične korespondence.
 

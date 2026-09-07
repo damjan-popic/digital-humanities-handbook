@@ -2,6 +2,12 @@
 import math
 
 
+def interval_intersection(left_start, left_end, right_start, right_end):
+    """Return a half-open intersection, or None when intervals do not overlap."""
+    start, end = max(left_start, right_start), min(left_end, right_end)
+    return (start, end) if start < end else None
+
+
 def solve(matrix, vector):
     augmented = [list(row) + [value] for row, value in zip(matrix, vector, strict=True)]
     for column in range(len(vector)):
@@ -35,6 +41,8 @@ def residual(row, fit):
 def compare(root, output, read_csv, write_csv):
     places = read_csv(root / 'input/places.csv')
     boundaries = read_csv(root / 'input/boundaries.csv')
+    sources = {row['source_id']: row for row in read_csv(root / 'input/sources.csv')}
+    documents = {row['document_id']: row for row in read_csv(root / 'input/documents.csv')}
     memberships = []
     for boundary in boundaries:
         divider = float(boundary['divider_x_m'])
@@ -45,7 +53,9 @@ def compare(root, output, read_csv, write_csv):
                                 'centre_membership': 'SYN-W' if x < divider else 'SYN-EAST',
                                 'possible_memberships': '|'.join(region for region, allowed in
                                     [('SYN-W', x - uncertainty < divider), ('SYN-EAST', x + uncertainty >= divider)] if allowed),
-                                'valid_start': boundary['valid_start'], 'valid_end': boundary['valid_end'],
+                                'boundary_valid_start': boundary['valid_start'],
+                                'boundary_valid_end': boundary['valid_end'],
+                                'boundary_source_id': boundary['source_id'],
                                 'synthetic': 'true'})
     write_csv(output / 'membership.csv', memberships)
     candidates = read_csv(root / 'input/candidates.csv')
@@ -53,12 +63,47 @@ def compare(root, output, read_csv, write_csv):
     candidate_rows = []
     for membership in memberships:
         for candidate in candidates:
-            if candidate['place_id'] == membership['place_id']:
-                valid_names = [row for row in names if row['place_id'] == candidate['place_id']
-                               and row['valid_start'] <= membership['valid_start'] < row['valid_end']]
-                candidate_rows.append({**candidate, **membership,
-                                       'dated_names': ' | '.join(f"{row['language']}: {row['name']}" for row in valid_names),
-                                       'name_source': 'SYN-NAMES'})
+            if candidate['place_id'] != membership['place_id']:
+                continue
+            mention = documents[candidate['source_id']]
+            for name in names:
+                if name['place_id'] != candidate['place_id']:
+                    continue
+                overlap = interval_intersection(membership['boundary_valid_start'], membership['boundary_valid_end'],
+                                                name['valid_start'], name['valid_end'])
+                if overlap is None:
+                    continue
+                candidate_rows.append({
+                    'mention_id': candidate['mention_id'],
+                    'mention_source_id': candidate['source_id'],
+                    'mention_source_locator': sources[candidate['source_id']]['locator'],
+                    'source_form': candidate['source_form'],
+                    'mention_date_start': mention['date_start'],
+                    'mention_date_end': mention['date_end'],
+                    'mention_date_kind': mention['date_kind'],
+                    'place_id': candidate['place_id'],
+                    'review_status': candidate['review_status'],
+                    'confidence': candidate['confidence'],
+                    'evidence': candidate['evidence'],
+                    'boundary_id': membership['boundary_id'],
+                    'boundary_valid_start': membership['boundary_valid_start'],
+                    'boundary_valid_end': membership['boundary_valid_end'],
+                    'boundary_source_id': membership['boundary_source_id'],
+                    'centre_membership': membership['centre_membership'],
+                    'possible_memberships': membership['possible_memberships'],
+                    'name_id': name['name_id'],
+                    'toponym': name['name'],
+                    'language': name['language'],
+                    'name_context': name['context'],
+                    'name_source_id': name['source_id'],
+                    'name_source_locator': sources[name['source_id']]['locator'],
+                    'name_valid_start': name['valid_start'],
+                    'name_valid_end': name['valid_end'],
+                    'comparison_interval_start': overlap[0],
+                    'comparison_interval_end': overlap[1],
+                    'comparison_scope': 'candidate_place_history_not_mention_duration',
+                    'synthetic': 'true',
+                })
     write_csv(output / 'candidate-places.csv', candidate_rows)
     gcps = read_csv(root / 'input/gcps.csv')
     fitted = [row for row in gcps if row['use'] == 'fit']

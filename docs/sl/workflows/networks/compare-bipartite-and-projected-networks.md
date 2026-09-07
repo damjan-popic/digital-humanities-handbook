@@ -1,16 +1,20 @@
 ---
 title: "Kako primerjam dvodelna in projicirana omrežja?"
-description: "Preverljiv postopek z izrecnimi viri, modelnimi odločitvami in negotovostjo."
+description: "Primerjajte dokaze o osebah in dokumentih s projekcijami, pragovi ter utežmi, ki ohranijo povezavo z viri."
 category: "Omrežja"
 category_id: "Networks"
 difficulty: "srednje"
 time: "60–90 min"
-tags: [modeliranje, provenienca, negotovost]
+tags: [dvodelna-omrežja, projekcija, pragovi, središčnost, provenienca]
 status: draft
 translation_status: machine-assisted draft; requires human language review
 ---
 
 # Kako primerjam dvodelna in projicirana omrežja?
+
+<div class="answer-meta" markdown>
+<span>Omrežja</span><span>srednje</span><span>60–90 min</span>
+</div>
 
 Strojno podprt prevodni osnutek; potreben je strokovni jezikovni pregled.
 
@@ -36,7 +40,13 @@ python run.py --output output-first
 
 Dvodelni graf povezuje osebe samo z dokumenti. Projicirani graf poveže pare s skupnim dokumentom; utež je število različnih skupnih dokumentov. Korespondenčni graf uporablja samo pisma z izrecno določenimi vlogami pošiljatelja in prejemnika.
 
-Odprite `bipartite-edges.csv`, `projection-evidence.csv` in `correspondence-edges.csv`. Projicirani par ohrani vsak podporni dokument; ne postane nov neodvisni vir.
+Odprite `bipartite-edges.csv`, `projection-evidence.csv` in `correspondence-edges.csv`. Projicirani par ohrani vsak dokument, ki ga utemeljuje; ne postane nov neodvisni vir.
+
+Preglejte tudi `projection-singletons.csv`. Dokument z eno izbrano osebo mora
+ostati v dvodelnem seznamu povezav, ne sme ustvariti projiciranega para in ne sme
+prispevati imenovalca za utež. Sedanja učna množica nima takega dokumenta,
+zato datoteka vsebuje preverljivo glavo; regresijski preizkus pravilo preveri
+neposredno.
 
 ### 3. Primerjajte pragove in vrstni red
 
@@ -48,7 +58,7 @@ Odprite `bipartite-edges.csv`, `projection-evidence.csv` in `correspondence-edge
 | Projekcija, vsaj 3 dokumenti | 2 | A, B, D, E, 1 oseba |
 | Korespondenca | 3 | E, skupna stopnja 2 |
 
-Primerjajte pripadajoče datoteke `*-metrics.csv`. Izolirane osebe ohranite v imenovalcu. Dvodelna stopnja šteje dokumente, projicirana pa ljudi. Koda po pragu uporablja neutežene enotske poti, surovo vmesnost in normalizirano izhodno harmonično bližino. Utež pomeni podporo, ne razdalje.
+Primerjajte pripadajoče datoteke `*-metrics.csv`. Izolirane osebe ohranite v imenovalcu. Dvodelna stopnja šteje dokumente, projicirana pa ljudi. Koda po pragu uporablja neutežene enotske poti, nenormalizirano središčnost po vmesnosti in normalizirano harmonično bližino po izhodnih poteh. Utež pomeni dokazno podlago, ne razdalje.
 
 ### 4. Pojasnite projekcijsko napihovanje
 
@@ -60,7 +70,7 @@ Preglejte `fractional-weights.csv` in `results.json`. Če vsakemu dokumentu dode
 
 V `results.json` je optimum pri pragu 2 ABC | DEF, prag 1 pa vse združi. Koda izčrpno preveri neuteženo neusmerjeno modularnost pri ločljivosti 1 in ohrani izenačenja; namenjena je samo šestim osebam. Pri korespondenčnih skupnostih izrecno zanemari smer.
 
-Pred pragom 2 izločite D6: EF izgine, surova vmesnost E pa pade s 4 na 0. Primerjajte `missing_D6-metrics.csv`. Ta ciljni scenarij izgube ni ocena naključnega ohranjanja arhivov.
+Pred pragom 2 izločite D6: EF izgine, nenormalizirana središčnost E po vmesnosti pa pade s 4 na 0. Primerjajte `missing_D6-metrics.csv`. Ta ciljni scenarij izgube ni ocena naključnega ohranjanja arhivov.
 
 ## Rezultat
 

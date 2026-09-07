@@ -1,22 +1,26 @@
 ---
 title: "Kako modeliram spreminjajoča se imena, statuse in meje v SQLite?"
-description: "Preverljiv postopek z izrecnimi viri, modelnimi odločitvami in negotovostjo."
+description: "Zgradite in poizvedujte po trditvenem modelu SQLite z navedenimi viri, ne da bi izbrisali spremembe ali nesoglasja."
 category: "Podatki"
 category_id: "Data"
 difficulty: "srednje"
 time: "60–90 min"
-tags: [modeliranje, provenienca, negotovost]
+tags: [SQLite, SQL, časovni-podatki, trditve, provenienca]
 status: draft
 translation_status: machine-assisted draft; requires human language review
 ---
 
 # Kako modeliram spreminjajoča se imena, statuse in meje v SQLite?
 
+<div class="answer-meta" markdown>
+<span>Podatki</span><span>srednje</span><span>60–90 min</span>
+</div>
+
 Strojno podprt prevodni osnutek; potreben je strokovni jezikovni pregled.
 
 ## Kaj želite doseči
 
-Ugotovite, kaj določen vir trdi o osebi v določenem času, ne da bi večjezična imena, konkurenčne poklicne oznake in spreminjajočo se ozemeljsko pripadnost združili v eno brezčasno vrstico. Sintetični dosje pokaže izgubo pri modeliranju; ne dokumentira resničnih prebivalcev. Primerjavo modelov pojasnjuje poglavje [Podatkovne zbirke in SQL](../../chapters/databases-sql.md).
+Ugotovite, kaj določen vir trdi o osebi v določenem času, ne da bi večjezična imena, sočasne neusklajene poklicne oznake in spreminjajočo se ozemeljsko pripadnost združili v eno brezčasno vrstico. Sintetični dosje pokaže izgubo pri modeliranju; ne dokumentira resničnih prebivalcev. Primerjavo modelov pojasnjuje poglavje [Podatkovne zbirke in SQL](../../chapters/databases-sql.md).
 
 ## Potrebujete
 
@@ -26,9 +30,9 @@ Prenesite in razpakirajte [spremljevalni ZIP](../../../assets/downloads/conteste
 
 ### 1. Preglejte trditve
 
-Odprite `input/assertions.csv` in `schema.sql`. Trditev poveže subjekt z besedilom ali drugo entiteto ter ohrani izvorno besedilo, kontekst, interval veljavnosti, čas zapisa in zanesljivost. Intervali so polodprti: začetek je vključen, konec izključen. `event_window` pomeni možni datum dogodka, ne neprekinjenega trajanja.
+Odprite `input/sources.csv`, `input/assertions.csv` in `schema.sql`. Popis virov poveže natančno D1–D6, N1, N2, BORDER in NAMES z označenimi odseki dosjeja. Trditev poveže subjekt z besedilom ali drugo entiteto ter ohrani izvorno besedilo, opredelitev `exact`, `translation` ali `summary`, kontekst, interval veljavnosti, čas zapisa in zanesljivost. Intervali so polodprti: začetek je vključen, konec izključen. `event_window` pomeni možni datum dogodka, ne neprekinjenega trajanja.
 
-Primerjajte A04 in A05: služkinja v institucionalnem besednjaku in šivilja v samoopisu se časovno prekrivata v letu 1910. Ne odločite z večinskim glasovanjem in obeh ne zamenjajte z navidezno nevtralnim poklicem. A02 in A03 pa predstavljata popravek prepisa; A03 izrecno nadomesti A02. Shema ohrani oba zapisa.
+Primerjajte A04 in A05: služkinja v institucionalnem besednjaku in šivilja v samoopisu se časovno prekrivata v letu 1910. Ne odločite z večinskim glasovanjem in obeh ne zamenjajte z navidezno nevtralnim poklicem. A02 in A03 pa predstavljata popravek prepisa; A03 izrecno nadomesti A02. Shema ohrani oba zapisa. Nadomestna trditev mora ohraniti isti vir, kontekst, zgodovinski interval in vrsto intervala, vsaka trditev pa ima lahko največ enega neposrednega naslednika.
 
 ### 2. Zgradite zbirko in jo preglejte
 
@@ -54,7 +58,7 @@ Uporabite `--subject SYN-L1` z datumoma `1919-12-31` in `1920-01-01`. Pripadnost
 
 ### 5. Opišite izgubo pri izvozu
 
-Tabelo trditev primerjajte z eno vrstico na osebo. Naštejte izgubljene razlike: ime posameznega vira, kontekst statusa, jezikovni pripis in rabo, zgodovino zapisov ter konkurenčne intervale. Priročen analitični CSV je dopusten, če ostanejo pravilo izbora in identifikatorji virov obnovljivi.
+Tabelo trditev primerjajte z eno vrstico na osebo. Naštejte izgubljene razlike: ime posameznega vira, kontekst statusa, jezikovni pripis in rabo, zgodovino zapisov ter prekrivajoče se intervale različnih trditev. Priročen analitični CSV je dopusten, če ostanejo pravilo izbora in identifikatorji virov obnovljivi.
 
 ## Rezultat
 

@@ -63,7 +63,7 @@ prozopografske ontologije. [Bradley in Short 2005](https://doi.org/10.1093/llc/f
 **Lastnost** opisuje zapis v opredeljenem okviru. **Razmerje** poveže entitete,
 na primer osebo in dokument. **Opazovanje** zabeleži, kaj je raziskovalec pregledal.
 **Trditev** nekaj pove o entiteti in navede dokazno podlago. **Dogodek** modelira
-pojav z udeleženci, vlogami in časom. To so različne modelske izbire, ne stopnje
+pojav z udeleženci, vlogami in časom. To so različne odločitve pri modeliranju, ne stopnje
 na poti do vse bolj resnične predstavitve.
 
 Pismo je dokument, njegovo pošiljanje dogodek, zapisano naslovnikovo ime opazovanje,
@@ -85,8 +85,9 @@ da bi poenostavili povezovanje tabel.
 [Učni dodatek o spornih modelih](../../assets/downloads/contested-models-v1.zip)
 vsebuje namenoma **sintetični** dosje za daljše obdobje. Ana Kovač oziroma Anna
 Kovatsch (`SYN-A`) je izmišljena oseba, ne identifikacija osebe iz časopisa.
-Avtentični paket ostaja nespremenjen. Dodatek preizkuša težave, ki jih ena sama
-časopisna številka ne more dokumentirati. Pred tabelami preberite dvojezični dosje.
+Paket arhivskih zapletov, ki temelji na avtentični časopisni številki, ostaja
+nespremenjen. Dodatek preizkuša težave, ki jih ena sama številka ne more
+dokumentirati. Pred tabelami preberite dvojezični dosje.
 Če izhod preverjamo samo proti drugi izpeljani tabeli, lahko zgolj ponavljamo
 iste predpostavke; zato potrebujemo tudi berljive izvorne zapise preizkusa.
 
@@ -139,21 +140,23 @@ avtorja odločitve, datum pregleda in utemeljitev povezave.
 
 Izvedljiva shema loči `entity`, `source` in `assertion`. Vsaka trditev vsebuje
 subjekt, predikat, besedilno vrednost ali povezano entiteto, kontekst, zgodovinski
-interval, vrsto intervala, čas zapisa, izvorno besedilo in stopnjo gotovosti.
-Ločena tabela sodelovanja hrani dokumentne vloge za nadaljnje dogodkovno usmerjene
-grafe. Koda uporablja enake identifikatorje v obeh jezikovnih izdajah.
+interval, vrsto intervala, čas zapisa, izvorno besedilo, opredeljeno razmerje do
+vira (`exact`, `translation` ali `summary`) in stopnjo gotovosti. Popis
+desetih virov D1–D6, N1, N2, BORDER in NAMES kaže na označene odseke berljivega
+dosjeja. Ločena tabela sodelovanja hrani dokumentne vloge za poznejše grafe
+dogodkov. Koda uporablja enake identifikatorje v obeh jezikovnih izdajah.
 
 ```text
 entity 1 -- mnogo assertion mnogo -- 1 source
 entity 1 -- mnogo assertion.object_id      (trditve o entitetah)
-assertion 1 -- mnogo assertion.supersedes (uredniški popravek)
+assertion 1 -- nič-ali-ena assertion.supersedes (uredniški popravek)
 ```
 
 | Model | Kaj omogoči | Kaj zakrije ali podraži |
 | --- | --- | --- |
-| Raven prikaz | Berljiv posnetek; preprosto razvrščanje | Časovno in izvorno opredeljeno povezovanje |
-| Normalizirane entitete in razmerja | Ponovno rabo identitet; poizvedbe mnogo proti mnogo | Nesoglasje, če razmerja niso dodatno opredeljena |
-| Opredeljene trditve in dogodki | Časovne poizvedbe; stare uredniške posnetke | Več povezovanj; zahtevnejšo interpretacijo in vzdrževanje besednjakov |
+| Ravna tabela za prikaz | Berljiv posnetek; preprosto razvrščanje | Časovno in izvorno opredeljeno povezovanje |
+| Normalizirane entitete in razmerja | Ponovno uporabo istih identifikatorjev; poizvedbe o razmerjih mnogo proti mnogo | Nesoglasje, če razmerja niso dodatno opredeljena |
+| Opredeljene trditve in dogodki | Časovne poizvedbe; pretekle različice uredniškega zapisa | Več povezovanj; zahtevnejšo interpretacijo in vzdrževanje besednjakov |
 
 Tretji model ohrani več razlik, vendar brez povezave s faksimilom in prozo izgubi
 postavitev, ton in zaporedje dokumenta. Splošni stolpec za predikat oteži tudi
@@ -215,8 +218,12 @@ Izvedljivi vzorec namenoma uporablja omejene intervale; produkcijska shema mora
 posebej obravnavati odprte, neznane in sporne časovne meje.
 
 Pri uredniškem popravku dodajte novo trditev s povezavo `supersedes`. Vzorec ohrani
-napačni prepis Ana Kovać in popravljeno obliko Ana Kovač. Poklicni oznaki pa nista
-popravek druga druge in nobena ne nadomesti drugega vira. Dnevnik z dodajanjem
+napačni prepis Ana Kovać in popravljeno obliko Ana Kovač. Popravek je dovoljen le,
+če ohrani isti vir, subjekt, predikat, kontekst, interval
+veljavnosti in vrsto intervala; ena trditev ima lahko največ enega neposrednega
+naslednika. Ozko pravilo predstavlja zamenjavo iste uredniške trditve, ne spremembe
+zgodovinskega obdobja. Poklicni oznaki pa nista
+popravek druga druge, zato nobena ne nadomesti druge. Dnevnik z dodajanjem
 novih zapisov omogoča stare poglede, vendar mora za zaupanja vreden časovni žig
 skrbeti aplikacija. Ročno vneseni datum ni neodvisno zavarovana revizijska sled
 transakcij; zbirka sama ne potrdi, kdo ga je vnesel.
@@ -270,7 +277,8 @@ lahko pomembna lastnost gradiva, ne napaka za izbris.
 Namesto združevanja po podobnosti imen ohranite kandidate, dokaze in odločitve.
 Predlagano združitev preverite z datumi, kraji, vlogami in neodvisnostjo virov.
 Napačna združitev poveže dve biografiji ter prenese napako v zemljevide in omrežja.
-Zavrnjena povezava Meker/Meeker iz avtentičnega paketa je uporaben opomin, da
+Zavrnjena povezava Meker/Meeker iz referenčne plasti paketa arhivskih zapletov je
+uporaben opomin, da
 podobnost zapisa ni dovolj za identifikacijo. Tudi nezdružitev naj ima utemeljitev.
 
 ## Preverjanje, občutljivost in izgube pri izvozu

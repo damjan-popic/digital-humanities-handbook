@@ -1,3 +1,7 @@
+---
+translation_status: machine-assisted draft; requires human language review
+---
+
 # Sporni modeli: spremljevalno gradivo k arhivskemu trenju
 
 Raziskovalno vprašanje: kako dokumentarne oznake pri uredniškem modeliranju
@@ -32,7 +36,8 @@ python query.py --database output-first/dossier.sqlite --conflicts
 Za vsak poskus uporabite novo izhodno mapo; obstoječe skripta ne prepiše.
 Rezultati vsebujejo zbirko SQLite, CSV-je z viri, mere in `results.json`.
 Primerjajte jih z `expected/`. Skripta ne pošilja omrežnih zahtev.
-Prenos vključuje nespremenjeni izvleček opazovanj z opombami o virih in pravicah;
+Prenos vključuje nespremenjeni izvleček opazovanj z opombami o virih in pravicah
+ter strojno berljivi zapis predmeta dLib;
 celotni časopisni faksimile ostaja v
 [izvirnem paketu](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
@@ -71,8 +76,8 @@ ne prevzorči rastra.
 ## Interpretacija in dostopnost
 
 Vse vaje imajo tabelarično pot. Barva, razporeditev in miška niso potrebne
-za razlago osnovnih primerjav. QGIS je ločena ročna vaja: številska prilagoditev
-in pregled tabel ne potrjujeta vizualno pregledane poravnave. Prve kontrole
+za razlago osnovnih primerjav. QGIS je ločena ročna vaja: številski izračun prileganja
+in pregled tabel ne potrjujeta vizualno pregledane poravnave. Prve oslonilne točke
 ne prestanejo neodvisnega preverjanja in ostajajo vaja za pregled, ne potrjen
 georeferencirani zemljevid.
 

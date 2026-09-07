@@ -32,7 +32,8 @@ Use a new output directory for every run; the runner refuses to overwrite one.
 The output includes a SQLite database, source-linked CSVs, metrics and
 `results.json`. Compare with `expected/`. No network request is made by the
 runner. The downloadable archive includes the unchanged observation extract and
-its source/rights notes; the full newspaper facsimile remains in the
+its source/rights notes, plus a machine-readable dLib item record; the full
+newspaper facsimile remains in the
 [archival-friction packet](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
 
 ## Repository maintenance

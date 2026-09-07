@@ -1,15 +1,19 @@
 ---
 title: "How do I model changing names, statuses and boundaries in SQLite?"
-description: "model changing names, statuses and boundaries in SQLite with explicit sources, checks and uncertainty."
+description: "Build and query a source-qualified SQLite assertion model without erasing changes or disagreement."
 category: "Data"
 category_id: "Data"
 difficulty: "intermediate"
 time: "60–90 min"
-tags: [modelling, provenance, uncertainty]
+tags: [SQLite, SQL, temporal-data, assertions, provenance]
 status: draft
 ---
 
 # How do I model changing names, statuses and boundaries in SQLite?
+
+<div class="answer-meta" markdown>
+<span>Data</span><span>intermediate</span><span>60–90 min</span>
+</div>
 
 ## What you are trying to do
 
@@ -23,9 +27,9 @@ Download and unpack the [companion ZIP](../../../assets/downloads/contested-mode
 
 ### 1. Inspect the assertions
 
-Open `input/assertions.csv` and `schema.sql`. An assertion connects a subject to either text or another entity, with source wording, context, validity interval, record time and confidence. Intervals are half-open: the start is included, the end excluded. `event_window` means a possible event date, not continuous duration.
+Open `input/sources.csv`, `input/assertions.csv` and `schema.sql`. The source inventory resolves exactly D1–D6, N1, N2, BORDER and NAMES to anchored dossier blocks. An assertion connects a subject to either text or another entity, with source wording, an explicit `exact`, `translation` or `summary` relation, context, validity interval, record time and confidence. Intervals are half-open: the start is included, the end excluded. `event_window` means a possible event date, not continuous duration.
 
-Compare A04 and A05: servant in an institutional vocabulary and seamstress in self-description overlap in 1910. Do not decide by majority vote or replace both with a neutral-looking occupation. A02 and A03 instead represent a corrected transcription; A03 explicitly supersedes A02. The schema retains both.
+Compare A04 and A05: servant in an institutional vocabulary and seamstress in self-description overlap in 1910. Do not decide by majority vote or replace both with a neutral-looking occupation. A02 and A03 instead represent a corrected transcription; A03 explicitly supersedes A02. The schema retains both. A replacement must preserve the same source, context, historical interval and interval kind, and each assertion can have at most one direct successor.
 
 ### 2. Build and inspect
 

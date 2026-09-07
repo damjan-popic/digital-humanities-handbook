@@ -1,6 +1,6 @@
 ---
 title: "GIS in prostorska humanistika"
-description: "Zgodovinski kraji, konkurenčne identifikacije in časovno opredeljene geometrije kot preverljivi humanistični argumenti."
+description: "Zgodovinski kraji, več možnih identifikacij in časovno opredeljene geometrije kot preverljivi humanistični argumenti."
 tags: [GIS, kartiranje, geokodiranje, kraj, negotovost]
 status: draft
 translation_status: machine-assisted draft; requires human language review
@@ -62,7 +62,7 @@ Vir, identifikacija kraja in prostorski pripis ozemlju odgovarjajo na različna 
 
 Zgodovinski vir lahko opisuje starejše potovanje, ponatisne starejši načrt ali predlaga prihodnjo cesto. Datum objave hranite ločeno od predstavljenega časa ter podatkov o izmeri in popravkih, kadar so znani. Neznani datumi naj ostanejo neznani. Ne ustvarjajte navidezno natančnega intervala samo zato, ker časovno filtriranje v programu zahteva dve datumski polji.
 
-Pri nerazrešeni identifikaciji sta dve vrstici s pojasnilom lahko ustreznejši rezultat kot dve prepričljivo izrisani bivališči. Število kandidatov ni število dejansko naseljenih krajev. To razliko pojasnite tudi bralcu, ki vidi samo izvoženo tabelo.
+Pri nerazrešeni identifikaciji sta dve vrstici s pojasnilom lahko ustreznejši rezultat kot dve prepričljivo izrisani bivališči. Število kandidatov ni število dejansko naseljenih krajev. Paket hrani časovno okno omembe ločeno od veljavnosti meje in imena. Primerjalno obdobje je dejanski polodprti presek ene različice meje in ene različice imena ter je izrecno označeno kot zgodovina možnega kraja, ne trajanje omembe. Zato sprememba imena leta 1917 znotraj iste različice meje ne izgine. To razliko pojasnite tudi bralcu, ki vidi samo izvoženo tabelo.
 
 ## Koordinatni referenčni sistemi in transformacije
 
@@ -80,28 +80,28 @@ Avtentični načrt v paketu je Kochova *Ljubljana* iz leta 1910 v merilu 1 : 8.2
 
 Prav tako šest decimalnih mest pri današnji orientacijski točki ne pomeni geodetske točnosti. Paket ločeno beleži natančnost, navedeno v Wikidata, in ročno izbrane slikovne točke. Nekatere koordinate označujejo objekt na splošno, ne določljivega vogala. Če takšno neskladje prezrete, primerjate različne prostorske referente, ne pa napake pri istem položaju.
 
-## Georeferenciranje kot preverljiva prilagoditev
+## Georeferenciranje kot preverljiv postopek
 
-Georeferenciranje oceni transformacijo med slikovnimi in referenčnimi koordinatami. Izberite kontrolne točke, ki v obeh virih označujejo isti fizični element, ter jih razporedite po celotnem območju. Ne naslonite prilagoditve na eno samo ulico ali tesno skupino objektov. Vogal je lahko bolj ponovljiv kot približno središče, če se stavba medtem ni spremenila.
+Georeferenciranje oceni transformacijo med slikovnimi in referenčnimi koordinatami. Izberite kontrolne točke, ki v obeh virih označujejo isti fizični element, ter jih razporedite po celotnem območju. Izračuna transformacije ne naslonite na eno samo ulico ali tesno skupino objektov. Vogal je lahko bolj ponovljiv kot približno središče, če se stavba medtem ni spremenila.
 
 Afina transformacija omogoča premik, zasuk, spremembo merila in strig. Ne odpravi vsake lokalne deformacije. Prožnejša transformacija lahko zmanjša odstopanja pri kontrolnih točkah, hkrati pa povzroči neutemeljeno ukrivljanje med njimi. Izberite jo glede na predpostavke in neodvisno preverjanje, ne samo glede na privlačen rezultat.
 
-Nekaj točk prihranite za neodvisno preverjanje in jih ne vključite v prilagoditev. Preostanek oziroma odstopanje je razlika med napovedanim in referenčnim položajem. Koren povprečne kvadratne napake (RMSE) povzema razdalje, vendar je njegova razlaga odvisna od enot, kakovosti in razporeditve točk. [Dokumentacija georeferencerja QGIS](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/georeferencer.html) pojasni transformacije in obravnavo kontrolnih točk; program ne potrjuje njihove zgodovinske ustreznosti.
+Nekaj točk izločite iz izračuna in jih namenite neodvisnemu preverjanju. Odstopanje je razlika med napovedanim in referenčnim položajem. Koren povprečne kvadratne napake (RMSE) povzema razdalje, vendar je njegova razlaga odvisna od enot, kakovosti in razporeditve točk. [Dokumentacija georeferencerja QGIS](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/georeferencer.html) pojasni transformacije in obravnavo kontrolnih točk; program ne potrjuje njihove zgodovinske ustreznosti.
 
 ## Izdelani primer: neuspešno preverjanje poravnave
 
-Paket vsebuje sken dLib z oznako javne domene, šest prvih ročnih izbir orientacijskih točk, predpomnjene današnje koordinate in ponovljiv afini izračun. Štiri točke določajo prilagoditev, železniška postaja in stolnica pa sta izločeni za preverjanje. Gre za namenoma ohranjen pilot, ne za potrjene geodetske kontrolne točke. Središča objektov in slikovne izbire zahtevajo ročni pregled.
+Paket vsebuje sken dLib z oznako javne domene, šest prvih ročnih izbir orientacijskih točk, predpomnjene današnje koordinate in ponovljiv afini izračun. Štiri točke določajo transformacijo, železniška postaja in stolnica pa sta izločeni za preverjanje. Gre za namenoma ohranjen pilot, ne za potrjene geodetske kontrolne točke. Središča objektov in slikovne izbire zahtevajo ročni pregled.
 
 | Preverjanje | Rezultat v metrih | Razlaga |
 |---|---:|---|
-| RMSE štirih uporabljenih kontrolnih točk | 15,231 | opisuje le prilagoditev pri izbranih kontrolah |
+| RMSE štirih uporabljenih kontrolnih točk | 15,231 | opisuje le prileganje pri izbranih kontrolah |
 | RMSE dveh neodvisnih točk | 220,063 | ne podpira trditve o približno 15-metrski točnosti |
 | Izločitev zahodne kontrolne točke in naknadno preverjanje | 1.090,241 | razkrije šibko prostorsko oporo in ekstrapolacijo |
 | Samostojno preverjanje stolnice | 142,481 | ponovno preverite slikovni element in referent koordinate |
 
 Rezultate lahko ponovite brez QGIS. Povezani [postopek georeferenciranja](../workflows/mapping/georeference-and-check-a-historical-map-in-qgis.md) dodaja navodila za grafični vmesnik, shranjevanje transformacije in primerjavo s sodobnim slojem. Postopek v vmesniku še potrebuje dokumentiran pregled v QGIS. Številski pilot ne pomeni, da je bil dobljeni raster tudi vizualno potrjen.
 
-Slabe kontrolne točke ne izbrišite samo zato, da izboljšate oceno. Ponovno odprite sliko in referenčni opis ter zabeležite, ali je bila točka napačno prepoznana, premaknjena, posplošena ali premalo natančno določena. Popravljeni poskus shranite ločeno. Majhno odstopanje pri prilagoditvi in veliko pri neodvisnem preverjanju skupaj koristno opišeta meje modela.
+Slabe kontrolne točke ne izbrišite samo zato, da izboljšate oceno. Ponovno odprite sliko in referenčni opis ter zabeležite, ali je bila točka napačno prepoznana, premaknjena, posplošena ali premalo natančno določena. Popravljeni poskus shranite ločeno. Majhno odstopanje pri prileganju in veliko pri neodvisnem preverjanju skupaj koristno opišeta meje modela.
 
 ## Izdelani primer: premakne se meja
 
@@ -175,7 +175,7 @@ Oddajte tabele, opombo o virih in pravicah, zapis koordinatnega sistema in trans
 
 ## Povzetek
 
-Prostorski dokaz postane verodostojen z opredeljeno identifikacijo, ne z dovršenim izrisom. Imena, kraji, geometrije, pristojnosti in poti potrebujejo ločene zapise ter izrecne datume. Neodvisno preverjanje lahko razkrije zavajajoče dobro prilagoditev. Ohranjanje kandidatov, prostorsko združevanje z negotovostjo, utemeljeni imenovalci in zgodovinske prometne predpostavke omogočajo preverjanje argumenta. Tabela, ki pošteno ohrani dvoumnost, je lahko močnejši rezultat kot brezhiben zemljevid.
+Prostorski dokaz postane verodostojen z opredeljeno identifikacijo, ne z dovršenim izrisom. Imena, kraji, geometrije, pristojnosti in poti potrebujejo ločene zapise ter izrecne datume. Neodvisno preverjanje lahko razkrije zavajajoče dobro prileganje. Ohranjanje kandidatov, prostorsko združevanje z negotovostjo, utemeljeni imenovalci in zgodovinske prometne predpostavke omogočajo preverjanje argumenta. Tabela, ki pošteno ohrani dvoumnost, je lahko močnejši rezultat kot brezhiben zemljevid.
 
 ## Nadaljnje branje
 

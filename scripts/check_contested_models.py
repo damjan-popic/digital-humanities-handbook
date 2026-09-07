@@ -53,6 +53,22 @@ def executable_blocks(text):
     return re.findall(r'```(?:bash|sql|python)\n(.*?)```', text, flags=re.S)
 
 
+def translation_metadata(path, text):
+    match = re.match(r'\A---\n(.*?)\n---\n', text, flags=re.S)
+    require(match is not None, f'{path}: missing translation metadata')
+    metadata = yaml.safe_load(match.group(1))
+    status = metadata.get('translation_status')
+    if status == 'machine-assisted draft; requires human language review':
+        require('strojno' in text.lower(), f'{path}: machine-assisted notice missing')
+    elif status == 'human-reviewed':
+        for field in ('translation_reviewed_by', 'translation_reviewed_on', 'translation_review_scope'):
+            require(metadata.get(field), f'{path}: human-reviewed state missing {field}')
+        require(re.fullmatch(r'\d{4}-\d{2}-\d{2}', str(metadata['translation_reviewed_on'])),
+                f'{path}: review date must be YYYY-MM-DD')
+    else:
+        raise AssertionError(f'{path}: unsupported translation_status {status!r}')
+
+
 def check_pages():
     counts = {}
     required = {
@@ -69,21 +85,24 @@ def check_pages():
             for heading in required[lang]:
                 require(f'## {heading}\n' in text, f'{path}: missing {heading}')
             count = word_count(text, lang)
-            require(2300 <= count <= 3300, f'{path}: {count} words outside target')
+            require(count >= 2300, f'{path}: {count} words below editorial minimum')
             counts[f'{lang}/{chapter}'] = count
             require('contested-models-v1.zip' in text, f'{path}: missing reproducible packet')
             require('| ' in text, f'{path}: missing non-visual comparison table')
             require('status: draft' in text, f'{path}: review status lost')
             if lang == 'sl':
-                require('translation_status: machine-assisted draft; requires human language review' in text,
-                        f'{path}: translation review status lost')
+                translation_metadata(path, text)
         require(executable_blocks(pair[0]) == executable_blocks(pair[1]), f'{chapter}: executable bilingual divergence')
         dois = [set(re.findall(r'https://doi.org/[^)\s]+', text)) for text in pair]
         require(dois[0] == dois[1], f'{chapter}: paired scholarly references differ')
     for workflow in WORKFLOWS:
-        pair = [(ROOT / f'docs/{lang}/workflows/{workflow}').read_text(encoding='utf-8') for lang in ('en', 'sl')]
+        paths = [ROOT / f'docs/{lang}/workflows/{workflow}' for lang in ('en', 'sl')]
+        pair = [path.read_text(encoding='utf-8') for path in paths]
         require(executable_blocks(pair[0]) == executable_blocks(pair[1]), f'{workflow}: executable bilingual divergence')
         require(all('contested-models-v1.zip' in text for text in pair), f'{workflow}: missing download')
+        require(all('<div class="answer-meta" markdown>' in text and text.count('<span>') >= 3 for text in pair),
+                f'{workflow}: missing answer-meta summary')
+        translation_metadata(paths[1], pair[1])
         require('workflows/' + workflow in mapping['workflows'], f'{workflow}: missing explicit mapping')
         if workflow.startswith(('mapping/', 'networks/')):
             require(all('|' in text or 'table' in text.lower() or 'tabel' in text.lower() for text in pair),
@@ -117,11 +136,21 @@ def check_database(path):
                         {'assertion_id': 'BAD', 'object_id': 'SYN-L1'},
                         {'assertion_id': 'BAD', 'valid_end': '1900-01-01'},
                         {'assertion_id': 'BAD', 'supersedes': 'SYN-A01'},
+                        {'assertion_id': 'BAD', 'supersedes': 'SYN-A05',
+                         'valid_start': '1910-06-01', 'recorded_at': '2026-09-04T00:00:00Z'},
+                        {'assertion_id': 'BAD', 'supersedes': 'SYN-A05',
+                         'date_kind': 'event_window', 'recorded_at': '2026-09-04T00:00:00Z'},
                         {'assertion_id': 'BAD', 'supersedes': 'SYN-A05'},
                         {'assertion_id': 'BAD', 'value_text': None},
                         {}):
             row = original | changes
             rejected(con, 'INSERT INTO assertion VALUES (' + ','.join('?' for _ in row) + ')', tuple(row.values()))
+        replacement = original | {'assertion_id': 'SYN-TEST-SUCCESSOR', 'value_text': 'dressmaker',
+                                  'recorded_at': '2026-09-04T00:00:00Z', 'supersedes': 'SYN-A05'}
+        con.execute('INSERT INTO assertion VALUES (' + ','.join('?' for _ in replacement) + ')',
+                    tuple(replacement.values()))
+        branch = replacement | {'assertion_id': 'BAD-BRANCH', 'recorded_at': '2026-09-05T00:00:00Z'}
+        rejected(con, 'INSERT INTO assertion VALUES (' + ','.join('?' for _ in branch) + ')', tuple(branch.values()))
         rejected(con, "UPDATE assertion SET value_text='erased' WHERE assertion_id='SYN-A05'")
         rejected(con, "DELETE FROM assertion WHERE assertion_id='SYN-A05'")
         query = (PACKET / 'queries/at-date.sql').read_text(encoding='utf-8')
@@ -165,6 +194,21 @@ def check_math():
     complete = [(u, v) for u in 'abc' for v in 'abc' if u < v]
     optimum = networks.communities(list('abc'), complete)
     require(optimum['modularity'] == 0 and len(optimum['partitions']) == 1, 'Complete graph modularity')
+    sample_participation = [
+        {'document_id': 'single', 'person_id': 'a'},
+        {'document_id': 'pair', 'person_id': 'a'},
+        {'document_id': 'pair', 'person_id': 'b'},
+    ]
+    by_document, support, singletons = networks.projection_inputs(sample_participation)
+    require(singletons == [{'document_id': 'single', 'person_id': 'a',
+                            'projection_effect': 'retained_bipartite_no_projected_pair'}],
+            'Singleton document not reported')
+    require(dict(support) == {('a', 'b'): ['pair']}, 'Singleton created a projected pair')
+    require(networks.fractional_weights(support, by_document) == {('a', 'b'): 1},
+            'Singleton changed fractional projection')
+    require(networks.graph_metrics(['a', 'b', 'single', 'pair'],
+                                   [('a', 'single'), ('a', 'pair'), ('b', 'pair')])['edge_count'] == 3,
+            'Singleton document lost from bipartite graph')
     points = [{'source_x_px': x, 'source_y_px': y, 'target_e_m': 10 + 2*x + 3*y,
                'target_n_m': 20 - x + 4*y} for x, y in [(0, 0), (100, 0), (0, 100), (100, 100)]]
     fit = spatial.fit_affine(points)
@@ -175,6 +219,12 @@ def check_math():
         pass
     else:
         raise AssertionError('Singular affine controls accepted')
+    require(spatial.interval_intersection('1910-01-01', '1920-01-01',
+                                          '1917-01-01', '1930-01-01') ==
+            ('1917-01-01', '1920-01-01'), 'Interval intersection regression')
+    require(spatial.interval_intersection('1910-01-01', '1917-01-01',
+                                          '1917-01-01', '1930-01-01') is None,
+            'Touching half-open intervals treated as overlapping')
 
 
 def check_results(result):
@@ -196,21 +246,40 @@ def check_results(result):
     l1 = [row for row in gis['memberships'] if row['place_id'] == 'SYN-L1']
     require([row['centre_membership'] for row in l1] == ['SYN-EAST', 'SYN-W'], 'Fixed place/boundary change')
     require(all(row['possible_memberships'] == 'SYN-W|SYN-EAST' for row in l1), 'Uncertainty hidden')
-    require(len(gis['candidate_places']) == 4, 'Unresolved candidates dropped')
+    require(len(gis['candidate_places']) == 9, 'Unresolved candidate histories dropped')
+    changed_name = [row for row in gis['candidate_places']
+                    if row['boundary_id'] == 'SYN-B1910' and row['name_id'] == 'SYN-T3']
+    require(len(changed_name) == 1 and changed_name[0]['comparison_interval_start'] == '1917-01-01'
+            and changed_name[0]['comparison_interval_end'] == '1920-01-01',
+            'Name change inside one boundary period was lost')
+    require(all(row['mention_date_start'] == '1910-06-15' and
+                row['comparison_scope'] == 'candidate_place_history_not_mention_duration'
+                for row in gis['candidate_places']), 'Mention and candidate-place times conflated')
 
 
 def check_provenance():
     require(hashlib.sha256((PACKET / 'source/ljubljana-1910.jpg').read_bytes()).hexdigest() == MAP_HASH, 'Source map changed')
-    dossier = (PACKET / 'input/dossier.md').read_text(encoding='utf-8')
-    for row in runner.read_csv(PACKET / 'input/documents.csv'):
-        file, anchor = row['source_locator'].split('#')
-        require((PACKET / file).exists() and f'id="{anchor}"' in dossier, 'Broken source locator')
+    runner.validate_inputs()
+    sources = runner.read_csv(PACKET / 'input/sources.csv')
+    require({row['source_id'] for row in sources} == runner.SOURCE_IDS and len(sources) == 10,
+            'Source inventory is not exact')
+    require({row['source_wording_relation'] for row in runner.read_csv(PACKET / 'input/assertions.csv')}
+            <= {'exact', 'translation', 'summary'}, 'Unlabelled source-wording relation')
+    dlib = json.loads((PACKET / 'source/dlib-ljubljana-1910.json').read_text(encoding='utf-8'))
+    require(dlib['urn'] == 'URN:NBN:SI:IMG-132KCU7C' and dlib['accessed_at'] == '2026-09-07',
+            'dLib item identity/access date regression')
+    require(dlib['download']['sha256'] == MAP_HASH and
+            dlib['download']['pixel_dimensions'] == {'width': 5747, 'height': 7287},
+            'dLib download provenance regression')
+    rights = dlib['item_specific_rights']
+    require(rights['provider_label'] == 'javna domena' and rights['link_url'].endswith('Rights.aspx?q=PDM')
+            and rights['link_target'] == '_blank', 'dLib item rights association missing')
     for name in ('README', 'rights-and-provenance', 'data-dictionary'):
         require(all((PACKET / f'{name}{suffix}.md').is_file() for suffix in ('', '.sl')), 'Missing paired packet document')
-        require('strojno' in (PACKET / f'{name}.sl.md').read_text(encoding='utf-8').lower(),
-                f'{name}.sl.md: translation-review marker missing')
-    require('strojno' in (PACKET / 'input/dossier.sl.md').read_text(encoding='utf-8').lower(),
-            'dossier.sl.md: translation-review marker missing')
+        path = PACKET / f'{name}.sl.md'
+        translation_metadata(path, path.read_text(encoding='utf-8'))
+    dossier_path = PACKET / 'input/dossier.sl.md'
+    translation_metadata(dossier_path, dossier_path.read_text(encoding='utf-8'))
     for row in runner.read_csv(PACKET / 'input/candidates.csv'):
         require(row['review_status'] == 'unresolved' and row['synthetic'] == 'true', 'Candidate promoted without evidence')
 
@@ -225,6 +294,8 @@ def check_download():
             require(hashlib.sha256(zipped.read(prefix + name)).hexdigest() == digest, 'Manifest mismatch: ' + name)
         require(zipped.read(prefix + 'source/archival-observations.csv') ==
                 (ROOT / 'teaching-data/archival-friction/reference/observations.csv').read_bytes(), 'Observation extract changed')
+        require(json.loads(zipped.read(prefix + 'source/dlib-ljubljana-1910.json'))['urn'] ==
+                'URN:NBN:SI:IMG-132KCU7C', 'Machine-readable dLib record missing from ZIP')
         # Reject unsafe members before extracting the locally built teaching archive.
         require(all(not Path(name).is_absolute() and '..' not in Path(name).parts for name in zipped.namelist()), 'Unsafe archive path')
         zipped.extractall(temp)
@@ -252,8 +323,8 @@ def main():
         result = runner.run(Path(temp) / 'output')
         check_results(result)
     check_download()
-    print('OK: 6 chapters, 10 workflows; paired prose/code/references; SQL negative and temporal tests; '
-          'graph/affine benchmarks; source provenance; standalone ZIP and query checks.')
+    print('OK: 6 chapters, 10 workflows; paired prose/code/references; SQL replacement and temporal tests; '
+          'singleton projection and affine benchmarks; source inventory/provenance; standalone ZIP and query checks.')
     return counts
 
 

@@ -1,15 +1,19 @@
 ---
 title: "How do I audit a network claim against source records?"
-description: "audit a network claim against source records with explicit sources, checks and uncertainty."
+description: "Trace network claims to source records and test them under alternative relation rules."
 category: "Networks"
 category_id: "Networks"
 difficulty: "intermediate"
 time: "45–60 min"
-tags: [modelling, provenance, uncertainty]
+tags: [network-audit, edge-semantics, source-criticism, robustness, provenance]
 status: draft
 ---
 
 # How do I audit a network claim against source records?
+
+<div class="answer-meta" markdown>
+<span>Networks</span><span>intermediate</span><span>45–60 min</span>
+</div>
 
 ## What you are trying to do
 

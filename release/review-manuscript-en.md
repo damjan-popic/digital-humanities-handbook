@@ -2785,8 +2785,9 @@ and an institution should not be silently stored as a person to simplify a join.
 The [contested-models companion](../../assets/downloads/contested-models-v1.zip)
 contains a deliberately **synthetic** longitudinal dossier. Its Ana Kovač / Anna
 Kovatsch (`SYN-A`) is fictional, not a person identified in the newspaper. The
-authentic packet remains unchanged; the companion tests difficulties that one
-newspaper issue cannot itself document. Read the bilingual dossier before its
+archival-friction packet, built around an authentic newspaper issue, remains
+unchanged; the companion tests difficulties that one issue cannot itself
+document. Read the bilingual dossier before its
 tables. Source-readable test records are essential: otherwise validating a query
 against another generated table merely repeats the same assumptions.
 
@@ -2838,13 +2839,16 @@ when two claims in that document receive different editorial assessments.
 
 The executable schema separates `entity`, `source` and `assertion`. Each assertion
 has a subject, predicate, text value or entity object, context, historical interval,
-interval kind, record timestamp, source wording and confidence. The separate
-participation table supplies document roles for later event-oriented graphs.
+interval kind, record timestamp, source wording, its declared relation to the
+source (`exact`, `translation` or `summary`) and confidence. The exact
+source inventory links D1–D6, N1, N2, BORDER and NAMES to anchored blocks in the
+readable dossier. The separate participation table supplies document roles for
+later event-oriented graphs.
 
 ```text
 entity 1 -- many assertion many -- 1 source
 entity 1 -- many assertion.object_id       (entity-valued claims)
-assertion 1 -- many assertion.supersedes  (editorial revision)
+assertion 1 -- zero-or-one assertion.supersedes  (editorial revision)
 ```
 
 | Model | Enables | Obscures or makes expensive |
@@ -2914,6 +2918,10 @@ a production schema needs explicit handling for open, unknown and contested boun
 
 For editorial change, insert a new assertion linked by `supersedes`. The sample
 retains both the mistaken Ana Kovać and its corrected transcription Ana Kovač.
+The teaching schema permits this only when source, subject, predicate, context,
+valid interval and interval kind are identical; it also prevents two rows from
+claiming to be the direct successor of one assertion. That narrow rule models a
+replacement of the same editorial claim, not a change in the historical period.
 By contrast, the occupational disagreement is not a correction and neither source
 supersedes the other. An append-only ledger supports reconstruction of earlier
 views, but timestamps must be controlled by the application to be trustworthy;
@@ -2967,7 +2975,8 @@ and ecclesiastical jurisdictions may be meaningful, not errors to delete.
 candidate links, evidence and decisions rather than merging on a similar name.
 Test a proposed merge by inspecting dates, places, roles and source independence.
 A false merge creates connections between two biographies and contaminates both
-maps and networks. In the authentic packet, the rejected Meker/Meeker match is
+maps and networks. In the archival-friction packet's reference layer, the
+rejected Meker/Meeker match is
 a useful counterexample to automatic spelling-based identity.
 
 ## Validation, sensitivity and export loss
@@ -3118,7 +3127,7 @@ The source, place identification and territorial join answer different questions
 
 A historical source can describe an earlier journey, reproduce an older plan or propose a future road. Store publication date separately from represented time and survey or revision information when known. Unknown dates remain unknown. Do not manufacture a precise interval merely because the GIS temporal controller requires one.
 
-For candidate identification, the appropriate output may be two rows and a paragraph, not two confidently plotted residences. A candidate count is not a count of actual locations occupied.
+For candidate identification, the appropriate output may be two rows and a paragraph, not two confidently plotted residences. A candidate count is not a count of actual locations occupied. The packet keeps the mention's event window separate from boundary and toponym validity. Its comparison period is the actual half-open intersection of one boundary version and one name version, explicitly labelled as candidate-place history rather than mention duration. A 1917 name change inside the 1910–1919 boundary version is therefore not lost.
 
 ## Coordinate systems and transformations
 
@@ -3328,6 +3337,11 @@ The original newspaper remains a separate evidence check: its four individually 
 ## Projection changes the unit of evidence
 
 Projection replaces shared document participation with person–person edges. A document containing k people contributes k(k−1)/2 possible pairs. A six-person list therefore contributes fifteen pairs, although it remains one source record. A three-person list contributes three. This is projection inflation, not fifteen independent testimonies of association.
+
+A document containing only one selected person remains a valid person–document
+edge in the bipartite graph but contributes no pair to a one-mode projection.
+Record it in the projection audit instead of dropping it silently. Because it
+forms no pair, it also creates no `1/(k−1)` fractional term and no division by zero.
 
 The discussion of two-mode networks by [Latapy, Magnien and Del Vecchio](https://doi.org/10.1016/j.socnet.2007.04.006) provides a formal basis for retaining the bipartite structure. In our example, `SYN-D5` alone connects every pair. The resulting complete graph conceals whether a pair shares one list or several distinct records.
 

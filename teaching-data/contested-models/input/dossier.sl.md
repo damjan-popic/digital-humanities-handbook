@@ -1,3 +1,7 @@
+---
+translation_status: machine-assisted draft; requires human language review
+---
+
 # Sintetični dosje: berljivi izvorni zapisi za preizkus
 
 Strojno podprt prevodni osnutek; potreben je strokovni jezikovni pregled.
@@ -32,15 +36,13 @@ preselila z naslova prijavljenega bivališča.
 ## SYN-D3 — izmišljeni društveni seznam, 1925-01-20
 
 Skupaj so navedeni C, Dora Hribar (D) in Eva Marin (E). A NI navedena.
-Ločena opomba v dosjeju (SYN-N1) označi A za samostojno obrtnico v letu 1925,
-pri čemer uporablja novi društveni besednjak. Opomba ni sedmi omrežni dokument.
+Ločena opomba SYN-N1 govori o A, vendar ni sedmi dokument v omrežju.
 
 <a id="syn-d4"></a>
 
 ## SYN-D4 — izmišljeno pismo, 1925-01-25
 
-D piše E. Ločena priloga (SYN-N2, ki ni omrežni dokument) beleži, da A na ta
-dan v institucionalni vlogi uporabi nemščino. To ne izniči slovenščine v SYN-D2.
+D piše E. Ločena priloga SYN-N2 govori o A, vendar ni dokument v omrežju.
 
 <a id="syn-d5"></a>
 
@@ -58,7 +60,21 @@ E piše F. Uredniški interval je od 1925-02-01 do 1925-03-01; zgornja meja
 ni vključena. Gre za en dogodek z negotovim datumom, ne za vsakodnevno
 dopisovanje ves mesec. Identifikacija naslovnika je verjetna.
 
-## Imena, čas uredniškega zapisa in meje
+<a id="syn-n1"></a>
+
+## SYN-N1 — izmišljena opomba o statusu, 1925
+
+Opomba A opiše kot samostojno obrtnico v letu 1925 in pri tem uporabi novi
+društveni besednjak.
+
+<a id="syn-n2"></a>
+
+## SYN-N2 — izmišljena institucionalna priloga, 1925-01-25
+
+Priloga beleži, da A tega dne v institucionalni vlogi uporabi nemščino. To ne
+izniči rabe slovenščine v SYN-D2.
+
+## Uredniški popravek in vzporedni opisi
 
 Upravna oblika Anna Kovatsch je izpričana v SYN-D1, podpis Ana Kovač pa v
 SYN-D2. Nobena ni razglašena za brezčasno prednostno ime. Urednik 2026-09-01
@@ -66,6 +82,10 @@ najprej prepiše podpis kot Ana Kovać, 2026-09-02 pa ta zapis nadomesti s
 trditvijo Ana Kovač. Obe stanji ostaneta ohranjeni. Poklicni oznaki iz leta
 1910 ostaneta vzporedni: različen institucionalni kontekst lahko pojasni
 navidezno protislovje, zato ena ne nadomesti druge.
+
+<a id="syn-border"></a>
+
+## SYN-BORDER — izmišljeni model meja
 
 Samo za prostorski preizkus kvadrat 0–1000 m v obeh smereh razdelimo pri x=500
 pred letom 1920 in pri x=600 od leta 1920. SYN-W leži zahodno, SYN-EAST vzhodno.
@@ -78,10 +98,12 @@ okraj na pravem načrtu obravnavajte ločeno; podobnost besedila ne identificira
 izmišljenega delovišča. Uporabljeni intervali so polodprti [začetek,konec).
 Dosje predpostavi nespremenjeno bivališče A do konca leta 1925.
 
+<a id="syn-names"></a>
+
 ## SYN-NAMES — izmišljena večjezična imenska opomba
 
 Izmišljeni imenik uporablja nemški St. Peter za L1 in L2 v letih 1910–1929.
-Za L1 navaja slovensko obliko Šent Peter v letih 1910–1919 in Šentpeter v
-letih 1920–1929; za L2 ves čas Sveti Peter. Oblike in datumi veljavnosti so
+Za L1 navaja slovensko obliko Šent Peter v letih 1910–1916 in Šentpeter v
+letih 1917–1929; za L2 ves čas Sveti Peter. Oblike in datumi veljavnosti so
 predpostavljeni učni zapisi, ne trditve o zgodovinski imenski praksi.
 Ne razrešijo identifikacije omembe delovnega kraja.

@@ -77,6 +77,11 @@ The original newspaper remains a separate evidence check: its four individually 
 
 Projection replaces shared document participation with person–person edges. A document containing k people contributes k(k−1)/2 possible pairs. A six-person list therefore contributes fifteen pairs, although it remains one source record. A three-person list contributes three. This is projection inflation, not fifteen independent testimonies of association.
 
+A document containing only one selected person remains a valid person–document
+edge in the bipartite graph but contributes no pair to a one-mode projection.
+Record it in the projection audit instead of dropping it silently. Because it
+forms no pair, it also creates no `1/(k−1)` fractional term and no division by zero.
+
 The discussion of two-mode networks by [Latapy, Magnien and Del Vecchio](https://doi.org/10.1016/j.socnet.2007.04.006) provides a formal basis for retaining the bipartite structure. In our example, `SYN-D5` alone connects every pair. The resulting complete graph conceals whether a pair shares one list or several distinct records.
 
 Keep a support table with one row per pair and supporting document. Deduplicate repeated mentions within the same document before counting document support. Also inspect whether two documents copy a common source: distinct identifiers do not guarantee evidential independence. A projected edge is a derived summary with provenance, not a new archival fact.

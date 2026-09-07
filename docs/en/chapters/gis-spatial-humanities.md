@@ -59,7 +59,7 @@ The source, place identification and territorial join answer different questions
 
 A historical source can describe an earlier journey, reproduce an older plan or propose a future road. Store publication date separately from represented time and survey or revision information when known. Unknown dates remain unknown. Do not manufacture a precise interval merely because the GIS temporal controller requires one.
 
-For candidate identification, the appropriate output may be two rows and a paragraph, not two confidently plotted residences. A candidate count is not a count of actual locations occupied.
+For candidate identification, the appropriate output may be two rows and a paragraph, not two confidently plotted residences. A candidate count is not a count of actual locations occupied. The packet keeps the mention's event window separate from boundary and toponym validity. Its comparison period is the actual half-open intersection of one boundary version and one name version, explicitly labelled as candidate-place history rather than mention duration. A 1917 name change inside the 1910–1919 boundary version is therefore not lost.
 
 ## Coordinate systems and transformations
 

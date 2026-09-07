@@ -8,12 +8,15 @@ from datetime import date, datetime
 from itertools import combinations
 import json
 from pathlib import Path
+import re
 import sqlite3
 
 import network_analysis
 import spatial_analysis
 
 ROOT = Path(__file__).resolve().parent
+SOURCE_IDS = {'SYN-D1', 'SYN-D2', 'SYN-D3', 'SYN-D4', 'SYN-D5', 'SYN-D6',
+              'SYN-N1', 'SYN-N2', 'SYN-BORDER', 'SYN-NAMES'}
 
 
 def read_csv(path):
@@ -35,12 +38,8 @@ def build_database(path):
     connection.executescript((ROOT / 'schema.sql').read_text(encoding='utf-8'))
     for row in read_csv(ROOT / 'input/entities.csv'):
         connection.execute('INSERT INTO entity VALUES (?,?,?,?)', tuple(row.values()))
-    for row in read_csv(ROOT / 'input/documents.csv'):
-        connection.execute('INSERT INTO source VALUES (?,?,?)',
-                           (row['document_id'], row['source_locator'], 'true'))
-    for source in ('SYN-N1', 'SYN-N2', 'SYN-BORDER', 'SYN-NAMES'):
-        connection.execute('INSERT INTO source VALUES (?,?,?)',
-                           (source, 'input/dossier.md: ' + source, 'true'))
+    for row in read_csv(ROOT / 'input/sources.csv'):
+        connection.execute('INSERT INTO source VALUES (?,?,?,?,?)', tuple(row.values()))
     for row in read_csv(ROOT / 'input/assertions.csv'):
         values = tuple(value or None for value in row.values())
         connection.execute('INSERT INTO assertion VALUES (' + ','.join('?' for _ in values) + ')', values)
@@ -56,6 +55,30 @@ def validate_interval(start, end):
 
 
 def validate_inputs():
+    source_rows = read_csv(ROOT / 'input/sources.csv')
+    sources = {row['source_id']: row for row in source_rows}
+    source_blocks = {}
+    if set(sources) != SOURCE_IDS or len(sources) != len(source_rows):
+        raise ValueError('sources.csv must inventory exactly D1-D6, N1, N2, BORDER and NAMES once each')
+    for source_id, row in sources.items():
+        if row['synthetic'] != 'true':
+            raise ValueError(f'{source_id}: source must be labelled synthetic')
+        try:
+            relative_file, anchor = row['locator'].split('#', 1)
+        except ValueError as error:
+            raise ValueError(f'{source_id}: locator must contain a file and anchor') from error
+        source_path = ROOT / relative_file
+        if not source_path.is_file():
+            raise ValueError(f'{source_id}: locator file does not exist')
+        source_text = source_path.read_text(encoding='utf-8')
+        marker = f'<a id="{anchor}"></a>'
+        marker_at = source_text.find(marker)
+        heading = re.search(r'^##\s+(\S+)', source_text[marker_at + len(marker):], flags=re.M) if marker_at >= 0 else None
+        if marker_at < 0 or heading is None or heading.group(1) != source_id:
+            raise ValueError(f'{source_id}: locator must point to its intended source block')
+        content_at = marker_at + len(marker)
+        next_marker = source_text.find('<a id="', content_at)
+        source_blocks[source_id] = source_text[content_at:next_marker if next_marker >= 0 else None]
     for name in ('assertions', 'boundaries', 'toponyms', 'documents'):
         rows = read_csv(ROOT / 'input' / f'{name}.csv')
         start, end = ('date_start', 'date_end') if name == 'documents' else ('valid_start', 'valid_end')
@@ -67,6 +90,21 @@ def validate_inputs():
                 timestamp = row['recorded_at']
                 if datetime.strptime(timestamp, '%Y-%m-%dT%H:%M:%SZ').strftime('%Y-%m-%dT%H:%M:%SZ') != timestamp:
                     raise ValueError('Use canonical UTC record timestamps')
+    for name in ('assertions', 'boundaries', 'toponyms', 'documents', 'candidates', 'participation'):
+        for row in read_csv(ROOT / 'input' / f'{name}.csv'):
+            source_id = row.get('source_id')
+            if source_id not in sources:
+                raise ValueError(f'{name}: unknown source_id {source_id!r}')
+            if row.get('synthetic') != 'true':
+                raise ValueError(f'{name}: synthetic records must be labelled')
+            if name == 'documents' and row['source_locator'] != sources[source_id]['locator']:
+                raise ValueError(f'{name}: source_locator disagrees with sources.csv')
+            if name == 'assertions':
+                relation = row['source_wording_relation']
+                if relation not in {'exact', 'translation', 'summary'}:
+                    raise ValueError(f'{name}: invalid source_wording_relation {relation!r}')
+                if relation == 'exact' and row['source_wording'] not in source_blocks[source_id]:
+                    raise ValueError(f'{name}: exact source wording is absent from its located block')
     people = {row['entity_id'] for row in read_csv(ROOT / 'input/entities.csv') if row['kind'] == 'person'}
     documents = {row['document_id'] for row in read_csv(ROOT / 'input/documents.csv')}
     seen = set()
@@ -74,6 +112,8 @@ def validate_inputs():
         pair = (row['person_id'], row['document_id'])
         if pair in seen or pair[0] not in people or pair[1] not in documents:
             raise ValueError('Participation must be unique and reference known people/documents')
+        if row['source_id'] != row['document_id']:
+            raise ValueError('Participation must cite the document that records it')
         seen.add(pair)
 
 

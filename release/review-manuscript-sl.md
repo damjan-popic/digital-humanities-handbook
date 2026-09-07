@@ -2784,7 +2784,7 @@ prozopografske ontologije. [Bradley in Short 2005](https://doi.org/10.1093/llc/f
 **Lastnost** opisuje zapis v opredeljenem okviru. **Razmerje** poveže entitete,
 na primer osebo in dokument. **Opazovanje** zabeleži, kaj je raziskovalec pregledal.
 **Trditev** nekaj pove o entiteti in navede dokazno podlago. **Dogodek** modelira
-pojav z udeleženci, vlogami in časom. To so različne modelske izbire, ne stopnje
+pojav z udeleženci, vlogami in časom. To so različne odločitve pri modeliranju, ne stopnje
 na poti do vse bolj resnične predstavitve.
 
 Pismo je dokument, njegovo pošiljanje dogodek, zapisano naslovnikovo ime opazovanje,
@@ -2806,8 +2806,9 @@ da bi poenostavili povezovanje tabel.
 [Učni dodatek o spornih modelih](../../assets/downloads/contested-models-v1.zip)
 vsebuje namenoma **sintetični** dosje za daljše obdobje. Ana Kovač oziroma Anna
 Kovatsch (`SYN-A`) je izmišljena oseba, ne identifikacija osebe iz časopisa.
-Avtentični paket ostaja nespremenjen. Dodatek preizkuša težave, ki jih ena sama
-časopisna številka ne more dokumentirati. Pred tabelami preberite dvojezični dosje.
+Paket arhivskih zapletov, ki temelji na avtentični časopisni številki, ostaja
+nespremenjen. Dodatek preizkuša težave, ki jih ena sama številka ne more
+dokumentirati. Pred tabelami preberite dvojezični dosje.
 Če izhod preverjamo samo proti drugi izpeljani tabeli, lahko zgolj ponavljamo
 iste predpostavke; zato potrebujemo tudi berljive izvorne zapise preizkusa.
 
@@ -2860,21 +2861,23 @@ avtorja odločitve, datum pregleda in utemeljitev povezave.
 
 Izvedljiva shema loči `entity`, `source` in `assertion`. Vsaka trditev vsebuje
 subjekt, predikat, besedilno vrednost ali povezano entiteto, kontekst, zgodovinski
-interval, vrsto intervala, čas zapisa, izvorno besedilo in stopnjo gotovosti.
-Ločena tabela sodelovanja hrani dokumentne vloge za nadaljnje dogodkovno usmerjene
-grafe. Koda uporablja enake identifikatorje v obeh jezikovnih izdajah.
+interval, vrsto intervala, čas zapisa, izvorno besedilo, opredeljeno razmerje do
+vira (`exact`, `translation` ali `summary`) in stopnjo gotovosti. Popis
+desetih virov D1–D6, N1, N2, BORDER in NAMES kaže na označene odseke berljivega
+dosjeja. Ločena tabela sodelovanja hrani dokumentne vloge za poznejše grafe
+dogodkov. Koda uporablja enake identifikatorje v obeh jezikovnih izdajah.
 
 ```text
 entity 1 -- mnogo assertion mnogo -- 1 source
 entity 1 -- mnogo assertion.object_id      (trditve o entitetah)
-assertion 1 -- mnogo assertion.supersedes (uredniški popravek)
+assertion 1 -- nič-ali-ena assertion.supersedes (uredniški popravek)
 ```
 
 | Model | Kaj omogoči | Kaj zakrije ali podraži |
 | --- | --- | --- |
-| Raven prikaz | Berljiv posnetek; preprosto razvrščanje | Časovno in izvorno opredeljeno povezovanje |
-| Normalizirane entitete in razmerja | Ponovno rabo identitet; poizvedbe mnogo proti mnogo | Nesoglasje, če razmerja niso dodatno opredeljena |
-| Opredeljene trditve in dogodki | Časovne poizvedbe; stare uredniške posnetke | Več povezovanj; zahtevnejšo interpretacijo in vzdrževanje besednjakov |
+| Ravna tabela za prikaz | Berljiv posnetek; preprosto razvrščanje | Časovno in izvorno opredeljeno povezovanje |
+| Normalizirane entitete in razmerja | Ponovno uporabo istih identifikatorjev; poizvedbe o razmerjih mnogo proti mnogo | Nesoglasje, če razmerja niso dodatno opredeljena |
+| Opredeljene trditve in dogodki | Časovne poizvedbe; pretekle različice uredniškega zapisa | Več povezovanj; zahtevnejšo interpretacijo in vzdrževanje besednjakov |
 
 Tretji model ohrani več razlik, vendar brez povezave s faksimilom in prozo izgubi
 postavitev, ton in zaporedje dokumenta. Splošni stolpec za predikat oteži tudi
@@ -2936,8 +2939,12 @@ Izvedljivi vzorec namenoma uporablja omejene intervale; produkcijska shema mora
 posebej obravnavati odprte, neznane in sporne časovne meje.
 
 Pri uredniškem popravku dodajte novo trditev s povezavo `supersedes`. Vzorec ohrani
-napačni prepis Ana Kovać in popravljeno obliko Ana Kovač. Poklicni oznaki pa nista
-popravek druga druge in nobena ne nadomesti drugega vira. Dnevnik z dodajanjem
+napačni prepis Ana Kovać in popravljeno obliko Ana Kovač. Popravek je dovoljen le,
+če ohrani isti vir, subjekt, predikat, kontekst, interval
+veljavnosti in vrsto intervala; ena trditev ima lahko največ enega neposrednega
+naslednika. Ozko pravilo predstavlja zamenjavo iste uredniške trditve, ne spremembe
+zgodovinskega obdobja. Poklicni oznaki pa nista
+popravek druga druge, zato nobena ne nadomesti druge. Dnevnik z dodajanjem
 novih zapisov omogoča stare poglede, vendar mora za zaupanja vreden časovni žig
 skrbeti aplikacija. Ročno vneseni datum ni neodvisno zavarovana revizijska sled
 transakcij; zbirka sama ne potrdi, kdo ga je vnesel.
@@ -2991,7 +2998,8 @@ lahko pomembna lastnost gradiva, ne napaka za izbris.
 Namesto združevanja po podobnosti imen ohranite kandidate, dokaze in odločitve.
 Predlagano združitev preverite z datumi, kraji, vlogami in neodvisnostjo virov.
 Napačna združitev poveže dve biografiji ter prenese napako v zemljevide in omrežja.
-Zavrnjena povezava Meker/Meeker iz avtentičnega paketa je uporaben opomin, da
+Zavrnjena povezava Meker/Meeker iz referenčne plasti paketa arhivskih zapletov je
+uporaben opomin, da
 podobnost zapisa ni dovolj za identifikacijo. Tudi nezdružitev naj ima utemeljitev.
 
 ## Preverjanje, občutljivost in izgube pri izvozu
@@ -3145,7 +3153,7 @@ Vir, identifikacija kraja in prostorski pripis ozemlju odgovarjajo na različna 
 
 Zgodovinski vir lahko opisuje starejše potovanje, ponatisne starejši načrt ali predlaga prihodnjo cesto. Datum objave hranite ločeno od predstavljenega časa ter podatkov o izmeri in popravkih, kadar so znani. Neznani datumi naj ostanejo neznani. Ne ustvarjajte navidezno natančnega intervala samo zato, ker časovno filtriranje v programu zahteva dve datumski polji.
 
-Pri nerazrešeni identifikaciji sta dve vrstici s pojasnilom lahko ustreznejši rezultat kot dve prepričljivo izrisani bivališči. Število kandidatov ni število dejansko naseljenih krajev. To razliko pojasnite tudi bralcu, ki vidi samo izvoženo tabelo.
+Pri nerazrešeni identifikaciji sta dve vrstici s pojasnilom lahko ustreznejši rezultat kot dve prepričljivo izrisani bivališči. Število kandidatov ni število dejansko naseljenih krajev. Paket hrani časovno okno omembe ločeno od veljavnosti meje in imena. Primerjalno obdobje je dejanski polodprti presek ene različice meje in ene različice imena ter je izrecno označeno kot zgodovina možnega kraja, ne trajanje omembe. Zato sprememba imena leta 1917 znotraj iste različice meje ne izgine. To razliko pojasnite tudi bralcu, ki vidi samo izvoženo tabelo.
 
 ## Koordinatni referenčni sistemi in transformacije
 
@@ -3163,28 +3171,28 @@ Avtentični načrt v paketu je Kochova *Ljubljana* iz leta 1910 v merilu 1 : 8.2
 
 Prav tako šest decimalnih mest pri današnji orientacijski točki ne pomeni geodetske točnosti. Paket ločeno beleži natančnost, navedeno v Wikidata, in ročno izbrane slikovne točke. Nekatere koordinate označujejo objekt na splošno, ne določljivega vogala. Če takšno neskladje prezrete, primerjate različne prostorske referente, ne pa napake pri istem položaju.
 
-## Georeferenciranje kot preverljiva prilagoditev
+## Georeferenciranje kot preverljiv postopek
 
-Georeferenciranje oceni transformacijo med slikovnimi in referenčnimi koordinatami. Izberite kontrolne točke, ki v obeh virih označujejo isti fizični element, ter jih razporedite po celotnem območju. Ne naslonite prilagoditve na eno samo ulico ali tesno skupino objektov. Vogal je lahko bolj ponovljiv kot približno središče, če se stavba medtem ni spremenila.
+Georeferenciranje oceni transformacijo med slikovnimi in referenčnimi koordinatami. Izberite kontrolne točke, ki v obeh virih označujejo isti fizični element, ter jih razporedite po celotnem območju. Izračuna transformacije ne naslonite na eno samo ulico ali tesno skupino objektov. Vogal je lahko bolj ponovljiv kot približno središče, če se stavba medtem ni spremenila.
 
 Afina transformacija omogoča premik, zasuk, spremembo merila in strig. Ne odpravi vsake lokalne deformacije. Prožnejša transformacija lahko zmanjša odstopanja pri kontrolnih točkah, hkrati pa povzroči neutemeljeno ukrivljanje med njimi. Izberite jo glede na predpostavke in neodvisno preverjanje, ne samo glede na privlačen rezultat.
 
-Nekaj točk prihranite za neodvisno preverjanje in jih ne vključite v prilagoditev. Preostanek oziroma odstopanje je razlika med napovedanim in referenčnim položajem. Koren povprečne kvadratne napake (RMSE) povzema razdalje, vendar je njegova razlaga odvisna od enot, kakovosti in razporeditve točk. [Dokumentacija georeferencerja QGIS](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/georeferencer.html) pojasni transformacije in obravnavo kontrolnih točk; program ne potrjuje njihove zgodovinske ustreznosti.
+Nekaj točk izločite iz izračuna in jih namenite neodvisnemu preverjanju. Odstopanje je razlika med napovedanim in referenčnim položajem. Koren povprečne kvadratne napake (RMSE) povzema razdalje, vendar je njegova razlaga odvisna od enot, kakovosti in razporeditve točk. [Dokumentacija georeferencerja QGIS](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/georeferencer.html) pojasni transformacije in obravnavo kontrolnih točk; program ne potrjuje njihove zgodovinske ustreznosti.
 
 ## Izdelani primer: neuspešno preverjanje poravnave
 
-Paket vsebuje sken dLib z oznako javne domene, šest prvih ročnih izbir orientacijskih točk, predpomnjene današnje koordinate in ponovljiv afini izračun. Štiri točke določajo prilagoditev, železniška postaja in stolnica pa sta izločeni za preverjanje. Gre za namenoma ohranjen pilot, ne za potrjene geodetske kontrolne točke. Središča objektov in slikovne izbire zahtevajo ročni pregled.
+Paket vsebuje sken dLib z oznako javne domene, šest prvih ročnih izbir orientacijskih točk, predpomnjene današnje koordinate in ponovljiv afini izračun. Štiri točke določajo transformacijo, železniška postaja in stolnica pa sta izločeni za preverjanje. Gre za namenoma ohranjen pilot, ne za potrjene geodetske kontrolne točke. Središča objektov in slikovne izbire zahtevajo ročni pregled.
 
 | Preverjanje | Rezultat v metrih | Razlaga |
 |---|---:|---|
-| RMSE štirih uporabljenih kontrolnih točk | 15,231 | opisuje le prilagoditev pri izbranih kontrolah |
+| RMSE štirih uporabljenih kontrolnih točk | 15,231 | opisuje le prileganje pri izbranih kontrolah |
 | RMSE dveh neodvisnih točk | 220,063 | ne podpira trditve o približno 15-metrski točnosti |
 | Izločitev zahodne kontrolne točke in naknadno preverjanje | 1.090,241 | razkrije šibko prostorsko oporo in ekstrapolacijo |
 | Samostojno preverjanje stolnice | 142,481 | ponovno preverite slikovni element in referent koordinate |
 
 Rezultate lahko ponovite brez QGIS. Povezani [postopek georeferenciranja](../workflows/mapping/georeference-and-check-a-historical-map-in-qgis.md) dodaja navodila za grafični vmesnik, shranjevanje transformacije in primerjavo s sodobnim slojem. Postopek v vmesniku še potrebuje dokumentiran pregled v QGIS. Številski pilot ne pomeni, da je bil dobljeni raster tudi vizualno potrjen.
 
-Slabe kontrolne točke ne izbrišite samo zato, da izboljšate oceno. Ponovno odprite sliko in referenčni opis ter zabeležite, ali je bila točka napačno prepoznana, premaknjena, posplošena ali premalo natančno določena. Popravljeni poskus shranite ločeno. Majhno odstopanje pri prilagoditvi in veliko pri neodvisnem preverjanju skupaj koristno opišeta meje modela.
+Slabe kontrolne točke ne izbrišite samo zato, da izboljšate oceno. Ponovno odprite sliko in referenčni opis ter zabeležite, ali je bila točka napačno prepoznana, premaknjena, posplošena ali premalo natančno določena. Popravljeni poskus shranite ločeno. Majhno odstopanje pri prileganju in veliko pri neodvisnem preverjanju skupaj koristno opišeta meje modela.
 
 ## Izdelani primer: premakne se meja
 
@@ -3274,7 +3282,7 @@ Oddajte tabele, opombo o virih in pravicah, zapis koordinatnega sistema in trans
 
 ## Povzetek
 
-Prostorski dokaz postane verodostojen z opredeljeno identifikacijo, ne z dovršenim izrisom. Imena, kraji, geometrije, pristojnosti in poti potrebujejo ločene zapise ter izrecne datume. Neodvisno preverjanje lahko razkrije zavajajoče dobro prilagoditev. Ohranjanje kandidatov, prostorsko združevanje z negotovostjo, utemeljeni imenovalci in zgodovinske prometne predpostavke omogočajo preverjanje argumenta. Tabela, ki pošteno ohrani dvoumnost, je lahko močnejši rezultat kot brezhiben zemljevid.
+Prostorski dokaz postane verodostojen z opredeljeno identifikacijo, ne z dovršenim izrisom. Imena, kraji, geometrije, pristojnosti in poti potrebujejo ločene zapise ter izrecne datume. Neodvisno preverjanje lahko razkrije zavajajoče dobro prileganje. Ohranjanje kandidatov, prostorsko združevanje z negotovostjo, utemeljeni imenovalci in zgodovinske prometne predpostavke omogočajo preverjanje argumenta. Tabela, ki pošteno ohrani dvoumnost, je lahko močnejši rezultat kot brezhiben zemljevid.
 
 ## Nadaljnje branje
 
@@ -3313,7 +3321,7 @@ Graf sestavljajo vozlišča in povezave, vendar zgodovinska razmerja spoznavamo 
 
 Ločite štiri ravni. **Opazovano razmerje v zapisu** poveže imenovanega udeleženca s pregledanim dokumentom. **Zatrjevano razmerje** povzame, kaj dokument trdi. **Izpeljano razmerje** je odvisno od izrecnega interpretativnega pravila. **Sopojavljanje** poveže entitete znotraj izbrane enote besedila, ne da bi dokazovalo medsebojno delovanje. Tudi pregledani dokument lahko osebo napačno prepozna ali dogodek opiše netočno.
 
-Uporaben zapis povezave zato vsebuje obe krajišči, vrsto razmerja, smer, identifikator dokaza, lokator vira, časovni interval, zanesljivost in pravilo gradnje. Ohranite besedilo vira ali obnovljivo pot do odlomka. Izrisana črta mora omogočiti vrnitev skozi te odločitve. Poglavje [Modeli, dokazi in interpretacija](models-evidence-interpretation.md) umešča razlikovanje med gradnjo podatkov in zgodovinsko razlago v širši okvir.
+Uporaben zapis povezave zato vsebuje obe krajišči, vrsto razmerja, smer, identifikator dokaza, lokator vira, časovni interval, zanesljivost in pravilo gradnje. Ohranite besedilo vira ali obnovljivo pot do odlomka. Izrisana črta mora omogočiti vrnitev skozi te odločitve. Poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) umešča razlikovanje med gradnjo podatkov in zgodovinsko razlago v širši okvir.
 
 ## Izbira vozlišč in razreševanje entitet
 
@@ -3337,11 +3345,11 @@ Datum pisma je čas dogodka, ne trajanje družbene vezi. `SYN-D6` je datiran sam
 
 Združevanje let 1910 in 1925 lahko ustvari poti, katerih povezave nikoli niso obstajale hkrati. Časovna pot potrebuje tudi pravilo zaporedja: sporočilo po poznejšem dogodku ne more potovati prek zgodnejšega. Neznani datumi različno vplivajo na možno in gotovo dosegljivost. Nedatiranega gradiva neopazno ne postavite na sredino raziskovanega obdobja.
 
-Zanesljivost opredeljuje konkretno trditev. V primeru je prejemnik `SYN-D6` verjeten; obstoj sintetičnega dokumenta znotraj vaje ni negotov. Takšno razlikovanje omogoča primerjavo samo zanesljivo določenih prejemnikov brez brisanja izvornega zapisa. Kategorije zanesljivosti so pregledovalne konvencije, ne samodejno umerjene verjetnosti.
+Zanesljivost opredeljuje konkretno trditev. V primeru je prejemnik `SYN-D6` verjeten; obstoj sintetičnega dokumenta znotraj vaje ni negotov. Takšno razlikovanje omogoča primerjavo samo zanesljivo določenih prejemnikov brez brisanja izvornega zapisa. Oznake zanesljivosti so dogovor za uredniški pregled, ne samodejno umerjene verjetnosti.
 
 ## En dosje, tri predstavitve
 
-Nadzorovani dosje vsebuje šest oseb in šest dokumentov. Ločene opombe o statusu iz poglavja o podatkovnih zbirkah niso vključene v omrežno izbiro. Tudi izbor je dokumentirana odločitev, ne nevidno predhodno čiščenje.
+Nadzorovani dosje vsebuje šest oseb in šest dokumentov. Ločene opombe o statusu iz poglavja o podatkovnih zbirkah niso vključene v izbor virov za omrežje. Tudi izbor je dokumentirana odločitev, ne nevidno predhodno čiščenje.
 
 | Dokument | Udeleženci | Vrsta vira in podatki o razmerju |
 |---|---|---|
@@ -3360,19 +3368,24 @@ Izvirni časopis ostaja ločeno preverjanje dokazov: štiri posamično poimenova
 
 Projekcija skupno udeležbo v dokumentu zamenja s povezavami med osebami. Dokument s k osebami prispeva k(k−1)/2 možnih parov. Seznam šestih oseb zato prispeva petnajst parov, čeprav ostaja en sam vir. Seznam treh oseb prispeva tri. To je napihovanje števila povezav pri projekciji, ne petnajst neodvisnih pričevanj o povezanosti.
 
+Dokument z eno samo izbrano osebo ostane veljavna povezava med osebo in dokumentom
+v dvodelnem grafu, v projekciji oseb pa ne ustvari para. Zabeležite ga med
+kontrolami projekcije, namesto da ga neopazno izpustite. Ker para ni, dokument
+prav tako ne prispeva člena `1/(k−1)` in ne povzroči deljenja z nič.
+
 Razprava [Latapyja, Magnien in Del Vecchia](https://doi.org/10.1016/j.socnet.2007.04.006) o dvodelnih omrežjih daje formalno izhodišče za ohranitev dvodelne strukture. V našem primeru `SYN-D5` sam poveže vsak par. Nastali polni graf prikrije razliko med parom iz enega seznama in parom, podprtim z več zapisi.
 
-Ohranite podporno tabelo z eno vrstico za vsak par in vsak pripadajoči dokument. Pred štetjem dokumentov odstranite podvojene omembe iste osebe znotraj istega dokumenta. Preverite tudi, ali dokumenta prepisujeta skupen vir: različna identifikatorja ne zagotavljata neodvisnosti dokazov. Projicirana povezava je izpeljani povzetek s provenienco, ne novo arhivsko dejstvo.
+Ohranite tabelo dokazne podlage z eno vrstico za vsak par in vsak pripadajoči dokument. Pred štetjem dokumentov odstranite podvojene omembe iste osebe znotraj istega dokumenta. Preverite tudi, ali dokumenta prepisujeta skupen vir: različna identifikatorja ne zagotavljata neodvisnosti dokazov. Projicirana povezava je izpeljani povzetek s provenienco, ne novo arhivsko dejstvo.
 
-## Pragovi in delne uteži
+## Pragovi in uteži glede na velikost dokumenta
 
 Utež naj pomeni število različnih skupnih dokumentov. Pri pragu 1 ohranite vsak podprti par; pri pragu 2 zahtevajte dva dokumenta; pri pragu 3 tri. Pragovi ne pomenijo šibkega, zanesljivega in gotovega prijateljstva. Pomenijo različno pogosto skupno dokumentiranost po izbranem pravilu.
 
 Druga projekcija vsakemu skupnemu dokumentu dodeli prispevek 1/(k−1), kjer je k število njegovih udeležencev. Tako velik seznam k posameznemu paru prispeva manj: `SYN-D5` doda 0,2 namesto 1. Normalizacija je izrecna analitična odločitev, ne univerzalni popravek. Druge utežitve odgovarjajo na druga vprašanja.
 
-Paket v vsaki primerjavi oseb ohrani vseh šest vozlišč, tudi izolirana. Mere obravnavajo preostale povezave kot enotske dolžine; dokumentne uteži določajo izbor povezav, niso pa dolžine poti. Večjega števila dokumentov ne razlagajte kot večjo oddaljenost. Če moč pretvarjate v razdaljo, pretvorbo utemeljite in njen vpliv preverite posebej.
+Paket v vsaki primerjavi oseb ohrani vseh šest vozlišč, tudi izolirana. Mere obravnavajo preostale povezave kot enotske dolžine; uteži glede na število dokumentov določajo izbor povezav, niso pa dolžine poti. Večjega števila dokumentov ne razlagajte kot večjo oddaljenost. Če moč pretvarjate v razdaljo, pretvorbo utemeljite in njen vpliv preverite posebej.
 
-## Izdelana primerjava: struktura in stopnja
+## Primerjalni primer: zgradba omrežja in prag
 
 | Pravilo gradnje | Povezave | Komponente | Največja stopnja med osebami |
 |---|---:|---:|---|
@@ -3380,7 +3393,7 @@ Paket v vsaki primerjavi oseb ohrani vseh šest vozlišč, tudi izolirana. Mere 
 | Projekcija, prag 1 | 15 | 1 | vseh šest: 5 oseb |
 | Projekcija, prag 2 | 7 | 1 | C: 4 osebe |
 | Projekcija, prag 3 | 2 | 4 | A, B, D, E: 1 oseba |
-| Delna utež, vsaj 1 | 3 | 3 | E: 2 osebi |
+| Utež 1/(k−1), vsaj 1 | 3 | 3 | E: 2 osebi |
 | Usmerjena korespondenca | 3 | 3 šibke komponente | E: 2 pripadajoči povezavi |
 
 Stopnja v dvodelnem grafu šteje dokumente, ne ljudi. Vrstni red zato previdno primerjajte s projicirano stopnjo. Pri pragu 1 časopisni seznam vse izenači. Pri pragu 2 ostanejo pari AB, AC, BC, CD, CE, DE in EF. C zdaj povezuje dela ABC in CDE. Pri pragu 3 ostaneta samo AB in DE, C in F pa sta izolirana.
@@ -3389,13 +3402,13 @@ Korespondenčni graf vsebuje A→B, D→E in E→F. Šibke komponente pri ugotav
 
 ## Vmesnost in bližina zahtevata predpostavke
 
-**Vmesnost** pripisuje deleže vozliščem na najkrajših poteh med drugimi vozlišči. Paket poroča surove, nenormalizirane vrednosti; pri neusmerjenem grafu dvojno štetje parov deli z dve. V projekciji s pragom 2 ima C vmesnost 6, E pa 4; druge osebe imajo nič. V polnem grafu pri pragu 1 so vse vrednosti nič, saj vsak par že povezuje neposredna povezava.
+**Središčnost po vmesnosti** pripisuje deleže vozliščem na najkrajših poteh med drugimi vozlišči. Paket poroča nenormalizirane vrednosti; pri neusmerjenem grafu dvojno štetje parov deli z dve. V projekciji s pragom 2 ima C vrednost 6, E pa 4; druge osebe imajo nič. V polnem grafu pri pragu 1 so vse vrednosti nič, saj vsak par že povezuje neposredna povezava.
 
-V usmerjeni korespondenci ima E vmesnost 1 zaradi poti od D do F prek E. To je grafovska pot prek zapisov, ne dokaz, da je E prenesel sporočilo, posredoval vpliv ali poznal vse pošiljatelje. Takšne razlage potrebujejo časovne in kontekstualne dokaze.
+V usmerjeni korespondenci ima E vrednost 1 zaradi poti od D do F prek E. To je pot v grafu, izpeljana iz zapisov, ne dokaz, da je E prenesel sporočilo, posredoval vpliv ali poznal vse pošiljatelje. Takšne razlage potrebujejo časovne in kontekstualne dokaze.
 
-Običajna **centralnost bližine** uporablja razdalje do drugih vozlišč in pri nepovezanem grafu zahteva dodatno konvencijo. Paket uporablja izhodno harmonično bližino: sešteje obratne vrednosti končnih razdalj in deli z N−1; nedosegljiva vozlišča prispevajo nič. Pri pragu 2 C doseže 0,9, E pa 0,8. V korespondenci D doseže 0,3, E 0,2 in B nič. Omejitev na dosegljiva vozlišča ali obrat smeri bi odgovorila na drugo vprašanje.
+Običajna **središčnost po bližini** uporablja razdalje do drugih vozlišč in pri nepovezanem grafu zahteva dodatno konvencijo. Paket uporablja harmonično bližino po izhodnih poteh: sešteje obratne vrednosti končnih razdalj in deli z N−1; nedosegljiva vozlišča prispevajo nič. Pri pragu 2 C doseže 0,9, E pa 0,8. V korespondenci D doseže 0,3, E 0,2 in B nič. Omejitev na dosegljiva vozlišča ali obrat smeri bi odgovorila na drugo vprašanje.
 
-Mere povzemajo model. Preden nekoga označite za vplivnega, pojasnite, zakaj najkrajše poti ali neposredni sosedje predstavljajo verjeten zgodovinski proces, ter preglejte podporne odlomke.
+Mere povzemajo model. Preden nekoga označite za vplivnega, pojasnite, zakaj najkrajše poti ali neposredni sosedje predstavljajo verjeten zgodovinski proces, ter preglejte odlomke, ki trditev podpirajo.
 
 ## Komponente in skupnosti niso politične skupine
 
