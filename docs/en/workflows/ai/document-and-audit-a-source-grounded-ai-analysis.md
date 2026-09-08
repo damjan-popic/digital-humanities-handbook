@@ -11,6 +11,12 @@ status: draft
 
 # How do I document and audit a source-grounded AI analysis?
 
+<div class="answer-meta" markdown="span">
+<span>AI</span>
+<span>intermediate</span>
+<span>90–120 min</span>
+</div>
+
 ## What you are trying to do
 
 You want to explain how a newspaper constructs political unity without turning
@@ -75,9 +81,11 @@ PDF page 1 beneath the title, sentence beginning `Tudi danes`.
 Copy and complete this YAML record. Machine keys remain identical across
 languages. Replace `not_run` only after execution; use `unknown` for unavailable
 information and `redacted` with a reason and authorized access route for
-withheld material. Empty metadata never silently means zero. `reviewer`,
-`review_date` (ISO date) and `review_scope` must describe actual human work
-before claiming human review. Never publish credentials.
+withheld material. Empty metadata never silently means zero. Keep `reviewer`,
+`review_date` and `review_scope` as YAML `null` while human review is pending.
+Before claiming completed review, replace them with the reviewer's name, an
+ISO date (`YYYY-MM-DD`) and a substantive account of the material and checks
+covered. Never publish credentials.
 
 ```yaml
 record_type: ai-analysis-audit
@@ -106,11 +114,11 @@ environment: not_run
 cost: not_run
 nondeterminism: unknown
 unavailable_details: unknown
-disclosure: not_run
+disclosure: This template records no model experiment; after execution, disclose the task, run record, affected material, checks and responsible people.
 review_status: pending_human_review
-reviewer: pending
-review_date: pending
-review_scope: pending
+reviewer: null
+review_date: null
+review_scope: null
 ```
 
 `source_documents` identifies selected inputs, not a licence grant. Add hashes,

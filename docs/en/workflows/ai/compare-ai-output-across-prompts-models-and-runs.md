@@ -11,6 +11,12 @@ status: draft
 
 # How do I compare AI output across prompts, models and runs?
 
+<div class="answer-meta" markdown="span">
+<span>AI</span>
+<span>intermediate</span>
+<span>90–150 min</span>
+</div>
+
 ## What you are trying to do
 
 You want to know whether a summary preserves who makes a historical claim when
@@ -44,23 +50,29 @@ is a proposed task, not a completed human-reviewed reference.
 ## Workflow
 
 1. **Freeze the comparison.** Retain the same source versions, passage IDs,
-   task and output format. P0 asks: “For each passage, identify the speaker,
-   summarize its claim, give the passage ID, and state what the source does
-   not establish. Do not add evidence.” P1 changes only the first instruction
-   to “For each passage, distinguish the publication's assertion from a
-   finding about its audience”, preserving the remaining requirements.
+   task and output format. Copy the exact P0 or P1 instruction from
+   `prompt_registry` below. P1 changes the first clause from identifying the
+   speaker to distinguishing the publication's assertion from a finding about
+   its audience; the remaining requirements stay the same. These English
+   experimental inputs are identical in both editions. Translating a prompt
+   would introduce another factor and requires a separately declared comparison.
 2. **Declare conditions.** C0 uses P0, M1 and the original passage order; C1
    changes only to P1; C2 changes only to reversed passage order; C3 changes
-   only to M2. M1/M2 are placeholders for recorded model identifiers, not
-   products. Fix parameters where supported and record unavailable settings.
-   Use fresh contexts, not a conversation that retains prior answers.
+   only to M2. Before execution, fill `model_registry` with the actual model
+   identifiers and available versions or snapshots, and update each selection
+   status. M1/M2 are registry keys, not products. Use each condition's explicit
+   `passage_order` and `changed_factor`. Fix parameters where supported and
+   record unavailable settings. Use fresh contexts, not a conversation that
+   retains prior answers.
 3. **Plan two repetitions per condition.** Each call receives all three
    passages, clearly labelled, and returns separate records for them. Four
    conditions times two repetitions mean eight planned calls. Log time,
    model identifier, configuration and output for each actual call, including
    refusals and failures. A second model may require a different provider;
    review its data arrangement before sending anything. If unavailable,
-   mark C3 `not_run` and reduce the claim, not the documentation.
+   leave M2 unselected and explain in the report why C3 was not run. Do not
+   insert an unperformed call into `run_records`; report the smaller actual
+   total and narrow the conclusion accordingly.
 4. **Review without model labels.** Assign output IDs and hide condition
    names during the first reading where practical. Compare every consequential
    claim with the source and manual baseline. Keep the synthetic control and
@@ -91,8 +103,10 @@ budget is a classroom ceiling, not permission to incur charges. Obtain an
 appropriate permitted arrangement before optional paid calls; otherwise use
 the offline route. Every actual run needs the full provenance record from the
 companion workflow. `unknown`, `redacted` with explanation and `not_run` must
-remain distinguishable. Human-review fields require real names, ISO dates and
-scope before a human-reviewed state can be claimed.
+remain distinguishable. Keep `reviewer`, `review_date` and `review_scope` as
+YAML `null` while review is pending. A completed human review requires the
+reviewer's name, an ISO date (`YYYY-MM-DD`) and a substantive description of
+the reviewed material and checks.
 
 ```yaml
 record_type: ai-robustness-plan
@@ -103,11 +117,34 @@ source_documents:
   - teaching-data/archival-friction/source/ilustrirani-slovenec-1925-02-07.pdf
 passage_ids: [TNLP-CLEAN-02, TNLP-AF-REF, TNLP-AF-OCR]
 baseline: Manual extraction of speaker, claim, evidence and qualification; pending.
+prompt_registry:
+  P0: "For each passage, identify the speaker, summarize its claim, give the passage ID, and state what the source does not establish. Do not add evidence."
+  P1: "For each passage, distinguish the publication's assertion from a finding about its audience, summarize its claim, give the passage ID, and state what the source does not establish. Do not add evidence."
+model_registry:
+  M1: {model_identifier: null, model_version_or_snapshot: null, status: not_selected}
+  M2: {model_identifier: null, model_version_or_snapshot: null, status: not_selected}
+repetitions_per_condition: 2
 conditions:
-  - {condition_id: C0, prompt: P0, model: M1, source_order: original}
-  - {condition_id: C1, prompt: P1, model: M1, source_order: original}
-  - {condition_id: C2, prompt: P0, model: M1, source_order: reversed}
-  - {condition_id: C3, prompt: P0, model: M2, source_order: original}
+  - condition_id: C0
+    prompt: P0
+    model: M1
+    passage_order: [TNLP-CLEAN-02, TNLP-AF-REF, TNLP-AF-OCR]
+    changed_factor: null
+  - condition_id: C1
+    prompt: P1
+    model: M1
+    passage_order: [TNLP-CLEAN-02, TNLP-AF-REF, TNLP-AF-OCR]
+    changed_factor: prompt
+  - condition_id: C2
+    prompt: P0
+    model: M1
+    passage_order: [TNLP-AF-OCR, TNLP-AF-REF, TNLP-CLEAN-02]
+    changed_factor: passage_order
+  - condition_id: C3
+    prompt: P0
+    model: M2
+    passage_order: [TNLP-CLEAN-02, TNLP-AF-REF, TNLP-AF-OCR]
+    changed_factor: model
 planned_runs: 8
 actual_runs: 0
 run_records: []
@@ -126,7 +163,7 @@ validation_strata:
 validation_sample: [TNLP-CLEAN-02, TNLP-AF-REF, TNLP-AF-OCR]
 adjudication: Preserve initial decisions, source reasons, final decisions and disagreement.
 acceptance_rule: No invented evidence or population claim in any publishable candidate.
-stop_rule: Stop at the budget limit or an unresolved privacy or rights problem.
+stop_rule: Stop when a call, time or cost limit is reached, or if a privacy or rights problem remains unresolved.
 budget:
   maximum_model_calls: 8
   maximum_paid_cost_eur: 5
@@ -135,9 +172,9 @@ budget:
   energy_measurement: unknown
 results_status: not_run
 review_status: pending_human_review
-reviewer: pending
-review_date: pending
-review_scope: pending
+reviewer: null
+review_date: null
+review_scope: null
 ```
 
 ## Consequential differences

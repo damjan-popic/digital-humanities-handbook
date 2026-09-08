@@ -12,6 +12,12 @@ translation_status: machine-assisted draft; requires human language review
 
 # Kako primerjam izhode UI med pozivi, modeli in zagoni?
 
+<div class="answer-meta" markdown="span">
+<span>UI</span>
+<span>srednje zahtevno</span>
+<span>90–150 min</span>
+</div>
+
 ## Kaj želite doseči
 
 Ugotoviti želite, ali povzetek ob spremembi poziva, vrstnega reda virov ali
@@ -21,8 +27,8 @@ robustnosti, ne lestvica splošno najboljših modelov. Preberite poglavje
 in najprej opravite
 [pregled virov in zapisa zagona](document-and-audit-a-source-grounded-ai-analysis.md).
 
-Postopek je strojno podprti osnutek, ki čaka na človeški pregled. Predlaga osem
-klicev modela, poroča pa o **nič dejanskih zagonih**. Različica vaje brez
+Postopek je strojno podprt osnutek, ki čaka na strokovni in jezikovni pregled.
+Predlaga osem klicev modela, poroča pa o **nič dejanskih zagonih**. Različica vaje brez
 povezave uporablja avtorske simulacije in ne dokazuje uspešnosti modela.
 
 ## Kaj potrebujete
@@ -40,29 +46,35 @@ Zgodovinsko mesto je `AF-OCR-P1-INTRO`, prva stran PDF pod naslovom, poved
 z začetkom `Tudi danes`. Ročna izhodiščna obravnava naj izpiše govorca,
 trditev o enotnosti, ponujene dokaze in potrebno omejitev. Pripravite jo
 pred branjem povzetkov UI, da zmanjšate vpliv prvega prikazanega odgovora.
-Izhodiščna obravnava je predlagana naloga, ne opravljena človeško pregledana
-referenca.
+Ta izhodiščna obravnava je šele načrtovana; njeni rezultati še niso bili
+strokovno pregledani.
 
 ## Postopek
 
 1. **Določite primerjavo.** Ohranite iste različice virov, identifikatorje
-   odlomkov, nalogo in obliko izhoda. P0 zahteva: »Za vsak odlomek določite
-   govorca, povzemite trditev, navedite identifikator odlomka in pojasnite,
-   česa vir ne dokazuje. Ne dodajajte dokazov.« P1 spremeni le prvo navodilo
-   v »Za vsak odlomek ločite trditev publikacije od ugotovitve o njenem
-   občinstvu«, preostale zahteve pa ohrani.
+   odlomkov, nalogo in obliko izhoda. Natančno navodilo P0 ali P1 kopirajte
+   iz spodnjega polja `prompt_registry`. P1 zahtevo po določitvi govorca
+   zamenja z razlikovanjem med trditvijo publikacije in ugotovitvijo o njenem
+   občinstvu; preostale zahteve ostanejo enake. Ti angleški eksperimentalni
+   vhodi so v obeh izdajah identični. Prevod poziva bi uvedel dodaten dejavnik,
+   zato zanj določite ločeno primerjavo.
 2. **Opredelite pogoje.** C0 uporablja P0, M1 in prvotni vrstni red; C1
    spremeni le poziv v P1; C2 spremeni le vrstni red v obratnega; C3 spremeni
-   le model v M2. M1 in M2 sta mesti za dejanska identifikatorja modelov,
-   ne imeni izdelkov. Parametre določite, kjer je to mogoče, nedostopne
-   nastavitve pa zapišite. Uporabite svež kontekst brez prejšnjih odgovorov.
+   le model v M2. Pred izvedbo v `model_registry` vpišite dejanska
+   identifikatorja modelov ter dostopni različici ali posnetka in posodobite
+   stanje izbire. M1 in M2 sta ključa registra, ne imeni izdelkov. Uporabite
+   izrecno določeni `passage_order` in `changed_factor` vsakega pogoja.
+   Parametre določite, kjer je to mogoče, nedostopne nastavitve pa zapišite.
+   Uporabite svež kontekst brez prejšnjih odgovorov.
 3. **Načrtujte dve ponovitvi na pogoj.** Vsak klic prejme vse tri jasno
    označene odlomke in vrne ločene zapise zanje. Štirje pogoji z dvema
    ponovitvama pomenijo osem načrtovanih klicev. Pri vsakem dejanskem klicu
    shranite čas, identifikator modela, konfiguracijo in izhod, tudi ob
    zavrnitvi ali napaki. Drugi model lahko zahteva drugega ponudnika;
    pred pošiljanjem preverite njegovo ureditev podatkov. Če ni na voljo,
-   C3 označite z `not_run` in omejite trditev, ne dokumentacije.
+   M2 pustite neizbran in v poročilu pojasnite, zakaj C3 ni bil izveden.
+   Neizvedenega klica ne dodajajte v `run_records`; navedite manjše dejansko
+   število klicev in ustrezno omejite sklep.
 4. **Preglejte brez imen modelov.** Izhodom dodelite identifikatorje in med
    prvim branjem po možnosti skrijte pogoje. Vsako pomembno trditev primerjajte
    z virom in ročno izhodiščno obravnavo. Sintetični kontrolni primer ločite
@@ -90,23 +102,48 @@ Kopirajte zapis in v obeh jezikih ohranite strojne ključe. Predlagani proračun
 je učna zgornja meja, ne dovoljenje za nastanek stroškov. Pred izbirnimi
 plačljivimi klici zagotovite ustrezno dovoljeno ureditev, sicer uporabite vajo
 brez povezave. Vsak dejanski zagon potrebuje celoten zapis izvora iz povezanega
-postopka. Ločite `unknown`, `redacted` z razlago in `not_run`. Pred oznako
-opravljenega človeškega pregleda navedite resnična imena, datume ISO in obseg.
+postopka. Ločite `unknown`, `redacted` z razlago in `not_run`. Dokler pregled
+še čaka, v poljih `reviewer`, `review_date` in `review_scope` ohranite
+vrednost YAML `null`. Opravljen človeški pregled zahteva ime osebe, datum
+ISO (`YYYY-MM-DD`) in vsebinski opis pregledanega gradiva ter izvedenih preverjanj.
 
 ```yaml
 record_type: ai-robustness-plan
 record_status: template
-research_question: Does the summary preserve attribution and uncertainty?
+research_question: Ali povzetek ohrani pripis trditve in negotovost?
 source_documents:
   - teaching-data/text-nlp-validation/raw/annotation-samples.csv
   - teaching-data/archival-friction/source/ilustrirani-slovenec-1925-02-07.pdf
 passage_ids: [TNLP-CLEAN-02, TNLP-AF-REF, TNLP-AF-OCR]
-baseline: Manual extraction of speaker, claim, evidence and qualification; pending.
+baseline: Ročno izpišite govorca, trditev, dokaze in omejitev; naloga še ni opravljena.
+prompt_registry:
+  P0: "For each passage, identify the speaker, summarize its claim, give the passage ID, and state what the source does not establish. Do not add evidence."
+  P1: "For each passage, distinguish the publication's assertion from a finding about its audience, summarize its claim, give the passage ID, and state what the source does not establish. Do not add evidence."
+model_registry:
+  M1: {model_identifier: null, model_version_or_snapshot: null, status: not_selected}
+  M2: {model_identifier: null, model_version_or_snapshot: null, status: not_selected}
+repetitions_per_condition: 2
 conditions:
-  - {condition_id: C0, prompt: P0, model: M1, source_order: original}
-  - {condition_id: C1, prompt: P1, model: M1, source_order: original}
-  - {condition_id: C2, prompt: P0, model: M1, source_order: reversed}
-  - {condition_id: C3, prompt: P0, model: M2, source_order: original}
+  - condition_id: C0
+    prompt: P0
+    model: M1
+    passage_order: [TNLP-CLEAN-02, TNLP-AF-REF, TNLP-AF-OCR]
+    changed_factor: null
+  - condition_id: C1
+    prompt: P1
+    model: M1
+    passage_order: [TNLP-CLEAN-02, TNLP-AF-REF, TNLP-AF-OCR]
+    changed_factor: prompt
+  - condition_id: C2
+    prompt: P0
+    model: M1
+    passage_order: [TNLP-AF-OCR, TNLP-AF-REF, TNLP-CLEAN-02]
+    changed_factor: passage_order
+  - condition_id: C3
+    prompt: P0
+    model: M2
+    passage_order: [TNLP-CLEAN-02, TNLP-AF-REF, TNLP-AF-OCR]
+    changed_factor: model
 planned_runs: 8
 actual_runs: 0
 run_records: []
@@ -123,9 +160,9 @@ validation_strata:
   - {stratum: historical_reference, passage_ids: [TNLP-AF-REF]}
   - {stratum: historical_ocr, passage_ids: [TNLP-AF-OCR]}
 validation_sample: [TNLP-CLEAN-02, TNLP-AF-REF, TNLP-AF-OCR]
-adjudication: Preserve initial decisions, source reasons, final decisions and disagreement.
-acceptance_rule: No invented evidence or population claim in any publishable candidate.
-stop_rule: Stop at the budget limit or an unresolved privacy or rights problem.
+adjudication: Ohranite začetne presoje, utemeljitve iz virov, končne odločitve in nestrinjanja.
+acceptance_rule: Noben predlog za objavo ne sme vsebovati izmišljenih dokazov ali trditev o prebivalstvu.
+stop_rule: Ustavite delo ob doseženi omejitvi števila klicev, časa ali stroškov oziroma ob nerešenem vprašanju zasebnosti ali pravic.
 budget:
   maximum_model_calls: 8
   maximum_paid_cost_eur: 5
@@ -134,9 +171,9 @@ budget:
   energy_measurement: unknown
 results_status: not_run
 review_status: pending_human_review
-reviewer: pending
-review_date: pending
-review_scope: pending
+reviewer: null
+review_date: null
+review_scope: null
 ```
 
 ## Razlike, ki vplivajo na sklep
@@ -169,7 +206,7 @@ modela.
 ## Preverite se
 
 - Ali vsaka primerjava spremeni samo napovedani dejavnik?
-- Ali so vključeni neuspešni klici in zavrnitve ter ločeni števili napak in pokritosti?
+- Ali so vključeni neuspešni klici in zavrnitve ter ločeni podatki o napakah in pokritosti?
 - Ali ste v vsaki skupini pregledali vire, tudi težaven OCR in slovenščino?
 - Ali so pomembne razlike povezane z zgodovinskim argumentom?
 - Ali ste se izognili obravnavi povezanih predstavitev kot neodvisnih virov?

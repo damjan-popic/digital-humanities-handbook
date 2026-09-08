@@ -12,6 +12,12 @@ translation_status: machine-assisted draft; requires human language review
 
 # Kako dokumentiram in preverim analizo UI, utemeljeno v virih?
 
+<div class="answer-meta" markdown="span">
+<span>UI</span>
+<span>srednje zahtevno</span>
+<span>90–120 min</span>
+</div>
+
 ## Kaj želite doseči
 
 Pojasniti želite, kako časopis oblikuje predstavo politične enotnosti, ne da
@@ -20,7 +26,7 @@ dokazov za pregled vsake pomembne trditve tudi po morebitnem umiku modela.
 Postopek dopolnjuje poglavje
 [UI, etika in ponovljivost](../../chapters/ai-ethics-reproducibility.md).
 
-To je strojno podprti dokumentacijski osnutek, ki čaka na človeški
+To je strojno podprt dokumentacijski osnutek, ki čaka na strokovni in jezikovni
 pregled. Napačni izhodi v poglavju so avtorske učne simulacije. Spodnja predloga
 ne beleži opravljenega zagona UI ali človeškega preverjanja.
 
@@ -79,15 +85,16 @@ stran PDF pod naslovom, poved z začetkom `Tudi danes`.
 Kopirajte in izpolnite zapis YAML. Strojni ključi so v obeh jezikih enaki.
 `not_run` nadomestite šele po izvedbi. Za nedostopno informacijo uporabite
 `unknown`, za zakrito pa `redacted` z razlogom in potjo do dovoljenega
-dostopa. Prazni metapodatki nikoli samodejno ne pomenijo ničle. Polja
-`reviewer`, `review_date` (datum ISO) in `review_scope` morajo opisovati
-dejansko človeško delo, preden navedete, da je bil pregled opravljen.
-Poverilnic nikoli ne objavite.
+dostopa. Prazni metapodatki nikoli samodejno ne pomenijo ničle. Dokler človeški
+pregled še čaka, v poljih `reviewer`, `review_date` in `review_scope` ohranite
+vrednost YAML `null`. Pred navedbo opravljenega pregleda vpišite ime osebe,
+datum ISO (`YYYY-MM-DD`) in vsebinski opis pregledanega gradiva ter izvedenih
+preverjanj. Poverilnic nikoli ne objavite.
 
 ```yaml
 record_type: ai-analysis-audit
 record_status: template
-research_question: How does the introductory paragraph construct political unity?
+research_question: Kako uvodni odstavek oblikuje predstavo politične enotnosti?
 provider: not_run
 model_identifier: not_run
 model_version_or_snapshot: not_run
@@ -101,21 +108,21 @@ source_documents:
   - teaching-data/text-nlp-validation/raw/annotation-samples.csv
   - teaching-data/archival-friction/source/ilustrirani-slovenec-1925-02-07.pdf
 passage_ids: [TNLP-CLEAN-02, TNLP-AF-REF, TNLP-AF-OCR]
-preprocessing: Copy the declared extraction and hash records before running.
+preprocessing: Pred zagonom prepišite dokumentirani postopek izluščenja in zapise kontrolnih vsot.
 truncation: not_run
 output_path: not_run
 correction_log: not_run
 validation_sample: [TNLP-CLEAN-02, TNLP-AF-REF, TNLP-AF-OCR]
-validation_protocol: Inspect all claims; preserve independent decisions and adjudication.
+validation_protocol: Preglejte vse trditve; ohranite neodvisne presoje in zapis njihovega usklajevanja.
 environment: not_run
 cost: not_run
 nondeterminism: unknown
 unavailable_details: unknown
-disclosure: not_run
+disclosure: Predloga ne beleži preizkusa modela; po izvedbi razkrijte nalogo, zapis zagona, obravnavano gradivo, preverjanja in odgovorne osebe.
 review_status: pending_human_review
-reviewer: pending
-review_date: pending
-review_scope: pending
+reviewer: null
+review_date: null
+review_scope: null
 ```
 
 Polje `source_documents` določa izbrane vhode, ne podeljuje licence. V

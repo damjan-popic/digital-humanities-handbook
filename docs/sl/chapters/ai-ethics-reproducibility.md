@@ -16,8 +16,8 @@ Odgovorna uporaba umetne inteligence (UI) omogoča presojo tega razmerja,
 vključno z odločitvami, da rezultat popravimo, omejimo ali ga ne uporabimo.
 
 !!! note "Uredniško stanje"
-    Poglavje in učne simulacije so strojno podprti osnutki. Čakajo
-    na strokovni pregled in kompetenten človeški pregled slovenščine. Spodnji
+    Poglavje in učne simulacije so osnutki, pripravljeni s strojno pomočjo.
+    Pred objavo potrebujejo strokovni in slovenski jezikovni pregled. Spodnji
     primeri so avtorsko pripravljene učne simulacije, ne poročila o izvedenih
     zagonih generativnega modela ali dokaz opravljenega človeškega preverjanja.
 
@@ -53,8 +53,8 @@ odstavek lahko denimo označi glede na politično stališče. To omogoča trdite
 uspešnosti glede na določen kodirni priročnik na preverjenem gradivu, ne
 neposrednega vpogleda v avtorjevo prepričanje. **Generativni jezikovni modeli**
 tvorijo besedilo na podlagi navodil in konteksta. Uporaben osnutek ostaja
-predlog predstavitve; slovnična pravilnost in verjetni navedki ne dokazujejo
-zgodovinske resničnosti.
+predlog besedila; slovnična pravilnost in prepričljivo oblikovani navedki
+ne dokazujejo zgodovinske resničnosti.
 
 **Vektorske vložitve** predstavijo enote z vektorji. **Priklic informacij**
 izbere možne odlomke s poizvedbo in postopkom razvrščanja. Pomenska bližina
@@ -75,8 +75,8 @@ ravni obravnavata poglavji [Jezikoslovna anotacija in CLASSLA](linguistic-annota
 in [Teme, sentiment in čustva](topics-emotions-classification.md).
 
 Ločiti morate tudi načine uporabe. **Lokalna** namestitev omogoča nadzor nad
-izvedljivimi različicami, če ohranite odvisnosti in uteži modela. **Gostovani**
-vmesnik del nadzora prepusti ponudniku. **API** je programski vmesnik, ne
+različicami programske opreme, če ohranite odvisnosti in uteži modela.
+**Gostovani** vmesnik del nadzora prepusti ponudniku. **API** je programski vmesnik, ne
 jamstvo za zasebnost ali stabilnost; dostopa lahko do lokalne ali oddaljene
 storitve. Opišite dejansko ureditev. Ime storitve ne določa nujno modela,
 skritih navodil, usmerjanja zahtev, politike hrambe ali možnosti izvoza
@@ -132,8 +132,8 @@ kot neznan.
 
 Prvotni izhod hranite ločeno od dnevnika popravkov in popravljenega predloga.
 Dodajte protokol in dejanski vzorec preverjanja, odločitve pregledovalcev,
-kodo, okolje paketov, pomembne podatke o strojni opremi, čas izvajanja in
-denarni strošek. Neznano lastniško podrobnost označite z `unknown`, zakriti
+kodo, različice programskih paketov, pomembne podatke o strojni opremi,
+čas izvajanja in denarni strošek. Neznano lastniško podrobnost označite z `unknown`, zakriti
 podatek z `redacted` ter razlogom in potjo do dovoljenega dostopa, neizvedeno
 dejanje pa z `not_run`. Nobena od teh oznak ne pomeni številčne ničle. V
 javni zapis ne vključujte poverilnic. Ohranite dovoljeni izvoz konfiguracije:
@@ -152,7 +152,7 @@ omejeno dostopne dokaze pa ohranite v okviru dovoljenega dostopa.
 Raziskovalno vprašanje se glasi: kako *Ilustrirani Slovenec* oblikuje predstavo
 politične enotnosti? Uporabite [paket arhivskega trenja](../../assets/downloads/archival-friction-v1.zip)
 in [paket besedilnega in jezikoslovnega preverjanja](../../assets/downloads/text-nlp-validation-v1.zip).
-Zgodovinski predmet je *Ilustrirani Slovenec*, 7. februar 1925, letnik 1,
+Obravnavani zgodovinski vir je *Ilustrirani Slovenec*, 7. februar 1925, letnik 1,
 številka 7, z identifikatorjem dLib `URN:NBN:SI:doc-YPI8OFSU`.[^ai-archive]
 Natančno mesto je prva stran PDF, uvodni odstavek pod naslovom,
 `AF-OCR-P1-INTRO`, poved z začetkom `Tudi danes`. V jezikoslovnem paketu
@@ -164,7 +164,7 @@ pomočjo UI, so različne ravni.
 Začnite s čistim kontrolnim primerom: `source/contemporary-sample.csv`, zapis
 `TNLP-C02`, prva poved. Raziskovalci v tem avtorskem sintetičnem besedilu
 preverjajo prepise in pojasnjujejo negotovost. Sprejemljiv opis navede ti dve
-dejanji, ne da bi izumil projekt ali rezultat. Primer pokaže želeno nalogo
+dejanji, ne da bi si izmislil projekt ali rezultat. Primer pokaže želeno nalogo
 na izrecni ubeseditvi, ne uspešnosti na zgodovinskih arhivih. Kontrolnega in
 zgodovinskega odlomka nikoli ne združujte kot neodvisni zgodovinski opazovanji.
 
@@ -213,8 +213,8 @@ dopolnite z namenskimi skupinami za zgodovinski pravopis, poškodovan OCR,
 navajanje, ironijo, jezik in žanr. Zapišite identifikatorje ter imenovalec
 vsakega deleža: nič pregledanih primerov pomeni nedoločen delež, ne popolne
 točnosti. Večji delež težavnih odlomkov pomaga odkrivati slabosti, brez
-ustreznega uteževanja pa ne ocenjuje napak celotne zbirke. Poročajte o majhnih
-številih in negotovosti ter o pomembnih primerih, ki jih vzorec ne zajema.
+ustreznega uteževanja pa ne ocenjuje napak celotne zbirke. Poročajte tudi o majhnem
+številu primerov in negotovosti ter o pomembnih primerih, ki jih vzorec ne zajema.
 
 Kadar je izvedljivo, naj dva bralca izbrane trditve neodvisno presodita po
 kratkem kodirnem priročniku. Pred pogovorom ohranite začetne odločitve,
@@ -224,8 +224,8 @@ Referenčne oznake so raziskovalne presoje z določenim stanjem pregleda, ne
 nevtralna resnica. Pri učni vaji lahko pregledate vsak izhod, večji projekt
 pa potrebuje izrecen načrt vzorčenja in predaje težavnih primerov v presojo.
 
-Pri klasifikatorjih **umerjenost** primerja napovedano gotovost z dejansko
-pravilnostjo na ustreznem gradivu, ki ni bilo uporabljeno za učenje. Ocena 0,9
+Pri klasifikatorjih **umerjenost** presojamo s primerjavo napovedane gotovosti
+in dejanske pravilnosti na ustreznem gradivu, ki ni bilo uporabljeno za učenje. Ocena 0,9
 sama po sebi ne pomeni 90-odstotne verjetnosti pravilnosti. Guo in sodelavci pokažejo, da je gotovost
 nevronskih modelov lahko slabo umerjena.[^ai-calibration] Postopek umerjanja in
 prag za opustitev napovedi določite na validacijskih podatkih ter ju preverite
@@ -256,9 +256,9 @@ o vsakem današnjem modelu.[^ai-context]
 ločuje slogovne razlike od sprememb pripisa, dokazov, negotovosti in izpustov,
 ki vplivajo na sklep.
 
-Omejeno adversarialno preverjanje oziroma *red-teaming* namerno preizkuša
-verjetne okoliščine odpovedi: zavajajoč naslov, nasprotujoča si odlomka ali
-navodilo, vstavljeno v dokument. Izvorno besedilo obravnavajte kot dokaz,
+Pri preverjanju ranljivosti v vnaprej določenem obsegu (angl. *red-teaming*)
+namerno preizkusite verjetne okoliščine odpovedi: zavajajoč naslov,
+nasprotujoča si odlomka ali navodilo, vstavljeno v dokument. Izvorno besedilo obravnavajte kot dokaz,
 nikoli kot pooblastilo za spremembo raziskovalnega postopka. Uporabite
 dovoljene neobčutljive primere in pravilo ustavitve. Vaja preverja določeno
 ranljivost, ne tekmovanja v premagovanju klepetalnika. Tudi soglasje modelov
@@ -273,7 +273,7 @@ kako potekata hramba in izbris, ali se uporabljajo za učenje in kakšne so
 pogodbene omejitve. Zmanjšajte poslani odlomek ali uporabite nadzorovano
 lokalno obdelavo. Nejasno pravno podlago ali ureditev obdelave naj pred
 prenosom razrešijo pristojni za naročanje in varstvo podatkov v ustanovi.
-Smernice EDPB pojasnjujejo omejitev namena, najmanjši obseg podatkov in
+Smernice EDPB pojasnjujejo omejitev namena, načelo najmanjšega obsega podatkov in
 varovanje občutljivih podatkov; javna dostopnost teh obveznosti ne razreši.[^ai-privacy]
 
 Pravice presojajte ločeno za vire, oznake, modele, programsko opremo in izhode.
@@ -281,7 +281,7 @@ Dovoljenje za branje vira še ne dovoljuje razširjanja ali pošiljanja tretji
 osebi. Preverite licence, pogoje storitve, institucionalne pogodbe in zahteve
 za navedbo ter zapišite različico in datum dostopa. Generirani izhod lahko
 ponovi varovano izrazno obliko, zato ponudnikovo dovoljenje za uporabo izhoda
-ne razreši vseh pravic v njem. Ob negotovosti objavite identifikatorje in
+ne razreši vseh vprašanj pravic v njem. Ob negotovosti objavite identifikatorje in
 postopek rekonstrukcije namesto nedovoljeno razširjenih kopij ter vprašanje
 zabeležite za strokovno pravno presojo.
 
@@ -301,7 +301,8 @@ spremembe. Pristranskost v prid avtomatiziranemu odgovoru zmanjšujte tako,
 da pregledovalci najprej preberejo vire. Ohranjajte vaje iz kritike virov,
 da pomoč ne nadomesti veščine, potrebne za prepoznavanje napake. Priznajte
 delo označevanja, prepisovanja, prevajanja in moderiranja; opišite znane
-delovne okoliščine, ne da bi izmišljali trditve o nevidnih delavcih.
+delovne okoliščine, ne da bi si izmišljali trditve o delavcih, o katerih
+nimate podatkov.
 
 Podporne rabe lahko širijo dostop z bralno pomočjo, prepisovanjem ali osnutki
 opisov. Rezultate preverite s predvidenimi uporabniki: skrajšano besedilo lahko

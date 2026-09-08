@@ -78,7 +78,7 @@ supported the stated claims; no less authoritative mirror was silently
 substituted for a cited source. Before formal publication, reviewers should
 inspect those originals through an available route and recheck mutable service
 documentation. This audit does not claim that the complete bibliography has
-received human subject review.
+received human scholarly review.
 
 The paired chapters, workflows, terminology and proposed interpretation remain
 subject to continuous scholarly and competent human Slovene-language review.

@@ -8,8 +8,8 @@ translation_status: machine-assisted draft; requires human language review
 # Slovar
 
 !!! warning "Stanje prevoda"
-    Slovensko besedilo je strojno podprti uredniški osnutek. Pred formalno
-    objavo potrebuje vsebinski in jezikovni pregled strokovnjaka za slovenščino.
+    Slovensko besedilo je strojno podprt uredniški osnutek. Pred formalno
+    objavo potrebuje vsebinski in slovenski jezikovni pregled.
 
 **Anotacija**  
 Strukturirana oznaka, dodana podatkom, na primer lema, besedna vrsta, imenska entiteta, čustvena kategorija ali uredniška opomba. Samodejna anotacija je rezultat modela in jo je treba preveriti.
@@ -84,7 +84,7 @@ Pretvorba teoretskega pojma v opazljive kategorije, spremenljivke ali postopke, 
 Zapis o izvoru podatkov, osebah, ki so jih spreminjale, uporabljenih pretvorbah in dokazih, ki podpirajo trditev.
 
 **Izdaja**  
-Oštevilčena znanstvena izdaja, ki jo obravnavamo kot zamrznjen objavljeni posnetek, medtem ko se razvoj drugje nadaljuje. Oznaka Git ali izdaja na GitHubu sama po sebi ne zagotavlja znanstvene recenzije, nespremenljivosti ali dolgoročne hrambe; za to potrebujemo izrecna pravila in dokazila.
+Oštevilčena znanstvena izdaja, ki jo obravnavamo kot zamrznjen objavljeni posnetek, medtem ko se razvoj drugje nadaljuje. Oznaka v Gitu ali izdaja na GitHubu sama po sebi ne zagotavlja znanstvene recenzije, nespremenljivosti ali dolgoročne hrambe; za to potrebujemo izrecna pravila in dokazila.
 
 **Ponovljivost**  
 Ponovna izvedba postopka pod istimi navedenimi pogoji. Natančna ponovitev zahteva tudi povsem enak rezultat; nespremenjena navodila ali naključno seme pri gostovanem modelu sama po sebi tega ne zagotavljajo.

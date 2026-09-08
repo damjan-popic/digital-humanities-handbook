@@ -11,6 +11,10 @@ status: draft
 
 # How do I create a versioned scholarly release?
 
+<div class="answer-meta" markdown="span">
+<span>Publishing & FAIR data</span><span>intermediate</span><span>90–150 min</span>
+</div>
+
 !!! warning "Draft and exercise scope"
     This machine-assisted workflow awaits human scholarly and Slovene-language review. It prepares a release plan; it does not publish a release, register an identifier or confirm a publisher agreement.
 

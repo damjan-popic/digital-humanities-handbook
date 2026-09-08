@@ -11,6 +11,10 @@ status: draft
 
 # How do I correct a published digital resource without erasing history?
 
+<div class="answer-meta" markdown="span">
+<span>Publishing & FAIR data</span><span>intermediate</span><span>60–100 min</span>
+</div>
+
 !!! warning "Draft and exercise scope"
     This machine-assisted workflow awaits human scholarly and Slovene-language review. The release numbers and letter counts below are hypothetical. Prepare records locally; no actual release or removal is required.
 
@@ -39,22 +43,24 @@ How should a later reader learn that an earlier edition counted the same histori
 
 The classroom example removes four duplicate representations from 40 rows, leaving 36 distinct letters. The release judgement is specific to this example, not a universal rule for numerical corrections. Shared machine keys let EN/SL records be compared; each record is a template, not evidence of completed human review.
 
+The `LETTER-COUNT-01` entry covers the table and its generated reading copies.
+
 ```yaml
 record_type: publication-correction
 record_status: template
 correction_id: EX-ERR-001
-affected_release: "1.0.0 (hypothetical)"
+affected_release: "1.0.0"
 affected_objects:
   - "en/source-counting#worked-example"
   - "sl/source-counting#razdelan-primer"
-  - "table LETTER-COUNT-01 and generated reading copies"
+  - "LETTER-COUNT-01"
 evidence: "Compare duplicate source IDs in rows 37–40 with their earlier entries"
 category: substantive-correction
 claim_before: "The table represents 40 distinct historical letters"
 claim_after: "The 40 rows represent 36 distinct historical letters"
 release_classification:
   level: minor
-  target_version: "1.1.0 (hypothetical)"
+  target_version: "1.1.0"
   rationale: "Corrected teaching conclusion within the existing architecture; not a patch"
 source_change: "Paired correction and recalculation; source commit pending"
 changelog: "EX-ERR-001 identifies affected 1.0.0 section and planned 1.1.0"

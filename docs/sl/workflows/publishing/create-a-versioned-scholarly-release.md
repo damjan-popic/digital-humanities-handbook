@@ -12,8 +12,12 @@ translation_status: "machine-assisted draft; requires human language review"
 
 # Kako pripravite oštevilčeno znanstveno izdajo?
 
+<div class="answer-meta" markdown="span">
+<span>Objavljanje in podatki FAIR</span><span>srednje zahtevno</span><span>90–150 min</span>
+</div>
+
 !!! warning "Osnutek in obseg vaje"
-    Postopek je pripravljen s strojno pomočjo ter čaka na človeški strokovni in slovenski jezikovni pregled. Z njim pripravite načrt izdaje; ne objavite izdaje, ne registrirate identifikatorjev in ne potrdite založniške pogodbe.
+    Postopek je pripravljen s strojno pomočjo ter čaka na strokovni in slovenski jezikovni pregled usposobljenih pregledovalcev. Z njim pripravite načrt izdaje; ne objavite izdaje, ne registrirate identifikatorjev in ne potrdite založniške pogodbe.
 
 ## Kaj želite doseči
 
@@ -30,10 +34,10 @@ Bralec mora vedeti, katero dvojezično učno gradivo podpira navedeno argumentac
 
 1. Določite znanstveno trditev izdaje in občinstvo. Izberite kandidatno revizijo ter popišite vključene predmete. Ločite recenzirano gradivo od spremljevalne žive zbirke; stran zunaj manifesta ne more prevzeti recenzijskega statusa izdaje.
 2. Zabeležite obseg pregleda, imena, kadar jih smete objaviti, datume in pregledano revizijo. Prevode preverite po pomenu in navodilih; osnutke in nadomestne strani označite. Za vsak bralni format posebej navedite dostopnostni pregled in preostale izjeme.
-3. Po uredniških pravilih izberite različico in odločitev pojasnite v dnevniku sprememb. Uskladite predlagano oznako, navedek, manifest, opombe ob izdaji in imena paketov. Oznaka Git, GitHub release in znanstveni identifikator so različni predmeti.
+3. Po uredniških pravilih izberite različico in odločitev pojasnite v dnevniku sprememb. Uskladite predlagano oznako, navedek, manifest, opombe ob izdaji in imena paketov. Oznaka v Gitu, izdaja na GitHubu in znanstveni identifikator so različni predmeti.
 4. Izbrani izvor zgradite v dokumentiranem okolju. Preglejte oba jezika, povezave, lokatorje virov, tabele in branje brez povezave. Pripravite izvorni arhiv in ustrezne bralne kopije z licencami ter navedbami sodelavcev. SHA-256 izračunajte po dokončanju datotek; spremenjeni ZIP potrebuje novo vsoto.
 5. Izpolnite spodnji zapis. `null` v predlogi pomeni, da podatek še ni pridobljen, ne dodeljene vrednosti ali uspešnega preverjanja. Nadomestite ga šele s preverjenim commitom ali kontrolno vsoto. Vnose manifesta in datotek ponovite za celoten popis.
-6. Z založnikom in ustanovo uskladite pristojnosti za identifikatorje ter pogoje hrambe. DOI in ISBN ostaneta pogojna. Ko je odobreni depozit dejansko opravljen, preverite prevzete bajte in pristajalni zapis. Artefakt GitHub Actions sam ni ureditev dolgoročne hrambe.
+6. Z založnikom in ustanovo uskladite pristojnosti za identifikatorje ter pogoje hrambe. DOI in ISBN ostaneta pogojna. Ko je odobreni depozit dejansko opravljen, preverite prevzete bajte in pristajalno stran z metapodatki. Artefakt GitHub Actions sam ni ureditev dolgoročne hrambe.
 7. Drug urednik naj primerja vse zapise. Navedite odprte ovire in ostanite pri kandidatu, če manjkajo zahtevani pregledi, pravice, dostopnostna presoja ali založniške odločitve.
 
 ## Dokumentacijski zapis
@@ -65,7 +69,7 @@ manifest:
     content_type: stable-chapter
     review_status: pending-human-review
     review_scope: "Slovenski jezik in vsebina; pregledovalec/datum/revizija v čakanju"
-    translation_status: "Strojno podprti osnutek v paru z angleškim"
+    translation_status: "Strojno podprt osnutek v paru z angleškim"
     licence: CC-BY-4.0
     source_sha256: null
     inclusion_status: proposed-reviewed-edition
@@ -86,7 +90,7 @@ artefacts:
 archive:
   repository: "Institucionalni repozitorij; sprejem v čakanju"
   deposit_status: not-deposited
-  verification: "Čakajo prevzem, primerjava vsot in pregled pristajalnega zapisa"
+  verification: "Čakajo prevzem, primerjava vsot in pregled pristajalne strani z metapodatki"
 build_environment: "Zapišite OS, izvajalno okolje, odvisnosti, ukaz in opaženi rezultat"
 approval: "Čakajo imenovani urednik, zapis pregledov in zahtevana založniška potrditev"
 ```

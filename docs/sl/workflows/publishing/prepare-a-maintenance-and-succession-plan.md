@@ -12,8 +12,12 @@ translation_status: "machine-assisted draft; requires human language review"
 
 # Kako pripravite načrt vzdrževanja in nasledstva?
 
+<div class="answer-meta" markdown="span">
+<span>Objavljanje in podatki FAIR</span><span>srednje zahtevno</span><span>90–150 min</span>
+</div>
+
 !!! warning "Osnutek in obseg vaje"
-    Postopek je pripravljen s strojno pomočjo ter čaka na človeški strokovni in slovenski jezikovni pregled. Spodnje vloge in storitve so predloga načrta, ne dokaz obstoječih imenovanj. Pri vaji ne objavljajte poverilnic in ne prenašajte računov.
+    Postopek je pripravljen s strojno pomočjo ter čaka na strokovni in slovenski jezikovni pregled usposobljenih pregledovalcev. Spodnje vloge in storitve so predloga načrta, ne dokaz obstoječih imenovanj. Pri vaji ne objavljajte poverilnic in ne prenašajte računov.
 
 ## Kaj želite doseči
 
@@ -93,7 +97,7 @@ Popis odgovornosti in odvisnosti, dokazila o kopiranju in obnovi, datirani urnik
 - Ali ima vsaka storitev potrjenega nosilca in pot obnove?
 - Ali preizkus obnovi bralno uporabnost in ne le datotek?
 - Ali sta prevodom in dostopnosti dodeljena čas in odgovornost?
-- Ali projekt lahko konča vzdrževanje in ohrani zadnjo navedljivo izdajo?
+- Ali projekt lahko konča vzdrževanje in ohrani zadnjo izdajo, primerno za navajanje?
 
 ## Pogoste pasti
 

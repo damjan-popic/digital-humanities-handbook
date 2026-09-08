@@ -11,6 +11,10 @@ status: draft
 
 # How do I prepare a maintenance and succession plan?
 
+<div class="answer-meta" markdown="span">
+<span>Publishing & FAIR data</span><span>intermediate</span><span>90–150 min</span>
+</div>
+
 !!! warning "Draft and exercise scope"
     This machine-assisted workflow awaits human scholarly and Slovene-language review. Names of roles and services below are a planning template, not evidence of existing assignments. Do not publish credentials or transfer accounts during the exercise.
 
