@@ -112,6 +112,26 @@ workflow_categories:
 # Stable category IDs and per-workflow overrides keep localized display labels
 # separate from the canonical ecosystem mapping.
 workflows:
+  workflows/ai/document-and-audit-a-source-grounded-ai-analysis.md:
+    chapters:
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/models-evidence-interpretation.md
+  workflows/ai/compare-ai-output-across-prompts-models-and-runs.md:
+    chapters:
+      - chapters/ai-ethics-reproducibility.md
+      - chapters/research-design.md
+  workflows/publishing/create-a-versioned-scholarly-release.md:
+    chapters:
+      - chapters/open-living-handbook.md
+      - chapters/ai-ethics-reproducibility.md
+  workflows/publishing/correct-a-published-digital-resource-without-erasing-history.md:
+    chapters:
+      - chapters/open-living-handbook.md
+      - chapters/models-evidence-interpretation.md
+  workflows/publishing/prepare-a-maintenance-and-succession-plan.md:
+    chapters:
+      - chapters/open-living-handbook.md
+      - chapters/critical-infrastructures.md
   workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite.md:
     chapters:
       - chapters/databases-sql.md
@@ -409,6 +429,8 @@ chapters:
       - case-studies/pracomul.md
   chapters/ai-ethics-reproducibility.md:
     workflows:
+      - workflows/ai/document-and-audit-a-source-grounded-ai-analysis.md
+      - workflows/ai/compare-ai-output-across-prompts-models-and-runs.md
       - workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md
       - workflows/ai/audit-ai-output-against-source-documents.md
       - workflows/ethics/decide-whether-a-digitised-source-should-be-public.md
@@ -425,6 +447,9 @@ chapters:
       - case-studies/vejice-add-in.md
   chapters/open-living-handbook.md:
     workflows:
+      - workflows/publishing/create-a-versioned-scholarly-release.md
+      - workflows/publishing/correct-a-published-digital-resource-without-erasing-history.md
+      - workflows/publishing/prepare-a-maintenance-and-succession-plan.md
       - workflows/reference-management/choose-apply-and-audit-a-citation-style.md
       - workflows/automation/automate-a-linguistic-workflow-with-a-makefile.md
       - workflows/publishing/write-a-readme-for-a-humanities-dataset.md

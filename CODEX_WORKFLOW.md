@@ -60,6 +60,47 @@ A strong implementation issue contains these headings:
 - Do not ask Codex to translate a long chapter blindly. The Slovene text must be edited as academic Slovene and checked against the English argument, not sentence by sentence.
 - Update the review manuscripts and navigation when a stable chapter is added or reordered.
 
+## Development review snapshots
+
+Review manuscripts use absolute links to the source commit recorded in
+`release/review-source.json`. They describe a development snapshot, not a
+publisher-approved edition. The source-snapshot timestamp is the recorded
+commit's UTC timestamp, not a claimed publication or review date. The builder
+checks that manuscript inputs and linked repository files match that commit;
+it must not silently link a changed passage to an older version.
+
+When chapter or linked workflow content changes, use this two-commit sequence
+on the same task branch:
+
+1. Run the relevant focused checks and `make indexes`, then commit the authored
+   sources, linked files and regenerated catalogues.
+2. Read the full source commit with `git rev-parse HEAD`, then run
+   `python scripts/build_review_manuscripts.py --record-source FULL_COMMIT_SHA`.
+   Substitute that exact value. This verifies the source bytes against Git and
+   records their hashes and the commit timestamp in `release/review-source.json`.
+3. Run `make check` and `git diff --check`. The build regenerates both review
+   manuscripts with links to the recorded source and checks their content.
+4. Commit the snapshot record and generated manuscripts together. Push both
+   commits on the task branch and retain their history until review is complete.
+
+A later source correction needs a new source commit and snapshot record. Do
+not derive the link revision from the current `HEAD` on every build: committing
+generated manuscripts would otherwise change their own output again. Normal
+builds compare files with the recorded hashes and work without Git history,
+including in source archives and after a squash merge. The commit links identify
+source bytes while GitHub retains the object; they are not a preservation deposit.
+The numbered-release and identifier pipeline is a separate publisher-coordinated
+task; this mechanism neither creates a tag nor assigns a DOI or ISBN.
+
+The snapshot also records `.gitattributes`. Its LF checkout policy keeps authored
+text and linked teaching-data tables byte-identical under `core.autocrlf=true`;
+binary files are not converted. The captured Windows-1250/CRLF provider OCR export
+has an explicit `-text` exception and must retain its original bytes. Declare any
+new byte-sensitive source exception before committing it; do not normalize a
+captured source merely to satisfy the snapshot check. The manuscript, catalogue
+and coverage writers also emit LF explicitly, so their output does not depend
+on the host operating system.
+
 ## Visual task rules
 
 - Separate palette and typography changes from major layout restructuring where possible.

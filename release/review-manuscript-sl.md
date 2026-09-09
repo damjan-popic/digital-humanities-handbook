@@ -3,10 +3,11 @@
 **Stabilno jedro in učni poti — razvojni recenzijski posnetek**
 
 **Različica:** 0.1.0-dev<br>
-**Datum:** 2026-07-23<br>
+**Datum izvornega posnetka (UTC):** 2026-09-08T06:54:32Z<br>
+**Izvorni commit:** [12f9d3a083a294aac43eeb16b7b8a11cb99d3074](https://github.com/damjan-popic/digital-humanities-handbook/commit/12f9d3a083a294aac43eeb16b7b8a11cb99d3074)<br>
 **Avtor/urednik:** Damjan Popič
 
-> Datoteka je samodejno sestavljena iz verzioniranega izvornega besedila. Za navigacijo in interaktivno gradivo je merodajna spletna izdaja.
+> Ta razvojni recenzijski posnetek ni oštevilčena izdaja. Povezave v repozitorij vodijo do zapisanega izvornega commita; spletna izdaja ostaja sproti posodabljana živa izdaja.
 
 ---
 
@@ -16,7 +17,7 @@
 
 ## Kakšen priročnik je pred vami
 
-Priročnik povezuje stabilno pojmovno in metodološko jedro z živo zbirko [praktičnih postopkov](../workflows/index.md) in [študij primerov](../case-studies/index.md). Poglavja pojasnjujejo, zakaj so raziskovalne odločitve pomembne in kako dokazno gradivo podpira interpretacijo. Postopki ponujajo navodila za omejene izvedbene naloge, študije primerov pa kažejo, kako obsežnejši projekti povezujejo metode, ustanove in znanstvene trditve.
+Priročnik povezuje stabilno pojmovno in metodološko jedro z živo zbirko [praktičnih postopkov](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/index.md) in [študij primerov](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/case-studies/index.md). Poglavja pojasnjujejo, zakaj so raziskovalne odločitve pomembne in kako dokazno gradivo podpira interpretacijo. Postopki ponujajo navodila za omejene izvedbene naloge, študije primerov pa kažejo, kako obsežnejši projekti povezujejo metode, ustanove in znanstvene trditve.
 
 Jedro zato ni zaporedje navodil za programsko opremo. Razvija argument o raziskovanju: razumeti moramo zgodovine in infrastrukture, ki oblikujejo digitalno delo, premišljeno zasnovati dokazno gradivo, izbrati in preveriti metode ter rezultate odgovorno objaviti.
 
@@ -33,45 +34,45 @@ Jedro zato ni zaporedje navodil za programsko opremo. Razvija argument o razisko
 
 ### I. del — Zgodovine, teorije in konteksti
 
-1. [Kaj je digitalna humanistika?](what-is-digital-humanities.md)
-2. [Zgodovine in genealogije digitalne humanistike](history-of-digital-humanities.md)
-3. [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md)
-4. [Infrastrukture digitalne humanistike: moč, dostop in vzdrževanje](critical-infrastructures.md)
-5. [Digitalna humanistika v Sloveniji: infrastrukture, jeziki in skupnosti](digital-humanities-in-slovenia.md)
+1. [Kaj je digitalna humanistika?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/what-is-digital-humanities.md)
+2. [Zgodovine in genealogije digitalne humanistike](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/history-of-digital-humanities.md)
+3. [Modeli, dokazno gradivo in interpretacija](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/models-evidence-interpretation.md)
+4. [Infrastrukture digitalne humanistike: moč, dostop in vzdrževanje](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/critical-infrastructures.md)
+5. [Digitalna humanistika v Sloveniji: infrastrukture, jeziki in skupnosti](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/digital-humanities-in-slovenia.md)
 
 ### II. del — Raziskovalna zasnova in viri
 
-6. [Od vprašanja do metode](research-design.md)
-7. [Podatki, metapodatki in modeli](data-metadata-models.md)
-8. [Besedila, korpusi in OCR](texts-corpora-ocr.md)
+6. [Od vprašanja do metode](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/research-design.md)
+7. [Podatki, metapodatki in modeli](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/data-metadata-models.md)
+8. [Besedila, korpusi in OCR](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/texts-corpora-ocr.md)
 
 ### III. del — Analitične metode
 
-9. [Jezikoslovna anotacija in CLASSLA](linguistic-annotation-classla.md)
-10. [Analiza besedil](text-analysis.md)
-11. [Teme, sentiment in čustva](topics-emotions-classification.md)
-12. [Podatkovne zbirke in SQL](databases-sql.md)
-13. [GIS in prostorska humanistika](gis-spatial-humanities.md)
-14. [Omrežja in vizualizacija](networks-visualization.md)
+9. [Jezikoslovna anotacija in CLASSLA](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/linguistic-annotation-classla.md)
+10. [Analiza besedil](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/text-analysis.md)
+11. [Teme, sentiment in čustva](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/topics-emotions-classification.md)
+12. [Podatkovne zbirke in SQL](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/databases-sql.md)
+13. [GIS in prostorska humanistika](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/gis-spatial-humanities.md)
+14. [Omrežja in vizualizacija](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/networks-visualization.md)
 
 ### IV. del — Odgovorno raziskovanje in objavljanje
 
-15. [UI, etika in ponovljivost](ai-ethics-reproducibility.md)
-16. [Živi odprti priročnik](open-living-handbook.md)
+15. [UI, etika in ponovljivost](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/ai-ethics-reproducibility.md)
+16. [Živi odprti priročnik](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/open-living-handbook.md)
 
 ## Krajše poti
 
 ### Temeljna digitalna in informacijska pismenost
 
-Pot je namenjena razumevanju, kako digitalni viri postanejo dokazno gradivo, ne pa tehnični specializaciji. Preberite poglavja [1](what-is-digital-humanities.md), izbrane dele poglavja [2](history-of-digital-humanities.md), nato poglavja [3](models-evidence-interpretation.md), [4](critical-infrastructures.md), [6](research-design.md), [7](data-metadata-models.md), [8](texts-corpora-ocr.md) in [15](ai-ethics-reproducibility.md). Iz petega poglavja lahko izberete profil ustreznega slovenskega vira, analitična poglavja pa uporabite kot razširitev. Povezana predmetna zasnova je [Pismenost za informacijsko družbo](../learning-paths/pismenost-za-informacijsko-druzbo.md).
+Pot je namenjena razumevanju, kako digitalni viri postanejo dokazno gradivo, ne pa tehnični specializaciji. Preberite poglavja [1](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/what-is-digital-humanities.md), izbrane dele poglavja [2](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/history-of-digital-humanities.md), nato poglavja [3](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/models-evidence-interpretation.md), [4](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/critical-infrastructures.md), [6](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/research-design.md), [7](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/data-metadata-models.md), [8](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/texts-corpora-ocr.md) in [15](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/ai-ethics-reproducibility.md). Iz petega poglavja lahko izberete profil ustreznega slovenskega vira, analitična poglavja pa uporabite kot razširitev. Povezana predmetna zasnova je [Pismenost za informacijsko družbo](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/learning-paths/pismenost-za-informacijsko-druzbo.md).
 
 ### Analiza besedil in digitalna slovenistika
 
-Celotni prvi del predstavi področje, njegove modelske predpostavke in slovenski ekosistem virov. Nadaljujte s poglavji [6](research-design.md), [8](texts-corpora-ocr.md), [9](linguistic-annotation-classla.md), [10](text-analysis.md), [11](topics-emotions-classification.md) in [15](ai-ethics-reproducibility.md). Podatkovne zbirke, GIS in omrežja dodajte glede na projekt. Nadaljevalno zaporedje štirinajstih modulov ponuja [Digitalna slovenistika](../learning-paths/digitalna-slovenistika.md).
+Celotni prvi del predstavi področje, njegove modelske predpostavke in slovenski ekosistem virov. Nadaljujte s poglavji [6](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/research-design.md), [8](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/texts-corpora-ocr.md), [9](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/linguistic-annotation-classla.md), [10](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/text-analysis.md), [11](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/topics-emotions-classification.md) in [15](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/ai-ethics-reproducibility.md). Podatkovne zbirke, GIS in omrežja dodajte glede na projekt. Nadaljevalno zaporedje štirinajstih modulov ponuja [Digitalna slovenistika](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/learning-paths/digitalna-slovenistika.md).
 
 ### Projektno delo
 
-Začnite s poglavji [3](models-evidence-interpretation.md), [4](critical-infrastructures.md) in [5](digital-humanities-in-slovenia.md), nato projekt zasnujte s poglavjema [6](research-design.md) in [7](data-metadata-models.md). Iz tretjega dela izberite eno glavno metodo, raziskovalno verigo pa sklenite s poglavjema [15](ai-ethics-reproducibility.md) in [16](open-living-handbook.md). Druga metodološka poglavja preberite le, če podpirajo raziskovalno vprašanje ali strategijo preverjanja.
+Začnite s poglavji [3](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/models-evidence-interpretation.md), [4](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/critical-infrastructures.md) in [5](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/digital-humanities-in-slovenia.md), nato projekt zasnujte s poglavjema [6](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/research-design.md) in [7](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/data-metadata-models.md). Iz tretjega dela izberite eno glavno metodo, raziskovalno verigo pa sklenite s poglavjema [15](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/ai-ethics-reproducibility.md) in [16](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/open-living-handbook.md). Druga metodološka poglavja preberite le, če podpirajo raziskovalno vprašanje ali strategijo preverjanja.
 
 ## Teoretični del ni obvezni predpogoj
 
@@ -89,7 +90,7 @@ Vsako poglavje vsebuje:
 - **Refleksijo** — interpretativna vprašanja, ki preprečujejo golo pritiskanje gumbov.
 - **Povzetek** — trditve, ki jih potrebujemo v naslednjem poglavju.
 
-Poglavje uporabite za stabilni argument, nato pa izberite ustrezen [praktični postopek](../workflows/index.md) za izvedbo ali [študijo primera](../case-studies/index.md) za umeščen zgled. Ti živi zbirki se lahko spreminjata hitreje kot jedro, namenjeno recenziji.
+Poglavje uporabite za stabilni argument, nato pa izberite ustrezen [praktični postopek](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/index.md) za izvedbo ali [študijo primera](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/case-studies/index.md) za umeščen zgled. Ti živi zbirki se lahko spreminjata hitreje kot jedro, namenjeno recenziji.
 
 ---
 
@@ -99,32 +100,32 @@ Priročnik ni sestavljen iz štirih ločenih polic. Poglavja podajajo pojme in a
 
 ## Kako se premikate po ekosistemu
 
-1. Začnite z omejenim humanističnim vprašanjem v [jedru priročnika](chapters/index.md).
+1. Začnite z omejenim humanističnim vprašanjem v [jedru priročnika](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/index.md).
 2. Izberite praktični postopek, ki izdela pregleden rezultat.
 3. Primerjajte ga s študijo primera, v kateri je metoda del večjega projekta.
 4. Vrnite se k poglavju ter preverite, kaj rezultat lahko pomeni in česa ne more dokazati.
-5. Za poučevanje uporabite [Pismenost za informacijsko družbo](learning-paths/pismenost-za-informacijsko-druzbo.md) ali [Digitalno slovenistiko](learning-paths/digitalna-slovenistika.md).
+5. Za poučevanje uporabite [Pismenost za informacijsko družbo](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/learning-paths/pismenost-za-informacijsko-druzbo.md) ali [Digitalno slovenistiko](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/learning-paths/digitalna-slovenistika.md).
 
 ## Od poglavij k praksi
 
 | Poglavje | Izbrani praktični postopki | Študije primerov |
 | --- | --- | --- |
-| [Kaj je digitalna humanistika?](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/what-is-digital-humanities/) | [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/build-a-simple-cultural-heritage-map/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)* |
-| [Zgodovine in genealogije digitalne humanistike](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/history-of-digital-humanities/) | [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)* | [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/corpus-augmenter/) *(angleška nadomestna stran)* |
-| [Modeli, dokazno gradivo in interpretacija](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/models-evidence-interpretation/) | [Kako raziskovalno vprašanje pretvorim v načrt znanstvenega besedila?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)*<br>[Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[Kako preverim stabilnost in interpretabilnost tematskega modela?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
-| [Infrastrukture digitalne humanistike: moč, dostop in vzdrževanje](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/critical-infrastructures/) | [How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ethics/decide-whether-a-digitised-source-should-be-public/) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/fifi/) *(angleška nadomestna stran)* |
-| [Digitalna humanistika v Sloveniji: infrastrukture, jeziki in skupnosti](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/digital-humanities-in-slovenia/) | [Kako s CLASSLA anotiram majhno besedilo?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/annotate-a-small-text-with-classla/)<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*<br>[Kako kartiram kraje, omenjene v besedilu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/map-places-mentioned-in-a-text/) | [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/corpus-augmenter/) *(angleška nadomestna stran)*<br>[Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/jezikovni-svetovalec/) *(angleška nadomestna stran)* |
-| [Od vprašanja do metode](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/research-design/) | [Kako ustvarim in očistim knjižnico Zotero?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/reference-management/build-and-clean-a-zotero-library/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*<br>[Kako rezultat UI preverim ob izvornih dokumentih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ai/audit-ai-output-against-source-documents/)<br>[Kako kloniram, zaženem, spremenim in potrdim projekt priročnika?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/foundations/clone-run-change-and-commit-a-handbook-project/)<br>[Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/) | [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/fifi/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
-| [Podatki, metapodatki in modeli](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/data-metadata-models/) | [Kako manjši podatkovni nabor uvozim in očistim v Excelu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[Kako uskladim nasprotujoče si metapodatke in ohranim negotovost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty/)<br>[Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*<br>[Kako uredim manjši projekt Python za NLP?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/structure-a-small-python-nlp-project/)<br>[Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/) | [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)*<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)* |
-| [Besedila, korpusi in OCR](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/texts-corpora-ocr/) | [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/bulk-download-pdfs-and-ocr-them/) *(angleška nadomestna stran)*<br>[How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/) *(angleška nadomestna stran)*<br>[How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/deduplicate-corpus-text-with-minhash/) *(angleška nadomestna stran)*<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*<br>[Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)<br>[Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/) | [Web text harvesting](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/text-harvester/) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
-| [Jezikoslovna anotacija in CLASSLA](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/linguistic-annotation-classla/) | [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[Kako namestim in preizkusim CLASSLA s Pythonom 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-and-test-classla/)<br>[Kako s CLASSLA anotiram majhno besedilo?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/annotate-a-small-text-with-classla/)<br>[Kako rezultate CLASSLA izvozim v CSV?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/export-classla-results-to-csv/)<br>[Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/) | [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/corpus-augmenter/) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)* |
-| [Analiza besedil](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/text-analysis/) | [How do I query a corpus with CQPweb?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/query-a-corpus-with-cqpweb/) *(angleška nadomestna stran)*<br>[Kako primerjam slog s funkcijskimi besedami?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-style-with-function-words/)<br>[How do I make a dispersion plot in LancsBox?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/make-a-dispersion-plot-in-lancsbox/) *(angleška nadomestna stran)*<br>[How do I visualise a frequency list with Voyant?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-a-frequency-list-with-voyant/) *(angleška nadomestna stran)*<br>[Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/) | [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
-| [Teme, sentiment in čustva](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/topics-emotions-classification/) | [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[Kako z NMF raziščem ponavljajoče se teme?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/explore-topics-with-nmf/)<br>[How do I create a sentence-similarity heat map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/create-a-sentence-similarity-heat-map/) *(angleška nadomestna stran)*<br>[Kako preverim stabilnost in interpretabilnost tematskega modela?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability/) | [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/createai/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
-| [Podatkovne zbirke in SQL](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/databases-sql/) | [Kako modeliram spreminjajoča se imena, statuse in meje v SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/)<br>[Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
-| [GIS in prostorska humanistika](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/gis-spatial-humanities/) | [Kako georeferenciram in preverim zgodovinski zemljevid v QGIS?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/)<br>[Kako modeliram spreminjajoča se krajevna imena in meje?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/model-changing-place-names-and-boundaries/)<br>[Kako kartiram kraje, omenjene v besedilu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/map-places-mentioned-in-a-text/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/build-a-simple-cultural-heritage-map/) *(angleška nadomestna stran)*<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)* |
-| [Omrežja in vizualizacija](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/networks-visualization/) | [Kako primerjam dvodelna in projicirana omrežja?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/compare-bipartite-and-projected-networks/)<br>[Kako preverim omrežno trditev ob izvornih zapisih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/audit-a-network-claim-against-source-records/)<br>[Kako podatke povzamem z vrtilnimi tabelami in preglednimi grafikoni?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts/)<br>[Kako zgradim omrežje sopojavljanja, povezano z viri?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/build-a-cooccurrence-network/)<br>[How do I build a collocation graph from AntConc to Cytoscape?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape/) *(angleška nadomestna stran)*<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)* |
-| [UI, etika in ponovljivost](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/ai-ethics-reproducibility/) | [Kako revidiram trditve, dokazno gradivo in odstavke?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs/)<br>[Kako rezultat UI preverim ob izvornih dokumentih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ai/audit-ai-output-against-source-documents/)<br>[How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ethics/decide-whether-a-digitised-source-should-be-public/) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*<br>[How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/) *(angleška nadomestna stran)*<br>[Kako namestim pakete Python s pipom?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-python-packages-with-pip/)<br>[Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)<br>[Kako preverim stabilnost in interpretabilnost tematskega modela?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability/)<br>[Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/jezikovni-svetovalec/) *(angleška nadomestna stran)*<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/fifi/) *(angleška nadomestna stran)*<br>[User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/createai/) *(angleška nadomestna stran)*<br>[Slovenian comma-checking Word add-in](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/vejice-add-in/) *(angleška nadomestna stran)* |
-| [Živi odprti priročnik](https://damjan-popic.github.io/digital-humanities-handbook/sl/chapters/open-living-handbook/) | [Kako izberem sistem in citatni slog ter pregledam navedbe?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/reference-management/choose-apply-and-audit-a-citation-style/)<br>[How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/) *(angleška nadomestna stran)*<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*<br>[How do I version-control a termbase with Git?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/terminology/version-control-a-termbase-with-git/) *(angleška nadomestna stran)*<br>[Kako z Gitom sledim manjšemu projektu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/foundations/track-a-small-project-with-git/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/jezikovni-svetovalec/) *(angleška nadomestna stran)*<br>[Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)* |
+| [Kaj je digitalna humanistika?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/what-is-digital-humanities.md) | [How do I make a tiny digital edition of a historical text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md) *(angleška nadomestna stran)*<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)<br>[How do I build a simple cultural heritage map?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/build-a-simple-cultural-heritage-map.md) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md) *(angleška nadomestna stran)* |
+| [Zgodovine in genealogije digitalne humanistike](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/history-of-digital-humanities.md) | [How do I make a tiny digital edition of a historical text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md) *(angleška nadomestna stran)* | [Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md) *(angleška nadomestna stran)*<br>[Corpus conversion and CLASSLA annotation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/corpus-augmenter.md) *(angleška nadomestna stran)* |
+| [Modeli, dokazno gradivo in interpretacija](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/models-evidence-interpretation.md) | [Kako raziskovalno vprašanje pretvorim v načrt znanstvenega besedila?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md)<br>[How do I visualise uncertainty in humanities data?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/visualise-uncertainty-in-humanities-data.md) *(angleška nadomestna stran)*<br>[Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)<br>[Kako preverim stabilnost in interpretabilnost tematskega modela?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability.md)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md) | [Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md) *(angleška nadomestna stran)* |
+| [Infrastrukture digitalne humanistike: moč, dostop in vzdrževanje](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/critical-infrastructures.md) | [How do I decide whether a digitised source should be public?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ethics/decide-whether-a-digitised-source-should-be-public.md) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md) *(angleška nadomestna stran)*<br>[How do I write a README for a humanities dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/write-a-readme-for-a-humanities-dataset.md) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md) *(angleška nadomestna stran)*<br>[Website crawler and chatbot corpus builder](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/fifi.md) *(angleška nadomestna stran)* |
+| [Digitalna humanistika v Sloveniji: infrastrukture, jeziki in skupnosti](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/digital-humanities-in-slovenia.md) | [Kako s CLASSLA anotiram majhno besedilo?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/annotate-a-small-text-with-classla.md)<br>[How do I make a tiny digital edition of a historical text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md) *(angleška nadomestna stran)*<br>[Kako kartiram kraje, omenjene v besedilu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/mapping/map-places-mentioned-in-a-text.md) | [Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md) *(angleška nadomestna stran)*<br>[Corpus conversion and CLASSLA annotation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/corpus-augmenter.md) *(angleška nadomestna stran)*<br>[Source-grounded Slovenian language advisor](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/jezikovni-svetovalec.md) *(angleška nadomestna stran)* |
+| [Od vprašanja do metode](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/research-design.md) | [Kako ustvarim in očistim knjižnico Zotero?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/reference-management/build-and-clean-a-zotero-library.md)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)<br>[How do I write a README for a humanities dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/write-a-readme-for-a-humanities-dataset.md) *(angleška nadomestna stran)*<br>[Kako rezultat UI preverim ob izvornih dokumentih?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/ai/audit-ai-output-against-source-documents.md)<br>[Kako kloniram, zaženem, spremenim in potrdim projekt priročnika?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/foundations/clone-run-change-and-commit-a-handbook-project.md)<br>[Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md) | [Website crawler and chatbot corpus builder](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/fifi.md) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md) *(angleška nadomestna stran)* |
+| [Podatki, metapodatki in modeli](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/data-metadata-models.md) | [Kako manjši podatkovni nabor uvozim in očistim v Excelu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)<br>[Kako uskladim nasprotujoče si metapodatke in ohranim negotovost?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md)<br>[Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data/build-a-humanities-database-with-sqlite.md)<br>[How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md) *(angleška nadomestna stran)*<br>[How do I write a README for a humanities dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/write-a-readme-for-a-humanities-dataset.md) *(angleška nadomestna stran)*<br>[Kako uredim manjši projekt Python za NLP?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/structure-a-small-python-nlp-project.md)<br>[Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md) | [Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md) *(angleška nadomestna stran)*<br>[Learner-corpus lexical analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/korpus-solar-analysis.md) *(angleška nadomestna stran)* |
+| [Besedila, korpusi in OCR](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/texts-corpora-ocr.md) | [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md)<br>[How do I bulk-download PDFs and OCR them?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/pdf/bulk-download-pdfs-and-ocr-them.md) *(angleška nadomestna stran)*<br>[How do I scrape a single-topic website into a mini corpus?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md) *(angleška nadomestna stran)*<br>[How do I deduplicate corpus text with MinHash?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/corpora/deduplicate-corpus-text-with-minhash.md) *(angleška nadomestna stran)*<br>[How do I make a tiny digital edition of a historical text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md) *(angleška nadomestna stran)*<br>[Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md)<br>[Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md) | [Web text harvesting](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/text-harvester.md) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md) *(angleška nadomestna stran)* |
+| [Jezikoslovna anotacija in CLASSLA](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/linguistic-annotation-classla.md) | [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md)<br>[Kako namestim in preizkusim CLASSLA s Pythonom 3.12?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/install-and-test-classla.md)<br>[Kako s CLASSLA anotiram majhno besedilo?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/annotate-a-small-text-with-classla.md)<br>[Kako rezultate CLASSLA izvozim v CSV?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/export-classla-results-to-csv.md)<br>[Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md) | [Corpus conversion and CLASSLA annotation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/corpus-augmenter.md) *(angleška nadomestna stran)*<br>[Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md) *(angleška nadomestna stran)*<br>[Learner-corpus lexical analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/korpus-solar-analysis.md) *(angleška nadomestna stran)* |
+| [Analiza besedil](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/text-analysis.md) | [How do I query a corpus with CQPweb?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/corpora/query-a-corpus-with-cqpweb.md) *(angleška nadomestna stran)*<br>[Kako primerjam slog s funkcijskimi besedami?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/compare-style-with-function-words.md)<br>[How do I make a dispersion plot in LancsBox?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/make-a-dispersion-plot-in-lancsbox.md) *(angleška nadomestna stran)*<br>[How do I visualise a frequency list with Voyant?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/visualise-a-frequency-list-with-voyant.md) *(angleška nadomestna stran)*<br>[Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md) | [Learner-corpus lexical analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/korpus-solar-analysis.md) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md) *(angleška nadomestna stran)* |
+| [Teme, sentiment in čustva](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/topics-emotions-classification.md) | [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)<br>[Kako z NMF raziščem ponavljajoče se teme?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/explore-topics-with-nmf.md)<br>[How do I create a sentence-similarity heat map?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/create-a-sentence-similarity-heat-map.md) *(angleška nadomestna stran)*<br>[Kako preverim stabilnost in interpretabilnost tematskega modela?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability.md) | [User/AI transcript analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/createai.md) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md) *(angleška nadomestna stran)* |
+| [Podatkovne zbirke in SQL](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/databases-sql.md) | [Kako modeliram spreminjajoča se imena, statuse in meje v SQLite?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite.md)<br>[Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data/build-a-humanities-database-with-sqlite.md)<br>[Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md) | [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md) *(angleška nadomestna stran)* |
+| [GIS in prostorska humanistika](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/gis-spatial-humanities.md) | [Kako georeferenciram in preverim zgodovinski zemljevid v QGIS?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/mapping/georeference-and-check-a-historical-map-in-qgis.md)<br>[Kako modeliram spreminjajoča se krajevna imena in meje?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/mapping/model-changing-place-names-and-boundaries.md)<br>[Kako kartiram kraje, omenjene v besedilu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/mapping/map-places-mentioned-in-a-text.md)<br>[How do I build a simple cultural heritage map?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/build-a-simple-cultural-heritage-map.md) *(angleška nadomestna stran)*<br>[How do I visualise uncertainty in humanities data?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/visualise-uncertainty-in-humanities-data.md) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md) *(angleška nadomestna stran)*<br>[Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md) *(angleška nadomestna stran)* |
+| [Omrežja in vizualizacija](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/networks-visualization.md) | [Kako primerjam dvodelna in projicirana omrežja?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/networks/compare-bipartite-and-projected-networks.md)<br>[Kako preverim omrežno trditev ob izvornih zapisih?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/networks/audit-a-network-claim-against-source-records.md)<br>[Kako podatke povzamem z vrtilnimi tabelami in preglednimi grafikoni?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md)<br>[Kako zgradim omrežje sopojavljanja, povezano z viri?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/networks/build-a-cooccurrence-network.md)<br>[How do I build a collocation graph from AntConc to Cytoscape?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape.md) *(angleška nadomestna stran)*<br>[How do I visualise uncertainty in humanities data?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/visualise-uncertainty-in-humanities-data.md) *(angleška nadomestna stran)* | [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md) *(angleška nadomestna stran)*<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md) *(angleška nadomestna stran)* |
+| [UI, etika in ponovljivost](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/ai-ethics-reproducibility.md) | [Kako dokumentiram in preverim analizo UI, utemeljeno v virih?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/ai/document-and-audit-a-source-grounded-ai-analysis.md)<br>[Kako primerjam izhode UI med pozivi, modeli in zagoni?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/ai/compare-ai-output-across-prompts-models-and-runs.md)<br>[Kako revidiram trditve, dokazno gradivo in odstavke?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md)<br>[Kako rezultat UI preverim ob izvornih dokumentih?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/ai/audit-ai-output-against-source-documents.md)<br>[How do I decide whether a digitised source should be public?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ethics/decide-whether-a-digitised-source-should-be-public.md) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md) *(angleška nadomestna stran)*<br>[How do I automate a linguistic workflow with a Makefile?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/automation/automate-a-linguistic-workflow-with-a-makefile.md) *(angleška nadomestna stran)*<br>[Kako namestim pakete Python s pipom?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/install-python-packages-with-pip.md)<br>[Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md)<br>[Kako preverim stabilnost in interpretabilnost tematskega modela?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability.md)<br>[Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md) | [Source-grounded Slovenian language advisor](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/jezikovni-svetovalec.md) *(angleška nadomestna stran)*<br>[Website crawler and chatbot corpus builder](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/fifi.md) *(angleška nadomestna stran)*<br>[User/AI transcript analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/createai.md) *(angleška nadomestna stran)*<br>[Slovenian comma-checking Word add-in](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/vejice-add-in.md) *(angleška nadomestna stran)* |
+| [Živi odprti priročnik](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/open-living-handbook.md) | [Kako pripravite oštevilčeno znanstveno izdajo?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/publishing/create-a-versioned-scholarly-release.md)<br>[Kako popravite objavljeni digitalni vir, ne da bi izbrisali njegovo zgodovino?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/publishing/correct-a-published-digital-resource-without-erasing-history.md)<br>[Kako pripravite načrt vzdrževanja in nasledstva?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/publishing/prepare-a-maintenance-and-succession-plan.md)<br>[Kako izberem sistem in citatni slog ter pregledam navedbe?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/reference-management/choose-apply-and-audit-a-citation-style.md)<br>[How do I automate a linguistic workflow with a Makefile?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/automation/automate-a-linguistic-workflow-with-a-makefile.md) *(angleška nadomestna stran)*<br>[How do I write a README for a humanities dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/write-a-readme-for-a-humanities-dataset.md) *(angleška nadomestna stran)*<br>[How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md) *(angleška nadomestna stran)*<br>[How do I version-control a termbase with Git?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/terminology/version-control-a-termbase-with-git.md) *(angleška nadomestna stran)*<br>[Kako z Gitom sledim manjšemu projektu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/foundations/track-a-small-project-with-git.md) | [Source-grounded Slovenian language advisor](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/jezikovni-svetovalec.md) *(angleška nadomestna stran)*<br>[Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md) *(angleška nadomestna stran)* |
 
 ## Povezave delujejo v obe smeri
 
@@ -222,14 +223,14 @@ Računalniška metoda je samo ena sestavina. Argument je enako odvisen od kritik
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
-    - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*
-    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
-    - [How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/build-a-simple-cultural-heritage-map/) *(angleška nadomestna stran)*
+    - [How do I make a tiny digital edition of a historical text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md) *(angleška nadomestna stran)*
+    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)
+    - [How do I build a simple cultural heritage map?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/build-a-simple-cultural-heritage-map.md) *(angleška nadomestna stran)*
 
     **Oglejte si študijo primera**
 
-    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*
-    - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*
+    - [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md) *(angleška nadomestna stran)*
+    - [Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
 ## Vaja
@@ -338,7 +339,7 @@ Umetna inteligenca je del te sporne sedanjosti, ne cilj zgodbe o napredku. Stroj
 
 Sedanjega obdobja zato še ni mogoče skleniti z nesporno periodizacijo. Prihodnji zgodovinski pregledi bodo morda kot njegove osrednje teme izbrali okoljske stroške, odvisnost od platform, upravljanje podatkov domorodnih skupnosti, večjezične infrastrukture ali oblike znanja, ki jih današnje vodilne revije ne priznavajo. Odgovorna sodobna pripoved mora ostati odprta za popravke.
 
-Poglavje [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md) isto previdnost uporabi pri praksah, katerih zgodovinska imena, institucionalne oblike in jezikovni pogoji ne sodijo v eno univerzalno kronologijo.
+Poglavje [Digitalna humanistika v Sloveniji](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/digital-humanities-in-slovenia.md) isto previdnost uporabi pri praksah, katerih zgodovinska imena, institucionalne oblike in jezikovni pogoji ne sodijo v eno univerzalno kronologijo.
 
 ## Preverjena časovnica izbranih mejnikov
 
@@ -376,13 +377,13 @@ Primerjava ne opisuje enakomernega tehničnega napredka. Vsak zgodovinski okvir 
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
-    - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*
-    - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*
+    - [How do I make a tiny digital edition of a historical text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md) *(angleška nadomestna stran)*
+    - [How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md) *(angleška nadomestna stran)*
 
     **Oglejte si študijo primera**
 
-    - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*
-    - [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/corpus-augmenter/) *(angleška nadomestna stran)*
+    - [Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md) *(angleška nadomestna stran)*
+    - [Corpus conversion and CLASSLA annotation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/corpus-augmenter.md) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
 ## Vaja
@@ -478,7 +479,7 @@ Po tem poglavju boste znali:
 
 Zamislite si časopisni članek: minister gospodarsko napoved imenuje »spodbudna«, opozicijska govorka javnosti pripiše »strah«, karikatura pa celotno razpravo prikaže kot nesmiselno. Kaj bi bilo dokazno gradivo o čustvih: navedeni besedi, čustva, ki jih govorci pripisujejo političnim akterjem, karikatura, odzivi občinstva ali raziskovalčeva poznejša klasifikacija? Z vsakim odgovorom ustvarimo drug raziskovalni predmet.
 
-**Predznanje:** preberite [Kaj je digitalna humanistika?](what-is-digital-humanities.md) in predhodno poglavje o [zgodovinah digitalne humanistike](history-of-digital-humanities.md). Programiranje in statistika nista potrebna. **Vhod za vajo:** omejeno humanistično vprašanje in manjši sklop kulturnih virov, ki jih smete raziskovalno uporabiti. **Rezultat:** dva konkurenčna modela z opisom njunih spoznavnih meja. **Preverjanje:** drugi bralec mora prepoznati vsako enoto, kategorijo, preoblikovanje in korak sklepanja. **Pogoste napake:** priročni zapisi veljajo za popoln arhiv, metoda dobi ime pred natančno opredelitvijo vprašanja ali pa rezultat postopka nastopa kot lastna razlaga. **Etične in licenčne omejitve:** spoštujte avtorsko pravo, zasebnost in pravico skupnosti do odločanja; iz javne govorice brez utemeljene raziskovalne zasnove ne sklepajte o notranjem stanju posameznika.
+**Predznanje:** preberite [Kaj je digitalna humanistika?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/what-is-digital-humanities.md) in predhodno poglavje o [zgodovinah digitalne humanistike](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/history-of-digital-humanities.md). Programiranje in statistika nista potrebna. **Vhod za vajo:** omejeno humanistično vprašanje in manjši sklop kulturnih virov, ki jih smete raziskovalno uporabiti. **Rezultat:** dva konkurenčna modela z opisom njunih spoznavnih meja. **Preverjanje:** drugi bralec mora prepoznati vsako enoto, kategorijo, preoblikovanje in korak sklepanja. **Pogoste napake:** priročni zapisi veljajo za popoln arhiv, metoda dobi ime pred natančno opredelitvijo vprašanja ali pa rezultat postopka nastopa kot lastna razlaga. **Etične in licenčne omejitve:** spoštujte avtorsko pravo, zasebnost in pravico skupnosti do odločanja; iz javne govorice brez utemeljene raziskovalne zasnove ne sklepajte o notranjem stanju posameznika.
 
 Poglavje sledi analitični verigi:
 
@@ -521,7 +522,7 @@ V nadaljevanju so **podatki** krovni izraz, ***capta***, **zajeti podatki** ali 
 - provenienco, pravice, različice in odgovorno delo;
 - ljudi ali skupnosti, ki jih zbiranje in klasifikacija lahko izpostavita škodi.
 
-D'Ignazio in Klein podatkovno delo obravnavata kot razporeditev moči: kdo določa, kaj bo štelo, čigavo znanje ima avtoriteto, kdo prejme priznanje in kdo utrpi posledice.[^moc] Ta argument empiričnega raziskovanja ne razvrednoti, ampak položaj raziskovalca, delo in učinke konstruiranja podatkov vključi v metodo. Praktična navodila za vrstice, identifikatorje, manjkajoče vrednosti in provenienco so v poglavju [Podatki, metapodatki in modeli](data-metadata-models.md); tukaj sprašujemo, katere trditve takšni postopki sploh dopuščajo.
+D'Ignazio in Klein podatkovno delo obravnavata kot razporeditev moči: kdo določa, kaj bo štelo, čigavo znanje ima avtoriteto, kdo prejme priznanje in kdo utrpi posledice.[^moc] Ta argument empiričnega raziskovanja ne razvrednoti, ampak položaj raziskovalca, delo in učinke konstruiranja podatkov vključi v metodo. Praktična navodila za vrstice, identifikatorje, manjkajoče vrednosti in provenienco so v poglavju [Podatki, metapodatki in modeli](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/data-metadata-models.md); tukaj sprašujemo, katere trditve takšni postopki sploh dopuščajo.
 
 ## Enote, kategorije in operacionalizacija
 
@@ -691,16 +692,16 @@ Rezultat postane dokazno gradivo šele po preverjanju provenience, veljavnosti, 
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
-    - [Kako raziskovalno vprašanje pretvorim v načrt znanstvenega besedila?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan/)
-    - [How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)*
-    - [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
-    - [Kako preverim stabilnost in interpretabilnost tematskega modela?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability/)
-    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
+    - [Kako raziskovalno vprašanje pretvorim v načrt znanstvenega besedila?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md)
+    - [How do I visualise uncertainty in humanities data?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/visualise-uncertainty-in-humanities-data.md) *(angleška nadomestna stran)*
+    - [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)
+    - [Kako preverim stabilnost in interpretabilnost tematskega modela?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability.md)
+    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)
 
     **Oglejte si študijo primera**
 
-    - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)*
-    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)*
+    - [Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md) *(angleška nadomestna stran)*
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
 ---
@@ -724,7 +725,7 @@ Po tem poglavju boste znali:
 
 V zgodovinskem korpusu poiščemo besedo in hitro dobimo zadetke. Zdi se, da postopek vključuje le bralca, polje in indeks. V resnici je odvisen od nastanka in ohranitve zapisov, institucionalnega izbora in financiranja, katalogizacije, skeniranja, optičnega prepoznavanja znakov (OCR), členjenja člankov, identifikatorjev, metapodatkov, strežnikov, programske opreme, razvrščanja, odločitev o pravicah ter ljudi, ki vse našteto vzdržujejo. Kaj bi lahko spremenilo rezultat, ne da bi spremenili poizvedbo?
 
-**Predznanje:** preberite poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md), zlasti razpravo o izboru, kategorijah in negotovosti. Programiranje ni potrebno. **Vhod za vajo:** digitalna zbirka ali raziskovalna storitev, ki jo smete javno opisati, ter predlagana humanistična trditev. **Rezultat:** presoja infrastrukture z razločenimi vrstami dokaznega gradiva. **Preverjanje:** drugi bralec mora ločiti vaša opažanja, navedbe ustanove, lastne preizkuse in interpretacije. **Omejitve:** ne obidite nadzora dostopa, ne razkrivajte občutljivih zapisov in pravne dostopnosti ne zamenjujte z etičnim dovoljenjem.
+**Predznanje:** preberite poglavje [Modeli, dokazno gradivo in interpretacija](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/models-evidence-interpretation.md), zlasti razpravo o izboru, kategorijah in negotovosti. Programiranje ni potrebno. **Vhod za vajo:** digitalna zbirka ali raziskovalna storitev, ki jo smete javno opisati, ter predlagana humanistična trditev. **Rezultat:** presoja infrastrukture z razločenimi vrstami dokaznega gradiva. **Preverjanje:** drugi bralec mora ločiti vaša opažanja, navedbe ustanove, lastne preizkuse in interpretacije. **Omejitve:** ne obidite nadzora dostopa, ne razkrivajte občutljivih zapisov in pravne dostopnosti ne zamenjujte z etičnim dovoljenjem.
 
 Osrednja trditev je zahtevna: **še preden izberemo algoritem, infrastruktura vpliva na to, kaj se ohrani in digitalizira, kako je gradivo opisano, kdo ga lahko uporablja, kateri jeziki so podprti, čigavo delo je vidno in katere trditve so utemeljive.**
 
@@ -789,7 +790,7 @@ Izraz **jezik z manj viri** naj opisuje razmerje, ne pomanjkljivosti jezika ali 
 
 Orodje, naučeno na sodobni knjižni slovenščini, se morda ne bo zanesljivo preneslo na starejšo tipografijo, zgodovinsko oblikoslovje ali časopisje z regionalno mešanico jezikov. Večjezični katalog lahko prikazuje slovenske opise, zadetke pa razvršča z indeksom, osredinjenim na angleščino. To so preverljive infrastrukturne odvisnosti, ne trditve, da slovenščina ni dovolj razvita ali da vsa orodja delujejo slabo. Uspešnost merimo za dejansko obdobje, žanr in jezikovno različico, ohranimo jezikovne oznake in izvirno izrazje, vključimo ustrezno strokovno znanje ter primerjamo smiselna izhodišča.
 
-Poglavje [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md) pokaže ta razmerja na primerih dLib.si, DARIAH-SI, SIstory, CLARIN.SI, CLASSLA in izbranih znanstvenih virov, ne da bi jih prikazalo kot en tehnično povezan sistem.
+Poglavje [Digitalna humanistika v Sloveniji](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/digital-humanities-in-slovenia.md) pokaže ta razmerja na primerih dLib.si, DARIAH-SI, SIstory, CLARIN.SI, CLASSLA in izbranih znanstvenih virov, ne da bi jih prikazalo kot en tehnično povezan sistem.
 
 Risam opozarja, da lahko na videz globalna digitalna vednost reproducira kolonialne kulturne zapise in osrednje ustanove, krajevne prakse pa prikaže kot obrobne.[^risam] Geografija učinkuje skozi pogoje financiranja, zanesljivost omrežja, gostovanje, potovanja, jezik objavljanja in avtoriteto standardov. Metoda, ki jo je mogoče dolgoročno vzdrževati v lokalnem okolju, je lahko znanstveno trdnejša od prestižne storitve, pri kateri ne moremo pregledati učnih podatkov, dolgoročnih pogodbenih pogojev ali kakovosti za izbrani jezik.
 
@@ -878,7 +879,7 @@ Infrastruktura je relacijski pogoj nastajanja vednosti. Arhivi, digitalizacija, 
 
 Standardi lahko omogočijo validacijo, izmenjavo in ohranjanje, obenem pa omejijo krajevne ali dvoumne pomene. Sodelovanje je pravičnejše, kadar vključuje ustrezno upravljanje, plačilo, možnost ugovora kategorijam in natančno priznanje; vzdrževanje varuje preglednost dokaznega gradiva. Podpora jeziku je odvisna od naloge, obdobja, žanra in infrastrukture. Dostop ni isto kot dostopnost, odprtost, skladnost z načeli FAIR in odgovorno upravljanje pa so ločena vprašanja. Načela CARE ostajajo umeščena v upravljanje podatkov domorodnih ljudstev. Okoljsko odgovornost presojamo s sorazmernostjo, ponovno uporabo in jasno določenim dolgoročnim skrbništvom.
 
-Presoja infrastrukture je del interpretacije. Določi populacijo, preoblikovanja, dovoljenja in negotovosti, ki interpretacijo omejujejo in ji dajejo težo. Poznejše poglavje [UI, etika in ponovljivost](ai-ethics-reproducibility.md) številna strukturna vprašanja pretvori v praktična varovala in dokumentiranje posameznega projekta.
+Presoja infrastrukture je del interpretacije. Določi populacijo, preoblikovanja, dovoljenja in negotovosti, ki interpretacijo omejujejo in ji dajejo težo. Poznejše poglavje [UI, etika in ponovljivost](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/ai-ethics-reproducibility.md) številna strukturna vprašanja pretvori v praktična varovala in dokumentiranje posameznega projekta.
 
 ## Nadaljnje branje in viri
 
@@ -924,14 +925,14 @@ Presoja infrastrukture je del interpretacije. Določi populacijo, preoblikovanja
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
-    - [How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ethics/decide-whether-a-digitised-source-should-be-public/) *(angleška nadomestna stran)*
-    - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*
-    - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*
+    - [How do I decide whether a digitised source should be public?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ethics/decide-whether-a-digitised-source-should-be-public.md) *(angleška nadomestna stran)*
+    - [How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md) *(angleška nadomestna stran)*
+    - [How do I write a README for a humanities dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/write-a-readme-for-a-humanities-dataset.md) *(angleška nadomestna stran)*
 
     **Oglejte si študijo primera**
 
-    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*
-    - [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/fifi/) *(angleška nadomestna stran)*
+    - [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md) *(angleška nadomestna stran)*
+    - [Website crawler and chatbot corpus builder](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/fifi.md) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
 ---
@@ -953,7 +954,7 @@ Po tem poglavju boste znali:
 
 Katere slovenske digitalne zbirke, slovarje ali korpuse že uporabljate? Kdo izbira in opisuje njihovo gradivo, kdo jih financira in vzdržuje? Ali lahko pregledate posnetek strani, iščete po besedilu, prenesete strukturirane podatke, navedete različico in ugotovite licenco — ali je mogoča le katera od teh dejavnosti?
 
-**Predznanje:** preberite poglavji [Zgodovine in genealogije digitalne humanistike](history-of-digital-humanities.md) in [Infrastrukture digitalne humanistike](critical-infrastructures.md). **Vhod:** slovenski digitalni objekt in humanistično vprašanje, za katero bi ga lahko uporabili. **Rezultat:** profil vira in omejen raziskovalni načrt. **Preverjanje:** ločite institucionalni opis, opaženo delovanje vmesnika, pregled prenesene datoteke, lastni preizkus in svojo interpretacijo. **Omejitve:** ne obidite nadzora dostopa, ne razširjajte varovanega gradiva in javnega prikaza ne razlagajte kot dovoljenja za računalniško ponovno uporabo.
+**Predznanje:** preberite poglavji [Zgodovine in genealogije digitalne humanistike](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/history-of-digital-humanities.md) in [Infrastrukture digitalne humanistike](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/critical-infrastructures.md). **Vhod:** slovenski digitalni objekt in humanistično vprašanje, za katero bi ga lahko uporabili. **Rezultat:** profil vira in omejen raziskovalni načrt. **Preverjanje:** ločite institucionalni opis, opaženo delovanje vmesnika, pregled prenesene datoteke, lastni preizkus in svojo interpretacijo. **Omejitve:** ne obidite nadzora dostopa, ne razširjajte varovanega gradiva in javnega prikaza ne razlagajte kot dovoljenja za računalniško ponovno uporabo.
 
 Osrednja trditev poglavja je, da **digitalna humanistika v Sloveniji nastaja v razmerjih med ustanovami kulturne dediščine, raziskovalnimi infrastrukturami, znanstvenimi skupnostmi, središči za jezikovne vire, standardi, javnimi portali, repozitoriji in izobraževalnimi praksami**. Ta razmerja odpirajo metodološke možnosti, hkrati pa vplivajo na obseg gradiva, dostop, jezikovno podporo, ohranjanje in meje utemeljenih raziskovalnih trditev.
 
@@ -1128,15 +1129,15 @@ Ta razmerja javno dostopnih objektov ne spremenijo samodejno v podatke, pripravl
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
-    - [Kako s CLASSLA anotiram majhno besedilo?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/annotate-a-small-text-with-classla/)
-    - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*
-    - [Kako kartiram kraje, omenjene v besedilu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/map-places-mentioned-in-a-text/)
+    - [Kako s CLASSLA anotiram majhno besedilo?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/annotate-a-small-text-with-classla.md)
+    - [How do I make a tiny digital edition of a historical text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md) *(angleška nadomestna stran)*
+    - [Kako kartiram kraje, omenjene v besedilu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/mapping/map-places-mentioned-in-a-text.md)
 
     **Oglejte si študijo primera**
 
-    - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*
-    - [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/corpus-augmenter/) *(angleška nadomestna stran)*
-    - [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/jezikovni-svetovalec/) *(angleška nadomestna stran)*
+    - [Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md) *(angleška nadomestna stran)*
+    - [Corpus conversion and CLASSLA annotation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/corpus-augmenter.md) *(angleška nadomestna stran)*
+    - [Source-grounded Slovenian language advisor](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/jezikovni-svetovalec.md) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
 ---
@@ -1180,7 +1181,7 @@ modeli](data-metadata-models.md) obravnavajo zgradbo zapisov, [Besedila,
 korpusi in OCR](texts-corpora-ocr.md) pa slike dokumentov, OCR/HTR in
 vzorčenje korpusa. Vsem trem poglavjem je namenjen majhen [ZIP učnega paketa
 *Arhivsko trenje*](../../assets/downloads/archival-friction-v1.zip), njegovo
-[izvorno drevo pa ostaja na voljo za pregled](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+[izvorno drevo pa ostaja na voljo za pregled](https://github.com/damjan-popic/digital-humanities-handbook/tree/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/teaching-data/archival-friction).
 
 ## Raziskovalna zasnova je vnaprej pripravljen argument
 
@@ -1447,9 +1448,9 @@ včasih prinese izrecen sklep »gradivo ne zadošča«.
 
 ## Vaja: zasnova in odločitev o nadaljevanju
 
-Prenesite [ZIP učnega paketa](../../assets/downloads/archival-friction-v1.zip)
+Prenesite [ZIP učnega paketa](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/archival-friction-v1.zip)
 ali uporabite majhen nabor virov s svojega področja; pri presoji zgradbe vaje
-lahko pregledate tudi [izvorno drevo](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+lahko pregledate tudi [izvorno drevo](https://github.com/damjan-popic/digital-humanities-handbook/tree/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/teaching-data/archival-friction).
 Pripravite enostranski zapis, ki vsebuje:
 
 1. omejeno raziskovalno vprašanje;
@@ -1538,17 +1539,17 @@ prikaz tega, kaj izbrano gradivo podpira in česa ne.
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
-    - [Kako ustvarim in očistim knjižnico Zotero?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/reference-management/build-and-clean-a-zotero-library/)
-    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
-    - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*
-    - [Kako rezultat UI preverim ob izvornih dokumentih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ai/audit-ai-output-against-source-documents/)
-    - [Kako kloniram, zaženem, spremenim in potrdim projekt priročnika?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/foundations/clone-run-change-and-commit-a-handbook-project/)
-    - [Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/)
+    - [Kako ustvarim in očistim knjižnico Zotero?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/reference-management/build-and-clean-a-zotero-library.md)
+    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)
+    - [How do I write a README for a humanities dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/write-a-readme-for-a-humanities-dataset.md) *(angleška nadomestna stran)*
+    - [Kako rezultat UI preverim ob izvornih dokumentih?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/ai/audit-ai-output-against-source-documents.md)
+    - [Kako kloniram, zaženem, spremenim in potrdim projekt priročnika?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/foundations/clone-run-change-and-commit-a-handbook-project.md)
+    - [Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md)
 
     **Oglejte si študijo primera**
 
-    - [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/fifi/) *(angleška nadomestna stran)*
-    - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)*
+    - [Website crawler and chatbot corpus builder](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/fifi.md) *(angleška nadomestna stran)*
+    - [Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
 ---
@@ -1579,7 +1580,7 @@ temveč tudi pomen in provenienca.
 Poznavanje podatkovnih zbirk ali programiranja ni potrebno. Potrebujete majhno
 zbirko ali [ZIP učnega paketa *Arhivsko
 trenje*](../../assets/downloads/archival-friction-v1.zip); za pregled zgradbe
-je na voljo tudi [izvorno drevo paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+je na voljo tudi [izvorno drevo paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/teaching-data/archival-friction).
 Pripravili boste model zapisov, podatkovni slovar, dnevnik popravkov in
 poročilo o kakovosti. Dober rezultat ohrani dokazno gradivo tudi tedaj, ko
 vrednost normalizirate ali pustite nerazrešeno. Osrednja napaka je tiho
@@ -1590,7 +1591,7 @@ Vprašanje in vzorčni okvir najprej opredelite v poglavju [Od vprašanja do
 metode](research-design.md). Širšo razmejitev virov, predstavitev, rezultatov
 in dokaznega gradiva pojasnjujejo [Modeli, dokazno gradivo in
 interpretacija](models-evidence-interpretation.md). Preglednični postopki v
-[Temeljih znanstvenega dela](../foundations/scholarly-work.md)
+[Temeljih znanstvenega dela](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/foundations/scholarly-work.md)
 prikazujejo, kako brez programiranja ločite izvorno, očiščeno, odločevalsko in
 izhodno raven.
 
@@ -1910,8 +1911,8 @@ preveriti.
 
 ## Vaja: izdelajte in preverite model zapisov
 
-Uporabite [ZIP učnega paketa](../../assets/downloads/archival-friction-v1.zip),
-katerega [izvorno drevo je na voljo za pregled](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction),
+Uporabite [ZIP učnega paketa](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/archival-friction-v1.zip),
+katerega [izvorno drevo je na voljo za pregled](https://github.com/damjan-popic/digital-humanities-handbook/tree/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/teaching-data/archival-friction),
 ali pet do deset zapisov s svojega področja. Pripravite:
 
 1. konceptualno skico entitet in razmerij;
@@ -2012,19 +2013,19 @@ in omejitve lahko vedno pregledate.
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
-    - [Kako manjši podatkovni nabor uvozim in očistim v Excelu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel/)
-    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
-    - [Kako uskladim nasprotujoče si metapodatke in ohranim negotovost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty/)
-    - [Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)
-    - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*
-    - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*
-    - [Kako uredim manjši projekt Python za NLP?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/structure-a-small-python-nlp-project/)
-    - [Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)
+    - [Kako manjši podatkovni nabor uvozim in očistim v Excelu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md)
+    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)
+    - [Kako uskladim nasprotujoče si metapodatke in ohranim negotovost?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md)
+    - [Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data/build-a-humanities-database-with-sqlite.md)
+    - [How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md) *(angleška nadomestna stran)*
+    - [How do I write a README for a humanities dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/write-a-readme-for-a-humanities-dataset.md) *(angleška nadomestna stran)*
+    - [Kako uredim manjši projekt Python za NLP?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/structure-a-small-python-nlp-project.md)
+    - [Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md)
 
     **Oglejte si študijo primera**
 
-    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)*
-    - [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)*
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md) *(angleška nadomestna stran)*
+    - [Learner-corpus lexical analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/korpus-solar-analysis.md) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
 ---
@@ -2033,7 +2034,7 @@ in omejitve lahko vedno pregledate.
 
 Zaradi iskalnega prepisa se lahko zdi, da je arhiv popoln. Toda prepis ni arhiv. Je ena od predstavitev, ki nastane iz izbranih predmetov, posnetkov strani, odločitev o postavitvi, sistema za prepoznavanje in uredniških pravil. Kaj lahko utemeljeno sklepate, če lahko vsaka od teh stopenj izpusti ali spremeni dokaz?
 
-V tem poglavju boste korpus obravnavali kot raziskovalni instrument, ne kot mapo z besedilnimi datotekami. Poglavje se navezuje na [načrtovanje raziskave](research-design.md), [podatke, metapodatke in modele](data-metadata-models.md) ter [kritične infrastrukture](critical-infrastructures.md). Razdelani primer uporablja [ZIP učnega gradiva Arhivsko trenje](../../assets/downloads/archival-friction-v1.zip), [izvorno drevo paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) pa ostaja na voljo za pregled. Tako lahko skupaj pregledate posnetek, ponudnikov prepis, referenčni prepis, metapodatkovne odločitve in rezultate preverjanja.
+V tem poglavju boste korpus obravnavali kot raziskovalni instrument, ne kot mapo z besedilnimi datotekami. Poglavje se navezuje na [načrtovanje raziskave](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/research-design.md), [podatke, metapodatke in modele](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/data-metadata-models.md) ter [kritične infrastrukture](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/critical-infrastructures.md). Razdelani primer uporablja [ZIP učnega gradiva Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/archival-friction-v1.zip), [izvorno drevo paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/teaching-data/archival-friction) pa ostaja na voljo za pregled. Tako lahko skupaj pregledate posnetek, ponudnikov prepis, referenčni prepis, metapodatkovne odločitve in rezultate preverjanja.
 
 ## Učni cilji
 
@@ -2234,7 +2235,7 @@ Preverjanje lahko avtomatizirate, vendar je to izbirna razširitev. Enako sled l
 
 ## Vaja: oblikujte eno utemeljeno trditev
 
-Prenesite [ZIP učnega gradiva Arhivsko trenje](../../assets/downloads/archival-friction-v1.zip). Zgradbo lahko pregledate v [izvornem drevesu paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+Prenesite [ZIP učnega gradiva Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/archival-friction-v1.zip). Zgradbo lahko pregledate v [izvornem drevesu paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/teaching-data/archival-friction).
 
 1. Preberite zapis o pravicah in navedbo vira. Pojasnite, katera presoja podpira ponovno uporabo PDF-ja in katero preverjanje mora še opraviti založnik.
 2. Pred branjem prepisov preglejte obe strani. Poiščite dve postavitveni lastnosti, ki lahko vplivata na vrstni red branja.
@@ -2286,19 +2287,19 @@ Tehnične strani in vmesniki se spreminjajo. Zabeležite različice in datume do
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
-    - [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)
-    - [How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/bulk-download-pdfs-and-ocr-them/) *(angleška nadomestna stran)*
-    - [How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/) *(angleška nadomestna stran)*
-    - [How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/deduplicate-corpus-text-with-minhash/) *(angleška nadomestna stran)*
-    - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/) *(angleška nadomestna stran)*
-    - [Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)
-    - [Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/)
+    - [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md)
+    - [How do I bulk-download PDFs and OCR them?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/pdf/bulk-download-pdfs-and-ocr-them.md) *(angleška nadomestna stran)*
+    - [How do I scrape a single-topic website into a mini corpus?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md) *(angleška nadomestna stran)*
+    - [How do I deduplicate corpus text with MinHash?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/corpora/deduplicate-corpus-text-with-minhash.md) *(angleška nadomestna stran)*
+    - [How do I make a tiny digital edition of a historical text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md) *(angleška nadomestna stran)*
+    - [Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md)
+    - [Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md)
 
     **Oglejte si študijo primera**
 
-    - [Web text harvesting](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/text-harvester/) *(angleška nadomestna stran)*
-    - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*
-    - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)*
+    - [Web text harvesting](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/text-harvester.md) *(angleška nadomestna stran)*
+    - [Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md) *(angleška nadomestna stran)*
+    - [Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
 ---
@@ -2343,7 +2344,7 @@ pred zagonom razpoznavalnika entitet.
 Zapišite trditev, ki jo želite oblikovati iz anotiranega besedila. Podčrtajte
 natančna anotacijska polja, od katerih je odvisna. Če jih ne morete imenovati,
 pred zagonom procesne verige znova preberite poglavje
-[Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md).
+[Modeli, dokazno gradivo in interpretacija](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/models-evidence-interpretation.md).
 
 ## Osrednji argument: anotacija je dokazna veriga
 
@@ -2441,7 +2442,7 @@ segmentacijo povedi, označevanje besednih vrst in oblikoslovja, lematizacijo,
 odvisnostno razčlenjevanje ter NER. Regionalna dokumentacija in povezava s
 CLARIN.SI olajšata iskanje in navajanje modelov ter označevalnih shem.
 Institucionalni okvir obravnava poglavje
-[Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md).
+[Digitalna humanistika v Sloveniji](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/digital-humanities-in-slovenia.md).
 
 Za ponovljivo navedbo ime CLASSLA ne zadostuje. Zamrznjena učna izvedba je
 uporabila CLASSLA `2.2.1`, Python `3.12.3`, izvajanje na CPE ter procesorje
@@ -2597,7 +2598,7 @@ je uporaben metodološki izid in ne neuspešna programska predstavitev.
 
 ## Razdelan primer: sodobno, zgodovinsko in OCR
 
-[Učni paket za preverjanje besedilnih analiz in NLP](../../assets/downloads/text-nlp-validation-v1.zip)
+[Učni paket za preverjanje besedilnih analiz in NLP](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/text-nlp-validation-v1.zip)
 primerja štiri namensko izbrane slovenske povedi. Dve sta sodobna primera, ki ju
 je napisal priročnik. Drugi dve sta usklajeni besedilni predstavitvi istega
 časopisnega odlomka iz leta 1925 v paketu o arhivskem trenju: ročno preverjeni
@@ -2658,22 +2659,22 @@ ali entitetnih oznak ne sklepajte o identiteti ali duševnem stanju.
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
-    - [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)
-    - [Kako namestim in preizkusim CLASSLA s Pythonom 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-and-test-classla/)
-    - [Kako s CLASSLA anotiram majhno besedilo?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/annotate-a-small-text-with-classla/)
-    - [Kako rezultate CLASSLA izvozim v CSV?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/export-classla-results-to-csv/)
-    - [Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)
+    - [Kako ovrednotim OCR ali HTR na referenčnem vzorcu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md)
+    - [Kako namestim in preizkusim CLASSLA s Pythonom 3.12?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/install-and-test-classla.md)
+    - [Kako s CLASSLA anotiram majhno besedilo?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/annotate-a-small-text-with-classla.md)
+    - [Kako rezultate CLASSLA izvozim v CSV?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/export-classla-results-to-csv.md)
+    - [Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md)
 
     **Oglejte si študijo primera**
 
-    - [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/corpus-augmenter/) *(angleška nadomestna stran)*
-    - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/wikivir/) *(angleška nadomestna stran)*
-    - [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)*
+    - [Corpus conversion and CLASSLA annotation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/corpus-augmenter.md) *(angleška nadomestna stran)*
+    - [Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md) *(angleška nadomestna stran)*
+    - [Learner-corpus lexical analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/korpus-solar-analysis.md) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
 ## Vaja
 
-Izvedite postopek [Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](../workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md).
+Izvedite postopek [Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md).
 Ponovno izračunajte eno mero iz števca in imenovalca, dve zapisani napaki
 povežite z izvornima plastema in zapišite trditev, ki jo dokazno gradivo podpira.
 Nato oblikujte močnejšo trditev, ki je ne podpira, ter navedite manjkajoče
@@ -2707,7 +2708,7 @@ lahko spremeni. Strojno podprti osnutek v tem paketu obravnavajte kot gradivo, k
 - Universal Dependencies. [Oblika CoNLL-U](https://universaldependencies.org/format.html)
   in [univerzalna odvisnostna razmerja](https://universaldependencies.org/u/dep/).
 - Za razlikovanje izvorne slike, rezultata razpoznavanja, popravljenega besedila
-  in nadaljnje uporabe znova preberite [Besedila, korpusi in OCR](texts-corpora-ocr.md).
+  in nadaljnje uporabe znova preberite [Besedila, korpusi in OCR](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/texts-corpora-ocr.md).
 
 ---
 
@@ -2745,9 +2746,9 @@ besedilne plasti in opredelitev štete oblike. Sami števili sta rezultata, ne
 dokazno gradivo.
 
 Če morate ločiti izmerjeni vzorec od interpretacije, se vrnite k poglavju
-[Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md).
+[Modeli, dokazno gradivo in interpretacija](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/models-evidence-interpretation.md).
 Če štetje uporablja leme ali slovnične kategorije, preberite tudi
-[Jezikoslovna anotacija in CLASSLA](linguistic-annotation-classla.md).
+[Jezikoslovna anotacija in CLASSLA](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/linguistic-annotation-classla.md).
 
 ## Osrednji argument: vsako štetje vsebuje model korpusa
 
@@ -3011,7 +3012,7 @@ katero neodvisno gradivo bi ga lahko ovrglo.
 
 ## Razdelan primer: frekvenca ni doseg
 
-[Učni paket za preverjanje besedilnih analiz in NLP](../../assets/downloads/text-nlp-validation-v1.zip)
+[Učni paket za preverjanje besedilnih analiz in NLP](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/text-nlp-validation-v1.zip)
 vsebuje dvanajst kratkih sintetičnih slovenskih dokumentov v štirih avtorskih
 tematskih skupinah s po tremi dokumenti, vendar z neenakim številom pojavnic.
 Korpus je namenjen učenju in ne govori o
@@ -3047,21 +3048,21 @@ provenienco ter odsotnost opišite kot lastnost zbirke, ne kot molk preteklosti.
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
-    - [How do I query a corpus with CQPweb?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/corpora/query-a-corpus-with-cqpweb/) *(angleška nadomestna stran)*
-    - [Kako primerjam slog s funkcijskimi besedami?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-style-with-function-words/)
-    - [How do I make a dispersion plot in LancsBox?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/make-a-dispersion-plot-in-lancsbox/) *(angleška nadomestna stran)*
-    - [How do I visualise a frequency list with Voyant?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-a-frequency-list-with-voyant/) *(angleška nadomestna stran)*
-    - [Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/)
+    - [How do I query a corpus with CQPweb?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/corpora/query-a-corpus-with-cqpweb.md) *(angleška nadomestna stran)*
+    - [Kako primerjam slog s funkcijskimi besedami?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/compare-style-with-function-words.md)
+    - [How do I make a dispersion plot in LancsBox?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/make-a-dispersion-plot-in-lancsbox.md) *(angleška nadomestna stran)*
+    - [How do I visualise a frequency list with Voyant?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/visualise-a-frequency-list-with-voyant.md) *(angleška nadomestna stran)*
+    - [Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md)
 
     **Oglejte si študijo primera**
 
-    - [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/korpus-solar-analysis/) *(angleška nadomestna stran)*
-    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)*
+    - [Learner-corpus lexical analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/korpus-solar-analysis.md) *(angleška nadomestna stran)*
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
 ## Vaja
 
-Izvedite postopek [Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](../workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md).
+Izvedite postopek [Kako primerjam frekvenco, dokumentno frekvenco in razpršenost?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md).
 Izberite tri izraze z različnimi porazdelitvami. Za vsakega napišite opis mere,
 eno z virom utemeljeno razlago in trditev, ki je paket ne dovoljuje. Pred
 odločitvijo preberite vse konkordančne vrstice.
@@ -3134,7 +3135,7 @@ določenega čustva lahko ostane neznan. Odziv bralca ni zapisan v povedi. Tako
 ločevanje je začetek kodirnega priročnika.
 
 Klasifikacija pojem operacionalizira, ne pa odkrije samoumevne kategorije.
-Poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md)
+Poglavje [Modeli, dokazno gradivo in interpretacija](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/models-evidence-interpretation.md)
 pomaga ločiti kodirni priročnik, vhodno predstavitev, rezultat, dokazno gradivo
 preverjanja in trditev.
 
@@ -3323,7 +3324,7 @@ dodajanje enega dokumentiranega vnosa razkrije pridobitev in izgubo.
 
 ## Ponavljajoča se omejena primerjava
 
-[Učni paket za preverjanje besedilnih analiz in NLP](../../assets/downloads/text-nlp-validation-v1.zip)
+[Učni paket za preverjanje besedilnih analiz in NLP](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/text-nlp-validation-v1.zip)
 omogoča namenoma majhno primerjavo. Vzorec čustev ima osem sintetičnih povedi in
 izvirni učni mikroleksikon z osmimi vnosi. Tematski vzorec ima dvanajst
 sintetičnih dokumentov. Nobeden ne ocenjuje zgodovinske populacije.
@@ -3364,24 +3365,24 @@ leksikona in modela.
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
-    - [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
-    - [Kako z NMF raziščem ponavljajoče se teme?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/explore-topics-with-nmf/)
-    - [How do I create a sentence-similarity heat map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/create-a-sentence-similarity-heat-map/) *(angleška nadomestna stran)*
-    - [Kako preverim stabilnost in interpretabilnost tematskega modela?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability/)
+    - [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)
+    - [Kako z NMF raziščem ponavljajoče se teme?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/explore-topics-with-nmf.md)
+    - [How do I create a sentence-similarity heat map?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/create-a-sentence-similarity-heat-map.md) *(angleška nadomestna stran)*
+    - [Kako preverim stabilnost in interpretabilnost tematskega modela?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability.md)
 
     **Oglejte si študijo primera**
 
-    - [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/createai/) *(angleška nadomestna stran)*
-    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)*
-    - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)*
+    - [User/AI transcript analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/createai.md) *(angleška nadomestna stran)*
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md) *(angleška nadomestna stran)*
+    - [Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
 ## Vaja
 
 Izvedite oba postopka:
 
-1. [Kako preverim stabilnost in interpretabilnost tematskega modela?](../workflows/text-analysis/test-topic-model-stability-and-interpretability.md)
-2. [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](../workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)
+1. [Kako preverim stabilnost in interpretabilnost tematskega modela?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability.md)
+2. [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)
 
 Za vsakega napišite eno podprto in nepodprto trditev. Določite spremembo vira,
 predstavitve ali kodirnega priročnika, ki bi podprto trditev najbolj ogrozila.
@@ -3445,7 +3446,7 @@ opreme zapišite eno želeno poizvedbo in eno razlikovanje, ki ga ne želite izg
 
 Predpostavljeno je osnovno poznavanje vrstic, stolpcev in navajanja virov. Znanje
 SQL je koristno, za konceptualno primerjavo pa ni nujno. Najprej preberite poglavje
-[Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md).
+[Modeli, dokazno gradivo in interpretacija](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/models-evidence-interpretation.md).
 Za izvedbo vaje morate znati ohraniti vhodno datoteko in zagnati priloženo skripto
 Python. Strežnika, plačljive storitve ali osebnih podatkov ne potrebujete.
 Besedilo je strojno podprt osnutek; pred potrditvijo je potreben jezikovni pregled.
@@ -3459,7 +3460,7 @@ in skladnost. Ne določi pa, kaj je zgodovinska oseba, skupnost ali dogodek.
 To ostajajo raziskovalne odločitve. [Codd 1970](https://doi.org/10.1145/362384.362685)
 je tehnično izhodišče, ne zagotovilo, da je uspešna poizvedba tudi zgodovinski dokaz.
 
-V avtentičnem [paketu arhivskih zapletov](../../assets/downloads/archival-friction-v1.zip)
+V avtentičnem [paketu arhivskih zapletov](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/archival-friction-v1.zip)
 referenčno opazovanje `AF-P1-003` prepiše natisnjeno oznako »Dr. Ante Trumbić«.
 Najprej gre za opazovanje napisa v določeni časopisni številki, ne za neodvisno
 potrjeno biografijo. Zapis `AF-P2-003` ohrani »Mr. Meker«, čeprav je bil predlagani
@@ -3497,7 +3498,7 @@ da bi poenostavili povezovanje tabel.
 
 ## Razdelan primer: en dosje, trije modeli
 
-[Učni dodatek o spornih modelih](../../assets/downloads/contested-models-v1.zip)
+[Učni dodatek o spornih modelih](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/contested-models-v1.zip)
 vsebuje namenoma **sintetični** dosje za daljše obdobje. Ana Kovač oziroma Anna
 Kovatsch (`SYN-A`) je izmišljena oseba, ne identifikacija osebe iz časopisa.
 Paket arhivskih zapletov, ki temelji na avtentični časopisni številki, ostaja
@@ -3734,26 +3735,26 @@ in diplomatski prepis ohranijo dokazno gradivo, prozne opombe pa razlike, ki jih
 ni smiselno siliti v nadzorovana polja. Predstavitve povežite s skupnimi identifikatorji
 in verzioniranimi povezavami. Vprašajte se: katere razlike morajo biti poizvedljive,
 katere morajo ostati obnovljive iz gradiva in katere naj se uprejo formalizaciji?
-Isti dosje nadaljujeta poglavji [GIS](gis-spatial-humanities.md) in
-[Omrežja](networks-visualization.md).
+Isti dosje nadaljujeta poglavji [GIS](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/gis-spatial-humanities.md) in
+[Omrežja](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/networks-visualization.md).
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
-    - [Kako modeliram spreminjajoča se imena, statuse in meje v SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/)
-    - [Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data/build-a-humanities-database-with-sqlite/)
-    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
+    - [Kako modeliram spreminjajoča se imena, statuse in meje v SQLite?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite.md)
+    - [Kako zgradim manjšo humanistično podatkovno zbirko s SQLite?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data/build-a-humanities-database-with-sqlite.md)
+    - [Kako neurejene humanistične zapiske pretvorim v ponovno uporabno zbirko podatkov?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)
 
     **Oglejte si študijo primera**
 
-    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*
-    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)*
+    - [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md) *(angleška nadomestna stran)*
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
 ## Vaja
 
-Uporabite parni [postopek za trditve v SQLite](../workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite.md).
+Uporabite parni [postopek za trditve v SQLite](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite.md).
 Prenesite dodatek, preberite pregled pravic in v razširjeni mapi zaženite
 `python run.py --output output`. Pri ponovitvi izberite novo izhodno mapo.
 Datoteke `assertions-1910_early.csv`, `assertions-1910_corrected.csv` in
@@ -3808,7 +3809,7 @@ Po tem poglavju boste znali:
 
 Je človek prestopil mejo ali je meja prešla prek njegovega bivališča? Zapis o drugačni upravni pripadnosti prebivalca sam po sebi ne dokazuje selitve. Tudi pismo z navedbo »St. Peter« ne določa ene same nedvoumne točke. Preden odprete zemljevid, zapišite, kateri dokazi bi omogočili razlikovanje med gibanjem, upravno spremembo in napačno uredniško identifikacijo. Katere možnosti lahko ohranjeni viri sploh pomagajo preveriti?
 
-Spremljevalni dosje iz poglavja [Podatkovne zbirke in SQL](databases-sql.md) obravnava imena, status, jezikovno rabo in ozemeljsko pripadnost. Osebe in poskus s spreminjajočo se mejo so izrecno sintetični. Ne gre za rekonstruirane življenjepise oseb iz avtentičnega časopisnega gradiva. [Prenosljivi paket](../../assets/downloads/contested-models-v1.zip) vsebuje tudi pravi načrt Ljubljane in današnje koordinate orientacijskih točk. Te ravni dokazov ločujte: zgodovinski načrt ne potrjuje izmišljene upravne meje.
+Spremljevalni dosje iz poglavja [Podatkovne zbirke in SQL](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/databases-sql.md) obravnava imena, status, jezikovno rabo in ozemeljsko pripadnost. Osebe in poskus s spreminjajočo se mejo so izrecno sintetični. Ne gre za rekonstruirane življenjepise oseb iz avtentičnega časopisnega gradiva. [Prenosljivi paket](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/contested-models-v1.zip) vsebuje tudi pravi načrt Ljubljane in današnje koordinate orientacijskih točk. Te ravni dokazov ločujte: zgodovinski načrt ne potrjuje izmišljene upravne meje.
 
 Besedilo je strojno podprt prevodni osnutek; pred potrditvijo je potreben strokovni pregled slovenskega jezika in terminologije.
 
@@ -3884,7 +3885,7 @@ Paket vsebuje sken dLib z oznako javne domene, šest prvih ročnih izbir orienta
 | Izločitev zahodne kontrolne točke in naknadno preverjanje | 1.090,241 | razkrije šibko prostorsko oporo in ekstrapolacijo |
 | Samostojno preverjanje stolnice | 142,481 | ponovno preverite slikovni element in referent koordinate |
 
-Rezultate lahko ponovite brez QGIS. Povezani [postopek georeferenciranja](../workflows/mapping/georeference-and-check-a-historical-map-in-qgis.md) dodaja navodila za grafični vmesnik, shranjevanje transformacije in primerjavo s sodobnim slojem. Postopek v vmesniku še potrebuje dokumentiran pregled v QGIS. Številski pilot ne pomeni, da je bil dobljeni raster tudi vizualno potrjen.
+Rezultate lahko ponovite brez QGIS. Povezani [postopek georeferenciranja](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/mapping/georeference-and-check-a-historical-map-in-qgis.md) dodaja navodila za grafični vmesnik, shranjevanje transformacije in primerjavo s sodobnim slojem. Postopek v vmesniku še potrebuje dokumentiran pregled v QGIS. Številski pilot ne pomeni, da je bil dobljeni raster tudi vizualno potrjen.
 
 Slabe kontrolne točke ne izbrišite samo zato, da izboljšate oceno. Ponovno odprite sliko in referenčni opis ter zabeležite, ali je bila točka napačno prepoznana, premaknjena, posplošena ali premalo natančno določena. Popravljeni poskus shranite ločeno. Majhno odstopanje pri prileganju in veliko pri neodvisnem preverjanju skupaj koristno opišeta meje modela.
 
@@ -3899,7 +3900,7 @@ Poskus z mejo uporablja izrecno izmišljen kvadrat s stranico 1.000 metrov v lok
 
 Pri razvrščanju po središčni točki se ozemeljska pripadnost A spremeni brez selitve. Če upoštevate območje negotovosti, same geometrije ne zadoščajo za enolično pripadnost. Razpon ±75 metrov je predpostavka analize občutljivosti, ne izmerjen interval zaupanja. Nerazrešena omemba delovnega kraja ne sme nadomestiti trditve o bivališču.
 
-[Povezani postopek](../workflows/mapping/model-changing-place-names-and-boundaries.md) ponovi to tabelo. Resnična zgodovinska raziskava bi potrebovala še dokaze o datumu in geometriji meje, stalnosti bivališča ter upravnem pomenu spremembe. Sintetični izračun pokaže logične posledice predpostavk, ne zgodovinskih dejstev.
+[Povezani postopek](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/mapping/model-changing-place-names-and-boundaries.md) ponovi to tabelo. Resnična zgodovinska raziskava bi potrebovala še dokaze o datumu in geometriji meje, stalnosti bivališča ter upravnem pomenu spremembe. Sintetični izračun pokaže logične posledice predpostavk, ne zgodovinskih dejstev.
 
 ## Prostorsko združevanje in manjkajoči podatki
 
@@ -3943,16 +3944,16 @@ Vprašajte se, katere razlike morajo biti poizvedljive, katere morajo ostati obn
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
-    - [Kako georeferenciram in preverim zgodovinski zemljevid v QGIS?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/)
-    - [Kako modeliram spreminjajoča se krajevna imena in meje?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/model-changing-place-names-and-boundaries/)
-    - [Kako kartiram kraje, omenjene v besedilu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/map-places-mentioned-in-a-text/)
-    - [How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/mapping/build-a-simple-cultural-heritage-map/) *(angleška nadomestna stran)*
-    - [How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)*
+    - [Kako georeferenciram in preverim zgodovinski zemljevid v QGIS?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/mapping/georeference-and-check-a-historical-map-in-qgis.md)
+    - [Kako modeliram spreminjajoča se krajevna imena in meje?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/mapping/model-changing-place-names-and-boundaries.md)
+    - [Kako kartiram kraje, omenjene v besedilu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/mapping/map-places-mentioned-in-a-text.md)
+    - [How do I build a simple cultural heritage map?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/build-a-simple-cultural-heritage-map.md) *(angleška nadomestna stran)*
+    - [How do I visualise uncertainty in humanities data?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/visualise-uncertainty-in-humanities-data.md) *(angleška nadomestna stran)*
 
     **Oglejte si študijo primera**
 
-    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*
-    - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/medieval-ner/) *(angleška nadomestna stran)*
+    - [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md) *(angleška nadomestna stran)*
+    - [Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
 ## Vaja
@@ -4005,7 +4006,7 @@ Po tem poglavju boste znali:
 
 V isti časopisni številki se pojavijo štiri posamično poimenovane osebe. Ali zato sestavljajo povezan politični krog? Pravilo sopojavljanja v isti številki ustvari šest neusmerjenih parov. Pravilo dokumentirane korespondence iz istih opazovanj ne izpelje nobenega pisma med njimi. Noben rezultat ne pomeni, da osebe niso nikoli sodelovale. Razlika zadeva to, kaj izbrani zapisi podpirajo.
 
-Avtentični paket o arhivskem trenju ponuja to izhodiščno težavo. [Spremljevalni paket](../../assets/downloads/contested-models-v1.zip) ohranja identifikatorje opazovanj in lokatorje virov ter za nadzorovano primerjavo dodaja jasno označen sintetični dosje šestih oseb. Nobeno izmišljeno pismo ali življenjepis ni pripisan resnični časopisni osebi. Pred računanjem zapišite stavek o razmerju, ki ga želite raziskati, in stavek o tem, kaj zapisi dejansko omogočajo opazovati.
+Avtentični paket o arhivskem trenju ponuja to izhodiščno težavo. [Spremljevalni paket](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/contested-models-v1.zip) ohranja identifikatorje opazovanj in lokatorje virov ter za nadzorovano primerjavo dodaja jasno označen sintetični dosje šestih oseb. Nobeno izmišljeno pismo ali življenjepis ni pripisan resnični časopisni osebi. Pred računanjem zapišite stavek o razmerju, ki ga želite raziskati, in stavek o tem, kaj zapisi dejansko omogočajo opazovati.
 
 Besedilo je strojno podprt prevodni osnutek; pred potrditvijo je potreben strokovni pregled slovenskega jezika in terminologije.
 
@@ -4015,7 +4016,7 @@ Graf sestavljajo vozlišča in povezave, vendar zgodovinska razmerja spoznavamo 
 
 Ločite štiri ravni. **Opazovano razmerje v zapisu** poveže imenovanega udeleženca s pregledanim dokumentom. **Zatrjevano razmerje** povzame, kaj dokument trdi. **Izpeljano razmerje** je odvisno od izrecnega interpretativnega pravila. **Sopojavljanje** poveže entitete znotraj izbrane enote besedila, ne da bi dokazovalo medsebojno delovanje. Tudi pregledani dokument lahko osebo napačno prepozna ali dogodek opiše netočno.
 
-Uporaben zapis povezave zato vsebuje obe krajišči, vrsto razmerja, smer, identifikator dokaza, lokator vira, časovni interval, zanesljivost in pravilo gradnje. Ohranite besedilo vira ali obnovljivo pot do odlomka. Izrisana črta mora omogočiti vrnitev skozi te odločitve. Poglavje [Modeli, dokazno gradivo in interpretacija](models-evidence-interpretation.md) umešča razlikovanje med gradnjo podatkov in zgodovinsko razlago v širši okvir.
+Uporaben zapis povezave zato vsebuje obe krajišči, vrsto razmerja, smer, identifikator dokaza, lokator vira, časovni interval, zanesljivost in pravilo gradnje. Ohranite besedilo vira ali obnovljivo pot do odlomka. Izrisana črta mora omogočiti vrnitev skozi te odločitve. Poglavje [Modeli, dokazno gradivo in interpretacija](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/models-evidence-interpretation.md) umešča razlikovanje med gradnjo podatkov in zgodovinsko razlago v širši okvir.
 
 ## Izbira vozlišč in razreševanje entitet
 
@@ -4130,7 +4131,7 @@ Analiza občutljivosti spremeni utemeljeno predpostavko, druge odločitve pa ohr
 
 Zapišite, kateri sklepi obstanejo. Trditev »C ima največjo stopnjo v projekciji skupnih dokumentov pri pragu 2« je ponovljiva. Trditev »C je bil najpomembnejša oseba« ni podprta. Trditev »posredniški položaj E je občutljiv za vključitev SYN-D6« ustrezno opiše poskus. Ne združujte nezdružljivih pomenov povezav v domnevno robustnejše družbeno omrežje.
 
-[Postopek primerjave](../workflows/networks/compare-bipartite-and-projected-networks.md) izdela tabele, [postopek preverjanja trditve](../workflows/networks/audit-a-network-claim-against-source-records.md) pa izbrane povezave vrne k dosjeju. Vključite neprijetne nasprotne primere, ne le osrednjega vozlišča, ki ustreza začetni razlagi. Stabilnost rezultata je raziskovalno vprašanje, ne naknadna okrasna statistika.
+[Postopek primerjave](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/networks/compare-bipartite-and-projected-networks.md) izdela tabele, [postopek preverjanja trditve](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/networks/audit-a-network-claim-against-source-records.md) pa izbrane povezave vrne k dosjeju. Vključite neprijetne nasprotne primere, ne le osrednjega vozlišča, ki ustreza začetni razlagi. Stabilnost rezultata je raziskovalno vprašanje, ne naknadna okrasna statistika.
 
 ## Vizualizacija, dostopnost in etika
 
@@ -4150,17 +4151,17 @@ Vprašajte se, katere razlike morajo biti poizvedljive, katere morajo ostati obn
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
-    - [Kako primerjam dvodelna in projicirana omrežja?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/compare-bipartite-and-projected-networks/)
-    - [Kako preverim omrežno trditev ob izvornih zapisih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/audit-a-network-claim-against-source-records/)
-    - [Kako podatke povzamem z vrtilnimi tabelami in preglednimi grafikoni?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts/)
-    - [Kako zgradim omrežje sopojavljanja, povezano z viri?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/networks/build-a-cooccurrence-network/)
-    - [How do I build a collocation graph from AntConc to Cytoscape?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape/) *(angleška nadomestna stran)*
-    - [How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/visualization/visualise-uncertainty-in-humanities-data/) *(angleška nadomestna stran)*
+    - [Kako primerjam dvodelna in projicirana omrežja?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/networks/compare-bipartite-and-projected-networks.md)
+    - [Kako preverim omrežno trditev ob izvornih zapisih?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/networks/audit-a-network-claim-against-source-records.md)
+    - [Kako podatke povzamem z vrtilnimi tabelami in preglednimi grafikoni?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md)
+    - [Kako zgradim omrežje sopojavljanja, povezano z viri?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/networks/build-a-cooccurrence-network.md)
+    - [How do I build a collocation graph from AntConc to Cytoscape?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape.md) *(angleška nadomestna stran)*
+    - [How do I visualise uncertainty in humanities data?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/visualise-uncertainty-in-humanities-data.md) *(angleška nadomestna stran)*
 
     **Oglejte si študijo primera**
 
-    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*
-    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/pracomul/) *(angleška nadomestna stran)*
+    - [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md) *(angleška nadomestna stran)*
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
 ## Vaja
@@ -4199,339 +4200,572 @@ Omrežja formalizirajo izbrana razmerja, ne družbenega sveta v celoti. Identite
 
 ## UI, etika in ponovljivost
 
+Kadar časopis trdi, da govori v imenu celotnega naroda, s čim bi dokazali, da
+gre za več kot politično retoriko? Tekoče napisan povzetek lahko časopisno
+trditev neopazno spremeni v raziskovalno ugotovitev. Težava se začne še pred
+izmišljenim navedkom: nastane, ko izgine razmerje med virom in argumentom.
+Odgovorna uporaba umetne inteligence (UI) omogoča presojo tega razmerja,
+vključno z odločitvami, da rezultat popravimo, omejimo ali ga ne uporabimo.
+
+!!! note "Uredniško stanje"
+    Poglavje in učne simulacije so osnutki, pripravljeni s strojno pomočjo.
+    Pred objavo potrebujejo strokovni in slovenski jezikovni pregled. Spodnji
+    primeri so avtorsko pripravljene učne simulacije, ne poročila o izvedenih
+    zagonih generativnega modela ali dokaz opravljenega človeškega preverjanja.
+
 ## Učni cilji
 
 Po tem poglavju boste znali:
 
-- razlikovati med ponovljivostjo, replikacijo in preglednostjo;
-- podatke, kodo, modele, pozive in okolja dokumentirati kot raziskovalno gradivo;
-- prepoznati tveganja za zasebnost, avtorske pravice, reprezentacijo in delo v digitalnohumanističnih projektih;
-- zasnovati z viri podprto uporabo generativne UI in preveriti rezultate;
-- pripraviti izdajo, ki jo lahko druga oseba pregleda in ponovno zažene.
+- povezati računalniške rezultate s trditvami, ki jih lahko podprejo;
+- razlikovati med tehnično ponovljivostjo, računalniško reproducibilnostjo,
+  robustnostjo, preverljivostjo dokazov in interpretativno odgovornostjo;
+- ohraniti sled od vira do trditve tudi brez možnosti enakega ponovnega zagona;
+- zasnovati stratificirano preverjanje, primerjavo z izhodiščno metodo in
+  pravilo za opustitev napovedi;
+- presojo zasebnosti, pravic, vključevanja in porabe virov prenesti v postopek;
+- dokumentirati pomoč, popravke, nestrinjanje pregledovalcev in odprta vprašanja.
 
 ## Pred začetkom
 
-Klepetalnik pripravi tekoč povzetek s tremi prepričljivimi navedki. En je nekoliko spremenjen, en pripada drugemu avtorju, tretji pa ne obstaja. Težava ni samo v tem, da »UI halucinira«. Postopek je generativnemu sistemu dodelil vlogo vira dokazov, ne da bi ohranil preverljivo pot nazaj do dokumentov.
+Preberite arhivski odstavek ter določite govorca, občinstvo in najmočnejšo
+trditev. Ločite med tem, kar odstavek zatrjuje, in tem, kar bi lahko neodvisno
+potrdili. Bi prevod to razliko ohranil? Potrebujete osnove kritike virov,
+identifikatorje dokumentov in razlikovanje, razvito v poglavju
+[Modeli, dokazno gradivo in interpretacija](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/models-evidence-interpretation.md).
+Računa za storitev UI ne potrebujete. Vajo lahko opravite z ohranjenim paketom
+in avtorsko pripravljenimi izhodi. Uporaba zunanje storitve je izbirna in
+zahteva ustrezno institucionalno ureditev obdelave podatkov.
 
-To poglavje obravnava varovala znotraj projekta. Poglavje [Infrastrukture digitalne humanistike: moč, dostop in vzdrževanje](critical-infrastructures.md) pa širše obravnava zbirke, standarde, vmesnike, delo in vzdrževanje, ki projekt pogojujejo pred začetkom dela.
+## Najprej določite rezultat, nato presodite trditev
 
-Delovni primer v poglavju [Digitalna humanistika v Sloveniji](digital-humanities-in-slovenia.md) pokaže, kako se avtorske pravice, vrednotenje modela, izbira repozitorija, različice in vzdrževanje povežejo v verjetno lokalno raziskovalno verigo.
+UI označuje raznovrstne sisteme, ne ene metode. **Napovedni oziroma
+klasifikacijski model** na podlagi naučenih povezav pripiše oznako ali oceno:
+odstavek lahko denimo označi glede na politično stališče. To omogoča trditev o
+uspešnosti glede na določen kodirni priročnik na preverjenem gradivu, ne
+neposrednega vpogleda v avtorjevo prepričanje. **Generativni jezikovni modeli**
+tvorijo besedilo na podlagi navodil in konteksta. Uporaben osnutek ostaja
+predlog besedila; slovnična pravilnost in prepričljivo oblikovani navedki
+ne dokazujejo zgodovinske resničnosti.
 
-## Ponovljivost je oblikovalska odločitev
+**Vektorske vložitve** predstavijo enote z vektorji. **Priklic informacij**
+izbere možne odlomke s poizvedbo in postopkom razvrščanja. Pomenska bližina
+lahko pomaga najti drugače ubesedeno gradivo, vendar niti bližina niti mesto
+med zadetki ne dokazujeta soglasja, pravilnega pripisa ali popolne pokritosti.
+Pri generiranju s priklicanimi viri zato preverjate dvoje: ali je iskanje
+priskrbelo pomembne dokaze in ali jih je model ustrezno uporabil. Samozavesten
+odgovor ne odpravi izpusta pri iskanju. Pridobivanje virov za raziskovalno
+zbirko je širša odločitev o gradivu in dostopu, ne zgolj ta računski korak.
 
-Rezultat je **računalniško ponovljiv**, kadar druga oseba z istimi podatki, kodo in okoljem dobi isti ali sprejemljivo enakovreden izhod. **Replikacija** pogosto pomeni preverjanje trditve z neodvisno zbranimi podatki ali drugo izvedbo. **Preglednost** pomeni, da so pomembne odločitve, pretvorbe in omejitve dostopne za presojo.
+**OCR, prepoznavanje rokopisov (HTR) in verjetnostno obogatitev** uporabljamo za
+predloge prepisov, entitet ali jezikovnih struktur. Rezultat ločite od
+dokumenta, ki ga opisuje. **Sistem na osnovi pravil** pa lahko uporablja slovar
+ali regularni izraz brez kakršnega koli učenja; tržna oznaka UI njegovega
+delovanja ne spremeni. Pregledno pravilo je lahko dobra izhodiščna metoda,
+čeprav spregleda ironijo, zgodovinski zapis ali kontekst. Preverjanje posameznih
+ravni obravnavata poglavji [Jezikoslovna anotacija in CLASSLA](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/linguistic-annotation-classla.md)
+in [Teme, sentiment in čustva](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/topics-emotions-classification.md).
 
-Humanistični projekti lahko vsebujejo interpretativne korake, ki jih ni mogoče mehansko ponoviti. Še vedno jih lahko naredimo pregledne s kodirnimi priročniki, dnevniki odločitev, primeri in provenienco.
+Ločiti morate tudi načine uporabe. **Lokalna** namestitev omogoča nadzor nad
+različicami programske opreme, če ohranite odvisnosti in uteži modela.
+**Gostovani** vmesnik del nadzora prepusti ponudniku. **API** je programski vmesnik, ne
+jamstvo za zasebnost ali stabilnost; dostopa lahko do lokalne ali oddaljene
+storitve. Opišite dejansko ureditev. Ime storitve ne določa nujno modela,
+skritih navodil, usmerjanja zahtev, politike hrambe ali možnosti izvoza
+raziskovalnih zapisov.
 
-## Zabeležite celotno verigo
+## Pet različnih zagotovil
 
-Najmanjši raziskovalni paket naj določi:
+V tem priročniku **tehnična ponovljivost** pomeni ponovno izvedbo istega
+postopka v določenih pogojih. Bajtno enakost zahtevamo le, kadar jo izrecno
+določimo. **Računalniška reproducibilnost** pomeni, da lahko drug raziskovalec
+iz ohranjenih podatkov, kode in okolja rekonstruira izračun ter dobi vnaprej
+opredeljen enakovreden rezultat. Poročilo ameriških nacionalnih akademij iz
+leta 2019 razlikuje reproducibilnost z istimi raziskovalnimi vhodi od
+replikacije z novimi podatki. Ker se izrazje med disciplinami razlikuje,
+pojasnite namen preizkusa in ne predpostavljajte skupnega pomena izraza.[^ai-nas]
 
-- izvorno gradivo in pogoje dostopa;
-- pravila izbora in izločanja podatkov;
-- skripte, poizvedbe in ročne pretvorbe;
-- različice programske opreme, paketov in modelov;
-- nastavitve, naključna semena in korake, občutljive na strojno opremo;
-- pozive, sistemska navodila in identifikatorje generativnih modelov;
-- vmesne in končne izhode;
-- postopke preverjanja in znane napake;
-- vloge sodelujočih in licence.
+**Robustnost** preverja, ali sklep vzdrži utemeljene spremembe pozivov, modelov,
+nastavitev ali vzorcev. **Preverljivost dokazov**, ki jo podpira **sledljivost**,
+bralcu omogoča pot od pomembnega izhoda do podanih virov in pretvorb.
+**Interpretativna odgovornost** zahteva razlago, zakaj dokazi podpirajo neko
+branje, ohranjanje nasprotnih dokazov in možnost utemeljenega nestrinjanja.
+Interpretativna reproducibilnost zato ne zahteva nujno enake razlage: drug
+raziskovalec mora imeti možnost rekonstruirati in presoditi pot do sklepa.
+Ponovljivosti in angleškega izraza *reproducibility* torej ne enačimo samodejno.
 
-Zvezek, ki deluje samo na avtorjevem računalniku, ni ponovljiv. Prav tako ni ponovljiv repozitorij, ki izpusti zasebne podatke, ne da bi pojasnil, kako lahko pooblaščeni raziskovalec analizo ponovno izvede.
+| Predlagano zagotovilo | Kaj ohranite ali preizkusite | Česa s tem ne dokažete |
+| --- | --- | --- |
+| Natančna ponovitev | Enaki vhodi in konfiguracija; določena bajtna primerjava | Da je ponovljeni odgovor pravilen |
+| Računalniška reproducibilnost | Podatki, izvedljiva koda, odvisnosti, datoteke modela ali dostopen posnetek, pričakovani rezultat in toleranca | Veljavnosti zunaj teh vhodov |
+| Robustnost | Omejene spremembe, vsi poskusi, razlike in merilo sprejemljivosti | Neodvisnosti modelov ali splošne zanesljivosti |
+| Sledljivost in preverljivost | Izhod, identifikatorji odlomkov, različice virov, pretvorbe in popravki | Prepričljivosti vsake interpretacije |
+| Interpretativna odgovornost | Argument, druge razlage, nestrinjanje pregledovalcev in končna odgovornost | Obveznega soglasja ali mehanske interpretacije |
 
-## Okolja in verzioniranje
+Ohranjen odgovor gostovanega sistema je lahko preverljiv tudi po umiku modela.
+Zgolj ohranjen poziv pa ne upravičuje trditve o računalniški reproducibilnosti.
+Nasprotno lahko povsem ponovljiv izpis vztrajno ohranja napako OCR. Navedite,
+katero zagotovilo ste preizkusili in katero ni dosegljivo. Naključno seme je
+zapis enega vhoda, ne dokaz nadzora nad vsemi viri nedeterminističnosti,
+lastniškimi sestavinami ali operacijami, odvisnimi od strojne opreme.
 
-Odvisnosti se spreminjajo. Združljive različice zapišite v `requirements.txt`, `environment.yml`, zaklenjeno datoteko ali opis vsebnika. Dodajte majhen preizkus delovanja in pričakovani izhod. Javne izdaje označite z značkami različic in navajajte izdajo, ne premikajoče se veje `main`.
+## Ohranite zapis raziskovalnega dogodka
 
-Verzionirajte tudi podatke. Popravljen korpus lahko spremeni števila, čeprav je koda enaka. Opombe ob izdaji naj ločijo vsebinske popravke, metodološke spremembe in kozmetične posege.
+Zabeležite ponudnika, identifikator modela, različico ali datirani posnetek,
+če obstaja, dejanski datum in čas UTC ter vmesnik oziroma API. Ohranite
+sistemska in uporabniška navodila, kadar je razkritje dovoljeno, primere,
+zgodovino pogovora, parametre generiranja in konfiguracijo priklica informacij.
+Pri priklicu potrebujete poizvedbo, različico indeksa, model vektorskih
+vložitev, delitev na odseke, filtre, razvrščanje in izbrane odlomke v podanem
+vrstnem redu. Vire opremite s stalnimi identifikatorji odlomkov, kontrolnimi
+vsotami in pogoji dostopa. Opišite predobdelavo, normalizacijo, prevajanje in
+krajšanje. Če vmesnik kontekst skrajša brez razvidnega zapisa, obseg označite
+kot neznan.
 
-## Etična presoja se začne pred zbiranjem
+Prvotni izhod hranite ločeno od dnevnika popravkov in popravljenega predloga.
+Dodajte protokol in dejanski vzorec preverjanja, odločitve pregledovalcev,
+kodo, različice programskih paketov, pomembne podatke o strojni opremi,
+čas izvajanja in denarni strošek. Neznano lastniško podrobnost označite z `unknown`, zakriti
+podatek z `redacted` ter razlogom in potjo do dovoljenega dostopa, neizvedeno
+dejanje pa z `not_run`. Nobena od teh oznak ne pomeni številčne ničle. V
+javni zapis ne vključujte poverilnic. Ohranite dovoljeni izvoz konfiguracije:
+sami zaslonski posnetki lahko izpustijo nastavitve in otežijo dostopno ponovno
+uporabo.
 
-Pred pridobivanjem podatkov vprašajte:
+Predlogo najdete v [postopku dokumentiranja in preverjanja analize](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/ai/document-and-audit-a-source-grounded-ai-analysis.md).
+Zmožnosti storitve, pogoje uporabe in cene preverite ter datirajte za dejansko
+izbranega ponudnika. Poglavje ne daje trenutnih jamstev za posamezne storitve;
+datum preverjanja virov je 7. september 2026. Raziskovalni paket povežite z
+označeno različico objave, kot pojasnjuje [Živi odprti priročnik](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/open-living-handbook.md),
+omejeno dostopne dokaze pa ohranite v okviru dovoljenega dostopa.
 
-- Je bilo gradivo ustvarjeno za javno kroženje ali omejen kontekst?
-- Ali pravna dostopnost in etično dovoljenje kažeta v isto smer?
-- Bi navajanje, povezovanje ali združevanje izpostavilo osebo, ki je bila v izvornem kontekstu neopažena?
-- Ali gradivo vključuje ranljive skupnosti, mladoletne, zdravstvene podatke ali družinske zgodovine?
-- Ali vmesnik platforme podatke kaže, medtem ko pogoji ali družbene norme odvračajo od množičnega zajema?
-- Kdo opravlja čiščenje, anotacijo in moderiranje ter ali je delo priznano?
+## Razdelan primer: od narodnega soglasja do pripisane trditve
 
-»Javno dostopno« ni popolna etična utemeljitev.
+Raziskovalno vprašanje se glasi: kako *Ilustrirani Slovenec* oblikuje predstavo
+politične enotnosti? Uporabite [paket arhivskega trenja](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/archival-friction-v1.zip)
+in [paket besedilnega in jezikoslovnega preverjanja](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/text-nlp-validation-v1.zip).
+Obravnavani zgodovinski vir je *Ilustrirani Slovenec*, 7. februar 1925, letnik 1,
+številka 7, z identifikatorjem dLib `URN:NBN:SI:doc-YPI8OFSU`.[^ai-archive]
+Natančno mesto je prva stran PDF, uvodni odstavek pod naslovom,
+`AF-OCR-P1-INTRO`, poved z začetkom `Tudi danes`. V jezikoslovnem paketu
+`raw/annotation-samples.csv` ta izbor ohranja kot `TNLP-AF-REF` in
+`TNLP-AF-OCR`, s kontrolnimi vsotami in izvorom izluščenega besedila.
+Referenčni prepis, ponudnikov OCR in jezikoslovne oznake, pripravljene s
+pomočjo UI, so različne ravni.
 
-## Avtorske pravice, licence in ponovna uporaba
+Začnite s čistim kontrolnim primerom: `source/contemporary-sample.csv`, zapis
+`TNLP-C02`, prva poved. Raziskovalci v tem avtorskem sintetičnem besedilu
+preverjajo prepise in pojasnjujejo negotovost. Sprejemljiv opis navede ti dve
+dejanji, ne da bi si izmislil projekt ali rezultat. Primer pokaže želeno nalogo
+na izrecni ubeseditvi, ne uspešnosti na zgodovinskih arhivih. Kontrolnega in
+zgodovinskega odlomka nikoli ne združujte kot neodvisni zgodovinski opazovanji.
 
-Ločite pravice v izvornem gradivu, anotacijah, kodi, dokumentaciji in rezultatih. Korpus je morda mogoče deliti le kot metapodatke, identifikatorje, izpeljane značilke ali skripte, ki jih pooblaščeni uporabniki zaženejo lokalno. Odprti repozitorij ne pomeni, da je vsak vključeni predmet odprto licenciran.
+Nato preverite **avtorsko simulacijo napačnega angleškega povzetka UI**:
+“The article documents unanimous Slovenian support for the Slovene People's
+Party. A national survey confirms that differences of worldview no longer
+matter.” Povzetek zatrjuje soglasno podporo Slovenski ljudski stranki in se
+sklicuje na anketo med prebivalstvom. Zapis ne izhaja iz dokumentiranega
+preizkusa modela, temveč je učna simulacija, pripravljena s pomočjo UI.
+Njegov tekoči slog omogoča vajo o napačnem pripisu, izmišljeni dokazni podlagi
+in izbrisani negotovosti brez pošiljanja virov v zunanjo storitev. Dodatni
+**simulirani zapis navedka** iz OCR prepiše `stavovske` in `narodain` ter ju
+označi kot »navedek, preverjen ob posnetku«. Oznaka je namerno napačna;
+A03 preverja ta dodatni avtorski zapis, ne besed v angleškem povzetku.
 
-Za vsako sestavino navedite:
+| Zapis | Simulirana napaka | Preverjanje vira | Popravek in posledica |
+| --- | --- | --- | --- |
+| A01 | Narodno soglasje je predstavljeno kot ugotovljeno dejstvo | `TNLP-AF-REF`; odstavek zatrjuje enotnost, ne ponuja pa neodvisnih podatkov o prebivalstvu | Trditev pripišite časopisu; opustite sklep o izmerjeni javni podpori |
+| A02 | Anketa med prebivalstvom je izmišljena | `AF-OCR-P1-INTRO`, celotni odstavek; anketa ni navedena | Trditev odstranite in označite z `unsupported_claim`; ne ugibajte manjkajočega bibliografskega vira |
+| A03 | Besedilo OCR nastopa kot zanesljiv navedek | Primerjajte `TNLP-AF-OCR`, `TNLP-AF-REF` in prvo stran PDF; OCR vsebuje `stavovske` in `narodain` | Navedite preverjeni prepis; napako OCR in popravek ohranite ločeno |
+| A04 | Angleški povzetek izbriše pripis političnega glasu | Ponovno preberite slovenski odlomek in omembo stranke; prevod primerjajte z izvirnikom | Angleško besedilo označite kot parafrazo in ohranite mesto v slovenskem viru |
 
-- imetnika pravic ali vir;
-- licenco ali pravno podlago;
-- dovoljeno razširjanje;
-- zahteve za navedbo;
-- omejitve dostopa in postopek umika.
+Popravljena učna interpretacija je ožja: uvodni odstavek podporo stranki
+predstavlja kot služenje skupni narodni svobodi in tej trditvi podredi razlike
+v nazorih. Je dokaz retorike publikacije, ne anketa med Slovenci. Za presojo
+sprejema bi potrebovali druge dokaze. Predlagani navedek preverite ob posnetku;
+angleškega prevoda ne morete znakovno primerjati s slovenskim izvirnikom in
+pričakovati enakosti. Neodvisni bralec naj pregleda celotni odstavek in presodi
+to razlago. Tak človeški pregled je predlagan, ne predstavljen kot opravljen.
 
-Uporabite najmanj omejujočo licenco, ki jo lahko zakonito podelite, ne tiste, ki bi jo zgolj želeli.
+## Preverjajte odločitve, ne videza usposobljenosti
 
-## Pristranskost in reprezentacijska škoda
+Izhod razdelite na preverljive trditve in poleg izrečenega preglejte izpuste.
+Znakovna primerjava potrdi pojavitev navedka v viru, ne pa pravilnega govorca,
+datuma, obsega ali konteksta. Navedeno mesto poiščite v ohranjenem dokumentu,
+nato preučite okoliško besedilo in moč sklepa. Uporabljajte natančne kategorije:
+izmišljena trditev, napačen pripis, spremenjen navedek, napačno mesto v viru,
+izpuščena omejitev, izpust pri priklicu in nepodprt prevod. »Halucinacija« tu
+pomeni generirano vsebino, ki je v ustreznem dokaznem kontekstu izmišljena ali
+nepodprta; natančnejša kategorija je navadno uporabnejša. NIST-ov profil
+tveganj generativne UI takšno konfabulacijo obravnava poleg drugih tveganj
+sistema.[^ai-nist]
 
-Digitalne zbirke premočno zastopajo gradivo, ki je bilo ohranjeno, digitalizirano, katalogizirano, berljivo za OCR in dostopno pod izvedljivimi pravicami. Modeli dodajo pristranskosti učnih podatkov, anotacijskih kategorij ter različnih rezultatov med jeziki in skupnostmi.
+Vzorec določite pred prilagajanjem pozivov. Naključni vzorec običajnega gradiva
+dopolnite z namenskimi skupinami za zgodovinski pravopis, poškodovan OCR,
+navajanje, ironijo, jezik in žanr. Zapišite identifikatorje ter imenovalec
+vsakega deleža: nič pregledanih primerov pomeni nedoločen delež, ne popolne
+točnosti. Večji delež težavnih odlomkov pomaga odkrivati slabosti, brez
+ustreznega uteževanja pa ne ocenjuje napak celotne zbirke. Poročajte tudi o majhnem
+številu primerov in negotovosti ter o pomembnih primerih, ki jih vzorec ne zajema.
 
-Vrednotenje naj zato vključuje:
+Kadar je izvedljivo, naj dva bralca izbrane trditve neodvisno presodita po
+kratkem kodirnem priročniku. Pred pogovorom ohranite začetne odločitve,
+utemeljitve in mesta v virih. Usklajevanje naj zabeleži sprejeto rešitev in
+preostalo nestrinjanje; večinsko soglasje dvoumnosti ne spremeni v gotovost.
+Referenčne oznake so raziskovalne presoje z določenim stanjem pregleda, ne
+nevtralna resnica. Pri učni vaji lahko pregledate vsak izhod, večji projekt
+pa potrebuje izrecen načrt vzorčenja in predaje težavnih primerov v presojo.
 
-- pokritost pomembnih skupin, žanrov, obdobij in jezikov;
-- manjkajoče podatke in pristranskost ohranjenosti;
-- stopnje napak po skupinah;
-- primere škodljivih ali stereotipnih rezultatov;
-- posvetovanje, kadar projekt predstavlja ali imenuje skupnosti;
-- omejitve trditev in objave občutljivih podrobnosti.
+Pri klasifikatorjih **umerjenost** presojamo s primerjavo napovedane gotovosti
+in dejanske pravilnosti na ustreznem gradivu, ki ni bilo uporabljeno za učenje. Ocena 0,9
+sama po sebi ne pomeni 90-odstotne verjetnosti pravilnosti. Guo in sodelavci pokažejo, da je gotovost
+nevronskih modelov lahko slabo umerjena.[^ai-calibration] Postopek umerjanja in
+prag za opustitev napovedi določite na validacijskih podatkih ter ju preverite
+na nedotaknjeni testni množici. Poročajte o napaki in pokritosti: če sistem
+polovico primerov zavrne, se spremeni obseg tega, kar opisuje. Zavrnitve
+preglejte po skupinah, da opuščanje napovedi ne bi sistematično izločalo
+manjšinskega jezika. Samozavestna ubeseditev generativnega odgovora ni takšna
+izmerjena verjetnost.
 
-Model je lahko povprečno tehnično natančen, hkrati pa ponavlja škodljivo zgodovinsko kategorijo ali odpove prav pri manjšinskem gradivu.
+Rezultat primerjajte z izhodiščno metodo: ročnim izpisom iz vira, iskanjem
+ključnih besed ali majhnim naborom pravil na isti nalogi in enotah. Upoštevajte
+čas pregleda in spregledane dokaze. Testnih dokumentov ne vključujte v učenje
+ali primere v pozivu; skoraj enake časopisne strani lahko povzročijo uhajanje
+med navidezno ločenimi množicami. Neznani lastniški učni podatki omejujejo
+trditev o preizkusu brez kontaminacije. Uspeh na sodobni angleščini ne dokazuje
+uspešnosti na zgodovinski slovenščini. Presodite izboljšanje konkretnega
+raziskovalnega opravila v navedenih pogojih.
 
-## Generativna UI, podprta z viri
+## Robustnost preverjajte z utemeljenim obsegom dela
 
-Generativna UI je najlažje utemeljiva, kadar preoblikuje ali preiskuje podane vire in lahko vsako pomembno trditev preverimo.
+Naenkrat spreminjajte le en dejavnik: ubeseditev poziva, primere, vrstni red
+odlomkov, globino priklica, dolžino konteksta ali model. Ponovite enake pogoje,
+da opazujete razlike med zagoni, ter ohranite tudi neuspehe in zavrnitve.
+Liu in sodelavci so pri preučevanih nalogah z dolgim kontekstom ugotovili vpliv
+položaja informacij. To utemeljuje preizkus vrstnega reda, ne splošne trditve
+o vsakem današnjem modelu.[^ai-context]
+[Postopek preverjanja robustnosti](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/ai/compare-ai-output-across-prompts-models-and-runs.md)
+ločuje slogovne razlike od sprememb pripisa, dokazov, negotovosti in izpustov,
+ki vplivajo na sklep.
 
-Postopek, podprt z viri, lahko:
+Pri preverjanju ranljivosti v vnaprej določenem obsegu (angl. *red-teaming*)
+namerno preizkusite verjetne okoliščine odpovedi: zavajajoč naslov,
+nasprotujoča si odlomka ali navodilo, vstavljeno v dokument. Izvorno besedilo obravnavajte kot dokaz,
+nikoli kot pooblastilo za spremembo raziskovalnega postopka. Uporabite
+dovoljene neobčutljive primere in pravilo ustavitve. Vaja preverja določeno
+ranljivost, ne tekmovanja v premagovanju klepetalnika. Tudi soglasje modelov
+ni neodvisna potrditev: modeli si lahko delijo podatke in vzorce napak.
 
-1. iz dokumentirane zbirke pridobi omejene odlomke;
-2. od modela zahteva povzetek ali klasifikacijo samo teh odlomkov;
-3. zahteva identifikatorje odlomkov in citirane dokaze;
-4. samodejno preveri, ali navedeni nizi obstajajo;
-5. človek preveri interpretacijo in izpuste;
-6. ohrani poziv, model, parametre, pridobljeni kontekst in rezultat;
-7. po možnosti primerja rezultat z negenerativnim izhodiščem.
+## Etične odločitve naj spremenijo postopek
 
-Bibliografije ne polnite z navedki, ki jih je model ustvaril iz spomina. Samozavestno besedišče modela obravnavajte kot retoriko in ne umerjeno verjetnost.
+Zasebno pismo lahko razkrije žive sorodnike; po odstranitvi imena lahko osebo
+še vedno določa kombinacija dogodkov. Pred pošiljanjem drugam določite,
+kateri osebni ali občutljivi podatki prečkajo mejo, kdo dostopa do njih,
+kako potekata hramba in izbris, ali se uporabljajo za učenje in kakšne so
+pogodbene omejitve. Zmanjšajte poslani odlomek ali uporabite nadzorovano
+lokalno obdelavo. Nejasno pravno podlago ali ureditev obdelave naj pred
+prenosom razrešijo pristojni za naročanje in varstvo podatkov v ustanovi.
+Smernice EDPB pojasnjujejo omejitev namena, načelo najmanjšega obsega podatkov in
+varovanje občutljivih podatkov; javna dostopnost teh obveznosti ne razreši.[^ai-privacy]
 
-## Človeška odgovornost in razkritje
+Pravice presojajte ločeno za vire, oznake, modele, programsko opremo in izhode.
+Dovoljenje za branje vira še ne dovoljuje razširjanja ali pošiljanja tretji
+osebi. Preverite licence, pogoje storitve, institucionalne pogodbe in zahteve
+za navedbo ter zapišite različico in datum dostopa. Generirani izhod lahko
+ponovi varovano izrazno obliko, zato ponudnikovo dovoljenje za uporabo izhoda
+ne razreši vseh vprašanj pravic v njem. Ob negotovosti objavite identifikatorje in
+postopek rekonstrukcije namesto nedovoljeno razširjenih kopij ter vprašanje
+zabeležite za strokovno pravno presojo.
 
-Orodje ne more prevzeti avtorske odgovornosti, pridobiti soglasja ali presoditi, ali objava škoduje živi osebi. Navedite, kdo je sprejel končne odločitve. Pomoč UI razkrijte na ravni, pomembni za bralca: snovanje, prevajanje, programiranje, klasifikacija, jezikovni pregled ali generiranje.
+Kulturna avtoriteta presega soglasje posameznika. Imetnik zbirke morda ne
+zastopa skupnosti, katere znanje zbirka vsebuje. Načela CARE za upravljanje
+podatkov staroselskih ljudstev poudarjajo skupno korist, pristojnost za
+odločanje, odgovornost in etiko.[^ai-care] Njihovega specifičnega staroselskega
+okvira ne posplošujte v splošen kontrolni seznam. Določite, kdo odloča
+o dovoljenih rabah, pregleduje opise in lahko zahteva omejitev, ter zagotovite
+sredstva za sodelovanje. Kolonialne ali strankarske kategorije ne prenesite
+v nevtralno oznako klasifikatorja brez razlage izvora in posledic.
 
-Razkritje naj omogoči vrednotenje in ne le ritualne izpovedi. »Uporabili smo UI« je presplošno; »model X, različica/datum, je po kodirnem priročniku Y razvrstil 1.200 odstavkov; dva označevalca sta pregledala vse primere z nizko gotovostjo in 20-odstotni naključni vzorec« je uporabno.
+Jezikovna in področna neenakost se pokažeta v napakah po skupinah, izpustih
+priklica ter obsegu popravljanja. Ne prevajajte vsega v angleščino zgolj zato,
+ker neki sistem tam deluje bolje: ohranite izvirnik in preverite pomenske
+spremembe. Pristranskost v prid avtomatiziranemu odgovoru zmanjšujte tako,
+da pregledovalci najprej preberejo vire. Ohranjajte vaje iz kritike virov,
+da pomoč ne nadomesti veščine, potrebne za prepoznavanje napake. Priznajte
+delo označevanja, prepisovanja, prevajanja in moderiranja; opišite znane
+delovne okoliščine, ne da bi si izmišljali trditve o delavcih, o katerih
+nimate podatkov.
 
-## Razdelan primer: arhivski vodnik s pomočjo UI
+Podporne rabe lahko širijo dostop z bralno pomočjo, prepisovanjem ali osnutki
+opisov. Rezultate preverite s predvidenimi uporabniki: skrajšano besedilo lahko
+izpusti negotovost, tekoč opis slike pa si izmisli podrobnost. Zagotovite
+dostopno možnost, povezano z virom, in pot za popravke. Sodelovanje naj ne
+zahteva plačljivega računa ali razkritja oviranosti ponudniku.
 
-Skupina z jezikovnim modelom pripravi osnutke opisov arhivskih map.
-
-1. Vhode omeji na dovoljene kataložne opise in izbrane dokumente.
-2. Določi obvezna polja in prepovedane sklepe.
-3. Za vsako trditev zahteva identifikator vira.
-4. Točnost izluščanja preveri na ročno pripravljenem vzorcu.
-5. Imena, občutljive podatke in negotove datume označi za pregled.
-6. Rezultat primerja po jezikih in vrstah dokumentov.
-7. Generirani opis do potrditve ohrani ločeno od arhivskega zapisa.
-8. Zabeleži pregledovalca, datum in spremembe.
-9. Objavi izjavo o uporabi modela in pot za popravke.
-
-Sistem pospeši pripravo osnutka; arhivisti ostanejo odgovorni za opis in odločitve o dostopu.
+Finančna in okoljska sorazmernost sodita v izbiro metode. Luccioni, Jernite
+in Strubell merijo energijo za sklepanje pri različnih nalogah in modelih
+ter pokažejo pomen izbire načina uporabe.[^ai-energy] Določite obseg zagonov,
+shranite rezultate, kadar je to dovoljeno, in primerjajte preprostejše metode.
+Zapišite število žetonov ali čas izračuna ter dostopne meritve energije z
+mejami merjenja. Neznana poraba ponudnika ni ničelna, ocena ogljičnega odtisa
+ene poizvedbe pa ni univerzalna. Pri presoji koristnosti upoštevajte tudi
+strošek strokovnega preverjanja.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
-    - [Kako revidiram trditve, dokazno gradivo in odstavke?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs/)
-    - [Kako rezultat UI preverim ob izvornih dokumentih?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ai/audit-ai-output-against-source-documents/)
-    - [How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/ethics/decide-whether-a-digitised-source-should-be-public/) *(angleška nadomestna stran)*
-    - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*
-    - [How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/) *(angleška nadomestna stran)*
-    - [Kako namestim pakete Python s pipom?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/install-python-packages-with-pip/)
-    - [Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)
-    - [Kako preverim stabilnost in interpretabilnost tematskega modela?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability/)
-    - [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
+    - [Kako dokumentiram in preverim analizo UI, utemeljeno v virih?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/ai/document-and-audit-a-source-grounded-ai-analysis.md)
+    - [Kako primerjam izhode UI med pozivi, modeli in zagoni?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/ai/compare-ai-output-across-prompts-models-and-runs.md)
+    - [Kako revidiram trditve, dokazno gradivo in odstavke?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md)
+    - [Kako rezultat UI preverim ob izvornih dokumentih?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/ai/audit-ai-output-against-source-documents.md)
+    - [How do I decide whether a digitised source should be public?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ethics/decide-whether-a-digitised-source-should-be-public.md) *(angleška nadomestna stran)*
+    - [How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md) *(angleška nadomestna stran)*
+    - [How do I automate a linguistic workflow with a Makefile?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/automation/automate-a-linguistic-workflow-with-a-makefile.md) *(angleška nadomestna stran)*
+    - [Kako namestim pakete Python s pipom?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/install-python-packages-with-pip.md)
+    - [Kako CLASSLA ovrednotim na domensko specifičnem vzorcu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md)
+    - [Kako preverim stabilnost in interpretabilnost tematskega modela?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/test-topic-model-stability-and-interpretability.md)
+    - [Kako analiziram čustva z leksikonom in ročnim preverjanjem?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)
 
     **Oglejte si študijo primera**
 
-    - [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/jezikovni-svetovalec/) *(angleška nadomestna stran)*
-    - [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/fifi/) *(angleška nadomestna stran)*
-    - [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/createai/) *(angleška nadomestna stran)*
-    - [Slovenian comma-checking Word add-in](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/vejice-add-in/) *(angleška nadomestna stran)*
+    - [Source-grounded Slovenian language advisor](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/jezikovni-svetovalec.md) *(angleška nadomestna stran)*
+    - [Website crawler and chatbot corpus builder](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/fifi.md) *(angleška nadomestna stran)*
+    - [User/AI transcript analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/createai.md) *(angleška nadomestna stran)*
+    - [Slovenian comma-checking Word add-in](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/vejice-add-in.md) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
 ## Vaja
 
-Za en projekt pripravite kontrolni seznam ponovljivosti in etike. Vključite pravice do podatkov, zasebnost, pristranskost izbora, različice modelov, naključne elemente, človeški pregled, preverjanje, datoteke izdaje, navajanje ter načrt odziva na napake ali zahteve za umik.
+Za odlomka iz paketov pripravite register virov in preverite štiri simulirane
+napake. Dodajte en izpust, ki bi spremenil zgodovinski argument. Napišite
+popravljeno interpretacijo v 80 besedah ter ohranite obe različici. Druga
+oseba naj pred primerjavo odločitev uporabi vaš kodirni priročnik; če ni na
+voljo, človeški pregled označite kot čakajoč. Izpolnite zapis preverjanja in
+zasnujte omejeno vajo robustnosti brez poročanja o neizvedenih zagonih.
+Oddajte tabelo trditev, identifikatorje vzorca, zapis nestrinjanja, zgornjo
+mejo stroška in razlog za opustitev napovedi. Merilo ocenjevanja so dokazi
+in odločitve, ne dostop do dragega modela.
 
 ## Refleksija
 
-- Katerih delov postopka ne morete deliti in kako jih lahko vseeno dokumentirate?
-- Kdo je v podatkih predstavljen, vendar ga ni pri projektnih odločitvah?
-- Bi rezultat preživel spremembo modela ali nedostopnost spletne storitve?
+Katere dele bi drug raziskovalec lahko ponovno izvedel, katere samo pregledal
+in katerim utemeljeno ugovarjal? Kdo nosi posledice izpuščene omejitve? Bi
+objava celotnega dnevnika razkrila informacije, ki jih mora raziskava varovati?
+Pojasnite primer, pri katerem metodološka omejitev zahteva ožjo trditev,
+ne boljšega poziva.
 
 ## Povzetek
 
-Odgovorna digitalna humanistika združuje tehnično ponovljivost in etično odgovornost. Ohranite verigo od vira do izhoda, verzionirajte kodo in podatke, navedite pravice in omejitve, preverite rezultat tam, kjer se lahko zgostita škoda ali pristranskost, ter generativno UI privežite na preverljive dokaze. Ponovljivost ni mapa, dodana na koncu, temveč arhitektura raziskovalnega procesa, ki ga drugi lahko pregledajo, izpodbijajo in izboljšajo.
+Pomoč UI postane del znanstvenega dela z ohranjenimi dokazi, izrecnimi
+preizkusi in odgovorno interpretacijo. Razkrijte, kaj je pomoč obsegala, kaj
+so ljudje preverili in kaj ostaja odprto; samo razkritje uporabe UI postopka
+ne upraviči. ALLEA odgovornost za raziskovalno integriteto pripisuje
+raziskovalcem in ustanovam.[^ai-integrity] Uporabna izjava navede nalogo, zapis
+modela, obravnavano gradivo, preverjanje in odgovorne sodelujoče. Ohranite
+jo z določeno različico objave, da popravki argument spremenijo vidno in
+ne s tihim nadomeščanjem njegove dokazne zgodovine.
+
+## Nadaljnje branje
+
+- National Academies of Sciences, Engineering, and Medicine. 2019.
+  *Reproducibility and Replicability in Science*.
+  [Poročilo in DOI](https://doi.org/10.17226/25303). Za izrecne opredelitve.
+- Autio, Chloe, idr. 2024. *Artificial Intelligence Risk Management Framework:
+  Generative Artificial Intelligence Profile*. NIST AI 600-1.
+  [Poročilo](https://doi.org/10.6028/NIST.AI.600-1). Za omejene preizkuse tveganj.
+- Guo, Chuan, Geoff Pleiss, Yu Sun in Kilian Q. Weinberger. 2017.
+  »On Calibration of Modern Neural Networks.« *PMLR* 70: 1321–1330.
+  [Članek](https://proceedings.mlr.press/v70/guo17a.html).
+- Liu, Nelson F., idr. 2024. »Lost in the Middle: How Language Models Use
+  Long Contexts.« *Transactions of the Association for Computational Linguistics*
+  12: 157–173. [Članek](https://aclanthology.org/2024.tacl-1.9/).
+- Carroll, Stephanie Russo, idr. 2020. »The CARE Principles for Indigenous
+  Data Governance.« *Data Science Journal* 19: 43.
+  [Članek](https://datascience.codata.org/en/articles/dsj-2020-043).
+- Luccioni, Sasha, Yacine Jernite in Emma Strubell. 2024. »Power Hungry
+  Processing: Watts Driving the Cost of AI Deployment?« *FAccT '24*: 85–99.
+  [DOI](https://doi.org/10.1145/3630106.3658542).
+- ALLEA. 2023. *The European Code of Conduct for Research Integrity*,
+  prenovljena izdaja. [Kodeks in prevodi](https://allea.org/code-of-conduct/).
+
+[^ai-nas]: [Poročilo nacionalnih akademij](https://doi.org/10.17226/25303), 2019. Petdelna razmejitev je učni dogovor, ne splošno veljavna terminologija.
+[^ai-archive]: [Bibliografski zapis dLib](https://www.dlib.si/details/URN:NBN:SI:doc-YPI8OFSU), preverjen 7. septembra 2026. Pred ponovno uporabo preberite politiki pravic in prepisovanja v paketu.
+[^ai-nist]: [NIST AI 600-1](https://doi.org/10.6028/NIST.AI.600-1), 2024. Kategorije napak to vprašanje prilagodijo humanističnemu delu z viri.
+[^ai-calibration]: [Guo idr.](https://proceedings.mlr.press/v70/guo17a.html), 2017.
+[^ai-context]: [Liu idr.](https://aclanthology.org/2024.tacl-1.9/), 2024.
+[^ai-privacy]: European Data Protection Board, [Data protection basics](https://www.edpb.europa.eu/sme/learn-the-basics/data-protection-basics_en), dostop 7. septembra 2026. Uporabljivost pravil in institucionalna ureditev zahtevata presojo konkretnega primera.
+[^ai-care]: [Carroll idr.](https://datascience.codata.org/en/articles/dsj-2020-043), 2020; [Global Indigenous Data Alliance](https://www.gida-global.org/careprinciples), dostop 7. septembra 2026.
+[^ai-energy]: [Luccioni, Jernite in Strubell](https://doi.org/10.1145/3630106.3658542), 2024; [avtorski rokopis](https://arxiv.org/abs/2311.16863).
+[^ai-integrity]: [Kodeks ALLEA](https://allea.org/code-of-conduct/), prenovljena izdaja 2023. Vsi povezani viri so bili preverjeni 7. septembra 2026; to je datum dostopa, ne datum človeškega pregleda.
 
 ---
 
 ## Živi odprti priročnik
 
+!!! warning "Uredniški status"
+    Razširjeno poglavje je osnutek, pripravljen s strojno pomočjo. Pred formalno objavo potrebuje celovit strokovni in slovenski jezikovni pregled. Primeri prikazujejo odločitve o objavljanju, ne že objavljenih izdaj ali dodeljenih identifikatorjev.
+
 ## Učni cilji
 
 Po tem poglavju boste znali:
 
-- razlikovati med živo izdajo in stabilno recenzirano različico;
-- pravilno navesti verzionirano digitalno publikacijo;
-- zasnovati postopke prispevanja, pregledovanja in prevajanja;
-- pojasniti, kako Git, GitHub Pages in arhiv opravljajo različne založniške naloge;
-- presoditi, ali sprememba zahteva popravek, manjšo ali večjo izdajo.
+- razlikovati med zgodovino izvornih datotek, ustvarjeno bralno izdajo, paketom izdaje in bibliografskim zapisom;
+- pojasniti obseg recenzije in omejitve sklepanja na podlagi številke različice;
+- slediti popravku od dokazila prek objave do poznejšega navajanja;
+- pripraviti seznam vsebine izdaje z recenzijskim, prevodnim, licenčnim in dostopnostnim statusom;
+- ločiti ocenjevanje študentskega dela, soglasje k objavi in priznanje prispevka;
+- načrtovati dolgoročno hrambo, vzdrževanje in nasledstvo v okviru razpoložljivih sredstev.
 
 ## Pred začetkom
 
-Natisnjeno navodilo za programsko opremo je lahko zastarelo, še preden ga študenti odprejo. Spletno mesto, ki se nenehno spreminja, pa je težko navesti ali recenzirati. Rešitev ni izbira med trajnostjo in spremembo. Vsaki je treba dodeliti jasno plast.
+Kako lahko bralec kritično presodi interpretacijo, če se njena dokazila in besedilo med branjem in navajanjem spremenijo? Kakšna pa je urednikova odgovornost, ko odkrije napako v pogosto navajanem učnem viru? Vprašanji povezujeta preučevanje besedil s praktično organizacijo digitalnega založništva. Živa publikacija mora spremembe pojasniti, ne da bi včerajšnjo trditev predstavljala kot današnje spoznanje.
 
-Objavljanje je tudi infrastruktura repozitorijev, standardov, recenzijskih vlog in obveznosti vzdrževanja. Poglavje [Infrastrukture digitalne humanistike](critical-infrastructures.md) ponuja širšo podlago za vprašanja, kdo ta sistem vzdržuje, komu je dostopen in kaj se zgodi, ko katera od odvisnosti izgine.
+Spomnite se digitalne izdaje ali učnega spletnega mesta, ki ste ga uporabili. Ali ste lahko ugotovili, kdo ga je pripravil, katero različico ste brali, kdaj je bil opravljen zadnji vsebinski pregled in kako je urejena hramba? Ločite objavljene podatke od sklepov, ki ste jih izpeljali iz logotipa ustanove. Za vaje potrebujete osnovno razumevanje izvornih datotek ter razlikovanja med dokazilom in interpretacijo. Skrbniška dovoljenja niso potrebna. Vhodno gradivo sestavljata majhen popis publikacije in scenarij popravka; rezultat so zapisi, ki jih lahko presodi drug urednik.
 
-## Dve izdaji, ena publikacija
+## Dva ritma in omejen obseg strokovne avtoritete
 
-Priročnik loči:
+Recenzirana izdaja določi omejen znanstveni predmet: navedena poglavja, jeziki in primeri so bili pregledani pri določeni reviziji. Živa izdaja omogoča nadaljnje popravke in razvoj gradiva. Razmerje med njima je uredniško, ne zgolj časovno. Nedavno dodan postopek je lahko uporaben, vendar še poskusno preverjen; starejše recenzirano poglavje lahko ohrani pojmovno vrednost kljub zastareli sliki vmesnika. Niti novost niti številka različice ne nadomestita podatka o obsegu pregleda.
 
-1. **živo izdajo** na privzeti veji, kjer nastajajo popravki, novi postopki in prevodi; ter
-2. **stabilno izdajo**, opredeljeno z različico, datumom in arhiviranim posnetkom.
+Priročnik povezuje počasneje spreminjajoča se poglavja in učni poti s hitreje razvijajočo se zbirko postopkov. Privzeta veja `main` podpira živo izdajo; oštevilčene izdaje so zamišljene kot zamrznjeni recenzirani posnetki. Seznam vsebine izdaje oziroma manifest mora povedati, kateri praktični prispevki sodijo v recenzirano izdajo in kateri ostajajo spremljevalno gradivo. Angleška nadomestna stran v slovenski zbirki omogoča dostop, ni pa končan prevod. Trditev, da je celoten repozitorij recenziran ali v celoti preveden, bi presegla tako določen obseg.
 
-Živa izdaja podpira poučevanje in vzdrževanje. Stabilna izdaja je predmet formalne recenzije, navajanja in ohranjanja. Bralci lahko vedno vidijo, katero izdajo uporabljajo.
+Tako lahko presodimo tudi odprtost. Unescovo priporočilo o odprtih učnih virih iz leta 2019 povezuje odprte licence z usposobljenostjo, vključevanjem in vzdržnim zagotavljanjem virov. Za uredniško delo pri tem priročniku iz tega izpeljujemo potrebo, da poleg nove vsebine načrtujemo pregled in vzdrževanje. Če nadaljnji razvoj ni izvedljiv, naj ostane na voljo stabilna bralna izdaja.[^living-oer]
 
-Model je običajen pri programski opremi in podatkovnih objavah, ustreza pa tudi področjem, kjer se metode in vmesniki hitro spreminjajo. Pojmovna poglavja naj se spreminjajo počasi, praktične postopke pa lahko posodabljamo pogosteje.
+## Izvor, izdaje in distribucijske datoteke
 
-## Vloge založniške infrastrukture
+Uredljivi izvor vsebuje argumentacijo, primere, metapodatke, licence in navodila za gradnjo. Ustvarjeni HTML ali recenzijski rokopis ta izvor predstavi določenim bralcem. Distribucijske datoteke, denimo izvorni arhiv ZIP ali arhiv statičnega mesta, so konkretna zaporedja bajtov. Morda ne vključujejo živih storitev, oddaljenih medijev ali zunanjih podatkov. Preden obljubite uporabo brez povezave, paket razširite na drugem računalniku, prekinite omrežno povezavo in preizkusite bistvene bralne poti.
 
-Različne sestavine imajo različne naloge:
+Commit oziroma zapis spremembe v Gitu identificira revizijo in povezave do njene zgodovine. Oznaka v Gitu oziroma tag poimenuje točko v zgodovini; oznaka z dodatnimi podatki lahko vsebuje še sporočilo in podatke o avtorju. Dovoljenja lahko dopuščajo zamenjavo ali izbris oznake. Izdaja na GitHubu (GitHub release) poveže oznako z opombami in datotekami, vendar je samostojen predmet platforme. Dokumentirana možnost nespremenljivih izdaj varuje pripadajoče oznake in datoteke, če je vključena; opombe ob izdaji ostajajo uredljive. Podatke smo preverili 7. septembra 2026, ne trdimo pa, da je možnost vključena v tem repozitoriju.[^living-git][^living-github]
 
-- **repozitorij Git:** izvorne datoteke, zgodovina, prijave težav, pregled in prispevki;
-- **GitHub Pages:** berljiva javna spletna izdaja;
-- **označena izdaja:** zamrznjen niz datotek, ki predstavlja izdajo;
-- **arhivski repozitorij:** dolgoročni zapis in trajni identifikator;
-- **založniški zapis:** recenzija, metapodatki, katalogizacija in institucionalno priznanje;
-- **neobvezni posnetek PDF:** oblika za delo brez povezave, oddajo in pregled, ne uredniški izvirnik.
+Stalni znanstveni identifikator ima drugačno nalogo. DOI ali repozitorijski identifikator povezuje publikacijo s pristajalno stranjo z vzdrževanimi metapodatki; ISBN sodi v založnikovo bibliografsko ureditev. Nobeden ni kontrolna vsota ali dokaz recenzije. Z založnikom in ustanovo za hrambo določite predmet posameznega identifikatorja, razmerje med jezikovnima izdajama in povezovanje različic. Zenodo loči uporabo obstoječega DOI od registracije novega; možnost registracije še ne utemeljuje vzporednega zapisa za isto izdajo.[^living-zenodo]
 
-Nobena platforma ne sme nositi vseh nalog. Spletni naslov veje ni arhiv, PDF pa ni vzdrževani izvor.
+Koristne ostajajo štiri razlike iz poglavja [UI, etika in ponovljivost](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/ai-ethics-reproducibility.md). Tehnična ponovljivost zadeva ponovitev dejanja v določenih pogojih. Računalniška reproducibilnost zadeva rekonstrukcijo s pomočjo ohranjenih izvornih datotek, kode, podatkov in okolja. Preverljivost dokazne poti omogoča sledenje trditvi do virov in popravkov. Interpretativna odgovornost zahteva utemeljitev izbire virov in presojo še zagovarjanih alternativnih branj. Enaki bajti ne odgovorijo na zadnje vprašanje. Arhivirani PDF lahko omogoča preverjanje dokazil, čeprav izvedbeno okolje ni ohranjeno.
 
-## Številke različic sporočajo pomen
+## Različice zahtevajo uredniško presojo
 
-Uporabna semantična shema je:
+Semantično verzioniranje je način označevanja različic, ki večje, manjše in popravljene različice opredeli glede na dogovor o javnem programskem vmesniku. Humanistična argumentacija nima enakovrednega samodejnega preizkusa združljivosti. Ta način označevanja različic zato prevzemajte previdno: zapišite lokalna pravila in utemeljite odločitev.[^living-semver]
 
-- izdaja **popravka**, denimo 1.0.1: popravki, ki bistveno ne spreminjajo metode ali učnih ciljev;
-- **manjša** izdaja, denimo 1.1.0: novi postopki, prevodi ali združljivi dodatki;
-- **večja** izdaja, denimo 2.0.0: obsežna reorganizacija, spremenjena metodološka priporočila ali na novo recenzirana izdaja.
+Po pravilih priročnika izdaja popravka odpravi tipkarsko napako, napako v navodilih ali metapodatkih brez spremembe učne argumentacije. Manjša izdaja doda obsežnejše pregledano gradivo znotraj obstoječe zgradbe. Večja izdaja označuje bistveno spremenjeno metodo, preurejeno argumentacijo ali novo recenzirano izdajo. Zamenjava besede »podpira« z »izpodbija« lahko zahteva več presoje kot sto popravljenih povezav. Presojajte posledico za bralca, ne števila spremenjenih vrstic. Spremembe učne argumentacije ne označite kot navaden popravek zgolj zato, ker je kratka.
 
-Vsaka izdaja naj vsebuje dnevnik sprememb, podatke za navajanje in izjavo o recenzijskem statusu. Arhivirane izdaje ne prepisujte potiho.
+Tudi datumi potrebujejo jasno opredelitev: izvorna revizija, končana recenzija, objava izdaje in poznejše popravilo metapodatkov imajo lahko različne datume. Manifest naj navede commit, vključene poti, jezike, stanje prevodov, obseg pregledov, licence, izvorne kontrolne vsote, zunanje odvisnosti in ugotovitve o dostopnosti. Ločeno zabeležite okolje za gradnjo in kontrolne vsote distribucijskih datotek. Nedodeljeni identifikatorji ostanejo izrecno v čakanju; uspešna gradnja jih ne more določiti. Kadar načrtovana izdaja zahteva še nedokončano recenzijo ali založnikovo potrditev, objava počaka.
 
-## Navajanje in status recenzije
+Pri oštevilčeni izdaji navedite avtorja oziroma urednika, naslov publikacije, različico in datum izdaje, lokator poglavja ali postopka ter dodeljeni identifikator oziroma stabilno pot do te izdaje. Navedite dejansko uporabljeno različico, tudi če obstaja novejša. Če namerno obravnavate živo vejo `main`, zapišite »živa izdaja«, celotni identifikator zapisa spremembe v Gitu, natančno stran in datum dostopa. Bralnemu naslovu dodajte povezavo do izvora pri tej reviziji. Sam datum dostopa ne določi, katera od več revizij istega dne je podpirala trditev. Načelo velja tudi za navedke pri predmetu, ne da bi semestrski posnetek zato predstavljali kot formalno recenzirano izdajo.
 
-Spletno mesto naj pokaže:
+## Kaj priročnik že podpira
 
-- trenutno različico ali razvojni status;
-- datum objave in zadnje posodobitve;
-- priporočeni navedek;
-- DOI ali arhivski identifikator, ko je dodeljen;
-- uredniško in recenzijsko izjavo;
-- licence za besedilo, kodo in podatke;
-- povezavo do natančne različice izvornih datotek.
+Ob pregledu repozitorija za to poglavje 7. septembra 2026 so bili na voljo vzporedni izvorni dokumenti Markdown, uredniška pravila, poročanje o prevodih, ustvarjeni recenzijski rokopisi in strogo preverjanje spletne gradnje. Postopek, ki ga sproži oznaka izdaje, pripravi izvorni in spletni arhiv, kopira rokopisa in poročilo o prevodih, izračuna kontrolne vsote ter datoteke naloži kot artefakt GitHub Actions. Sam po sebi ne dokazuje trajnega depozita, pripetja datotek javni izdaji na GitHubu, založniške potrditve ali dodelitve DOI oziroma ISBN. Tudi podatki za navajanje ne dokazujejo, da je bila vsaka datoteka formalno recenzirana.
 
-Bralec, ki navaja raziskovalno trditev, naj navede uporabljeno stabilno izdajo. Pri predmetu lahko uporabljamo živo izdajo in zabeležimo commit ali semestrsko različico.
+Založniško usklajena izdaja je ločeno opredeljena v [nalogi #30](https://github.com/damjan-popic/digital-humanities-handbook/issues/30). Pred trditvijo o formalni izdaji mora urediti pisne založnikove zahteve, pristojnosti za identifikatorje, vsebino paketa in preverjanje depozita. [Postopek načrtovanja izdaje](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/publishing/create-a-versioned-scholarly-release.md) pripravi dokazila, teh dejanj pa ne izvede. Obstoječi gradbeni postopek je uporabna sestavina; celotno založniško storitev je treba šele vzpostaviti in preveriti.
 
-## Prispevanje ni neurejeno urejanje
+## Razdelan primer: običajen prispevek z izrecnim soglasjem
 
-Odprtost pomeni, da ljudje lahko predlagajo in pregledajo spremembe, ne da se vsaka sprememba samodejno objavi. Postopek prispevanja naj zahteva:
+Zamislite si študentski prispevek: dvojezično razlago razlikovanja med omembo kraja in prebivališčem osebe v kazalu ustne zgodovine. Izmišljeni intervjujski odlomki preprečijo razkritje udeležencev pri vaji. Omejena trditev prispevka je, da podano kodirno pravilo loči dve razmerji v izbranih primerih, ne da je mogoče samodejno razvrstiti vse ustne zgodovine.
 
-1. določeno težavo in ciljno občinstvo;
-2. preverjanje virov in pravic;
-3. ponovljiv najmanjši primer;
-4. pričakovani izhod in načine odpovedi;
-5. uredniški in tehnični pregled;
-6. jezikovni pregled, kadar je potreben;
-7. razkritje vloge avtorja in soglasje z licenco;
-8. samodejne preizkuse pred združitvijo.
+Študentka priloži primere, odločitve, nasprotni primer in želeno obliko navedbe prispevka. Kolega preveri, ali po navodilih dobi pričakovano tabelo. Urednik presodi zgodovinsko sklepanje, slovenski pregledovalec terminologijo in enakovrednost navodil, pregledovalec dostopnosti pa naslove in vrstni red branja. Zapisi opredelijo revizijo in obseg dela. Strojno podprt jezikovni pregled pri tem pomaga pripraviti osnutek, ne šteje pa kot končan človeški pregled.
 
-Študenti so lahko resnični sodelavci. Njihovo delo mora biti priznano, pregledano in objavljeno pod licenco, s katero so zavestno soglašali. Ocenjevanje in odločitev o objavi morata biti ločena, da študenti niso prisiljeni v javno avtorstvo.
+Oddano raziskovalno delo se oceni v nejavnem postopku. Objava je ponujena ločeno, z enakovredno možnostjo nejavne oddaje, razlago licence in javne zgodovine ter jasnim rokom pred objavo. Zavrnitev objave ne sme znižati ocene. Študentka lahko skladno s pravili ustanove predlaga dogovorjeno javno navedbo prispevka. Poleg njenega soglasja sta potrebna uredniški sprejem in razjasnitev pravic. Poznejši izbris ne more zanesljivo odpoklicati kopij, ki so jih drugi že razširili pod odprto licenco.
 
-## Dvojezična objava je uredniško delo
+Ko so pogoji izpolnjeni, urednik prispevek sprejme v živo izdajo in ga predlaga za poznejšo manjšo izdajo. Manifest pokaže, kateri pregled se nanaša tudi nanjo. Prevajanje, urejanje podatkov, razvoj kode in preverjanje zaslužijo priznanje ob pisanju besedila. CRediT ponuja izraze za več raziskovalnih vlog, projekt pa mora posebej opisati tudi uredniško in prevodno delo. Klasifikacija sama ne razreši spora o avtorstvu.[^living-credit]
 
-Jezikovni preklopnik je tehnična funkcija; dvojezični priročnik zahteva uredniško enakovrednost.
+## Zahtevnejši primer: popravek po navajanju
 
-Vsaka jezikovna različica potrebuje:
+Naslednji scenarij je izmišljen; številke izdaj in podatki ne opisujejo že objavljene izdaje priročnika. Predpostavimo, da hipotetična izdaja `1.0.0` učno tabelo opisuje kot zbirko 40 različnih zgodovinskih pisem. Izkaže se, da štiri vrstice podvajajo predstavitve istih dokumentov, zato zbirka vsebuje 36 različnih pisem. Vaja uči štetje virov: njen sklep se spremeni, čeprav zgradba poglavja ostane uporabna.
 
-- idiomatično terminologijo in ne mehanske zamenjave besed;
-- usklajene učne cilje in primere;
-- način označevanja manjkajočih ali zastarelih prevodov;
-- recenzente, usposobljene za ustrezni jezik in področje;
-- provenienco in datum prevoda;
-- politiko za spremembe, ki prizadenejo samo en jezik.
+Urednik ponovi preverjanje, določi prizadete odlomke in tabele ter pregleda oba jezika in datoteke za prenos. Primerjavo ponovno izračuna; popravek pove, da je bil imenovalec napačen. V tem scenariju izbere hipotetično manjšo izdajo `1.1.0`, ker vsebinsko popravljeno učno gradivo ostaja znotraj obstoječe zgradbe. Če bi popravek ovrgel metodo poglavja, bi lahko zahteval večjo recenzirano izdajo. Številka dokumentira presojo, ne nadomešča ugotovitve.
 
-Različici ne potrebujeta stavčne istovetnosti. Podpirati morata enakovredno učenje in jasno pokazati razlike. Privzeti jezik lahko začasno ponudi nadomestne strani, manjkajoči prevodi pa se ne smejo predstavljati kot popolna pokritost.
+| Mesto v publikaciji | Vidni zapis v tem scenariju |
+| --- | --- |
+| Izvorna sprememba | Pregledana dvojezična sprememba pojasni merilo podvajanja, zamenja 40 s 36 in popravi sklep. |
+| Dnevnik sprememb | Vnos določi prizadeti razdelek `1.0.0`, vsebinski popravek in načrtovano `1.1.0`. |
+| Obvestilo o popravku oziroma erratum | Datirano obvestilo navede napako, dokazilo, posledico in nadomestitev; identifikator povezuje zapise. |
+| Opombe ob izdaji | `1.1.0` poveže erratum ter opiše pregled, znova ustvarjene tabele in dvojezične spremembe. |
+| Stabilna izdaja | Datoteke `1.0.0` ohranijo identiteto; pristajalna stran z metapodatki vidno poveže erratum in naslednjo izdajo. Nove datoteke pripadajo `1.1.0`. |
+| Poznejši navedek | Analiza s popravljenim številom navede `1.1.0` in razdelek; zgodovina napake navede `1.0.0` skupaj z erratumom. |
 
-## Upravljanje prepreči odvisnost od ene osebe
+Prejemniki prenesenih kopij se morda nikoli ne vrnejo na spletno mesto. Kadar je sorazmerno, po ustaljenih poteh obvestite znane izvajalce predmetov in ustanove za hrambo. Obvestilo naj posledice pojasni brez zahteve, da bralec razume razliko med revizijama Git. [Postopek popravljanja objavljenega vira](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/publishing/correct-a-published-digital-resource-without-erasing-history.md) to zaporedje pretvori v zapis, primeren za presojo.
 
-Živi vir ne sme biti odvisen od spomina enega človeka. Zapišite:
+## Popravek, umik in meje javne zgodovine
 
-- vloge urednika in vzdrževalca;
-- kdo potrdi vsebinske, prevodne in tehnične spremembe;
-- intervale pregleda strani, odvisnih od programske opreme;
-- oznake za preverjene, zastarele ali arhivirane postopke;
-- postopke popravkov in umikov;
-- načrt nasledstva in lastništva repozitorija;
-- obravnavo navzkrižij interesov.
+Popravek odpravi določeno napako. Erratum je vidno obvestilo o njej; poimenovanje naj sledi založnikovim pravilom. Oznaka zastaranja opozarja, da sicer berljivega postopka ne priporočamo več, denimo zaradi spremenjene storitve. Nadomestitev določi naslednika, ne da bi vse prejšnje trditve razglasila za napačne. Umik prek uredniške obravnave prekliče zanašanje na resno nezanesljivo ali drugače nesprejemljivo delo. Teh dejanj ne združujte pod nejasno oznako »posodobljeno«. COPE poudarja namen in vidnost obvestil o umiku; smernice za revije je treba premišljeno prilagoditi digitalnemu predmetu.[^living-cope]
 
-Upravljanje odprtost naredi trajno. Založniku tudi omogoči priznanje spreminjajočega se projekta, ne da bi domneval, da je bil vsak commit formalno recenziran.
+Ohranjanje navedenih različic je običajno znanstveno pravilo, ne zahteva po neskončnem javnem izpostavljanju zasebnih podatkov. Če objavite prepoznavne intervjujske podatke ali skrivno poverilnico, po pristojnem institucionalnem postopku ustavite nadaljnje razširjanje. Neškodljivo obvestilo lahko ohrani dejstvo, datum in obseg odstranitve brez ponovitve sporne vsebine. Zgodovina, predpomnilniki, depoziti in zrcala utegnejo zahtevati usklajeno omejitev ali odstranitev; nov commit ne zadostuje. Nujna dokazila ohranite le pod odobrenim omejenim dostopom in po veljavnih pravilih hrambe. Ne obljubljajte popolnega izbrisa tujih kopij ali pravnega izida brez institucionalnega nasveta.
 
-## Postopek izdaje
+## Pravice in upravljanje so založniška infrastruktura
 
-Formalna izdaja lahko sledi tem korakom:
+Izvirno besedilo priročnika uporablja CC BY 4.0, izvirna koda pa MIT. Za tuje gradivo veljajo njegovi pogoji. Ločite odprto licencirano razlago od reproducirane slike, navedka ali pridobljene podatkovne zbirke. CC BY 4.0 zahteva pripis zaslug in označitev sprememb; ne razrešuje vseh vprašanj zasebnosti, osebnostnih ali moralnih pravic. Izjeme označite ob predmetu, ne le v oddaljeni datoteki repozitorija.[^living-cc]
 
-1. razglasimo vsebinski zamrznitveni rok in kandidata za izdajo;
-2. izvedemo samodejne preizkuse povezav, strukture in kode;
-3. zaključimo strokovno in didaktično recenzijo stabilnega jedra;
-4. vnesemo zahtevane spremembe in zabeležimo potrditev recenzentov;
-5. opravimo jezikovni in dostopnostni pregled;
-6. označimo izvor ter zgradimo spletni in PDF-izdelek;
-7. izdajo arhiviramo in pridobimo ali registriramo trajni identifikator;
-8. objavimo podatke za navajanje in opombe ob izdaji;
-9. živo izdajo ponovno odpremo za razvoj.
+Morebitna neizključna založniška pogodba naj ohrani dogovorjeno možnost vzdrževanja in razširjanja odprte izdaje ter določi obveznosti glede produkcije, depozita in popravkov. Besedilo zahteva dogovor; poglavje ne potrjuje podpisane pogodbe in ne daje pravnega soglasja. Založniško priznanje, gostovanje, imetništvo pravic in skrbništvo repozitorija lahko pripadajo različnim stranem. Določite, kdo odloča o strokovnih sporih, pregleduje prevode, obravnava nujne odstranitve in potrjuje izdaje, ter kdo ga nadomesti ob navzkrižju interesov.
 
-Tako ohranimo odgovornost in zagon.
+## Vzdrževanje, dolgoročna hramba in nasledstvo
 
-## Razdelan primer: študentski prispevek
+Delujoče spletno mesto ustvarja obveznosti: odvisnosti se starajo, povezave selijo, poverilnice potečejo, primeri pa prenehajo delovati po opisu. Tehnični dolg poleg kode zajema nedokumentirane uredniške izjeme in razhajanje prevodov. Prednost določite po vplivu na dokazila, dostop in varnost. Spremenjen vmesnik lahko zahteva datirano opozorilo in preverjeno alternativo. Pri nedelujočem zgodovinskem viru morate ugotoviti, ali nadomestni naslov še podpira trditev; uspešen odziv HTTP tega ne potrdi.
 
-Študentka predlaga postopek za kartiranje krajev v prepisih ustne zgodovine.
+Hramba zahteva več kot dodatno povezavo za prenos. Z repozitorijem se dogovorite, katere datoteke sprejme in ohranja, kdo vzdržuje metapodatke na pristajalni strani in kako obravnava nove izdaje. Po prenosu preverite vrednosti SHA-256 ter preizkusite ponovni prevzem. Kontrolna vsota pomaga zaznati spremembo bajtov glede na zaupanja vredno izhodišče, ne potrdi pa pravilnosti interpretacije. Kjer pravice dopuščajo, poleg bralnih kopij ohranite izvor in pomembne odvisnosti. Manjkajoče zunanje sestavine navedite kot omejitev.[^living-fixity]
 
-- Odda majhen anonimiziran vzorec, metodo, izhod in omejitve.
-- Kolega postopek ponovi.
-- Urednik pregleda zasebnost, geokodirno negotovost in terminologijo.
-- Prispevek je popravljen in avtorica navedena.
-- V živo izdajo vstopi kot pregledan postopek.
-- Ob naslednji manjši izdaji postane del stabilne arhivirane različice.
+Migracija formata ustvari novo dokumentirano pretvorbo. Določite, kaj mora preživeti: kodiranje, cilji opomb, naslovi, odnosi v tabelah in lokatorji virov so lahko pomembnejši od enakih prelomov vrstic. Primerjajte pretvorjeno kopijo z izvirnikom, zapišite okolje, ohranite ustrezni izvirnik in izračunajte nove kontrolne vsote. Digital Preservation Coalition pri izbiri formatov in migracije poudarja bistvene lastnosti in preverjanje; končnica datoteke ni jamstvo.[^living-formats]
 
-Študentsko delo postane resnično znanstveno komuniciranje in ne zavržena domača naloga, uredniški postopek pa ščiti bralce in udeležence.
+Dostopnost se nadaljuje po začetnem pregledu. Tipkovniški dostop, zaporedje naslovov, besedilne alternative, jezikovni metapodatki in berljive tabele se lahko ob spremembi gradiva ali orodij poslabšajo. WCAG 2.2 ponuja preverljiva merila, vendar avtomatizacija pokrije le del presoje. Navedite pregledane strani, formate, merila, podporne tehnologije in znane izjeme. Dostopni HTML ne dokazuje pravilnega bralnega zaporedja v ustvarjenem PDF.[^living-wcag]
+
+Odhod ustanovnega urednika naj sproži postopek, ne iskanja po zasebni pošti. Določite organizacijskega nosilca, uredniškega naslednika in tehnični stik. Dokumentirajte nadzor nad repozitorijem in domeno, podaljševanja, odvisnosti, sklice na zaščitene poverilnice, varnostne kopije in preizkus obnove. Gesel ne objavljajte. Naslednik naj pred prenosom poskusno izvede gradnjo in popravek. Če ni naslednika ali sredstev, zaprite sprejem prispevkov, navedite konec vzdrževanja, oddajte zadnjo ustrezno izdajo v hrambo in označite nepodprte postopke. Jasno zaključen vir je lahko uporabnejši od navidez živega mesta brez odgovornega vzdrževalca. [Postopek načrtovanja vzdrževanja in nasledstva](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/publishing/prepare-a-maintenance-and-succession-plan.md) omogoča preverjanje teh obveznosti.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Sprehodite se po ekosistemu"
     **Preizkusite postopek v praksi**
 
-    - [Kako izberem sistem in citatni slog ter pregledam navedbe?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/reference-management/choose-apply-and-audit-a-citation-style/)
-    - [How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/) *(angleška nadomestna stran)*
-    - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/write-a-readme-for-a-humanities-dataset/) *(angleška nadomestna stran)*
-    - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/publishing/package-a-corpus-with-fair-metadata/) *(angleška nadomestna stran)*
-    - [How do I version-control a termbase with Git?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/terminology/version-control-a-termbase-with-git/) *(angleška nadomestna stran)*
-    - [Kako z Gitom sledim manjšemu projektu?](https://damjan-popic.github.io/digital-humanities-handbook/sl/workflows/foundations/track-a-small-project-with-git/)
+    - [Kako pripravite oštevilčeno znanstveno izdajo?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/publishing/create-a-versioned-scholarly-release.md)
+    - [Kako popravite objavljeni digitalni vir, ne da bi izbrisali njegovo zgodovino?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/publishing/correct-a-published-digital-resource-without-erasing-history.md)
+    - [Kako pripravite načrt vzdrževanja in nasledstva?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/publishing/prepare-a-maintenance-and-succession-plan.md)
+    - [Kako izberem sistem in citatni slog ter pregledam navedbe?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/reference-management/choose-apply-and-audit-a-citation-style.md)
+    - [How do I automate a linguistic workflow with a Makefile?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/automation/automate-a-linguistic-workflow-with-a-makefile.md) *(angleška nadomestna stran)*
+    - [How do I write a README for a humanities dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/write-a-readme-for-a-humanities-dataset.md) *(angleška nadomestna stran)*
+    - [How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md) *(angleška nadomestna stran)*
+    - [How do I version-control a termbase with Git?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/terminology/version-control-a-termbase-with-git.md) *(angleška nadomestna stran)*
+    - [Kako z Gitom sledim manjšemu projektu?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/foundations/track-a-small-project-with-git.md)
 
     **Oglejte si študijo primera**
 
-    - [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/jezikovni-svetovalec/) *(angleška nadomestna stran)*
-    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/sl/case-studies/ladakh-relations/) *(angleška nadomestna stran)*
+    - [Source-grounded Slovenian language advisor](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/jezikovni-svetovalec.md) *(angleška nadomestna stran)*
+    - [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md) *(angleška nadomestna stran)*
 <!-- handbook-ecosystem:end -->
 
 ## Vaja
 
-Za en digitalni učni vir pripravite založniško arhitekturo. Določite živi izvor, stabilno izdajo, arhiv, navedek, uredniške vloge, pot prispevanja, prevodno politiko in merila za novo večjo izdajo.
+V paru popišite šest predmetov majhnega učnega projekta: jezikovni različici poglavja, postopek, podatkovno zbirko, ustvarjeno bralno kopijo in navodila za gradnjo. Pripravite zapise v treh povezanih postopkih. Identifikatorje in kontrolne vsote pustite izrecno v čakanju, dokler jih ne pridobite; javne izdaje ne ustvarjajte. Razporedite realistični mesečni okvir dveh ur vzdrževanja in pojasnite, česa z njim ne morete zagotoviti.
+
+Izmenjajte zapise. Eden prevzame vlogo bralca s preneseno starejšo izdajo, drugi uvede napako podvojenih pisem ali nenamerno razkritje osebnih podatkov. Sledite odkritju, pregledu, obvestilu, nadomestitvi in navedku. Preverite, ali ima vsaka obljubljena datoteka odgovorno osebo, vsaka recenzijska trditev opredeljen obseg in zasebnostni primer rešitev brez ponovnega razkritja. Oddajte popravljene zapise in utemeljitev sporne odločitve. Presojajte dokaze in argumentacijo, ne pripravljenosti na objavo.
 
 ## Refleksija
 
-- Kaj natančno je bilo recenzirano: vsaka stran, jedrna poglavja ali ena izdaja?
-- Kako bo bralec vedel, da je postopek, odvisen od programske opreme, še aktualen?
-- Kdo je lastnik in vzdrževalec projekta, če prvotni urednik odide?
+- Katere založniške trditve izhajajo iz datotek in katere zahtevajo institucionalne zaveze?
+- Kdaj odgovornost do zgodovinskega zapisa zahteva omejitev javnega dostopa?
+- Kaj bi slovenski bralec izgubil, če bi objavili le angleški popravek?
+- Katera naloga bi ostala brez nosilca, če vzdrževalec jutri odide?
 
 ## Povzetek
 
-Živi priročnik je lahko odprt in akademsko navedljiv, kadar jasno ločimo razvoj in objavo. Git podpira zgodovino in prispevke, spletno mesto branje, označene izdaje recenzijo, arhiv pa ohranjanje. Verzioniranje, upravljanje, dvojezična uredniška politika in izrecni status recenzije neprestano spreminjanje iz slabosti spremenijo v dokumentirano znanstveno metodo.
+Živa znanstvena publikacija omogoča preverjanje svoje spreminjajoče se avtoritete. Obseg recenzije, določljive izdaje, sled popravkov in skrbno navajanje povezujejo dokazila skozi čas. Upravljanje, soglasje, pravice, dostopnost in preverjena hramba omogočajo uporabo teh zapisov. Bralec naj ugotovi, kaj je bilo objavljeno, kaj in zakaj se je spremenilo ter kdo še odgovarja za skrb za publikacijo.
+
+## Nadaljnje branje
+
+- UNESCO. 2019. [Recommendation on Open Educational Resources (OER)](https://www.unesco.org/en/legal-affairs/recommendation-open-educational-resources-oer). Določila o vzdržnosti primerjajte s proračunom publikacije.
+- Digital Preservation Coalition. [Fixity and checksums](https://www.dpconline.org/handbook/technical-solutions-and-tools/fixity-and-checksums) in [File formats and standards](https://www.dpconline.org/handbook/technical-solutions-and-tools/file-formats-and-standards), *Digital Preservation Handbook*. Opredelite odgovornost za preverjanje in migracijo.
+- COPE. [Retraction guidelines](https://doi.org/10.24318/cope.2019.1.4), različica 3, 2025. Ločite nezanesljive ugotovitve od pregledno popravljene omejene napake.
+- GitHub. [Immutable releases](https://docs.github.com/en/code-security/concepts/supply-chain-security/immutable-releases). Preverite, katere predmete varuje zaščita.
+- W3C. [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/). Avtomatizacijo povežite z ročno presojo.
+
+Zunanjo dokumentacijo spodaj smo preverili **7. septembra 2026**. Aktualne smernice COPE smo preverili v indeksirani uradni vsebini; neposredni prevzem strani ni bil na voljo. Pred dejansko izdajo znova preverite delovanje storitev in institucionalne dogovore.
+
+[^living-oer]: UNESCO, [Recommendation on Open Educational Resources (OER)](https://www.unesco.org/en/legal-affairs/recommendation-open-educational-resources-oer), sprejeto 25. novembra 2019.
+[^living-git]: Scott Chacon in Ben Straub, *Pro Git*, druga izdaja, [Git Basics—Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
+[^living-github]: GitHub Docs, [About releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) in [Immutable releases](https://docs.github.com/en/code-security/concepts/supply-chain-security/immutable-releases).
+[^living-zenodo]: Zenodo, [Digital Object Identifier (DOI)](https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/).
+[^living-semver]: Tom Preston-Werner, [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html).
+[^living-credit]: NISO, [CRediT—Contributor Role Taxonomy](https://credit.niso.org/).
+[^living-cope]: COPE, [Retraction guidelines](https://doi.org/10.24318/cope.2019.1.4), različica 3, avgust 2025.
+[^living-cc]: Creative Commons, [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
+[^living-fixity]: Digital Preservation Coalition, [Fixity and checksums](https://www.dpconline.org/handbook/technical-solutions-and-tools/fixity-and-checksums).
+[^living-formats]: Digital Preservation Coalition, [File formats and standards](https://www.dpconline.org/handbook/technical-solutions-and-tools/file-formats-and-standards).
+[^living-wcag]: W3C, [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/).
 
 ---
 
@@ -4545,13 +4779,13 @@ Pot je namenjena študentkam in študentom prvega letnika ter netehničnih human
 
 Predmeta ne skrčite na menije programske opreme. Vmesniki se spreminjajo. Trajni izid je sposobnost opredeliti vprašanje, ločiti dokazno gradivo od interpretacije, ohraniti sled virov in podatkov, preveriti rezultat, revidirati trditev ter sporočiti omejitve.
 
-Začnite z vzporedno [potjo temeljev znanstvenega dela](../foundations/scholarly-work.md), ki v en raziskovalni cikel poveže pisanje, Zotero, Word ali LibreOffice Writer in Excel.
+Začnite z vzporedno [potjo temeljev znanstvenega dela](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/foundations/scholarly-work.md), ki v en raziskovalni cikel poveže pisanje, Zotero, Word ali LibreOffice Writer in Excel.
 
 ## Predznanje in dostop
 
 Programerskega predznanja ne potrebujete. Znati morate uporabljati spletni brskalnik, ustvariti in urediti datoteke ter pripraviti osnovno pisno nalogo.
 
-Za uspešen zaključek ne potrebujete WSL, lupine Bash, Gita ali Pythona. Ocenjevano pot lahko opravite z grafičnimi orodji. Kjer nadzor različic ni del pouka, lahko oddate stabilni ZIP ali datirani posnetek. [Pot tehničnega delovnega okolja](../foundations/technical-workspace.md) je neobvezna razširitev in ne skriti predpogoj.
+Za uspešen zaključek ne potrebujete WSL, lupine Bash, Gita ali Pythona. Ocenjevano pot lahko opravite z grafičnimi orodji. Kjer nadzor različic ni del pouka, lahko oddate stabilni ZIP ali datirani posnetek. [Pot tehničnega delovnega okolja](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/foundations/technical-workspace.md) je neobvezna razširitev in ne skriti predpogoj.
 
 Ker se Word, LibreOffice, Zotero, Excel in Power Query razlikujejo po platformah in izdajah, naj izvajalci pred vsako nalogo objavijo preizkušeno platformo in enakovredno nadomestno pot. Učni izid je dokumentirana znanstvena operacija, ne ponovitev ene postavitve traku.
 
@@ -4575,33 +4809,33 @@ Po končani poti boste znali:
 
 ### 1. Digitalna pismenost v zgodovinskem in družbenem kontekstu
 
-Preberite [Kaj je digitalna humanistika?](../chapters/what-is-digital-humanities.md) in izbrane dele [Zgodovin in genealogij digitalne humanistike](../chapters/history-of-digital-humanities.md). Narišite pot znane naloge od odkritja vira do oddaje. Označite, kje na vidnost vplivajo ustanova, format, platforma, vmesnik ali podedovana konvencija.
+Preberite [Kaj je digitalna humanistika?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/what-is-digital-humanities.md) in izbrane dele [Zgodovin in genealogij digitalne humanistike](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/history-of-digital-humanities.md). Narišite pot znane naloge od odkritja vira do oddaje. Označite, kje na vidnost vplivajo ustanova, format, platforma, vmesnik ali podedovana konvencija.
 
 **Izhod:** enostranski zemljevid postopka z enim vprašanjem o dostopu ali moči.
 
 ### 2. Vprašanja, modeli, dokazno gradivo in raziskovalna zasnova
 
-Uporabite poglavja [Modeli, dokazno gradivo in interpretacija](../chapters/models-evidence-interpretation.md), [Infrastrukture digitalne humanistike](../chapters/critical-infrastructures.md) ter [Od vprašanja do metode](../chapters/research-design.md). Široko temo spremenite v omejeno raziskovalno vprašanje ter določite predmet, obseg, možno dokazno gradivo, začasni model, drugačno razlago in eno infrastrukturno omejitev.
+Uporabite poglavja [Modeli, dokazno gradivo in interpretacija](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/models-evidence-interpretation.md), [Infrastrukture digitalne humanistike](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/critical-infrastructures.md) ter [Od vprašanja do metode](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/research-design.md). Široko temo spremenite v omejeno raziskovalno vprašanje ter določite predmet, obseg, možno dokazno gradivo, začasni model, drugačno razlago in eno infrastrukturno omejitev.
 
-Prenesite [ZIP učnega gradiva Arhivsko trenje](../../assets/downloads/archival-friction-v1.zip) in z njim na videz smiselno vprašanje preizkusite ob dejanskem vzorčnem okviru, pravicah, datumih in enotah zapisa; [izvorno drevo paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) ostaja na voljo za pregled. Trditev zožite ali preoblikujte, kadar je dvostranski vir ne more podpreti.
+Prenesite [ZIP učnega gradiva Arhivsko trenje](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/archival-friction-v1.zip) in z njim na videz smiselno vprašanje preizkusite ob dejanskem vzorčnem okviru, pravicah, datumih in enotah zapisa; [izvorno drevo paketa](https://github.com/damjan-popic/digital-humanities-handbook/tree/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/teaching-data/archival-friction) ostaja na voljo za pregled. Trditev zožite ali preoblikujte, kadar je dvostranski vir ne more podpreti.
 
 **Izhod:** oris vprašanja in dokaznega gradiva, ki loči opis, dokaz, interpretacijo in priporočilo.
 
 ### 3. Znanstveno pisanje in strukturirani dokumenti
 
-Najprej [raziskovalno vprašanje pretvorite v načrt znanstvenega besedila](../workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md): poimenujte občinstvo in žanr, napišite delovno trditev, orišite razdelke, povežite vire s trditvami in revidirajte odstavek. Nato [daljši dokument strukturirajte s slogi, napisi in navzkrižnimi sklici](../workflows/scholarly-writing/structure-a-long-document-with-styles-captions-and-cross-references.md). Uporabite naslovne sloge, samodejno kazalo, polja, opombe, komentarje, sledenje spremembam in smiselno nadomestno besedilo. Začnite [dnevnik revizije](../workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md).
+Najprej [raziskovalno vprašanje pretvorite v načrt znanstvenega besedila](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md): poimenujte občinstvo in žanr, napišite delovno trditev, orišite razdelke, povežite vire s trditvami in revidirajte odstavek. Nato [daljši dokument strukturirajte s slogi, napisi in navzkrižnimi sklici](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/scholarly-writing/structure-a-long-document-with-styles-captions-and-cross-references.md). Uporabite naslovne sloge, samodejno kazalo, polja, opombe, komentarje, sledenje spremembam in smiselno nadomestno besedilo. Začnite [dnevnik revizije](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md).
 
 **Izhod:** enostranski načrt argumenta, tabela povezav med viri in trditvami, revidirani odstavek ter strukturirani osnutek `.docx` ali `.odt`.
 
 ### 4. Iskanje, vrednotenje virov in slovenski ekosistem
 
-Pripravite strategijo s pojmi, sopomenkami, jezikovnimi različicami, Boolovimi povezavami in filtri. Primerjajte knjižnični katalog, bibliografsko zbirko, institucionalni repozitorij in splošni iskalnik. Predstavite ustrezen vir iz poglavja [Digitalna humanistika v Sloveniji](../chapters/digital-humanities-in-slovenia.md). Zabeležite iskalne nize, datume, merila izbora, izločitve in pogoje dostopa.
+Pripravite strategijo s pojmi, sopomenkami, jezikovnimi različicami, Boolovimi povezavami in filtri. Primerjajte knjižnični katalog, bibliografsko zbirko, institucionalni repozitorij in splošni iskalnik. Predstavite ustrezen vir iz poglavja [Digitalna humanistika v Sloveniji](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/digital-humanities-in-slovenia.md). Zabeležite iskalne nize, datume, merila izbora, izločitve in pogoje dostopa.
 
 **Izhod:** dnevnik iskanja in izbora iz treh različnih okolij virov.
 
 ### 5. Zotero, sistemi in slogi citiranja ter upravljanje bibliografije
 
-Opravite vse tri postopke. [Ustvarite in očistite manjšo knjižnico Zotero](../workflows/reference-management/build-and-clean-a-zotero-library.md), pri čemer uporabite identifikator, katalog, Connector in ročni vnos. [Določite zahtevani sistem citiranja, izberite citatni slog in preglejte izpis](../workflows/reference-management/choose-apply-and-audit-a-citation-style.md): zabeležite avtoritativna navodila za citiranje in njihovo različico ter preizkusite pet vrst virov. Nato [z Zoterom vstavite navedbe v Word ali LibreOffice](../workflows/reference-management/cite-with-zotero-in-word-or-libreoffice.md), dodajte ustrezne lokatorje, vstavite navedbo z več viri, ustvarite in osvežite bibliografijo ter metapodatke popravite v Zoteru.
+Opravite vse tri postopke. [Ustvarite in očistite manjšo knjižnico Zotero](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/reference-management/build-and-clean-a-zotero-library.md), pri čemer uporabite identifikator, katalog, Connector in ročni vnos. [Določite zahtevani sistem citiranja, izberite citatni slog in preglejte izpis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/reference-management/choose-apply-and-audit-a-citation-style.md): zabeležite avtoritativna navodila za citiranje in njihovo različico ter preizkusite pet vrst virov. Nato [z Zoterom vstavite navedbe v Word ali LibreOffice](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/reference-management/cite-with-zotero-in-word-or-libreoffice.md), dodajte ustrezne lokatorje, vstavite navedbo z več viri, ustvarite in osvežite bibliografijo ter metapodatke popravite v Zoteru.
 
 Pojasnite en primer vira ali metapodatkov, ki ga slog ne obravnava jasno. Istega dokumenta ne upravljajte z Zoterom in Wordovim vgrajenim upravljalnikom. Dokument z aktivnimi polji Zotero vedno ohranite kot glavni izvod in upoštevajte oddajna navodila revije, fakultete ali založnika. Če morate oddati statično besedilo, odstranite povezave samo v posebej poimenovani in varnostno kopirani končni oddajni kopiji, nikoli pa v delovnem dokumentu ali zgolj zaradi popravljanja oblikovanja.
 
@@ -4609,59 +4843,59 @@ Pojasnite en primer vira ali metapodatkov, ki ga slog ne obravnava jasno. Istega
 
 ### 6. Datoteke, formati, mape, README in varnostna kopija
 
-Ustvarite projektno mapo s `sources`, `notes`, `data/raw`, `data/cleaned`, `outputs`, `validation` in `known-problems`. Primerjajte `.docx`, `.odt`, `.pdf`, `.txt`, `.csv`, `.xlsx`, sliko, RIS in ZIP. Ob poglavju [Podatki, metapodatki in modeli](../chapters/data-metadata-models.md) napišite README, pravilo poimenovanja, pravilo varnostnega kopiranja in opombo o pravicah.
+Ustvarite projektno mapo s `sources`, `notes`, `data/raw`, `data/cleaned`, `outputs`, `validation` in `known-problems`. Primerjajte `.docx`, `.odt`, `.pdf`, `.txt`, `.csv`, `.xlsx`, sliko, RIS in ZIP. Ob poglavju [Podatki, metapodatki in modeli](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/data-metadata-models.md) napišite README, pravilo poimenovanja, pravilo varnostnega kopiranja in opombo o pravicah.
 
-Za ocenjevanje zadostuje stabilni ZIP ali datirani posnetek. Če izberete neobvezno tehnično razširitev, lahko za Git in ukazno vrstico uporabite [pot tehničnega delovnega okolja](../foundations/technical-workspace.md), vendar ju predmet ne zahteva.
+Za ocenjevanje zadostuje stabilni ZIP ali datirani posnetek. Če izberete neobvezno tehnično razširitev, lahko za Git in ukazno vrstico uporabite [pot tehničnega delovnega okolja](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/foundations/technical-workspace.md), vendar ju predmet ne zahteva.
 
 **Izhod:** obnovljiv projektni paket z jasno ločenima surovo in delovno plastjo.
 
 ### 7. Struktura in čiščenje podatkov v Excelu
 
-Pred urejanjem določite pomen vrstice in spremenljivke. Uporabite postopek za [pretvorbo neurejenih zapiskov v podatkovni nabor](../workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md), [uskladite nasprotujoče si metapodatke in ohranite negotovost](../workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md), nato pa [manjši nabor uvozite in očistite v Excelu](../workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md). Preglejte ločilo, kodiranje, podatkovne tipe in območne nastavitve (angl. *locale*), ki določajo razlago decimalnih znamenj in datumov. Identifikatorje z začetnimi ničlami zaščitite kot besedilo; opredelite manjkajoče vrednosti; uporabite Excelovo tabelo, filtre, zamrznjene glave, smiselne formule in validacijski seznam. Ohranite izvorno, surovo, vmesno, modelirano in odločitveno plast ter register nerešenih primerov.
+Pred urejanjem določite pomen vrstice in spremenljivke. Uporabite postopek za [pretvorbo neurejenih zapiskov v podatkovni nabor](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md), [uskladite nasprotujoče si metapodatke in ohranite negotovost](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md), nato pa [manjši nabor uvozite in očistite v Excelu](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md). Preglejte ločilo, kodiranje, podatkovne tipe in območne nastavitve (angl. *locale*), ki določajo razlago decimalnih znamenj in datumov. Identifikatorje z začetnimi ničlami zaščitite kot besedilo; opredelite manjkajoče vrednosti; uporabite Excelovo tabelo, filtre, zamrznjene glave, smiselne formule in validacijski seznam. Ohranite izvorno, surovo, vmesno, modelirano in odločitveno plast ter register nerešenih primerov.
 
 **Izhod:** surova in očiščena datoteka, podatkovni slovar, validacijski seznam, dnevnik pretvorb in ročni pregled petih vrstic.
 
 ### 8. Ponovljiva analiza preglednic in vizualno sporočanje
 
-[Ponovljive pretvorbe zabeležite v Excelovem Power Queryju](../workflows/data-wrangling/make-repeatable-transformations-with-excel-power-query.md): stolpce preimenujte in jim določite podatkovne tipe, besedilo obrežite, očistite in razdelite, filtrirajte po pravilu, zamenjajte dokumentirane kategorije ter združite šifrant. Popolnoma enake vrstice lahko odstranite neposredno; kadar se kandidati z istim ključem razlikujejo, uporabite izrecno prednostno, skupinsko-indeksno ali drugo ponovljivo pravilo za ohranitev oziroma izločitev in ne zaupajte vidnemu vrstnemu redu. Po spremembi vira osvežite rezultat, preverite ohranjene identifikatorje in število vrstic, preglejte *Applied Steps* ter diagnosticirajte pokvarjeni korak. Če ustvarjanje Power Queryja ni na voljo, opravite dokumentirano nadomestno vajo, korake pa naj enkrat požene oseba na podprti platformi.
+[Ponovljive pretvorbe zabeležite v Excelovem Power Queryju](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/make-repeatable-transformations-with-excel-power-query.md): stolpce preimenujte in jim določite podatkovne tipe, besedilo obrežite, očistite in razdelite, filtrirajte po pravilu, zamenjajte dokumentirane kategorije ter združite šifrant. Popolnoma enake vrstice lahko odstranite neposredno; kadar se kandidati z istim ključem razlikujejo, uporabite izrecno prednostno, skupinsko-indeksno ali drugo ponovljivo pravilo za ohranitev oziroma izločitev in ne zaupajte vidnemu vrstnemu redu. Po spremembi vira osvežite rezultat, preverite ohranjene identifikatorje in število vrstic, preglejte *Applied Steps* ter diagnosticirajte pokvarjeni korak. Če ustvarjanje Power Queryja ni na voljo, opravite dokumentirano nadomestno vajo, korake pa naj enkrat požene oseba na podprti platformi.
 
-Nato [očiščene podatke povzemite z vrtilno tabelo in preglednim grafikonom](../workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md). Ločite število vrstic, različne dokumente, vsoto in povprečje; prikažite manjkajoče kategorije in imenovalec; osvežite ter ročno preverite podmnožico.
+Nato [očiščene podatke povzemite z vrtilno tabelo in preglednim grafikonom](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md). Ločite število vrstic, različne dokumente, vsoto in povprečje; prikažite manjkajoče kategorije in imenovalec; osvežite ter ročno preverite podmnožico.
 
 **Izhod:** ponovljiv postopek od surovih do očiščenih podatkov, osveženi rezultat, preverjena vrtilna tabela, en pregledno oblikovan grafikon brez odvečnih učinkov, popoln napis, nadomestno besedilo in interpretacija z omejitvijo.
 
 ### 9. Dokumenti, OCR in osnove korpusov
 
-Preberite [Besedila, korpusi in OCR](../chapters/texts-corpora-ocr.md), nato [ovrednotite OCR ali HTR na referenčnem vzorcu](../workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md). Posnetek primerjajte s strojnim besedilom, določite pravila prepisovanja in vzorčenja, izračunajte CER in WER, razvrstite napake, ki spreminjajo imena, datume, zanikanje ali meje besed, ter na obeh prepisih preizkusite eno iskanje ali štetje. Sliko, postavitev, ponudnikov prepis, referenčni prepis, normalizirano besedilo in anotacijo hranite ločeno.
+Preberite [Besedila, korpusi in OCR](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/texts-corpora-ocr.md), nato [ovrednotite OCR ali HTR na referenčnem vzorcu](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md). Posnetek primerjajte s strojnim besedilom, določite pravila prepisovanja in vzorčenja, izračunajte CER in WER, razvrstite napake, ki spreminjajo imena, datume, zanikanje ali meje besed, ter na obeh prepisih preizkusite eno iskanje ali štetje. Sliko, postavitev, ponudnikov prepis, referenčni prepis, normalizirano besedilo in anotacijo hranite ločeno.
 
 **Izhod:** vzorec vrednotenja OCR/HTR, pregled napak, primerjava nadaljnje naloge in opomba o vključevanju v korpus.
 
 ### 10. Iskanje, konkordance in frekvence
 
-Preberite uvod v [Analizo besedil](../chapters/text-analysis.md). V korpusnem vmesniku ali namiznem orodju poiščite besedo, preglejte konkordančni kontekst in primerjajte frekvenco pojavnic z dokumentno frekvenco. Zabeležite različico korpusa, poizvedbo, datum, filtre in imenovalec. Frekvenco obravnavajte kot opis, ki še zahteva interpretacijo.
+Preberite uvod v [Analizo besedil](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/text-analysis.md). V korpusnem vmesniku ali namiznem orodju poiščite besedo, preglejte konkordančni kontekst in primerjajte frekvenco pojavnic z dokumentno frekvenco. Zabeležite različico korpusa, poizvedbo, datum, filtre in imenovalec. Frekvenco obravnavajte kot opis, ki še zahteva interpretacijo.
 
 **Izhod:** dnevnik poizvedbe, preverjena frekvenčna tabela in omejen interpretativni odstavek.
 
 ### 11. Kraji in zemljevidi
 
-Preberite uvod v [GIS in prostorsko humanistiko](../chapters/gis-spatial-humanities.md). Izdelajte tabelo krajev z izvorno obliko, normaliziranim imenom, lokatorjem vira, koordinatami, virom koordinat in negotovostjo. Ustvarite osnovni zemljevid ali preglejte tabelo, kjer programska oprema ni na voljo. Negotove omembe naj ne postanejo lažna natančnost.
+Preberite uvod v [GIS in prostorsko humanistiko](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/gis-spatial-humanities.md). Izdelajte tabelo krajev z izvorno obliko, normaliziranim imenom, lokatorjem vira, koordinatami, virom koordinat in negotovostjo. Ustvarite osnovni zemljevid ali preglejte tabelo, kjer programska oprema ni na voljo. Negotove omembe naj ne postanejo lažna natančnost.
 
 **Izhod:** manjša tabela krajev, zemljevid ali enakovredno prostorsko preverjanje in opomba o negotovosti.
 
 ### 12. Generativna UI z dokaznim gradivom
 
-Preberite [UI, etika in ponovljivost](../chapters/ai-ethics-reproducibility.md). Odobrenemu sistemu posredujte samo dovoljeno gradivo, zahtevajte identifikatorje odlomkov ter preverite vsako dejansko trditev, navedek, lokator, bibliografski zapis in izračun. Zabeležite model, različico ali datum dostopa, poziv, posredovano gradivo, izhod, popravke in podatke, ki jih niste smeli deliti.
+Preberite [UI, etika in ponovljivost](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/ai-ethics-reproducibility.md). Odobrenemu sistemu posredujte samo dovoljeno gradivo, zahtevajte identifikatorje odlomkov ter preverite vsako dejansko trditev, navedek, lokator, bibliografski zapis in izračun. Zabeležite model, različico ali datum dostopa, poziv, posredovano gradivo, izhod, popravke in podatke, ki jih niste smeli deliti.
 
 **Izhod:** izjava o uporabi UI in pregled po trditvah. Če UI ne uporabite, oddajte kratko izjavo o neuporabi; uporaba ni obvezna.
 
 ### 13. Pravice, zasebnost, dostop, dostopnost in odgovorna objava
 
-Pri dosjeju uporabite [etični kontrolni seznam](../resources/ethics-checklist.md). Določite, kaj smete oddati, deliti z vrstniki, javno objaviti, omejiti, anonimizirati, posplošiti ali izpustiti. Preverite licence besedil, podatkov, slik, PDF-jev, programske opreme in priponk. Preglejte navigacijo po naslovih, glave tabel, smiselne povezave, nadomestna besedila, kontrast in nevidni opis vsake slike.
+Pri dosjeju uporabite [etični kontrolni seznam](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/resources/ethics-checklist.md). Določite, kaj smete oddati, deliti z vrstniki, javno objaviti, omejiti, anonimizirati, posplošiti ali izpustiti. Preverite licence besedil, podatkov, slik, PDF-jev, programske opreme in priponk. Preglejte navigacijo po naslovih, glave tabel, smiselne povezave, nadomestna besedila, kontrast in nevidni opis vsake slike.
 
 **Izhod:** register pravic, zasebnosti, dostopa in dostopnosti za vsako sestavino.
 
 ### 14. Ponovljivi znanstveni dosje, verzioniranje in medvrstniški pregled
 
-Končni dosje sestavite iz plasti virov, pisanja, citiranja, preglednic, preverjanja, znanih težav in pravic. Pri [reviziji](../workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md) ločeno preglejte vsebino, dokazno gradivo, zgradbo, odstavke, stavke in končni prelom. Ustvarite stabilni ZIP ali datirani posnetek ter zabeležite uporabljene različice priročnika in programskih navodil.
+Končni dosje sestavite iz plasti virov, pisanja, citiranja, preglednic, preverjanja, znanih težav in pravic. Pri [reviziji](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md) ločeno preglejte vsebino, dokazno gradivo, zgradbo, odstavke, stavke in končni prelom. Ustvarite stabilni ZIP ali datirani posnetek ter zabeležite uporabljene različice priročnika in programskih navodil.
 
 Dosjeje si izmenjajte. Brez ustne pomoči poiščite vire, preglejte pet zapisov Zotero ter zapis o uporabljenem sistemu, citatnem slogu in navodilih za citiranje, sledite od surovih podatkov do očiščenih, ročno preverite eno vrednost v tabeli ali sliki, določite glavno omejitev ter vrnite strukturirano recenzijo. Odziv vključite v revizijo in dnevnik.
 
@@ -4731,17 +4965,17 @@ Po končani poti bodo študenti znali:
 
 ## Preverjanje tehnične pripravljenosti
 
-To neoštevilčeno preverjanje opravite **pred prvim modulom**. Z njim vzpostavite skupno tehnično izhodišče; ne šteje kot petnajsti modul. Začnite na vozlišču [Tehnično delovno okolje](../foundations/technical-workspace.md), kjer so razločeni terminal, lupina, WSL, Bash, Git, Python in virtualno okolje.
+To neoštevilčeno preverjanje opravite **pred prvim modulom**. Z njim vzpostavite skupno tehnično izhodišče; ne šteje kot petnajsti modul. Začnite na vozlišču [Tehnično delovno okolje](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/foundations/technical-workspace.md), kjer so razločeni terminal, lupina, WSL, Bash, Git, Python in virtualno okolje.
 
 | Stopnja | Dejavnost in dokaz |
 | --- | --- |
-| Samo Windows | [Namestite in preverite WSL 2 z Ubuntujem](../workflows/foundations/install-wsl-and-ubuntu-on-windows.md) ter zabeležite `wsl --list --verbose`. Če uporabljate macOS ali Linux, zapišite, zakaj ste WSL preskočili. |
-| Vsi | Določite terminal in lupino, nato pa se [z lupino Bash premikajte po zavržljivi mapi](../workflows/foundations/navigate-files-and-directories-with-bash.md). |
-| Vsi | [Namestite in nastavite Git](../workflows/foundations/install-and-configure-git.md), vključno z odločitvijo o zasebnosti e-poštnega naslova v potrditvah. |
-| Vsi | [Klonirajte manjši začetni repozitorij, ki ga zagotovi izvajalec](../workflows/foundations/clone-run-change-and-commit-a-handbook-project.md). Javni repozitorij GitHub ni potreben. |
-| Vsi | [Ustvarite in aktivirajte virtualno okolje Python 3.12](../workflows/nlp/create-a-python-312-virtual-environment.md). |
-| Vsi | Z `python -m pip install -r requirements.txt` [namestite pregledane zahteve](../workflows/nlp/install-python-packages-with-pip.md). |
-| Vsi | [Zaženite kratko skripto](../workflows/nlp/run-a-python-script-from-terminal.md), preglejte rezultat, v veji spremenite eno neškodljivo oznako, preglejte razliko in ustvarite eno krajevno potrditev. |
+| Samo Windows | [Namestite in preverite WSL 2 z Ubuntujem](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/foundations/install-wsl-and-ubuntu-on-windows.md) ter zabeležite `wsl --list --verbose`. Če uporabljate macOS ali Linux, zapišite, zakaj ste WSL preskočili. |
+| Vsi | Določite terminal in lupino, nato pa se [z lupino Bash premikajte po zavržljivi mapi](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/foundations/navigate-files-and-directories-with-bash.md). |
+| Vsi | [Namestite in nastavite Git](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/foundations/install-and-configure-git.md), vključno z odločitvijo o zasebnosti e-poštnega naslova v potrditvah. |
+| Vsi | [Klonirajte manjši začetni repozitorij, ki ga zagotovi izvajalec](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/foundations/clone-run-change-and-commit-a-handbook-project.md). Javni repozitorij GitHub ni potreben. |
+| Vsi | [Ustvarite in aktivirajte virtualno okolje Python 3.12](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/create-a-python-312-virtual-environment.md). |
+| Vsi | Z `python -m pip install -r requirements.txt` [namestite pregledane zahteve](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/install-python-packages-with-pip.md). |
+| Vsi | [Zaženite kratko skripto](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/run-a-python-script-from-terminal.md), preglejte rezultat, v veji spremenite eno neškodljivo oznako, preglejte razliko in ustvarite eno krajevno potrditev. |
 
 Oddajte ali pokažite naslednji izdelek pripravljenosti:
 
@@ -4772,27 +5006,27 @@ Ne vključite gesel, žetonov, zasebnih e-poštnih naslovov ali občutljivih abs
 
 ### 1. Zgodovine področja in slovenski ekosistem
 
-Preberite [Kaj je digitalna humanistika?](../chapters/what-is-digital-humanities.md), [Zgodovine in genealogije digitalne humanistike](../chapters/history-of-digital-humanities.md) ter [Digitalna humanistika v Sloveniji](../chapters/digital-humanities-in-slovenia.md). Raziščite, kako je izbrana slovenistična praksa odvisna od spreminjajočih se poimenovanj, ustanov, jezikovnih virov in sodelovalnega dela, nato pa ločite dokumentirano zgodovino od genealogije, ki jo iz nje izpeljete.
+Preberite [Kaj je digitalna humanistika?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/what-is-digital-humanities.md), [Zgodovine in genealogije digitalne humanistike](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/history-of-digital-humanities.md) ter [Digitalna humanistika v Sloveniji](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/digital-humanities-in-slovenia.md). Raziščite, kako je izbrana slovenistična praksa odvisna od spreminjajočih se poimenovanj, ustanov, jezikovnih virov in sodelovalnega dela, nato pa ločite dokumentirano zgodovino od genealogije, ki jo iz nje izpeljete.
 
 ### 2. Modeli, dokazno gradivo, infrastrukture in raziskovalna zasnova
 
-Preberite [Modeli, dokazno gradivo in interpretacija](../chapters/models-evidence-interpretation.md), [Infrastrukture digitalne humanistike](../chapters/critical-infrastructures.md) ter [Od vprašanja do metode](../chapters/research-design.md). Eno slovenistično vprašanje preoblikujte tako, da bodo vir, model, enota analize, primerjava, odvisnost od infrastrukture, dokazno gradivo in omejitve izrecni.
+Preberite [Modeli, dokazno gradivo in interpretacija](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/models-evidence-interpretation.md), [Infrastrukture digitalne humanistike](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/critical-infrastructures.md) ter [Od vprašanja do metode](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/research-design.md). Eno slovenistično vprašanje preoblikujte tako, da bodo vir, model, enota analize, primerjava, odvisnost od infrastrukture, dokazno gradivo in omejitve izrecni.
 
 ### 3. Ponovljivo delovno okolje Python
 
-Nadaljujte iz uspešnega repozitorija pripravljenosti in namestitve ne ponavljajte. Z [navodili za manjši projekt Python za NLP](../workflows/nlp/structure-a-small-python-nlp-project.md) ga preuredite za omejeno korpusno nalogo; popravite README, neposredne zahteve in `.gitignore`; nato pa z [diagnostičnim postopkom](../workflows/nlp/troubleshoot-python-venv-and-pip.md) preverite, ali lahko kolegica ali kolega okolje znova ustvari. Potrdite specifikacijo okolja, ne `.venv/`, tako da bo podpirala raziskovalno zasnovo iz drugega modula.
+Nadaljujte iz uspešnega repozitorija pripravljenosti in namestitve ne ponavljajte. Z [navodili za manjši projekt Python za NLP](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/structure-a-small-python-nlp-project.md) ga preuredite za omejeno korpusno nalogo; popravite README, neposredne zahteve in `.gitignore`; nato pa z [diagnostičnim postopkom](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/workflows/nlp/troubleshoot-python-venv-and-pip.md) preverite, ali lahko kolegica ali kolega okolje znova ustvari. Potrdite specifikacijo okolja, ne `.venv/`, tako da bo podpirala raziskovalno zasnovo iz drugega modula.
 
 ### 4. Besedilni formati, zasnova korpusa, zajem, OCR, čiščenje in dvojniki
 
-Preberite [Besedila, korpusi in OCR](../chapters/texts-corpora-ocr.md) ter preglejte primere navadnega besedila, CSV, JSON in TEI/XML. Pripravite kartico korpusa s pravili vzorčenja, identifikatorji dokumentov, metapodatki in pravicami; pridobite ali pripravite manjši dovoljeni korpus; ohranite surovo in obdelano plast; izmerite vzorec OCR ali zajema; ter označite ponavljajoče se dele in dvojnike, ne da bi izgubili provenienco.
+Preberite [Besedila, korpusi in OCR](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/texts-corpora-ocr.md) ter preglejte primere navadnega besedila, CSV, JSON in TEI/XML. Pripravite kartico korpusa s pravili vzorčenja, identifikatorji dokumentov, metapodatki in pravicami; pridobite ali pripravite manjši dovoljeni korpus; ohranite surovo in obdelano plast; izmerite vzorec OCR ali zajema; ter označite ponavljajoče se dele in dvojnike, ne da bi izgubili provenienco.
 
 ### 5. Anotacija s CLASSLA
 
-Preberite [Jezikoslovna anotacija in CLASSLA](../chapters/linguistic-annotation-classla.md). Namestite in preizkusite CLASSLA, anotirajte besedilo ter izvozite rezultate na ravni pojavnic. Zabeležite različice modela in programske opreme ter preglejte napake pri slovenskih imenih, nestandardnih oblikah ali zgodovinskem jeziku.
+Preberite [Jezikoslovna anotacija in CLASSLA](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/linguistic-annotation-classla.md). Namestite in preizkusite CLASSLA, anotirajte besedilo ter izvozite rezultate na ravni pojavnic. Zabeležite različice modela in programske opreme ter preglejte napake pri slovenskih imenih, nestandardnih oblikah ali zgodovinskem jeziku.
 
 ### 6. Konkordance, frekvence, ključne besede in kolokacije
 
-Preberite [Analiza besedil](../chapters/text-analysis.md). Primerjajte dva utemeljena podkorpusa, normalizirajte števila, izračunajte dokumentno frekvenco in preglejte konkordance. Poročajte o vsaj eni meri učinka in eni omejitvi sestave korpusa.
+Preberite [Analiza besedil](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/text-analysis.md). Primerjajte dva utemeljena podkorpusa, normalizirajte števila, izračunajte dokumentno frekvenco in preglejte konkordance. Poročajte o vsaj eni meri učinka in eni omejitvi sestave korpusa.
 
 ### 7. Slog in signali avtorstva
 
@@ -4800,11 +5034,11 @@ Iz funkcijskih besed, znakovnih n-gramov ali drugih utemeljenih značilk ustvari
 
 ### 8. Teme, sentiment in čustva
 
-Preberite [Teme, sentiment in čustva](../chapters/topics-emotions-classification.md). Pripravite kodirni priročnik in ročno označen vzorec. Primerjajte eno preprosto izhodišče z enim modelom ali tematskim pristopom ter izvedite kvalitativno analizo napak.
+Preberite [Teme, sentiment in čustva](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/topics-emotions-classification.md). Pripravite kodirni priročnik in ročno označen vzorec. Primerjajte eno preprosto izhodišče z enim modelom ali tematskim pristopom ter izvedite kvalitativno analizo napak.
 
 ### 9. Entitete in relacijski podatki
 
-Preberite [Podatkovne zbirke in SQL](../chapters/databases-sql.md). Samodejno ali ročno določite osebe, kraje, ustanove ali dela, razrešite različice imen ter zasnujte normalizirano shemo SQLite s provenienco in negotovostjo.
+Preberite [Podatkovne zbirke in SQL](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/databases-sql.md). Samodejno ali ročno določite osebe, kraje, ustanove ali dela, razrešite različice imen ter zasnujte normalizirano shemo SQLite s provenienco in negotovostjo.
 
 ### 10. Analiza SQL
 
@@ -4812,19 +5046,19 @@ Podatke uvozite, uveljavite ključe in napišite shranjene poizvedbe SQL, ki pov
 
 ### 11. GIS ter literarni in kulturni prostor
 
-Preberite [GIS in prostorska humanistika](../chapters/gis-spatial-humanities.md). Krajevne omembe povežite z ustreznimi imeniki, ohranite alternative in čas ter zgradite zemljevid, katerega legenda pokaže negotovost.
+Preberite [GIS in prostorska humanistika](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/gis-spatial-humanities.md). Krajevne omembe povežite z ustreznimi imeniki, ohranite alternative in čas ter zgradite zemljevid, katerega legenda pokaže negotovost.
 
 ### 12. Omrežja
 
-Preberite [Omrežja in vizualizacija](../chapters/networks-visualization.md). Povezavo določite iz izvornih dokazov, zgradite seznam povezav, primerjajte dvodelni in projicirani pogled ter centralnost razložite samo glede na konstrukcijsko pravilo.
+Preberite [Omrežja in vizualizacija](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/networks-visualization.md). Povezavo določite iz izvornih dokazov, zgradite seznam povezav, primerjajte dvodelni in projicirani pogled ter centralnost razložite samo glede na konstrukcijsko pravilo.
 
 ### 13. UI, etika in raziskovalni paket
 
-Preberite [UI, etika in ponovljivost](../chapters/ai-ethics-reproducibility.md). Preglejte licence, zasebnost in reprezentacijsko pristranskost. Dodajte preizkuse, podatke za navajanje, podatkovni slovar, omejitve in izjavo o uporabi UI.
+Preberite [UI, etika in ponovljivost](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/ai-ethics-reproducibility.md). Preglejte licence, zasebnost in reprezentacijsko pristranskost. Dodajte preizkuse, podatke za navajanje, podatkovni slovar, omejitve in izjavo o uporabi UI.
 
 ### 14. Izdaja in zagovor
 
-Preberite [Živi odprti priročnik](../chapters/open-living-handbook.md). Označite kandidata za izdajo, projekte izmenjajte za pregled ponovljivosti, odpravite blokirajoče napake ter predstavite vsebinski rezultat in najmočnejši razlog za previdnost.
+Preberite [Živi odprti priročnik](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/sl/chapters/open-living-handbook.md). Označite kandidata za izdajo, projekte izmenjajte za pregled ponovljivosti, odpravite blokirajoče napake ter predstavite vsebinski rezultat in najmočnejši razlog za previdnost.
 
 ## Model ocenjevanja
 

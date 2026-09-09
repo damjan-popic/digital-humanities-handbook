@@ -3,10 +3,11 @@
 **Stable core and course pathways — development review snapshot**
 
 **Version:** 0.1.0-dev<br>
-**Date:** 2026-07-23<br>
+**Source snapshot date (UTC):** 2026-09-08T06:54:32Z<br>
+**Source commit:** [12f9d3a083a294aac43eeb16b7b8a11cb99d3074](https://github.com/damjan-popic/digital-humanities-handbook/commit/12f9d3a083a294aac43eeb16b7b8a11cb99d3074)<br>
 **Author/editor:** Damjan Popič
 
-> This file is generated from the version-controlled source. The public web edition is canonical for navigation and interactive material.
+> This development review snapshot is not a numbered edition. Repository links identify the recorded source commit; the public web edition remains the living edition.
 
 ---
 
@@ -16,7 +17,7 @@
 
 ## What kind of handbook this is
 
-The handbook combines a stable conceptual and methodological core with a living library of [workflows](../workflows/index.md) and [case studies](../case-studies/index.md). The chapters explain why research choices matter and how evidence supports interpretation. Workflows provide bounded implementation steps, while case studies show how larger projects connect methods, institutions and scholarly claims.
+The handbook combines a stable conceptual and methodological core with a living library of [workflows](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/index.md) and [case studies](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/index.md). The chapters explain why research choices matter and how evidence supports interpretation. Workflows provide bounded implementation steps, while case studies show how larger projects connect methods, institutions and scholarly claims.
 
 The core is therefore not a sequence of software tutorials. It is an argument about research: understand the histories and infrastructures that shape digital work, design evidence deliberately, select and validate methods, and publish results responsibly.
 
@@ -33,45 +34,45 @@ The core is therefore not a sequence of software tutorials. It is an argument ab
 
 ### Part I — Histories, theories and contexts
 
-1. [What is digital humanities?](what-is-digital-humanities.md)
-2. [Histories and genealogies of digital humanities](history-of-digital-humanities.md)
-3. [Models, evidence and interpretation](models-evidence-interpretation.md)
-4. [Infrastructures of digital humanities: power, access and maintenance](critical-infrastructures.md)
-5. [Digital humanities in Slovenia: infrastructures, languages and communities](digital-humanities-in-slovenia.md)
+1. [What is digital humanities?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/what-is-digital-humanities.md)
+2. [Histories and genealogies of digital humanities](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/history-of-digital-humanities.md)
+3. [Models, evidence and interpretation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/models-evidence-interpretation.md)
+4. [Infrastructures of digital humanities: power, access and maintenance](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/critical-infrastructures.md)
+5. [Digital humanities in Slovenia: infrastructures, languages and communities](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/digital-humanities-in-slovenia.md)
 
 ### Part II — Research design and sources
 
-6. [From question to method](research-design.md)
-7. [Data, metadata and models](data-metadata-models.md)
-8. [Texts, corpora and OCR](texts-corpora-ocr.md)
+6. [From question to method](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/research-design.md)
+7. [Data, metadata and models](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/data-metadata-models.md)
+8. [Texts, corpora and OCR](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/texts-corpora-ocr.md)
 
 ### Part III — Analytical methods
 
-9. [Linguistic annotation and CLASSLA](linguistic-annotation-classla.md)
-10. [Text analysis](text-analysis.md)
-11. [Topics, sentiment and emotion](topics-emotions-classification.md)
-12. [Databases and SQL](databases-sql.md)
-13. [GIS and spatial humanities](gis-spatial-humanities.md)
-14. [Networks and visualization](networks-visualization.md)
+9. [Linguistic annotation and CLASSLA](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/linguistic-annotation-classla.md)
+10. [Text analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/text-analysis.md)
+11. [Topics, sentiment and emotion](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/topics-emotions-classification.md)
+12. [Databases and SQL](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/databases-sql.md)
+13. [GIS and spatial humanities](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/gis-spatial-humanities.md)
+14. [Networks and visualization](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/networks-visualization.md)
 
 ### Part IV — Responsible research and publication
 
-15. [AI, ethics and reproducibility](ai-ethics-reproducibility.md)
-16. [The living open handbook](open-living-handbook.md)
+15. [AI, ethics and reproducibility](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/ai-ethics-reproducibility.md)
+16. [The living open handbook](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/open-living-handbook.md)
 
 ## Shorter routes
 
 ### Foundational digital and information literacy
 
-Use this route to learn how digital sources become evidence without making technical specialization the goal. Read chapters [1](what-is-digital-humanities.md), selected sections of [2](history-of-digital-humanities.md), [3](models-evidence-interpretation.md), [4](critical-infrastructures.md), [6](research-design.md), [7](data-metadata-models.md), [8](texts-corpora-ocr.md) and [15](ai-ethics-reproducibility.md). Chapter 5 can be read through one relevant Slovenian resource profile; analytical chapters are optional extensions. The paired course design is [Information Society Literacy](../learning-paths/pismenost-za-informacijsko-druzbo.md).
+Use this route to learn how digital sources become evidence without making technical specialization the goal. Read chapters [1](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/what-is-digital-humanities.md), selected sections of [2](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/history-of-digital-humanities.md), [3](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/models-evidence-interpretation.md), [4](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/critical-infrastructures.md), [6](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/research-design.md), [7](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/data-metadata-models.md), [8](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/texts-corpora-ocr.md) and [15](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/ai-ethics-reproducibility.md). Chapter 5 can be read through one relevant Slovenian resource profile; analytical chapters are optional extensions. The paired course design is [Information Society Literacy](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/learning-paths/pismenost-za-informacijsko-druzbo.md).
 
 ### Text analysis and Digital Slovenian Studies
 
-Use the full Part I to establish the field, its modelling assumptions and the Slovenian resource ecosystem. Continue with chapters [6](research-design.md), [8](texts-corpora-ocr.md), [9](linguistic-annotation-classla.md), [10](text-analysis.md), [11](topics-emotions-classification.md) and [15](ai-ethics-reproducibility.md). Databases, GIS and networks are project-dependent extensions. The advanced fourteen-module sequence is [Digital Slovenian Studies](../learning-paths/digitalna-slovenistika.md).
+Use the full Part I to establish the field, its modelling assumptions and the Slovenian resource ecosystem. Continue with chapters [6](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/research-design.md), [8](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/texts-corpora-ocr.md), [9](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/linguistic-annotation-classla.md), [10](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/text-analysis.md), [11](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/topics-emotions-classification.md) and [15](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/ai-ethics-reproducibility.md). Databases, GIS and networks are project-dependent extensions. The advanced fourteen-module sequence is [Digital Slovenian Studies](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/learning-paths/digitalna-slovenistika.md).
 
 ### Project-based study
 
-Begin with chapters [3](models-evidence-interpretation.md), [4](critical-infrastructures.md) and [5](digital-humanities-in-slovenia.md), then design the project with chapters [6](research-design.md) and [7](data-metadata-models.md). Select one primary method from Part III and complete the chain with chapters [15](ai-ethics-reproducibility.md) and [16](open-living-handbook.md). Read other method chapters only when they support the question or a validation strategy.
+Begin with chapters [3](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/models-evidence-interpretation.md), [4](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/critical-infrastructures.md) and [5](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/digital-humanities-in-slovenia.md), then design the project with chapters [6](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/research-design.md) and [7](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/data-metadata-models.md). Select one primary method from Part III and complete the chain with chapters [15](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/ai-ethics-reproducibility.md) and [16](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/open-living-handbook.md). Read other method chapters only when they support the question or a validation strategy.
 
 ## Theory is not a prerequisite wall
 
@@ -89,7 +90,7 @@ Every chapter includes:
 - **Reflection** — interpretive questions that prevent method from becoming button-pushing.
 - **Summary** — the claims worth carrying into the next chapter.
 
-Use the chapter for the stable argument, then move to a relevant [workflow](../workflows/index.md) for implementation or a [case study](../case-studies/index.md) for a situated example. Those living collections can change more quickly than the peer-reviewable core.
+Use the chapter for the stable argument, then move to a relevant [workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/index.md) for implementation or a [case study](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/index.md) for a situated example. Those living collections can change more quickly than the peer-reviewable core.
 
 ---
 
@@ -99,32 +100,32 @@ The handbook is not four separate shelves. Chapters provide concepts and argumen
 
 ## How to move through the ecosystem
 
-1. Begin with a bounded humanities question in the [handbook core](chapters/index.md).
+1. Begin with a bounded humanities question in the [handbook core](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/index.md).
 2. Choose a workflow that produces an inspectable output.
 3. Compare it with a case study where the method participates in a larger project.
 4. Return to the chapter to ask what the output can mean and what it cannot establish.
-5. For teaching, use [Information Society Literacy](learning-paths/pismenost-za-informacijsko-druzbo.md) or [Digital Slovenian Studies](learning-paths/digitalna-slovenistika.md).
+5. For teaching, use [Information Society Literacy](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/learning-paths/pismenost-za-informacijsko-druzbo.md) or [Digital Slovenian Studies](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/learning-paths/digitalna-slovenistika.md).
 
 ## From chapters to practice
 
 | Chapter | Selected workflows | Case studies |
 | --- | --- | --- |
-| [What is digital humanities?](https://damjan-popic.github.io/digital-humanities-handbook/chapters/what-is-digital-humanities/) | [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/build-a-simple-cultural-heritage-map/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/) |
-| [Histories and genealogies of digital humanities](https://damjan-popic.github.io/digital-humanities-handbook/chapters/history-of-digital-humanities/) | [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/) | [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/) |
-| [Models, evidence and interpretation](https://damjan-popic.github.io/digital-humanities-handbook/chapters/models-evidence-interpretation/) | [How do I turn a research question into a scholarly paper plan?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/)<br>[How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[How do I test topic-model stability and interpretability?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/test-topic-model-stability-and-interpretability/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
-| [Infrastructures of digital humanities: power, access and maintenance](https://damjan-popic.github.io/digital-humanities-handbook/chapters/critical-infrastructures/) | [How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ethics/decide-whether-a-digitised-source-should-be-public/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/) |
-| [Digital humanities in Slovenia: infrastructures, languages and communities](https://damjan-popic.github.io/digital-humanities-handbook/chapters/digital-humanities-in-slovenia/) | [How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)<br>[How do I map places mentioned in a text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/map-places-mentioned-in-a-text/) | [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)<br>[Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/) |
-| [From question to method](https://damjan-popic.github.io/digital-humanities-handbook/chapters/research-design/) | [How do I build and clean a Zotero library?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/reference-management/build-and-clean-a-zotero-library/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)<br>[How do I audit AI output against source documents?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ai/audit-ai-output-against-source-documents/)<br>[How do I clone, run, change and commit a handbook project?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/foundations/clone-run-change-and-commit-a-handbook-project/)<br>[How do I compare frequency, document frequency and dispersion?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/) | [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
-| [Data, metadata and models](https://damjan-popic.github.io/digital-humanities-handbook/chapters/data-metadata-models/) | [How do I import and clean a small dataset in Excel?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)<br>[How do I reconcile conflicting metadata without erasing uncertainty?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty/)<br>[How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)<br>[How do I structure a small Python NLP project?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/structure-a-small-python-nlp-project/)<br>[How do I evaluate CLASSLA on a domain-specific sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/) | [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/) |
-| [Texts, corpora and OCR](https://damjan-popic.github.io/digital-humanities-handbook/chapters/texts-corpora-ocr/) | [How do I evaluate OCR or HTR against a reference sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/bulk-download-pdfs-and-ocr-them/)<br>[How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/)<br>[How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/deduplicate-corpus-text-with-minhash/)<br>[How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)<br>[How do I evaluate CLASSLA on a domain-specific sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)<br>[How do I compare frequency, document frequency and dispersion?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/) | [Web text harvesting](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/text-harvester/)<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
-| [Linguistic annotation and CLASSLA](https://damjan-popic.github.io/digital-humanities-handbook/chapters/linguistic-annotation-classla/) | [How do I evaluate OCR or HTR against a reference sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)<br>[How do I install and test CLASSLA with Python 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-and-test-classla/)<br>[How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)<br>[How do I export CLASSLA results to CSV?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/export-classla-results-to-csv/)<br>[How do I evaluate CLASSLA on a domain-specific sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/) | [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)<br>[Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)<br>[Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/) |
-| [Text analysis](https://damjan-popic.github.io/digital-humanities-handbook/chapters/text-analysis/) | [How do I query a corpus with CQPweb?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/query-a-corpus-with-cqpweb/)<br>[How do I compare style with function words?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-style-with-function-words/)<br>[How do I make a dispersion plot in LancsBox?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/make-a-dispersion-plot-in-lancsbox/)<br>[How do I visualise a frequency list with Voyant?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-a-frequency-list-with-voyant/)<br>[How do I compare frequency, document frequency and dispersion?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/) | [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
-| [Topics, sentiment and emotion](https://damjan-popic.github.io/digital-humanities-handbook/chapters/topics-emotions-classification/) | [How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)<br>[How do I explore recurring themes with NMF?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/explore-topics-with-nmf/)<br>[How do I create a sentence-similarity heat map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/create-a-sentence-similarity-heat-map/)<br>[How do I test topic-model stability and interpretability?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/test-topic-model-stability-and-interpretability/) | [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/createai/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
-| [Databases and SQL](https://damjan-popic.github.io/digital-humanities-handbook/chapters/databases-sql/) | [How do I model changing names, statuses and boundaries in SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/)<br>[How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)<br>[How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
-| [GIS and spatial humanities](https://damjan-popic.github.io/digital-humanities-handbook/chapters/gis-spatial-humanities/) | [How do I georeference and check a historical map in QGIS?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/)<br>[How do I model changing place names and boundaries?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/model-changing-place-names-and-boundaries/)<br>[How do I map places mentioned in a text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/map-places-mentioned-in-a-text/)<br>[How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/build-a-simple-cultural-heritage-map/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/) |
-| [Networks and visualization](https://damjan-popic.github.io/digital-humanities-handbook/chapters/networks-visualization/) | [How do I compare bipartite and projected networks?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/compare-bipartite-and-projected-networks/)<br>[How do I audit a network claim against source records?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/audit-a-network-claim-against-source-records/)<br>[How do I summarize data with PivotTables and transparent charts?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts/)<br>[How do I build a source-linked co-occurrence network?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/build-a-cooccurrence-network/)<br>[How do I build a collocation graph from AntConc to Cytoscape?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape/)<br>[How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/) | [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/) |
-| [AI, ethics and reproducibility](https://damjan-popic.github.io/digital-humanities-handbook/chapters/ai-ethics-reproducibility/) | [How do I revise claims, evidence, and paragraphs?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs/)<br>[How do I audit AI output against source documents?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ai/audit-ai-output-against-source-documents/)<br>[How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ethics/decide-whether-a-digitised-source-should-be-public/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/)<br>[How do I install Python packages with pip?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-python-packages-with-pip/)<br>[How do I evaluate CLASSLA on a domain-specific sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)<br>[How do I test topic-model stability and interpretability?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/test-topic-model-stability-and-interpretability/)<br>[How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/)<br>[Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/)<br>[User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/createai/)<br>[Slovenian comma-checking Word add-in](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/vejice-add-in/) |
-| [The living open handbook](https://damjan-popic.github.io/digital-humanities-handbook/chapters/open-living-handbook/) | [How do I choose, apply, and audit a citation style?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/reference-management/choose-apply-and-audit-a-citation-style/)<br>[How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/)<br>[How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)<br>[How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)<br>[How do I version-control a termbase with Git?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/terminology/version-control-a-termbase-with-git/)<br>[How do I track a small project with Git?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/foundations/track-a-small-project-with-git/) | [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/)<br>[Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/) |
+| [What is digital humanities?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/what-is-digital-humanities.md) | [How do I make a tiny digital edition of a historical text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md)<br>[How do I turn messy humanities notes into a reusable dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)<br>[How do I build a simple cultural heritage map?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/build-a-simple-cultural-heritage-map.md) | [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md)<br>[Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md) |
+| [Histories and genealogies of digital humanities](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/history-of-digital-humanities.md) | [How do I make a tiny digital edition of a historical text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md)<br>[How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md) | [Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md)<br>[Corpus conversion and CLASSLA annotation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/corpus-augmenter.md) |
+| [Models, evidence and interpretation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/models-evidence-interpretation.md) | [How do I turn a research question into a scholarly paper plan?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md)<br>[How do I visualise uncertainty in humanities data?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/visualise-uncertainty-in-humanities-data.md)<br>[How do I analyse emotion with a lexicon and a manual check?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)<br>[How do I test topic-model stability and interpretability?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/test-topic-model-stability-and-interpretability.md)<br>[How do I turn messy humanities notes into a reusable dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md) | [Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md) |
+| [Infrastructures of digital humanities: power, access and maintenance](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/critical-infrastructures.md) | [How do I decide whether a digitised source should be public?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ethics/decide-whether-a-digitised-source-should-be-public.md)<br>[How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md)<br>[How do I write a README for a humanities dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/write-a-readme-for-a-humanities-dataset.md) | [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md)<br>[Website crawler and chatbot corpus builder](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/fifi.md) |
+| [Digital humanities in Slovenia: infrastructures, languages and communities](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/digital-humanities-in-slovenia.md) | [How do I annotate a small text with CLASSLA?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/annotate-a-small-text-with-classla.md)<br>[How do I make a tiny digital edition of a historical text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md)<br>[How do I map places mentioned in a text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/map-places-mentioned-in-a-text.md) | [Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md)<br>[Corpus conversion and CLASSLA annotation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/corpus-augmenter.md)<br>[Source-grounded Slovenian language advisor](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/jezikovni-svetovalec.md) |
+| [From question to method](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/research-design.md) | [How do I build and clean a Zotero library?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/reference-management/build-and-clean-a-zotero-library.md)<br>[How do I turn messy humanities notes into a reusable dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)<br>[How do I write a README for a humanities dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/write-a-readme-for-a-humanities-dataset.md)<br>[How do I audit AI output against source documents?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ai/audit-ai-output-against-source-documents.md)<br>[How do I clone, run, change and commit a handbook project?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/foundations/clone-run-change-and-commit-a-handbook-project.md)<br>[How do I compare frequency, document frequency and dispersion?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md) | [Website crawler and chatbot corpus builder](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/fifi.md)<br>[Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md) |
+| [Data, metadata and models](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/data-metadata-models.md) | [How do I import and clean a small dataset in Excel?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md)<br>[How do I turn messy humanities notes into a reusable dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)<br>[How do I reconcile conflicting metadata without erasing uncertainty?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md)<br>[How do I build a small humanities database with SQLite?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data/build-a-humanities-database-with-sqlite.md)<br>[How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md)<br>[How do I write a README for a humanities dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/write-a-readme-for-a-humanities-dataset.md)<br>[How do I structure a small Python NLP project?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/structure-a-small-python-nlp-project.md)<br>[How do I evaluate CLASSLA on a domain-specific sample?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md) | [Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md)<br>[Learner-corpus lexical analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/korpus-solar-analysis.md) |
+| [Texts, corpora and OCR](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/texts-corpora-ocr.md) | [How do I evaluate OCR or HTR against a reference sample?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md)<br>[How do I bulk-download PDFs and OCR them?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/pdf/bulk-download-pdfs-and-ocr-them.md)<br>[How do I scrape a single-topic website into a mini corpus?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md)<br>[How do I deduplicate corpus text with MinHash?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/corpora/deduplicate-corpus-text-with-minhash.md)<br>[How do I make a tiny digital edition of a historical text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md)<br>[How do I evaluate CLASSLA on a domain-specific sample?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md)<br>[How do I compare frequency, document frequency and dispersion?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md) | [Web text harvesting](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/text-harvester.md)<br>[Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md)<br>[Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md) |
+| [Linguistic annotation and CLASSLA](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/linguistic-annotation-classla.md) | [How do I evaluate OCR or HTR against a reference sample?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md)<br>[How do I install and test CLASSLA with Python 3.12?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/install-and-test-classla.md)<br>[How do I annotate a small text with CLASSLA?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/annotate-a-small-text-with-classla.md)<br>[How do I export CLASSLA results to CSV?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/export-classla-results-to-csv.md)<br>[How do I evaluate CLASSLA on a domain-specific sample?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md) | [Corpus conversion and CLASSLA annotation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/corpus-augmenter.md)<br>[Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md)<br>[Learner-corpus lexical analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/korpus-solar-analysis.md) |
+| [Text analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/text-analysis.md) | [How do I query a corpus with CQPweb?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/corpora/query-a-corpus-with-cqpweb.md)<br>[How do I compare style with function words?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/compare-style-with-function-words.md)<br>[How do I make a dispersion plot in LancsBox?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/make-a-dispersion-plot-in-lancsbox.md)<br>[How do I visualise a frequency list with Voyant?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/visualise-a-frequency-list-with-voyant.md)<br>[How do I compare frequency, document frequency and dispersion?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md) | [Learner-corpus lexical analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/korpus-solar-analysis.md)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md) |
+| [Topics, sentiment and emotion](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/topics-emotions-classification.md) | [How do I analyse emotion with a lexicon and a manual check?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)<br>[How do I explore recurring themes with NMF?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/explore-topics-with-nmf.md)<br>[How do I create a sentence-similarity heat map?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/create-a-sentence-similarity-heat-map.md)<br>[How do I test topic-model stability and interpretability?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/test-topic-model-stability-and-interpretability.md) | [User/AI transcript analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/createai.md)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md)<br>[Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md) |
+| [Databases and SQL](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/databases-sql.md) | [How do I model changing names, statuses and boundaries in SQLite?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite.md)<br>[How do I build a small humanities database with SQLite?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data/build-a-humanities-database-with-sqlite.md)<br>[How do I turn messy humanities notes into a reusable dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md) | [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md) |
+| [GIS and spatial humanities](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/gis-spatial-humanities.md) | [How do I georeference and check a historical map in QGIS?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/georeference-and-check-a-historical-map-in-qgis.md)<br>[How do I model changing place names and boundaries?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/model-changing-place-names-and-boundaries.md)<br>[How do I map places mentioned in a text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/map-places-mentioned-in-a-text.md)<br>[How do I build a simple cultural heritage map?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/build-a-simple-cultural-heritage-map.md)<br>[How do I visualise uncertainty in humanities data?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/visualise-uncertainty-in-humanities-data.md) | [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md)<br>[Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md) |
+| [Networks and visualization](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/networks-visualization.md) | [How do I compare bipartite and projected networks?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/networks/compare-bipartite-and-projected-networks.md)<br>[How do I audit a network claim against source records?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/networks/audit-a-network-claim-against-source-records.md)<br>[How do I summarize data with PivotTables and transparent charts?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md)<br>[How do I build a source-linked co-occurrence network?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/networks/build-a-cooccurrence-network.md)<br>[How do I build a collocation graph from AntConc to Cytoscape?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape.md)<br>[How do I visualise uncertainty in humanities data?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/visualise-uncertainty-in-humanities-data.md) | [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md)<br>[Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md) |
+| [AI, ethics and reproducibility](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/ai-ethics-reproducibility.md) | [How do I document and audit a source-grounded AI analysis?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ai/document-and-audit-a-source-grounded-ai-analysis.md)<br>[How do I compare AI output across prompts, models and runs?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ai/compare-ai-output-across-prompts-models-and-runs.md)<br>[How do I revise claims, evidence, and paragraphs?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md)<br>[How do I audit AI output against source documents?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ai/audit-ai-output-against-source-documents.md)<br>[How do I decide whether a digitised source should be public?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ethics/decide-whether-a-digitised-source-should-be-public.md)<br>[How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md)<br>[How do I automate a linguistic workflow with a Makefile?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/automation/automate-a-linguistic-workflow-with-a-makefile.md)<br>[How do I install Python packages with pip?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/install-python-packages-with-pip.md)<br>[How do I evaluate CLASSLA on a domain-specific sample?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md)<br>[How do I test topic-model stability and interpretability?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/test-topic-model-stability-and-interpretability.md)<br>[How do I analyse emotion with a lexicon and a manual check?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md) | [Source-grounded Slovenian language advisor](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/jezikovni-svetovalec.md)<br>[Website crawler and chatbot corpus builder](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/fifi.md)<br>[User/AI transcript analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/createai.md)<br>[Slovenian comma-checking Word add-in](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/vejice-add-in.md) |
+| [The living open handbook](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/open-living-handbook.md) | [How do I create a versioned scholarly release?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/create-a-versioned-scholarly-release.md)<br>[How do I correct a published digital resource without erasing history?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/correct-a-published-digital-resource-without-erasing-history.md)<br>[How do I prepare a maintenance and succession plan?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/prepare-a-maintenance-and-succession-plan.md)<br>[How do I choose, apply, and audit a citation style?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/reference-management/choose-apply-and-audit-a-citation-style.md)<br>[How do I automate a linguistic workflow with a Makefile?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/automation/automate-a-linguistic-workflow-with-a-makefile.md)<br>[How do I write a README for a humanities dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/write-a-readme-for-a-humanities-dataset.md)<br>[How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md)<br>[How do I version-control a termbase with Git?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/terminology/version-control-a-termbase-with-git.md)<br>[How do I track a small project with Git?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/foundations/track-a-small-project-with-git.md) | [Source-grounded Slovenian language advisor](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/jezikovni-svetovalec.md)<br>[Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md) |
 
 ## Connections work in both directions
 
@@ -222,14 +223,14 @@ The computational method is only one component. The argument depends equally on 
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
-    - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)
-    - [How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
-    - [How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/build-a-simple-cultural-heritage-map/)
+    - [How do I make a tiny digital edition of a historical text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md)
+    - [How do I turn messy humanities notes into a reusable dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)
+    - [How do I build a simple cultural heritage map?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/build-a-simple-cultural-heritage-map.md)
 
     **Inspect a case study**
 
-    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)
-    - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)
+    - [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md)
+    - [Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md)
 <!-- handbook-ecosystem:end -->
 
 ## Practice
@@ -338,7 +339,7 @@ Artificial intelligence is part of this contested present, not the endpoint of a
 
 There is no settled final period. Future histories may organize the present around environmental cost, platform dependence, Indigenous data governance, multilingual infrastructure or forms of scholarship not currently recognized by dominant journals. A responsible contemporary account stays revisable.
 
-The situated chapter [Digital humanities in Slovenia](digital-humanities-in-slovenia.md) applies this caution to practices whose historical names, institutional forms and language conditions do not fit a single universal chronology.
+The situated chapter [Digital humanities in Slovenia](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/digital-humanities-in-slovenia.md) applies this caution to practices whose historical names, institutional forms and language conditions do not fit a single universal chronology.
 
 ## A checked timeline of selected milestones
 
@@ -376,13 +377,13 @@ The comparison does not show steady technical improvement. Each formation enable
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
-    - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)
-    - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)
+    - [How do I make a tiny digital edition of a historical text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md)
+    - [How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md)
 
     **Inspect a case study**
 
-    - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)
-    - [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)
+    - [Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md)
+    - [Corpus conversion and CLASSLA annotation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/corpus-augmenter.md)
 <!-- handbook-ecosystem:end -->
 
 ## Practice
@@ -478,7 +479,7 @@ After this chapter, you should be able to:
 
 Imagine a newspaper article in which a minister calls an economic forecast “encouraging,” an opposition speaker describes public “fear,” and an editorial cartoon makes the whole exchange look absurd. What would count as evidence about emotion: the two words, the emotions speakers attribute to political actors, the cartoon, readers' responses, or a later researcher's classification? Each answer produces a different research object.
 
-**Prerequisites:** read [What is digital humanities?](what-is-digital-humanities.md) and the preceding [historical chapter](history-of-digital-humanities.md). No programming or statistics is required. **Practice input and output:** one bounded question and a legally usable source set; two competing models with evidential limits. **Check:** another reader should identify every unit, category, transformation and inferential step. **Failure modes:** treating convenient records as a complete archive or a result as self-interpreting. **Limits:** respect copyright, privacy and community authority; do not infer inner states from public language without a defensible design.
+**Prerequisites:** read [What is digital humanities?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/what-is-digital-humanities.md) and the preceding [historical chapter](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/history-of-digital-humanities.md). No programming or statistics is required. **Practice input and output:** one bounded question and a legally usable source set; two competing models with evidential limits. **Check:** another reader should identify every unit, category, transformation and inferential step. **Failure modes:** treating convenient records as a complete archive or a result as self-interpreting. **Limits:** respect copyright, privacy and community authority; do not infer inner states from public language without a defensible design.
 
 This chapter follows an analytical chain:
 
@@ -515,7 +516,7 @@ This chapter therefore uses **data** as the ordinary umbrella term and **capta**
 - provenance, rights, versions and responsible labour;
 - people or communities made vulnerable by collection and classification.
 
-D'Ignazio and Klein frame data work as a distribution of power: deciding what counts, whose knowledge is authoritative and who receives credit or bears harm.[^power] That argument does not make empirical research impossible. It makes the standpoint, labour and consequences of data construction part of the method. The practical procedures for documenting rows, identifiers, missingness and provenance belong to [Data, metadata and models](data-metadata-models.md); the present chapter asks what those procedures permit a scholar to claim.
+D'Ignazio and Klein frame data work as a distribution of power: deciding what counts, whose knowledge is authoritative and who receives credit or bears harm.[^power] That argument does not make empirical research impossible. It makes the standpoint, labour and consequences of data construction part of the method. The practical procedures for documenting rows, identifiers, missingness and provenance belong to [Data, metadata and models](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/data-metadata-models.md); the present chapter asks what those procedures permit a scholar to claim.
 
 ## Units, categories and operationalization
 
@@ -685,16 +686,16 @@ An output becomes evidence only after checks of provenance, validity, comparison
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
-    - [How do I turn a research question into a scholarly paper plan?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan/)
-    - [How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/)
-    - [How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
-    - [How do I test topic-model stability and interpretability?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/test-topic-model-stability-and-interpretability/)
-    - [How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
+    - [How do I turn a research question into a scholarly paper plan?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md)
+    - [How do I visualise uncertainty in humanities data?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/visualise-uncertainty-in-humanities-data.md)
+    - [How do I analyse emotion with a lexicon and a manual check?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)
+    - [How do I test topic-model stability and interpretability?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/test-topic-model-stability-and-interpretability.md)
+    - [How do I turn messy humanities notes into a reusable dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)
 
     **Inspect a case study**
 
-    - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/)
-    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)
+    - [Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md)
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md)
 <!-- handbook-ecosystem:end -->
 
 ---
@@ -718,7 +719,7 @@ After this chapter, you should be able to:
 
 Enter a word in a historical corpus and results appear in seconds. The action seems to involve a reader, a box and an index. Yet the result depends on records having been created and preserved; institutional selection and funding; cataloguing, scanning, optical character recognition (OCR) and article segmentation; identifiers and metadata; servers, software and ranking; rights decisions; and people who maintain every layer. Which of these conditions could change the result without changing the query?
 
-**Prerequisites:** read [Models, evidence and interpretation](models-evidence-interpretation.md), especially its account of selection, categories and uncertainty. No programming is required. **Practice input:** one publicly describable digital collection or research service and one proposed humanities claim. **Output:** an evidence-labelled infrastructure audit. **Check:** another reader should be able to distinguish what you observed, what the institution states, what you tested and what you inferred. **Limits:** do not bypass access controls, expose sensitive records or treat legal availability as ethical permission.
+**Prerequisites:** read [Models, evidence and interpretation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/models-evidence-interpretation.md), especially its account of selection, categories and uncertainty. No programming is required. **Practice input:** one publicly describable digital collection or research service and one proposed humanities claim. **Output:** an evidence-labelled infrastructure audit. **Check:** another reader should be able to distinguish what you observed, what the institution states, what you tested and what you inferred. **Limits:** do not bypass access controls, expose sensitive records or treat legal availability as ethical permission.
 
 The chapter's central claim is straightforward: **before an algorithm is chosen, infrastructures have already shaped what survives, what is digitized, how it is described, who can use it, which languages are supported, whose labour is visible and which claims can be sustained.**
 
@@ -783,7 +784,7 @@ Maintenance is scholarly work because it preserves the conditions under which ev
 
 For Slovene, a tool trained on contemporary standard-language prose may not transfer reliably to older typography, historical morphology or regionally mixed newspapers. A multilingual catalogue may display Slovene descriptions but rank queries through an English-centred index. These are testable infrastructure dependencies, not claims that Slovene lacks complexity or that every tool performs badly. Report performance for the actual period, genre and variety; preserve language tags and original wording; involve relevant expertise; and compare plausible baselines.
 
-[Digital humanities in Slovenia](digital-humanities-in-slovenia.md) maps how these relations appear in dLib.si, DARIAH-SI, SIstory, CLARIN.SI, CLASSLA and selected scholarly resources without treating them as one integrated system.
+[Digital humanities in Slovenia](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/digital-humanities-in-slovenia.md) maps how these relations appear in dLib.si, DARIAH-SI, SIstory, CLARIN.SI, CLASSLA and selected scholarly resources without treating them as one integrated system.
 
 Risam's postcolonial account warns that apparently global digital knowledge can reproduce colonial cultural records and institutional centres while presenting local practices as peripheral.[^risam] Geography enters through funding eligibility, network reliability, hosting, travel, publication language and whose standards count. A locally maintainable method may be more rigorous than a prestigious service whose training data, contractual future or language performance cannot be inspected.
 
@@ -872,7 +873,7 @@ Infrastructure is a relational condition of knowledge production. Archives, digi
 
 Standards can enable validation, exchange and preservation while constraining local or ambiguous meanings. Collaboration becomes more just through governance, compensation, contestable categories and precise credit; maintenance protects the inspectability of evidence. Smaller-language support is relative to task, period, genre and infrastructure. Access is not accessibility, and openness, FAIRness and responsible governance are distinct. CARE retains its specific grounding in Indigenous data governance. Environmental responsibility is best approached through proportionality, reuse and named long-term ownership.
 
-An infrastructure audit does not stand outside interpretation. It establishes the population, transformations, permissions and uncertainties to which an interpretation must remain answerable. The later chapter [AI, ethics and reproducibility](ai-ethics-reproducibility.md) turns many of these structural questions into project-level safeguards and documentation practices.
+An infrastructure audit does not stand outside interpretation. It establishes the population, transformations, permissions and uncertainties to which an interpretation must remain answerable. The later chapter [AI, ethics and reproducibility](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/ai-ethics-reproducibility.md) turns many of these structural questions into project-level safeguards and documentation practices.
 
 ## Further reading and references
 
@@ -918,14 +919,14 @@ An infrastructure audit does not stand outside interpretation. It establishes th
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
-    - [How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ethics/decide-whether-a-digitised-source-should-be-public/)
-    - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)
-    - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)
+    - [How do I decide whether a digitised source should be public?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ethics/decide-whether-a-digitised-source-should-be-public.md)
+    - [How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md)
+    - [How do I write a README for a humanities dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/write-a-readme-for-a-humanities-dataset.md)
 
     **Inspect a case study**
 
-    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)
-    - [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/)
+    - [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md)
+    - [Website crawler and chatbot corpus builder](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/fifi.md)
 <!-- handbook-ecosystem:end -->
 
 ---
@@ -947,7 +948,7 @@ After this chapter, you should be able to:
 
 Which Slovenian digital collections, dictionaries or corpora do you already use? Who selects, describes, funds and maintains them? Can you inspect a page image, search text, download structured data, cite a version and determine its licence—or only some of these things?
 
-**Prerequisites:** read [Histories and genealogies of digital humanities](history-of-digital-humanities.md) and [Infrastructures of digital humanities](critical-infrastructures.md). **Input:** one Slovenian digital object and a humanities question that might use it. **Output:** a resource profile and a bounded research plan. **Check:** distinguish institutional description, observed interface behaviour, downloaded-file inspection, your own test and your interpretation. **Limits:** do not bypass access controls, redistribute protected material or assume that public viewing permits computational reuse.
+**Prerequisites:** read [Histories and genealogies of digital humanities](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/history-of-digital-humanities.md) and [Infrastructures of digital humanities](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/critical-infrastructures.md). **Input:** one Slovenian digital object and a humanities question that might use it. **Output:** a resource profile and a bounded research plan. **Check:** distinguish institutional description, observed interface behaviour, downloaded-file inspection, your own test and your interpretation. **Limits:** do not bypass access controls, redistribute protected material or assume that public viewing permits computational reuse.
 
 The chapter's central claim is that **digital humanities in Slovenia is produced through relations among cultural-heritage institutions, research infrastructures, scholarly communities, language-resource centres, standards, public portals, repositories and teaching practices**. Those relations create real methodological possibilities, but also shape coverage, access, language support, preservation and the claims a researcher can responsibly make.
 
@@ -1122,15 +1123,15 @@ These relations do not turn public objects automatically into research-ready dat
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
-    - [How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)
-    - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)
-    - [How do I map places mentioned in a text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/map-places-mentioned-in-a-text/)
+    - [How do I annotate a small text with CLASSLA?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/annotate-a-small-text-with-classla.md)
+    - [How do I make a tiny digital edition of a historical text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md)
+    - [How do I map places mentioned in a text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/map-places-mentioned-in-a-text.md)
 
     **Inspect a case study**
 
-    - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)
-    - [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)
-    - [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/)
+    - [Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md)
+    - [Corpus conversion and CLASSLA annotation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/corpus-augmenter.md)
+    - [Source-grounded Slovenian language advisor](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/jezikovni-svetovalec.md)
 <!-- handbook-ecosystem:end -->
 
 ---
@@ -1168,11 +1169,11 @@ letting undocumented cleaning decisions change the question.
 
 This chapter turns the argument in [Models, evidence and
 interpretation](models-evidence-interpretation.md) into a practical research
-plan. [Data, metadata and models](data-metadata-models.md) develops the record
-structure; [Texts, corpora and OCR](texts-corpora-ocr.md) addresses document
+plan. [Data, metadata and models](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/data-metadata-models.md) develops the record
+structure; [Texts, corpora and OCR](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/texts-corpora-ocr.md) addresses document
 images, OCR/HTR and corpus sampling. These chapters share the small
-[*Archival friction* teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip),
-whose [source tree remains inspectable](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction).
+[*Archival friction* teaching packet ZIP](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/archival-friction-v1.zip),
+whose [source tree remains inspectable](https://github.com/damjan-popic/digital-humanities-handbook/tree/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/teaching-data/archival-friction).
 
 ## Research design is an argument in advance
 
@@ -1434,8 +1435,8 @@ research design sometimes produces an explicit “not enough evidence”.
 
 ## Practice: a design and stop/go memo
 
-Download the [packet ZIP](../../assets/downloads/archival-friction-v1.zip) or
-use a small source set from your field; consult the [source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction)
+Download the [packet ZIP](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/archival-friction-v1.zip) or
+use a small source set from your field; consult the [source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/teaching-data/archival-friction)
 when auditing how the exercise was assembled. Produce a one-page memo with:
 
 1. a bounded research question;
@@ -1525,17 +1526,17 @@ the selected evidence can and cannot support.
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
-    - [How do I build and clean a Zotero library?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/reference-management/build-and-clean-a-zotero-library/)
-    - [How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
-    - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)
-    - [How do I audit AI output against source documents?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ai/audit-ai-output-against-source-documents/)
-    - [How do I clone, run, change and commit a handbook project?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/foundations/clone-run-change-and-commit-a-handbook-project/)
-    - [How do I compare frequency, document frequency and dispersion?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/)
+    - [How do I build and clean a Zotero library?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/reference-management/build-and-clean-a-zotero-library.md)
+    - [How do I turn messy humanities notes into a reusable dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)
+    - [How do I write a README for a humanities dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/write-a-readme-for-a-humanities-dataset.md)
+    - [How do I audit AI output against source documents?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ai/audit-ai-output-against-source-documents.md)
+    - [How do I clone, run, change and commit a handbook project?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/foundations/clone-run-change-and-commit-a-handbook-project.md)
+    - [How do I compare frequency, document frequency and dispersion?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md)
 
     **Inspect a case study**
 
-    - [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/)
-    - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/)
+    - [Website crawler and chatbot corpus builder](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/fifi.md)
+    - [Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md)
 <!-- handbook-ecosystem:end -->
 
 ---
@@ -1564,8 +1565,8 @@ catalogue record? If not, the table lacks semantics and provenance, not just
 tidiness.
 
 No database or coding experience is required. You need a small collection or
-the [*Archival friction* teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip);
-the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction)
+the [*Archival friction* teaching packet ZIP](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/archival-friction-v1.zip);
+the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/teaching-data/archival-friction)
 is available for inspection.
 Your outputs will be a record model, data dictionary, correction log and
 quality report. A successful result preserves evidence even when a value is
@@ -1577,7 +1578,7 @@ For the question and sampling frame, begin with [From question to
 method](research-design.md). For the wider distinction among sources,
 representations, outputs and evidence, see [Models, evidence and
 interpretation](models-evidence-interpretation.md). The spreadsheet workflows
-in [Scholarly-work foundations](../foundations/scholarly-work.md)
+in [Scholarly-work foundations](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/foundations/scholarly-work.md)
 show how to keep raw, cleaned, decision and output layers separate without a
 programming requirement.
 
@@ -1890,8 +1891,8 @@ audited.
 
 ## Practice: build and audit a record model
 
-Using the [packet ZIP](../../assets/downloads/archival-friction-v1.zip)—with
-its [source tree available for audit](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction)—or
+Using the [packet ZIP](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/archival-friction-v1.zip)—with
+its [source tree available for audit](https://github.com/damjan-popic/digital-humanities-handbook/tree/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/teaching-data/archival-friction)—or
 five to ten records from your field, prepare:
 
 1. a conceptual sketch of entities and relations;
@@ -1992,19 +1993,19 @@ construction, uncertainty and limits remain inspectable.
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
-    - [How do I import and clean a small dataset in Excel?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel/)
-    - [How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
-    - [How do I reconcile conflicting metadata without erasing uncertainty?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty/)
-    - [How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)
-    - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)
-    - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)
-    - [How do I structure a small Python NLP project?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/structure-a-small-python-nlp-project/)
-    - [How do I evaluate CLASSLA on a domain-specific sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)
+    - [How do I import and clean a small dataset in Excel?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md)
+    - [How do I turn messy humanities notes into a reusable dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)
+    - [How do I reconcile conflicting metadata without erasing uncertainty?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md)
+    - [How do I build a small humanities database with SQLite?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data/build-a-humanities-database-with-sqlite.md)
+    - [How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md)
+    - [How do I write a README for a humanities dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/write-a-readme-for-a-humanities-dataset.md)
+    - [How do I structure a small Python NLP project?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/structure-a-small-python-nlp-project.md)
+    - [How do I evaluate CLASSLA on a domain-specific sample?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md)
 
     **Inspect a case study**
 
-    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)
-    - [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/)
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md)
+    - [Learner-corpus lexical analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/korpus-solar-analysis.md)
 <!-- handbook-ecosystem:end -->
 
 ---
@@ -2013,7 +2014,7 @@ construction, uncertainty and limits remain inspectable.
 
 A searchable transcription can make an archive feel complete. It is not the archive. It is one representation produced from selected objects, page images, layout decisions, a recognition system and editorial rules. What can you responsibly infer when every one of those stages can omit or alter evidence?
 
-This chapter treats a corpus as a research instrument rather than a folder of text. It connects [research design](research-design.md), [data, metadata and models](data-metadata-models.md), and [critical infrastructures](critical-infrastructures.md). Its worked example uses the [Archival Friction teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip), while the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) remains inspectable, so you can examine the scan, provider text, reference transcription, metadata decisions and validation results together.
+This chapter treats a corpus as a research instrument rather than a folder of text. It connects [research design](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/research-design.md), [data, metadata and models](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/data-metadata-models.md), and [critical infrastructures](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/critical-infrastructures.md). Its worked example uses the [Archival Friction teaching packet ZIP](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/archival-friction-v1.zip), while the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/teaching-data/archival-friction) remains inspectable, so you can examine the scan, provider text, reference transcription, metadata decisions and validation results together.
 
 ## Learning outcomes
 
@@ -2214,7 +2215,7 @@ A script may automate these checks, but automation is an optional extension. A s
 
 ## Practice: make one defensible claim
 
-Download the [Archival Friction teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip). Use the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) to inspect how it is assembled.
+Download the [Archival Friction teaching packet ZIP](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/archival-friction-v1.zip). Use the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/teaching-data/archival-friction) to inspect how it is assembled.
 
 1. Read the rights record and source citation. State which assessment supports reuse of the PDF and what clearance remains for the publisher.
 2. Inspect both source pages before reading the transcriptions. Identify two layout features likely to affect reading order.
@@ -2266,19 +2267,19 @@ Interfaces change. Record versions and access dates.
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
-    - [How do I evaluate OCR or HTR against a reference sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)
-    - [How do I bulk-download PDFs and OCR them?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/bulk-download-pdfs-and-ocr-them/)
-    - [How do I scrape a single-topic website into a mini corpus?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus/)
-    - [How do I deduplicate corpus text with MinHash?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/deduplicate-corpus-text-with-minhash/)
-    - [How do I make a tiny digital edition of a historical text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text/)
-    - [How do I evaluate CLASSLA on a domain-specific sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)
-    - [How do I compare frequency, document frequency and dispersion?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/)
+    - [How do I evaluate OCR or HTR against a reference sample?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md)
+    - [How do I bulk-download PDFs and OCR them?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/pdf/bulk-download-pdfs-and-ocr-them.md)
+    - [How do I scrape a single-topic website into a mini corpus?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md)
+    - [How do I deduplicate corpus text with MinHash?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/corpora/deduplicate-corpus-text-with-minhash.md)
+    - [How do I make a tiny digital edition of a historical text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/editions/make-a-tiny-digital-edition-of-a-historical-text.md)
+    - [How do I evaluate CLASSLA on a domain-specific sample?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md)
+    - [How do I compare frequency, document frequency and dispersion?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md)
 
     **Inspect a case study**
 
-    - [Web text harvesting](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/text-harvester/)
-    - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)
-    - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/)
+    - [Web text harvesting](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/text-harvester.md)
+    - [Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md)
+    - [Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md)
 <!-- handbook-ecosystem:end -->
 
 ---
@@ -2317,7 +2318,7 @@ begin before entity recognition ran.
 
 Write down one claim you hope to make from annotated text. Underline the exact
 annotation fields that the claim depends on. If you cannot name them, revisit
-[Models, evidence and interpretation](models-evidence-interpretation.md) before
+[Models, evidence and interpretation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/models-evidence-interpretation.md) before
 running a pipeline.
 
 ## Core argument: annotation is an evidential chain
@@ -2412,7 +2413,7 @@ tokenization, sentence segmentation, part-of-speech and morphological tagging,
 lemmatization, dependency parsing and NER. Its regional documentation and
 connection to CLARIN.SI make models and tag sets easier to locate and cite. The
 institutional context is discussed in
-[Digital humanities in Slovenia](digital-humanities-in-slovenia.md).
+[Digital humanities in Slovenia](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/digital-humanities-in-slovenia.md).
 
 A reproducible citation needs more than the name CLASSLA. The frozen teaching
 run used CLASSLA `2.2.1`, Python `3.12.3`, CPU execution and the processors
@@ -2570,7 +2571,7 @@ methodological result, not a failed software demonstration.
 
 ## Worked example: clean, historical and provider OCR
 
-The [text and NLP validation packet](../../assets/downloads/text-nlp-validation-v1.zip)
+The [text and NLP validation packet](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/text-nlp-validation-v1.zip)
 compares four purposively selected Slovene sentences. Two are handbook-authored
 contemporary examples. The other two are aligned textual realizations of one
 1925 newspaper passage from the archival-friction packet: a manually checked
@@ -2633,22 +2634,22 @@ inferring identity or mental state from grammatical or entity labels.
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
-    - [How do I evaluate OCR or HTR against a reference sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample/)
-    - [How do I install and test CLASSLA with Python 3.12?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-and-test-classla/)
-    - [How do I annotate a small text with CLASSLA?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/annotate-a-small-text-with-classla/)
-    - [How do I export CLASSLA results to CSV?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/export-classla-results-to-csv/)
-    - [How do I evaluate CLASSLA on a domain-specific sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)
+    - [How do I evaluate OCR or HTR against a reference sample?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md)
+    - [How do I install and test CLASSLA with Python 3.12?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/install-and-test-classla.md)
+    - [How do I annotate a small text with CLASSLA?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/annotate-a-small-text-with-classla.md)
+    - [How do I export CLASSLA results to CSV?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/export-classla-results-to-csv.md)
+    - [How do I evaluate CLASSLA on a domain-specific sample?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md)
 
     **Inspect a case study**
 
-    - [Corpus conversion and CLASSLA annotation](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/corpus-augmenter/)
-    - [Slovene Wikisource corpus build pipeline](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/wikivir/)
-    - [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/)
+    - [Corpus conversion and CLASSLA annotation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/corpus-augmenter.md)
+    - [Slovene Wikisource corpus build pipeline](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/wikivir.md)
+    - [Learner-corpus lexical analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/korpus-solar-analysis.md)
 <!-- handbook-ecosystem:end -->
 
 ## Practice
 
-Complete [How do I evaluate CLASSLA on a domain-specific sample?](../workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md).
+Complete [How do I evaluate CLASSLA on a domain-specific sample?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md).
 Recalculate one metric from its numerator and denominator, trace two logged
 errors back to the source layers, and write a claim that the evidence supports.
 Then write a stronger claim that it does not support and identify the missing
@@ -2682,7 +2683,7 @@ review, not as an adjudicated reference.
 - [CLASSLA source repository and usage documentation](https://github.com/clarinsi/classla).
 - Universal Dependencies. [CoNLL-U format](https://universaldependencies.org/format.html)
   and [universal dependency relations](https://universaldependencies.org/u/dep/).
-- Revisit [Texts, corpora and OCR](texts-corpora-ocr.md) for the distinction
+- Revisit [Texts, corpora and OCR](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/texts-corpora-ocr.md) for the distinction
   between source images, recognition output, corrected text and downstream use.
 
 ---
@@ -2717,10 +2718,10 @@ need corpus sizes, document counts and distribution, genres, dates, duplicate
 policy, textual layers and a definition of the counted form. The two numbers
 alone are outputs, not evidence.
 
-Return to [Models, evidence and interpretation](models-evidence-interpretation.md)
+Return to [Models, evidence and interpretation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/models-evidence-interpretation.md)
 if you need to distinguish a measured pattern from an interpretation. If your
 count uses lemmas or grammatical categories, read
-[Linguistic annotation and CLASSLA](linguistic-annotation-classla.md) as well.
+[Linguistic annotation and CLASSLA](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/linguistic-annotation-classla.md) as well.
 
 ## Core argument: every count embeds a corpus model
 
@@ -2989,7 +2990,7 @@ alternatives were tried and what independent material could challenge it.
 
 ## Worked example: frequency is not reach
 
-The [text and NLP validation packet](../../assets/downloads/text-nlp-validation-v1.zip)
+The [text and NLP validation packet](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/text-nlp-validation-v1.zip)
 contains twelve short, synthetic Slovene documents in four authored theme
 groups with three documents each but unequal token totals. The corpus is designed for teaching and says nothing about real archives,
 museums, language practice or newspapers.
@@ -3024,21 +3025,21 @@ absence as a property of the collection rather than silence in the past.
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
-    - [How do I query a corpus with CQPweb?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/corpora/query-a-corpus-with-cqpweb/)
-    - [How do I compare style with function words?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-style-with-function-words/)
-    - [How do I make a dispersion plot in LancsBox?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/make-a-dispersion-plot-in-lancsbox/)
-    - [How do I visualise a frequency list with Voyant?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-a-frequency-list-with-voyant/)
-    - [How do I compare frequency, document frequency and dispersion?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion/)
+    - [How do I query a corpus with CQPweb?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/corpora/query-a-corpus-with-cqpweb.md)
+    - [How do I compare style with function words?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/compare-style-with-function-words.md)
+    - [How do I make a dispersion plot in LancsBox?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/make-a-dispersion-plot-in-lancsbox.md)
+    - [How do I visualise a frequency list with Voyant?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/visualise-a-frequency-list-with-voyant.md)
+    - [How do I compare frequency, document frequency and dispersion?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md)
 
     **Inspect a case study**
 
-    - [Learner-corpus lexical analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/korpus-solar-analysis/)
-    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)
+    - [Learner-corpus lexical analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/korpus-solar-analysis.md)
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md)
 <!-- handbook-ecosystem:end -->
 
 ## Practice
 
-Complete [How do I compare frequency, document frequency and dispersion?](../workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md).
+Complete [How do I compare frequency, document frequency and dispersion?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/compare-frequency-document-frequency-and-dispersion.md).
 Choose three terms with contrasting distributions. For each, write a description
 of the measure, one source-grounded interpretation and one claim the packet does
 not warrant. Inspect every concordance line before deciding.
@@ -3108,7 +3109,7 @@ response is not contained in the sentence. This separation is the beginning of a
 codebook.
 
 Classification operationalizes a concept rather than discovering a self-evident
-category. Use [Models, evidence and interpretation](models-evidence-interpretation.md)
+category. Use [Models, evidence and interpretation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/models-evidence-interpretation.md)
 to keep codebook, input representation, output, validation evidence and claim
 distinct.
 
@@ -3300,7 +3301,7 @@ to adding one documented entry, reveals what the method gains and loses.
 
 ## Recurring bounded comparison
 
-The [text and NLP validation packet](../../assets/downloads/text-nlp-validation-v1.zip)
+The [text and NLP validation packet](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/text-nlp-validation-v1.zip)
 supports a deliberately small comparison. Its emotion sample has eight synthetic
 sentences and an original eight-entry teaching micro-lexicon. Its topic sample
 has twelve synthetic documents. Neither estimates a historical population.
@@ -3341,24 +3342,24 @@ that the text cannot warrant. Check corpus, lexicon and model licences separatel
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
-    - [How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
-    - [How do I explore recurring themes with NMF?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/explore-topics-with-nmf/)
-    - [How do I create a sentence-similarity heat map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/create-a-sentence-similarity-heat-map/)
-    - [How do I test topic-model stability and interpretability?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/test-topic-model-stability-and-interpretability/)
+    - [How do I analyse emotion with a lexicon and a manual check?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)
+    - [How do I explore recurring themes with NMF?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/explore-topics-with-nmf.md)
+    - [How do I create a sentence-similarity heat map?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/create-a-sentence-similarity-heat-map.md)
+    - [How do I test topic-model stability and interpretability?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/test-topic-model-stability-and-interpretability.md)
 
     **Inspect a case study**
 
-    - [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/createai/)
-    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)
-    - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/)
+    - [User/AI transcript analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/createai.md)
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md)
+    - [Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md)
 <!-- handbook-ecosystem:end -->
 
 ## Practice
 
 Complete both paired workflows:
 
-1. [How do I test topic-model stability and interpretability?](../workflows/text-analysis/test-topic-model-stability-and-interpretability.md)
-2. [How do I analyse emotion with a lexicon and a manual check?](../workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)
+1. [How do I test topic-model stability and interpretability?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/test-topic-model-stability-and-interpretability.md)
+2. [How do I analyse emotion with a lexicon and a manual check?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)
 
 For each, write one supported and one unsupported claim. Identify which change in
 source, representation or codebook would most threaten the supported claim.
@@ -3436,7 +3437,7 @@ it does not decide what a historical person, community or event is. Those remain
 research decisions. [Codd 1970](https://doi.org/10.1145/362384.362685) provides the
 technical foundation, not a warrant to treat a successful query as historical proof.
 
-Consider the authentic [archival-friction packet](../../assets/downloads/archival-friction-v1.zip).
+Consider the authentic [archival-friction packet](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/archival-friction-v1.zip).
 Its reference observation `AF-P1-003` transcribes the printed label “Dr. Ante
 Trumbić”. This is initially an observation about a caption in a particular issue,
 not an independently established biography. `AF-P2-003` retains “Mr. Meker” while
@@ -3474,7 +3475,7 @@ and an institution should not be silently stored as a person to simplify a join.
 
 ## Worked example: one dossier, three models
 
-The [contested-models companion](../../assets/downloads/contested-models-v1.zip)
+The [contested-models companion](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/contested-models-v1.zip)
 contains a deliberately **synthetic** longitudinal dossier. Its Ana Kovač / Anna
 Kovatsch (`SYN-A`) is fictional, not a person identified in the newspaper. The
 archival-friction packet, built around an authentic newspaper issue, remains
@@ -3708,26 +3709,26 @@ relations. Facsimiles and diplomatic transcription retain source evidence, while
 prose can explain distinctions that should resist controlled fields. Shared IDs
 and versioned links connect these representations. The guiding question is:
 which distinctions must be queryable, which must remain recoverable, and which
-should resist formalization? See the [GIS](gis-spatial-humanities.md) and
-[networks](networks-visualization.md) chapters for the same dossier's transformations.
+should resist formalization? See the [GIS](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/gis-spatial-humanities.md) and
+[networks](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/networks-visualization.md) chapters for the same dossier's transformations.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
-    - [How do I model changing names, statuses and boundaries in SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite/)
-    - [How do I build a small humanities database with SQLite?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data/build-a-humanities-database-with-sqlite/)
-    - [How do I turn messy humanities notes into a reusable dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset/)
+    - [How do I model changing names, statuses and boundaries in SQLite?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite.md)
+    - [How do I build a small humanities database with SQLite?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data/build-a-humanities-database-with-sqlite.md)
+    - [How do I turn messy humanities notes into a reusable dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)
 
     **Inspect a case study**
 
-    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)
-    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)
+    - [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md)
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md)
 <!-- handbook-ecosystem:end -->
 
 ## Practice
 
-Use the paired [SQLite assertion workflow](../workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite.md).
+Use the paired [SQLite assertion workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data/model-changing-names-statuses-and-boundaries-in-sqlite.md).
 Download the companion, read its rights audit, and run `python run.py --output output`
 inside the extracted directory. Use a new output name on a second run. Compare
 `assertions-1910_early.csv`, `assertions-1910_corrected.csv` and
@@ -3782,7 +3783,7 @@ After this chapter, you should be able to:
 
 Did a person cross a border, or did a border cross the person? A record that assigns a resident to a different jurisdiction does not by itself establish migration. Nor does a letter headed “St. Peter” identify one unambiguous point. Before opening a map, write down what evidence would distinguish movement, administrative change and editorial misidentification. Which of these explanations could your surviving sources actually test?
 
-The recurring companion dossier from [Databases and SQL](databases-sql.md) concerns names, status, language use and territorial membership. Its people and boundary experiment are explicitly synthetic. They are not reconstructed biographies of people in the authentic archival-friction newspaper. The [downloadable packet](../../assets/downloads/contested-models-v1.zip) also contains an authentic Ljubljana plan and current landmark coordinates. Keep these evidence classes separate: the historical plan does not authenticate the invented boundary experiment.
+The recurring companion dossier from [Databases and SQL](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/databases-sql.md) concerns names, status, language use and territorial membership. Its people and boundary experiment are explicitly synthetic. They are not reconstructed biographies of people in the authentic archival-friction newspaper. The [downloadable packet](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/contested-models-v1.zip) also contains an authentic Ljubljana plan and current landmark coordinates. Keep these evidence classes separate: the historical plan does not authenticate the invented boundary experiment.
 
 ## The argument: coordinates are qualified claims
 
@@ -3856,7 +3857,7 @@ The packet supplies the public-domain-labelled dLib scan, six first-pass landmar
 | Leave out the western fitted point, check it afterwards | 1,090.241 | exposes weak spatial support and extrapolation |
 | Cathedral check alone | 142.481 | re-examine the selected feature and coordinate referent |
 
-These outputs can be reproduced without QGIS. The paired [georeferencing workflow](../workflows/mapping/georeference-and-check-a-historical-map-in-qgis.md) adds the GUI procedure, saving the transformation and inspecting a current landmark layer. The interface procedure still requires a recorded QGIS review; the numerical pilot is not a claim that the resulting raster has been visually validated.
+These outputs can be reproduced without QGIS. The paired [georeferencing workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/georeference-and-check-a-historical-map-in-qgis.md) adds the GUI procedure, saving the transformation and inspecting a current landmark layer. The interface procedure still requires a recorded QGIS review; the numerical pilot is not a claim that the resulting raster has been visually validated.
 
 Do not delete a bad check merely to improve a score. Reopen the source image, inspect the reference description and record whether a point was misidentified, moved, generalized or insufficiently precise. Save a corrected run separately. A low fitted RMSE alongside a poor independent result is useful evidence about the limits of the model.
 
@@ -3871,7 +3872,7 @@ The boundary experiment uses an explicitly fictional 1,000-metre square in a loc
 
 Under centre-point classification, A's territorial affiliation changes without migration. Under the uncertainty envelope, membership cannot be uniquely assigned from geometry alone. The ±75 metres is a stipulated sensitivity range, not a measured confidence interval. The unresolved workplace mention must not replace the residence assertion.
 
-The [dated-place workflow](../workflows/mapping/model-changing-place-names-and-boundaries.md) reproduces this table. An actual historical project would additionally need evidence for the boundary date, geometry, residence continuity and administrative meaning. The synthetic calculation establishes logical consequences, not historical facts.
+The [dated-place workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/model-changing-place-names-and-boundaries.md) reproduces this table. An actual historical project would additionally need evidence for the boundary date, geometry, residence continuity and administrative meaning. The synthetic calculation establishes logical consequences, not historical facts.
 
 ## Spatial joins and missingness
 
@@ -3913,16 +3914,16 @@ One representation need not carry everything. Relational tables preserve queryab
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
-    - [How do I georeference and check a historical map in QGIS?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/georeference-and-check-a-historical-map-in-qgis/)
-    - [How do I model changing place names and boundaries?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/model-changing-place-names-and-boundaries/)
-    - [How do I map places mentioned in a text?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/map-places-mentioned-in-a-text/)
-    - [How do I build a simple cultural heritage map?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/mapping/build-a-simple-cultural-heritage-map/)
-    - [How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/)
+    - [How do I georeference and check a historical map in QGIS?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/georeference-and-check-a-historical-map-in-qgis.md)
+    - [How do I model changing place names and boundaries?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/model-changing-place-names-and-boundaries.md)
+    - [How do I map places mentioned in a text?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/map-places-mentioned-in-a-text.md)
+    - [How do I build a simple cultural heritage map?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/mapping/build-a-simple-cultural-heritage-map.md)
+    - [How do I visualise uncertainty in humanities data?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/visualise-uncertainty-in-humanities-data.md)
 
     **Inspect a case study**
 
-    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)
-    - [Medieval notarial NER workflow](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/medieval-ner/)
+    - [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md)
+    - [Medieval notarial NER workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/medieval-ner.md)
 <!-- handbook-ecosystem:end -->
 
 ## Practice
@@ -3975,7 +3976,7 @@ After this chapter, you should be able to:
 
 Four individually labelled people appear in one newspaper issue. Does that make them a connected political circle? Under a same-issue rule, they generate six undirected pairs. Under a correspondence rule, the same observations establish no letters between them. Neither result says that the people never interacted. The difference concerns what the selected records support.
 
-The authentic archival-friction packet supplies this starting problem. The [companion packet](../../assets/downloads/contested-models-v1.zip) preserves the original observation identifiers and source locators, then adds a clearly synthetic six-person dossier to make controlled comparisons possible. No invented letter or biography is attributed to a real newspaper subject. Before calculating anything, write one sentence defining the relation you want to investigate and another defining what your records actually observe.
+The authentic archival-friction packet supplies this starting problem. The [companion packet](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/contested-models-v1.zip) preserves the original observation identifiers and source locators, then adds a clearly synthetic six-person dossier to make controlled comparisons possible. No invented letter or biography is attributed to a real newspaper subject. Before calculating anything, write one sentence defining the relation you want to investigate and another defining what your records actually observe.
 
 ## The argument: an edge is an accountable claim
 
@@ -3983,7 +3984,7 @@ A graph consists of nodes and edges, but historical relations arrive through sou
 
 Distinguish four levels. An **observed record relation** links a named participant to an inspected document. An **asserted relation** reports what that document says. An **inferred relation** depends on an explicit interpretive rule. A **co-occurrence relation** joins entities sharing a chosen container, without asserting interaction. Even an inspected document can misidentify someone or report an event inaccurately.
 
-A useful edge record therefore includes endpoints, relation type, direction, evidence identifier, source locator, date interval, confidence and construction rule. Keep the source wording or a recoverable passage. A plotted line should lead back through these decisions. [Models, evidence and interpretation](models-evidence-interpretation.md) provides the broader framework for separating data construction from historical explanation.
+A useful edge record therefore includes endpoints, relation type, direction, evidence identifier, source locator, date interval, confidence and construction rule. Keep the source wording or a recoverable passage. A plotted line should lead back through these decisions. [Models, evidence and interpretation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/models-evidence-interpretation.md) provides the broader framework for separating data construction from historical explanation.
 
 ## Choosing nodes and resolving identity
 
@@ -4098,7 +4099,7 @@ A sensitivity analysis varies a defensible assumption while holding other choice
 
 Record which conclusions survive. “C has the highest degree in the threshold-2 shared-document projection” is reproducible. “C was the most important person” is unsupported. “E's intermediary position is sensitive to `SYN-D6`” accurately reports the experiment. Do not average incompatible edge semantics into a supposedly more robust social network.
 
-The [comparison workflow](../workflows/networks/compare-bipartite-and-projected-networks.md) produces the tables, and the [claim-audit workflow](../workflows/networks/audit-a-network-claim-against-source-records.md) returns selected edges to the dossier. Include inconvenient counterexamples, not just the central node that fits your initial interpretation.
+The [comparison workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/networks/compare-bipartite-and-projected-networks.md) produces the tables, and the [claim-audit workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/networks/audit-a-network-claim-against-source-records.md) returns selected edges to the dossier. Include inconvenient counterexamples, not just the central node that fits your initial interpretation.
 
 ## Visualization, accessibility and ethics
 
@@ -4118,17 +4119,17 @@ Ask which distinctions must be queryable, which must remain recoverable and whic
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
-    - [How do I compare bipartite and projected networks?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/compare-bipartite-and-projected-networks/)
-    - [How do I audit a network claim against source records?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/audit-a-network-claim-against-source-records/)
-    - [How do I summarize data with PivotTables and transparent charts?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts/)
-    - [How do I build a source-linked co-occurrence network?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/networks/build-a-cooccurrence-network/)
-    - [How do I build a collocation graph from AntConc to Cytoscape?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape/)
-    - [How do I visualise uncertainty in humanities data?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/visualization/visualise-uncertainty-in-humanities-data/)
+    - [How do I compare bipartite and projected networks?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/networks/compare-bipartite-and-projected-networks.md)
+    - [How do I audit a network claim against source records?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/networks/audit-a-network-claim-against-source-records.md)
+    - [How do I summarize data with PivotTables and transparent charts?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md)
+    - [How do I build a source-linked co-occurrence network?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/networks/build-a-cooccurrence-network.md)
+    - [How do I build a collocation graph from AntConc to Cytoscape?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/build-a-collocation-graph-from-antconc-to-cytoscape.md)
+    - [How do I visualise uncertainty in humanities data?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/visualization/visualise-uncertainty-in-humanities-data.md)
 
     **Inspect a case study**
 
-    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)
-    - [Dialogue corpus tabulation and lexical-diversity analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/pracomul/)
+    - [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md)
+    - [Dialogue corpus tabulation and lexical-diversity analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/pracomul.md)
 <!-- handbook-ecosystem:end -->
 
 ## Practice
@@ -4167,339 +4168,567 @@ Networks formalize selected relations, not the social world in its entirety. Nod
 
 ## AI, ethics and reproducibility
 
+When a newspaper claims to speak for a whole nation, what would establish that
+claim as more than political rhetoric? A fluent summary can quietly turn the
+newspaper's assertion into the researcher's finding. The problem begins before
+an invented quotation appears: it begins when the relationship between evidence
+and argument disappears. Responsible use of artificial intelligence (AI) makes
+that relationship inspectable, including decisions to correct, qualify or
+withhold an output.
+
+!!! note "Editorial status"
+    This chapter and its teaching simulations are machine-assisted drafts,
+    pending scholarly and competent human Slovene-language review. The examples
+    below are authored teaching simulations, not reported generative-model runs
+    or evidence of completed human validation.
+
 ## Learning outcomes
 
 After this chapter, you should be able to:
 
-- distinguish reproducibility, replicability and transparency;
-- document data, code, models, prompts and environments as research materials;
-- identify privacy, copyright, representational and labour risks in digital-humanities projects;
-- design source-grounded uses of generative AI and verify their outputs;
-- create a release package that another person can inspect and rerun.
+- match computational outputs to the claims they can support;
+- distinguish technical repeatability, computational reproducibility,
+  robustness, evidential auditability and interpretive accountability;
+- preserve a source-to-claim trail when an exact model rerun is unavailable;
+- design stratified validation, baseline comparison and an abstention rule;
+- turn privacy, rights, inclusion and resource concerns into workflow decisions;
+- document assistance, corrections, human disagreement and remaining uncertainty.
 
 ## Before you begin
 
-A chatbot produces a fluent summary with three convincing quotations. One quotation is slightly altered, one belongs to another author and one does not exist. The problem is not merely that “AI can hallucinate.” The workflow asked a generative system to act as a source of evidence without preserving a verifiable path back to the documents.
+Read one archival paragraph and identify its speaker, audience and strongest
+claim. Distinguish what it asserts from what you could independently establish.
+Would a translation preserve the distinction? You need basic source criticism,
+document identifiers and the distinction developed in
+[Models, evidence and interpretation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/models-evidence-interpretation.md).
+You do not need an AI account. The practice can use the preserved packet and
+authored outputs alone; running an external service is optional and requires an
+appropriate institutional data arrangement.
 
-This chapter addresses safeguards within a project. For the upstream collections, standards, interfaces, labour and maintenance that condition such a project, read [Infrastructures of digital humanities: power, access and maintenance](critical-infrastructures.md).
+## Start with the output, then assess the claim
 
-The worked example in [Digital humanities in Slovenia](digital-humanities-in-slovenia.md) shows how rights, model validation, repository choice, versioning and maintenance apply across a plausible local research chain.
+AI names a heterogeneous group of systems, not one method. A **predictive or
+classification model** assigns labels or scores under a learned relationship:
+for example, a paragraph may receive a political-stance label. That supports a
+claim about performance against a specified codebook on evaluated material,
+not direct access to an author's beliefs. **Generative language models** produce
+text conditioned on instructions and context. A useful draft remains a
+candidate representation; grammatical fluency and plausible citations cannot
+establish historical truth.
 
-## Reproducibility is a design choice
+**Embeddings** represent items as vectors. **Retrieval** uses a query and a
+ranking procedure to select candidate passages. Semantic proximity may help
+find differently worded material, but neither proximity nor rank establishes
+agreement, attribution or complete coverage. A retrieval-augmented generator
+therefore has two questions to answer: did retrieval supply the relevant
+evidence, and did generation use it faithfully? Failure at the first stage
+cannot be repaired by a confident answer at the second. Acquiring sources for
+a research collection is a broader decision about material and access, not
+merely this computational retrieval step.
 
-A result is **computationally reproducible** when another person can use the same data, code and environment to obtain the same or acceptably equivalent output. **Replicability** often refers to testing the claim with independently collected data or another implementation. **Transparency** means the relevant decisions, transformations and limitations are available for inspection.
+**OCR, handwriting recognition (HTR) and probabilistic enrichment** propose
+readings, entities or linguistic structures. Their outputs remain distinct
+from the document they describe. Conversely, a **rule-based system** may apply
+a dictionary or regular expression without learning anything; a vendor's AI
+label does not change that mechanism. A transparent rule can be an excellent
+baseline, although it can miss irony, historical spelling and context. See
+[Linguistic annotation with CLASSLA](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/linguistic-annotation-classla.md) and
+[Topics, sentiment and emotion](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/topics-emotions-classification.md) for
+layer-specific evaluation.
 
-Humanities projects may involve interpretive steps that cannot be reproduced mechanically. Those steps can still be made transparent through codebooks, decision logs, examples and provenance.
+Deployment is another distinction. A **local** installation can give researchers
+control over executable versions if dependencies and model weights are
+preserved. A **hosted** interface delegates part of that control to a provider.
+An **API** is a programmatic interface, not a privacy or stability guarantee;
+it can expose a local or remote service. Document the actual arrangement.
+A service name alone does not identify its model, hidden instructions, routing,
+retention policy or ability to export research records.
 
-## Record the whole chain
+## Five different promises
 
-A minimal research package should identify:
+This handbook uses **technical repeatability** for repeating the same procedure
+under specified conditions, with byte-identical output only when explicitly
+required. **Computational reproducibility** means that another researcher can
+reconstruct a computation from preserved data, code and environment and obtain
+the stated equivalent result. The National Academies' 2019 report distinguishes
+reproducibility using the same research inputs from replication with new data;
+terminology varies across disciplines, so define the intended test rather than
+assuming a shared label.[^ai-nas]
 
-- source materials and access conditions;
-- data selection and exclusion rules;
-- scripts, queries and manual transformations;
-- software, package and model versions;
-- configuration, random seeds and hardware-sensitive steps;
-- prompts, system instructions and model identifiers for generative AI;
-- intermediate and final outputs;
-- validation procedures and known failures;
-- contributor roles and licences.
+**Robustness** asks whether a conclusion survives defensible changes in prompts,
+models, settings or samples. **Evidential auditability**, supported by
+**traceability**, asks whether a reader can follow each consequential output
+back to supplied sources and transformations. **Interpretive accountability**
+asks whether a researcher explains why evidence warrants a reading, records
+counterevidence and permits reasoned disagreement. Interpretive reproducibility
+need not mean identical interpretations; another scholar must be able to
+reconstruct and assess the route to a conclusion.
 
-A notebook that runs only on the author's laptop is not reproducible. Neither is a repository that omits private data without explaining how authorized researchers can reconstruct the analysis.
+| Proposed assurance | What must be preserved or tested | What it does not establish |
+| --- | --- | --- |
+| Exact repetition | Identical inputs and configuration; declared byte comparison | That the repeated answer is correct |
+| Computational reproducibility | Data, executable code, dependencies, model files or an available snapshot, expected result and tolerance | Validity outside those inputs |
+| Robustness | Bounded changes, all attempted runs, differences and an acceptance rule | Independence of models or universal reliability |
+| Traceability and auditability | Output, passage IDs, source versions, transformations and corrections | That every interpretation is persuasive |
+| Interpretive accountability | Argument, alternatives, reviewer disagreement and final responsibility | Forced agreement or mechanical interpretation |
 
-## Environments and versioning
+A preserved hosted response can be auditable after its model disappears. It
+cannot then be advertised as computationally reproducible merely because its
+prompt survives. Conversely, repeatable extraction can preserve an OCR mistake.
+State which assurance has been demonstrated and which remains unavailable.
+A seed records an input; it does not establish control over every source of
+nondeterminism, proprietary component or hardware-sensitive operation.
 
-Dependencies change. Pin compatible versions in `requirements.txt`, `environment.yml`, a lockfile or a container definition. Include a small smoke test and expected output. Tag public releases and cite the release rather than the moving `main` branch.
+## Preserve the research event
 
-Version data as well as code. A corrected corpus can change counts even when scripts remain identical. Release notes should distinguish content corrections, methodological changes and cosmetic edits.
+Record provider, model identifier, version or dated snapshot if available,
+actual UTC date/time, and interface or API. Preserve permitted system and user
+instructions, examples, conversation history, generation parameters and
+retrieval configuration. Retrieval records need the query, index version,
+embedding model, chunking, filters, ranking and selected passages in supplied
+order. Keep source documents with stable passage IDs, hashes and access
+conditions; record preprocessing, normalization, translation and truncation.
+If an interface silently shortens context, mark the supplied extent unknown.
 
-## Ethical review begins before collection
+Save original output separately from a correction log and corrected candidate.
+Add the validation protocol and actual sample, reviewer decisions, code and
+package environment, relevant hardware, elapsed time and monetary cost. Mark
+a proprietary detail `unknown`, a withheld item `redacted` with a reason and
+access route, and an unperformed action `not_run`. These differ from numeric
+zero. Never include credentials in the public record. Archive a permitted
+configuration export, not screenshots alone: screenshots can omit settings
+and obstruct accessible reuse.
 
-Ask before acquiring data:
+The [documentation and audit workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ai/document-and-audit-a-source-grounded-ai-analysis.md)
+provides a record to fill. Service capabilities, terms and prices should be
+checked and dated for the service actually selected. This chapter makes no
+current provider-specific guarantee; its source audit date is 7 September 2026.
+Link the research package to a versioned scholarly output using
+[The living open handbook](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/open-living-handbook.md), while keeping restricted
+evidence under an authorized access procedure.
 
-- Were the materials created for public circulation or a limited context?
-- Do legal access and ethical permission point in the same direction?
-- Could quotation, linking or aggregation expose a person who was obscure in the source context?
-- Are there vulnerable communities, minors, health data or family histories?
-- Does a platform's interface make data visible while its terms or social norms discourage bulk collection?
-- Who bears the work of cleaning, annotation and moderation, and is that labour credited?
+## Worked example: from national consensus to an attributed claim
 
-“Publicly accessible” is not a complete ethical argument.
+Our question is: how does *Ilustrirani Slovenec* construct political unity?
+Use the [archival-friction packet](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/archival-friction-v1.zip)
+and [text/NLP packet](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/text-nlp-validation-v1.zip).
+The historical object is *Ilustrirani Slovenec*, 7 February 1925, volume 1,
+number 7, dLib identifier `URN:NBN:SI:doc-YPI8OFSU`.[^ai-archive]
+The locator is PDF page 1, introductory paragraph beneath the title,
+`AF-OCR-P1-INTRO`, sentence beginning `Tudi danes`. In the NLP packet,
+`raw/annotation-samples.csv` preserves this selection as `TNLP-AF-REF` and
+`TNLP-AF-OCR`, with hashes and extraction provenance. The reference transcription,
+provider OCR and machine-assisted linguistic annotations are different layers.
 
-## Copyright, licensing and reuse
+Begin with a clean control: `source/contemporary-sample.csv`, record `TNLP-C02`,
+sentence 1. Its handbook-authored synthetic researchers check transcriptions
+and explain uncertainty. An acceptable description reports those two actions
+without inventing a project or outcome. It demonstrates the desired task on
+explicit wording, not performance on historical archives. The control and
+historical passage must never be pooled as independent historical observations.
 
-Separate rights in source materials, annotations, code, documentation and outputs. A corpus may be shareable only as metadata, identifiers, derived features or scripts that authorized users can run locally. Do not assume that an open repository makes every included object openly licensed.
+Now audit this **authored simulation of a faulty English AI summary**:
+“The article documents unanimous Slovenian support for the Slovene People's
+Party. A national survey confirms that differences of worldview no longer
+matter.” This machine-assisted teaching simulation does not come from a
+documented model experiment. Its polished form lets
+students examine an attribution error, an invented evidential basis and an
+erased uncertainty without submitting sources to a service. An accompanying
+**simulated quotation record** copies `stavovske` and `narodain` from the OCR
+and labels them “scan-verified quotation”. That label is deliberately false;
+A03 audits this additional authored record, not words in the English summary.
 
-For each component, state:
+| Record | Simulated failure | Source check | Correction and consequence |
+| --- | --- | --- | --- |
+| A01 | National consensus presented as established fact | `TNLP-AF-REF`; the paragraph asserts unity but supplies no independent population evidence | Attribute the claim to the newspaper; withdraw the conclusion about measured public support |
+| A02 | A national survey is invented | `AF-OCR-P1-INTRO`, complete paragraph; no survey is named | Delete the survey claim; record `unsupported_claim`, not a missing citation to be guessed |
+| A03 | OCR wording is treated as a reliable quotation | Compare `TNLP-AF-OCR` with `TNLP-AF-REF` and PDF page 1; OCR includes `stavovske` and `narodain` | Cite a checked transcription; preserve the OCR error and correction separately |
+| A04 | English wording removes the attributed political voice | Re-read the Slovene passage and its party reference; compare translation with the original | Label the English rendering a paraphrase and retain a Slovene locator |
 
-- rights holder or source;
-- licence or legal basis;
-- permitted redistribution;
-- attribution requirements;
-- access restrictions and takedown procedure.
+The corrected teaching interpretation is narrower: the introductory paragraph
+presents support for the party as service to collective national freedom and
+subordinates differences of outlook to that claim. It is evidence of the
+publication's rhetoric, not a survey of Slovenians. Assessing reception requires
+other evidence. The scan must arbitrate a proposed quotation; an English
+translation cannot pass a character-exact test against a Slovene original.
+An independent reader should inspect the full paragraph and challenge this
+interpretation. That human review is proposed, not claimed as completed.
 
-Use the least restrictive licence you can legitimately grant, not one you merely prefer.
+## Validate decisions, not the appearance of competence
 
-## Bias and representational harm
+Break outputs into checkable claims and inspect omissions as well as assertions.
+An exact quotation check establishes that characters occur in a source; it does
+not establish the correct speaker, date, scope or context. Check the locator
+against the preserved document, then examine surrounding evidence and the
+strength of the conclusion. Use precise error categories: invented claim,
+misattribution, altered quotation, wrong locator, omitted qualification,
+retrieval omission and unsupported translation. “Hallucination” here means
+generated content fabricated or unsupported in the relevant evidential context;
+a specific category is usually more useful. NIST's generative-AI risk profile
+treats such confabulation alongside other system risks.[^ai-nist]
 
-Digital collections overrepresent what was preserved, digitized, catalogued, legible to OCR and available under workable rights. Models add biases from training data, annotation categories and performance differences across languages and communities.
+Choose a validation sample before optimizing prompts. Include a random sample
+of ordinary material and deliberate strata for historical orthography, damaged
+OCR, quotation, irony, language and genre. Record sample IDs and the denominator
+for every rate; zero examined cases yield an undefined rate, not perfect
+accuracy. Oversampling difficult passages diagnoses weaknesses but does not
+estimate a collection-wide error rate without appropriate weighting. Report
+small counts and uncertainty, including important cases excluded from the sample.
 
-Evaluation should therefore include:
+Have two readers independently apply a short codebook to selected claims where
+feasible. Preserve their initial decisions, reasons and locators before
+discussion. Adjudication records the chosen treatment and remaining
+disagreement; majority agreement does not turn ambiguity into certainty.
+Reference annotations are research judgements with review status, not neutral
+ground truth. A classroom exercise can inspect every output; a larger project
+needs an explicit sampling and escalation plan.
 
-- coverage by relevant group, genre, period and language;
-- missingness and survival bias;
-- subgroup error rates;
-- examples of harmful or stereotyped output;
-- consultation where communities are represented or named;
-- limits on claims and publication of sensitive details.
+For classifiers, calibration compares predicted confidence with observed
+correctness on suitable held-out material. A score of 0.9 is not automatically
+a 90% chance of correctness. Guo and colleagues demonstrate that neural-model
+confidence can be poorly calibrated.[^ai-calibration] Select calibration and
+abstention thresholds on validation data, then evaluate on an untouched test
+set. Report error and coverage: refusing half the cases changes what the system
+describes. Inspect refusals by stratum so abstention does not systematically
+erase minoritized language. A generator's confident wording is not this kind of
+measured probability.
 
-A model can be technically accurate on average while reproducing a harmful historical category or failing precisely on minoritized material.
+Compare against a baseline: manual source extraction, keyword retrieval or a
+small rule set, evaluated on the same task and units. Include review time and
+missed evidence. Keep evaluation documents out of training and prompt examples;
+near-duplicate newspaper pages can leak across apparently separate splits.
+Unknown proprietary training data limit claims of contamination-free testing.
+Benchmark success on contemporary English does not establish performance on
+historical Slovene. Ask whether the method improves this research operation
+under its stated conditions.
 
-## Source-grounded generative AI
+## Test robustness within a defensible budget
 
-Generative AI is most defensible when it transforms or navigates supplied sources and every important assertion can be checked.
+Change one factor at a time: prompt wording, examples, passage order, retrieval
+depth, context length or model. Repeat a fixed condition to observe run
+variation, preserving failures and refusals. Liu and colleagues found positional
+effects in the long-context tasks they studied; that motivates testing passage
+order, not a universal claim about every present model.[^ai-context]
+The [robustness workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ai/compare-ai-output-across-prompts-models-and-runs.md)
+compares consequential changes in attribution, evidence, uncertainty and
+omission, separating them from stylistic variation.
 
-A source-grounded workflow might:
+Scoped red-teaming deliberately tests plausible failure conditions: a
+misleading heading, contradictory passages or an instruction embedded in a
+document. Treat source text as evidence, never as authority to change the
+research procedure. Use authorized nonsensitive examples and a stop condition.
+The exercise assesses a bounded vulnerability, not a competition to defeat a
+chatbot. Agreement among models is not independent corroboration: they may
+share data and failure patterns.
 
-1. retrieve bounded passages from a documented collection;
-2. ask the model to summarize or classify only those passages;
-3. require passage identifiers and quoted evidence;
-4. automatically check that quoted spans exist;
-5. have a human verify interpretation and omissions;
-6. preserve prompt, model, parameters, retrieved context and output;
-7. compare against a non-generative baseline where possible.
+## Make ethical decisions change the workflow
 
-Do not let citations generated from memory enter a bibliography unchecked. Treat model confidence language as rhetoric, not calibrated probability.
+A private letter can expose living relatives; removing a name may leave an
+identifiable combination of events. Before sending material elsewhere, map
+which personal or sensitive data cross the boundary, who can access them,
+retention and deletion arrangements, training use, and contractual restrictions.
+Minimize the submitted excerpt or use a controlled local route. Institutional
+procurement and data-protection staff should resolve an uncertain lawful basis
+or processing arrangement before transfer. EDPB guidance explains purpose
+limitation, minimization and protection of sensitive data; public availability
+does not settle those obligations.[^ai-privacy]
 
-## Human responsibility and disclosure
+Rights decisions apply separately to source documents, annotations, models,
+software and outputs. Permission to read a source need not permit redistribution
+or submission to a third party. Check licences, terms of service, institutional
+contracts and attribution conditions; record version and access date. Generated
+output can reproduce protected expression, so a provider's permission to use an
+output does not clear every underlying right. Where rights remain uncertain,
+publish identifiers and a reconstruction procedure rather than unlicensed
+copies, and record the issue for specialist review.
 
-A tool cannot accept authorship responsibility, obtain consent or judge whether a publication harms a living person. Name who made final decisions. Disclose AI assistance at the level relevant to readers: ideation, translation, coding, classification, copy-editing or generation.
+Cultural authority exceeds individual consent. A collection holder may not
+speak for the community whose knowledge it contains. The CARE Principles for
+Indigenous Data Governance foreground collective benefit, authority to control,
+responsibility and ethics.[^ai-care] Their specific Indigenous context must not
+be flattened into a generic checklist. Ask who can decide permitted uses,
+review descriptions and request restriction, and budget participation. Do not
+reproduce a colonial or partisan category as a neutral classifier label without
+explaining its origin and consequences.
 
-Disclosure should enable evaluation, not perform ritual confession. “AI was used” is too vague; “Model X, version/date, classified 1,200 paragraphs under codebook Y; two annotators reviewed all low-confidence and a 20% random sample” is useful.
+Language and domain inequality become visible through stratified errors,
+retrieval omissions and correction effort. Avoid translating everything into
+English simply because one system performs better there: retain the original
+and audit semantic changes. Prevent automation bias by asking reviewers to read
+sources before candidate answers. Preserve opportunities to practise source
+criticism so assistance does not replace the skill needed to detect failure.
+Credit annotation, transcription, translation and moderation labour; record
+known working arrangements without inventing claims about unseen workers.
 
-## Worked example: an AI-assisted archive guide
+Assistive uses can widen access through reading support, transcription or draft
+descriptions. Test outputs with their intended users: a shortened text can omit
+uncertainty, and fluent image description can invent a detail. Offer an
+accessible source-linked alternative and a correction route. Participation
+should not require a paid account or disclosure of disability to a provider.
 
-A team uses a language model to draft descriptions of archival folders.
-
-1. Limit inputs to authorized catalogue notes and selected documents.
-2. Define required fields and forbidden inferences.
-3. Require source identifiers for each claim.
-4. Test extraction accuracy on a manually prepared sample.
-5. flag names, sensitive information and uncertain dates for review;
-6. compare performance across languages and document types;
-7. keep the generated description separate from the archival record until approved;
-8. record reviewer, date and changes;
-9. publish the model-use statement and correction channel.
-
-The system accelerates drafting; archivists remain responsible for description and access decisions.
+Financial and environmental proportionality belong in method selection.
+Luccioni, Jernite and Strubell measure inference energy across tasks and models,
+showing why deployment choices matter.[^ai-energy] Set a run budget, cache permitted
+results and compare simpler methods. Record tokens or elapsed computation and
+available energy measurements with their boundaries; unknown provider energy
+is not zero, and a per-query carbon estimate is not universal. Include expert
+checking costs when deciding whether assistance helps.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
-    - [How do I revise claims, evidence, and paragraphs?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs/)
-    - [How do I audit AI output against source documents?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ai/audit-ai-output-against-source-documents/)
-    - [How do I decide whether a digitised source should be public?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/ethics/decide-whether-a-digitised-source-should-be-public/)
-    - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)
-    - [How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/)
-    - [How do I install Python packages with pip?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/install-python-packages-with-pip/)
-    - [How do I evaluate CLASSLA on a domain-specific sample?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/nlp/evaluate-classla-on-a-domain-specific-sample/)
-    - [How do I test topic-model stability and interpretability?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/test-topic-model-stability-and-interpretability/)
-    - [How do I analyse emotion with a lexicon and a manual check?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check/)
+    - [How do I document and audit a source-grounded AI analysis?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ai/document-and-audit-a-source-grounded-ai-analysis.md)
+    - [How do I compare AI output across prompts, models and runs?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ai/compare-ai-output-across-prompts-models-and-runs.md)
+    - [How do I revise claims, evidence, and paragraphs?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md)
+    - [How do I audit AI output against source documents?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ai/audit-ai-output-against-source-documents.md)
+    - [How do I decide whether a digitised source should be public?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/ethics/decide-whether-a-digitised-source-should-be-public.md)
+    - [How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md)
+    - [How do I automate a linguistic workflow with a Makefile?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/automation/automate-a-linguistic-workflow-with-a-makefile.md)
+    - [How do I install Python packages with pip?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/install-python-packages-with-pip.md)
+    - [How do I evaluate CLASSLA on a domain-specific sample?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md)
+    - [How do I test topic-model stability and interpretability?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/test-topic-model-stability-and-interpretability.md)
+    - [How do I analyse emotion with a lexicon and a manual check?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md)
 
     **Inspect a case study**
 
-    - [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/)
-    - [Website crawler and chatbot corpus builder](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/fifi/)
-    - [User/AI transcript analysis](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/createai/)
-    - [Slovenian comma-checking Word add-in](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/vejice-add-in/)
+    - [Source-grounded Slovenian language advisor](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/jezikovni-svetovalec.md)
+    - [Website crawler and chatbot corpus builder](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/fifi.md)
+    - [User/AI transcript analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/createai.md)
+    - [Slovenian comma-checking Word add-in](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/vejice-add-in.md)
 <!-- handbook-ecosystem:end -->
 
 ## Practice
 
-Create a reproducibility and ethics checklist for one project. Include data rights, privacy, selection bias, model versions, random elements, human review, validation, release files, citation and a response plan for errors or takedown requests.
+Using the two packet passages, create a source register and audit the four
+simulated failures. Add one omission that would change the historical argument.
+Write a corrected 80-word interpretation and preserve both versions. Have a
+partner apply your codebook before comparing decisions; if no partner is
+available, mark human review pending. Complete the audit record, then design
+the bounded robustness exercise without claiming unperformed runs. Submit the
+claim table, sample IDs, disagreement note, cost ceiling and one reason to
+abstain. Assessment concerns evidence and decisions, not access to an expensive
+model.
 
 ## Reflection
 
-- Which parts of your workflow cannot be shared, and how can they still be documented?
-- Who is represented in the data but absent from project decision-making?
-- Would the result survive a changed model or unavailable web service?
+Which parts could another scholar rerun, which could they only inspect, and
+which might they reasonably dispute? Who bears the consequences of a missed
+qualification? Would publishing the complete audit expose information the
+research should protect? Explain one place where a methodological limit
+requires narrowing the claim rather than improving the prompt.
 
 ## Summary
 
-Responsible digital humanities combines technical repeatability with ethical accountability. Preserve the chain from source to output, version code and data, state rights and limits, test performance where harm or bias may concentrate and keep generative AI grounded in verifiable evidence. Reproducibility is not a folder added at the end; it is the architecture of a research process that others can inspect, challenge and improve.
+AI assistance becomes scholarly work through preserved evidence, explicit
+tests and accountable interpretation. Disclose what assistance did, what people
+checked and what remains unresolved; disclosure alone does not authorize the
+practice. ALLEA's research-integrity code places responsibility on researchers
+and institutions.[^ai-integrity] A useful assistance statement identifies the
+task, model record, affected material, validation and responsible contributors.
+Keep it with the versioned publication so corrections change the argument
+visibly rather than silently replacing its evidential history.
+
+## Further reading
+
+- National Academies of Sciences, Engineering, and Medicine. 2019.
+  *Reproducibility and Replicability in Science*.
+  [Report and DOI](https://doi.org/10.17226/25303). Read for explicit definitions.
+- Autio, Chloe, et al. 2024. *Artificial Intelligence Risk Management Framework:
+  Generative Artificial Intelligence Profile*. NIST AI 600-1.
+  [Report](https://doi.org/10.6028/NIST.AI.600-1). Use to develop scoped risk tests.
+- Guo, Chuan, Geoff Pleiss, Yu Sun, and Kilian Q. Weinberger. 2017.
+  “On Calibration of Modern Neural Networks.” *PMLR* 70: 1321–1330.
+  [Paper](https://proceedings.mlr.press/v70/guo17a.html).
+- Liu, Nelson F., et al. 2024. “Lost in the Middle: How Language Models Use
+  Long Contexts.” *Transactions of the Association for Computational Linguistics*
+  12: 157–173. [Paper](https://aclanthology.org/2024.tacl-1.9/).
+- Carroll, Stephanie Russo, et al. 2020. “The CARE Principles for Indigenous
+  Data Governance.” *Data Science Journal* 19: 43.
+  [Paper](https://datascience.codata.org/en/articles/dsj-2020-043).
+- Luccioni, Sasha, Yacine Jernite, and Emma Strubell. 2024. “Power Hungry
+  Processing: Watts Driving the Cost of AI Deployment?” *FAccT '24*: 85–99.
+  [DOI](https://doi.org/10.1145/3630106.3658542).
+- ALLEA. 2023. *The European Code of Conduct for Research Integrity*, revised
+  edition. [Code and translations](https://allea.org/code-of-conduct/).
+
+[^ai-nas]: [National Academies report](https://doi.org/10.17226/25303), 2019. The five-part distinction is a teaching convention, not universal terminology.
+[^ai-archive]: [dLib bibliographic record](https://www.dlib.si/details/URN:NBN:SI:doc-YPI8OFSU), checked 7 September 2026. Consult the packet's rights and transcription policies before reuse.
+[^ai-nist]: [NIST AI 600-1](https://doi.org/10.6028/NIST.AI.600-1), 2024. The error categories operationalize this concern for source-based humanities work.
+[^ai-calibration]: [Guo et al.](https://proceedings.mlr.press/v70/guo17a.html), 2017.
+[^ai-context]: [Liu et al.](https://aclanthology.org/2024.tacl-1.9/), 2024.
+[^ai-privacy]: European Data Protection Board, [Data protection basics](https://www.edpb.europa.eu/sme/learn-the-basics/data-protection-basics_en), consulted 7 September 2026. Applicability and institutional arrangements require case-specific assessment.
+[^ai-care]: [Carroll et al.](https://datascience.codata.org/en/articles/dsj-2020-043), 2020; [Global Indigenous Data Alliance](https://www.gida-global.org/careprinciples), consulted 7 September 2026.
+[^ai-energy]: [Luccioni, Jernite and Strubell](https://doi.org/10.1145/3630106.3658542), 2024; [author manuscript](https://arxiv.org/abs/2311.16863).
+[^ai-integrity]: [ALLEA code](https://allea.org/code-of-conduct/), revised edition 2023. All linked sources were checked on 7 September 2026; this is a source-access date, not a human-review date.
 
 ---
 
 ## The living open handbook
 
+!!! warning "Editorial status"
+    This expanded chapter is a machine-assisted draft awaiting continuous scholarly and competent human Slovene-language review. Its examples describe publication decisions, not completed releases or assigned identifiers.
+
 ## Learning outcomes
 
 After this chapter, you should be able to:
 
-- distinguish a living edition from a stable reviewed release;
-- cite a versioned digital publication correctly;
-- design contribution, review and translation workflows;
-- explain how Git, GitHub Pages and an archive serve different publication functions;
-- evaluate whether an update requires a patch, minor or major release.
+- distinguish source history, a generated edition, a release package and a scholarly publication record;
+- state what a review covers and what a version number does not establish;
+- trace a correction from evidence through publication to later citation;
+- prepare a release manifest with review, translation, rights and accessibility status;
+- separate student assessment, consent to publication and contributor credit;
+- plan preservation, maintenance and succession within realistic resources.
 
 ## Before you begin
 
-A printed software tutorial can be obsolete before students open it. A constantly changing website can be impossible to cite or review. The solution is not to choose between permanence and change. It is to give each a defined layer.
+How can a reader criticize an interpretation if its evidence and wording change between reading and citation? Conversely, what responsibility does an editor have when a widely cited teaching resource contains an error? These questions connect textual scholarship with the practical organization of digital publishing. A living publication must make change intelligible without presenting yesterday's claim as today's knowledge.
 
-Publication is itself an infrastructure of repositories, standards, review roles and maintenance commitments. [Infrastructures of digital humanities](critical-infrastructures.md) provides the broader grounding for asking who sustains that system, who can access it and what happens when a dependency disappears.
+Recall a digital edition or teaching site you used. Could you identify its authors, version, last substantive review and preservation arrangement? Distinguish what the page disclosed from what you inferred from its institutional logo. You need basic familiarity with source files and the distinction between evidence and interpretation; publishing permissions are unnecessary for the exercises. The inputs are a small publication inventory and a correction scenario. The outputs are documentary records that another editor can assess.
 
-## Two editions, one publication
+## Two tempos and a bounded claim to authority
 
-This handbook separates:
+A reviewed edition establishes a bounded scholarly object: these chapters, in these languages, with these examples, were reviewed at this revision. The living edition provides a continuing place for corrections and developing work. Their relationship is editorial, not merely chronological. A recent workflow may be useful but provisionally tested; an older reviewed chapter may retain conceptual value despite an obsolete interface illustration. Neither recency nor a version number substitutes for evidence about review scope.
 
-1. the **living edition** on the default branch, where corrections, new workflows and translations are developed; and
-2. a **stable release**, identified by a version tag, date and archived snapshot.
+This handbook places its slowly changing chapters and learning paths beside a faster workflow library. The default branch, `main`, supports the living edition; numbered releases are intended as frozen, reviewed snapshots. A release manifest must specify which practical pages belong to the reviewed edition and which remain companion material. English fallback in the Slovene workflow library provides access, but it is not a completed translation. A claim that the entire repository has been reviewed or fully translated would exceed such a bounded manifest.
 
-The living edition supports teaching and maintenance. The stable release is the object of formal review, citation and preservation. Readers can always see which edition they are using.
+The distinction also makes openness assessable. UNESCO's 2019 OER Recommendation connects open licensing with capacity, inclusion and sustainable provision. For this handbook, the editorial implication is to budget review and maintenance alongside new content, and to provide a stable reading copy when continuing development is unaffordable.[^living-oer]
 
-This model is common in software and data publishing, but it also suits fields whose methods and interfaces change rapidly. The conceptual chapters should change slowly; practical workflows can be updated more frequently.
+## Sources, editions and publication artefacts
 
-## Roles of the publication infrastructure
+Editable source contains arguments, examples, metadata, licences and build instructions. Generated HTML or a review manuscript presents that source to particular readers. Distributed artefacts, such as a source ZIP or static-site archive, are specific byte sequences. They may omit live services, remotely hosted media or externally retrieved data. Before promising offline use, extract a package on another machine, disconnect it from the network and inspect its essential reading paths.
 
-Different components have different jobs:
+A source commit identifies a revision and its history links. A Git tag names a point in that history; an annotated tag can carry a message and attribution. Tags can be replaced or deleted when permissions permit. A GitHub release associates a tag with notes and assets; it is a separate platform object. GitHub's documented immutable-release option protects associated tags and assets when enabled, while release notes remain editable. These properties were checked on 7 September 2026; this chapter does not claim that the option is enabled here.[^living-git][^living-github]
 
-- **Git repository:** source files, history, issues, review and contributions;
-- **GitHub Pages:** readable public web edition;
-- **tagged release:** frozen set of files representing an edition;
-- **archival repository:** long-term record and persistent identifier;
-- **publisher record:** peer review, metadata, cataloguing and institutional recognition;
-- **optional PDF snapshot:** offline, deposit and review format, not the editorial master.
+A scholarly identifier serves another purpose. A DOI or repository identifier connects a publication object to maintained metadata and a landing record; an ISBN belongs to the publisher's bibliographic arrangements. None is a checksum or proof of peer review. Decide with the publisher and deposit institution which object each identifier describes, whether language editions share a record and how versions relate. Zenodo distinguishes using an existing DOI from registering another one; an available registration button is not a reason to create a competing edition record.[^living-zenodo]
 
-No single platform should carry every responsibility. A URL to a branch is not an archive, and a PDF is not a maintainable source.
+Four distinctions from [AI, ethics and reproducibility](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/ai-ethics-reproducibility.md) remain useful. Technical repeatability asks whether an operation can be repeated under specified conditions. Computational reproducibility asks whether preserved source, code, data and environment support reconstruction. Evidential auditability asks whether a claim can be followed to sources and corrections. Interpretive accountability asks why the editor selected those sources and which alternative readings remain defensible. Identical bytes do not answer that last question. An archived PDF may remain auditable without preserving an executable environment.
 
-## Version numbers communicate meaning
+## Versioning requires an editorial judgement
 
-A practical semantic scheme is:
+Semantic Versioning defines major, minor and patch changes against a software interface contract. A humanities argument has no equivalent automatic compatibility test. Borrow the communication convention cautiously, state the local policy and justify each decision.[^living-semver]
 
-- **patch** release, such as 1.0.1: corrections that do not materially change method or learning outcomes;
-- **minor** release, such as 1.1.0: new workflows, translations or backward-compatible additions;
-- **major** release, such as 2.0.0: substantial reorganization, changed methodological recommendations or a newly reviewed edition.
+Under this handbook's policy, a patch repairs a typo, broken instruction or metadata error without changing the teaching argument. A minor release adds substantial reviewed material within the existing architecture. A major release marks a substantially revised method, reorganized argument or newly reviewed edition. A one-word change from “supports” to “contradicts” may need more scrutiny than a hundred corrected links. Count the consequence for readers, not changed lines. A correction that alters the teaching argument must not be called a patch merely because it is small.
 
-Every release should include a changelog, citation metadata and a statement of review status. Do not silently rewrite an archived edition.
+Dates also need defined meanings: source revision, review completion, release publication and later metadata repair may occur separately. A manifest should record the source commit and included paths, languages, translation status, review scope, licences, source hashes, external dependencies and accessibility findings. Record the build environment and distributed artefact checksums separately. Unassigned identifiers remain explicitly pending; a successful build cannot fill them. Publication must wait wherever the chosen edition requires unresolved review or publisher approval.
 
-## Citation and review status
+For a numbered edition, record the author or editor, publication title, edition version and date, chapter or workflow locator, and the assigned identifier or stable access route for that edition. Use the version you actually read, even if a newer one exists. When your object is deliberately the living `main` branch, say “living edition”, record the full source commit, exact page and access date, and provide a commit-specific source link alongside the reading URL. An access date alone cannot identify which of several same-day revisions supported the claim. Classroom citations can follow the same principle without pretending that a semester snapshot is formally peer reviewed.
 
-The site should display:
+## What this handbook currently implements
 
-- current version or development status;
-- publication and last-updated dates;
-- preferred citation;
-- DOI or archival identifier when assigned;
-- editorial and peer-review statement;
-- licences for text, code and data;
-- link to the exact source revision.
+At the repository inspection for this chapter on 7 September 2026, paired Markdown sources, editorial policies, translation reporting, generated review manuscripts and strict site checks were present. The tag-triggered workflow builds source and site archives, copies manuscripts and translation coverage, computes checksums and uploads an Actions artefact. That workflow alone does not demonstrate permanent deposit, attachment of files to a public GitHub release, publisher approval or DOI/ISBN assignment. Citation metadata is not proof that every file received formal review.
 
-A reader citing a research claim should cite the stable version used. A classroom may use the living edition and record the commit or semester release.
+The publisher-coordinated release work is separately scoped in [issue #30](https://github.com/damjan-popic/digital-humanities-handbook/issues/30). It must settle written publisher requirements, identifier responsibilities, package contents and deposit verification before a formal edition is claimed. The [release-planning workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/create-a-versioned-scholarly-release.md) prepares documentary evidence without performing those operations. An existing build script is a useful component; the full publication service remains a responsibility to establish and verify.
 
-## Contribution is not unmoderated editing
+## Worked example: a routine contribution with explicit consent
 
-Openness means that people can propose and inspect changes, not that every change is published automatically. A contribution workflow should require:
+Consider a hypothetical student addition: a bilingual explanation of distinguishing a place-name mention from a person's residence in an oral-history index. Invented interview excerpts avoid exposing participants in the exercise. Its modest claim is that a supplied coding rule separates two relations in these examples, not that all oral histories can be classified automatically.
 
-1. a defined problem and intended audience;
-2. source and rights checks;
-3. a reproducible minimal example;
-4. expected output and failure modes;
-5. editorial and technical review;
-6. language review where relevant;
-7. disclosure of contributor role and licence agreement;
-8. automated checks before merge.
+The student supplies examples, decisions, a counterexample and a credit preference. A peer checks whether the instructions reproduce the expected table. An editor evaluates the historical inference; a Slovene reviewer checks terminology and equivalent instructions; an accessibility reviewer checks headings and reading order. Their records name the revision and scope. A machine-assisted language pass remains a draft contribution to that process, not completed human review.
 
-Students can be genuine contributors. Their work should be credited, reviewed and licensed with informed agreement. Assessment and publication decisions must be separated so that students are not coerced into public authorship.
+Assessment evaluates the submitted research work privately. Publication is offered separately, with an equivalent non-public route, an explanation of the licence and public history, and a clear deadline before release. Declining publication must not reduce the grade. A student may request an agreed public credit form, subject to institutional practice. Release requires rights clearance and editorial acceptance as well as the student's agreement. Later deletion cannot reliably recall copies already redistributed under an open licence.
 
-## Bilingual publication is editorial work
+Once these conditions are met, an editor can accept the workflow into the living edition and propose it for a later minor release. The manifest records which review carried forward. Translation, data curation, software and validation deserve recognition alongside prose authorship. CRediT provides terms for several research roles, but the project must also describe editorial and translation labour in terms contributors recognize; a taxonomy does not settle authorship disputes.[^living-credit]
 
-A language switch is a technical feature; a bilingual handbook requires editorial equivalence.
+## Difficult example: a correction after citation
 
-Each language version needs:
+This scenario is invented; its numbered releases and counts do not describe an existing handbook edition. Suppose a hypothetical `1.0.0` chapter says that a classroom table contains 40 distinct historical letters. Four entries prove to be duplicate representations, leaving 36 distinct letters. The exercise teaches source counting, so its worked conclusion changes, although the chapter architecture remains usable.
 
-- idiomatic terminology rather than mechanical word replacement;
-- aligned learning outcomes and examples;
-- a way to mark missing or outdated translations;
-- reviewers competent in the relevant language and field;
-- translation provenance and date;
-- a policy for changes that affect only one language.
+The editor reproduces the discrepancy, identifies affected passages and tables, and checks both language versions and downloads. The classroom comparison is recalculated; the correction states that the denominator was wrong. Here the editor selects a hypothetical minor `1.1.0`, explicitly reasoning that substantive corrected teaching material fits the existing architecture. A correction overturning the method could require a major reviewed edition. The label records a judgement, not the finding itself.
 
-The versions need not be identical sentence by sentence. They should support equivalent learning and make differences visible. The default language may temporarily provide fallback pages, but missing translations must not masquerade as complete coverage.
+| Publication location | Required visible record in this scenario |
+| --- | --- |
+| Source change | A reviewed paired change explains the duplicate criterion, changes 40 to 36 and revises the inference. |
+| Changelog | An entry identifies the affected `1.0.0` section, substantive correction and planned `1.1.0`. |
+| Erratum | A dated notice states the error, evidence, consequence and replacement; its identifier links the records. |
+| Release notes | `1.1.0` links the erratum and describes review scope, regenerated tables and bilingual changes. |
+| Stable edition | Original `1.0.0` artefacts retain their identity; their landing record points visibly to the erratum and successor. New files belong to `1.1.0`. |
+| Later citation | An analysis using the corrected count cites `1.1.0` and the section; a history of the error cites `1.0.0` together with its erratum. |
 
-## Governance prevents the bus-factor problem
+Readers of downloaded copies may never revisit the website. Where proportionate, notify known course maintainers and deposit services through established channels. A correction notice should explain consequences without requiring readers to reconstruct a Git diff. The [correction workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/correct-a-published-digital-resource-without-erasing-history.md) turns this chain into an assessable record.
 
-A living resource should not depend on one person's memory. Record:
+## Correction, withdrawal and the limits of public history
 
-- editor and maintainer roles;
-- who can approve content, translation and technical changes;
-- review intervals for software-dependent pages;
-- labels for tested, outdated or archived workflows;
-- correction and takedown procedures;
-- succession and repository ownership arrangements;
-- how conflicts of interest are handled.
+A correction repairs an identified fault. An erratum is the visible notice describing it; its terminology should follow publisher policy. Deprecation warns that a readable workflow is no longer recommended, perhaps because its service changed. Supersession identifies a successor without declaring every earlier claim false. Retraction withdraws reliance on seriously unreliable or otherwise unacceptable work through an editorial process. Avoid collapsing these actions into “updated”. COPE emphasizes the purpose and visibility of retraction notices; apply its journal-oriented guidance cautiously to the relevant digital object.[^living-cope]
 
-Governance makes openness durable. It also lets a publisher recognize a changing project without assuming that every commit has undergone formal peer review.
+Preserving cited versions is the normal scholarly rule, not an instruction to expose private information indefinitely. If identifying interview data or a secret credential is published, stop further dissemination through the responsible institutional process. An innocuous notice can preserve the fact, date and scope of removal without repeating the harmful content. History, caches, deposits and mirrors may require coordinated restriction or removal; a new commit alone is inadequate. Retain necessary evidence only under authorized restricted access and applicable retention rules. Do not promise complete erasure from third-party copies or prescribe a legal outcome without institutional advice.
 
-## A release workflow
+## Rights and governance are publication infrastructure
 
-A formal release can follow these steps:
+The handbook's original prose uses CC BY 4.0 and original code uses MIT. Third-party material retains its own conditions. Distinguish an openly licensed explanation from a reproduced image, quotation or externally obtained dataset. CC BY 4.0 requires attribution and indication of changes; it does not clear privacy, publicity or moral-rights issues. State exceptions at the object, not only in a distant repository file.[^living-cc]
 
-1. declare a content freeze and release candidate;
-2. run automated link, structure and code checks;
-3. complete scholarly and didactic review of the stable core;
-4. resolve required changes and record reviewer approval;
-5. complete language and accessibility checks;
-6. tag the source and build the web/PDF artifacts;
-7. archive the release and mint or register its persistent identifier;
-8. publish citation metadata and release notes;
-9. reopen the living edition for development.
+A possible non-exclusive publisher agreement should preserve the agreed ability to maintain and redistribute the open edition while assigning production, deposit and correction duties. Its wording requires agreement; this chapter reports neither a signed contract nor legal approval. Publisher recognition, hosting, copyright ownership and repository administration can belong to different parties. Name who decides scholarly disputes, reviews translations, handles urgent removals and authorizes releases, with a substitute where that person has a conflict of interest.
 
-This preserves both accountability and momentum.
+## Maintenance, preservation and succession
 
-## Worked example: a student contribution
+A working site accumulates obligations: dependencies age, links move, credentials expire and examples cease to behave as described. Technical debt includes undocumented editorial exceptions and translation drift as well as code. Prioritize defects by their effect on evidence, access and safety. A changed interface may warrant a dated warning and tested alternative. A broken historical reference requires checking whether a replacement still supports the claim; a successful HTTP response does not establish continuity.
 
-A student proposes a workflow for mapping places in oral-history transcripts.
+Preservation needs more than another download link. Agree with a repository which files it accepts, what it preserves, who maintains landing metadata and how it handles later versions. Check SHA-256 values after transfer and rehearse retrieval. Checksums detect byte changes against a trusted baseline; they do not establish interpretive correctness. Preserve sources and relevant dependencies alongside reading copies where rights permit. Record missing external components as limitations rather than describing the package as self-contained.[^living-fixity]
 
-- The student submits a small anonymized sample, method, output and limitations.
-- A peer reproduces the steps.
-- An editor reviews privacy, geocoding uncertainty and terminology.
-- The contribution is revised and credited.
-- It enters the living edition as a reviewed workflow.
-- At the next minor release it becomes part of a stable archived edition.
+Format migration creates another documented transformation. Define what must survive: encoding, footnote targets, headings, table relations and source locators may matter more than matching line breaks. Compare the converted copy with the original, record the environment, retain an appropriate original and calculate new checksums. The Digital Preservation Coalition stresses significant properties and validation when selecting formats and migration routes; a filename extension is no guarantee.[^living-formats]
 
-The student's work is real scholarly communication, not disposable homework, while the editorial process protects readers and participants.
+Accessibility continues after an initial audit. Keyboard access, heading order, text alternatives, language metadata and readable tables can regress when content or tools change. WCAG 2.2 supplies testable criteria, but automated checks cover only part of the assessment. State pages, formats, criteria, assistive technologies and known exceptions tested. Accessible HTML does not prove that a generated PDF has correct reading order.[^living-wcag]
+
+The founding editor's departure should trigger a procedure, not a search through private email. Name an organizational owner, editorial successor and technical contact. Document repository and domain control, renewals, dependency records, protected credential references, backups and a restore test. Never publish passwords in the plan. A successor should rehearse a build and correction before transfer. If no successor or budget is available, close contributions, state the final maintenance date, deposit the last suitable edition and mark unsupported workflows. An honestly closed resource can serve scholarship better than an apparently living site with no responsible maintainer. The [maintenance and succession workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/prepare-a-maintenance-and-succession-plan.md) makes these commitments testable.
 
 <!-- handbook-ecosystem:start -->
 !!! tip "Continue through the ecosystem"
     **Try a workflow**
 
-    - [How do I choose, apply, and audit a citation style?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/reference-management/choose-apply-and-audit-a-citation-style/)
-    - [How do I automate a linguistic workflow with a Makefile?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/automation/automate-a-linguistic-workflow-with-a-makefile/)
-    - [How do I write a README for a humanities dataset?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/write-a-readme-for-a-humanities-dataset/)
-    - [How do I package a corpus with FAIR metadata?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/publishing/package-a-corpus-with-fair-metadata/)
-    - [How do I version-control a termbase with Git?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/terminology/version-control-a-termbase-with-git/)
-    - [How do I track a small project with Git?](https://damjan-popic.github.io/digital-humanities-handbook/workflows/foundations/track-a-small-project-with-git/)
+    - [How do I create a versioned scholarly release?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/create-a-versioned-scholarly-release.md)
+    - [How do I correct a published digital resource without erasing history?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/correct-a-published-digital-resource-without-erasing-history.md)
+    - [How do I prepare a maintenance and succession plan?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/prepare-a-maintenance-and-succession-plan.md)
+    - [How do I choose, apply, and audit a citation style?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/reference-management/choose-apply-and-audit-a-citation-style.md)
+    - [How do I automate a linguistic workflow with a Makefile?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/automation/automate-a-linguistic-workflow-with-a-makefile.md)
+    - [How do I write a README for a humanities dataset?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/write-a-readme-for-a-humanities-dataset.md)
+    - [How do I package a corpus with FAIR metadata?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/publishing/package-a-corpus-with-fair-metadata.md)
+    - [How do I version-control a termbase with Git?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/terminology/version-control-a-termbase-with-git.md)
+    - [How do I track a small project with Git?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/foundations/track-a-small-project-with-git.md)
 
     **Inspect a case study**
 
-    - [Source-grounded Slovenian language advisor](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/jezikovni-svetovalec/)
-    - [Static knowledge graph, map, and corpus index](https://damjan-popic.github.io/digital-humanities-handbook/case-studies/ladakh-relations/)
+    - [Source-grounded Slovenian language advisor](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/jezikovni-svetovalec.md)
+    - [Static knowledge graph, map, and corpus index](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/case-studies/ladakh-relations.md)
 <!-- handbook-ecosystem:end -->
 
 ## Practice
 
-Take one digital teaching resource and draft its publication architecture. Identify the living source, stable release, archive, citation, editorial roles, contribution route, translation policy and criteria for a major new edition.
+In pairs, inventory six objects from a small teaching project: paired chapters, a workflow, a dataset, a generated reading copy and its build instructions. Prepare the three linked workflow records. Keep identifiers and checksums explicitly pending until obtained; do not create public releases. Allocate a realistic two-hour monthly maintenance budget and explain what it cannot cover.
+
+Exchange records. One student plays a reader who downloaded the earlier release; the other introduces the duplicate-letter error or an accidental personal-data disclosure. Trace discovery, review, notice, replacement and citation. Check whether every promised artefact has an owner, every review claim names its scope, and the privacy case avoids repeating the exposure. Submit revised records and a rationale for one disputed decision. Assess reasoning and evidence, not willingness to publish.
 
 ## Reflection
 
-- What exactly has been peer reviewed: every page, the core chapters or one release?
-- How will a reader know that a software-dependent workflow is still current?
-- Who owns and can maintain the project if the original editor leaves?
+- Which publication claims follow from files, and which require institutional commitments?
+- When does historical accountability require limiting public access?
+- What would a Slovene reader miss if only the English correction appeared?
+- Which responsibility becomes ownerless if the maintainer leaves tomorrow?
 
 ## Summary
 
-A living handbook can be open and academically citable when development and publication are separated clearly. Git supports history and contribution, a web site supports reading, tagged releases support review, and an archive supports preservation. Versioning, governance, bilingual editorial policy and explicit review status turn continuous change from a weakness into a documented scholarly method.
+A living scholarly publication makes its changing authority inspectable. Reviewed scope, identifiable editions, correction trails and careful citation connect evidence across time. Governance, consent, rights, accessibility and tested preservation make those records usable. Readers should be able to identify what was published, what changed, why it changed and who can still answer for its care.
+
+## Further reading
+
+- UNESCO. 2019. [Recommendation on Open Educational Resources (OER)](https://www.unesco.org/en/legal-affairs/recommendation-open-educational-resources-oer). Read its sustainability provisions alongside the publication budget.
+- Digital Preservation Coalition. [Fixity and checksums](https://www.dpconline.org/handbook/technical-solutions-and-tools/fixity-and-checksums) and [File formats and standards](https://www.dpconline.org/handbook/technical-solutions-and-tools/file-formats-and-standards), *Digital Preservation Handbook*. Define verification and migration responsibilities.
+- COPE. [Retraction guidelines](https://doi.org/10.24318/cope.2019.1.4), version 3, 2025. Distinguish unreliable findings from a transparently corrected limited error.
+- GitHub. [Immutable releases](https://docs.github.com/en/code-security/concepts/supply-chain-security/immutable-releases). Check which objects a protection covers.
+- W3C. [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/). Pair automated validation with manual assessment.
+
+All external documentation below was checked on **7 September 2026**. COPE's current guidance was verified through indexed official content; direct page retrieval was unavailable. Recheck service behaviour and institutional arrangements for an actual release.
+
+[^living-oer]: UNESCO, [Recommendation on Open Educational Resources (OER)](https://www.unesco.org/en/legal-affairs/recommendation-open-educational-resources-oer), adopted 25 November 2019.
+[^living-git]: Scott Chacon and Ben Straub, *Pro Git*, second edition, [Git Basics—Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
+[^living-github]: GitHub Docs, [About releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) and [Immutable releases](https://docs.github.com/en/code-security/concepts/supply-chain-security/immutable-releases).
+[^living-zenodo]: Zenodo, [Digital Object Identifier (DOI)](https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/).
+[^living-semver]: Tom Preston-Werner, [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html).
+[^living-credit]: NISO, [CRediT—Contributor Role Taxonomy](https://credit.niso.org/).
+[^living-cope]: COPE, [Retraction guidelines](https://doi.org/10.24318/cope.2019.1.4), version 3, August 2025.
+[^living-cc]: Creative Commons, [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
+[^living-fixity]: Digital Preservation Coalition, [Fixity and checksums](https://www.dpconline.org/handbook/technical-solutions-and-tools/fixity-and-checksums).
+[^living-formats]: Digital Preservation Coalition, [File formats and standards](https://www.dpconline.org/handbook/technical-solutions-and-tools/file-formats-and-standards).
+[^living-wcag]: W3C, [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/).
 
 ---
 
@@ -4513,13 +4742,13 @@ This path is designed for first-year and non-technical humanities students who n
 
 The course should not be reduced to software menus. Interfaces change. The durable outcome is the ability to define a question, distinguish evidence from interpretation, preserve source and data lineage, check output, revise a claim, and communicate limits.
 
-Start with the paired [scholarly-work foundations route](../foundations/scholarly-work.md), which connects writing, Zotero, Word or LibreOffice Writer, and Excel in one research cycle.
+Start with the paired [scholarly-work foundations route](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/foundations/scholarly-work.md), which connects writing, Zotero, Word or LibreOffice Writer, and Excel in one research cycle.
 
 ## Prior knowledge and access
 
 No programming experience is required. You should be able to use a web browser, create and organize files, and prepare a basic written assignment.
 
-No WSL, Bash, Git or Python is required to pass this course. You can complete the assessed route with graphical tools. A stable ZIP or dated snapshot is acceptable where version control is not taught. The [technical workspace route](../foundations/technical-workspace.md) is an optional extension, not a hidden prerequisite.
+No WSL, Bash, Git or Python is required to pass this course. You can complete the assessed route with graphical tools. A stable ZIP or dated snapshot is acceptable where version control is not taught. The [technical workspace route](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/foundations/technical-workspace.md) is an optional extension, not a hidden prerequisite.
 
 Because Word, LibreOffice, Zotero, Excel, and Power Query differ by platform and release, instructors should publish the tested platform and an equivalent fallback before each assignment. The learning outcome is the documented scholarly operation, not reproduction of one ribbon layout.
 
@@ -4543,33 +4772,33 @@ By the end of the path, you should be able to:
 
 ### 1. Digital literacy in historical and social context
 
-Read [What is digital humanities?](../chapters/what-is-digital-humanities.md) and selected sections of [Histories and genealogies of digital humanities](../chapters/history-of-digital-humanities.md). Map a familiar assignment from source discovery to submission. Identify where an institution, format, platform, interface, or inherited convention shapes what becomes visible.
+Read [What is digital humanities?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/what-is-digital-humanities.md) and selected sections of [Histories and genealogies of digital humanities](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/history-of-digital-humanities.md). Map a familiar assignment from source discovery to submission. Identify where an institution, format, platform, interface, or inherited convention shapes what becomes visible.
 
 **Output:** a one-page process map with one access or power question.
 
 ### 2. Questions, models, evidence and research design
 
-Use [Models, evidence and interpretation](../chapters/models-evidence-interpretation.md), [Infrastructures of digital humanities](../chapters/critical-infrastructures.md), and [From question to method](../chapters/research-design.md). Turn a broad topic into one bounded research question. Define the object, scope, possible evidence, provisional model, alternative explanation, and one infrastructural limit.
+Use [Models, evidence and interpretation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/models-evidence-interpretation.md), [Infrastructures of digital humanities](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/critical-infrastructures.md), and [From question to method](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/research-design.md). Turn a broad topic into one bounded research question. Define the object, scope, possible evidence, provisional model, alternative explanation, and one infrastructural limit.
 
-Download the [Archival Friction teaching packet ZIP](../../assets/downloads/archival-friction-v1.zip) to test a plausible question against the actual sampling frame, source rights, dates and record units; the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/main/teaching-data/archival-friction) remains available for inspection. Narrow or reformulate the claim when the two-page source cannot support it.
+Download the [Archival Friction teaching packet ZIP](https://github.com/damjan-popic/digital-humanities-handbook/raw/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/assets/downloads/archival-friction-v1.zip) to test a plausible question against the actual sampling frame, source rights, dates and record units; the [packet source tree](https://github.com/damjan-popic/digital-humanities-handbook/tree/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/teaching-data/archival-friction) remains available for inspection. Narrow or reformulate the claim when the two-page source cannot support it.
 
 **Output:** a question-and-evidence brief that distinguishes description, evidence, interpretation, and recommendation.
 
 ### 3. Scholarly writing and structured documents
 
-First [turn the research question into a scholarly paper plan](../workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md): name the audience and genre, draft a working claim, map sections, connect sources to claims, and revise one paragraph. Then [structure the long document with styles, captions, and cross-references](../workflows/scholarly-writing/structure-a-long-document-with-styles-captions-and-cross-references.md). Use real headings, an automatic contents page, fields, notes, comments, tracked changes, and meaningful alternative text. Begin a [revision log](../workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md).
+First [turn the research question into a scholarly paper plan](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/scholarly-writing/turn-a-research-question-into-a-scientific-paper-plan.md): name the audience and genre, draft a working claim, map sections, connect sources to claims, and revise one paragraph. Then [structure the long document with styles, captions, and cross-references](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/scholarly-writing/structure-a-long-document-with-styles-captions-and-cross-references.md). Use real headings, an automatic contents page, fields, notes, comments, tracked changes, and meaningful alternative text. Begin a [revision log](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md).
 
 **Output:** a one-page argument plan, source-to-claim table, revised paragraph, and structured `.docx` or `.odt` draft.
 
 ### 4. Search, source evaluation and the Slovenian resource ecosystem
 
-Build a search strategy with concepts, synonyms, language variants, Boolean combinations, and source filters. Compare a library catalogue, bibliographic database, institutional repository, and general search engine. Profile one relevant resource from [Digital humanities in Slovenia](../chapters/digital-humanities-in-slovenia.md). Record search strings, dates, selection criteria, exclusions, and access conditions.
+Build a search strategy with concepts, synonyms, language variants, Boolean combinations, and source filters. Compare a library catalogue, bibliographic database, institutional repository, and general search engine. Profile one relevant resource from [Digital humanities in Slovenia](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/digital-humanities-in-slovenia.md). Record search strings, dates, selection criteria, exclusions, and access conditions.
 
 **Output:** a search and source-selection log with three different source environments.
 
 ### 5. Zotero, citation systems, styles and bibliography management
 
-Complete all three reference workflows. [Build and clean a small Zotero library](../workflows/reference-management/build-and-clean-a-zotero-library.md), including identifier, catalogue, Connector, and manual-entry routes. [Choose, apply, and audit the required citation style](../workflows/reference-management/choose-apply-and-audit-a-citation-style.md): record its authority and version, then test five source types. Finally [insert citations with Zotero in Word or LibreOffice](../workflows/reference-management/cite-with-zotero-in-word-or-libreoffice.md), add appropriate locators, create a multiple-source citation, generate and refresh the bibliography, and correct metadata in Zotero.
+Complete all three reference workflows. [Build and clean a small Zotero library](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/reference-management/build-and-clean-a-zotero-library.md), including identifier, catalogue, Connector, and manual-entry routes. [Choose, apply, and audit the required citation style](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/reference-management/choose-apply-and-audit-a-citation-style.md): record its authority and version, then test five source types. Finally [insert citations with Zotero in Word or LibreOffice](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/reference-management/cite-with-zotero-in-word-or-libreoffice.md), add appropriate locators, create a multiple-source citation, generate and refresh the bibliography, and correct metadata in Zotero.
 
 Explain one source or metadata case that the style does not handle cleanly. Do not maintain the same document with both Zotero and Word's built-in citation manager. Keep the document with active Zotero fields as the master; follow the venue's delivery requirements and unlink only a separately named, backed-up final submission copy when static text is required. Never unlink the working master merely to repair formatting.
 
@@ -4577,59 +4806,59 @@ Explain one source or metadata case that the style does not handle cleanly. Do n
 
 ### 6. Files, formats, folders, README and backup
 
-Create a project folder with `sources`, `notes`, `data/raw`, `data/cleaned`, `outputs`, `validation`, and `known-problems`. Compare `.docx`, `.odt`, `.pdf`, `.txt`, `.csv`, `.xlsx`, image, RIS, and ZIP files. Use [Data, metadata and models](../chapters/data-metadata-models.md) to write a README, file-naming rule, backup rule, and rights note.
+Create a project folder with `sources`, `notes`, `data/raw`, `data/cleaned`, `outputs`, `validation`, and `known-problems`. Compare `.docx`, `.odt`, `.pdf`, `.txt`, `.csv`, `.xlsx`, image, RIS, and ZIP files. Use [Data, metadata and models](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/data-metadata-models.md) to write a README, file-naming rule, backup rule, and rights note.
 
-A stable ZIP or dated snapshot is sufficient for assessment. If you choose the optional technical extension, you may use the [technical workspace route](../foundations/technical-workspace.md) for Git and command-line versioning, but the course does not require it.
+A stable ZIP or dated snapshot is sufficient for assessment. If you choose the optional technical extension, you may use the [technical workspace route](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/foundations/technical-workspace.md) for Git and command-line versioning, but the course does not require it.
 
 **Output:** a recoverable project package whose raw and working layers are visibly distinct.
 
 ### 7. Excel data structure and cleaning
 
-Define one row and one variable before editing. Use the [messy-notes workflow](../workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md) and [reconcile conflicting metadata without erasing uncertainty](../workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md), then [import and clean the small dataset in Excel](../workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md). Inspect delimiter, encoding, decimal/date locale, and types; protect leading-zero identifiers as text; define missingness; use an Excel table, filters, frozen headings, formulas where appropriate, and a validation list. Preserve source, raw, interim, modelled, decision and unresolved layers.
+Define one row and one variable before editing. Use the [messy-notes workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md) and [reconcile conflicting metadata without erasing uncertainty](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/reconcile-conflicting-metadata-without-erasing-uncertainty.md), then [import and clean the small dataset in Excel](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/import-and-clean-a-small-dataset-in-excel.md). Inspect delimiter, encoding, decimal/date locale, and types; protect leading-zero identifiers as text; define missingness; use an Excel table, filters, frozen headings, formulas where appropriate, and a validation list. Preserve source, raw, interim, modelled, decision and unresolved layers.
 
 **Output:** raw and cleaned files, data dictionary, validation list, transformation log, and five-row manual check.
 
 ### 8. Repeatable spreadsheet analysis and visual communication
 
-[Record repeatable transformations in Excel Power Query](../workflows/data-wrangling/make-repeatable-transformations-with-excel-power-query.md): rename and type columns, trim/clean and split text, filter by a stated rule, replace documented categories, merge a lookup, and refresh after a source change. Remove exact duplicate rows directly; when candidate rows differ, use an explicit priority, grouping/index, or retain/exclude rule rather than trusting visible sort order. Verify retained identifiers and row counts. Inspect Applied Steps and diagnose one broken step. If Power Query authoring is unavailable, complete the documented fallback and have the steps run once on a supported platform.
+[Record repeatable transformations in Excel Power Query](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/make-repeatable-transformations-with-excel-power-query.md): rename and type columns, trim/clean and split text, filter by a stated rule, replace documented categories, merge a lookup, and refresh after a source change. Remove exact duplicate rows directly; when candidate rows differ, use an explicit priority, grouping/index, or retain/exclude rule rather than trusting visible sort order. Verify retained identifiers and row counts. Inspect Applied Steps and diagnose one broken step. If Power Query authoring is unavailable, complete the documented fallback and have the steps run once on a supported platform.
 
-Then [summarize the cleaned data with a PivotTable and one transparent chart](../workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md). Distinguish row count, distinct documents, sum, and average; expose missing categories and denominator; refresh; and manually verify a small subset.
+Then [summarize the cleaned data with a PivotTable and one transparent chart](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/data-wrangling/summarize-data-with-pivottables-and-transparent-charts.md). Distinguish row count, distinct documents, sum, and average; expose missing categories and denominator; refresh; and manually verify a small subset.
 
 **Output:** repeatable raw-to-clean procedure, refreshed result, checked PivotTable, one restrained chart, complete caption, alternative text, and interpretation with a limitation.
 
 ### 9. Documents, OCR and corpus basics
 
-Read [Texts, corpora and OCR](../chapters/texts-corpora-ocr.md), then [evaluate OCR or HTR against a reference sample](../workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md). Compare a scan and machine text, declare transcription and sampling rules, calculate CER and WER, classify errors that change names, dates, negation or word boundaries, and test one search or count on both versions. Keep the image, layout, provider, reference, normalized and annotation layers distinct.
+Read [Texts, corpora and OCR](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/texts-corpora-ocr.md), then [evaluate OCR or HTR against a reference sample](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/pdf/evaluate-ocr-or-htr-against-a-reference-sample.md). Compare a scan and machine text, declare transcription and sampling rules, calculate CER and WER, classify errors that change names, dates, negation or word boundaries, and test one search or count on both versions. Keep the image, layout, provider, reference, normalized and annotation layers distinct.
 
 **Output:** an OCR/HTR validation sample, error audit, downstream comparison and corpus inclusion note.
 
 ### 10. Search, concordance and frequency
 
-Read the opening of [Text analysis](../chapters/text-analysis.md). In a corpus interface or desktop tool, search a word, inspect concordance context, and compare token frequency with document frequency. Record corpus version, query, date, filters, and denominator. Treat frequency as a description that still requires interpretation.
+Read the opening of [Text analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/text-analysis.md). In a corpus interface or desktop tool, search a word, inspect concordance context, and compare token frequency with document frequency. Record corpus version, query, date, filters, and denominator. Treat frequency as a description that still requires interpretation.
 
 **Output:** one query log, checked frequency table, and a bounded interpretive paragraph.
 
 ### 11. Places and maps
 
-Read the introduction to [GIS and spatial humanities](../chapters/gis-spatial-humanities.md). Create a place table with source form, normalized name, source locator, coordinates, coordinate source, and uncertainty. Produce a basic map or inspect the table when mapping software is unavailable. Do not convert uncertain place references into false precision.
+Read the introduction to [GIS and spatial humanities](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/gis-spatial-humanities.md). Create a place table with source form, normalized name, source locator, coordinates, coordinate source, and uncertainty. Produce a basic map or inspect the table when mapping software is unavailable. Do not convert uncertain place references into false precision.
 
 **Output:** a small place table, map or equivalent spatial check, and uncertainty note.
 
 ### 12. Generative AI with evidence
 
-Read [AI, ethics and reproducibility](../chapters/ai-ethics-reproducibility.md). Ask an approved system to work only with supplied material, require passage identifiers, and verify every factual statement, quotation, locator, citation, and calculation. Record model, version or access date, prompt, supplied material, output, corrections, and any data that could not be shared.
+Read [AI, ethics and reproducibility](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/ai-ethics-reproducibility.md). Ask an approved system to work only with supplied material, require passage identifiers, and verify every factual statement, quotation, locator, citation, and calculation. Record model, version or access date, prompt, supplied material, output, corrections, and any data that could not be shared.
 
 **Output:** an AI-use statement and claim-level audit. If you do not use AI, submit a brief non-use statement; use is not required.
 
 ### 13. Rights, privacy, access, accessibility and responsible publication
 
-Apply the [ethics checklist](../resources/ethics-checklist.md) to the dossier. Decide what may be submitted, shared with peers, made public, restricted, anonymized, generalized, or omitted. Verify licences for text, data, images, PDFs, software, and attachments. Check heading navigation, table headers, meaningful links, alternative text, contrast, and a non-visual account of every figure.
+Apply the [ethics checklist](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/resources/ethics-checklist.md) to the dossier. Decide what may be submitted, shared with peers, made public, restricted, anonymized, generalized, or omitted. Verify licences for text, data, images, PDFs, software, and attachments. Check heading navigation, table headers, meaningful links, alternative text, contrast, and a non-visual account of every figure.
 
 **Output:** a component-level rights, privacy, access, and accessibility register.
 
 ### 14. Reproducible scholarly dossier, versioning and peer review
 
-Assemble the final dossier from the source, writing, citation, spreadsheet, validation, known-problem, and rights layers. Use [the revision workflow](../workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md) in substantive, structural, paragraph, sentence, and proofreading passes. Create a stable ZIP or dated snapshot and record the handbook and software guidance versions used.
+Assemble the final dossier from the source, writing, citation, spreadsheet, validation, known-problem, and rights layers. Use [the revision workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/scholarly-writing/revise-claims-evidence-and-paragraphs.md) in substantive, structural, paragraph, sentence, and proofreading passes. Create a stable ZIP or dated snapshot and record the handbook and software guidance versions used.
 
 Exchange dossiers. Without oral help, a peer should locate the sources, inspect five Zotero records and the citation-style audit, follow the raw-to-clean decision trail, manually verify one table or figure value, identify the main limitation, and return a structured review. Revise and log the response.
 
@@ -4699,17 +4928,17 @@ By the end of the path, students should be able to:
 
 ## Technical-readiness clinic
 
-Complete this unnumbered clinic **before module 1**. It establishes the shared technical baseline; it does not count as a fifteenth module. Begin with the [technical workspace hub](../foundations/technical-workspace.md), where terminal, shell, WSL, Bash, Git, Python and virtual-environment concepts are distinguished.
+Complete this unnumbered clinic **before module 1**. It establishes the shared technical baseline; it does not count as a fifteenth module. Begin with the [technical workspace hub](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/foundations/technical-workspace.md), where terminal, shell, WSL, Bash, Git, Python and virtual-environment concepts are distinguished.
 
 | Stage | Activity and evidence |
 | --- | --- |
-| Windows only | [Install and verify WSL 2 with Ubuntu](../workflows/foundations/install-wsl-and-ubuntu-on-windows.md); record `wsl --list --verbose`. macOS/Linux students record why they skipped WSL. |
-| Everyone | Identify the terminal and shell, then [navigate a disposable folder with Bash](../workflows/foundations/navigate-files-and-directories-with-bash.md). |
-| Everyone | [Install and configure Git](../workflows/foundations/install-and-configure-git.md), including the privacy choice for the commit email. |
-| Everyone | [Clone the instructor’s small starter repository](../workflows/foundations/clone-run-change-and-commit-a-handbook-project.md). A public GitHub repository is not required. |
-| Everyone | [Create and activate a Python 3.12 virtual environment](../workflows/nlp/create-a-python-312-virtual-environment.md). |
-| Everyone | [Install the reviewed requirements](../workflows/nlp/install-python-packages-with-pip.md) with `python -m pip install -r requirements.txt`. |
-| Everyone | [Run the small script](../workflows/nlp/run-a-python-script-from-terminal.md), inspect its output, change one harmless label on a branch, inspect the diff and make one local commit. |
+| Windows only | [Install and verify WSL 2 with Ubuntu](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/foundations/install-wsl-and-ubuntu-on-windows.md); record `wsl --list --verbose`. macOS/Linux students record why they skipped WSL. |
+| Everyone | Identify the terminal and shell, then [navigate a disposable folder with Bash](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/foundations/navigate-files-and-directories-with-bash.md). |
+| Everyone | [Install and configure Git](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/foundations/install-and-configure-git.md), including the privacy choice for the commit email. |
+| Everyone | [Clone the instructor’s small starter repository](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/foundations/clone-run-change-and-commit-a-handbook-project.md). A public GitHub repository is not required. |
+| Everyone | [Create and activate a Python 3.12 virtual environment](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/create-a-python-312-virtual-environment.md). |
+| Everyone | [Install the reviewed requirements](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/install-python-packages-with-pip.md) with `python -m pip install -r requirements.txt`. |
+| Everyone | [Run the small script](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/run-a-python-script-from-terminal.md), inspect its output, change one harmless label on a branch, inspect the diff and make one local commit. |
 
 Submit or demonstrate this readiness artefact:
 
@@ -4740,27 +4969,27 @@ Do not include passwords, tokens, private email addresses or sensitive absolute 
 
 ### 1. Histories of the field and the Slovenian ecosystem
 
-Read [What is digital humanities?](../chapters/what-is-digital-humanities.md), [Histories and genealogies of digital humanities](../chapters/history-of-digital-humanities.md) and [Digital humanities in Slovenia](../chapters/digital-humanities-in-slovenia.md). Trace how one Slovenian-studies practice depends on changing terms, institutions, language resources and collaborative labour, then distinguish the history you can document from the genealogy you infer.
+Read [What is digital humanities?](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/what-is-digital-humanities.md), [Histories and genealogies of digital humanities](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/history-of-digital-humanities.md) and [Digital humanities in Slovenia](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/digital-humanities-in-slovenia.md). Trace how one Slovenian-studies practice depends on changing terms, institutions, language resources and collaborative labour, then distinguish the history you can document from the genealogy you infer.
 
 ### 2. Models, evidence, infrastructures and research design
 
-Read [Models, evidence and interpretation](../chapters/models-evidence-interpretation.md), [Infrastructures of digital humanities](../chapters/critical-infrastructures.md) and [From question to method](../chapters/research-design.md). Reformulate one Slovenian-studies question so that the source, model, unit of analysis, comparison, infrastructure dependency, evidence and limits are explicit.
+Read [Models, evidence and interpretation](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/models-evidence-interpretation.md), [Infrastructures of digital humanities](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/critical-infrastructures.md) and [From question to method](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/research-design.md). Reformulate one Slovenian-studies question so that the source, model, unit of analysis, comparison, infrastructure dependency, evidence and limits are explicit.
 
 ### 3. Reproducible Python workspace
 
-Build on the successful clinic repository rather than repeating installation. Restructure it for a bounded corpus task with the [small Python NLP project workflow](../workflows/nlp/structure-a-small-python-nlp-project.md); revise the README, direct requirements and `.gitignore`; and use the [diagnostic workflow](../workflows/nlp/troubleshoot-python-venv-and-pip.md) to verify that a peer can recreate the environment. Commit an environment specification—not `.venv/`—that supports the research design from module 2.
+Build on the successful clinic repository rather than repeating installation. Restructure it for a bounded corpus task with the [small Python NLP project workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/structure-a-small-python-nlp-project.md); revise the README, direct requirements and `.gitignore`; and use the [diagnostic workflow](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/workflows/nlp/troubleshoot-python-venv-and-pip.md) to verify that a peer can recreate the environment. Commit an environment specification—not `.venv/`—that supports the research design from module 2.
 
 ### 4. Text formats, corpus design, collection, OCR, cleaning and deduplication
 
-Read [Texts, corpora and OCR](../chapters/texts-corpora-ocr.md) and inspect plain text, CSV, JSON and TEI/XML examples. Design a corpus card with sampling rules, document IDs, metadata and rights; acquire or prepare a small authorized corpus; preserve raw and processed layers; measure an OCR or extraction sample; and flag boilerplate and duplicates without losing provenance.
+Read [Texts, corpora and OCR](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/texts-corpora-ocr.md) and inspect plain text, CSV, JSON and TEI/XML examples. Design a corpus card with sampling rules, document IDs, metadata and rights; acquire or prepare a small authorized corpus; preserve raw and processed layers; measure an OCR or extraction sample; and flag boilerplate and duplicates without losing provenance.
 
 ### 5. CLASSLA annotation
 
-Read [Linguistic annotation and CLASSLA](../chapters/linguistic-annotation-classla.md). Install/test CLASSLA, annotate text and export token-level results. Record model and software versions and inspect errors in Slovene names, non-standard forms or historical language.
+Read [Linguistic annotation and CLASSLA](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/linguistic-annotation-classla.md). Install/test CLASSLA, annotate text and export token-level results. Record model and software versions and inspect errors in Slovene names, non-standard forms or historical language.
 
 ### 6. Concordance, frequency, keywords and collocation
 
-Read [Text analysis](../chapters/text-analysis.md). Compare two defensible subcorpora, normalize counts, calculate document frequency and inspect concordances. Report at least one effect size and one corpus-composition limitation.
+Read [Text analysis](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/text-analysis.md). Compare two defensible subcorpora, normalize counts, calculate document frequency and inspect concordances. Report at least one effect size and one corpus-composition limitation.
 
 ### 7. Style and authorship signals
 
@@ -4768,11 +4997,11 @@ Create a document-feature matrix from function words, character n-grams or other
 
 ### 8. Topics, sentiment and emotion
 
-Read [Topics, sentiment and emotion](../chapters/topics-emotions-classification.md). Prepare a codebook and human-labelled sample. Compare one simple baseline with one model or topic approach and conduct a qualitative error analysis.
+Read [Topics, sentiment and emotion](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/topics-emotions-classification.md). Prepare a codebook and human-labelled sample. Compare one simple baseline with one model or topic approach and conduct a qualitative error analysis.
 
 ### 9. Entities and relational data
 
-Read [Databases and SQL](../chapters/databases-sql.md). Extract or manually identify people, places, institutions or works, resolve aliases and design a normalized SQLite schema with provenance and uncertainty.
+Read [Databases and SQL](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/databases-sql.md). Extract or manually identify people, places, institutions or works, resolve aliases and design a normalized SQLite schema with provenance and uncertainty.
 
 ### 10. SQL analysis
 
@@ -4780,19 +5009,19 @@ Import the data, enforce keys and write saved SQL queries that join entities, ag
 
 ### 11. GIS and literary/cultural space
 
-Read [GIS and spatial humanities](../chapters/gis-spatial-humanities.md). Resolve place mentions against appropriate gazetteers, preserve alternatives and dates and build a map whose legend shows uncertainty.
+Read [GIS and spatial humanities](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/gis-spatial-humanities.md). Resolve place mentions against appropriate gazetteers, preserve alternatives and dates and build a map whose legend shows uncertainty.
 
 ### 12. Networks
 
-Read [Networks and visualization](../chapters/networks-visualization.md). Define an edge from source evidence, build an edge list, compare a bipartite and projected view and interpret centrality only in relation to the construction rule.
+Read [Networks and visualization](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/networks-visualization.md). Define an edge from source evidence, build an edge list, compare a bipartite and projected view and interpret centrality only in relation to the construction rule.
 
 ### 13. AI, ethics and research packaging
 
-Read [AI, ethics and reproducibility](../chapters/ai-ethics-reproducibility.md). Audit licences, privacy and representational bias. Add tests, citation metadata, a data dictionary, limitations and an AI-use statement.
+Read [AI, ethics and reproducibility](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/ai-ethics-reproducibility.md). Audit licences, privacy and representational bias. Add tests, citation metadata, a data dictionary, limitations and an AI-use statement.
 
 ### 14. Release and defence
 
-Read [The living open handbook](../chapters/open-living-handbook.md). Tag a release candidate, exchange projects for reproducibility review, repair blocking issues and present both a substantive finding and the strongest reason for caution.
+Read [The living open handbook](https://github.com/damjan-popic/digital-humanities-handbook/blob/12f9d3a083a294aac43eeb16b7b8a11cb99d3074/docs/en/chapters/open-living-handbook.md). Tag a release candidate, exchange projects for reproducibility review, repair blocking issues and present both a substantive finding and the strongest reason for caution.
 
 ## Assessment model
 

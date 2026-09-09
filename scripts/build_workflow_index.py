@@ -85,7 +85,7 @@ def build(lang: str) -> None:
             suffix = f' <span class="tiny">— {difficulty}</span>' if difficulty else ""
             lines.append(f"- [{title_text}]({rel.as_posix()}){suffix}")
         lines.append("")
-    (root / "index.md").write_text("\n".join(lines), encoding="utf-8")
+    (root / "index.md").write_text("\n".join(lines), encoding="utf-8", newline="\n")
     print(f"Wrote {root.relative_to(ROOT) / 'index.md'} with {sum(map(len, groups.values()))} workflows")
 
 
