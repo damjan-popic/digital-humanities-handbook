@@ -36,9 +36,13 @@ This example analyses interview transcripts split into user and AI sections. It 
 
 ## Minimal run path
 
+The script location below was checked on 2026-09-09; the procedure was not run.
+Prepare your own synthetic or separately authorized `interview_split.tsv`;
+public transcript filenames do not establish permission to reuse their contents.
+
 ```bash
 python -m pip install -U stanza pandas tqdm pyarrow openpyxl
-python stanza_tag_sections.py \
+python scripts/stanza_tag_sections.py \
   --input interview_split.tsv \
   --outdir stanza_out \
   --which both \

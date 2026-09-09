@@ -1,9 +1,9 @@
 # Translation coverage
 
 - English Markdown pages: **163**
-- Slovene counterparts: **90**
-- Coverage: **55.2%**
-- English pages currently using fallback in Slovene: **73**
+- Slovene counterparts: **91**
+- Coverage: **55.8%**
+- English pages currently using fallback in Slovene: **72**
 
 The stable chapters and learning paths must remain fully paired. The inherited workflow library is translated incrementally; untranslated pages are served from the English default edition and are not counted as Slovene translations.
 
@@ -22,7 +22,6 @@ The stable chapters and learning paths must remain fully paired. The inherited w
 - `case-studies/wikivir.md`
 - `contribute/answer-template.md`
 - `contribute/data-model.md`
-- `contribute/project-template.md`
 - `contribute/style-guide.md`
 - `contribute/topic-template.md`
 - `howto/index.md`

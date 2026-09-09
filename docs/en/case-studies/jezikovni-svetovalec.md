@@ -36,7 +36,12 @@ This example shows an architecture for answering Slovenian language questions fr
 
 ## Minimal run path
 
-Treat this primarily as an architecture example. The public README explicitly frames the repository as course/private and source-dependent. For public reuse, copy the architecture and use sources that you have the right to redistribute or keep the source layer private.
+Treat this as an inspection-only architecture example. The README describes
+private course use, but the repository was publicly reachable on 2026-09-09;
+neither that description nor `.gitignore` establishes source confidentiality or
+reuse permission. Source-dependent classroom reuse is deferred pending rights
+and public/private-boundary review. Inspect the documented design, not the
+source corpus or search index; build any later example from authorized material.
 
 ## Relevant handbook workflows
 

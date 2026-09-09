@@ -36,11 +36,11 @@ This example shows a static-site and local-pipeline pattern for an interactive r
 
 ## Minimal run path
 
-```bash
-python scripts/serve_local.py
-```
-
-Then open the local server address. For new texts, the public README describes this pattern:
+Begin by reading the schemas and `scripts/serve_local.py`, not by starting it.
+The helper inspected on 2026-09-09 binds to `0.0.0.0` and serves the repository
+root, potentially exposing private local sources beyond localhost. Any later
+approved demonstration must isolate public-only files and bind to loopback.
+No server was run in this audit. For new texts, the public README describes this pattern:
 
 ```text
 raw text → normalized corpus → rebuilt derived data → static site

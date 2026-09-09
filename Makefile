@@ -11,6 +11,7 @@ serve:
 
 indexes:
 	python scripts/build_workflow_index.py
+	python scripts/build_case_study_index.py
 	python scripts/check_translation_coverage.py --output release/translation-coverage.md
 
 manuscripts:
@@ -54,6 +55,7 @@ check: indexes manuscripts
 	python scripts/check_review_ecosystem.py
 	python scripts/check_answers.py
 	python scripts/check_projects.py
+	python -m unittest discover -s scripts -p 'test_case_studies.py'
 	mkdocs build --strict
 	python scripts/check_rendered_ecosystem.py
 

@@ -1,6 +1,6 @@
 ---
 title: "Slovene Wikisource corpus build pipeline"
-description: "A reproducible pattern for turning messy Wikisource material into an annotated research corpus."
+description: "A build-pattern example for turning messy Wikisource material into an annotated research corpus; a full rerun remains unverified."
 tags: [projects, Wikisource, corpus, CLASSLA, topic-modeling]
 ---
 
@@ -29,10 +29,10 @@ This example is a build-and-analysis toolkit for a Slovene Wikisource corpus. It
 
 - `header_map.csv` — the master token-to-field mapping.
 - `apply_header_map.py` — applies curated metadata mappings to corpus headers.
-- `tools/header_curator.py` — interactive one-key metadata curation.
-- `tools/validate_header_map.py` — sanity checks.
-- `tools/run_classla_xml.py` — stream annotation with CLASSLA.
-- `tools/topic_model.py` — topic-modelling entry point.
+- `categorize/header_curator.py` — interactive one-key metadata curation.
+- `categorize/validate_header_map.py` — sanity checks.
+- `tools/run_classla.py` — CLASSLA annotation code; not the missing `run_classla_xml.py` advertised in older documentation.
+- `tools/run_bertopic.py` and `tools/run_lda.py` — topic-modelling entry points.
 - `stats/` — generated frequency and coverage outputs.
 
 ## Minimal run path

@@ -1,101 +1,538 @@
 [
   {
-    "name": "Web text harvesting",
-    "slug": "text-harvester",
-    "repo": "https://github.com/damjan-popic/text_harvester",
-    "area": "corpus building",
-    "language": "Python",
-    "status": "worked example",
-    "page": "case-studies/text-harvester.md"
-  },
-  {
-    "name": "Corpus conversion and CLASSLA annotation",
+    "case_id": "CASE-corpus-augmenter",
     "slug": "corpus-augmenter",
-    "repo": "https://github.com/damjan-popic/corpus_augmenter",
-    "area": "corpus annotation",
-    "language": "Python",
-    "status": "worked example",
-    "page": "case-studies/corpus-augmenter.md"
+    "title_en": "Corpus conversion and CLASSLA annotation",
+    "title_sl": null,
+    "page_en": "docs/en/case-studies/corpus-augmenter.md",
+    "page_sl": null,
+    "project_url": "https://github.com/damjan-popic/corpus_augmenter",
+    "repository_url": "https://github.com/damjan-popic/corpus_augmenter",
+    "method_domains": [
+      "corpus-building",
+      "data-modelling",
+      "linguistic-annotation"
+    ],
+    "source_types": [
+      "corpus-text",
+      "structured-records"
+    ],
+    "inspection_depth": "repository-inspected",
+    "languages_regions": [
+      "slovene"
+    ],
+    "code_availability": "open",
+    "reusable_data_availability": "unavailable",
+    "rights_status": "unknown",
+    "licence": null,
+    "translation_status": "english-fallback",
+    "lifecycle_status": "maintenance-unclear",
+    "evidence_status": "independently-inspected",
+    "editor_relationship": "editor-owned",
+    "last_checked": "2026-09-09",
+    "content_standard": "legacy-audited",
+    "audit_record": "release/case-study-audit.md#case-corpus-augmenter",
+    "short_summary_en": "Inspect TEI/vertical conversion and missing-layer overlays; no corpus is bundled and NER=O is treated as replaceable, not a protected human negative.",
+    "short_summary_sl": null,
+    "chapter_connections": [
+      "chapters/linguistic-annotation-classla.md",
+      "chapters/texts-corpora-ocr.md",
+      "chapters/ai-ethics-reproducibility.md"
+    ],
+    "workflow_connections": [
+      "workflows/nlp/install-and-test-classla.md",
+      "workflows/nlp/annotate-a-small-text-with-classla.md",
+      "workflows/nlp/export-classla-results-to-csv.md",
+      "workflows/publishing/package-a-corpus-with-fair-metadata.md"
+    ],
+    "connection_remediation": null
   },
   {
-    "name": "Slovene Wikisource corpus build pipeline",
-    "slug": "wikivir",
-    "repo": "https://github.com/damjan-popic/wikivir",
-    "area": "corpus construction",
-    "language": "Python",
-    "status": "reference architecture",
-    "page": "case-studies/wikivir.md"
-  },
-  {
-    "name": "Learner-corpus lexical analysis",
-    "slug": "korpus-solar-analysis",
-    "repo": "https://github.com/damjan-popic/korpus-solar-analysis",
-    "area": "corpus analysis",
-    "language": "Python",
-    "status": "project-specific pipeline",
-    "page": "case-studies/korpus-solar-analysis.md"
-  },
-  {
-    "name": "Dialogue corpus tabulation and lexical-diversity analysis",
-    "slug": "pracomul",
-    "repo": "https://github.com/damjan-popic/pracomul",
-    "area": "dialogue corpus analysis",
-    "language": "Python / notebook",
-    "status": "worked example",
-    "page": "case-studies/pracomul.md"
-  },
-  {
-    "name": "Medieval notarial NER workflow",
-    "slug": "medieval-ner",
-    "repo": "https://github.com/damjan-popic/medieval-ner",
-    "area": "historical NLP",
-    "language": "Python",
-    "status": "blueprint and pilot workflow",
-    "page": "case-studies/medieval-ner.md"
-  },
-  {
-    "name": "Static knowledge graph, map, and corpus index",
-    "slug": "ladakh-relations",
-    "repo": "https://github.com/damjan-popic/ladakh-relations",
-    "area": "knowledge graph and static DH site",
-    "language": "Python / JavaScript",
-    "status": "static-site pipeline",
-    "page": "case-studies/ladakh-relations.md"
-  },
-  {
-    "name": "Website crawler and chatbot corpus builder",
-    "slug": "fifi",
-    "repo": "https://github.com/damjan-popic/fifi",
-    "area": "crawler and RAG preparation",
-    "language": "Python",
-    "status": "worked example",
-    "page": "case-studies/fifi.md"
-  },
-  {
-    "name": "Source-grounded Slovenian language advisor",
-    "slug": "jezikovni-svetovalec",
-    "repo": "https://github.com/damjan-popic/jezikovni-svetovalec",
-    "area": "source-grounded language advisor",
-    "language": "Python / Markdown wiki",
-    "status": "rights-cautious architecture",
-    "page": "case-studies/jezikovni-svetovalec.md"
-  },
-  {
-    "name": "Slovenian comma-checking Word add-in",
-    "slug": "vejice-add-in",
-    "repo": "https://github.com/damjan-popic/Vejice_add_in",
-    "area": "writing assistant application",
-    "language": "JavaScript",
-    "status": "application code",
-    "page": "case-studies/vejice-add-in.md"
-  },
-  {
-    "name": "User/AI transcript analysis",
+    "case_id": "CASE-createai",
     "slug": "createai",
-    "repo": "https://github.com/damjan-popic/createAI",
-    "area": "transcript analysis",
-    "language": "Python",
-    "status": "workflow repository",
-    "page": "case-studies/createai.md"
+    "title_en": "User/AI transcript analysis",
+    "title_sl": null,
+    "page_en": "docs/en/case-studies/createai.md",
+    "page_sl": null,
+    "project_url": "https://github.com/damjan-popic/createAI",
+    "repository_url": "https://github.com/damjan-popic/createAI",
+    "method_domains": [
+      "linguistic-annotation",
+      "text-analysis"
+    ],
+    "source_types": [
+      "dialogue-transcripts",
+      "interaction-transcripts"
+    ],
+    "inspection_depth": "repository-inspected",
+    "languages_regions": [
+      "not-specified"
+    ],
+    "code_availability": "open",
+    "reusable_data_availability": "unknown",
+    "rights_status": "unknown",
+    "licence": null,
+    "translation_status": "english-fallback",
+    "lifecycle_status": "maintenance-unclear",
+    "evidence_status": "independently-inspected",
+    "editor_relationship": "editor-owned",
+    "last_checked": "2026-09-09",
+    "content_standard": "legacy-audited",
+    "audit_record": "release/case-study-audit.md#case-createai",
+    "short_summary_en": "Inspect transcript section selection and annotation outputs on synthetic-design examples; public transcript rights and model results remain unverified.",
+    "short_summary_sl": null,
+    "chapter_connections": [
+      "chapters/text-analysis.md",
+      "chapters/topics-emotions-classification.md",
+      "chapters/ai-ethics-reproducibility.md"
+    ],
+    "workflow_connections": [
+      "workflows/ai/audit-ai-output-against-source-documents.md",
+      "workflows/nlp/annotate-a-corpus-with-udpipe.md",
+      "workflows/text-analysis/compare-style-with-function-words.md",
+      "workflows/ethics/decide-whether-a-digitised-source-should-be-public.md"
+    ],
+    "connection_remediation": null
+  },
+  {
+    "case_id": "CASE-fifi",
+    "slug": "fifi",
+    "title_en": "Website crawler and chatbot corpus builder",
+    "title_sl": null,
+    "page_en": "docs/en/case-studies/fifi.md",
+    "page_sl": null,
+    "project_url": "https://github.com/damjan-popic/fifi",
+    "repository_url": "https://github.com/damjan-popic/fifi",
+    "method_domains": [
+      "ai-retrieval",
+      "corpus-building"
+    ],
+    "source_types": [
+      "metadata",
+      "office-documents",
+      "web-pages"
+    ],
+    "inspection_depth": "repository-inspected",
+    "languages_regions": [
+      "multilingual",
+      "slovene",
+      "slovenia"
+    ],
+    "code_availability": "open",
+    "reusable_data_availability": "unavailable",
+    "rights_status": "unknown",
+    "licence": null,
+    "translation_status": "english-fallback",
+    "lifecycle_status": "maintenance-unclear",
+    "evidence_status": "independently-inspected",
+    "editor_relationship": "editor-owned",
+    "last_checked": "2026-09-09",
+    "content_standard": "legacy-audited",
+    "audit_record": "release/case-study-audit.md#case-fifi",
+    "short_summary_en": "Inspect crawler scope, metadata and failure paths without crawling the university website; no reusable output dataset was supplied.",
+    "short_summary_sl": null,
+    "chapter_connections": [
+      "chapters/critical-infrastructures.md",
+      "chapters/research-design.md",
+      "chapters/texts-corpora-ocr.md",
+      "chapters/ai-ethics-reproducibility.md"
+    ],
+    "workflow_connections": [
+      "workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md",
+      "workflows/ai/audit-ai-output-against-source-documents.md",
+      "workflows/publishing/write-a-readme-for-a-humanities-dataset.md",
+      "workflows/ethics/decide-whether-a-digitised-source-should-be-public.md"
+    ],
+    "connection_remediation": null
+  },
+  {
+    "case_id": "CASE-jezikovni-svetovalec",
+    "slug": "jezikovni-svetovalec",
+    "title_en": "Source-grounded Slovenian language advisor",
+    "title_sl": null,
+    "page_en": "docs/en/case-studies/jezikovni-svetovalec.md",
+    "page_sl": null,
+    "project_url": "https://github.com/damjan-popic/jezikovni-svetovalec",
+    "repository_url": "https://github.com/damjan-popic/jezikovni-svetovalec",
+    "method_domains": [
+      "ai-retrieval",
+      "writing-support"
+    ],
+    "source_types": [
+      "corpus-text",
+      "scholarly-text"
+    ],
+    "inspection_depth": "repository-inspected",
+    "languages_regions": [
+      "slovene",
+      "slovenia"
+    ],
+    "code_availability": "open",
+    "reusable_data_availability": "unknown",
+    "rights_status": "unknown",
+    "licence": null,
+    "translation_status": "english-fallback",
+    "lifecycle_status": "deferred",
+    "evidence_status": "independently-inspected",
+    "editor_relationship": "editor-owned",
+    "last_checked": "2026-09-09",
+    "content_standard": "legacy-audited",
+    "audit_record": "release/case-study-audit.md#case-jezikovni-svetovalec",
+    "short_summary_en": "Inspect source-search architecture only; source-dependent reuse is deferred pending rights and public/private-boundary review.",
+    "short_summary_sl": null,
+    "chapter_connections": [
+      "chapters/digital-humanities-in-slovenia.md",
+      "chapters/ai-ethics-reproducibility.md",
+      "chapters/open-living-handbook.md"
+    ],
+    "workflow_connections": [
+      "workflows/ai/audit-ai-output-against-source-documents.md",
+      "workflows/publishing/write-a-readme-for-a-humanities-dataset.md",
+      "workflows/publishing/package-a-corpus-with-fair-metadata.md",
+      "workflows/ethics/decide-whether-a-digitised-source-should-be-public.md"
+    ],
+    "connection_remediation": null
+  },
+  {
+    "case_id": "CASE-korpus-solar-analysis",
+    "slug": "korpus-solar-analysis",
+    "title_en": "Learner-corpus lexical analysis",
+    "title_sl": null,
+    "page_en": "docs/en/case-studies/korpus-solar-analysis.md",
+    "page_sl": null,
+    "project_url": "https://github.com/damjan-popic/korpus-solar-analysis",
+    "repository_url": "https://github.com/damjan-popic/korpus-solar-analysis",
+    "method_domains": [
+      "data-modelling",
+      "linguistic-annotation",
+      "text-analysis"
+    ],
+    "source_types": [
+      "corpus-text",
+      "learner-writing",
+      "metadata"
+    ],
+    "inspection_depth": "repository-inspected",
+    "languages_regions": [
+      "slovene",
+      "slovenia"
+    ],
+    "code_availability": "open",
+    "reusable_data_availability": "unknown",
+    "rights_status": "unknown",
+    "licence": null,
+    "translation_status": "english-fallback",
+    "lifecycle_status": "maintenance-unclear",
+    "evidence_status": "independently-inspected",
+    "editor_relationship": "editor-owned",
+    "last_checked": "2026-09-09",
+    "content_standard": "legacy-audited",
+    "audit_record": "release/case-study-audit.md#case-korpus-solar-analysis",
+    "short_summary_en": "Inspect ID-preserving reannotation checks and exploratory lexical measures; the full input corpus is absent and learner-data reuse conditions were not established.",
+    "short_summary_sl": null,
+    "chapter_connections": [
+      "chapters/data-metadata-models.md",
+      "chapters/linguistic-annotation-classla.md",
+      "chapters/text-analysis.md"
+    ],
+    "workflow_connections": [
+      "workflows/corpora/query-a-corpus-with-cqpweb.md",
+      "workflows/text-analysis/compare-style-with-function-words.md",
+      "workflows/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md"
+    ],
+    "connection_remediation": null
+  },
+  {
+    "case_id": "CASE-ladakh-relations",
+    "slug": "ladakh-relations",
+    "title_en": "Static knowledge graph, map, and corpus index",
+    "title_sl": null,
+    "page_en": "docs/en/case-studies/ladakh-relations.md",
+    "page_sl": null,
+    "project_url": "https://github.com/damjan-popic/ladakh-relations",
+    "repository_url": "https://github.com/damjan-popic/ladakh-relations",
+    "method_domains": [
+      "corpus-building",
+      "data-modelling",
+      "gis",
+      "networks"
+    ],
+    "source_types": [
+      "historical-documents",
+      "metadata",
+      "structured-records"
+    ],
+    "inspection_depth": "repository-inspected",
+    "languages_regions": [
+      "ladakh"
+    ],
+    "code_availability": "open",
+    "reusable_data_availability": "unknown",
+    "rights_status": "unknown",
+    "licence": null,
+    "translation_status": "english-fallback",
+    "lifecycle_status": "maintenance-unclear",
+    "evidence_status": "independently-inspected",
+    "editor_relationship": "editor-owned",
+    "last_checked": "2026-09-09",
+    "content_standard": "legacy-audited",
+    "audit_record": "release/case-study-audit.md#case-ladakh-relations",
+    "short_summary_en": "Inspect a static Ladakh graph's schemas and source/publication boundary; operation and reuse rights remain unverified.",
+    "short_summary_sl": null,
+    "chapter_connections": [
+      "chapters/critical-infrastructures.md",
+      "chapters/databases-sql.md",
+      "chapters/gis-spatial-humanities.md",
+      "chapters/networks-visualization.md",
+      "chapters/open-living-handbook.md"
+    ],
+    "workflow_connections": [
+      "workflows/data/build-a-humanities-database-with-sqlite.md",
+      "workflows/mapping/build-a-simple-cultural-heritage-map.md",
+      "workflows/networks/build-a-cooccurrence-network.md",
+      "workflows/publishing/package-a-corpus-with-fair-metadata.md",
+      "workflows/ethics/decide-whether-a-digitised-source-should-be-public.md"
+    ],
+    "connection_remediation": null
+  },
+  {
+    "case_id": "CASE-medieval-ner",
+    "slug": "medieval-ner",
+    "title_en": "Medieval notarial NER workflow",
+    "title_sl": null,
+    "page_en": "docs/en/case-studies/medieval-ner.md",
+    "page_sl": null,
+    "project_url": "https://github.com/damjan-popic/medieval-ner",
+    "repository_url": "https://github.com/damjan-popic/medieval-ner",
+    "method_domains": [
+      "data-modelling",
+      "linguistic-annotation",
+      "text-analysis"
+    ],
+    "source_types": [
+      "corpus-text",
+      "historical-documents"
+    ],
+    "inspection_depth": "repository-inspected",
+    "languages_regions": [
+      "adriatic",
+      "latin"
+    ],
+    "code_availability": "open",
+    "reusable_data_availability": "unknown",
+    "rights_status": "unknown",
+    "licence": null,
+    "translation_status": "english-fallback",
+    "lifecycle_status": "maintenance-unclear",
+    "evidence_status": "independently-inspected",
+    "editor_relationship": "editor-owned",
+    "last_checked": "2026-09-09",
+    "content_standard": "legacy-audited",
+    "audit_record": "release/case-study-audit.md#case-medieval-ner",
+    "short_summary_en": "Inspect a TEA person-span annotation plan and hybrid extractor; script relocation breaks the default input path and evaluation is set-of-strings, not exact mention-offset scoring.",
+    "short_summary_sl": null,
+    "chapter_connections": [
+      "chapters/models-evidence-interpretation.md",
+      "chapters/texts-corpora-ocr.md",
+      "chapters/linguistic-annotation-classla.md",
+      "chapters/gis-spatial-humanities.md"
+    ],
+    "workflow_connections": [
+      "workflows/nlp/extract-named-entities-with-spacy.md",
+      "workflows/nlp/annotate-a-small-text-with-classla.md",
+      "workflows/nlp/evaluate-classla-on-a-domain-specific-sample.md",
+      "workflows/mapping/map-places-mentioned-in-a-text.md",
+      "workflows/visualization/visualise-uncertainty-in-humanities-data.md"
+    ],
+    "connection_remediation": null
+  },
+  {
+    "case_id": "CASE-pracomul",
+    "slug": "pracomul",
+    "title_en": "Dialogue corpus tabulation and lexical-diversity analysis",
+    "title_sl": null,
+    "page_en": "docs/en/case-studies/pracomul.md",
+    "page_sl": null,
+    "project_url": "https://github.com/damjan-popic/pracomul",
+    "repository_url": "https://github.com/damjan-popic/pracomul",
+    "method_domains": [
+      "data-modelling",
+      "linguistic-annotation",
+      "text-analysis"
+    ],
+    "source_types": [
+      "dialogue-transcripts",
+      "metadata",
+      "structured-records"
+    ],
+    "inspection_depth": "repository-inspected",
+    "languages_regions": [
+      "slovenia",
+      "spanish"
+    ],
+    "code_availability": "open",
+    "reusable_data_availability": "unknown",
+    "rights_status": "unknown",
+    "licence": null,
+    "translation_status": "english-fallback",
+    "lifecycle_status": "maintenance-unclear",
+    "evidence_status": "independently-inspected",
+    "editor_relationship": "editor-owned",
+    "last_checked": "2026-09-09",
+    "content_standard": "legacy-audited",
+    "audit_record": "release/case-study-audit.md#case-pracomul",
+    "short_summary_en": "Inspect A/B turn modelling, Spanish annotation and aggregated lexical measures; undefined measures may become zero, while transcript rights remain incompletely documented.",
+    "short_summary_sl": null,
+    "chapter_connections": [
+      "chapters/data-metadata-models.md",
+      "chapters/text-analysis.md",
+      "chapters/databases-sql.md",
+      "chapters/networks-visualization.md"
+    ],
+    "workflow_connections": [
+      "workflows/data/build-a-humanities-database-with-sqlite.md",
+      "workflows/text-analysis/compare-style-with-function-words.md",
+      "workflows/networks/build-a-cooccurrence-network.md",
+      "workflows/visualization/visualise-a-frequency-list-with-voyant.md"
+    ],
+    "connection_remediation": null
+  },
+  {
+    "case_id": "CASE-text-harvester",
+    "slug": "text-harvester",
+    "title_en": "Web text harvesting",
+    "title_sl": null,
+    "page_en": "docs/en/case-studies/text-harvester.md",
+    "page_sl": null,
+    "project_url": "https://github.com/damjan-popic/text_harvester",
+    "repository_url": "https://github.com/damjan-popic/text_harvester",
+    "method_domains": [
+      "corpus-building"
+    ],
+    "source_types": [
+      "web-pages"
+    ],
+    "inspection_depth": "repository-inspected",
+    "languages_regions": [
+      "multilingual"
+    ],
+    "code_availability": "open",
+    "reusable_data_availability": "not-applicable",
+    "rights_status": "unknown",
+    "licence": null,
+    "translation_status": "english-fallback",
+    "lifecycle_status": "maintenance-unclear",
+    "evidence_status": "independently-inspected",
+    "editor_relationship": "editor-owned",
+    "last_checked": "2026-09-09",
+    "content_standard": "legacy-audited",
+    "audit_record": "release/case-study-audit.md#case-text-harvester",
+    "short_summary_en": "Inspect heuristic web extraction, paragraph-level language guesses and export collisions; no corpus harvesting or reuse permission was verified.",
+    "short_summary_sl": null,
+    "chapter_connections": [
+      "chapters/research-design.md",
+      "chapters/texts-corpora-ocr.md"
+    ],
+    "workflow_connections": [
+      "workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md",
+      "workflows/corpora/deduplicate-corpus-text-with-minhash.md",
+      "workflows/corpora/filter-a-corpus-by-language-with-fasttext.md",
+      "workflows/publishing/write-a-readme-for-a-humanities-dataset.md"
+    ],
+    "connection_remediation": null
+  },
+  {
+    "case_id": "CASE-vejice-add-in",
+    "slug": "vejice-add-in",
+    "title_en": "Slovenian comma-checking Word add-in",
+    "title_sl": null,
+    "page_en": "docs/en/case-studies/vejice-add-in.md",
+    "page_sl": null,
+    "project_url": "https://github.com/damjan-popic/Vejice_add_in",
+    "repository_url": "https://github.com/damjan-popic/Vejice_add_in",
+    "method_domains": [
+      "writing-support"
+    ],
+    "source_types": [
+      "office-documents"
+    ],
+    "inspection_depth": "repository-inspected",
+    "languages_regions": [
+      "slovene",
+      "slovenia"
+    ],
+    "code_availability": "open",
+    "reusable_data_availability": "not-applicable",
+    "rights_status": "unknown",
+    "licence": null,
+    "translation_status": "english-fallback",
+    "lifecycle_status": "maintenance-unclear",
+    "evidence_status": "independently-inspected",
+    "editor_relationship": "collaborative",
+    "last_checked": "2026-09-09",
+    "content_standard": "legacy-audited",
+    "audit_record": "release/case-study-audit.md#case-vejice-add-in",
+    "short_summary_en": "Inspect a fork's mock/remote service guards and configuration risks; no Word execution or correction-quality validation is claimed.",
+    "short_summary_sl": null,
+    "chapter_connections": [
+      "chapters/critical-infrastructures.md",
+      "chapters/ai-ethics-reproducibility.md",
+      "chapters/open-living-handbook.md"
+    ],
+    "workflow_connections": [
+      "workflows/ai/audit-ai-output-against-source-documents.md",
+      "workflows/ethics/decide-whether-a-digitised-source-should-be-public.md"
+    ],
+    "connection_remediation": null
+  },
+  {
+    "case_id": "CASE-wikivir",
+    "slug": "wikivir",
+    "title_en": "Slovene Wikisource corpus build pipeline",
+    "title_sl": null,
+    "page_en": "docs/en/case-studies/wikivir.md",
+    "page_sl": null,
+    "project_url": "https://github.com/damjan-popic/wikivir",
+    "repository_url": "https://github.com/damjan-popic/wikivir",
+    "method_domains": [
+      "corpus-building",
+      "data-modelling",
+      "linguistic-annotation",
+      "text-analysis"
+    ],
+    "source_types": [
+      "corpus-text",
+      "metadata"
+    ],
+    "inspection_depth": "repository-inspected",
+    "languages_regions": [
+      "slovene",
+      "slovenia"
+    ],
+    "code_availability": "open",
+    "reusable_data_availability": "unknown",
+    "rights_status": "unknown",
+    "licence": null,
+    "translation_status": "english-fallback",
+    "lifecycle_status": "maintenance-unclear",
+    "evidence_status": "independently-inspected",
+    "editor_relationship": "editor-owned",
+    "last_checked": "2026-09-09",
+    "content_standard": "legacy-audited",
+    "audit_record": "release/case-study-audit.md#case-wikivir",
+    "short_summary_en": "Inspect metadata curation, header rewriting and annotation/topic scripts; advertised paths and required corpus files are missing or stale, and reuse rights are unverified.",
+    "short_summary_sl": null,
+    "chapter_connections": [
+      "chapters/digital-humanities-in-slovenia.md",
+      "chapters/texts-corpora-ocr.md",
+      "chapters/linguistic-annotation-classla.md",
+      "chapters/open-living-handbook.md"
+    ],
+    "workflow_connections": [
+      "workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md",
+      "workflows/nlp/annotate-a-small-text-with-classla.md",
+      "workflows/publishing/package-a-corpus-with-fair-metadata.md"
+    ],
+    "connection_remediation": null
   }
 ]

@@ -12,11 +12,18 @@ Priročnik je zasnovan tako, da raste z majhnimi, avtorsko priznanimi in pregled
 - kritična študija javnega projekta;
 - predlog spremembe temeljnega poglavja za naslednjo recenzirano izdajo.
 
-## Predloga
+## Predloge
 
+- [Predloga za kritično študijo primera](project-template.md) — petnajst razdelkov o virih, pregledanih dokazih, modeliranju, napakah, pravicah, ponovni uporabi in omejeni učni nalogi; zagon kode ni obvezen;
 - [Predloga za študentski prispevek: praktični postopek](student-workflow-template.md) — dvojezična in dostopnejša struktura za študijske naloge, diferencialne izpite in prve prispevke.
 
-Predloga vsebuje obliko strani, strukturo oddajnega paketa, merila preverjanja, izjavo o uporabi UI, pravila glede občutljivih podatkov ter ločeno odločitev o morebitni javni objavi.
+Študentska predloga vsebuje obliko strani, strukturo oddajnega paketa, merila preverjanja, izjavo o uporabi UI, pravila glede občutljivih podatkov ter ločeno odločitev o morebitni javni objavi.
+
+Pri študiji primera skupaj pripravite par jezikovnih strani, avtorske
+metapodatke in datirani revizijski zapis. Podedovani primeri s stanjem
+`legacy-audited` ostajajo vidno ločeni od polne strukture `showcase-v1`.
+Predloga pojasni, katere zapise urejate in kateri katalogi nastanejo z
+generiranjem; konceptualne povezave sodijo v `intertextuality.yml`.
 
 ## Minimalni standard
 

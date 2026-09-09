@@ -27,12 +27,12 @@ This example shows how to approach named-entity recognition in medieval notarial
 
 ## What to inspect in the code
 
-- `process_ner.py` — current hybrid inference pipeline.
+- `scripts/process_ner.py` — current hybrid inference pipeline.
 - `Rules.md` — extraction expectations.
 - `annotation_guidelines.md` — annotation instructions.
-- `train_ner.py` — fine-tuning entry point.
-- `evaluate_ner.py` — token-label and span evaluation.
-- `prepare_training_data.py` — converts annotations into token-classification records.
+- `scripts/train_ner.py` — fine-tuning entry point.
+- `scripts/evaluate_ner.py` — compares sets of entity strings, not exact mention offsets or token-label F1.
+- `scripts/prepare_training_data.py` — converts annotations into token-classification records.
 - `data/annotation_schema.md` — annotation standard.
 
 ## Minimal run path
