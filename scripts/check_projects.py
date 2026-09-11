@@ -24,7 +24,8 @@ def main() -> int:
     legacy = sum(record["content_standard"] == "legacy-audited" for record in records)
     showcase = sum(record["content_standard"] == "showcase-v1" for record in records)
     print(f"OK: {len(records)} case records; {legacy} legacy-audited, {showcase} showcase-v1; "
-          "schema, dated audit anchors, page/translation declarations, canonical connections and 3 generated outputs agree. No external network checks.")
+          "schema, separate lifecycle/editorial disposition, inspection modes, six component rights records and their summary, "
+          "dated audit anchors, page/translation declarations, canonical connections and 3 generated outputs agree. No external network checks.")
     return 0
 
 

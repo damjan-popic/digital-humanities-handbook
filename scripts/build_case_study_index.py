@@ -7,7 +7,7 @@ import html
 import json
 from pathlib import Path
 
-from case_studies import INDEX, ROOT, label, load_records, schema, validate_records
+from case_studies import INDEX, ROOT, canonical_records, label, load_records, schema, validate_records
 
 REPO = "https://github.com/damjan-popic/digital-humanities-handbook/blob/main/"
 
@@ -44,12 +44,13 @@ def catalogue(records: list[dict], locale: str, definitions: dict) -> str:
     facets = (
         ("method_domains", "Method/domain", "Metoda/področje"),
         ("source_types", "Source type", "Vrsta vira"),
-        ("inspection_depth", "Inspection depth", "Obseg pregleda"),
+        ("inspection_modes", "Inspection modes", "Načini pregleda"),
         ("languages_regions", "Language/region", "Jezik/prostor"),
         ("code_availability", "Code availability", "Dostopnost kode"),
         ("reusable_data_availability", "Reusable data", "Podatki za ponovno uporabo"),
-        ("rights_status", "Rights", "Pravice"),
-        ("lifecycle_status", "Lifecycle", "Stanje projekta"),
+        ("rights_status", "Rights summary", "Povzetek pravic"),
+        ("lifecycle_status", "Project lifecycle", "Življenjski cikel projekta"),
+        ("editorial_disposition", "Handbook editorial disposition", "Uredniška odločitev za priročnik"),
         ("translation_status", "Translation", "Prevod"),
     )
     for record in records:
@@ -70,19 +71,36 @@ def catalogue(records: list[dict], locale: str, definitions: dict) -> str:
             display = "; ".join(label(field, value, locale, definitions) for value in values)
             lines.append(f"    - {sl_label if sl else en_label}: {display}")
         lines += [f"    - {('Dokazna podlaga' if sl else 'Evidence')}: {label('evidence_status', record['evidence_status'], locale, definitions)}",
-                  f"    - {('Povezava z urednikom' if sl else 'Editor relationship')}: {label('editor_relationship', record['editor_relationship'], locale, definitions)}",
-                  f"    - {('Preverjeno' if sl else 'Checked')}: {record['last_checked']}; [{('zapis pregleda (angleško)' if sl else 'audit record')}]({REPO}{record['audit_record']})", ""]
+                  f"    - {('Povezava repozitorija z uredništvom' if sl else 'Repository relationship')}: {label('repository_relationship', record['repository_relationship'], locale, definitions)}",
+                  f"    - {('Preverjeno' if sl else 'Checked')}: {record['last_checked']}; [{('zapis pregleda (angleško)' if sl else 'audit record')}]({REPO}{record['audit_record']})", "",
+                  f"    **{('Pravice po sestavinah' if sl else 'Component rights')}**", ""]
+        for component in record["rights_components"]:
+            name = label("rights_component", component["component"], locale, definitions)
+            status = label("rights_component_status", component["status"], locale, definitions)
+            terms = component["licence_or_terms"]
+            details = (f"; {('oznaka licence ali zapis pogojev (neprevedeno)' if sl else 'licence identifier or recorded terms')}: {plain(terms)}"
+                       if terms is not None else "")
+            lines.append(f"    - {name}: {status}{details}; "
+                         f"[{('obseg in dokazila (angleško)' if sl else 'scope and evidence')}]({REPO}{component['audit_locator']})")
+        lines.append("")
     lines += ["</div>", "", "## Kako berete oznake" if sl else "## Reading the labels", "",
               ("Podedovani primeri so pregledani, vendar še ne izpolnjujejo standarda v1. Datirani pregled navaja vrzeli in nadaljnje delo; "
                "dosegljivost spletne strani sama po sebi ne dokazuje vzdrževanja, licenca kode pa ne določa pravic za vse vhodne podatke. "
-               "Arhivirani, nedostopni in odloženi primeri ostajajo vidni, niso pa priporočilo za nepreverjen zagon."
+               "Življenjski cikel opisuje stanje projekta, uredniška odločitev pa nadaljnjo obravnavo v priročniku: "
+               "predlog za arhiviranje primera ne pomeni, da je projekt arhiviran. Deklarirana licenca je ohranjena, "
+               "četudi njen celotni obseg še ni preverjen; sama deklaracija ne spremeni povzetka pravic v preverjeno dovoljenje. "
+               "Arhivirani in nedostopni projekti ter uredniško odloženi primeri ostajajo vidni, niso pa priporočilo za nepreverjen zagon."
                if sl else "Audited legacy cases are not v1-complete. The dated audit records gaps and follow-up work; "
                "a reachable website does not prove maintenance, and a code licence does not settle rights in all inputs. "
-               "Archived, unavailable and deferred cases remain visible, not recommendations to run unchecked software."), ""]
+               "Project lifecycle describes the project's observed state; handbook editorial disposition describes its treatment here: "
+               "a recommendation to archive a case does not mean that the project is archived. A declared licence is preserved even "
+               "when its full scope remains unverified; declaration alone does not turn the rights summary into verified permission. "
+               "Archived or unavailable projects and editorially deferred cases remain visible, not recommendations to run unchecked software."), ""]
     return "\n".join(lines)
 
 
 def generated(records: list[dict], root: Path = ROOT) -> dict[str, str]:
+    records = canonical_records(records, root)
     definitions = schema(root)["$defs"]
     return {INDEX: json.dumps(records, ensure_ascii=False, indent=2) + "\n",
             **{f"docs/{locale}/case-studies/index.md": catalogue(records, locale, definitions)

@@ -16,14 +16,16 @@ import yaml
 from jsonschema import Draft202012Validator, FormatChecker
 from markdown import markdown
 
-from check_ai_publication import validate_review_metadata
 from handbook_structure import CHAPTERS
+from review_metadata import validate_review_metadata
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = "data/case-studies.yml"
 SCHEMA = "data/case-study-schema.json"
 INDEX = "data/case-studies-index.json"
 CONNECTION_FIELDS = ("chapter_connections", "workflow_connections")
+RIGHTS_COMPONENTS = ("code", "data", "documentation", "source-material", "images", "interface-content")
+RIGHTS_FIELDS = ("component", "status", "licence_or_terms", "scope_note", "audit_locator")
 SHOWCASE_HEADINGS = {
     "en": (
         "Research question and scholarly object", "Intended users or communities",
@@ -101,11 +103,10 @@ def connections(record: dict, mapping: dict) -> dict[str, list[str]]:
 def load_records(root: Path = ROOT) -> list[dict]:
     source = load_yaml(root / SOURCE)
     require(isinstance(source, dict) and set(source) == {"schema_version", "cases"}
-            and type(source["schema_version"]) is int and source["schema_version"] == 1,
-            "Authored case metadata requires schema_version: 1 and cases only")
+            and type(source["schema_version"]) is int and source["schema_version"] == 2,
+            "Authored case metadata requires schema_version: 2 and cases only")
     require(isinstance(source["cases"], list), "cases must be a list")
     mapping = load_yaml(root / "intertextuality.yml")
-    fields = schema(root)["$defs"]["case"]["properties"]
     records = []
     for item in source["cases"]:
         require(isinstance(item, dict), "Each authored case must be a mapping")
@@ -114,14 +115,30 @@ def load_records(root: Path = ROOT) -> list[dict]:
         require("slug" in item, "Missing case slug")
         record = copy.deepcopy(item)
         record.update(connections(record, mapping))
-        # Facets are sets for browsing; relation-list order remains the map's order.
-        for field in ("method_domains", "source_types", "languages_regions"):
-            if isinstance(record.get(field), list):
-                record[field] = sorted(record[field])
         records.append(record)
+    return canonical_records(records, root)
+
+
+def canonical_records(records: list[dict], root: Path = ROOT) -> list[dict]:
+    """Normalize sets and mapping keys without changing consequential relation order."""
     validate_schema(records, root)
-    return [{field: record[field] for field in fields}
-            for record in sorted(records, key=lambda record: record["case_id"])]
+    fields = schema(root)["$defs"]["case"]["properties"]
+    result = []
+    for item in sorted(records, key=lambda record: record["case_id"]):
+        record = copy.deepcopy(item)
+        # Facets are sets for browsing; relation-list order remains the map's order.
+        for field in ("method_domains", "source_types", "languages_regions", "inspection_modes"):
+            record[field] = sorted(record[field])
+        components = record["rights_components"]
+        require(sorted(component["component"] for component in components) == sorted(RIGHTS_COMPONENTS),
+                f"{record['case_id']}: require exactly one rights record for each of the six components")
+        by_component = {component["component"]: component for component in components}
+        record["rights_components"] = [
+            {field: by_component[component][field] for field in RIGHTS_FIELDS}
+            for component in RIGHTS_COMPONENTS
+        ]
+        result.append({field: record[field] for field in fields})
+    return result
 
 
 def frontmatter(path: Path) -> tuple[dict, str]:
@@ -153,10 +170,15 @@ class VisibleContent(HTMLParser):
         self.rows: dict[str, list[list[str]]] = {}
         self.row: list[str] | None = None
         self.cell: list[str] | None = None
+        self.anchors: list[str] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         if tag in {"script", "style", "pre", "code"}:
             self.hidden += 1
+        if tag == "a" and not self.hidden:
+            anchor = dict(attrs).get("id")
+            if anchor is not None:
+                self.anchors.append(anchor)
         if tag == "h2" and not self.hidden:
             self.heading = []
             self.section = None
@@ -202,20 +224,71 @@ def headings(text: str) -> set[str]:
     return visible_content(text).headings
 
 
-def audit_section(root: Path, record: dict) -> str:
+def audit_section(root: Path, record: dict, document: tuple[str, list[str]] | None = None) -> str:
     relative, anchor = record["audit_record"].split("#", 1)
-    text = local_file(root, relative).read_text(encoding="utf-8")
+    if document is None:
+        text = local_file(root, relative).read_text(encoding="utf-8")
+        anchors = visible_content(text).anchors
+    else:
+        text, anchors = document
     marker = f'<a id="{anchor}"></a>'
-    require(text.count(marker) == 1, f"{record['case_id']}: missing/duplicate audit record {anchor}")
+    require(text.count(marker) == 1 and anchors.count(anchor) == 1,
+            f"{record['case_id']}: missing/duplicate audit record {anchor}")
     section = text.split(marker, 1)[1].split('<a id="case-', 1)[0]
     require(record["case_id"] in section and record["last_checked"] in section,
             f"{record['case_id']}: audit must identify case and matching check date")
     return section
 
 
+def rights_summary(components: list[dict]) -> str:
+    """Summarize verified scope; declarations alone never imply verified permission."""
+    applicable = [component["status"] for component in components if component["status"] != "not-applicable"]
+    if not applicable:
+        return "not-applicable"
+    if not set(applicable) & {"verified-open", "verified-restricted"}:
+        return "unknown"
+    if set(applicable) == {"verified-open"}:
+        return "verified-open"
+    if set(applicable) == {"verified-restricted"}:
+        return "verified-restricted"
+    return "mixed"
+
+
+def validate_rights(record: dict, root: Path, audit: str, full_anchors: list[str] | None = None) -> None:
+    case_id = record["case_id"]
+    components = record["rights_components"]
+    require(sorted(component["component"] for component in components) == sorted(RIGHTS_COMPONENTS),
+            f"{case_id}: require exactly one rights record for each of the six components")
+    require(record["rights_status"] == rights_summary(components),
+            f"{case_id}: rights_status must match the component rights summary")
+    if full_anchors is None:
+        full_audit = local_file(root, "release/case-study-audit.md").read_text(encoding="utf-8")
+        full_anchors = visible_content(full_audit).anchors
+    own_anchors = visible_content(audit).anchors
+    for component in components:
+        name = component["component"]
+        context = f"{case_id}/{name}"
+        terms = component["licence_or_terms"]
+        if component["status"] in {"unknown", "not-applicable"}:
+            require(terms is None, f"{context}: unknown/not-applicable licence_or_terms must be null")
+        else:
+            require(isinstance(terms, str) and bool(terms.strip()),
+                    f"{context}: declared/verified rights require licence_or_terms")
+        scope = " ".join(visible_content(component["scope_note"]).text)
+        require(len(re.findall(r"[^\W_]+", scope)) >= 4,
+                f"{context}: scope_note must explain substantive component scope")
+        anchor = f"rights-{record['slug']}-{name}"
+        require(component["audit_locator"] == f"release/case-study-audit.md#{anchor}",
+                f"{context}: audit_locator must identify this case and rights component")
+        require(full_anchors.count(anchor) == 1 and own_anchors.count(anchor) == 1,
+                f"{context}: missing/duplicate component audit anchor in its own case section: {anchor}")
+
+
 def validate_records(records: list[dict], root: Path = ROOT) -> None:
     validate_schema(records, root)
     mapping = load_yaml(root / "intertextuality.yml")
+    audit_text = local_file(root, "release/case-study-audit.md").read_text(encoding="utf-8")
+    audit_anchors = visible_content(audit_text).anchors
     legacy_ids = schema(root)["x-legacy-case-ids"]
     require(set(legacy_ids) <= {record["case_id"] for record in records},
             "Original legacy inventory cannot disappear; retain an audited archived/deferred record")
@@ -237,7 +310,11 @@ def validate_records(records: list[dict], root: Path = ROOT) -> None:
         if record["content_standard"] == "legacy-audited":
             require(case_id in legacy_ids, f"{case_id}: new cases cannot claim the legacy exemption")
         require(date.fromisoformat(record["last_checked"]) <= date.today(), f"{case_id}: future last_checked")
-        audit = audit_section(root, record)
+        if record["repository_relationship"] in {"editor-account", "documented-fork-or-collaboration", "external-repository"}:
+            require(record["repository_url"] is not None,
+                    f"{case_id}: a factual repository relationship requires repository_url")
+        audit = audit_section(root, record, (audit_text, audit_anchors))
+        validate_rights(record, root, audit, audit_anchors)
         expected = connections(record, mapping)
         require(all(record[field] == expected[field] for field in CONNECTION_FIELDS),
                 f"{case_id}: connections differ from authoritative intertextuality.yml")

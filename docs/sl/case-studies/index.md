@@ -26,16 +26,26 @@ Kataloški opisi so strojno podprt osnutek; potreben je človeški jezikovni pre
 
     - Metoda/področje: Gradnja korpusov; Modeliranje podatkov; Jezikoslovna anotacija
     - Vrsta vira: Korpusna besedila; Strukturirani zapisi
-    - Obseg pregleda: Pregled repozitorija
+    - Načini pregleda: Pregled dokumentacije; Pregled repozitorija
     - Jezik/prostor: Slovenščina
-    - Dostopnost kode: Javno dostopna izvorna koda
+    - Dostopnost kode: Javno dostopna koda
     - Podatki za ponovno uporabo: Podatki za ponovno uporabo niso dostopni
-    - Pravice: Pravice niso razjasnjene
-    - Stanje projekta: Vzdrževanje ni jasno
+    - Povzetek pravic: Pravice po sestavinah niso preverjene
+    - Življenjski cikel projekta: Vzdrževanje ni jasno
+    - Uredniška odločitev za priročnik: Ohranitev in nadgradnja primera
     - Prevod: Angleška nadomestna stran
-    - Dokazna podlaga: Samostojno pregledano gradivo
-    - Povezava z urednikom: Urednikov projekt
+    - Dokazna podlaga: Pregledano dokazno gradivo
+    - Povezava repozitorija z uredništvom: Repozitorij na urednikovem računu
     - Preverjeno: 2026-09-09; [zapis pregleda (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-corpus-augmenter)
+
+    **Pravice po sestavinah**
+
+    - Koda: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-corpus-augmenter-code)
+    - Podatki: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-corpus-augmenter-data)
+    - Dokumentacija: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-corpus-augmenter-documentation)
+    - Izvorno gradivo: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-corpus-augmenter-source-material)
+    - Slike: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-corpus-augmenter-images)
+    - Vsebina vmesnika: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-corpus-augmenter-interface-content)
 
 -   **[User/AI transcript analysis](createai.md) — angleška nadomestna stran**
 
@@ -45,16 +55,26 @@ Kataloški opisi so strojno podprt osnutek; potreben je človeški jezikovni pre
 
     - Metoda/področje: Jezikoslovna anotacija; Analiza besedil
     - Vrsta vira: Prepisi dialogov; Prepisi interakcij z UI
-    - Obseg pregleda: Pregled repozitorija
+    - Načini pregleda: Pregled dokumentacije; Pregled repozitorija
     - Jezik/prostor: Ni opredeljeno
-    - Dostopnost kode: Javno dostopna izvorna koda
+    - Dostopnost kode: Javno dostopna koda
     - Podatki za ponovno uporabo: Možnost ponovne uporabe podatkov ni znana
-    - Pravice: Pravice niso razjasnjene
-    - Stanje projekta: Vzdrževanje ni jasno
+    - Povzetek pravic: Pravice po sestavinah niso preverjene
+    - Življenjski cikel projekta: Vzdrževanje ni jasno
+    - Uredniška odločitev za priročnik: Ohranitev podedovanega primera
     - Prevod: Angleška nadomestna stran
-    - Dokazna podlaga: Samostojno pregledano gradivo
-    - Povezava z urednikom: Urednikov projekt
+    - Dokazna podlaga: Pregledano dokazno gradivo
+    - Povezava repozitorija z uredništvom: Repozitorij na urednikovem računu
     - Preverjeno: 2026-09-09; [zapis pregleda (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-createai)
+
+    **Pravice po sestavinah**
+
+    - Koda: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-createai-code)
+    - Podatki: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-createai-data)
+    - Dokumentacija: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-createai-documentation)
+    - Izvorno gradivo: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-createai-source-material)
+    - Slike: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-createai-images)
+    - Vsebina vmesnika: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-createai-interface-content)
 
 -   **[Website crawler and chatbot corpus builder](fifi.md) — angleška nadomestna stran**
 
@@ -64,16 +84,26 @@ Kataloški opisi so strojno podprt osnutek; potreben je človeški jezikovni pre
 
     - Metoda/področje: UI / iskanje virov; Gradnja korpusov
     - Vrsta vira: Metapodatki; Pisarniški dokumenti; Spletne strani
-    - Obseg pregleda: Pregled repozitorija
+    - Načini pregleda: Pregled dokumentacije; Pregled repozitorija
     - Jezik/prostor: Večjezično; Slovenščina; Slovenija
-    - Dostopnost kode: Javno dostopna izvorna koda
+    - Dostopnost kode: Javno dostopna koda
     - Podatki za ponovno uporabo: Podatki za ponovno uporabo niso dostopni
-    - Pravice: Pravice niso razjasnjene
-    - Stanje projekta: Vzdrževanje ni jasno
+    - Povzetek pravic: Pravice po sestavinah niso preverjene
+    - Življenjski cikel projekta: Vzdrževanje ni jasno
+    - Uredniška odločitev za priročnik: Ohranitev podedovanega primera
     - Prevod: Angleška nadomestna stran
-    - Dokazna podlaga: Samostojno pregledano gradivo
-    - Povezava z urednikom: Urednikov projekt
+    - Dokazna podlaga: Pregledano dokazno gradivo
+    - Povezava repozitorija z uredništvom: Repozitorij na urednikovem računu
     - Preverjeno: 2026-09-09; [zapis pregleda (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-fifi)
+
+    **Pravice po sestavinah**
+
+    - Koda: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-fifi-code)
+    - Podatki: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-fifi-data)
+    - Dokumentacija: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-fifi-documentation)
+    - Izvorno gradivo: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-fifi-source-material)
+    - Slike: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-fifi-images)
+    - Vsebina vmesnika: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-fifi-interface-content)
 
 -   **[Source-grounded Slovenian language advisor](jezikovni-svetovalec.md) — angleška nadomestna stran**
 
@@ -83,16 +113,26 @@ Kataloški opisi so strojno podprt osnutek; potreben je človeški jezikovni pre
 
     - Metoda/področje: UI / iskanje virov; Podpora pisanju
     - Vrsta vira: Korpusna besedila; Znanstvena besedila
-    - Obseg pregleda: Pregled repozitorija
+    - Načini pregleda: Pregled dokumentacije; Pregled repozitorija
     - Jezik/prostor: Slovenščina; Slovenija
-    - Dostopnost kode: Javno dostopna izvorna koda
+    - Dostopnost kode: Javno dostopna koda
     - Podatki za ponovno uporabo: Možnost ponovne uporabe podatkov ni znana
-    - Pravice: Pravice niso razjasnjene
-    - Stanje projekta: Odloženo
+    - Povzetek pravic: Pravice po sestavinah niso preverjene
+    - Življenjski cikel projekta: Vzdrževanje ni jasno
+    - Uredniška odločitev za priročnik: Odlog ponovne uporabe v priročniku
     - Prevod: Angleška nadomestna stran
-    - Dokazna podlaga: Samostojno pregledano gradivo
-    - Povezava z urednikom: Urednikov projekt
+    - Dokazna podlaga: Pregledano dokazno gradivo
+    - Povezava repozitorija z uredništvom: Repozitorij na urednikovem računu
     - Preverjeno: 2026-09-09; [zapis pregleda (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-jezikovni-svetovalec)
+
+    **Pravice po sestavinah**
+
+    - Koda: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-jezikovni-svetovalec-code)
+    - Podatki: Projekt navaja pogoje; obseg ni preverjen; oznaka licence ali zapis pogojev (neprevedeno): Private-course use; keep the corpus private without redistribution rights; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-jezikovni-svetovalec-data)
+    - Dokumentacija: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-jezikovni-svetovalec-documentation)
+    - Izvorno gradivo: Projekt navaja pogoje; obseg ni preverjen; oznaka licence ali zapis pogojev (neprevedeno): Private-course use; keep the corpus private without redistribution rights; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-jezikovni-svetovalec-source-material)
+    - Slike: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-jezikovni-svetovalec-images)
+    - Vsebina vmesnika: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-jezikovni-svetovalec-interface-content)
 
 -   **[Learner-corpus lexical analysis](korpus-solar-analysis.md) — angleška nadomestna stran**
 
@@ -102,16 +142,26 @@ Kataloški opisi so strojno podprt osnutek; potreben je človeški jezikovni pre
 
     - Metoda/področje: Modeliranje podatkov; Jezikoslovna anotacija; Analiza besedil
     - Vrsta vira: Korpusna besedila; Besedila učečih se; Metapodatki
-    - Obseg pregleda: Pregled repozitorija
+    - Načini pregleda: Pregled dokumentacije; Pregled repozitorija
     - Jezik/prostor: Slovenščina; Slovenija
-    - Dostopnost kode: Javno dostopna izvorna koda
+    - Dostopnost kode: Javno dostopna koda
     - Podatki za ponovno uporabo: Možnost ponovne uporabe podatkov ni znana
-    - Pravice: Pravice niso razjasnjene
-    - Stanje projekta: Vzdrževanje ni jasno
+    - Povzetek pravic: Pravice po sestavinah niso preverjene
+    - Življenjski cikel projekta: Vzdrževanje ni jasno
+    - Uredniška odločitev za priročnik: Ohranitev in nadgradnja primera
     - Prevod: Angleška nadomestna stran
-    - Dokazna podlaga: Samostojno pregledano gradivo
-    - Povezava z urednikom: Urednikov projekt
+    - Dokazna podlaga: Pregledano dokazno gradivo
+    - Povezava repozitorija z uredništvom: Repozitorij na urednikovem računu
     - Preverjeno: 2026-09-09; [zapis pregleda (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-korpus-solar-analysis)
+
+    **Pravice po sestavinah**
+
+    - Koda: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-korpus-solar-analysis-code)
+    - Podatki: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-korpus-solar-analysis-data)
+    - Dokumentacija: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-korpus-solar-analysis-documentation)
+    - Izvorno gradivo: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-korpus-solar-analysis-source-material)
+    - Slike: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-korpus-solar-analysis-images)
+    - Vsebina vmesnika: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-korpus-solar-analysis-interface-content)
 
 -   **[Static knowledge graph, map, and corpus index](ladakh-relations.md) — angleška nadomestna stran**
 
@@ -121,16 +171,26 @@ Kataloški opisi so strojno podprt osnutek; potreben je človeški jezikovni pre
 
     - Metoda/področje: Gradnja korpusov; Modeliranje podatkov; GIS / prostorska humanistika; Omrežja
     - Vrsta vira: Zgodovinski dokumenti; Metapodatki; Strukturirani zapisi
-    - Obseg pregleda: Pregled repozitorija
+    - Načini pregleda: Pregled dokumentacije; Pregled repozitorija
     - Jezik/prostor: Ladak
-    - Dostopnost kode: Javno dostopna izvorna koda
+    - Dostopnost kode: Javno dostopna koda
     - Podatki za ponovno uporabo: Možnost ponovne uporabe podatkov ni znana
-    - Pravice: Pravice niso razjasnjene
-    - Stanje projekta: Vzdrževanje ni jasno
+    - Povzetek pravic: Pravice po sestavinah niso preverjene
+    - Življenjski cikel projekta: Vzdrževanje ni jasno
+    - Uredniška odločitev za priročnik: Ohranitev in nadgradnja primera
     - Prevod: Angleška nadomestna stran
-    - Dokazna podlaga: Samostojno pregledano gradivo
-    - Povezava z urednikom: Urednikov projekt
+    - Dokazna podlaga: Pregledano dokazno gradivo
+    - Povezava repozitorija z uredništvom: Repozitorij na urednikovem računu
     - Preverjeno: 2026-09-09; [zapis pregleda (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-ladakh-relations)
+
+    **Pravice po sestavinah**
+
+    - Koda: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-ladakh-relations-code)
+    - Podatki: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-ladakh-relations-data)
+    - Dokumentacija: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-ladakh-relations-documentation)
+    - Izvorno gradivo: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-ladakh-relations-source-material)
+    - Slike: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-ladakh-relations-images)
+    - Vsebina vmesnika: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-ladakh-relations-interface-content)
 
 -   **[Medieval notarial NER workflow](medieval-ner.md) — angleška nadomestna stran**
 
@@ -140,16 +200,26 @@ Kataloški opisi so strojno podprt osnutek; potreben je človeški jezikovni pre
 
     - Metoda/področje: Modeliranje podatkov; Jezikoslovna anotacija; Analiza besedil
     - Vrsta vira: Korpusna besedila; Zgodovinski dokumenti
-    - Obseg pregleda: Pregled repozitorija
+    - Načini pregleda: Pregled dokumentacije; Pregled repozitorija
     - Jezik/prostor: Jadranski prostor; Latinščina
-    - Dostopnost kode: Javno dostopna izvorna koda
+    - Dostopnost kode: Javno dostopna koda
     - Podatki za ponovno uporabo: Možnost ponovne uporabe podatkov ni znana
-    - Pravice: Pravice niso razjasnjene
-    - Stanje projekta: Vzdrževanje ni jasno
+    - Povzetek pravic: Pravice po sestavinah niso preverjene
+    - Življenjski cikel projekta: Vzdrževanje ni jasno
+    - Uredniška odločitev za priročnik: Ohranitev podedovanega primera
     - Prevod: Angleška nadomestna stran
-    - Dokazna podlaga: Samostojno pregledano gradivo
-    - Povezava z urednikom: Urednikov projekt
+    - Dokazna podlaga: Pregledano dokazno gradivo
+    - Povezava repozitorija z uredništvom: Repozitorij na urednikovem računu
     - Preverjeno: 2026-09-09; [zapis pregleda (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-medieval-ner)
+
+    **Pravice po sestavinah**
+
+    - Koda: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-medieval-ner-code)
+    - Podatki: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-medieval-ner-data)
+    - Dokumentacija: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-medieval-ner-documentation)
+    - Izvorno gradivo: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-medieval-ner-source-material)
+    - Slike: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-medieval-ner-images)
+    - Vsebina vmesnika: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-medieval-ner-interface-content)
 
 -   **[Dialogue corpus tabulation and lexical-diversity analysis](pracomul.md) — angleška nadomestna stran**
 
@@ -159,16 +229,26 @@ Kataloški opisi so strojno podprt osnutek; potreben je človeški jezikovni pre
 
     - Metoda/področje: Modeliranje podatkov; Jezikoslovna anotacija; Analiza besedil
     - Vrsta vira: Prepisi dialogov; Metapodatki; Strukturirani zapisi
-    - Obseg pregleda: Pregled repozitorija
+    - Načini pregleda: Pregled dokumentacije; Pregled repozitorija
     - Jezik/prostor: Slovenija; Španščina
-    - Dostopnost kode: Javno dostopna izvorna koda
+    - Dostopnost kode: Javno dostopna koda
     - Podatki za ponovno uporabo: Možnost ponovne uporabe podatkov ni znana
-    - Pravice: Pravice niso razjasnjene
-    - Stanje projekta: Vzdrževanje ni jasno
+    - Povzetek pravic: Pravice po sestavinah niso preverjene
+    - Življenjski cikel projekta: Vzdrževanje ni jasno
+    - Uredniška odločitev za priročnik: Ohranitev podedovanega primera
     - Prevod: Angleška nadomestna stran
-    - Dokazna podlaga: Samostojno pregledano gradivo
-    - Povezava z urednikom: Urednikov projekt
+    - Dokazna podlaga: Pregledano dokazno gradivo
+    - Povezava repozitorija z uredništvom: Repozitorij na urednikovem računu
     - Preverjeno: 2026-09-09; [zapis pregleda (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-pracomul)
+
+    **Pravice po sestavinah**
+
+    - Koda: Projekt navaja pogoje; obseg ni preverjen; oznaka licence ali zapis pogojev (neprevedeno): MIT; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-pracomul-code)
+    - Podatki: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-pracomul-data)
+    - Dokumentacija: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-pracomul-documentation)
+    - Izvorno gradivo: Projekt navaja pogoje; obseg ni preverjen; oznaka licence ali zapis pogojev (neprevedeno): Unnamed non-commercial research licence; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-pracomul-source-material)
+    - Slike: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-pracomul-images)
+    - Vsebina vmesnika: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-pracomul-interface-content)
 
 -   **[Web text harvesting](text-harvester.md) — angleška nadomestna stran**
 
@@ -178,16 +258,26 @@ Kataloški opisi so strojno podprt osnutek; potreben je človeški jezikovni pre
 
     - Metoda/področje: Gradnja korpusov
     - Vrsta vira: Spletne strani
-    - Obseg pregleda: Pregled repozitorija
+    - Načini pregleda: Pregled dokumentacije; Pregled repozitorija
     - Jezik/prostor: Večjezično
-    - Dostopnost kode: Javno dostopna izvorna koda
-    - Podatki za ponovno uporabo: Podatki niso relevantni
-    - Pravice: Pravice niso razjasnjene
-    - Stanje projekta: Vzdrževanje ni jasno
+    - Dostopnost kode: Javno dostopna koda
+    - Podatki za ponovno uporabo: Objavljena podatkovna zbirka ni potrebna
+    - Povzetek pravic: Pravice po sestavinah niso preverjene
+    - Življenjski cikel projekta: Vzdrževanje ni jasno
+    - Uredniška odločitev za priročnik: Ohranitev in nadgradnja primera
     - Prevod: Angleška nadomestna stran
-    - Dokazna podlaga: Samostojno pregledano gradivo
-    - Povezava z urednikom: Urednikov projekt
+    - Dokazna podlaga: Pregledano dokazno gradivo
+    - Povezava repozitorija z uredništvom: Repozitorij na urednikovem računu
     - Preverjeno: 2026-09-09; [zapis pregleda (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-text-harvester)
+
+    **Pravice po sestavinah**
+
+    - Koda: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-text-harvester-code)
+    - Podatki: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-text-harvester-data)
+    - Dokumentacija: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-text-harvester-documentation)
+    - Izvorno gradivo: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-text-harvester-source-material)
+    - Slike: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-text-harvester-images)
+    - Vsebina vmesnika: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-text-harvester-interface-content)
 
 -   **[Slovenian comma-checking Word add-in](vejice-add-in.md) — angleška nadomestna stran**
 
@@ -197,16 +287,26 @@ Kataloški opisi so strojno podprt osnutek; potreben je človeški jezikovni pre
 
     - Metoda/področje: Podpora pisanju
     - Vrsta vira: Pisarniški dokumenti
-    - Obseg pregleda: Pregled repozitorija
+    - Načini pregleda: Pregled dokumentacije; Pregled repozitorija
     - Jezik/prostor: Slovenščina; Slovenija
-    - Dostopnost kode: Javno dostopna izvorna koda
-    - Podatki za ponovno uporabo: Podatki niso relevantni
-    - Pravice: Pravice niso razjasnjene
-    - Stanje projekta: Vzdrževanje ni jasno
+    - Dostopnost kode: Javno dostopna koda
+    - Podatki za ponovno uporabo: Objavljena podatkovna zbirka ni potrebna
+    - Povzetek pravic: Pravice po sestavinah niso preverjene
+    - Življenjski cikel projekta: Vzdrževanje ni jasno
+    - Uredniška odločitev za priročnik: Ohranitev in nadgradnja primera
     - Prevod: Angleška nadomestna stran
-    - Dokazna podlaga: Samostojno pregledano gradivo
-    - Povezava z urednikom: Sodelovalni projekt
+    - Dokazna podlaga: Pregledano dokazno gradivo
+    - Povezava repozitorija z uredništvom: Dokumentirana kopija (fork) ali sodelovanje
     - Preverjeno: 2026-09-09; [zapis pregleda (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-vejice-add-in)
+
+    **Pravice po sestavinah**
+
+    - Koda: Projekt navaja pogoje; obseg ni preverjen; oznaka licence ali zapis pogojev (neprevedeno): MIT; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-vejice-add-in-code)
+    - Podatki: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-vejice-add-in-data)
+    - Dokumentacija: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-vejice-add-in-documentation)
+    - Izvorno gradivo: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-vejice-add-in-source-material)
+    - Slike: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-vejice-add-in-images)
+    - Vsebina vmesnika: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-vejice-add-in-interface-content)
 
 -   **[Slovene Wikisource corpus build pipeline](wikivir.md) — angleška nadomestna stran**
 
@@ -216,19 +316,29 @@ Kataloški opisi so strojno podprt osnutek; potreben je človeški jezikovni pre
 
     - Metoda/področje: Gradnja korpusov; Modeliranje podatkov; Jezikoslovna anotacija; Analiza besedil
     - Vrsta vira: Korpusna besedila; Metapodatki
-    - Obseg pregleda: Pregled repozitorija
+    - Načini pregleda: Pregled dokumentacije; Pregled repozitorija
     - Jezik/prostor: Slovenščina; Slovenija
-    - Dostopnost kode: Javno dostopna izvorna koda
+    - Dostopnost kode: Javno dostopna koda
     - Podatki za ponovno uporabo: Možnost ponovne uporabe podatkov ni znana
-    - Pravice: Pravice niso razjasnjene
-    - Stanje projekta: Vzdrževanje ni jasno
+    - Povzetek pravic: Pravice po sestavinah niso preverjene
+    - Življenjski cikel projekta: Vzdrževanje ni jasno
+    - Uredniška odločitev za priročnik: Ohranitev podedovanega primera
     - Prevod: Angleška nadomestna stran
-    - Dokazna podlaga: Samostojno pregledano gradivo
-    - Povezava z urednikom: Urednikov projekt
+    - Dokazna podlaga: Pregledano dokazno gradivo
+    - Povezava repozitorija z uredništvom: Repozitorij na urednikovem računu
     - Preverjeno: 2026-09-09; [zapis pregleda (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-wikivir)
+
+    **Pravice po sestavinah**
+
+    - Koda: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-wikivir-code)
+    - Podatki: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-wikivir-data)
+    - Dokumentacija: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-wikivir-documentation)
+    - Izvorno gradivo: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-wikivir-source-material)
+    - Slike: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-wikivir-images)
+    - Vsebina vmesnika: Pogoji niso ugotovljeni; [obseg in dokazila (angleško)](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-wikivir-interface-content)
 
 </div>
 
 ## Kako berete oznake
 
-Podedovani primeri so pregledani, vendar še ne izpolnjujejo standarda v1. Datirani pregled navaja vrzeli in nadaljnje delo; dosegljivost spletne strani sama po sebi ne dokazuje vzdrževanja, licenca kode pa ne določa pravic za vse vhodne podatke. Arhivirani, nedostopni in odloženi primeri ostajajo vidni, niso pa priporočilo za nepreverjen zagon.
+Podedovani primeri so pregledani, vendar še ne izpolnjujejo standarda v1. Datirani pregled navaja vrzeli in nadaljnje delo; dosegljivost spletne strani sama po sebi ne dokazuje vzdrževanja, licenca kode pa ne določa pravic za vse vhodne podatke. Življenjski cikel opisuje stanje projekta, uredniška odločitev pa nadaljnjo obravnavo v priročniku: predlog za arhiviranje primera ne pomeni, da je projekt arhiviran. Deklarirana licenca je ohranjena, četudi njen celotni obseg še ni preverjen; sama deklaracija ne spremeni povzetka pravic v preverjeno dovoljenje. Arhivirani in nedostopni projekti ter uredniško odloženi primeri ostajajo vidni, niso pa priporočilo za nepreverjen zagon.

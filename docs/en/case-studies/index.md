@@ -24,16 +24,26 @@ How do a research question, sources and modelling decisions limit a digital proj
 
     - Method/domain: Corpus building; Data modelling; Linguistic annotation
     - Source type: Corpus text; Structured records
-    - Inspection depth: Repository inspected
+    - Inspection modes: Documentation inspected; Repository inspected
     - Language/region: Slovene
-    - Code availability: Public source code
+    - Code availability: Publicly inspectable code
     - Reusable data: Reusable data unavailable
-    - Rights: Rights unknown
-    - Lifecycle: Maintenance unclear
+    - Rights summary: Component rights not verified
+    - Project lifecycle: Maintenance unclear
+    - Handbook editorial disposition: Retain and upgrade the case
     - Translation: English fallback
-    - Evidence: Independently inspected evidence
-    - Editor relationship: Editor-owned
+    - Evidence: Source evidence inspected
+    - Repository relationship: Repository on the editor's account
     - Checked: 2026-09-09; [audit record](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-corpus-augmenter)
+
+    **Component rights**
+
+    - Code: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-corpus-augmenter-code)
+    - Data: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-corpus-augmenter-data)
+    - Documentation: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-corpus-augmenter-documentation)
+    - Source material: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-corpus-augmenter-source-material)
+    - Images: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-corpus-augmenter-images)
+    - Interface content: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-corpus-augmenter-interface-content)
 
 -   **[User/AI transcript analysis](createai.md)**
 
@@ -43,16 +53,26 @@ How do a research question, sources and modelling decisions limit a digital proj
 
     - Method/domain: Linguistic annotation; Text analysis
     - Source type: Dialogue transcripts; User/AI transcripts
-    - Inspection depth: Repository inspected
+    - Inspection modes: Documentation inspected; Repository inspected
     - Language/region: Not specified
-    - Code availability: Public source code
+    - Code availability: Publicly inspectable code
     - Reusable data: Data reuse unknown
-    - Rights: Rights unknown
-    - Lifecycle: Maintenance unclear
+    - Rights summary: Component rights not verified
+    - Project lifecycle: Maintenance unclear
+    - Handbook editorial disposition: Retain as a legacy case
     - Translation: English fallback
-    - Evidence: Independently inspected evidence
-    - Editor relationship: Editor-owned
+    - Evidence: Source evidence inspected
+    - Repository relationship: Repository on the editor's account
     - Checked: 2026-09-09; [audit record](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-createai)
+
+    **Component rights**
+
+    - Code: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-createai-code)
+    - Data: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-createai-data)
+    - Documentation: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-createai-documentation)
+    - Source material: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-createai-source-material)
+    - Images: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-createai-images)
+    - Interface content: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-createai-interface-content)
 
 -   **[Website crawler and chatbot corpus builder](fifi.md)**
 
@@ -62,16 +82,26 @@ How do a research question, sources and modelling decisions limit a digital proj
 
     - Method/domain: AI / retrieval; Corpus building
     - Source type: Metadata; Office documents; Web pages
-    - Inspection depth: Repository inspected
+    - Inspection modes: Documentation inspected; Repository inspected
     - Language/region: Multilingual; Slovene; Slovenia
-    - Code availability: Public source code
+    - Code availability: Publicly inspectable code
     - Reusable data: Reusable data unavailable
-    - Rights: Rights unknown
-    - Lifecycle: Maintenance unclear
+    - Rights summary: Component rights not verified
+    - Project lifecycle: Maintenance unclear
+    - Handbook editorial disposition: Retain as a legacy case
     - Translation: English fallback
-    - Evidence: Independently inspected evidence
-    - Editor relationship: Editor-owned
+    - Evidence: Source evidence inspected
+    - Repository relationship: Repository on the editor's account
     - Checked: 2026-09-09; [audit record](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-fifi)
+
+    **Component rights**
+
+    - Code: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-fifi-code)
+    - Data: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-fifi-data)
+    - Documentation: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-fifi-documentation)
+    - Source material: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-fifi-source-material)
+    - Images: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-fifi-images)
+    - Interface content: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-fifi-interface-content)
 
 -   **[Source-grounded Slovenian language advisor](jezikovni-svetovalec.md)**
 
@@ -81,16 +111,26 @@ How do a research question, sources and modelling decisions limit a digital proj
 
     - Method/domain: AI / retrieval; Writing support
     - Source type: Corpus text; Scholarly text
-    - Inspection depth: Repository inspected
+    - Inspection modes: Documentation inspected; Repository inspected
     - Language/region: Slovene; Slovenia
-    - Code availability: Public source code
+    - Code availability: Publicly inspectable code
     - Reusable data: Data reuse unknown
-    - Rights: Rights unknown
-    - Lifecycle: Deferred
+    - Rights summary: Component rights not verified
+    - Project lifecycle: Maintenance unclear
+    - Handbook editorial disposition: Defer handbook reuse
     - Translation: English fallback
-    - Evidence: Independently inspected evidence
-    - Editor relationship: Editor-owned
+    - Evidence: Source evidence inspected
+    - Repository relationship: Repository on the editor's account
     - Checked: 2026-09-09; [audit record](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-jezikovni-svetovalec)
+
+    **Component rights**
+
+    - Code: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-jezikovni-svetovalec-code)
+    - Data: Project-declared terms; scope unverified; licence identifier or recorded terms: Private-course use; keep the corpus private without redistribution rights; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-jezikovni-svetovalec-data)
+    - Documentation: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-jezikovni-svetovalec-documentation)
+    - Source material: Project-declared terms; scope unverified; licence identifier or recorded terms: Private-course use; keep the corpus private without redistribution rights; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-jezikovni-svetovalec-source-material)
+    - Images: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-jezikovni-svetovalec-images)
+    - Interface content: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-jezikovni-svetovalec-interface-content)
 
 -   **[Learner-corpus lexical analysis](korpus-solar-analysis.md)**
 
@@ -100,16 +140,26 @@ How do a research question, sources and modelling decisions limit a digital proj
 
     - Method/domain: Data modelling; Linguistic annotation; Text analysis
     - Source type: Corpus text; Learner writing; Metadata
-    - Inspection depth: Repository inspected
+    - Inspection modes: Documentation inspected; Repository inspected
     - Language/region: Slovene; Slovenia
-    - Code availability: Public source code
+    - Code availability: Publicly inspectable code
     - Reusable data: Data reuse unknown
-    - Rights: Rights unknown
-    - Lifecycle: Maintenance unclear
+    - Rights summary: Component rights not verified
+    - Project lifecycle: Maintenance unclear
+    - Handbook editorial disposition: Retain and upgrade the case
     - Translation: English fallback
-    - Evidence: Independently inspected evidence
-    - Editor relationship: Editor-owned
+    - Evidence: Source evidence inspected
+    - Repository relationship: Repository on the editor's account
     - Checked: 2026-09-09; [audit record](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-korpus-solar-analysis)
+
+    **Component rights**
+
+    - Code: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-korpus-solar-analysis-code)
+    - Data: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-korpus-solar-analysis-data)
+    - Documentation: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-korpus-solar-analysis-documentation)
+    - Source material: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-korpus-solar-analysis-source-material)
+    - Images: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-korpus-solar-analysis-images)
+    - Interface content: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-korpus-solar-analysis-interface-content)
 
 -   **[Static knowledge graph, map, and corpus index](ladakh-relations.md)**
 
@@ -119,16 +169,26 @@ How do a research question, sources and modelling decisions limit a digital proj
 
     - Method/domain: Corpus building; Data modelling; GIS / spatial humanities; Networks
     - Source type: Historical documents; Metadata; Structured records
-    - Inspection depth: Repository inspected
+    - Inspection modes: Documentation inspected; Repository inspected
     - Language/region: Ladakh
-    - Code availability: Public source code
+    - Code availability: Publicly inspectable code
     - Reusable data: Data reuse unknown
-    - Rights: Rights unknown
-    - Lifecycle: Maintenance unclear
+    - Rights summary: Component rights not verified
+    - Project lifecycle: Maintenance unclear
+    - Handbook editorial disposition: Retain and upgrade the case
     - Translation: English fallback
-    - Evidence: Independently inspected evidence
-    - Editor relationship: Editor-owned
+    - Evidence: Source evidence inspected
+    - Repository relationship: Repository on the editor's account
     - Checked: 2026-09-09; [audit record](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-ladakh-relations)
+
+    **Component rights**
+
+    - Code: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-ladakh-relations-code)
+    - Data: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-ladakh-relations-data)
+    - Documentation: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-ladakh-relations-documentation)
+    - Source material: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-ladakh-relations-source-material)
+    - Images: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-ladakh-relations-images)
+    - Interface content: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-ladakh-relations-interface-content)
 
 -   **[Medieval notarial NER workflow](medieval-ner.md)**
 
@@ -138,16 +198,26 @@ How do a research question, sources and modelling decisions limit a digital proj
 
     - Method/domain: Data modelling; Linguistic annotation; Text analysis
     - Source type: Corpus text; Historical documents
-    - Inspection depth: Repository inspected
+    - Inspection modes: Documentation inspected; Repository inspected
     - Language/region: Adriatic region; Latin
-    - Code availability: Public source code
+    - Code availability: Publicly inspectable code
     - Reusable data: Data reuse unknown
-    - Rights: Rights unknown
-    - Lifecycle: Maintenance unclear
+    - Rights summary: Component rights not verified
+    - Project lifecycle: Maintenance unclear
+    - Handbook editorial disposition: Retain as a legacy case
     - Translation: English fallback
-    - Evidence: Independently inspected evidence
-    - Editor relationship: Editor-owned
+    - Evidence: Source evidence inspected
+    - Repository relationship: Repository on the editor's account
     - Checked: 2026-09-09; [audit record](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-medieval-ner)
+
+    **Component rights**
+
+    - Code: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-medieval-ner-code)
+    - Data: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-medieval-ner-data)
+    - Documentation: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-medieval-ner-documentation)
+    - Source material: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-medieval-ner-source-material)
+    - Images: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-medieval-ner-images)
+    - Interface content: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-medieval-ner-interface-content)
 
 -   **[Dialogue corpus tabulation and lexical-diversity analysis](pracomul.md)**
 
@@ -157,16 +227,26 @@ How do a research question, sources and modelling decisions limit a digital proj
 
     - Method/domain: Data modelling; Linguistic annotation; Text analysis
     - Source type: Dialogue transcripts; Metadata; Structured records
-    - Inspection depth: Repository inspected
+    - Inspection modes: Documentation inspected; Repository inspected
     - Language/region: Slovenia; Spanish
-    - Code availability: Public source code
+    - Code availability: Publicly inspectable code
     - Reusable data: Data reuse unknown
-    - Rights: Rights unknown
-    - Lifecycle: Maintenance unclear
+    - Rights summary: Component rights not verified
+    - Project lifecycle: Maintenance unclear
+    - Handbook editorial disposition: Retain as a legacy case
     - Translation: English fallback
-    - Evidence: Independently inspected evidence
-    - Editor relationship: Editor-owned
+    - Evidence: Source evidence inspected
+    - Repository relationship: Repository on the editor's account
     - Checked: 2026-09-09; [audit record](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-pracomul)
+
+    **Component rights**
+
+    - Code: Project-declared terms; scope unverified; licence identifier or recorded terms: MIT; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-pracomul-code)
+    - Data: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-pracomul-data)
+    - Documentation: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-pracomul-documentation)
+    - Source material: Project-declared terms; scope unverified; licence identifier or recorded terms: Unnamed non-commercial research licence; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-pracomul-source-material)
+    - Images: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-pracomul-images)
+    - Interface content: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-pracomul-interface-content)
 
 -   **[Web text harvesting](text-harvester.md)**
 
@@ -176,16 +256,26 @@ How do a research question, sources and modelling decisions limit a digital proj
 
     - Method/domain: Corpus building
     - Source type: Web pages
-    - Inspection depth: Repository inspected
+    - Inspection modes: Documentation inspected; Repository inspected
     - Language/region: Multilingual
-    - Code availability: Public source code
-    - Reusable data: Data not applicable
-    - Rights: Rights unknown
-    - Lifecycle: Maintenance unclear
+    - Code availability: Publicly inspectable code
+    - Reusable data: No distributed dataset required
+    - Rights summary: Component rights not verified
+    - Project lifecycle: Maintenance unclear
+    - Handbook editorial disposition: Retain and upgrade the case
     - Translation: English fallback
-    - Evidence: Independently inspected evidence
-    - Editor relationship: Editor-owned
+    - Evidence: Source evidence inspected
+    - Repository relationship: Repository on the editor's account
     - Checked: 2026-09-09; [audit record](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-text-harvester)
+
+    **Component rights**
+
+    - Code: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-text-harvester-code)
+    - Data: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-text-harvester-data)
+    - Documentation: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-text-harvester-documentation)
+    - Source material: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-text-harvester-source-material)
+    - Images: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-text-harvester-images)
+    - Interface content: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-text-harvester-interface-content)
 
 -   **[Slovenian comma-checking Word add-in](vejice-add-in.md)**
 
@@ -195,16 +285,26 @@ How do a research question, sources and modelling decisions limit a digital proj
 
     - Method/domain: Writing support
     - Source type: Office documents
-    - Inspection depth: Repository inspected
+    - Inspection modes: Documentation inspected; Repository inspected
     - Language/region: Slovene; Slovenia
-    - Code availability: Public source code
-    - Reusable data: Data not applicable
-    - Rights: Rights unknown
-    - Lifecycle: Maintenance unclear
+    - Code availability: Publicly inspectable code
+    - Reusable data: No distributed dataset required
+    - Rights summary: Component rights not verified
+    - Project lifecycle: Maintenance unclear
+    - Handbook editorial disposition: Retain and upgrade the case
     - Translation: English fallback
-    - Evidence: Independently inspected evidence
-    - Editor relationship: Collaborative
+    - Evidence: Source evidence inspected
+    - Repository relationship: Documented fork or collaboration
     - Checked: 2026-09-09; [audit record](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-vejice-add-in)
+
+    **Component rights**
+
+    - Code: Project-declared terms; scope unverified; licence identifier or recorded terms: MIT; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-vejice-add-in-code)
+    - Data: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-vejice-add-in-data)
+    - Documentation: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-vejice-add-in-documentation)
+    - Source material: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-vejice-add-in-source-material)
+    - Images: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-vejice-add-in-images)
+    - Interface content: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-vejice-add-in-interface-content)
 
 -   **[Slovene Wikisource corpus build pipeline](wikivir.md)**
 
@@ -214,19 +314,29 @@ How do a research question, sources and modelling decisions limit a digital proj
 
     - Method/domain: Corpus building; Data modelling; Linguistic annotation; Text analysis
     - Source type: Corpus text; Metadata
-    - Inspection depth: Repository inspected
+    - Inspection modes: Documentation inspected; Repository inspected
     - Language/region: Slovene; Slovenia
-    - Code availability: Public source code
+    - Code availability: Publicly inspectable code
     - Reusable data: Data reuse unknown
-    - Rights: Rights unknown
-    - Lifecycle: Maintenance unclear
+    - Rights summary: Component rights not verified
+    - Project lifecycle: Maintenance unclear
+    - Handbook editorial disposition: Retain as a legacy case
     - Translation: English fallback
-    - Evidence: Independently inspected evidence
-    - Editor relationship: Editor-owned
+    - Evidence: Source evidence inspected
+    - Repository relationship: Repository on the editor's account
     - Checked: 2026-09-09; [audit record](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#case-wikivir)
+
+    **Component rights**
+
+    - Code: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-wikivir-code)
+    - Data: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-wikivir-data)
+    - Documentation: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-wikivir-documentation)
+    - Source material: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-wikivir-source-material)
+    - Images: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-wikivir-images)
+    - Interface content: Terms not established; [scope and evidence](https://github.com/damjan-popic/digital-humanities-handbook/blob/main/release/case-study-audit.md#rights-wikivir-interface-content)
 
 </div>
 
 ## Reading the labels
 
-Audited legacy cases are not v1-complete. The dated audit records gaps and follow-up work; a reachable website does not prove maintenance, and a code licence does not settle rights in all inputs. Archived, unavailable and deferred cases remain visible, not recommendations to run unchecked software.
+Audited legacy cases are not v1-complete. The dated audit records gaps and follow-up work; a reachable website does not prove maintenance, and a code licence does not settle rights in all inputs. Project lifecycle describes the project's observed state; handbook editorial disposition describes its treatment here: a recommendation to archive a case does not mean that the project is archived. A declared licence is preserved even when its full scope remains unverified; declaration alone does not turn the rights summary into verified permission. Archived or unavailable projects and editorially deferred cases remain visible, not recommendations to run unchecked software.

@@ -17,18 +17,65 @@
       "corpus-text",
       "structured-records"
     ],
-    "inspection_depth": "repository-inspected",
+    "inspection_modes": [
+      "documentation-inspected",
+      "repository-inspected"
+    ],
     "languages_regions": [
       "slovene"
     ],
-    "code_availability": "open",
+    "code_availability": "publicly-inspectable",
     "reusable_data_availability": "unavailable",
     "rights_status": "unknown",
-    "licence": null,
+    "rights_components": [
+      {
+        "component": "code",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No applicable code licence declaration was identified in the inspected README, source files or tree.",
+        "audit_locator": "release/case-study-audit.md#rights-corpus-augmenter-code"
+      },
+      {
+        "component": "data",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No corpus or bounded sample is bundled; this absence does not establish permission for external data.",
+        "audit_locator": "release/case-study-audit.md#rights-corpus-augmenter-data"
+      },
+      {
+        "component": "documentation",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "README and continuation notes were inspected; no applicable documentation reuse grant was identified.",
+        "audit_locator": "release/case-study-audit.md#rights-corpus-augmenter-documentation"
+      },
+      {
+        "component": "source-material",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "JANES/GOS corpora and CLASSLA resources are external; their source rights were not inspected.",
+        "audit_locator": "release/case-study-audit.md#rights-corpus-augmenter-source-material"
+      },
+      {
+        "component": "images",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No component-specific image rights were assessed in this source-only audit.",
+        "audit_locator": "release/case-study-audit.md#rights-corpus-augmenter-images"
+      },
+      {
+        "component": "interface-content",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No annotation service or live interface was operated; interface-content rights were not assessed.",
+        "audit_locator": "release/case-study-audit.md#rights-corpus-augmenter-interface-content"
+      }
+    ],
     "translation_status": "english-fallback",
     "lifecycle_status": "maintenance-unclear",
-    "evidence_status": "independently-inspected",
-    "editor_relationship": "editor-owned",
+    "editorial_disposition": "retain-and-upgrade",
+    "evidence_status": "source-evidence-inspected",
+    "repository_relationship": "editor-account",
     "last_checked": "2026-09-09",
     "content_standard": "legacy-audited",
     "audit_record": "release/case-study-audit.md#case-corpus-augmenter",
@@ -64,18 +111,65 @@
       "dialogue-transcripts",
       "interaction-transcripts"
     ],
-    "inspection_depth": "repository-inspected",
+    "inspection_modes": [
+      "documentation-inspected",
+      "repository-inspected"
+    ],
     "languages_regions": [
       "not-specified"
     ],
-    "code_availability": "open",
+    "code_availability": "publicly-inspectable",
     "reusable_data_availability": "unknown",
     "rights_status": "unknown",
-    "licence": null,
+    "rights_components": [
+      {
+        "component": "code",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "The inspected annotation script and README supplied no verified applicable code licence.",
+        "audit_locator": "release/case-study-audit.md#rights-createai-code"
+      },
+      {
+        "component": "data",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Transcript and generated-analysis paths are publicly listed; their contents, redistribution terms and anonymization were not inspected.",
+        "audit_locator": "release/case-study-audit.md#rights-createai-data"
+      },
+      {
+        "component": "documentation",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No applicable documentation reuse grant was identified in the inspected README.",
+        "audit_locator": "release/case-study-audit.md#rights-createai-documentation"
+      },
+      {
+        "component": "source-material",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Interview provenance, participant consent and source-transcript permissions remain unverified; transcript bodies were not fetched.",
+        "audit_locator": "release/case-study-audit.md#rights-createai-source-material"
+      },
+      {
+        "component": "images",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Image content and component-specific permissions were not assessed in this transcript-tool source audit.",
+        "audit_locator": "release/case-study-audit.md#rights-createai-images"
+      },
+      {
+        "component": "interface-content",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No transcript reader or application interface was operated; interface-content permissions were not assessed.",
+        "audit_locator": "release/case-study-audit.md#rights-createai-interface-content"
+      }
+    ],
     "translation_status": "english-fallback",
     "lifecycle_status": "maintenance-unclear",
-    "evidence_status": "independently-inspected",
-    "editor_relationship": "editor-owned",
+    "editorial_disposition": "retain-as-legacy",
+    "evidence_status": "source-evidence-inspected",
+    "repository_relationship": "editor-account",
     "last_checked": "2026-09-09",
     "content_standard": "legacy-audited",
     "audit_record": "release/case-study-audit.md#case-createai",
@@ -112,20 +206,67 @@
       "office-documents",
       "web-pages"
     ],
-    "inspection_depth": "repository-inspected",
+    "inspection_modes": [
+      "documentation-inspected",
+      "repository-inspected"
+    ],
     "languages_regions": [
       "multilingual",
       "slovene",
       "slovenia"
     ],
-    "code_availability": "open",
+    "code_availability": "publicly-inspectable",
     "reusable_data_availability": "unavailable",
     "rights_status": "unknown",
-    "licence": null,
+    "rights_components": [
+      {
+        "component": "code",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No applicable code licence was identified in the inspected crawler documentation or repository tree.",
+        "audit_locator": "release/case-study-audit.md#rights-fifi-code"
+      },
+      {
+        "component": "data",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Only a data-directory placeholder is tracked; no supplied crawl dataset or its reuse permission was verified.",
+        "audit_locator": "release/case-study-audit.md#rights-fifi-data"
+      },
+      {
+        "component": "documentation",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "The inspected README supplied no applicable documentation reuse grant.",
+        "audit_locator": "release/case-study-audit.md#rights-fifi-documentation"
+      },
+      {
+        "component": "source-material",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Faculty website pages and linked documents are intended crawl sources; copyright, personal-data and collection permission were not assessed.",
+        "audit_locator": "release/case-study-audit.md#rights-fifi-source-material"
+      },
+      {
+        "component": "images",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Website images were not fetched and no image-specific reuse conditions were verified.",
+        "audit_locator": "release/case-study-audit.md#rights-fifi-images"
+      },
+      {
+        "component": "interface-content",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Neither the target website interface nor a chatbot was operated; interface-content rights were not assessed.",
+        "audit_locator": "release/case-study-audit.md#rights-fifi-interface-content"
+      }
+    ],
     "translation_status": "english-fallback",
     "lifecycle_status": "maintenance-unclear",
-    "evidence_status": "independently-inspected",
-    "editor_relationship": "editor-owned",
+    "editorial_disposition": "retain-as-legacy",
+    "evidence_status": "source-evidence-inspected",
+    "repository_relationship": "editor-account",
     "last_checked": "2026-09-09",
     "content_standard": "legacy-audited",
     "audit_record": "release/case-study-audit.md#case-fifi",
@@ -162,19 +303,66 @@
       "corpus-text",
       "scholarly-text"
     ],
-    "inspection_depth": "repository-inspected",
+    "inspection_modes": [
+      "documentation-inspected",
+      "repository-inspected"
+    ],
     "languages_regions": [
       "slovene",
       "slovenia"
     ],
-    "code_availability": "open",
+    "code_availability": "publicly-inspectable",
     "reusable_data_availability": "unknown",
     "rights_status": "unknown",
-    "licence": null,
+    "rights_components": [
+      {
+        "component": "code",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Public source helpers and package metadata were inspected; no applicable code licence was verified.",
+        "audit_locator": "release/case-study-audit.md#rights-jezikovni-svetovalec-code"
+      },
+      {
+        "component": "data",
+        "status": "project-declared",
+        "licence_or_terms": "Private-course use; keep the corpus private without redistribution rights",
+        "scope_note": "README warns against redistributing the corpus; extracted-page and index paths are nevertheless publicly listed. This is a restriction warning, not a verified licence grant; payloads were not inspected.",
+        "audit_locator": "release/case-study-audit.md#rights-jezikovni-svetovalec-data"
+      },
+      {
+        "component": "documentation",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "README and documentation index were read; their applicable reuse permission remains unverified.",
+        "audit_locator": "release/case-study-audit.md#rights-jezikovni-svetovalec-documentation"
+      },
+      {
+        "component": "source-material",
+        "status": "project-declared",
+        "licence_or_terms": "Private-course use; keep the corpus private without redistribution rights",
+        "scope_note": "README names SP 2001 and Toporišič's grammar and warns to keep the corpus private without redistribution rights. Source permissions remain unverified; no reference-text payload was fetched.",
+        "audit_locator": "release/case-study-audit.md#rights-jezikovni-svetovalec-source-material"
+      },
+      {
+        "component": "images",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No source images or image-specific permissions were inspected in this code-and-metadata-only review.",
+        "audit_locator": "release/case-study-audit.md#rights-jezikovni-svetovalec-images"
+      },
+      {
+        "component": "interface-content",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No advice interface or wiki answer was operated or inspected; interface-content permissions remain unverified.",
+        "audit_locator": "release/case-study-audit.md#rights-jezikovni-svetovalec-interface-content"
+      }
+    ],
     "translation_status": "english-fallback",
-    "lifecycle_status": "deferred",
-    "evidence_status": "independently-inspected",
-    "editor_relationship": "editor-owned",
+    "lifecycle_status": "maintenance-unclear",
+    "editorial_disposition": "defer",
+    "evidence_status": "source-evidence-inspected",
+    "repository_relationship": "editor-account",
     "last_checked": "2026-09-09",
     "content_standard": "legacy-audited",
     "audit_record": "release/case-study-audit.md#case-jezikovni-svetovalec",
@@ -212,19 +400,66 @@
       "learner-writing",
       "metadata"
     ],
-    "inspection_depth": "repository-inspected",
+    "inspection_modes": [
+      "documentation-inspected",
+      "repository-inspected"
+    ],
     "languages_regions": [
       "slovene",
       "slovenia"
     ],
-    "code_availability": "open",
+    "code_availability": "publicly-inspectable",
     "reusable_data_availability": "unknown",
     "rights_status": "unknown",
-    "licence": null,
+    "rights_components": [
+      {
+        "component": "code",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No applicable code licence was established for the inspected reannotation and analysis sources.",
+        "audit_locator": "release/case-study-audit.md#rights-korpus-solar-analysis-code"
+      },
+      {
+        "component": "data",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "A tiny sample and participant-related metadata are listed, not inspected; their reuse terms were not established.",
+        "audit_locator": "release/case-study-audit.md#rights-korpus-solar-analysis-data"
+      },
+      {
+        "component": "documentation",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "README, dictionary and methodology notes were inspected without establishing an applicable documentation reuse grant.",
+        "audit_locator": "release/case-study-audit.md#rights-korpus-solar-analysis-documentation"
+      },
+      {
+        "component": "source-material",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "The required original learner corpus is absent; original-source access, consent and reuse conditions remain unverified.",
+        "audit_locator": "release/case-study-audit.md#rights-korpus-solar-analysis-source-material"
+      },
+      {
+        "component": "images",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Image content and image-specific permissions were not assessed; source DOCX and learner payloads were not opened.",
+        "audit_locator": "release/case-study-audit.md#rights-korpus-solar-analysis-images"
+      },
+      {
+        "component": "interface-content",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No report interface or corpus service was operated; interface-content rights were not assessed.",
+        "audit_locator": "release/case-study-audit.md#rights-korpus-solar-analysis-interface-content"
+      }
+    ],
     "translation_status": "english-fallback",
     "lifecycle_status": "maintenance-unclear",
-    "evidence_status": "independently-inspected",
-    "editor_relationship": "editor-owned",
+    "editorial_disposition": "retain-and-upgrade",
+    "evidence_status": "source-evidence-inspected",
+    "repository_relationship": "editor-account",
     "last_checked": "2026-09-09",
     "content_standard": "legacy-audited",
     "audit_record": "release/case-study-audit.md#case-korpus-solar-analysis",
@@ -262,18 +497,65 @@
       "metadata",
       "structured-records"
     ],
-    "inspection_depth": "repository-inspected",
+    "inspection_modes": [
+      "documentation-inspected",
+      "repository-inspected"
+    ],
     "languages_regions": [
       "ladakh"
     ],
-    "code_availability": "open",
+    "code_availability": "publicly-inspectable",
     "reusable_data_availability": "unknown",
     "rights_status": "unknown",
-    "licence": null,
+    "rights_components": [
+      {
+        "component": "code",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No applicable code grant was found in the inspected documentation or complete repository tree.",
+        "audit_locator": "release/case-study-audit.md#rights-ladakh-relations-code"
+      },
+      {
+        "component": "data",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Graph, geographic and table derivatives are listed, but their payloads and reuse conditions were not inspected.",
+        "audit_locator": "release/case-study-audit.md#rights-ladakh-relations-data"
+      },
+      {
+        "component": "documentation",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "README, architecture and corpus-workflow documentation supplied no verified applicable documentation licence.",
+        "audit_locator": "release/case-study-audit.md#rights-ladakh-relations-documentation"
+      },
+      {
+        "component": "source-material",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "The source workbook was not opened and local corpus texts are excluded; source and community permissions remain unverified.",
+        "audit_locator": "release/case-study-audit.md#rights-ladakh-relations-source-material"
+      },
+      {
+        "component": "images",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No image payload or component-specific image reuse permission was inspected.",
+        "audit_locator": "release/case-study-audit.md#rights-ladakh-relations-images"
+      },
+      {
+        "component": "interface-content",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "The graph and map interfaces were not operated; their displayed-content reuse conditions remain unverified.",
+        "audit_locator": "release/case-study-audit.md#rights-ladakh-relations-interface-content"
+      }
+    ],
     "translation_status": "english-fallback",
     "lifecycle_status": "maintenance-unclear",
-    "evidence_status": "independently-inspected",
-    "editor_relationship": "editor-owned",
+    "editorial_disposition": "retain-and-upgrade",
+    "evidence_status": "source-evidence-inspected",
+    "repository_relationship": "editor-account",
     "last_checked": "2026-09-09",
     "content_standard": "legacy-audited",
     "audit_record": "release/case-study-audit.md#case-ladakh-relations",
@@ -313,19 +595,66 @@
       "corpus-text",
       "historical-documents"
     ],
-    "inspection_depth": "repository-inspected",
+    "inspection_modes": [
+      "documentation-inspected",
+      "repository-inspected"
+    ],
     "languages_regions": [
       "adriatic",
       "latin"
     ],
-    "code_availability": "open",
+    "code_availability": "publicly-inspectable",
     "reusable_data_availability": "unknown",
     "rights_status": "unknown",
-    "licence": null,
+    "rights_components": [
+      {
+        "component": "code",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No applicable repository code licence was identified in the inspected README and source tree.",
+        "audit_locator": "release/case-study-audit.md#rights-medieval-ner-code"
+      },
+      {
+        "component": "data",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Annotations, starter splits and derived entity files are listed only; their data reuse permission remains unverified.",
+        "audit_locator": "release/case-study-audit.md#rights-medieval-ner-data"
+      },
+      {
+        "component": "documentation",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Annotation guidelines and schema were read without establishing an applicable documentation reuse licence.",
+        "audit_locator": "release/case-study-audit.md#rights-medieval-ner-documentation"
+      },
+      {
+        "component": "source-material",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Medieval subject matter does not establish rights to modern editions or transcriptions; source corpus and model permissions were not inspected.",
+        "audit_locator": "release/case-study-audit.md#rights-medieval-ner-source-material"
+      },
+      {
+        "component": "images",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No source-image payload or image-specific permission was inspected in this code-and-guidelines audit.",
+        "audit_locator": "release/case-study-audit.md#rights-medieval-ner-images"
+      },
+      {
+        "component": "interface-content",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No model or annotation interface was operated; interface-content rights were not assessed.",
+        "audit_locator": "release/case-study-audit.md#rights-medieval-ner-interface-content"
+      }
+    ],
     "translation_status": "english-fallback",
     "lifecycle_status": "maintenance-unclear",
-    "evidence_status": "independently-inspected",
-    "editor_relationship": "editor-owned",
+    "editorial_disposition": "retain-as-legacy",
+    "evidence_status": "source-evidence-inspected",
+    "repository_relationship": "editor-account",
     "last_checked": "2026-09-09",
     "content_standard": "legacy-audited",
     "audit_record": "release/case-study-audit.md#case-medieval-ner",
@@ -365,19 +694,66 @@
       "metadata",
       "structured-records"
     ],
-    "inspection_depth": "repository-inspected",
+    "inspection_modes": [
+      "documentation-inspected",
+      "repository-inspected"
+    ],
     "languages_regions": [
       "slovenia",
       "spanish"
     ],
-    "code_availability": "open",
+    "code_availability": "publicly-inspectable",
     "reusable_data_availability": "unknown",
     "rights_status": "unknown",
-    "licence": null,
+    "rights_components": [
+      {
+        "component": "code",
+        "status": "project-declared",
+        "licence_or_terms": "MIT",
+        "scope_note": "README section 11 declares MIT for code, but no licence text or copyright notice is bundled; applicable scope remains unverified.",
+        "audit_locator": "release/case-study-audit.md#rights-pracomul-code"
+      },
+      {
+        "component": "data",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Derived token and turn outputs contain transcript text and demographic fields; their reuse scope was not verified and payloads were not inspected.",
+        "audit_locator": "release/case-study-audit.md#rights-pracomul-data"
+      },
+      {
+        "component": "documentation",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "The README's code declaration does not establish a documentation grant; advertised dictionary and methodology files are absent.",
+        "audit_locator": "release/case-study-audit.md#rights-pracomul-documentation"
+      },
+      {
+        "component": "source-material",
+        "status": "project-declared",
+        "licence_or_terms": "Unnamed non-commercial research licence",
+        "scope_note": "README section 11 describes the transcripts under their existing non-commercial research licence without naming it or providing rights-holder permission or consent records.",
+        "audit_locator": "release/case-study-audit.md#rights-pracomul-source-material"
+      },
+      {
+        "component": "images",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No image payload or image-specific licence was inspected in this dialogue-corpus source audit.",
+        "audit_locator": "release/case-study-audit.md#rights-pracomul-images"
+      },
+      {
+        "component": "interface-content",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No notebook, spreadsheet or dialogue interface was operated; interface-content reuse conditions remain unverified.",
+        "audit_locator": "release/case-study-audit.md#rights-pracomul-interface-content"
+      }
+    ],
     "translation_status": "english-fallback",
     "lifecycle_status": "maintenance-unclear",
-    "evidence_status": "independently-inspected",
-    "editor_relationship": "editor-owned",
+    "editorial_disposition": "retain-as-legacy",
+    "evidence_status": "source-evidence-inspected",
+    "repository_relationship": "editor-account",
     "last_checked": "2026-09-09",
     "content_standard": "legacy-audited",
     "audit_record": "release/case-study-audit.md#case-pracomul",
@@ -412,18 +788,65 @@
     "source_types": [
       "web-pages"
     ],
-    "inspection_depth": "repository-inspected",
+    "inspection_modes": [
+      "documentation-inspected",
+      "repository-inspected"
+    ],
     "languages_regions": [
       "multilingual"
     ],
-    "code_availability": "open",
+    "code_availability": "publicly-inspectable",
     "reusable_data_availability": "not-applicable",
     "rights_status": "unknown",
-    "licence": null,
+    "rights_components": [
+      {
+        "component": "code",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Neither the inspected source file nor README supplies an identified applicable code licence.",
+        "audit_locator": "release/case-study-audit.md#rights-text-harvester-code"
+      },
+      {
+        "component": "data",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "The two-file repository distributes no dataset; permission for any future harvested dataset remains unverified.",
+        "audit_locator": "release/case-study-audit.md#rights-text-harvester-data"
+      },
+      {
+        "component": "documentation",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "The inspected README supplies no identified applicable documentation reuse grant.",
+        "audit_locator": "release/case-study-audit.md#rights-text-harvester-documentation"
+      },
+      {
+        "component": "source-material",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No target page was harvested; source website reuse permission must be established for a future selected source.",
+        "audit_locator": "release/case-study-audit.md#rights-text-harvester-source-material"
+      },
+      {
+        "component": "images",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "The inspected two-file tree establishes no bundled image asset or image-specific licence.",
+        "audit_locator": "release/case-study-audit.md#rights-text-harvester-images"
+      },
+      {
+        "component": "interface-content",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No separate interface-content asset or target-site interface was inspected; applicable content permissions remain unverified.",
+        "audit_locator": "release/case-study-audit.md#rights-text-harvester-interface-content"
+      }
+    ],
     "translation_status": "english-fallback",
     "lifecycle_status": "maintenance-unclear",
-    "evidence_status": "independently-inspected",
-    "editor_relationship": "editor-owned",
+    "editorial_disposition": "retain-and-upgrade",
+    "evidence_status": "source-evidence-inspected",
+    "repository_relationship": "editor-account",
     "last_checked": "2026-09-09",
     "content_standard": "legacy-audited",
     "audit_record": "release/case-study-audit.md#case-text-harvester",
@@ -456,19 +879,66 @@
     "source_types": [
       "office-documents"
     ],
-    "inspection_depth": "repository-inspected",
+    "inspection_modes": [
+      "documentation-inspected",
+      "repository-inspected"
+    ],
     "languages_regions": [
       "slovene",
       "slovenia"
     ],
-    "code_availability": "open",
+    "code_availability": "publicly-inspectable",
     "reusable_data_availability": "not-applicable",
     "rights_status": "unknown",
-    "licence": null,
+    "rights_components": [
+      {
+        "component": "code",
+        "status": "project-declared",
+        "licence_or_terms": "MIT",
+        "scope_note": "Fork and upstream package manifests declare MIT, but an applicable repository-level grant was not verified; bundled dependency notices do not settle the whole fork's scope.",
+        "audit_locator": "release/case-study-audit.md#rights-vejice-add-in-code"
+      },
+      {
+        "component": "data",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No reusable research dataset is needed for code inspection; this does not establish rights to user-supplied document data.",
+        "audit_locator": "release/case-study-audit.md#rights-vejice-add-in-data"
+      },
+      {
+        "component": "documentation",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "The MIT package declaration was not verified as a grant covering README or other documentation.",
+        "audit_locator": "release/case-study-audit.md#rights-vejice-add-in-documentation"
+      },
+      {
+        "component": "source-material",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Document inputs are supplied by users; their permissions and any remote-service processing terms were not assessed.",
+        "audit_locator": "release/case-study-audit.md#rights-vejice-add-in-source-material"
+      },
+      {
+        "component": "images",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No image-specific reuse grant was verified; package or dependency declarations are not automatically applied to images.",
+        "audit_locator": "release/case-study-audit.md#rights-vejice-add-in-images"
+      },
+      {
+        "component": "interface-content",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Word and the add-in were not operated; package declarations do not establish permission for all displayed or third-party interface content.",
+        "audit_locator": "release/case-study-audit.md#rights-vejice-add-in-interface-content"
+      }
+    ],
     "translation_status": "english-fallback",
     "lifecycle_status": "maintenance-unclear",
-    "evidence_status": "independently-inspected",
-    "editor_relationship": "collaborative",
+    "editorial_disposition": "retain-and-upgrade",
+    "evidence_status": "source-evidence-inspected",
+    "repository_relationship": "documented-fork-or-collaboration",
     "last_checked": "2026-09-09",
     "content_standard": "legacy-audited",
     "audit_record": "release/case-study-audit.md#case-vejice-add-in",
@@ -504,19 +974,66 @@
       "corpus-text",
       "metadata"
     ],
-    "inspection_depth": "repository-inspected",
+    "inspection_modes": [
+      "documentation-inspected",
+      "repository-inspected"
+    ],
     "languages_regions": [
       "slovene",
       "slovenia"
     ],
-    "code_availability": "open",
+    "code_availability": "publicly-inspectable",
     "reusable_data_availability": "unknown",
     "rights_status": "unknown",
-    "licence": null,
+    "rights_components": [
+      {
+        "component": "code",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No applicable code licence grant was identified in the inspected README, scripts or tree.",
+        "audit_locator": "release/case-study-audit.md#rights-wikivir-code"
+      },
+      {
+        "component": "data",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Mappings, cache and statistical outputs are listed only; their contents and reuse permission were not inspected.",
+        "audit_locator": "release/case-study-audit.md#rights-wikivir-data"
+      },
+      {
+        "component": "documentation",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "The inspected README supplied no applicable documentation reuse grant.",
+        "audit_locator": "release/case-study-audit.md#rights-wikivir-documentation"
+      },
+      {
+        "component": "source-material",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "Full advertised corpus inputs are absent; Wikimedia terms cannot automatically be transferred to every source text, mapping or cache item.",
+        "audit_locator": "release/case-study-audit.md#rights-wikivir-source-material"
+      },
+      {
+        "component": "images",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No source image or component-specific image licence was inspected.",
+        "audit_locator": "release/case-study-audit.md#rights-wikivir-images"
+      },
+      {
+        "component": "interface-content",
+        "status": "unknown",
+        "licence_or_terms": null,
+        "scope_note": "No Wikisource or analysis interface was operated; its displayed-content permissions were not assessed.",
+        "audit_locator": "release/case-study-audit.md#rights-wikivir-interface-content"
+      }
+    ],
     "translation_status": "english-fallback",
     "lifecycle_status": "maintenance-unclear",
-    "evidence_status": "independently-inspected",
-    "editor_relationship": "editor-owned",
+    "editorial_disposition": "retain-as-legacy",
+    "evidence_status": "source-evidence-inspected",
+    "repository_relationship": "editor-account",
     "last_checked": "2026-09-09",
     "content_standard": "legacy-audited",
     "audit_record": "release/case-study-audit.md#case-wikivir",

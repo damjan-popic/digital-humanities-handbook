@@ -1,6 +1,23 @@
 # Case-study framework display checks
 
-Captured on 2026-09-09 from the local strict MkDocs build. The before images use
+## Metadata-semantic revision, 2026-09-11
+
+The revision was checked again at 360, 768 and 1280 CSS pixels wide (900 pixels
+high), in light and dark mode, in both languages. All twelve combinations
+showed eleven cards, sixty-six component-rights links, five declaration or
+restriction-warning entries, correctly paired language links and no horizontal
+page overflow. The two excerpts below show the revised lifecycle, editorial
+disposition, repository relationship, evidence and component-rights labels.
+
+![Revised English catalogue metadata at 1280 px in light mode](semantic-en-1280-light.png)
+
+![Revised Slovene catalogue metadata at 1280 px in dark mode](semantic-sl-1280-dark.png)
+
+## Historical phase 1 comparison, 2026-09-09
+
+The images below predate the metadata-semantic revision and document the
+original phase 1 display change; their old metadata labels are not the current
+contract. Captured on 2026-09-09 from the local strict MkDocs build. The before images use
 main at `a728334d2fa2d1f217ffbce20d8a1e5354692806`; after images show the phase 1
 issue #27 catalogue. These are original screenshots of this handbook, not
 third-party project interfaces. The repository's text/image licence applies.
