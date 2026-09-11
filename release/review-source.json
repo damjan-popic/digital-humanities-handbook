@@ -50,7 +50,7 @@
     "docs/en/case-studies/corpus-augmenter.md": "bf035a41e15479d44fa991692ccb877e9e1ab88b314cb47b0089cb74dfc19c46",
     "docs/en/case-studies/createai.md": "7877656d937b47f5dedded69a1ca89e24ed98d2156f76d6c1ddd21cfff4d7c46",
     "docs/en/case-studies/fifi.md": "3b530f48c1b569f8f51d9173c4ed217a7a84e961e46123fd7e030e04d3b241a2",
-    "docs/en/case-studies/index.md": "f97f25d940d5fd2f41c66ce823242a6ba6556f219ab049869dafe1926894fb96",
+    "docs/en/case-studies/index.md": "f26b1b9c8e9188b927a094ae89fe16b26493211a97341d050a5d838d08267f14",
     "docs/en/case-studies/jezikovni-svetovalec.md": "cdaead2fc4e14052bb4c4b6ef4e10a136542ba866cdf598273eeac03e907c2a3",
     "docs/en/case-studies/korpus-solar-analysis.md": "f7320fe46ac5efb26334a2c81f96f4a7caad5abbd750fbae07fdb2cb3b471b67",
     "docs/en/case-studies/ladakh-relations.md": "1d46ba12aaa22cdafdea579d82aa51b0af6701a97888d7d26997ea7861b78582",
@@ -144,7 +144,7 @@
     "docs/en/workflows/visualization/make-a-dispersion-plot-in-lancsbox.md": "105cfb3ce62e87e075659fe07405c6843c27c700b7e11e8c86566375bba4d73b",
     "docs/en/workflows/visualization/visualise-a-frequency-list-with-voyant.md": "c47d28cb6b3d5eb306f560f1a4c31a017f21075cbd836d526e231c1188003bbb",
     "docs/en/workflows/visualization/visualise-uncertainty-in-humanities-data.md": "db7d1add4a64830c8566a029d6396e268dd969392dd34c663166e4f3d35b8c3e",
-    "docs/sl/case-studies/index.md": "3ba065f8d08cf3c3519f009f149a8f4402f124d74c319f6fce60e9bcac909609",
+    "docs/sl/case-studies/index.md": "da0a4b6eaeb4e556f31681a20e970c2f15376d3882ea27d0504475da8db3682b",
     "docs/sl/chapters/ai-ethics-reproducibility.md": "84cac3a434d26061e420605670ed62e33df7e7250aab7ab59aa2f8ae149d774c",
     "docs/sl/chapters/critical-infrastructures.md": "c0f769ee25eb45296b5135f9f15e005f3a4991327f010757f1413008bb443cc2",
     "docs/sl/chapters/data-metadata-models.md": "f46d39eb23737538411b712c32657463ef7d567cbaada2b6c8d9b79f74d82a3e",
@@ -260,6 +260,6 @@
     "teaching-data/archival-friction/validation/expected-results.json": "0da42ace11ab95bc6493507d912c24fe69f792fa016ba72715a4655381c2a494"
   },
   "snapshot_status": "development review snapshot; not a numbered edition",
-  "source_commit": "8a8d9c03d1e44a10cbe903d772cde4dee257fc26",
-  "source_timestamp_utc": "2026-09-09T13:09:03Z"
+  "source_commit": "c315e21290f223ca759876e7781413a1d166aa10",
+  "source_timestamp_utc": "2026-09-11T10:43:44Z"
 }
