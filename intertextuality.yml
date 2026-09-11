@@ -535,6 +535,7 @@ case_studies:
       - workflows/mapping/build-a-simple-cultural-heritage-map.md
       - workflows/networks/build-a-cooccurrence-network.md
       - workflows/publishing/package-a-corpus-with-fair-metadata.md
+      - workflows/ethics/decide-whether-a-digitised-source-should-be-public.md
   case-studies/fifi.md:
     chapters:
       - chapters/critical-infrastructures.md
@@ -545,6 +546,7 @@ case_studies:
       - workflows/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md
       - workflows/ai/audit-ai-output-against-source-documents.md
       - workflows/publishing/write-a-readme-for-a-humanities-dataset.md
+      - workflows/ethics/decide-whether-a-digitised-source-should-be-public.md
   case-studies/jezikovni-svetovalec.md:
     chapters:
       - chapters/digital-humanities-in-slovenia.md
@@ -554,6 +556,7 @@ case_studies:
       - workflows/ai/audit-ai-output-against-source-documents.md
       - workflows/publishing/write-a-readme-for-a-humanities-dataset.md
       - workflows/publishing/package-a-corpus-with-fair-metadata.md
+      - workflows/ethics/decide-whether-a-digitised-source-should-be-public.md
   case-studies/vejice-add-in.md:
     chapters:
       - chapters/critical-infrastructures.md
@@ -569,5 +572,6 @@ case_studies:
       - chapters/ai-ethics-reproducibility.md
     workflows:
       - workflows/ai/audit-ai-output-against-source-documents.md
-      - workflows/text-analysis/analyse-emotion-with-a-lexicon-and-manual-check.md
+      - workflows/nlp/annotate-a-corpus-with-udpipe.md
       - workflows/text-analysis/compare-style-with-function-words.md
+      - workflows/ethics/decide-whether-a-digitised-source-should-be-public.md

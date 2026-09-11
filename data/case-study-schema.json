@@ -1,0 +1,1191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "x-legacy-baseline": "a728334d2fa2d1f217ffbce20d8a1e5354692806",
+  "x-legacy-case-ids": [
+    "CASE-corpus-augmenter",
+    "CASE-createai",
+    "CASE-fifi",
+    "CASE-jezikovni-svetovalec",
+    "CASE-korpus-solar-analysis",
+    "CASE-ladakh-relations",
+    "CASE-medieval-ner",
+    "CASE-pracomul",
+    "CASE-text-harvester",
+    "CASE-vejice-add-in",
+    "CASE-wikivir"
+  ],
+  "title": "Critical case-study catalogue",
+  "description": "Generated from data/case-studies.yml and authoritative intertextuality.yml; see data/case-study-metadata.md. Validation is offline.",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "$ref": "#/$defs/case"
+  },
+  "$defs": {
+    "method_domains": {
+      "type": "string",
+      "enum": [
+        "corpus-building",
+        "linguistic-annotation",
+        "text-analysis",
+        "data-modelling",
+        "gis",
+        "networks",
+        "ai-retrieval",
+        "scholarly-publishing",
+        "writing-support",
+        "digital-editions",
+        "ocr-htr",
+        "accessibility",
+        "public-engagement",
+        "relational-databases",
+        "reference-management",
+        "scholarly-writing"
+      ],
+      "description": "corpus-building: Collecting and preparing a bounded corpus, not evidence that collection is representative.\nlinguistic-annotation: Assigning linguistic labels; not a guarantee of annotation accuracy.\ntext-analysis: Comparing textual features; not interpretation without source reading.\ndata-modelling: Representing units and relations; not a neutral or exhaustive model.\ngis: Spatial representation or analysis; not verified coordinates or boundaries.\nnetworks: Constructing or inspecting relations; not proof of historical connection.\nai-retrieval: AI-assisted or retrieval workflows; not validated generated claims.\nscholarly-publishing: Publication infrastructure; not a reviewed or preserved edition.\nwriting-support: Tools supporting writing; not validated language advice.\ndigital-editions: Editorial representation of sources; not an authoritative edition by default.\nocr-htr: Text recognition; not checked transcription.\naccessibility: Accessibility as a subject; not certified conformance.\npublic-engagement: Work with publics; not proof of consent or community authority.\nrelational-databases: Representing and querying relational tables, keys and joins; not generic modelling or proof of data validity.\nreference-management: Organizing references, citation metadata and identifiers; not verified bibliographic accuracy.\nscholarly-writing: Developing scholarly arguments, evidence and drafts; not generic writing assistance or completed peer review.",
+      "x-labels": {
+        "corpus-building": {
+          "en": "Corpus building",
+          "sl": "Gradnja korpusov"
+        },
+        "linguistic-annotation": {
+          "en": "Linguistic annotation",
+          "sl": "Jezikoslovna anotacija"
+        },
+        "text-analysis": {
+          "en": "Text analysis",
+          "sl": "Analiza besedil"
+        },
+        "data-modelling": {
+          "en": "Data modelling",
+          "sl": "Modeliranje podatkov"
+        },
+        "gis": {
+          "en": "GIS / spatial humanities",
+          "sl": "GIS / prostorska humanistika"
+        },
+        "networks": {
+          "en": "Networks",
+          "sl": "Omrežja"
+        },
+        "ai-retrieval": {
+          "en": "AI / retrieval",
+          "sl": "UI / iskanje virov"
+        },
+        "scholarly-publishing": {
+          "en": "Scholarly publishing",
+          "sl": "Znanstveno objavljanje"
+        },
+        "writing-support": {
+          "en": "Writing support",
+          "sl": "Podpora pisanju"
+        },
+        "digital-editions": {
+          "en": "Digital editions",
+          "sl": "Digitalne izdaje"
+        },
+        "ocr-htr": {
+          "en": "OCR / HTR",
+          "sl": "OCR / HTR"
+        },
+        "accessibility": {
+          "en": "Accessibility",
+          "sl": "Dostopnost"
+        },
+        "public-engagement": {
+          "en": "Public engagement",
+          "sl": "Sodelovanje z javnostjo"
+        },
+        "relational-databases": {
+          "en": "Relational databases / SQL",
+          "sl": "Relacijske podatkovne zbirke / SQL"
+        },
+        "reference-management": {
+          "en": "Reference management / citation infrastructure",
+          "sl": "Upravljanje bibliografskih virov / citatna infrastruktura"
+        },
+        "scholarly-writing": {
+          "en": "Scholarly writing",
+          "sl": "Znanstveno pisanje"
+        }
+      }
+    },
+    "source_types": {
+      "type": "string",
+      "enum": [
+        "web-pages",
+        "corpus-text",
+        "learner-writing",
+        "dialogue-transcripts",
+        "historical-documents",
+        "metadata",
+        "structured-records",
+        "scholarly-text",
+        "office-documents",
+        "interaction-transcripts",
+        "images",
+        "maps",
+        "audio"
+      ],
+      "description": "web-pages: Web documents; public access does not grant redistribution.\ncorpus-text: Text grouped as a corpus; representativeness remains a question.\nlearner-writing: Learner-produced material; consent and privacy require separate evidence.\ndialogue-transcripts: Transcribed interaction, shaped by transcription choices.\nhistorical-documents: Historical records; not automatically public domain in every form.\nmetadata: Descriptions and identifiers; potentially sensitive and fallible.\nstructured-records: Tables or graph records; not verified relationships.\nscholarly-text: Research/reference prose with source-specific rights.\noffice-documents: Document-application inputs; may contain private text.\ninteraction-transcripts: User/system exchanges; publication does not establish participant permission.\nimages: Visual source objects; licences must be checked separately.\nmaps: Cartographic sources; georeferencing is an interpretation.\naudio: Recorded sound; speaker and performance rights remain relevant.",
+      "x-labels": {
+        "web-pages": {
+          "en": "Web pages",
+          "sl": "Spletne strani"
+        },
+        "corpus-text": {
+          "en": "Corpus text",
+          "sl": "Korpusna besedila"
+        },
+        "learner-writing": {
+          "en": "Learner writing",
+          "sl": "Besedila učečih se"
+        },
+        "dialogue-transcripts": {
+          "en": "Dialogue transcripts",
+          "sl": "Prepisi dialogov"
+        },
+        "historical-documents": {
+          "en": "Historical documents",
+          "sl": "Zgodovinski dokumenti"
+        },
+        "metadata": {
+          "en": "Metadata",
+          "sl": "Metapodatki"
+        },
+        "structured-records": {
+          "en": "Structured records",
+          "sl": "Strukturirani zapisi"
+        },
+        "scholarly-text": {
+          "en": "Scholarly text",
+          "sl": "Znanstvena besedila"
+        },
+        "office-documents": {
+          "en": "Office documents",
+          "sl": "Pisarniški dokumenti"
+        },
+        "interaction-transcripts": {
+          "en": "User/AI transcripts",
+          "sl": "Prepisi interakcij z UI"
+        },
+        "images": {
+          "en": "Images",
+          "sl": "Slike"
+        },
+        "maps": {
+          "en": "Maps",
+          "sl": "Zemljevidi"
+        },
+        "audio": {
+          "en": "Audio",
+          "sl": "Zvočni posnetki"
+        }
+      }
+    },
+    "languages_regions": {
+      "type": "string",
+      "enum": [
+        "slovene",
+        "slovenia",
+        "spanish",
+        "spain",
+        "latin",
+        "adriatic",
+        "ladakh",
+        "himalaya",
+        "multilingual",
+        "not-specified"
+      ],
+      "description": "slovene: Slovene is materially relevant; not a coverage claim.\nslovenia: Slovenian context; not national representativeness.\nspanish: Spanish-language material or documented scope.\nspain: Spanish regional scope where documented.\nlatin: Latin-language material or documented scope.\nadriatic: Adriatic historical scope where documented.\nladakh: Ladakh-related material; not community authorization.\nhimalaya: Himalayan scope where documented.\nmultilingual: More than one language is materially in scope; not universal language support.\nnot-specified: Inspected evidence does not establish language/region coverage.",
+      "x-labels": {
+        "slovene": {
+          "en": "Slovene",
+          "sl": "Slovenščina"
+        },
+        "slovenia": {
+          "en": "Slovenia",
+          "sl": "Slovenija"
+        },
+        "spanish": {
+          "en": "Spanish",
+          "sl": "Španščina"
+        },
+        "spain": {
+          "en": "Spain",
+          "sl": "Španija"
+        },
+        "latin": {
+          "en": "Latin",
+          "sl": "Latinščina"
+        },
+        "adriatic": {
+          "en": "Adriatic region",
+          "sl": "Jadranski prostor"
+        },
+        "ladakh": {
+          "en": "Ladakh",
+          "sl": "Ladak"
+        },
+        "himalaya": {
+          "en": "Himalayan region",
+          "sl": "Himalajski prostor"
+        },
+        "multilingual": {
+          "en": "Multilingual",
+          "sl": "Večjezično"
+        },
+        "not-specified": {
+          "en": "Not specified",
+          "sl": "Ni opredeljeno"
+        }
+      }
+    },
+    "code_availability": {
+      "type": "string",
+      "enum": [
+        "publicly-inspectable",
+        "partial",
+        "unavailable",
+        "not-applicable",
+        "unknown"
+      ],
+      "description": "publicly-inspectable: The core source is publicly readable. This states access, not an open-source licence, verified reuse permission or a successful run.\npartial: Some implementation is public but a consequential part is missing.\nunavailable: A required implementation could not be accessed on the audit date.\nnot-applicable: The lawful inspection does not depend on project code; not a completeness failure.\nunknown: Evidence was insufficient to classify source availability.",
+      "x-labels": {
+        "publicly-inspectable": {
+          "en": "Publicly inspectable code",
+          "sl": "Javno dostopna koda"
+        },
+        "partial": {
+          "en": "Partial source code",
+          "sl": "Delno dostopna izvorna koda"
+        },
+        "unavailable": {
+          "en": "Code unavailable",
+          "sl": "Koda ni dostopna"
+        },
+        "not-applicable": {
+          "en": "Code not applicable",
+          "sl": "Koda ni relevantna"
+        },
+        "unknown": {
+          "en": "Code availability unknown",
+          "sl": "Dostopnost kode ni znana"
+        }
+      }
+    },
+    "reusable_data_availability": {
+      "type": "string",
+      "enum": [
+        "open-download",
+        "mediated-access",
+        "sample-only",
+        "metadata-only",
+        "unavailable",
+        "not-applicable",
+        "unknown"
+      ],
+      "description": "open-download: An inspected public download has documented reuse conditions; not necessarily unrestricted or complete.\nmediated-access: A documented request/access process exists; access has not necessarily been granted.\nsample-only: Only a bounded sample has an evidenced reuse path; not the full dataset.\nmetadata-only: Only descriptive/derived records have an evidenced reuse path, not source texts.\nunavailable: No usable authorized data path was verified; public-looking files do not resolve rights.\nnot-applicable: The case does not require a distributed dataset.\nunknown: Access or reuse conditions could not be established.",
+      "x-labels": {
+        "open-download": {
+          "en": "Reusable download",
+          "sl": "Prenos za ponovno uporabo"
+        },
+        "mediated-access": {
+          "en": "Mediated access",
+          "sl": "Dostop po dogovoru"
+        },
+        "sample-only": {
+          "en": "Sample only",
+          "sl": "Samo vzorec"
+        },
+        "metadata-only": {
+          "en": "Metadata only",
+          "sl": "Samo metapodatki"
+        },
+        "unavailable": {
+          "en": "Reusable data unavailable",
+          "sl": "Podatki za ponovno uporabo niso dostopni"
+        },
+        "not-applicable": {
+          "en": "No distributed dataset required",
+          "sl": "Objavljena podatkovna zbirka ni potrebna"
+        },
+        "unknown": {
+          "en": "Data reuse unknown",
+          "sl": "Možnost ponovne uporabe podatkov ni znana"
+        }
+      }
+    },
+    "rights_status": {
+      "type": "string",
+      "enum": [
+        "verified-open",
+        "verified-restricted",
+        "mixed",
+        "unknown",
+        "not-applicable"
+      ],
+      "description": "verified-open: All applicable component records are verified-open within their documented scopes; not a universal grant for dependencies or other material.\nverified-restricted: All applicable component records have verified restricted terms within their scopes; this is not legal clearance.\nmixed: At least one component is verified, but applicable component statuses differ. Consult each record; no single licence covers the whole case.\nunknown: No applicable component has verified terms. Project-declared licences or warnings may still be recorded and must not be discarded.\nnot-applicable: All six components are explicitly outside the documented inspection/reuse scope; not a general exemption from rights.",
+      "x-labels": {
+        "verified-open": {
+          "en": "All applicable components verified open",
+          "sl": "Odprti pogoji preverjeni za vse relevantne sestavine"
+        },
+        "verified-restricted": {
+          "en": "All applicable components verified restricted",
+          "sl": "Omejeni pogoji preverjeni za vse relevantne sestavine"
+        },
+        "mixed": {
+          "en": "Partly verified or differing component rights",
+          "sl": "Delno preverjene ali različne pravice po sestavinah"
+        },
+        "unknown": {
+          "en": "Component rights not verified",
+          "sl": "Pravice po sestavinah niso preverjene"
+        },
+        "not-applicable": {
+          "en": "Rights not applicable to declared scope",
+          "sl": "Pravice niso relevantne za navedeni obseg"
+        }
+      }
+    },
+    "translation_status": {
+      "type": "string",
+      "enum": [
+        "paired-draft",
+        "paired-human-reviewed",
+        "english-fallback",
+        "slovene-only",
+        "not-applicable"
+      ],
+      "description": "paired-draft: Both case pages exist; human language approval is not claimed.\npaired-human-reviewed: Both pages and named dated human translation-review metadata exist; CI cannot authenticate a review.\nenglish-fallback: No Slovene case page; translated catalogue labels do not count as a translation.\nslovene-only: A Slovene case page exists without an English page; requires explicit editorial scope approval.\nnot-applicable: Reserved for an explicitly deferred catalogue-only record with no case page; not a translation shortcut.",
+      "x-labels": {
+        "paired-draft": {
+          "en": "Paired draft",
+          "sl": "Dvojezični osnutek"
+        },
+        "paired-human-reviewed": {
+          "en": "Paired, human-reviewed",
+          "sl": "Dvojezično, jezikovno pregledano"
+        },
+        "english-fallback": {
+          "en": "English fallback",
+          "sl": "Angleška nadomestna stran"
+        },
+        "slovene-only": {
+          "en": "Slovene only",
+          "sl": "Samo slovensko"
+        },
+        "not-applicable": {
+          "en": "Translation not applicable",
+          "sl": "Prevod ni relevanten"
+        }
+      }
+    },
+    "lifecycle_status": {
+      "type": "string",
+      "enum": [
+        "current",
+        "maintenance-unclear",
+        "archived",
+        "unavailable"
+      ],
+      "description": "current: Dated evidence supports active maintenance; not a service-level commitment.\nmaintenance-unclear: Resource may be reachable but sustained maintenance/responsibility is not established.\narchived: Project declares archival/read-only status; not proof of preservation.\nunavailable: Expected public resource was inaccessible on the audit date; not proof it no longer exists.",
+      "x-labels": {
+        "current": {
+          "en": "Current",
+          "sl": "Trenutno vzdrževano"
+        },
+        "maintenance-unclear": {
+          "en": "Maintenance unclear",
+          "sl": "Vzdrževanje ni jasno"
+        },
+        "archived": {
+          "en": "Archived",
+          "sl": "Arhivirano"
+        },
+        "unavailable": {
+          "en": "Unavailable",
+          "sl": "Nedostopno"
+        }
+      }
+    },
+    "evidence_status": {
+      "type": "string",
+      "enum": [
+        "project-description-only",
+        "source-evidence-inspected",
+        "locally-tested"
+      ],
+      "description": "project-description-only: Only project self-description supports the case; no source-evidence inspection beyond that description is claimed.\nsource-evidence-inspected: Named source evidence was inspected beyond repeating a description. This makes no claim of reviewer independence, ownership or scholarly approval.\nlocally-tested: A dated bounded local result supports a claim; not universal functionality, independent review or exhaustive reproduction.",
+      "x-labels": {
+        "project-description-only": {
+          "en": "Project description only",
+          "sl": "Samo opis projekta"
+        },
+        "source-evidence-inspected": {
+          "en": "Source evidence inspected",
+          "sl": "Pregledano dokazno gradivo"
+        },
+        "locally-tested": {
+          "en": "Locally tested",
+          "sl": "Lokalno preizkušeno"
+        }
+      }
+    },
+    "content_standard": {
+      "type": "string",
+      "enum": [
+        "legacy-audited",
+        "showcase-v1",
+        "deferred"
+      ],
+      "description": "legacy-audited: Existing page has a dated audit and explicit remediation; it is not a completed showcase.\nshowcase-v1: All required critical-case sections and paired page declarations are validated; not a numbered release or human scholarly approval.\ndeferred: Content is retained/deferred with an audit record; not a completed showcase.",
+      "x-labels": {
+        "legacy-audited": {
+          "en": "Audited legacy case — not v1-complete",
+          "sl": "Pregledan podedovani primer — ne izpolnjuje standarda v1"
+        },
+        "showcase-v1": {
+          "en": "Showcase v1 content standard",
+          "sl": "Predstavitveni primer po standardu v1"
+        },
+        "deferred": {
+          "en": "Deferred case content",
+          "sl": "Priprava primera je odložena"
+        }
+      }
+    },
+    "inspection_modes": {
+      "type": "string",
+      "enum": [
+        "interface-inspected",
+        "documentation-inspected",
+        "repository-inspected",
+        "data-inspected",
+        "locally-run"
+      ],
+      "description": "interface-inspected: Specific visible interface elements were inspected, not its hidden implementation.\ndocumentation-inspected: Documentation was read; its claims are not independently executed results.\nrepository-inspected: Named source files were read; their execution or advertised correctness is not established.\ndata-inspected: Named data records or exports were inspected, not the whole collection.\nlocally-run: A dated bounded path was executed with recorded inputs/environment/results; not full reproducibility.",
+      "x-labels": {
+        "interface-inspected": {
+          "en": "Interface inspected",
+          "sl": "Pregled vmesnika"
+        },
+        "documentation-inspected": {
+          "en": "Documentation inspected",
+          "sl": "Pregled dokumentacije"
+        },
+        "repository-inspected": {
+          "en": "Repository inspected",
+          "sl": "Pregled repozitorija"
+        },
+        "data-inspected": {
+          "en": "Data inspected",
+          "sl": "Pregled podatkov"
+        },
+        "locally-run": {
+          "en": "Locally run",
+          "sl": "Lokalni zagon"
+        }
+      }
+    },
+    "editorial_disposition": {
+      "type": "string",
+      "enum": [
+        "retain-and-upgrade",
+        "retain-as-legacy",
+        "defer",
+        "archive",
+        "replace"
+      ],
+      "description": "retain-and-upgrade: Retain this handbook case and recommend later critical-content work; not completed upgrade or project maintenance.\nretain-as-legacy: Keep the audited legacy case visible pending prerequisites; not a permanent scholarly exemption.\ndefer: Defer the handbook use identified in the audit pending prerequisites; not a project lifecycle state or deletion.\narchive: Recommend archiving the handbook case; does not say that the external project is archived.\nreplace: Recommend a later replacement of the handbook case; the current audited record stays visible until an explicit editorial change.",
+      "x-labels": {
+        "retain-and-upgrade": {
+          "en": "Retain and upgrade the case",
+          "sl": "Ohranitev in nadgradnja primera"
+        },
+        "retain-as-legacy": {
+          "en": "Retain as a legacy case",
+          "sl": "Ohranitev podedovanega primera"
+        },
+        "defer": {
+          "en": "Defer handbook reuse",
+          "sl": "Odlog ponovne uporabe v priročniku"
+        },
+        "archive": {
+          "en": "Recommend archiving the case",
+          "sl": "Predlog za arhiviranje primera"
+        },
+        "replace": {
+          "en": "Recommend replacing the case",
+          "sl": "Predlog za zamenjavo primera"
+        }
+      }
+    },
+    "repository_relationship": {
+      "type": "string",
+      "enum": [
+        "editor-account",
+        "documented-fork-or-collaboration",
+        "external-repository",
+        "unknown",
+        "not-applicable"
+      ],
+      "description": "editor-account: The inspected repository is located on the handbook editor's account. This does not establish intellectual, project or institutional ownership.\ndocumented-fork-or-collaboration: A source records a fork relationship or collaboration; the audit specifies which. A fork alone does not establish collaboration or project ownership.\nexternal-repository: The inspected repository is outside the editor's account and no collaboration is documented in the audit; not an assertion of independence or ownership.\nunknown: Evidence does not establish a repository relationship; no project role is inferred.\nnot-applicable: No repository is part of this case's declared inspection route; not a defect in a responsible interface/documentation case.",
+      "x-labels": {
+        "editor-account": {
+          "en": "Repository on the editor's account",
+          "sl": "Repozitorij na urednikovem računu"
+        },
+        "documented-fork-or-collaboration": {
+          "en": "Documented fork or collaboration",
+          "sl": "Dokumentirana kopija (fork) ali sodelovanje"
+        },
+        "external-repository": {
+          "en": "External repository",
+          "sl": "Zunanji repozitorij"
+        },
+        "unknown": {
+          "en": "Repository relationship unknown",
+          "sl": "Povezava z repozitorijem ni znana"
+        },
+        "not-applicable": {
+          "en": "Repository relationship not applicable",
+          "sl": "Povezava z repozitorijem ni relevantna"
+        }
+      }
+    },
+    "rights_component": {
+      "type": "string",
+      "enum": [
+        "code",
+        "data",
+        "documentation",
+        "source-material",
+        "images",
+        "interface-content"
+      ],
+      "description": "code: Implementation source and scripts; does not automatically include dependencies or other components.\ndata: Project datasets, annotations or derived outputs in the stated scope; does not silently inherit code or source-material terms.\ndocumentation: README, manuals and explanatory prose; a code declaration need not license documentation.\nsource-material: Underlying texts, transcripts, documents or other sources; access, consent and edition rights remain distinct.\nimages: Visual material, scans and illustrations where relevant; neither subject age nor web access establishes permission.\ninterface-content: Interface text, displayed content and assets in the stated scope; not automatically covered by implementation-code terms.",
+      "x-labels": {
+        "code": {
+          "en": "Code",
+          "sl": "Koda"
+        },
+        "data": {
+          "en": "Data",
+          "sl": "Podatki"
+        },
+        "documentation": {
+          "en": "Documentation",
+          "sl": "Dokumentacija"
+        },
+        "source-material": {
+          "en": "Source material",
+          "sl": "Izvorno gradivo"
+        },
+        "images": {
+          "en": "Images",
+          "sl": "Slike"
+        },
+        "interface-content": {
+          "en": "Interface content",
+          "sl": "Vsebina vmesnika"
+        }
+      }
+    },
+    "rights_component_status": {
+      "type": "string",
+      "enum": [
+        "unknown",
+        "project-declared",
+        "verified-open",
+        "verified-restricted",
+        "not-applicable"
+      ],
+      "description": "unknown: No licence/terms declaration or applicable grant was established for this component and scope. Absence or non-inspection is explained in scope_note.\nproject-declared: A project source declares a licence, terms or restriction warning, but applicability and scope have not been established beyond that declaration. Not a verified reuse grant.\nverified-open: Applicable open terms were checked against the exact component and scope named in the audit; not all project materials.\nverified-restricted: Applicable restricted terms were checked for the stated component and scope; not automatic authorization to use restricted material.\nnot-applicable: The component is explicitly outside the bounded case inspection/reuse scope, with a rationale. This does not assert that the project contains no such material.",
+      "x-labels": {
+        "unknown": {
+          "en": "Terms not established",
+          "sl": "Pogoji niso ugotovljeni"
+        },
+        "project-declared": {
+          "en": "Project-declared terms; scope unverified",
+          "sl": "Projekt navaja pogoje; obseg ni preverjen"
+        },
+        "verified-open": {
+          "en": "Open terms verified for stated scope",
+          "sl": "Odprti pogoji preverjeni za navedeni obseg"
+        },
+        "verified-restricted": {
+          "en": "Restricted terms verified for stated scope",
+          "sl": "Omejeni pogoji preverjeni za navedeni obseg"
+        },
+        "not-applicable": {
+          "en": "Outside the stated scope",
+          "sl": "Zunaj navedenega obsega"
+        }
+      }
+    },
+    "rights_component_record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "component",
+        "status",
+        "licence_or_terms",
+        "scope_note",
+        "audit_locator"
+      ],
+      "properties": {
+        "component": {
+          "$ref": "#/$defs/rights_component"
+        },
+        "status": {
+          "$ref": "#/$defs/rights_component_status"
+        },
+        "licence_or_terms": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "scope_note": {
+          "type": "string",
+          "minLength": 20,
+          "pattern": "\\S"
+        },
+        "audit_locator": {
+          "type": "string",
+          "pattern": "^release/case-study-audit\\.md#rights-[a-z0-9]+(?:-[a-z0-9]+)*$"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "unknown",
+                  "not-applicable"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "licence_or_terms": {
+                "type": "null"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "licence_or_terms": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "case": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "case_id",
+        "slug",
+        "title_en",
+        "title_sl",
+        "page_en",
+        "page_sl",
+        "project_url",
+        "repository_url",
+        "method_domains",
+        "source_types",
+        "inspection_modes",
+        "languages_regions",
+        "code_availability",
+        "reusable_data_availability",
+        "rights_status",
+        "rights_components",
+        "translation_status",
+        "lifecycle_status",
+        "editorial_disposition",
+        "evidence_status",
+        "repository_relationship",
+        "last_checked",
+        "content_standard",
+        "audit_record",
+        "short_summary_en",
+        "short_summary_sl",
+        "chapter_connections",
+        "workflow_connections",
+        "connection_remediation"
+      ],
+      "properties": {
+        "case_id": {
+          "type": "string",
+          "pattern": "^CASE-[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "title_en": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "title_sl": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "page_en": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^docs/en/case-studies/[a-z0-9]+(?:-[a-z0-9]+)*\\.md$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "page_sl": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^docs/sl/case-studies/[a-z0-9]+(?:-[a-z0-9]+)*\\.md$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "project_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://[^\\s]+$"
+        },
+        "repository_url": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https?://[^\\s]+$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "method_domains": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/method_domains"
+          }
+        },
+        "source_types": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/source_types"
+          }
+        },
+        "inspection_modes": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/inspection_modes"
+          }
+        },
+        "languages_regions": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/languages_regions"
+          }
+        },
+        "code_availability": {
+          "$ref": "#/$defs/code_availability"
+        },
+        "reusable_data_availability": {
+          "$ref": "#/$defs/reusable_data_availability"
+        },
+        "rights_status": {
+          "$ref": "#/$defs/rights_status"
+        },
+        "rights_components": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "items": {
+            "$ref": "#/$defs/rights_component_record"
+          },
+          "allOf": [
+            {
+              "contains": {
+                "properties": {
+                  "component": {
+                    "const": "code"
+                  }
+                },
+                "required": [
+                  "component"
+                ]
+              },
+              "minContains": 1,
+              "maxContains": 1
+            },
+            {
+              "contains": {
+                "properties": {
+                  "component": {
+                    "const": "data"
+                  }
+                },
+                "required": [
+                  "component"
+                ]
+              },
+              "minContains": 1,
+              "maxContains": 1
+            },
+            {
+              "contains": {
+                "properties": {
+                  "component": {
+                    "const": "documentation"
+                  }
+                },
+                "required": [
+                  "component"
+                ]
+              },
+              "minContains": 1,
+              "maxContains": 1
+            },
+            {
+              "contains": {
+                "properties": {
+                  "component": {
+                    "const": "source-material"
+                  }
+                },
+                "required": [
+                  "component"
+                ]
+              },
+              "minContains": 1,
+              "maxContains": 1
+            },
+            {
+              "contains": {
+                "properties": {
+                  "component": {
+                    "const": "images"
+                  }
+                },
+                "required": [
+                  "component"
+                ]
+              },
+              "minContains": 1,
+              "maxContains": 1
+            },
+            {
+              "contains": {
+                "properties": {
+                  "component": {
+                    "const": "interface-content"
+                  }
+                },
+                "required": [
+                  "component"
+                ]
+              },
+              "minContains": 1,
+              "maxContains": 1
+            }
+          ]
+        },
+        "translation_status": {
+          "$ref": "#/$defs/translation_status"
+        },
+        "lifecycle_status": {
+          "$ref": "#/$defs/lifecycle_status"
+        },
+        "editorial_disposition": {
+          "$ref": "#/$defs/editorial_disposition"
+        },
+        "evidence_status": {
+          "$ref": "#/$defs/evidence_status"
+        },
+        "repository_relationship": {
+          "$ref": "#/$defs/repository_relationship"
+        },
+        "last_checked": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "content_standard": {
+          "$ref": "#/$defs/content_standard"
+        },
+        "audit_record": {
+          "type": "string",
+          "pattern": "^release/case-study-audit\\.md#case-[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "short_summary_en": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "short_summary_sl": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "chapter_connections": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^chapters/[a-z0-9-]+\\.md$"
+          }
+        },
+        "workflow_connections": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^workflows/[a-z0-9-]+/[a-z0-9-]+\\.md$"
+          }
+        },
+        "connection_remediation": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "translation_status": {
+                "enum": [
+                  "paired-draft",
+                  "paired-human-reviewed"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "page_en": {
+                "type": "string"
+              },
+              "page_sl": {
+                "type": "string"
+              },
+              "title_en": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "title_sl": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "short_summary_en": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "short_summary_sl": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "translation_status": {
+                "const": "english-fallback"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "page_en": {
+                "type": "string"
+              },
+              "title_en": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "short_summary_en": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "page_sl": {
+                "type": "null"
+              },
+              "title_sl": {
+                "type": "null"
+              },
+              "short_summary_sl": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "translation_status": {
+                "const": "slovene-only"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "page_sl": {
+                "type": "string"
+              },
+              "title_sl": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "short_summary_sl": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "page_en": {
+                "type": "null"
+              },
+              "title_en": {
+                "type": "null"
+              },
+              "short_summary_en": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "translation_status": {
+                "const": "not-applicable"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "page_en": {
+                "type": "null"
+              },
+              "page_sl": {
+                "type": "null"
+              },
+              "content_standard": {
+                "const": "deferred"
+              },
+              "editorial_disposition": {
+                "const": "defer"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "content_standard": {
+                "const": "showcase-v1"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "translation_status": {
+                "enum": [
+                  "paired-draft",
+                  "paired-human-reviewed"
+                ]
+              },
+              "chapter_connections": {
+                "minItems": 1
+              },
+              "workflow_connections": {
+                "minItems": 1
+              },
+              "connection_remediation": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "x-authored-schema-version": 2
+}

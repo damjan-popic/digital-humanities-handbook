@@ -41,7 +41,10 @@ npm install
 npm run start:internal
 ```
 
-This starts the add-in in safe mock mode. For production or remote service testing, configuration must be explicit.
+This starts a development server; it does not force mock mode. Source inspection
+on 2026-09-09 found that `.env.local` can override settings and an existing server
+can retain previous flags. Verify active providers with invented, non-sensitive
+text before use. No Word integration or end-to-end privacy test was run here.
 
 ## Relevant handbook workflows
 

@@ -1,52 +1,31 @@
 #!/usr/bin/env python3
-"""Validate case-study pages in every language where they exist."""
+"""Validate critical case metadata, audited legacy debt and deterministic catalogues."""
 from __future__ import annotations
 
+import json
 import sys
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-REQUIRED_HEADINGS = {
-    "en": [
-        "## What this project does",
-        "## Use this when",
-        "## What to inspect in the code",
-        "## Relevant handbook workflows",
-        "## Limits and cautions",
-    ],
-    "sl": [
-        "## Kaj projekt počne",
-        "## Kdaj ga uporabiti",
-        "## Kaj pregledati v kodi",
-        "## Povezani postopki priročnika",
-        "## Omejitve in opozorila",
-    ],
-}
+import yaml
+
+from build_case_study_index import check_generated
+from case_studies import INDEX, ROOT, load_records, validate_records
 
 
 def main() -> int:
-    failures: list[str] = []
-    checked = 0
-    for lang in ("en", "sl"):
-        root = ROOT / "docs" / lang / "case-studies"
-        files = sorted(p for p in root.glob("*.md") if p.name != "index.md") if root.exists() else []
-        for path in files:
-            checked += 1
-            text = path.read_text(encoding="utf-8")
-            rel = path.relative_to(ROOT)
-            if "github.com" not in text:
-                failures.append(f"{rel}: missing source repository link")
-            for heading in REQUIRED_HEADINGS[lang]:
-                if heading not in text:
-                    failures.append(f"{rel}: missing heading '{heading}'")
-    if checked == 0:
-        failures.append("No case-study pages found.")
-    if failures:
-        print("Case-study check failed:\n")
-        for failure in failures:
-            print(f"- {failure}")
+    try:
+        records = load_records()
+        validate_records(records)
+        # Validate committed JSON too; same-type drift is not silently ignored.
+        validate_records(json.loads((ROOT / INDEX).read_text(encoding="utf-8")))
+        check_generated(records)
+    except (OSError, ValueError, KeyError, yaml.YAMLError) as error:
+        print(f"Case-study check failed: {error}")
         return 1
-    print(f"OK: checked {checked} case-study pages.")
+    legacy = sum(record["content_standard"] == "legacy-audited" for record in records)
+    showcase = sum(record["content_standard"] == "showcase-v1" for record in records)
+    print(f"OK: {len(records)} case records; {legacy} legacy-audited, {showcase} showcase-v1; "
+          "schema, separate lifecycle/editorial disposition, inspection modes, six component rights records and their summary, "
+          "dated audit anchors, page/translation declarations, canonical connections and 3 generated outputs agree. No external network checks.")
     return 0
 
 

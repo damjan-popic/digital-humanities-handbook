@@ -36,14 +36,13 @@ This example shows how to crawl an institutional website and build a corpus suit
 
 ## Minimal run path
 
-```bash
-python3.12 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-python scripts/crawl_ff.py
-```
-
-For a classroom-scale exercise, crawl only a small allowlisted subset and inspect the produced `documents.jsonl` and `chunks.jsonl`.
+Use a read-only inspection of the seed list, robots handling and output writers
+in `fifi/crawler.py` first. The 2026-09-09 source audit found that the CLI requires
+`--output-dir`, installation also needs Playwright Chromium, and `--seed-url`
+adds to the default institutional seeds rather than replacing them. Missing or
+failed robots parsing permits requests, and existing output JSONL files are
+deleted at crawl startup. A bounded permitted fixture and tested setup are
+needed before a classroom crawl; none was executed for this audit.
 
 ## Relevant handbook workflows
 

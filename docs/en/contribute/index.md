@@ -14,9 +14,16 @@ This handbook is designed to grow through small, credited and reviewable contrib
 
 ## Templates
 
+- [Critical case-study template](project-template.md) — fifteen sections for sources, inspected evidence, modelling, failure, rights, reuse and a bounded classroom task; code execution is optional;
 - [Student workflow contribution template](student-workflow-template.md) — a bilingual, lower-barrier structure for coursework, differential examinations and first contributions;
 - [Answer template](answer-template.md) — a compact copy-paste page skeleton;
 - [Topic template](topic-template.md) — the detailed workflow-writing and submission guide.
+
+For a case study, prepare the paired pages, authored metadata and dated audit
+together. Existing `legacy-audited` cases remain visibly distinct from the
+full `showcase-v1` structure. The template explains which records to edit and
+which catalogues are generated; conceptual connections belong in
+`intertextuality.yml`.
 
 ## Minimum standard
 
